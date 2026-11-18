@@ -28,7 +28,21 @@ The main integrated package. Its game-data structure includes faction-specific c
 
 The package contains game data for buildings, units, traits, upgrades, weapons, factions and related systems, alongside supporting audio, textures, meshes and animations. It also includes a preview image and a design document.
 
-**Design notes:** [`design_document.txt`](Faction%20Reworks%20All-In-One%20Eradication%20Integrated/design_document.txt) currently documents a major Necron rework. Among the described changes are a more involved Ore/Energy economy, revised unit production, changes to Rapid Rise and Necrodermis Repair, adjustments to several heroes and units, and a new Small Gauss Pylon fortification.
+#### Necron Major Rework — design document overview
+
+The included [`design_document.txt`](Faction%20Reworks%20All-In-One%20Eradication%20Integrated/design_document.txt) outlines a broad Necron rework. Its stated design goal is to preserve the faction's strength while reducing its reliance on the Summoning Core and encouraging more varied building and economy choices.
+
+The document describes the following changes:
+
+- **Economy and production:** Ore and Energy gain more distinct roles. Buildings use both resources; infantry primarily uses Energy; vehicles use Ore; and flyers, heroes and monsters use both. Monster production moves to the Royal Pyramid, while Canoptek Spyders can be produced by either the Headquarters or the Hero building.
+- **City expansion and support units:** Canoptek Reanimators become city founders and gain the ability to summon Scarab Hives. They are positioned as infantry support, while Canoptek Spyders fill a vehicle-support role.
+- **Early-game pacing:** Rapid Rise becomes substantially more expensive before its related technology is researched, with its cost reduced after unlocking that technology. The stated aim is to curb very early building and city rushing.
+- **Repair and fortification:** Necrodermis Repair costs are differentiated by unit class, with infantry cheapest, vehicles and monsters in the middle, and heroes most expensive. A new **Small Gauss Pylon** is introduced as a midgame fortification focused on flyers and skimmers, buildable by Canoptek Spyders.
+- **Heroes:** The Necron Lord moves to the Summoning Core and gains a 2-range attack, a unit-catching ability and a nearby-unit buff. The Cryptek becomes the default Hero-building hero; the Destroyer Lord and Transcendent C'tan also receive adjustments, including a T6 profile and stronger melee for the C'tan.
+- **Infantry:** Infantry shifts to Energy costs and upkeep. Deathmarks gain a 4-tile Scout reveal and Warrior-level armour; Heavy Destroyers receive a damage increase; and Triarch Praetorians become faster T4 infantry with high-penetration melee and ranged attacks and 2-range shooting.
+- **Monsters and vehicles:** Canoptek unit roles and production are revised. Tomb Blades are strengthened, Triarch Stalker weapon options are adjusted, Ghost Arks become cheaper but less durable and require transported units to use their weapon array, and the Doomsday Ark gains damage and an anti-vehicle/monster bonus on its main weapon.
+
+This is a summary of the **design document's stated scope**, not a guarantee that every listed change has been independently verified in the current in-game build. The source document is the reference for the detailed unit-by-unit notes.
 
 Steam Workshop ID recorded in `SteamID.txt`: **3841700987**  
 [Open the All-In-One Workshop item](https://steamcommunity.com/sharedfiles/filedetails/?id=3841700987)
