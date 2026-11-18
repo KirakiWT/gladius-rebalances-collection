@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon icon="Traits/Orks/DaPoizon" attributesModifiedByUnit="0">
+	<modifiers>
+		<modifier>
+			<effects>
+				<attacks add="6"/>
+				<rangedAccuracy max="12" min="12"/>
+				<rangedArmorPenetration add="99"/> <!-- %rangedArmorPenetration add armorPiercing=5 -->
+				<rangedDamage add="1"/> <!-- %rangedDamage add strength=6 -->
+				<strengthDamage base="0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<traits>
+	
+		<trait name="IgnoresCover"/>
+		<trait name="NoEscape"/>
+
+
+	</traits>
+</weapon>

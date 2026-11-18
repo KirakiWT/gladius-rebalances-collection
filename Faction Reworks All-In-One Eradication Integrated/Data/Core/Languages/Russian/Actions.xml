@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="Orks/PickYaPoizon" value="Выбери свой ядок"/>
+	<entry name="Orks/PickYaPoizonDescription" value="На врагов накладывает периодический урон и снижает точность. На союзников накладывает мощный бонус к атакам ценой небольшого периодического самоурона."/>
+	<entry name="Orks/PickYaPoizonFlavor" value="Немножко яду ещё никому не вредило... ну, нам-то точно! Парни дерутся злее, когда боль начинает кусаться!"/>
+	<entry name="Orks/Krumpify" value="Крампнуть"/>
+	<entry name="Orks/KrumpifyDescription" value="Снижает наносимый целью урон и её движение, а также повышает получаемый ею урон."/>
+	<entry name="Orks/KrumpifyFlavor" value="«ВАААГХ! Щас я вас всех скукожу да размякчу! Бить будете как гроты, а ныть — как человеки!» Искривлённая зелёная энергия корёжит тело цели, сминая броню, ослабляя конечности и делая жертву ещё уязвимее для следующей порции побоев."/>
+	<entry name="Orks/DaBigZzap" value="Большой ззап"/>
+	<entry name="Orks/DaBigZzapDescription" value="Мощная атака по одной цели."/>
+	<entry name="Orks/DaBigZzapFlavor" value="С диким воплем и зелёным пламенем в глазах Чудила собирает весь ВАААГХ! в трескучий поток молний. Воздух рвётся с оглушительным грохотом, сырая психическая энергия плавит металл и обугливает плоть, оставляя лишь выжженные руины да запах озона. Для парней это просто ещё одна отличная шутка — громкая, яркая и очень-очень смертельная."/>
+	<entry name="Orks/MobUpYaGits" value="В кучу, парни!"/>
+	<entry name="Orks/MobUpYaGitsGeniusDescription" value="Даёт подразделению дополнительное очко действия на этот ход."/>
+	<entry name="Orks/MobUpYaGitsGeniusFlavor" value="Громовой рёв Военного босса прокатывается по полю боя и разжигает дикую ярость в каждом орке, который его слышит. Там, где прежде было просто насилие, теперь остаётся лишь чистый, неудержимый ВАААГХ!"/>
+	<entry name="Orks/DakkaDiscipline" value="Дисциплина дакки"/>
+	<entry name="Orks/DakkaDisciplineDescription" value="Повышает дистанционную точность всех ближайших орков. Военный босс получает втрое больший бонус к точности, превращаясь в грозного стрелка."/>
+	<entry name="Orks/DakkaDisciplineFlavor" value="Даже самый дикий орк дерётся лучше, когда Босс орёт ему в ухо: стреляй больше и целься прямее. Под глазом Военного босса каждый парень усваивает: больше дакки — всегда ответ. А сам Босс превращается в ходячий свинцовый ураган."/>
+	<entry name="Orks/DaMegaKrumpa" value="Мега-крампила"/>
+	<entry name="Orks/DaMegaKrumpaDescription" value="Повышает число атак в ближнем бою всех ближайших орков. Военный босс дополнительно получает точность в ближнем бою и становится самым крутым драчунишкой."/>
+	<entry name="Orks/DaMegaKrumpaFlavor" value="Когда Босс лезет в рубку, парни не могут не повторять за ним. Каждый мах, каждый удар, каждый взмах чоппы становится сильнее и злее. А пока Военный босс крушит ещё яростнее, пацаны превращаются в зелёную волну кулаков и чопп — крампя всё, до чего дотянутся!"/>
+	<entry name="Orks/BustHeads" value="Голова-Бюст"/>
+	<entry name="Orks/BustHeadsDescription" value="Снижает потерю морали всех ближайших орков. Военный босс дополнительно получает неуязвимость и снижение урона."/>
+	<entry name="Orks/BustHeadsFlavor" value="Когда парни начинают трусить, Босс напоминает им, пачиму драпать нельзя — обычно расколотив пару башок. Ничо так не возвращает орку боевой дух, как Босс, который крампит черепа и принимает все удары, даже не моргнув. Парни храбрее, а Босс — тока крепче!"/>
+	<entry name="Orks/ProphetOfTheWaaagh" value="Пророк Вааагх!"/>
+	<entry name="Orks/ProphetOfTheWaaaghDescription" value="Повышает движение и броню всех ближайших орков, а также увеличивает получение влияния при нанесении урона."/>
+	<entry name="Orks/ProphetOfTheWaaaghFlavor" value="“Я рука Горка и Морка, ани паслали мене разбудить Парней, штобы давить и убевать, патаму шта, Парни забыли, што ани для … Я ест полза Вааагх, и все миры гарят ат маей тяжолай поступи. Я военачальник Газкулл Мак Урук Трака и Я гаварю вам слава богов.”&lt;br/&gt;—Газкулл Мак Урук Трака, Орк Военачальник"/>
+	<entry name="Orks/DaBigAlphaKrump" value="Большой альфа-крамп"/>
+	<entry name="Orks/DaBigAlphaKrumpDescription" value="На 1 ход повышает урон Коммандос. Способность можно использовать только в лесах или руинах имперских городов."/>
+	<entry name="Orks/DaBigAlphaKrumpFlavor" value="Коммандос подкрадываются поближе, лыбясь как сквиги в лавке зубов, — а когда Босс кивает, наваливаются все разом. Никакой стрельбы, никаких воплей — тока большая, злая, крампучая неожиданность, после которой остаются паникующие человеки да куча громких довольных орков."/>
+	<entry name="Tyranids/BioAdaptationRegeneration" value="Биоадаптация: регенерация"/>
+	<entry name="Tyranids/BioAdaptationRegenerationDescription" value="Подразделения с этой биоадаптацией восстанавливают 2 очка здоровья за ход."/>
+	<entry name="Tyranids/BioAdaptationRegenerationFlavor" value="Разорванная плоть срастается с тошнотворной скоростью, а адаптивные клетки размножаются быстрее человеческого понимания. Раны, которые должны быть смертельными, становятся для совершенных организмов Разума Улья лишь мелким неудобством."/>
+	<entry name="Tyranids/BioAdaptationAdrenalGlands" value="Биоадаптация: адреналиновые железы"/>
+	<entry name="Tyranids/BioAdaptationAdrenalGlandsDescription" value="Подразделения с этой биоадаптацией получают +1 к движению."/>
+	<entry name="Tyranids/BioAdaptationAdrenalGlandsFlavor" value="Адренальные железы насыщают тела своего хозяина химическими веществами, которые повышают метаболизм существа до гиперактивного безумного состояния."/>
+	<entry name="Tyranids/BioAdaptationToxinSacs" value="Биоадаптация: токсиновые мешки"/>
+	<entry name="Tyranids/BioAdaptationToxinSacsDescription" value="Подразделения с этой биоадаптацией получают дополнительный урон и число атак в ближнем бою."/>
+	<entry name="Tyranids/BioAdaptationToxinSacsFlavor" value="Эти паразитарные железы выделяют ужасную жидкость, которая покрывает когти и клыки Тиранид летальным разнообразием чужеродных ядов."/>
+	<entry name="Tyranids/BioAdaptationHunterWormHive" value="Биоадаптация: улей охотничьих червей"/>
+	<entry name="Tyranids/BioAdaptationHunterWormHiveDescription" value="Подразделения с этой биоадаптацией получают дополнительный дистанционный урон и число атак."/>
+	<entry name="Tyranids/BioAdaptationHunterWormHiveFlavor" value="Под хитиновыми пластинами гнездятся извивающиеся скопления хищных паразитов, чьи микроскопические чувства настроены на далёкую добычу. Когда существо стреляет, тысячи охотничьих червей безошибочно направляют каждый снаряд."/>
+	<entry name="Tyranids/BioAdaptationAcidicCarapace" value="Биоадаптация: кислотный панцирь"/>
+	<entry name="Tyranids/BioAdaptationAcidicCarapaceDescription" value="Подразделения с этой биоадаптацией получают дополнительную защиту в ближнем бою и наносят ответный урон атакующим их в ближнем бою."/>
+	<entry name="Tyranids/BioAdaptationAcidicCarapaceFlavor" value="Хитин этих тварей пропитан летучими кислотами, сочащимися из каждой трещины и сочленения. На каждый удар они отвечают брызгами едкой сукровицы, разъедающей плоть, сталь и керамит. Ударить такое существо — значит призвать собственную погибель."/>
+	<entry name="Tyranids/BioAdaptationSporeburstCarapace" value="Биоадаптация: споровзрывной панцирь"/>
+	<entry name="Tyranids/BioAdaptationSporeburstCarapaceDescription" value="Подразделения с этой биоадаптацией получают дополнительное снижение дистанционного урона. После получения урона их защита от дистанционных атак становится ещё сильнее, а ближайшие союзники также получают эту защиту."/>
+	<entry name="Tyranids/BioAdaptationSporeburstCarapaceFlavor" value="В панцирь вплетены спящие споровые мешки, выращенные из бесконечного арсенала симбиотических организмов Разума Улья. Под вражеским огнём они яростно лопаются, выбрасывая облака удушающих спор и рои дрейфующих мин. Поле боя быстро заволакивает пеленой, и прежде явная добыча превращается в смутный, движущийся ужас."/>
+	<entry name="Tyranids/BioAdaptationEnhancedSenses" value="Биоадаптация: усиленные чувства"/>
+	<entry name="Tyranids/BioAdaptationEnhancedSensesDescription" value="Подразделения с этой биоадаптацией получают увеличенный радиус обзора и дополнительную дистанционную точность."/>
+	<entry name="Tyranids/BioAdaptationEnhancedSensesFlavor" value="Сенсорные узлы зверя расцветают с чуждой точностью, замечая каждое движение, каждую вибрацию, каждый удар сердца добычи."/>
+	<entry name="Tyranids/BioAdaptationFleshHooks" value="Биоадаптация: плотские крюки"/>
+	<entry name="Tyranids/BioAdaptationFleshHooksDescription" value="Подразделения с этой биоадаптацией получают дополнительные атаки в ближнем бою и могут перемещаться после атаки."/>
+	<entry name="Tyranids/BioAdaptationFleshHooksFlavor" value="Из скрытых полостей в груди зверя вырываются мясистые крюки с острыми зазубринами. Эти органические кошки цепляются и за добычу, и за местность, с ужасающей силой втягивая тиранида в схватку. Немногие враги живут долго после того, как крюки находят цель."/>
+	<entry name="Tyranids/BioAdaptationCorrosiveStrikes" value="Биоадаптация: коррозионные удары"/>
+	<entry name="Tyranids/BioAdaptationCorrosiveStrikesDescription" value="Атаки подразделений с этой биоадаптацией накладывают заряд «Коррозии», снижающий броню цели на 0,75 на 2 хода. Атаки ближнего боя дополнительно накладывают заряд «Рваных ран», снижая броню ещё на 0,5. У каждого заряда собственная длительность."/>
+	<entry name="Tyranids/BioAdaptationCorrosiveStrikesFlavor" value="Раздутые железы с гиперкислотной желчью покрывают каждый снаряд, коготь и хитиновый клинок твари. Там, где они кусают или разбрызгиваются, керамит вспучивается, сталь течёт словно воск, а броня добычи слой за слоем сползает прочь."/>
+	<entry name="Tyranids/BioAdaptationBroodleechHive" value="Биоадаптация: улей выводковых пиявок"/>
+	<entry name="Tyranids/BioAdaptationBroodleechHiveDescription" value="Подразделения с этой биоадаптацией накладывают периодический урон и эффект подавления, но имеют меньше очков здоровья."/>
+	<entry name="Tyranids/BioAdaptationBroodleechHiveFlavor" value="Ульи кровяных пиявок — раздутые узлы, кишащие выводковыми паразитами, которые извиваются прямо под панцирем существа. Когда носитель рвёт добычу, паразиты высыпаются наружу, зарываются в плоть и грызут её изнутри, распространяя боль и паралич. Но заражение имеет цену: постоянный голод отвратительных пассажиров истощает тело тиранида, делая его хрупче сородичей."/>
+	<entry name="Tyranids/BioAdaptationSwollenBioChambers" value="Высшая биоадаптация: раздутые биокамеры"/>
+	<entry name="Tyranids/BioAdaptationSwollenBioChambersDescription" value="Подразделения с этой биоадаптацией получают +1 к дальности."/>
+	<entry name="Tyranids/BioAdaptationSwollenBioChambersFlavor" value="Эти гротескно раздутые органы наполнены летучими жидкостями и сжатыми спорами. При каждом судорожном выбросе раздувшиеся камеры швыряют живые боеприпасы гораздо дальше обычного, накрывая далёкую добычу бурей биоорганического огня."/>
+	<entry name="Tyranids/BioAdaptationGreaterRegeneration" value="Высшая биоадаптация: усиленная регенерация"/>
+	<entry name="Tyranids/BioAdaptationGreaterRegenerationDescription" value="Подразделения с этой биоадаптацией восстанавливают 5 очков здоровья за ход и получают дополнительные максимальные очки здоровья."/>
+	<entry name="Tyranids/BioAdaptationGreaterRegenerationFlavor" value="Гиперактивные метаболические узлы и непрерывно делящаяся плоть за мгновения сшивают разорванные мышцы и затягивают зияющие раны. Даже тяжелейшие повреждения лишь питают неумолимое обновление — словно сам Разум Улья отказывается позволить организму умереть."/>
+	<entry name="Tyranids/BioAdaptationVampiricSymbiote" value="Высшая биоадаптация: вампирический симбионт"/>
+	<entry name="Tyranids/BioAdaptationVampiricSymbioteDescription" value="Подразделения с этой биоадаптацией получают похищение жизни оружием ближнего боя и повышенную точность в ближнем бою."/>
+	<entry name="Tyranids/BioAdaptationVampiricSymbioteFlavor" value="Вампирические симбионты кишат на когтях и клыках носителя — каждый похож на пиявку и жаждет тёплой сукровицы. Пока тиранид рвёт добычу, паразиты пьют досыта, возвращая жизненную силу зверю и вгоняя его в бешенство всё более точных ударов."/>
+	<entry name="Tyranids/AlphaWarrior" value="Альфа-воин"/>
+	<entry name="Tyranids/AlphaWarriorDescription" value="Повышает точность союзных тиранидов в радиусе действия. Воины-тираниды получают ещё больший бонус к точности."/>
+	<entry name="Tyranids/AlphaWarriorFlavor" value="“Думать, что Тираниды неразумные звери—серьезная ошибка. Когда вы сражаетесь с Тиранидами, вы сталкиваетесь не только с теми, кто стоит перед вами на поле битвы, но и с неисчислимыми тысячами существ, которые в это же самое время стремятся окружить вас, которые атакуют ваши вспомогательные подразделения и перерезают ваши линии снабжения.”&lt;br/&gt; — Марнеус Калгар, Магистр Ордена Ультрамаринов."/>
+	<entry name="Tyranids/AdaptiveBiology" value="Адаптивная биология"/>
+	<entry name="Tyranids/AdaptiveBiologyDescription" value="После первого получения урона на 1 ход повышает снижение урона «Нечувствительность к боли»."/>
+	<entry name="Tyranids/AdaptiveBiologyFlavor" value="Этот герой был создан, чтобы приспособиться к оружию, используемому нынешними защитниками мира."/>
+	<entry name="Tyranids/ScourgeOfTheBrood" value="Бич для выводка"/>
+	<entry name="Tyranids/ScourgeOfTheBroodDescription" value="Тиранид-прайм повышает свой урон и получает похищение жизни."/>
+	<entry name="Tyranids/ScourgeOfTheBroodFlavor" value="“Когда я взглянул в его мертвые черные глаза, я увидел страшный инстинкт, который он имел вместо души. За ним стояла стальная воля его лидера. Потом я почувствовал, как его прародитель холодно оценивает меня из пустоты. И, вглядываясь в самые глубокие уголки сознания пришельца, я понял, что могу описать это чувство только как ненасытный голод.”&lt;br/&gt; — Варрон Тигурий, Старший библиарий Ордена Ультрамаринов"/>
+	<entry name="Tyranids/BroodProgenitor" value="Выводок-предшественник"/>
+	<entry name="Tyranids/BroodProgenitorDescription" value="Повышает число атак ближайших термагантов, хормагантов и гаргулий."/>
+	<entry name="Tyranids/BroodProgenitorFlavor" value="“Этот Ужас, эта Мерзость имеет разум и цель, которая функционирует в невообразимом, галактическом масштабе, и всё что мы можем сделать, это попытаться остановить рой биоинженерных монстров, который действует инстинктивно. Мы дали имя этому Ужасу, чтобы смягчить наши страхи; мы называем это расой Тиранид, но если она вообще хоть что-то знает о нас, то только то, что мы Добыча.”&lt;br/&gt; — Инквизитор Жевак."/>
+	<entry name="Tyranids/DeployBroodHive" value="Развернуть выводковый улей"/>
+	<entry name="Tyranids/DeployBroodHiveDescription" value="Разворачивает Выводковый улей — укрепление, выполняющее функцию туннеля."/>
+	<entry name="Tyranids/MassIncubation" value="Массовая инкубация"/>
+	<entry name="Tyranids/MassIncubationDescription" value="Тервигон порождает массу подкреплений, исцеляя ближайшие подразделения и накладывая на них периодическое восстановление здоровья."/>
+	<entry name="Tyranids/MassIncubationFlavor" value="Если Тервигону это нужно, он может быстро породить весь выводок. Противники численно превосхолящие его, сосредоточившись на этом единственном противнике, могут внезапно оказаться в меньшинстве."/>
+	<entry name="Tyranids/BroodmothersGuard" value="Стража матки"/>
+	<entry name="Tyranids/BroodmothersGuardDescription" value="Выберите одно пехотное подразделение. Оно получает снижение урона «Нечувствительность к боли» на 2 хода."/>
+	<entry name="Tyranids/BroodmothersGuardFlavor" value="Матка заливает рой психическими импульсами, уплотняя плоть и притупляя боль, пока выводок не знает ничего, кроме выживания."/>
+	<entry name="Tyranids/OverlordsFury" value="Ярость повелителя"/>
+	<entry name="Tyranids/OverlordsFuryDescription" value="Тиран Улья получает +1 к движению. После завершения перемещения он получает повышенное снижение урона и дополнительные атаки, если в радиусе действия врагов больше, чем союзников. Бонусы действуют 2 хода."/>
+	<entry name="Tyranids/OverlordsFuryFlavor" value="Тиран Улья бросается в самое сердце битвы, и инстинкты направляют каждый его удар. Чем больше врагов его окружает, тем смертоноснее становится натиск: когти и клыки рвут всех, кто противостоит рою."/>
+	<entry name="Eldar/AsuryaniWarborn" value="Рождённые войной Азуриани"/>
+	<entry name="Eldar/AsuryaniWarbornDescription" value="Путь Азуриани: повышает скорость производства в Призменной литейной и Кузнице духов на 20%."/>
+	<entry name="Eldar/AsuryaniTranquility" value="Безмятежность Азуриани"/>
+	<entry name="Eldar/AsuryaniTranquilityDescription" value="Путь Азуриани: повышает рост на 20%, производство исследований на 25%, а всех остальных ресурсов — на 10%."/>
+	<entry name="Eldar/AsuryaniArrivals" value="Прибытие Азуриан"/>
+	<entry name="Eldar/AsuryaniArrivalsDescription" value="Путь Азуриани: повышает рост на 20%, производство пищи на 25% и скорость производства в Горниле Азуриана [пехотное здание] на 20%."/>
+	<entry name="Eldar/AsuryaniArrivalsFlavor" value="Идущие Путём Приветствия Азуриани направляют великие потоки переселенцев. Они ведут беженцев и паломников к убежищу, следя, чтобы новые жители нашли пищу и предназначение в новом доме."/>
+	<entry name="Eldar/AsuryaniAscendant" value="Возвышение Азуриани"/>
+	<entry name="Eldar/AsuryaniAscendantDescription" value="Путь Азуриани: повышает рост на 20% и получение влияния на 25%."/>
+	<entry name="Eldar/AsuryaniAscendantFlavor" value="Путь Озарения привлекает мудрейших провидцев и хранителей знаний. Медитацией и изучением древних путей они раскрывают забытые тайны и направляют становление героев, предназначенных для величия."/>
+	<entry name="Eldar/AsuryaniForgehosts" value="Кузнечные воинства Азуриани"/>
+	<entry name="Eldar/AsuryaniForgehostsDescription" value="Путь Азуриани: повышает рост на 20%, производство руды на 25% и скорость производства в Великом проходе [здание техники] на 20%."/>
+	<entry name="Eldar/AsuryaniForgehostsFlavor" value="Идущие Путём Духа Кузни общаются с машинными душами техники и горнодобывающих механизмов. Их психическое прикосновение пробуждает дремлющий потенциал адамантия и призрачной кости."/>
+	<entry name="Eldar/AsuryaniFreewinds" value="Свободные ветры Азуриани"/>
+	<entry name="Eldar/AsuryaniFreewindsDescription" value="Путь Азуриани: повышает рост на 20%, производство энергии на 25% и скорость производства в Анклаве путников на 20%."/>
+	<entry name="Eldar/PychoReactiveArmor" value="Психореактивная броня"/>
+	<entry name="Eldar/PychoReactiveArmorDescription" value="На 1 ход повышает броню на 4."/>
+	<entry name="Eldar/PychoReactiveArmorFlavor" value="Психопроводящие волокна, вплетённые в призрачную кость, создают броню, которая думает вместе с носителем, меняя плотность и конфигурацию за микросекунды до удара."/>
+	<entry name="Eldar/StalkersGrace" value="Грация охотника"/>
+	<entry name="Eldar/StalkersGraceDescription" value="На 1 ход позволяет этому подразделению игнорировать свойство оружия «Тяжёлое»."/>
+	<entry name="Eldar/StalkersGraceFlavor" value="Плавность движений и безупречное равновесие стирают для обученного воина разницу между лёгким и тяжёлым оружием."/>
+	<entry name="Eldar/VoidStrike" value="Пустотный Удар"/>
+	<entry name="Eldar/VoidStrikeDescription" value="На 1 ход повышает игнорирование снижения дистанционного урона этого подразделения на 50%."/>
+	<entry name="Eldar/VoidStrikeFlavor" value="Древние техники проводят силу пустоты между звёздами, позволяя снарядам обходить даже самую мощную защиту."/>
+	<entry name="Eldar/CrackShot" value="Раскалывающий удар"/>
+	<entry name="Eldar/CrackShotDescription" value="На 1 ход увеличивает дальность этого подразделения на 1."/>
+	<entry name="Eldar/CrackShotFlavor" value="Совершенная настройка оружия и психическая концентрация позволяют Огненному Дракону протянуть смертоносное дыхание мельты к прежде недосягаемым целям."/>
+	<entry name="Eldar/RevealWebwayGate" value="Раскрыть врата Паутины"/>
+	<entry name="Eldar/RevealWebwayGateDescription" value="Создаёт новые постоянные врата Паутины."/>
+	<entry name="Eldar/ExpertHunter" value="Эксперт-охотник"/>
+	<entry name="Eldar/ExpertHunterDescription" value="На 1 ход повышает урон по монструозным существам, технике и укреплениям на 50%."/>
+	<entry name="Eldar/ExpertHunterFlavor" value="Оружие Сияющих копий может быть только для ближнего боя, но их Звездные и Лазерные копья невероятно мощны. Поэтому они высматривают более крупные цели, ища их слабые места."/>
+	<entry name="Eldar/ReturnOfTheAeldari" value="Возвращение Эльдар"/>
+	<entry name="Eldar/ReturnOfTheAeldariDescription" value="Призывает подразделение варлоков."/>
+	<entry name="Eldar/Command" value="Приказ"/>
+	<entry name="Eldar/CommandDescription" value="Повышает снижение дистанционного урона союзных подразделений азуриани в зоне действия, а также защищает их от огня наблюдения."/>
+	<entry name="Eldar/CommandFlavor" value="Автархи идут по Пути Власти, и даже Экзархи святынь Аспекта подчиняются им. Автарх лично координирует огонь своей армии с помощью сигналов и связи, сочетая огневую мощь и движение, чтобы заманить врагов в хитроумные смертельные ловушки."/>
+	<entry name="Eldar/AutarchsAssault" value="Штурм Автарха"/>
+	<entry name="Eldar/AutarchsAssaultDescription" value="Повышает урон всех ближайших азуриани."/>
+	<entry name="Eldar/AutarchsAssaultFlavor" value="Автарх—мастер войны, проживший много жизней в каждом святилище Аспекта Эльдар. Каждая из его умелых атак является одновременно источником вдохновения для других Эльдар и уроком того, как вести войну наиболее эффективно."/>
+	<entry name="Eldar/JetBikeAssault" value="Атака на гравициклах"/>
+	<entry name="Eldar/JetBikeAssaultDescription" value="Призывает временное подразделение Сияющих Копий."/>
+	<entry name="Eldar/WarShoutDescription" value="Даёт Воющим Баньши возможность за влияние деморализовать соседних врагов."/>
+	<entry name="Eldar/KhaineAwakened" value="Пробуждение Кхейна"/>
+	<entry name="Eldar/KhaineAwakenedDescription" value="Повышает число атак в ближнем бою и снижение урона ближнего боя ближайших подразделений."/>
+	<entry name="Eldar/KhaineAwakenedFlavor" value="Пока Вопящий Рок взывает к крови, а Аватар пробуждается к войне, как и находящиеся поблизости Эльдар вынуждены совершать великие дела во имя его. Ничего не боясь, они, помешанные на боях, бросаются в рукопашную."/>
+	<entry name="Eldar/PresenceOfKhain" value="Присутствие Кхейна"/>
+	<entry name="Eldar/PresenceOfKhainDescription" value="Повышает число дистанционных атак и снижение дистанционного урона ближайших подразделений."/>
+	<entry name="Eldar/Impaled" value="Пронзить"/>
+	<entry name="Eldar/ImpaledDescription" value="Аватар бросает свой меч, нанося урон и снижая движение цели."/>
+	<entry name="Eldar/GodOfWar" value="Бог войны"/>
+	<entry name="Eldar/GodOfWarDescription" value="Аватар получает огромный бонус к урону и похищение жизни."/>
+	<entry name="Eldar/WebwayScan" value="Сканирование Паутины"/>
+	<entry name="Eldar/WebwayScanDescription" value="Раскрывает область вокруг нейтральных врат Паутины."/>
+	<entry name="Drukhari/PainBrokers" value="Посредники боли"/>
+	<entry name="Drukhari/PainBrokersDescription" value="Тратит влияние, чтобы ускорить производство."/>
+	<entry name="Drukhari/PainBrokersFlavor" value="Боль — валюта рынков Комморры. Тот, кто торгует страданием, способен ускорить любую сделку — за обещание свежих криков."/>
+	<entry name="Drukhari/BloodForSouls" value="Кровь за души"/>
+	<entry name="Drukhari/BloodForSoulsDescription" value="Резко снижает стоимость «Посредников боли» для пехоты, делая их применение гораздо выгоднее."/>
+	<entry name="Drukhari/BloodForSoulsFlavor" value="В кварталах наёмников Комморры верность покупают валютой проклятых. Душами оплачивают клинки, а крики скрепляют договор."/>
+	<entry name="Drukhari/Hypex" value="Гипекс"/>
+	<entry name="Drukhari/HypexDescription" value="Боевой наркотик, обостряющий чувства и увеличивающий дальность подразделений. Доступен почти всем стрелковым подразделениям и стрелковой технике."/>
+	<entry name="Drukhari/HypexFlavor" value="Гайпекс заливает нервную систему синтетическими соединениями адреналина, расширяя зрачки и ускоряя нервные реакции, чтобы сохранять точность наведения на невозможных дистанциях."/>
+	<entry name="Drukhari/GraveLotus" value="Могильный лотос"/>
+	<entry name="Drukhari/GraveLotusDescription" value="Боевой наркотик, делающий тело выносливее и повышающий регенерацию и снижение урона. Доступен почти всей пехоте и монстрам."/>
+	<entry name="Drukhari/GraveLotusFlavor" value="Могильный лотос течёт по крови словно жидкая броня, притупляя боль и ускоряя восстановление клеток. То, что должно было убить, лишь ранит, а раны исчезают, словно дурные сны."/>
+	<entry name="Drukhari/Painbringer" value="Болеприноситель"/>
+	<entry name="Drukhari/PainbringerDescription" value="Боевой наркотик, ввергающий пользователя в неистовство и усиливающий его возможности в ближнем бою. Доступен почти всей пехоте ближнего боя и монстрам."/>
+	<entry name="Drukhari/PainbringerFlavor" value="Каждая доза «Несущих боль» топит разум в багровой ярости, заставляя опьянённых наркотиком делиться своей агонией клинком и кулаком."/>
+	<entry name="Drukhari/PainEngine" value="Машина боли"/>
+	<entry name="Drukhari/PainEngineDescription" value="Соседние вражеские подразделения теряют 3 дистанционной точности."/>
+	<entry name="Drukhari/PainEngineFlavor" value="Истерзанная клетка души Машины боли шепчет безумие в соседние разумы, наполняя мысли врагов фантомной агонией и делая точную стрельбу невозможной."/>
+	<entry name="Drukhari/RevealWebwayGate" value="Раскрыть врата Паутины"/>
+	<entry name="Drukhari/RevealWebwayGateDescription" value="Создаёт новые постоянные врата Паутины."/>
+	<entry name="Drukhari/SirensCall" value="Порыв победы"/>
+	<entry name="Drukhari/SirensCallDescription" value="Снижает мораль врагов, одновременно исцеляя себя и ближайшие пехотные подразделения."/>
+	<entry name="Drukhari/SirensCallFlavor" value="Суккуб поёт песнь крови и славы; её голос становится маяком, зовущим жаждущих убийства ведьм присоединиться к резне с дикой радостью."/>
+	<entry name="Drukhari/IWantThisForMyCollection" value="Выпустить эксперименты"/>
+	<entry name="Drukhari/IWantThisForMyCollectionDescription" value="Ослабляет вражеское подразделение. Если оно погибает, пока эффект ещё действует, появляется постоянное подразделение враков."/>
+	<entry name="Drukhari/IWantThisForMyCollectionFlavor" value="Каждый образец даёт ценные сведения. Даже после смерти они служат великому замыслу Ковена."/>
+	<entry name="Drukhari/NoEscape" value="Отступление невозможно"/>
+	<entry name="Drukhari/NoEscapeDescription" value="Суккуб использует хлыст для дистанционной атаки, нанося урон и снижая точность и движение цели."/>
+	<entry name="Drukhari/NoEscapeFlavor" value="Превосходные воительницы арены, суккубы, умеют мучить своего врага и создавать для него иллюзию побега, прежде чем заманить в ловушку, чтобы все зрители насладились его страданиями и ложной надеждой."/>
+	<entry name="Drukhari/HonorGuard" value="Почётная гвардия"/>
+	<entry name="Drukhari/HonorGuardDescription" value="Призывает постоянное элитное подразделение инкубов."/>
+	<entry name="Drukhari/HonorGuardFlavor" value="Воля Архонта абсолютна. По его приказу лучшие убийцы Комморры выходят из теней, и их клинки жаждут крови."/>
+	<entry name="Drukhari/CrucibleOfMalediction" value="Горнило проклятия"/>
+	<entry name="Drukhari/CrucibleOfMaledictionDescription" value="Особая дальнобойная атака с высокой бронебойностью. Эффективна против техники, укреплений и монструозных существ."/>
+	<entry name="Drukhari/CrucibleOfMaledictionFlavor" value="Гемункулы иронично зовут это необычное оружие «даром родичей», поскольку оно особенно опасно для их психически одарённых родичей из миров-кораблей. Каждое горнило содержит сущность замученных до смерти псайкеров. Когда эти духи высвобождают, они несутся по полю боя с какофонией криков, которая сводит с ума ближайших врагов."/>
+	<entry name="Drukhari/SplinteredGenius" value="Расколотый гений"/>
+	<entry name="Drukhari/SplinteredGeniusDescription" value="Даёт подразделению дополнительное очко действия на этот ход."/>
+	<entry name="Drukhari/SplinteredGeniusFlavor" value="Привычно невозмутимый вид этого архонта таит за собой истину развращённого ума: это поле битвы между двумя противоположностями. Его безжалостная садистская сторона только и ждёт подходящего повода — чужого страха, боли или слабости. Сорвавшись, этот архонт впадает в убийственную ярость и использует своих жертв для удовлетворения самых тёмных желаний, прежде чем вернуть себе царственное самообладание."/>
+	<entry name="Drukhari/AnimusVitae" value="Анимус Витэ"/>
+	<entry name="Drukhari/AnimusVitaeDescription" value="Наносит урон и восстанавливает архонту и ближайшим подразделениям здоровье в размере нанесённого урона."/>
+	<entry name="Drukhari/AnimusVitaeFlavor" value="В его хватке агония становится пищей. С каждым криком, вырванным из плоти, Анимус Витэ набирает силу — сосуд изысканной муки, питающий хозяина украденным дыханием умирающих."/>
+	<entry name="Drukhari/BridesOfDeath" value="Невесты смерти"/>
+	<entry name="Drukhari/BridesOfDeathDescription" value="Повышает урон в ближнем бою и броню этого подразделения и соседней пехоты друкари."/>
+	<entry name="Drukhari/BridesOfDeathFlavor" value="Суккуб не просто само совершенство во внешности, бою и садизме. Эти хореографы мучений также безупречно координируют свои культы ведьм и других друкари на поле боя."/>
+	<entry name="ChaosSpaceMarines/MarkOfKhorne" value="Знак Кхорна"/>
+	<entry name="ChaosSpaceMarines/MarkOfKhorneDescription" value="Метка Хаоса: даёт подразделению Хаоса +25% к числу атак и +25% к снижению урона ближнего боя, но снижает броню на 3."/>
+	<entry name="ChaosSpaceMarines/MarkOfKhorneFlavor" value="Знак Кхорна дарован только тем, чья безжалостная ярость и безграничная свирепость отдают уважение собственному Благословению Крови. Таким ученикам Кхорн дарует нечестивый гнев, который горит так же горячо, как и звезды."/>
+	<entry name="ChaosSpaceMarines/MarkOfNurgle" value="Знак Нургла"/>
+	<entry name="ChaosSpaceMarines/MarkOfNurgleDescription" value="Метка Хаоса: даёт подразделению Хаоса +25% к очкам здоровья и регенерацию, но снижает движение на 1."/>
+	<entry name="ChaosSpaceMarines/MarkOfNurgleFlavor" value="Благословение Нургла проявляется не только как набор ядовитых язв и болезней, но и как нечеловеческое состояние организма, необходимое для их выживания."/>
+	<entry name="ChaosSpaceMarines/MarkOfSlaanesh" value="Знак Слаанеша"/>
+	<entry name="ChaosSpaceMarines/MarkOfSlaaneshDescription" value="Метка Хаоса: даёт подразделению Хаоса +1 к движению и +50% урона по раненым целям (ниже 50% здоровья), но снижает здоровье на 25%."/>
+	<entry name="ChaosSpaceMarines/MarkOfSlaaneshFlavor" value="У последователей Слаанеша чувства и реакции повышены до сверхъестественного уровня, чтобы впитывать экстремальные, многогранные возбудители на поле битвы. Воин, одаренный таким образом, будет двигаться со сверхъестественной грацией и скоростью, его клинок извивается, как язык змеи, когда он наслаждается уродливым зрелищем смерти."/>
+	<entry name="ChaosSpaceMarines/MarkOfTzeentch" value="Знак Тзинча"/>
+	<entry name="ChaosSpaceMarines/MarkOfTzeentchDescription" value="Метка Хаоса: даёт подразделению Хаоса снижение урона и «Пламя душ» при атаках (периодический урон в течение 2 раундов), но повышает получаемый урон ближнего боя на 50%."/>
+	<entry name="ChaosSpaceMarines/MarkOfTzeentchFlavor" value="Те, кто посвятил себя Тзинчу, пользуются защитой и предвидением Магистра Обращения."/>
+	<entry name="ChaosSpaceMarines/SkullsquirmBlight" value="Чума корчащихся черепов"/>
+	<entry name="ChaosSpaceMarines/SkullsquirmBlightDescription" value="Каждый ход наносит урон смежной вражеской пехоте или монструозным существам."/>
+	<entry name="ChaosSpaceMarines/SkullsquirmBlightFlavor" value="Самый любимый дар Дедушки Нургла — микроскопические черви, весело пляшущие и в костном мозге, и в разуме. Их радостный пир несёт благословенное разложение всем, кто становится свидетелем их божественного голода."/>
+	<entry name="ChaosSpaceMarines/DaemonforgeBullets" value="Демоническая кузница — боеприпасы"/>
+	<entry name="ChaosSpaceMarines/DaemonforgeBulletsDescription" value="Демоническая машина жертвует собственной жизненной силой, чтобы увеличить дальность на 1 и игнорировать 33% снижения дистанционного урона."/>
+	<entry name="ChaosSpaceMarines/DaemonforgeBulletsFlavor" value="С каждым содрогающимся залпом Кузнечный изверг сжигает частицы собственной демонической сущности, выплёвывая снаряды губительного пламени, которые с воем прорывают завесу и прошивают смертные укрепления словно пергамент."/>
+	<entry name="ChaosSpaceMarines/IconOfDespair" value="Икона Отчаяния"/>
+	<entry name="ChaosSpaceMarines/IconOfDespairDescription" value="Икона Нургла, отражающая 25% урона ближнего боя обратно атакующему. Можно применить к подразделению с любой Меткой Хаоса."/>
+	<entry name="ChaosSpaceMarines/IconOfDespairFlavor" value="Эта икона окружена миазмами болезней и безнадежности, обращая мысли любых ближайших противников к ужасной и неизбежной смерти, которая их ожидает."/>
+	<entry name="ChaosSpaceMarines/IconOfExcess" value="Икона Невоздержанности"/>
+	<entry name="ChaosSpaceMarines/IconOfExcessDescription" value="Икона Слаанеша, позволяющая перемещаться после атаки. Можно применить к подразделению с любой Меткой Хаоса."/>
+	<entry name="ChaosSpaceMarines/IconOfExcessFlavor" value="Благословлённые милостью Тёмного Принца, воины танцуют в битве со смертоносной грацией. Каждый убийственный удар становится новым па в бесконечном прекрасном вальсе разрушения."/>
+	<entry name="ChaosSpaceMarines/IconOfFlame" value="Икона Пламени"/>
+	<entry name="ChaosSpaceMarines/IconOfFlameDescription" value="Икона Тзинча, защищающая подразделение от атак наблюдения. Можно применить к подразделению с любой Меткой Хаоса."/>
+	<entry name="ChaosSpaceMarines/IconOfFlameFlavor" value="Изменяющий Пути окутывает своих слуг слоями обмана и заблуждений. Вражеские орудия следят за призраками, пока истинная угроза наносит удар, скрытая завесой смятения."/>
+	<entry name="ChaosSpaceMarines/IconOfVengeance" value="Икона Мести"/>
+	<entry name="ChaosSpaceMarines/IconOfVengeanceDescription" value="Икона Хаоса, дающая подразделению «Бесстрашие», что снижает потерю морали на 67%. Можно применить к подразделению с любой Меткой Хаоса."/>
+	<entry name="ChaosSpaceMarines/IconOfVengeanceFlavor" value="Эти иконы ярко сияют Варпом, фокусируя вредоносные энергии Хаоса на тех, кто их носит, и подталкивают их к актам самоубийственной храбрости в их стремлении вырвать победу у приспешников Бога-трупа."/>
+	<entry name="ChaosSpaceMarines/IconOfWrath" value="Икона Гнева"/>
+	<entry name="ChaosSpaceMarines/IconOfWrathDescription" value="Икона Кхорна, повышающая число атак на 25%, если на соседних клетках врагов больше, чем союзников. Можно применить к подразделению с любой Меткой Хаоса."/>
+	<entry name="ChaosSpaceMarines/IconOfWrathFlavor" value="Кровь слаще всего льётся, когда врагов больше. Икона Бога Крови пробуждает первобытную ярость в окружённых воинах — каждый противник становится ещё одним черепом для трона."/>
+	<entry name="ChaosSpaceMarines/MindBreakingMutations" value="Сокрушающие разум мутации"/>
+	<entry name="ChaosSpaceMarines/MindBreakingMutationsDescription" value="Соседние вражеские подразделения теряют 3 дистанционной точности."/>
+	<entry name="ChaosSpaceMarines/MindBreakingMutationsFlavor" value="Одно присутствие отродья ломает разум и заставляет дрожать руки. Воины, встречавшие демонов и ксеносов, сами начинают трепетать перед этим искорёженным порождением Хаоса."/>
+	<entry name="ChaosSpaceMarines/RiteOfBlood" value="Обряд войны"/>
+	<entry name="ChaosSpaceMarines/RiteOfBloodDescription" value="Приносит население в жертву Кхорну: скорость производства в Инфернальном фабрикаторе (техника) и Одержимой адской башне (авиация и колоссальные подразделения) повышается на 33%, а добыча руды в Невольничьих шахтах — на 33%."/>
+	<entry name="ChaosSpaceMarines/RiteOfBloodFlavor" value="У Кхорна могут быть и другие черты—определенное благородство и простота войны—но его жажда смерти и крови перевешивает их намного. Обряды во имя него приносят не только его благословение, но и увеличивают скорость работы рабов, держа их в страхе, так как они могут быть следующими жертвами."/>
+	<entry name="ChaosSpaceMarines/RiteOfPestilence" value="Обряд Мора"/>
+	<entry name="ChaosSpaceMarines/RiteOfPestilenceDescription" value="Приносит население в жертву Нурглу: производство пищи повышается на 33%, а скорость производства в Культе и Генолабораториях абоминаторов (пехота) — на 33%."/>
+	<entry name="ChaosSpaceMarines/RiteOfPestilenceFlavor" value="Обряд Мора не приносит явных жертв Нурглу—он просто притягивает его благословение на ваш народ. Принимая во внимание вирулентность болезней Нургла—Гниль, Хихикающая чума, Сочащаяся оспа—многие умрут от этих благословений, во имя него. Многие другие будут жить с ними и расти с чумной плодовитостью."/>
+	<entry name="ChaosSpaceMarines/RiteOfUnholyPleasure" value="Обряд Нечестивого Удовольствия"/>
+	<entry name="ChaosSpaceMarines/RiteOfUnholyPleasureDescription" value="Приносит население в жертву Слаанешу: производство влияния и рост города повышаются на 33%."/>
+	<entry name="ChaosSpaceMarines/RiteOfUnholyPleasureFlavor" value="Залей уши воском, зашей рот, зажмурь глаза и свяжи своё тело. Только тогда призывай Слаанеша, чтобы ты не смог полностью поддаться неотразимым желаниям Бога Удовольствий."/>
+	<entry name="ChaosSpaceMarines/RiteOfChange" value="Обряд перемен"/>
+	<entry name="ChaosSpaceMarines/RiteOfChangeDescription" value="Пожертвуйте население Тзинчу, чтобы увеличить производство продукции Варп-кузни и исследований Архива Путей в городе."/>
+	<entry name="ChaosSpaceMarines/RiteOfChangeFlavor" value="Вызывать Изменителя имен очень рискованно—мало кто знает, что он сделает для продвижения своих непостижимых планов, а может нашлет проклятия, которые он приносит, если его отвлечь без конкретной цели. После Обряда перемен что-то видоизменяется, что-то исчезает, а что-то вживляется в городские стены—но это всегда чему-то учит."/>
+	<entry name="ChaosSpaceMarines/BloodRage" value="Кровавый гнев"/>
+	<entry name="ChaosSpaceMarines/BloodRageDescription" value="Повышает движение на 1 и позволяет игнорировать зону контроля."/>
+	<entry name="ChaosSpaceMarines/SensoryOverload" value="Перегрузка Сенсоров"/>
+	<entry name="ChaosSpaceMarines/SensoryOverloadDescription" value="Наносит урон всем окружающим врагам и ослепляет их. После применения способности подразделение может перемещаться."/>
+	<entry name="ChaosSpaceMarines/SensoryOverloadFlavor" value="Присутствие Демон-принца переполняет чувства смертных видениями невозможной красоты и невыразимого ужаса. Разумы ломаются, когда сама реальность становится невыносимой, и жертвы слепо бредут среди осколков собственного восприятия."/>
+	<entry name="ChaosSpaceMarines/GiftOfContagion" value="Дар заражения"/>
+	<entry name="ChaosSpaceMarines/GiftOfContagionDescription" value="Накладывает периодический урон; если проклятое подразделение погибает под его действием, призывает подразделение Возвышенных чумных зомби."/>
+	<entry name="ChaosSpaceMarines/GiftOfContagionFlavor" value="Псайкер собирает облака заразы и гнили вокруг своих врагов, давая им благословение Отца Нургла."/>
+	<entry name="ChaosSpaceMarines/InfernalIndustry" value="Адская индустрия"/>
+	<entry name="ChaosSpaceMarines/InfernalIndustryDescription" value="Повышает броню всех ближайших подразделений на 2."/>
+	<entry name="ChaosSpaceMarines/InfernalIndustryFlavor" value="Варп-кузнецы — бесподобные мастера технологий, без этических или исторических ограничений своих бывших лордов в Механикуме. Если они смогут увеличить функционирование объекта ценой нескольких сотен жизней-они это сделают."/>
+	<entry name="ChaosSpaceMarines/GodChosenWarlord" value="Избранный богами военачальник"/>
+	<entry name="ChaosSpaceMarines/GodChosenWarlordDescription" value="Повышает число атак и снижение урона ближайших подразделений."/>
+	<entry name="ChaosSpaceMarines/GodChosenWarlordFlavor" value="Избранный превыше всех, военачальник одним своим присутствием искривляет реальность, защищая последователей и наполняя их убийственной силой."/>
+	<entry name="ChaosSpaceMarines/Martyrdom" value="Мученичество"/>
+	<entry name="ChaosSpaceMarines/MartyrdomDescription" value="Это подразделение может жертвовать собственным здоровьем, чтобы лечить другие пехотные подразделения."/>
+	<entry name="ChaosSpaceMarines/MartyrdomFlavor" value="Каждая их рана — подношение Тёмным Богам. Боль превращается в силу, а смерть становится даром, поддерживающим верных."/>
+	<entry name="ChaosSpaceMarines/ShatterDefences" value="Расколотая защита"/>
+	<entry name="ChaosSpaceMarines/ShatterDefencesDescription" value="Повышает урон, получаемый подразделением на выбранной клетке."/>
+	<entry name="ChaosSpaceMarines/ShatterDefencesFlavor" value="Что бы ни скрывали вражеские коллеги за спиной, Варп-кузнец может использовать тысячелетний опыт войн, чтобы посоветовать лучший способ обойти или уничтожить врагов."/>
+	<entry name="Necrons/NanoscarabReanimationBeam" value="Реанимационный поток наноскарабеев"/>
+	<entry name="Necrons/NanoscarabReanimationBeamDescription" value="Восстанавливает очки здоровья соседней союзной пехоте некронов."/>
+	<entry name="Necrons/NanoscarabReanimationBeamFlavor" value="Каноптековый реаниматор направляет поток наноскарабеев на близлежащие строения и подразделения некронов, задействуя и усиляя их реанимационные протоколы. И напротив, на органических существ это действует разрушительным образом."/>
+	<entry name="Necrons/TheArtOfWar" value="Искусство войны"/>
+	<entry name="Necrons/TheArtOfWarDescription" value="Повышает урон Повелителя некронов и соседних подразделений."/>
+	<entry name="Necrons/TheArtOfWarFlavor" value="Древние боевые протоколы проносятся по дремлющим энграммам, пробуждая воспоминания о завоеваниях времён Войны в Небесах. Там, где идёт Повелитель, его воины вспоминают ярость, некогда сокрушавшую богов."/>
+	<entry name="Necrons/SmallGaussPylon" value="Малый гаусс-пилон"/>
+	<entry name="Necrons/SmallGaussPylonDescription" value="Уменьшенная версия гаусс-пилона. Исключительно эффективна против антигравитационных, скиммерных и летающих подразделений."/>
+	<entry name="Necrons/SmallGaussPylonFlavor" value="Загадочные защитные башни Некронов, названные «Пилонами» теми, кто впервые столкнулся с ними. Они были впервые описаны в неисследованном мире WDY-272. Внезапно поднявшись из песков пустыни, Гауссовы пилоны открыли убийственный огонь без предупреждения. Танки и бронетранспортеры горели как спички, когда это оружие в форме полумесяца появилось из ниоткула и обрушило свой огонь на ничего не подозревающую колонну Имперской Гвардии, одновременно отражая ответный огонь."/>
+	<entry name="Necrons/TheArtOfWar" value="Искусство войны"/>
+	<entry name="Necrons/TheArtOfWarDescription" value="Повышает урон Повелителя некронов и соседних подразделений."/>
+	<entry name="Necrons/TheArtOfWarFlavor" value="Древние боевые протоколы проносятся по дремлющим энграммам, пробуждая воспоминания о завоеваниях времён Войны в Небесах. Там, где идёт Повелитель, его воины вспоминают ярость, некогда сокрушавшую богов."/>
+	<entry name="Necrons/StaffofSearingLight" value="Посох испепеляющего света"/>
+	<entry name="Necrons/StaffofSearingLightDescription" value="Наносит врагу урон, ослепляет его и снижает скорость перемещения."/>
+	<entry name="Necrons/FoundCity1" value="Основать город"/>
+	<entry name="Necrons/FoundCity1Description" value="Основывает город некронов, при этом подразделение остаётся на месте. Способность можно применять только на Гробницах некронов и не ближе четырёх клеток от другого города. Каждый дополнительный город после первого снижает лояльность во всех городах на 6."/>
+	<entry name="Necrons/EndlessSwarm" value="Бесконечный рой"/>
+	<entry name="Necrons/EndlessSwarmDescription" value="Снижает число атак в ближнем бою ближайших подразделений на 35%."/>
+	<entry name="Necrons/PurchaseOre" value="Преобразование материи"/>
+	<entry name="Necrons/PurchaseOreDescription" value="Покупает руду за энергию и влияние."/>
+	<entry name="Necrons/PurchaseEnergy" value="Преобразование энергии"/>
+	<entry name="Necrons/PurchaseEnergyDescription" value="Покупает энергию за руду и влияние."/>
+	<entry name="Necrons/HuntersFromHyperspace" value="Глубокий удар"/>
+	<entry name="Necrons/HuntersFromHyperspaceDescription" value="Телепортирует на выбранную исследованную плитку."/>
+	<entry name="Necrons/HuntersFromHyperspaceFlavor" value="С орбиты, из Варпа или из тёмной пустоты эти воины обрушиваются без предупреждения — туда, где враг слабее всего."/>
+	<entry name="SistersOfBattle/BringTheCondemned!" value="Приведите осуждённых!"/>
+	<entry name="SistersOfBattle/BringTheCondemned!Description" value="Разворачивает подразделение арко-флагеллянтов."/>
+	<entry name="SistersOfBattle/StirringRhetoric" value="Волнующая речь"/>
+	<entry name="SistersOfBattle/StirringRhetoricDescription" value="Это подразделение и ближайшие союзники получают дополнительную броню."/>
+	<entry name="SistersOfBattle/StirringRhetoricFlavor" value="“Нет другого света, кроме света Императора! Нет другой веры, кроме веры в Императора! Нет другой правды, кроме правды Императора!”&lt;br/&gt; — первое провозглашение Диалогус из ордена Громогласного Завета"/>
+	<entry name="SistersOfBattle/ChaseTheProfane" value="Чудо праведного порыва"/>
+	<entry name="SistersOfBattle/ChaseTheProfaneDescription" value="На 1 ход даёт подразделению +2 к движению."/>
+	<entry name="SistersOfBattle/ChaseTheProfaneFlavor" value="С пылающими сердцами и несломленной волей Сёстры устремляются вперёд. В этот благословенный миг воля Императора несёт их быстрее, чем способна двигаться смертная плоть."/>
+	<entry name="SistersOfBattle/SacralVigor" value="Сакральная энергия"/>
+	<entry name="SistersOfBattle/SacralVigorDescription" value="Священный обряд, восстанавливающий всем пехотным подразделениям по 2 очка здоровья за раунд."/>
+	<entry name="SistersOfBattle/SacralVigorFlavor" value="“А что наносимые нам раны, сёстры? Так ли дорога нам наша плоть, так ли священна наша красота? Разорвите эти порезы, раскройте их — они лишь пылинки на своевольном ветру. Никогда не забывайте, что реальна лишь наша вера, а боль, как и жизнь, преходяща”.&lt;br/&gt; — Канонисса Вандир, «В память о добродетели»"/>
+	<entry name="SistersOfBattle/ConvictionOfFaith" value="Чудо веры"/>
+	<entry name="SistersOfBattle/ConvictionOfFaithDescription" value="Сбрасывает перезарядку способности «Акт веры»."/>
+	<entry name="SistersOfBattle/ConvictionOfFaithFlavor" value="В горниле битвы сияющая волна преданности захлёстывает верных. На одно биение сердца завеса приподнимается — и в этот святой миг любое деяние вновь становится возможным."/>
+	<entry name="SistersOfBattle/DivineBurden" value="Божественное бремя"/>
+	<entry name="SistersOfBattle/DivineBurdenDescription" value="На 1 ход позволяет подразделению игнорировать свойство оружия «Тяжёлое»."/>
+	<entry name="SistersOfBattle/DivineBurdenFlavor" value="Сёстры Адепта Сороритас преисполнены осознания того, что бояться им нужно лишь одного — стать позором Императора Человечества. Вооружённые такой верой, они способны на беспрецедентные свершения."/>
+	<entry name="SistersOfBattle/KrakGrenade" value="Крак-граната"/>
+	<entry name="SistersOfBattle/KrakGrenadeDescription" value="Крак-граната"/>
+	<entry name="SistersOfBattle/KrakGrenadeFlavor" value="Крак-граната"/>
+	<entry name="SistersOfBattle/FragGrenade" value="Фраг-граната"/>
+	<entry name="SistersOfBattle/FragGrenadeDescription" value="Фраг-граната"/>
+	<entry name="SistersOfBattle/FragGrenadeFlavor" value="Фраг-граната"/>
+	<entry name="SistersOfBattle/ThePassion" value="Неистовство"/>
+	<entry name="SistersOfBattle/ThePassionDescription" value="Повышает точность в ближнем бою и броню Канониссы и соседних союзных подразделений.&lt;br/&gt;&lt;br/&gt;&lt;string name='Actions/SistersOfBattle/ActOfFaithDescription'/&gt;"/>
+	<entry name="SistersOfBattle/ThePassionFlavor" value="Канонисса ведёт своих сестёр сквозь хаос рукопашной схватки, разя врагов со скоростью и ненавистью, порождёнными святым пылом."/>
+	<entry name="SistersOfBattle/LightOfTheEmperor" value="Свет Императора"/>
+	<entry name="SistersOfBattle/LightOfTheEmperorDescription" value="Повышает точность и обзор, а также немного исцеляет.&lt;br/&gt;&lt;br/&gt;&lt;string name='Actions/SistersOfBattle/ActOfFaithDescription'/&gt;"/>
+	<entry name="SistersOfBattle/LightOfTheEmperorFlavor" value="Сёстры Адепта Сороритас преисполнены осознания того, что бояться им нужно лишь одного — стать позором Императора Человечества. Вооружённые такой верой, они способны на беспрецедентные свершения."/>
+	<entry name="SistersOfBattle/Bodyguard" value="Телохранитель"/>
+	<entry name="SistersOfBattle/BodyguardDescription" value="Даёт дополнительную защиту соседним союзным подразделениям."/>
+	<entry name="SistersOfBattle/BodyguardFlavor" value="Целестинки — Сёстры, наиболее пылающие военным духом, проявляющие себя в самых жарких сражениях. Они часто служат канониссам телохранителями и защитниками и готовы голову сложить ради сохранности госпожи."/>
+	<entry name="SistersOfBattle/MartyredArsenal" value="Арсенал мучеников"/>
+	<entry name="SistersOfBattle/MartyredArsenalDescription" value="Священный обряд, повышающий скорость производства в Приорате легатин."/>
+	<entry name="SistersOfBattle/MartyredArsenalFlavor" value="“И неумолима будет инквизиция верующих. Ничто не воспрепятствует воле их; ни законы людей иль ксеносов; ни сомнения, ни друзья; ни сталь, ни пластибетон, ни адамантий”.&lt;br/&gt; — Канонисса Вандир, «В память о добродетели»"/>
+	<entry name="SistersOfBattle/EternalCrusade" value="Чудо возрождённого духа"/>
+	<entry name="SistersOfBattle/EternalCrusadeDescription" value="Восстанавливает мораль выбранного подразделения."/>
+	<entry name="SistersOfBattle/EternalCrusadeFlavor" value="Искра божественного рвения вновь загорается в утомлённых сердцах, возвышая их над страхом. В свете Императора их дух вновь восстаёт несокрушимым."/>
+	<entry name="SistersOfBattle/WarmachinesWrath" value="Чудо чудесного производства"/>
+	<entry name="SistersOfBattle/WarmachinesWrathDescription" value="Повышает производство всех зданий, создающих подразделения, на выбранной клетке. Не влияет на строительство зданий."/>
+	<entry name="SistersOfBattle/WarmachinesWrathFlavor" value="Праведным гимном и святым огнём Сёстры пробуждают освящённые кузницы к чудесному рвению, вооружая верных с божественной быстротой. Но такие благословения предназначены лишь Его воинам, а не камню и строительным лесам."/>
+	<entry name="SistersOfBattle/MiracleOfFaith" value="Чудо веры"/>
+	<entry name="SistersOfBattle/MiracleOfFaithDescription" value="Сбрасывает перезарядку способности «Акт веры»."/>
+	<entry name="SistersOfBattle/MiracleOfFaithFlavor" value="В горниле битвы сияющая волна преданности захлёстывает верных. На одно биение сердца завеса приподнимается — и в этот святой миг любое деяние вновь становится возможным."/>
+	<entry name="SistersOfBattle/UpliftedMiracleOfFaith" value="Возвышенное чудо веры"/>
+	<entry name="SistersOfBattle/UpliftedMiracleOfFaithDescription" value="Сокращает время перезарядки «Чуда веры» на 50%."/>
+	<entry name="SistersOfBattle/UpliftedMiracleOfFaithFlavor" value="В горниле битвы сияющая волна преданности захлёстывает верных. На одно биение сердца завеса приподнимается — и в этот святой миг любое деяние вновь становится возможным."/>
+	<entry name="SistersOfBattle/MiracleOfReignitedSpirit" value="Чудо возрождённого духа"/>
+	<entry name="SistersOfBattle/MiracleOfReignitedSpiritDescription" value="Восстанавливает мораль выбранного подразделения."/>
+	<entry name="SistersOfBattle/MiracleOfReignitedSpiritFlavor" value="Искра божественного рвения вновь загорается в утомлённых сердцах, возвышая их над страхом. В свете Императора их дух вновь восстаёт несокрушимым."/>
+	<entry name="SistersOfBattle/UpliftedMiracleOfReignitedSpirit" value="Возвышенное чудо возрождённого духа"/>
+	<entry name="SistersOfBattle/UpliftedMiracleOfReignitedSpiritDescription" value="«Чудо возрождённого духа» также восстанавливает выбранному подразделению 10 очков здоровья."/>
+	<entry name="SistersOfBattle/UpliftedMiracleOfReignitedSpiritFlavor" value="Искра божественного рвения вновь загорается в утомлённых сердцах, возвышая их над страхом. В свете Императора их дух вновь восстаёт несокрушимым."/>
+	<entry name="SistersOfBattle/MiracleOfDivineShielding" value="Чудо божественного щита"/>
+	<entry name="SistersOfBattle/MiracleOfDivineShieldingDescription" value="На 1 ход даёт чрезвычайно высокое снижение урона, но запрещает перемещение и уменьшает наносимый урон."/>
+	<entry name="SistersOfBattle/MiracleOfDivineShieldingFlavor" value="Окутанная несокрушимым светом Императора, Сестра становится непреклонным оплотом. Пусть её клинок замрёт и шаг ослабеет — одной веры достаточно, чтобы отвести самые сокрушительные удары."/>
+	<entry name="SistersOfBattle/MiracleOfPurifyingAgony" value="Чудо очищающей агонии"/>
+	<entry name="SistersOfBattle/MiracleOfPurifyingAgonyDescription" value="Подразделение получает бонус к урону, но в конце каждого хода само получает урон."/>
+	<entry name="SistersOfBattle/MiracleOfPurifyingAgonyFlavor" value="В священной муке их вера пылает ярче всего; каждая рана — молитва, каждый приступ боли — обновлённая клятва. Через святое страдание их гнев очищается, и первыми его пламя ощущают враги."/>
+	<entry name="SistersOfBattle/MiracleOfWondrousProduction" value="Чудо чудесного производства"/>
+	<entry name="SistersOfBattle/MiracleOfWondrousProductionDescription" value="Повышает производство всех зданий, создающих подразделения, на выбранной клетке. Не влияет на строительство зданий."/>
+	<entry name="SistersOfBattle/MiracleOfWondrousProductionFlavor" value="Праведным гимном и святым огнём Сёстры пробуждают освящённые кузницы к чудесному рвению, вооружая верных с божественной быстротой. Но такие благословения предназначены лишь Его воинам, а не камню и строительным лесам."/>
+	<entry name="SistersOfBattle/UpliftedMiracleOfWondrousProduction" value="Возвышенное чудо чудесного производства"/>
+	<entry name="SistersOfBattle/UpliftedMiracleOfWondrousProductionDescription" value="Сокращает перезарядку «Чуда чудесного производства» на 2 хода."/>
+	<entry name="SistersOfBattle/MiracleOfRighteousMomentum" value="Чудо праведного порыва"/>
+	<entry name="SistersOfBattle/MiracleOfRighteousMomentumDescription" value="На 1 ход даёт подразделению +2 к движению."/>
+	<entry name="SistersOfBattle/MiracleOfRighteousMomentumFlavor" value="С пылающими сердцами и несломленной волей Сёстры устремляются вперёд. В этот благословенный миг воля Императора несёт их быстрее, чем способна двигаться смертная плоть."/>
+	<entry name="SistersOfBattle/UpliftedMiracleOfRighteousMomentumn" value="Возвышенное чудо праведного порыва"/>
+	<entry name="SistersOfBattle/UpliftedMiracleOfRighteousMomentumDescription" value="«Чудо праведного порыва» также позволяет игнорировать вражеские зоны контроля и сокращает перезарядку на 1 ход."/>
+	<entry name="SistersOfBattle/LitanyOfHealingGrace" value="Литания исцеляющей благодати"/>
+	<entry name="SistersOfBattle/LitanyOfHealingGraceDescription" value="Имагифаеры теперь каждый ход восстанавливают по 2 очка здоровья окружающей союзной пехоте."/>
+	<entry name="SistersOfBattle/LitanyOfHealingGraceFlavor" value="Пока Имагифаер произносит священный стих, от её реликвий разливается мягкое сияние. Плоть срастается, дух укрепляется, а милость Императора исцеляет то, что разорвали сталь и пламя."/>
+	<entry name="SistersOfBattle/BenedictionOfTheHolyMachine" value="Благословение святой машины"/>
+	<entry name="SistersOfBattle/BenedictionOfTheHolyMachineDescription" value="На 1 ход увеличивает дальность всего оружия на 1 клетку.&lt;br/&gt;&lt;br/&gt;&lt;string name='Actions/SistersOfBattle/ActOfFaithDescription'/&gt;"/>
+	<entry name="SistersOfBattle/BenedictionOfTheHolyMachineFlavor" value="Помазанная священными маслами и пробуждённая огнём непоколебимой веры, машина восстаёт под боевой гимн. Её сенсоры обостряются, словно взор Серафима, а орудия сияют праведной целью. На краткий миг воля Императора гудит в каждом проводе, каждом болте, каждой шёпотом произнесённой молитве — даруя машине ясность, пронзающую саму даль. Так металл говорит на языке преданности."/>
+	<entry name="SistersOfBattle/FaithDrivenAfterburn" value="Форсаж веры"/>
+	<entry name="SistersOfBattle/FaithDrivenAfterburnDescription" value="На 1 ход повышает движение на 2.&lt;br/&gt;&lt;br/&gt;&lt;string name='Actions/SistersOfBattle/ActOfFaithDescription'/&gt;"/>
+	<entry name="SistersOfBattle/FaithDrivenAfterburnFlavor" value="Зажжённые несгибаемой верой двигатели самолёта ревут святой яростью. В этом благословенном пламени смертные пределы исчезают, и сами небеса уступают воле верных."/>
+	<entry name="SistersOfBattle/LanceOfTheEmperor" value="Копьё Императора"/>
+	<entry name="SistersOfBattle/LanceOfTheEmperorDescription" value="Повышает движение на 2, но запрещает использовать дистанционное оружие.&lt;br/&gt;&lt;br/&gt;&lt;string name='Actions/SistersOfBattle/ActOfFaithDescription'/&gt;"/>
+	<entry name="SistersOfBattle/LanceOfTheEmperorFlavor" value="“Не следует подвергать сомнению благородство Квестора Империалис. Но если говорить о вере, то никто не сравнится с рыцарем-копейщиком, который идет в бой, вооружённый лишь пикой и собственной невероятной скоростью, молясь о том, чтобы добраться до вражеских позиций. Под стать нашим собственным войскам!”&lt;br/&gt; — Канонисса Вандир, «Во имя стратегии»"/>
+	<entry name="Tau/VolleyFire" value="Залповый огонь"/>
+	<entry name="Tau/VolleyFireDescription" value="Повышает число дистанционных атак соседней союзной пехоты."/>
+	<entry name="Tau/VolleyFireFlavor" value="Под постоянным присмотром Тутора подразделения касты Огня учатся прятаться, ждать подходящего момента и стрелять как один. Залп импульсной энергии бьет как неоновый фейерверк и может основательно деморализовать врагов."/>
+	<entry name="Tau/BreakComposure" value="Слом самообладания"/>
+	<entry name="Tau/BreakComposureDescription" value="Соседняя союзная пехота заставляет атакованные подразделения терять мораль."/>
+	<entry name="Tau/BreakComposureFlavor" value="Хотя Т'ау и не крепки физически, они могут внушать страх своим врагам более тонкими средствами—изматывая их так, что они не могут сосредоточиться, окружая их, заставляя их идти по тактическим путям, которые ведут только к повторным неудачам. Иногда вам даже не нужно соприкасаться с врагом, чтобы победить его."/>
+	<entry name="Tau/DroneFlood" value="Нашествие дронов"/>
+	<entry name="Tau/DroneFloodDescription" value="Мгновенно сбрасывает перезарядку всех способностей дронов у одного подразделения."/>
+	<entry name="Tau/VelocityTracker" value="Установить трекер скорости"/>
+	<entry name="Tau/VelocityTrackerDescription" value="Устанавливает систему поддержки. Повышает точность на 33% против подразделений со свойствами «Летающий», «Гравицикл», «Реактивный ранец» или «Скиммер», но снижает точность на 33% против всех остальных наземных подразделений."/>
+	<entry name="Tau/VelocityTrackerFlavor" value="Эти усовершенствованные системы обнаружения движения и теплового поиска позволяют пилотам отслеживать полёты воздушных целей."/>
+	<entry name="Tau/AutomatedRepairSystem" value="Автоматическая система ремонта"/>
+	<entry name="Tau/AutomatedRepairSystemDescription" value="Система поддержки, восстанавливающая 2 очка здоровья каждый ход."/>
+	<entry name="Tau/AutomatedRepairSystemFlavor" value="Крошечные ремонтные дроны кружатся над поврежденными системами, чтобы восстановить их работоспособность в самом пекле битвы."/>
+	<entry name="Tau/CamouflageSystem" value="Система маскировки"/>
+	<entry name="Tau/CamouflageSystemDescription" value="Система поддержки, защищающая от атак наблюдения."/>
+	<entry name="Tau/CamouflageSystemFlavor" value="Продвинутые проекторы голографического поля искривляют свет вокруг боевых костюмов Тау, делая их почти невидимыми для оптических сенсоров и невооружённого глаза. Эта передовая технология скрытности — вершина инженерного искусства Касты Земли."/>
+	<entry name="Tau/SummonTheHounds" value="Призвать гончих круутов"/>
+	<entry name="Tau/SummonTheHoundsDescription" value="Призывает постоянное подразделение гончих круутов."/>
+	<entry name="Tau/SummonTheHoundsFlavor" value="Всадник на крутоксе издаёт череду гортанных криков, разносящихся под лесным пологом. Древние узы крови и охоты пробуждаются в тенях, и вскоре появляется стая — сухие хищные тела, чьи острые чувства уже нацелены на свежую добычу. В этих зелёных охотничьих угодьях крууты вспоминают, кем являются на самом деле."/>
+	<entry name="Tau/RestorativeNanites" value="Система поддержки восстановительными нанитами"/>
+	<entry name="Tau/RestorativeNanitesDescription" value="Рой нанитов, который даёт соседней пехоте, не являющейся боевыми костюмами, периодическое исцеление на 1 очко здоровья за ход."/>
+	<entry name="Tau/RestorativeNanitesFlavor" value="Включает Огненных Воинов, Штурмовиков, Следопытов, Эфирных, Огненных Клинков Кадры, всадников на крутоксах, гончих круутов и веспидов."/>
+	<entry name="Tau/NanitesInRange" value="Наниты в радиусе"/>
+	<entry name="Tau/NanitesInRangeDescription" value="Это подразделение восстанавливает по 1 очку здоровья за ход, пока находится рядом с подразделением, оснащённым системой восстановительных нанитов."/>
+	<entry name="Tau/SummonMyGuard!" value="Призвать мою гвардию!"/>
+	<entry name="Tau/SummonMyGuard!Description" value="Призывает временное подразделение Огненных Воинов-штурмовиков."/>
+	<entry name="Tau/SummonMyGuard!Flavor" value="Призыв Эфирного не остаётся без ответа — его гвардия связана честью и верой, и её преданность непоколебима, когда она выступает, чтобы заслонить господина."/>
+	<entry name="Tau/EtheralCommand" value="Приказ эфирного"/>
+	<entry name="Tau/EtheralCommandDescription" value="Отдаёт подразделению приказ голосом Эфирных и восстанавливает выбранной цели 1 очко действия."/>
+	<entry name="Tau/EtheralCommandFlavor" value="Услышать голос Эфирного — значит ощутить на себе тяжесть самого Высшего Блага. Даже изнемогая, ни один воин не посмеет дрогнуть под таким руководством."/>
+	<entry name="Tau/TheGreaterGood" value="Для Высшего Блага"/>
+	<entry name="Tau/TheGreaterGoodDescription" value="Воодушевлённые Эфирным, войска Тау получают 17% снижения урона «Нечувствительность к боли»."/>
+	<entry name="Tau/TheGreaterGoodFlavor" value="Присутствие Эфирного закаляет дух Касты Огня. Боль отбрасывается прочь: терпеть молча — значит служить Тау’ва."/>
+	<entry name="Tau/TracerRounds" value="Система трассирующих боеприпасов"/>
+	<entry name="Tau/TracerRoundsDescription" value="Система поддержки, накладывающая на поражённые цели статус «Подсвечен», который снижает их защиту от дистанционного урона."/>
+	<entry name="Tau/TracerRoundsFlavor" value="Система трассировки создана с единственной целью: ни пыль, ни дым, ни обломки, ни укрепления не должны скрыть добычу от охотника. Каждый снаряд несёт спектральную метку, пробивающую помехи и привязывающуюся к энергетической сигнатуре врага. После метки наши комплексы наведения видят цель с абсолютной ясностью, словно она стоит под открытым небом. Элегантность неизбежности."/>
+	<entry name="Tau/Krootox" value="Система трассирующих боеприпасов"/>
+	<entry name="Tau/TracerRoundsDescription" value="Система поддержки, накладывающая на поражённые цели статус «Подсвечен», который снижает их защиту от дистанционного урона."/>
+	<entry name="Tau/TracerRoundsFlavor" value="Система трассировки создана с единственной целью: ни пыль, ни дым, ни обломки, ни укрепления не должны скрыть добычу от охотника. Каждый снаряд несёт спектральную метку, пробивающую помехи и привязывающуюся к энергетической сигнатуре врага. После метки наши комплексы наведения видят цель с абсолютной ясностью, словно она стоит под открытым небом. Элегантность неизбежности."/>
+	<entry name="Tau/RampagerCharge" value="Натиск рампейджеров"/>
+	<entry name="Tau/RampagerChargeDescription" value="На 1 ход повышает урон и снижение урона."/>
+	<entry name="AstraMilitarum/DeepStrike" value="Глубокий удар"/>
+	<entry name="AstraMilitarum/DeepStrikeDescription" value="Телепортирует на выбранную исследованную плитку."/>
+	<entry name="AstraMilitarum/DeepStrikeFlavor" value="Жуткие друкари из теневого царства Элиндрах будто бы порхают между реальностями, проходя из теней одного мира в другой. Таким образом эти чудовищные твари беспрепятственно преодолевают защитные средства, стражей и щиты."/>
+	<entry name="AstraMilitarum/PsyonicGift" value="Псионический дар"/>
+	<entry name="AstraMilitarum/PsyonicGiftDescription" value="Этот дар биомантии повышает очки здоровья псайкера."/>
+	<entry name="AstraMilitarum/PsyonicGiftFlavor" value="Коснувшийся Варпа, но не поглощённый им, псайкер приспосабливается к напряжению. Вены гудят от сырой энергии, плоть твердеет под невидимым давлением — разум укрепляется, сосуд преображается."/>
+	<entry name="AstraMilitarum/Sacrifice" value="Жертва"/>
+	<entry name="AstraMilitarum/SacrificeDescription" value="Тратит очки здоровья, чтобы восстановить очки здоровья выбранного союзного подразделения."/>
+	<entry name="AstraMilitarum/SacrificeFlavor" value="Тихо шепча литанию дрожащими губами, псайкер черпает жизнь не из Варпа, а из собственных угасающих сил. Боль разделена, раны затягиваются — цену платит лишь он."/>
+	<entry name="AstraMilitarum/Bullgrynreinforcements" value="Подкрепления буллгринами"/>
+	<entry name="AstraMilitarum/BullgrynreinforcementsDescription" value="Разворачивает подразделение буллгринов."/>
+	<entry name="AstraMilitarum/MediPack1" value="Большие аптечки"/>
+	<entry name="AstraMilitarum/MediPack1Description" value="Даёт батареям полевой артиллерии, аттиланским всадникам, псайкерам Вирдвейн и буллгринам возможность лечить себя в бою."/>
+	<entry name="AstraMilitarum/MediPack1Flavor" value="Медпакеты содержат все необходимые медикаменты, перевязочные материалы и хирургические инструменты для возврата раненого Имперского гвардейца в бой, или чтобы спасти ему жизнь без необходимых квалифицированных навыков."/>
+	<entry name="AstraMilitarum/HeroesProductionEdict" value="Героическая доктрина"/>
+	<entry name="AstraMilitarum/HeroesProductionEdictDescription" value="Повышает скорость производства в Святилище Аквилы на 33%."/>
+	<entry name="AstraMilitarum/HeroesProductionEdictFlavor" value="Во времена бесконечной войны героев не находят — их куют. Эта доктрина гарантирует, что командиры будут возвышаться быстро и поведут войска там, где другие дрогнут."/>
+	<entry name="AstraMilitarumFoodEdict" value="Агрономический бум"/>
+	<entry name="AstraMilitarumFoodEdictDescription" value="Повышает производство пищи всеми зданиями города на 33%, кроме штаба."/>
+	<entry name="AstraMilitarumFoodEdictFlavor" value="Эдикт, Департаменто Муниторум: для всех Имперских подданных. Личные рационы уменьшаются—немедленно вступает в силу. Арбитры были отправлены на фермы, зернохранилища и склады для обеспечения соблюдения положений эдикта."/>
+	<entry name="AstraMilitarumOreEdict" value="Квоты Добычи"/>
+	<entry name="AstraMilitarumOreEdictDescription" value="Повышает производство руды всеми зданиями города на 33%, кроме штаба."/>
+	<entry name="AstraMilitarumOreEdictFlavor" value="Эдикт, Департаменто Муниторум: для всех мастеров мануфактур: для этого цикла должна быть обеспечена непрерывная работа обслуживающего персонала. Потери работников должны быть замещены из людей нижних категорий штрафников и Трудовой службы."/>
+	<entry name="AstraMilitarumResearchEdict" value="Откровения Омниссии"/>
+	<entry name="AstraMilitarumResearchEdictDescription" value="Повышает производство исследований всеми зданиями города на 33%, кроме штаба."/>
+	<entry name="AstraMilitarumResearchEdictFlavor" value="Эдикт, Адептус Механикус: для всех Техножрецов. В течение этого цикла, стремление к знанию имеет более высокий приоритет. Исследования конструкций, исследовательские миссии должны поощряться. Хвала Омниссии!"/>
+	<entry name="AstraMilitarumEnergyEdict" value="Горячий запуск"/>
+	<entry name="AstraMilitarumEnergyEdictDescription" value="Повышает производство энергии всеми зданиями города на 33%, кроме штаба."/>
+	<entry name="AstraMilitarumEnergyEdictFlavor" value="Эдикт, Департаменто Муниторум: для всех Мастеров силовых блоков. Защита должна быть удалена со всех плазменных ионизаторов; Трудовая служба должна пополнять трудовые ресурсы, потерянные в результате аварий, без дополнительного разрешения."/>
+	<entry name="AstraMilitarum/HearMyCommand" value="Слушай мой приказ!"/>
+	<entry name="AstraMilitarum/HearMyCommandDescription" value="Восстанавливает очко действия выбранному пехотному подразделению."/>
+	<entry name="AstraMilitarum/Granadelaunchers" value="Гранатомёт"/>
+	<entry name="AstraMilitarum/GranadelaunchersDescription" value="Выпускает залп осколочных гранат."/>
+	<entry name="AstraMilitarum/GranadelaunchersFlavor" value="Массовые, надёжные и проверенные войной гранатомёты придают обычному гвардейцу весомый аргумент: несколько точно положенных гранат способны разметать мешки с песком, очистить траншею и переломить ход перестрелки."/>
+	<entry name="AstraMilitarum/AstraBasic" value="Эдикт базового производства"/>
+	<entry name="AstraMilitarum/AstraBasicDescription" value="Повышает производство всех подразделений и зданий на 5%.&lt;br/&gt;&lt;br/&gt;Повышает добычу руды, пищи, энергии и исследования на 5%, а влияние — на 10%.&lt;br/&gt;&lt;br/&gt;Одновременно может действовать только один эдикт."/>
+	<entry name="AstraMilitarum/AstraDefence" value="Эдикт мобилизации гарнизона"/>
+	<entry name="AstraMilitarum/AstraDefenceDescription" value="Повышает броню всех подразделений на городских клетках на 2.&lt;br/&gt;&lt;br/&gt;Повышает скорость производства подразделений в Имперских казармах на 25%.&lt;br/&gt;&lt;br/&gt;Повышает производство влияния на 15%.&lt;br/&gt;&lt;br/&gt;Одновременно может действовать только один эдикт."/>
+	<entry name="AstraMilitarum/AstraProd" value="Эдикт производства сухопутных войск"/>
+	<entry name="AstraMilitarum/AstraProdDescription" value="Повышает скорость производства в Имперских казармах, Мануфакторуме и Казармах ветеранов на 25%.&lt;br/&gt;&lt;br/&gt;Повышает скорость строительства зданий на 10%.&lt;br/&gt;&lt;br/&gt;Одновременно может действовать только один эдикт."/>
+	<entry name="AstraMilitarum/AstraProd2" value="Эдикт производства тяжёлой техники"/>
+	<entry name="AstraMilitarum/AstraProd2Description" value="Повышает скорость производства в Комплексе тяжёлой бронетехники и Литейной тяжёлой поддержки на 20%, кроме штаба.&lt;br/&gt;&lt;br/&gt;Одновременно может действовать только один эдикт."/>
+	<entry name="AstraMilitarum/AstraRes" value="Эдикт добычи ресурсов"/>
+	<entry name="AstraMilitarum/AstraResDescription" value="Повышает производство руды, энергии, пищи и влияния всеми зданиями города на 25%.&lt;br/&gt;&lt;br/&gt;Одновременно может действовать только один эдикт."/>
+	<entry name="AstraMilitarum/AstraUtility" value="Административный эдикт"/>
+	<entry name="AstraMilitarum/AstraUtilityDescription" value="Повышает производство исследований на 33%.&lt;br/&gt;&lt;br/&gt;Повышает производство руды, энергии, пищи и влияния на 10%.&lt;br/&gt;&lt;br/&gt;Одновременно может действовать только один эдикт."/>
+	<entry name="AstraMilitarum/FixBayonets!" value="Приказ: примкнуть штыки!"/>
+	<entry name="AstraMilitarum/FixBayonets!Description" value="Все подразделения в радиусе 1 клетки на 1 ход получают +20% к снижению урона в ближнем бою."/>
+	<entry name="AstraMilitarum/MoveMoveMove!" value="Приказ: вперёд, вперёд, вперёд!"/>
+	<entry name="AstraMilitarum/MoveMoveMove!Description" value="Все подразделения в радиусе 1 клетки получают +1 очко движения, даже если уже перемещались в этом ходу."/>
+	<entry name="AstraMilitarum/DutyAndHonour!" value="Приказ: долг и честь!"/>
+	<entry name="AstraMilitarum/DutyAndHonour!Description" value="Все подразделения в радиусе 1 клетки мгновенно получают 2 морали и на 1 ход получают на 25% меньше урона морали."/>
+	<entry name="AstraMilitarum/TakeCover!" value="Приказ: в укрытие!"/>
+	<entry name="AstraMilitarum/TakeCover!Description" value="Все подразделения в радиусе 1 клетки на 1 ход получают +20% к снижению дистанционного урона. Бонус действует только на подразделения, которые ещё не перемещались в этом ходу."/>
+	<entry name="AstraMilitarum/TakeAim!" value="Приказ: целься!"/>
+	<entry name="AstraMilitarum/TakeAim!Description" value="Все подразделения в радиусе 1 клетки на 1 ход получают +2 к точности (+17% урона). Бонус действует только на подразделения, которые ещё не перемещались в этом ходу."/>
+	<entry name="Necrons/HuntersFromHyperspace" value="Глубокий удар"/>
+	<entry name="Necrons/HuntersFromHyperspaceDescription" value="Телепортирует на выбранную исследованную плитку."/>
+	<entry name="Necrons/HuntersFromHyperspaceFlavor" value="С орбиты, из Варпа или из тёмной пустоты эти воины обрушиваются без предупреждения — туда, где враг слабее всего."/>
+	<entry name="AdeptusMechanicus/GiftOfTheOmnissiah" value="Дар Омниссии"/>
+	<entry name="AdeptusMechanicus/GiftOfTheOmnissiahDescription" value="Повышает очки здоровья и число атак этого подразделения."/>
+	<entry name="AdeptusMechanicus/GiftOfTheOmnissiahFlavor" value="Доказавшим свою ценность перед Омниссией техножрецы даруют могущественные Благословения."/>
+	<entry name="AdeptusMechanicus/Crippled" value="Искалечен"/>
+	<entry name="AdeptusMechanicus/CrippledDescription" value="Снижает движение техники на 3 и точность на 33%."/>
+	<entry name="AdeptusMechanicus/Shutdown" value="Отключение"/>
+	<entry name="AdeptusMechanicus/ShutdownDescription" value="Снижает движение техники на 3 и точность на 33%."/>
+	<entry name="ConstructImperialStrongpoint" value="Построить &lt;string name='Units/AstraMilitarum/ImperialStrongpoint'/&gt;"/>
+	<entry name="ConstructImperialStrongpointDescription" value="&lt;string name='Units/AstraMilitarum/ImperialStrongpointDescription'/&gt;"/>
+	<entry name="ConstructImperialStrongpointFlavor" value="&lt;string name='Units/AstraMilitarum/ImperialStrongpointFlavor'/&gt;"/>
+	<entry name="ConstructVoidshieldBastion" value="Возвести бастион с пустотным щитом"/>
+	<entry name="ConstructVoidshieldBastionDescription" value="Освящённая техножрецами крепость Адептус Механикус, защищённая перекрывающимися пустотными полями и вооружённая двумя разрушительными фосфорными пушками. Три батареи тяжёлых стабберов обеспечивают ближнюю оборону; каждая требует ручного управления."/>
+	<entry name="ConstructVoidshieldBastionFlavor" value="Гибрид имперского бастиона и генератора пустотного щита, это укрепление создано Адептус Механикус, чтобы стать непоколебимым якорем поля боя. Окутанное трескучим пустотным щитом и вооружённое фосфорными пушками, оно выдерживает сокрушительные атаки и одновременно выжигает врага алхимическим пламенем с машинной точностью. Святилище стали и схем, оно соединяет веру и функцию — неподвижное, несокрушимое и беспощадное."/>
+	<entry name="AdeptusMechanicus/GalvanicAegis" value="Гальванический эгис"/>
+	<entry name="AdeptusMechanicus/GalvanicAegisDescription" value="Это защитное силовое поле повышает броню выбранного союзного подразделения."/>
+	<entry name="AdeptusMechanicus/ForcefieldFlavor" value="Сплетённое из дуг трескучей энергии и дата-молитв, поле Гальванического эгиса исходит от командных жезлов техножреца-манипула. Накрывая союзные подразделения, оно искажает вражеский огонь, рассеивает кинетические удары и защищает плоть священной геометрией электростатического единства. Это не просто энергия — это воплощённая доктрина, живая формула защиты, освящённая Богом-Машиной."/>
+	<entry name="AdeptusMechanicus/DigitalWeapons" value="Цифровое оружие"/>
+	<entry name="AdeptusMechanicus/DigitalWeaponsDescription" value="Эти миниатюрные энергетические излучатели мгновенно прожигают бронеплиты и выводят из строя двигатели."/>
+	<entry name="AdeptusMechanicus/DigitalWeaponsFlavor" value="Крохотные, но смертоносные, эти миниатюрные энергетические излучатели скрыты в мехадендритах и аугметических конечностях техножрецов. Под управлением ноосферных алгоритмов наведения и воли Бога-Машины они испускают точечные импульсы фазоразрушающей энергии, способные перегружать системы техники, плавить бронеплиты и мгновенно выводить двигатели из строя."/>
+	<entry name="AdeptusMechanicus/Armorbane" value="Поражение брони"/>
+	<entry name="AdeptusMechanicus/ArmorbaneDescription" value="Этот дата-вирус снижает броню выбранного вражеского подразделения."/>
+	<entry name="AdeptusMechanicus/ArmorbaneFlavor" value="Высвобождая потоки противоброневых дата-вирусов и сфокусированные гравитационные импульсы, техножрецы Марса активируют протокол «Поражение брони», разрушая священную целостность вражеской стали. Бронеплиты прогибаются, пустотные уплотнения лопаются, укрепления трескаются, а некогда гордые машины войны превращаются в лом под неумолимой логикой уничтожения Механикус."/>
+	<entry name="AdeptusMechanicus/DeployBreacher" value="Развернуть Катафрона-разрушителя"/>
+	<entry name="AdeptusMechanicus/DeployBreacherDescription" value="Разворачивает подразделение Катафронов-разрушителей."/>
+	<entry name="AdeptusMechanicus/DeployBreacherFlavor" value="Лязгающие молитвы машинного кода разносятся в затянутом дымом воздухе, когда техножрец-доминус взмахом сервоклешней и мехадендритов отдаёт приказ наступать. Катафроны-разрушители грохочут вперёд — не солдаты, а живое оружие теологии: наполовину люди, наполовину машины, целиком — гнев."/>
+	<entry name="AdeptusMechanicus/CyberneticaEnhancement" value="Усиление Кибернетики"/>
+	<entry name="AdeptusMechanicus/CyberneticaEnhancementDescription" value="Навсегда усиливает пехотное подразделение, повышая его урон и очки здоровья."/>
+	<entry name="AdeptusMechanicus/CyberneticaEnhancementFlavor" value="Священными командными протоколами Маршал пробуждает дремлющие кибернетические импланты своих воинов, вызывая древних духов машин, пылающих праведной яростью против слабости плоти."/>
+	<entry name="AdeptusMechanicus/ServoSkullUplink" value="Узел связи сервочерепа"/>
+	<entry name="AdeptusMechanicus/ServoSkullUplinkDescription" value="Повышает снижение дистанционного урона союзной пехоты Адептус Механикус в радиусе действия."/>
+	<entry name="AdeptusMechanicus/ServoSkullUplinkFlavor" value="Парящие сервочерепа с ауспик-массивами и когитаторами анализа угроз непрерывно сканируют поле боя и передают тактические данные ближайшим воинам. Их духи машин вычисляют траектории вражеских снарядов и транслируют протоколы уклонения, позволяя верным предугадывать и отражать огонь врага под водительством Омниссии."/>
+	<entry name="AdeptusMechanicus/GalvanicField" value="Гальваническое поле"/>
+	<entry name="AdeptusMechanicus/GalvanicFieldDescription" value="На 2 хода повышает бронебойность всех выбранных подразделений Адептус Механикус в радиусе 2 клеток."/>
+	<entry name="AdeptusMechanicus/GalvanicFieldFlavor" value="Используя Движущую Силу, содержащуюся в большом гальваническом элементе, электропозиторы манипулы могут наполнить оружие ближайших союзников основным потоком всех жизней, неся священные блага Омниссии, чтобы превратить в прах всех еретиков."/>
+	<entry name="AdeptusMechanicus/BulwarkImperative" value="Приказ Бастион"/>
+	<entry name="AdeptusMechanicus/BulwarkImperativeDescription" value="Повышает броню подразделений «Неоспоримых доктрин», но снижает их движение.&lt;br/&gt;&lt;br/&gt;Стоимость зависит от числа затронутых подразделений (до 10)."/>
+	<entry name="AdeptusMechanicus/BulwarkImperativeFlavor" value="Воинская мудрость древних и опытных Редукторов насильственно загружена в умы скитариев. Каждый захватывающий импульс данных устанавливает микроприводы в фиксированных положениях, приводит в действие резервные элементы питания и дает солдатам техножрецов ощущение священной неуязвимости."/>
+	<entry name="AdeptusMechanicus/ProtectorImperative" value="Приказы Защитника"/>
+	<entry name="AdeptusMechanicus/ProtectorImperativeDescription" value="Повышает дистанционную точность подразделений «Неоспоримых доктрин», но снижает их броню.&lt;br/&gt;&lt;br/&gt;Стоимость зависит от числа затронутых подразделений (до 10)."/>
+	<entry name="AdeptusMechanicus/ProtectorImperativeFlavor" value="Приказы Защитника закодированы так, чтобы нести как можно больший спектр точной информации. Дополнительная мощность подается в узкополосную оптику и дальномеры, подключенные напрямую к приоритетному программированию Скитариев, поскольку пушки святых воинов становятся продолжением их самих."/>
+	<entry name="AdeptusMechanicus/ConquerorImperative" value="Приказы завоевателя"/>
+	<entry name="AdeptusMechanicus/ConquerorImperativeDescription" value="Повышает точность в ближнем бою подразделений «Неоспоримых доктрин», но снижает их радиус обзора.&lt;br/&gt;&lt;br/&gt;Стоимость зависит от числа затронутых подразделений (до 10)."/>
+	<entry name="AdeptusMechanicus/ConquerorImperativeFlavor" value="Когда враг подступает близко, техножрец, контролирующий манипулу, подгружает подчинённым скитариям приказы завоевателя, которые повышают приоритет рукопашных подпрограмм, побуждая воина к физическому действию в ущерб более сложным прицельным программам."/>
+	<entry name="AdeptusMechanicus/AggressorImperative" value="Приказы агрессора"/>
+	<entry name="AdeptusMechanicus/AggressorImperativeDescription" value="Повышает движение подразделений «Неоспоримых доктрин», но снижает их дистанционную точность.&lt;br/&gt;&lt;br/&gt;Стоимость зависит от числа затронутых подразделений (до 10)."/>
+	<entry name="AdeptusMechanicus/AggressorImperativeFlavor" value="Скитарии чувствуют прикосновение невидимой руки к своему разуму, когда Бог машин гонит их вперед. Сервоприводы доведены до предела своей конструкционной прочности, когда пучки волокон наполняются безграничной энергией Движущей Силы и подталкивают верующих к неудержимому крестовому походу."/>
+	<entry name="AdeptusMechanicus/LitanyOfTheElectromancer" value="Литания электроманта"/>
+	<entry name="AdeptusMechanicus/LitanyOfTheElectromancerDescription" value="Атакующая способность глобального радиуса, поражающая одно подразделение.&lt;br/&gt;&lt;br/&gt;Сила атаки и стоимость зависят от числа подразделений «Славословий Омниссии» (до 10). Базовая атака: 1 атака + 1 атака за каждое подразделение."/>
+	<entry name="AdeptusMechanicus/LitanyOfTheElectromancerFlavor" value="Вызывая искру божественности Бога машин, которая горит в них, у верных последователей Омниссии проявляют пылающие ауры энергии, уничтожающие неверующих."/>
+	<entry name="AdeptusMechanicus/Shroudpsalm1" value="Псалом покрова"/>
+	<entry name="AdeptusMechanicus/Shroudpsalm1Description" value="На 2 хода снижает точность вражеского подразделения.&lt;br/&gt;&lt;br/&gt;Эффективность увеличивается с числом подконтрольных вам подразделений «Славословий Омниссии» (до 10). Базовый штраф: 25% + 7,5% за каждое подразделение."/>
+	<entry name="AdeptusMechanicus/ShroudpsalmFlavor" value="Робот, сервитор и жрец переводят свои бинарные излучения в видимый спектр, статика, исходящая от их вокс-решеток, проявляется в виде электромагнитной бури, скрывающей их от врага."/>
+	<entry name="AdeptusMechanicus/BenedictionOfOmniscience1" value="Благословение всезнания"/>
+	<entry name="AdeptusMechanicus/BenedictionOfOmniscience1Description" value="Повышает снижение урона подразделения.&lt;br/&gt;&lt;br/&gt;Эффективность увеличивается с числом подконтрольных вам подразделений «Славословий Омниссии» (до 10). Базовый эффект: 21% + 3% за каждое подразделение."/>
+	<entry name="AdeptusMechanicus/IncantationOfTheIronSoul1" value="Заклинание железной души"/>
+	<entry name="AdeptusMechanicus/IncantationOfTheIronSoul1Description" value="Повышает мораль выбранного подразделения и всех подразделений на соседних клетках.&lt;br/&gt;&lt;br/&gt;Эффективность увеличивается с числом подконтрольных вам подразделений «Славословий Омниссии» (до 10). Базовый эффект: +2 морали и ещё +0,3 за каждое подразделение."/>
+	<entry name="AdeptusMechanicus/BroadSpectrumDataTether" value="Широкополосная инфопривязь"/>
+	<entry name="AdeptusMechanicus/BroadSpectrumDataTetherDescription" value="Снижает потерю морали этого подразделения и смежных союзных отрядов Адептус Механикус."/>
+	<entry name="AdeptusMechanicus/BroadSpectrumDataTetherFlavor" value="Широкополосная инфопривязь – бортовой вариант устройства, носимого ветеранами-скитариями, – проецирует бинарную скороговорку техножреца настолько чётко, что кажется, будто сам он находится среди скитариев. Приказы, переданные через такие ретрансляторы, действуют эффективнее и надёжнее остальных."/>
+	<entry name="AdeptusMechanicus/Shroudpsalm" value="Псалом покрова"/>
+	<entry name="AdeptusMechanicus/ShroudpsalmDescription" value="Повышает сокращение дистанц. урона подразделениям Славословий Омниссии. Стоимость и эффективность зависят от количества затронутых подразделений (до 10)."/>
+	<entry name="AdeptusMechanicus/ShroudpsalmFlavor" value="Робот, сервитор и жрец переводят свои бинарные излучения в видимый спектр, статика, исходящая от их вокс-решеток, проявляется в виде электромагнитной бури, скрывающей их от врага."/>
+	<entry name="AssaultDoctrine" value="Базовая доктрина: штурмовая доктрина"/>
+	<entry name="AssaultDoctrineDescription" value="Базовая доктрина: даёт -10% получаемого дистанционного урона и +1 к точности в ближнем бою.&lt;br/&gt;&lt;br/&gt;Действует на штурмовых космодесантников, байкеров-разведчиков, Invader ATV, примарис-перехватчиков, примарис-агрессоров, лэндспидеры, Storm Speeder, Razorback, апотекариев, дредноутов, дредноутов «Редемптор», штурмовых терминаторов, Land Raider, Stormraven и Stormtalon.&lt;br/&gt;&lt;br/&gt;Стоимость способности во влиянии растёт с числом затронутых подразделений, максимум до 20."/>
+	<entry name="AssaultDoctrineFlavor" value="“Там, где есть неуверенность, я буду нести Свет.&lt;br/&gt;Там, где есть сомнение, я буду сеять Веру.&lt;br/&gt;Там, где есть срам, я укажу путь Искупления.&lt;br/&gt;Там, где есть гнев, я покажу куда его направить.&lt;br/&gt;Мои слова, обращенные к вашим душам, должны действовать, как мой болтер на поле битвы.”&lt;br/&gt;—Литания Преданности, традиционная."/>
+	<entry name="TacticalDoctrine" value="Базовая доктрина: тактическая доктрина"/>
+	<entry name="TacticalDoctrineDescription" value="Базовая доктрина: даёт +10% к числу атак и +10% к игнорированию снижения дистанционного урона.&lt;br/&gt;&lt;br/&gt;Действует на тактических космодесантников, примарис-интерцессоров, разведчиков, примарис-хеллбластеров, терминаторов, Razorback, Hunter, Land Speeder, Land Raider, Predator, Repulsor Executioner, Stormraven и Stormtalon.&lt;br/&gt;&lt;br/&gt;Стоимость способности во влиянии растёт с числом затронутых подразделений, максимум до 20."/>
+	<entry name="TacticalDoctrineFlavor" value="“Они чисты сердцем и сильны телом, не испытывают сомнения и незапятнанны самовозвеличиванием. Они будут яркими звездами на небосводе битвы. Ангелы Смерти, чьи блестящие крылья быстро уничтожают врагов Человечества. Так будет тысячу раз в течение тысячи лет, до самого конца вечности и исчезновения смертной плоти.”&lt;br/&gt;—Кодекс Астартес, Робаут Жилиман, Примарх Ультрамаринов, Лорд-командующий и Имперский регент"/>
+	<entry name="DevastatorDoctrine" value="Базовая доктрина: доктрина Опустошителей"/>
+	<entry name="DevastatorDoctrineDescription" value="Базовая доктрина: даёт +15% к дистанционной точности.&lt;br/&gt;&lt;br/&gt;Действует на космодесантников-опустошителей, центурионов-опустошителей, Whirlwind, Vindicator, громовые пушки, примарис-агрессоров, Land Raider, дредноутов, Storm Speeder, Stormraven и Stormtalon.&lt;br/&gt;&lt;br/&gt;Стоимость способности во влиянии растёт с числом затронутых подразделений, максимум до 20."/>
+	<entry name="DevastatorDoctrineFlavor" value="“Победа часто опирается на правильное вооружение, оказывающееся в нужном месте и в нужное время. Даже самое разрушительное оружие войны бесполезно, если оно не участвует в бою.”&lt;br/&gt;—Артор Амхрад, Мастер Ордена Астральных Рыцарей"/>
+	<entry name="BolterDrill" value="Продвинутая доктрина: стремительный удар"/>
+	<entry name="BolterDrillDescription" value="Продвинутая доктрина: даёт +1 к движению пехоте, байкерам-разведчикам и Invader ATV.&lt;br/&gt;&lt;br/&gt;Стоимость способности во влиянии растёт с числом затронутых подразделений, максимум до 20."/>
+	<entry name="BolterDrillFlavor" value="Вся эта муштра всё-таки чего-то стоит."/>
+	<entry name="TheFleshIsWeak" value="Продвинутая доктрина: доктрина стойкой обороны"/>
+	<entry name="TheFleshIsWeakDescription" value="Продвинутая доктрина: повышает снижение урона всех подразделений на 17%.&lt;br/&gt;&lt;br/&gt;Стоимость способности во влиянии растёт с числом затронутых подразделений, максимум до 20."/>
+	<entry name="TheFleshIsWeakFlavor" value="“Мы получили тяжелые ранения. Но все же мы стоим, с огнем в наших глазах и доблестью в наших сердцах. Пусть они думают, что нас разбили. Мы научим их думать иначе.”&lt;br/&gt;—Педро Кантор, Мастер Ордена Багровые Кулаки"/>
+	<entry name="MachineEmpathy" value="Продвинутая доктрина: бронированный кулак"/>
+	<entry name="MachineEmpathyDescription" value="Продвинутая доктрина: техника и укрепления восстанавливают по 3 очка здоровья за ход, остальные подразделения — по 1.&lt;br/&gt;&lt;br/&gt;Стоимость способности во влиянии растёт с числом затронутых подразделений, максимум до 20."/>
+	<entry name="MachineEmpathyFlavor" value="“Уподобься Хищнику. Пусть твоя душа будет бронирована Верой и следует путём Послушания. Она преодолеет все препятствия и будет вооружена тремя великими благодатями—Усердие, Долг и Чистота.”&lt;br/&gt;—традиционные Имперские молитвы, неизвестный источник"/>
+	<entry name="SpaceMarines/LastStandDoctrine" value="Продвинутая доктрина: последний рубеж"/>
+	<entry name="SpaceMarines/LastStandDoctrineDescription" value="Продвинутая доктрина: когда подразделение Космодесанта уничтожено, все ближайшие подразделения Космодесанта получают +1 к дистанционной точности, +10% к числу атак в ближнем бою и 5% снижения урона."/>
+	<entry name="SpaceMarines/LastStandDoctrineFlavor" value="Даже в смерти мы служим. Пусть кровь павших братьев питает огонь возмездия, а их жертва эхом прокатится по самому Варпу. За каждого павшего боевого брата последуют десять еретиков. Клянёмся в этом святым именем Императора."/>
+	<entry name="SpaceMarines/FortressOfWill" value="Крепость воли"/>
+	<entry name="SpaceMarines/FortressOfWillDescription" value="На 2 хода повышает броню всех союзных подразделений в радиусе 2 клеток."/>
+	<entry name="SpaceMarines/FortressOfWillFlavor" value="Пусть клинок еретика сломается о щит нашей веры! Пусть когти ксеноса не найдут опоры в нашей решимости! Мы — избранные Императора, и Его воля — наша броня!"/>
+	<entry name="SpaceMarines/HumanitysFinest" value="Лучшие из человечества"/>
+	<entry name="SpaceMarines/HumanitysFinestDescription" value="Даёт Капитану и ближайшим подразделениям повышенное снижение урона ближнего боя и отражает часть полученного урона обратно атакующим."/>
+	<entry name="SpaceMarines/Burnthemdown!" value="Сжечь их!"/>
+	<entry name="SpaceMarines/Burnthemdown!Description" value="Мощная огненная атака. Особенно эффективна против пехоты."/>
+	<entry name="PoisonSting" value="Ядовитое Жало"/>
+	<entry name="PoisonStingDescription" value="Дьяволы используют яд своих хвостов, чтобы ослабить жертву."/>
+	<entry name="LivingPrometheanIncubator" value="Живой Инкубатор Прометида"/>
+	<entry name="LivingPrometheanIncubatorDescription" value="Порождает Молодняк Прометида."/>
+	<entry name="DeathWail" value="Смертельный Вой"/>
+	<entry name="DeathWailDescription" value="Мутанты испускают могучий рёв, который приводит к мгновенной смерти слабых духом."/>
+	<entry name="DryadShield" value="Щит Дриады"/>
+	<entry name="DryadShieldDescription" value="Увеличивает броню Высокой Дриады и соседних союзных отрядов."/>
+	<entry name="RejuvenateHealth" value="Обновление Здоровья"/>
+	<entry name="RejuvenateHealthDescription" value="Восстанавливает очки здоровья союзному пехотному отряду."/>
+	<entry name="HorrificVisions" value="Ужасные Видения"/>
+	<entry name="HorrificVisionsDescription" value="Псайкер насылает отвратительные видения самого варпа на своих жертв."/>
+	<entry name="ShadowOfTheWarp" value="Тень Варпа"/>
+	<entry name="ShadowOfTheWarpDescription" value="Каждый ход снижает мораль соседних вражеских псайкеров."/>
+	<entry name="ShadowOfTheWarpFlavor" value="Присутствие псайкера опустошительно распространяется вокруг, снижая способность псайкеров, стоящих перед ним, использовать свои пустотные силы."/>
+	<entry name="RoarOfWrath" value="Яростный Рёв"/>
+	<entry name="RoarOfWrathDescription" value="Восстанавливает мораль соседних союзных отрядов и снижает мораль соседних вражеских."/>
+	<entry name="RoarOfWrathFlavor" value="Рёв Владыки Гончих эхом громыхает по полю боя, заставляя молодых гончих наполняться новой силой, а врагов опускаться в ужасе."/>
+	<entry name="DaemonPath" value="Путь демона"/>
+	<entry name="DaemonPathDescription" value="Повышает число атак выбранного союзного подразделения."/>
+	<entry name="PetalStorm" value="Буря лепестков"/>
+	<entry name="PetalStormFlavor" value="Гигантская Одри II использует лепестки как осколки гранат, уничтожая врагов издалека."/>
+</language>

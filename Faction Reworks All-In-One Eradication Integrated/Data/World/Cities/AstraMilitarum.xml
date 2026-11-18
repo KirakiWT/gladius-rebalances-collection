@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<city actionsTitle="GUI/Edicts">
+	<actions>
+	
+
+
+		<tactic cooldown="8"
+				durationInSeconds="0.1"
+				interfaceSound="Interface/Edict"
+				name="AstraMilitarum/AstraBasic">
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="30"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<actorModifiers>
+				<modifier>
+					<effects>
+						<addTrait duration="8" name="AstraMilitarum/AstraBasic"/>
+					</effects>
+				</modifier>
+			</actorModifiers>	
+			<sharedCooldowns>
+				<action name="AstraMilitarum/AstraDefence"/>
+				<action name="AstraMilitarum/AstraProd"/>
+				<action name="AstraMilitarum/AstraProd2"/>
+				<action name="AstraMilitarum/AstraRes"/>
+				<action name="AstraMilitarum/AstraUtility"/>
+			</sharedCooldowns>
+
+		</tactic>
+
+
+
+
+
+
+		<tactic cooldown="8"
+				durationInSeconds="0.1"
+				interfaceSound="Interface/Edict"
+				name="AstraMilitarum/AstraDefence"
+				requiredUpgrade="AstraMilitarum/AstraDefence">
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="40"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<actorModifiers>
+				<modifier>
+					<effects>
+						<addTrait duration="8" name="AstraMilitarum/AstraDefence"/>
+						<addTrait duration="8" name="AstraMilitarumDefenseEdict"/>
+					
+					</effects>
+				</modifier>
+			</actorModifiers>	
+			<sharedCooldowns>
+				<action name="AstraMilitarum/AstraBasic"/>
+				<action name="AstraMilitarum/AstraProd"/>
+				<action name="AstraMilitarum/AstraProd2"/>
+				<action name="AstraMilitarum/AstraRes"/>
+				<action name="AstraMilitarum/AstraUtility"/>
+			</sharedCooldowns>
+
+
+
+
+
+		</tactic>
+
+
+
+
+	<tactic cooldown="8"
+				durationInSeconds="0.1"
+				interfaceSound="Interface/Edict"
+				name="AstraMilitarum/AstraProd"
+				requiredUpgrade="AstraMilitarum/AstraProd">
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="60"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<actorModifiers>
+				<modifier>
+					<effects>
+						<addTrait duration="8" name="AstraMilitarum/AstraProd"/>
+					</effects>
+				</modifier>
+			</actorModifiers>
+
+			<sharedCooldowns>
+				<action name="AstraMilitarum/AstraBasic"/>
+				<action name="AstraMilitarum/AstraDefence"/>
+				<action name="AstraMilitarum/AstraProd2"/>
+				<action name="AstraMilitarum/AstraRes"/>
+				<action name="AstraMilitarum/AstraUtility"/>
+			</sharedCooldowns>
+
+
+
+
+
+
+
+
+
+		</tactic>
+
+
+
+
+
+
+
+
+	<tactic cooldown="8"
+				durationInSeconds="0.1"
+				interfaceSound="Interface/Edict"
+				name="AstraMilitarum/AstraRes"
+				requiredUpgrade="AstraMilitarum/AstraRes">
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="60"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<actorModifiers>
+				<modifier>
+					<effects>
+						<addTrait duration="8" name="AstraMilitarum/AstraRes"/>
+					</effects>
+				</modifier>
+			</actorModifiers>	
+
+			
+			<sharedCooldowns>
+				<action name="AstraMilitarum/AstraBasic"/>
+				<action name="AstraMilitarum/AstraDefence"/>
+				<action name="AstraMilitarum/AstraProd"/>
+				<action name="AstraMilitarum/AstraProd2"/>
+				<action name="AstraMilitarum/AstraUtility"/>
+			</sharedCooldowns>
+
+
+		</tactic>
+
+
+		<tactic cooldown="8"
+				durationInSeconds="0.1"
+				interfaceSound="Interface/Edict"
+				name="AstraMilitarum/AstraUtility"
+				requiredUpgrade="AstraMilitarum/AstraUtility">
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="50"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<actorModifiers>
+				<modifier>
+					<effects>
+						<addTrait duration="8" name="AstraMilitarum/AstraUtility"/>
+					</effects>
+				</modifier>
+			</actorModifiers>
+
+					<sharedCooldowns>
+				<action name="AstraMilitarum/AstraBasic"/>
+				<action name="AstraMilitarum/AstraDefence"/>
+				<action name="AstraMilitarum/AstraProd"/>
+				<action name="AstraMilitarum/AstraProd2"/>
+				<action name="AstraMilitarum/AstraRes"/>
+			</sharedCooldowns>
+		</tactic>
+
+
+
+
+
+
+			<tactic cooldown="8"
+				durationInSeconds="0.1"
+				interfaceSound="Interface/Edict"
+				name="AstraMilitarum/AstraProd2"
+				requiredUpgrade="AstraMilitarum/AstraProd2">
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="100"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<actorModifiers>
+				<modifier>
+					<effects>
+						<addTrait duration="8" name="AstraMilitarum/AstraProd2"/>
+					</effects>
+				</modifier>
+			</actorModifiers>
+
+
+			<sharedCooldowns>
+				<action name="AstraMilitarum/AstraBasic"/>
+				<action name="AstraMilitarum/AstraDefence"/>
+				<action name="AstraMilitarum/AstraProd"/>
+				<action name="AstraMilitarum/AstraRes"/>
+				<action name="AstraMilitarum/AstraUtility"/>
+			</sharedCooldowns>
+
+
+
+
+		</tactic>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</actions>
+	<traits>
+		<trait name="ImperialSplendour" requiredUpgrade="AstraMilitarum/ImperialSplendour"/>
+	</traits>
+</city>

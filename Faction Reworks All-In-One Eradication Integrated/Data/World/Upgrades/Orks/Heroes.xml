@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade position="4" icon="Buildings/Orks/Heroes">
+    <strategyModifiers>
+        <modifier>
+            <effects>
+                <increaseInfantryProductionScore base="1.0"/>
+                <increaseHeroesProductionScore base="1.0"/>
+            </effects>
+        </modifier>
+    </strategyModifiers>
+</upgrade>

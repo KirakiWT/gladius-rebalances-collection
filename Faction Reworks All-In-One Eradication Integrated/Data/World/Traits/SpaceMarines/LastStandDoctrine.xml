@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait>
+	<onUnitDisappeared>
+		<area affects="Unit" radius="999">
+			<modifiers>
+				<modifier>
+					<conditions>
+						<unit>
+							<allied/>
+							<faction name="SpaceMarines"/>
+						</unit>
+					</conditions>
+					<effects>
+										<rangedAccuracy add="1"/>
+										<invulnerableDamageReduction add="0.05"/>
+										<meleeAttacks mul="0.1"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</area>
+	</onUnitDisappeared>
+</trait>

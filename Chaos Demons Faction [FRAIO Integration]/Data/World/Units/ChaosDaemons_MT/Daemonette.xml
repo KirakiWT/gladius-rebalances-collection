@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>
+		<unit mesh="Units/Reinforcements_MT/Daemonette"
+				material="Units/Reinforcements_MT/Daemonette"
+				idleAnimation="Units/Drukhari/SuccubusIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				portraitFocusHeightModifier="-8"
+				portraitZoomModifier="1.25"
+				scale="0.8 0.8 0.8"
+				bloodBone="Chest"
+				position="0 0 0"
+				walker="1"/>
+	</model>
+	<group size="8" rowSize="4" memberDeltaX="70" memberDeltaY="50"/>
+	<weapons>
+		<weapon name="ChaosDaemons_MT/AlluringBlade">
+			<model>
+				<weapon/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="4"/>
+				<hitpointsMax base="2.0"/>
+				<meleeAccuracy base="8"/>
+				<meleeAttacks base="2"/>
+				<strengthDamage base="1"/>
+				<moraleMax base="8"/>
+				<movementMax base="3"/>
+				<productionCost base="33"/>
+				<foodCost base="30"/>
+				<energyCost base="30"/>
+				<energyUpkeep base="2"/>
+				<rangedAccuracy base="8"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<player>
+					<aiControlled/>
+				</player>
+			</conditions>
+			<effects>
+			</effects>
+		</modifier>	
+		<modifier visible="0">
+			<conditions>
+				<player>
+					<notAIControlled/>
+				</player>
+			</conditions>
+			<effects>
+			</effects>
+		</modifier>	
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseInfantryScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action	chargeAnimation="Units/Drukhari/SuccubusCharge"
+						meleeAnimation="Units/Drukhari/SuccubusMelee"
+						meleeBeginSwing="0.15"
+						meleeEndSwing="0.5"/>
+			</model>				
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/Drukhari/SuccubusDie1"
+						sound="Units/MediumUnarmoredDie"
+						soundCount="4"
+						soundDelay="0.85"
+						voiceSound="Units/Drukhari/SuccubusDie"
+						voiceSoundCount="1"
+						voiceSoundDelay="0.1"/>
+			</model>		
+		</die>
+		<idle>
+			<model>
+				<action animationSpeed="1.0"/>
+			</model>
+		</idle>
+		<move>
+			<model>
+				<action animation="Units/Drukhari/SuccubusMove"
+						sound="Units/AstraMilitarum/InfantryMove"
+						soundCount="4"/>
+			</model>		
+		</move>
+		<dimensionalCorridor cooldown="5"
+				name="ChaosDaemons_MT/WarpRiftTeleport"
+				requiredUpgrade="ChaosDaemons_MT/WarpRift"
+				icon="Actions/Necrons/GravityPulse">
+			<model>
+				<action sound="Actions/Teleport"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/WarpRift"/>
+				</unit>
+			</conditions>
+			<modifiers>
+				<modifier requiredUpgrade="ChaosDaemons_MT/WarpSurge">
+					<effects>
+						<consumedActionPoints max="0"/>
+						<consumedMovement max="0"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</dimensionalCorridor>
+	</actions>
+	<traits>
+		<trait name="Daemon"/>
+		<trait name="Fleet"/>
+		<trait name="ChaosDaemons_MT/Slaanesh"/>
+		<trait name="ChaosDaemons_MT/HarbringerOfLust"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Undivided"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Khorne"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Tzeentch"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Slaanesh"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Nurgle"/>
+		<trait name="ChaosDaemons_MT/WarpRift"/>
+		<trait name="ChaosDaemons_MT/DaemonicResilience" requiredUpgrade="ChaosDaemons_MT/ExtraInfantryArmour"/>
+	</traits>
+</unit>

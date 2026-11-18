@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade visible="0" icon="Actions/Signum">
+	<requiredUpgrades>
+		<upgrade name="SpaceMarines/DevastatorSpaceMarine"/>
+	</requiredUpgrades>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseInfantryScore base="0.75"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+</upgrade>

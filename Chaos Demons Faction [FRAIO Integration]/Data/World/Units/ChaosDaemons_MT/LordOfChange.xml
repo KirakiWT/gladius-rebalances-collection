@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>
+		<unit mesh="Units/Reinforcements_MT/LordOfChange"
+				material="Units/Reinforcements_MT/LordOfChange"
+				idleAnimation="Units/Reinforcements_MT/LordOfChange/Idle"
+				idleAnimationCount="4"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="1 1 1"
+				bloodBone="Waist"
+				walker="1"/>
+	</model>
+	<weapons>
+		<weapon name="ChaosDaemons_MT/StaffOfTzeentch">
+			<model>
+				<weapon fireInterval="0.5"/>
+			</model>
+		</weapon>
+		<weapon name="ChaosDaemons_MT/BoltOfChange" slotName="BoltOfChange" enabled="0">
+			<model>
+				<beamWeapon muzzleBone="Bone.002"/>
+			</model>
+		</weapon>
+		<weapon name="ChaosDaemons_MT/EyeOfTzeentch" slotName="EyeOfTzeentch" enabled="0"/>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="4"/>
+				<hitpointsMax base="48.0"/>
+				<meleeAccuracy base="8"/>
+				<meleeAttacks base="2"/>
+				<strengthDamage base="6"/>
+				<moraleMax base="12"/>
+				<movementMax base="3"/>
+				<productionCost base="60"/>
+				<foodCost base="80"/>
+				<energyCost base="200"/>
+				<influenceCost base="320"/>
+				<energyUpkeep base="10"/>
+				<rangedAccuracy base="12"/>
+				<influenceUpkeep base="16.0"/>
+				<itemSlots base="6"/>
+				<levelMax base="9"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<player>
+					<aiControlled/>
+				</player>
+			</conditions>
+			<effects>
+			</effects>
+		</modifier>	
+		<modifier visible="0">
+			<conditions>
+				<player>
+					<notAIControlled/>
+				</player>
+			</conditions>
+			<effects>
+			</effects>
+		</modifier>	
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseHeroesScore base="2.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action	chargeAnimation="Units/Reinforcements_MT/LordOfChange/Charge"
+						meleeAnimation="Units/Reinforcements_MT/LordOfChange/Melee"
+						meleeBeginSwing="0.0"
+						meleeEndSwing="0.66"/>
+			</model>
+		</attack>
+		<die>	
+			<model>
+				<action animation="Units/Reinforcements_MT/LordOfChange/Die"
+						sound="Units/MediumUnarmoredDie"
+						soundCount="4"
+						soundDelay="1.0"
+						voiceSound="Units/Tyranids/MediumDie"
+						voiceSoundCount="4"/>
+			</model>	
+		</die>
+		<idle>
+			<model>
+				<action animationSpeed="1.0"/>
+			</model>
+		</idle>
+		<move>		
+			<model>
+				<action animation="Units/Reinforcements_MT/LordOfChange/Move"
+						sound="Units/AstraMilitarum/BullgrynMove"
+						soundCount="4"/>
+			</model>		
+		</move>
+		<quantumShielding cooldown="2"
+				name="ChaosDaemons_MT/ScintillatingLegionShield"
+				icon="Actions/Necrons/QuantumShielding"
+				passive="1"
+				useConditionsForVisiblity="1">
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/ScintillatingLegion"/>
+				</unit>
+			</conditions>
+			<perTurnProcessUseConditions>
+				<unit>
+					<damagedThisTurn/>
+				</unit>
+			</perTurnProcessUseConditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/ScintillatingLegionShield"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</quantumShielding>
+		<auraOfFear passive="1">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" excludeRadius="0" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Fear"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</auraOfFear>
+		<genericUnitAbility name="ChaosDaemons_MT/ArchitectOfDeception" passive="1" icon="Actions/ChaosSpaceMarines/RiteOfChange">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="1" excludeRadius="0">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/ArchitectOfDeception"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<genericUnitAbility name="ChaosDaemons_MT/ShadowOfChaos" passive="1" icon="Actions/ChaosSpaceMarines/BoonOfMutation">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/ShadowOfChaos"/>
+									</effects>
+								</modifier>
+								<modifier visible="0">
+									<effects>
+										<addTrait name="ChaosDaemons_MT/ShadowOfChaosEnemy"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<jumpPack cooldown="3">
+			<model>
+				<action animation="Units/Reinforcements_MT/LordOfChange/Fly"
+						sound="Units/Tyranids/HiveTyrantMove"
+						soundCount="2"/>
+			</model>
+			<modifiers>
+				<modifier>
+					<effects>
+						<movement add="1"/>
+						<movementMax add="1"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</jumpPack>
+		<infernalPower name="ChaosDaemons_MT/AntiFlyer" cooldown="1" consumedActionPoints="0" 
+				consumedMovement="0" icon="Traits/Flyer">
+			<model>
+				<action	sound="Actions/ChaosEliteBuff"/>
+			</model>	
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/AdjacentFlyer"/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Flyer" duration="1"/>
+										<addTrait name="ChaosDaemons_MT/Flyer" duration="1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</infernalPower>
+		<moltenBeam cooldown="2"
+				psychicPower="1"
+				weaponSlotName="BoltOfChange">
+			<model>
+				<action	animation="Units/Reinforcements_MT/LordOfChange/Cast"
+						bone="Bone.002"
+						beginFire="0.66"
+						endFire="1"/>
+			</model>
+		</moltenBeam>
+		<psychicMaelstrom cooldown="2"
+				psychicPower="1"
+				weaponSlotName="EyeOfTzeentch">
+			<model>
+				<action animation="Units/Reinforcements_MT/LordOfChange/Cast"
+						sound="Actions/PsychicBuff"/>
+			</model>
+		</psychicMaelstrom>
+		<boonOfMutation cooldownMin="4"
+				cooldownMax="2"
+				consumedActionPoints="0" 
+				consumedMovement="0"
+				name="ChaosDaemons_MT/BoonOfChange"
+				icon="Actions/ChaosSpaceMarines/Sacrifice"
+				rank="-1"
+				rankMax="2">
+			<model>
+				<action	animation="Units/Reinforcements_MT/LordOfChange/Cast"
+						sound="Actions/ChaosBuff"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="1">
+					<conditions>
+						<unit>
+							<allied/>
+							<faction name="ChaosDaemons_MT"/>
+							<noTrait name="ChaosDaemons_MT/BoonOfChange/Movement"/>
+							<noTrait name="ChaosDaemons_MT/BoonOfChange/Armor"/>
+							<noTrait name="ChaosDaemons_MT/BoonOfChange/Attacks"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier visible="0">
+									<randomEffects count="1">
+										<addFeature name="ChaosDaemons_MT/BoonOfChange/Movement" duration="1"/>
+										<addFeature name="ChaosDaemons_MT/BoonOfChange/Armor" duration="1"/>
+										<addFeature name="ChaosDaemons_MT/BoonOfChange/Attacks" duration="1"/>
+									</randomEffects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Unit">
+							<modifiers>
+								<modifier visible="0">
+									<effects>
+										<addTrait name="ChaosDaemons_MT/BoonOfChange/BoonOfChange" duration="1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</boonOfMutation>
+		<electroShocked cooldownMax="1"
+				cooldownMin="3"
+				consumedActionPoints="0"
+				consumedMovement="0"
+				name="ChaosDaemons_MT/TreasonOfTzeentch"
+				icon="Actions/AdeptusMechanicus/ElectroShocked"
+				rank="-1" 
+				rankMax="2"
+				requiredActionPoints="0">
+			<model>
+				<action animation="Units/Reinforcements_MT/LordOfChange/Cast"
+						sound="Actions/ElectroShocked"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="2">
+					<conditions>
+						<unit>
+							<enemy/>
+							<noTrait name="Fortification"/>
+							<noTrait name="Stunned"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait duration="1" name="Stunned"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</electroShocked>
+		<genericUnitAbility name="ChaosDaemons_MT/DuskOfChaos"
+				icon="Traits/ChaosSpaceMarines/ChampionOfChaos"
+				passive="1"
+				rank="-1"
+				levelUpPriority="1"
+				rankMax="2">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radiusMin="2" radiusMax="4" excludeRadius="0">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/ShadowOfChaos"/>
+										<addTrait name="ChaosDaemons_MT/ArchitectOfDeception"/>
+										<addTrait name="Fear"/>
+									</effects>
+								</modifier>
+								<modifier visible="0">
+									<effects>
+										<addTrait name="ChaosDaemons_MT/ShadowOfChaosEnemy"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<genericUnitAbility name="ChaosDaemons_MT/ScintillatingLegion"
+				icon="Units/ChaosDaemons_MT/LordOfChange"
+				passive="1"
+				rank="-1"
+				elite="1"
+				levelUpPriority="1"
+				rankMax="0">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="100">
+							<modifiers>
+								<modifier viisble="0">
+									<effects>
+										<addTrait name="ChaosDaemons_MT/ScintillatingLegion"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<levelUp/>
+		<shop/>
+		<dimensionalCorridor cooldown="5"
+				name="ChaosDaemons_MT/WarpRiftTeleport"
+				requiredUpgrade="ChaosDaemons_MT/WarpRift"
+				icon="Actions/Necrons/GravityPulse">
+			<model>
+				<action sound="Actions/Teleport"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/WarpRift"/>
+				</unit>
+			</conditions>
+			<modifiers>
+				<modifier requiredUpgrade="ChaosDaemons_MT/WarpSurge">
+					<effects>
+						<consumedActionPoints max="0"/>
+						<consumedMovement max="0"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</dimensionalCorridor>
+	</actions>
+	<traits>
+		<trait name="Daemon"/>
+		<trait name="ChaosDaemons_MT/GreaterDaemon"/>
+		<trait name="Fearless"/>
+		<trait name="Hero"/>
+		<trait name="MonstrousCreature"/>
+		<trait name="MoveThroughCover"/>
+		<trait name="Psyker"/>
+		<trait name="Relentless"/>
+		<trait name="Smash"/>
+		<trait name="Hero"/>
+		<trait name="ChaosDaemons_MT/Tzeentch"/>
+		<trait name="SoulBlaze"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Undivided"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Khorne"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Tzeentch"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Slaanesh"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Nurgle"/>
+		<trait name="ChaosDaemons_MT/WarpRift"/>
+		<trait name="Reinforcements_MT/RangeHero"/>
+		<trait name="ChaosDaemons_MT/DaemonicResilience" requiredUpgrade="ChaosDaemons_MT/ExtraVehicleArmour"/>
+	</traits>
+</unit>

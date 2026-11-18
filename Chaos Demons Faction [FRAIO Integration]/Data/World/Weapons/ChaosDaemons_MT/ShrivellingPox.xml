@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon icon="Traits/ChaosSpaceMarines/Afflicted" attributesModifiedByUnit="0">
+	<modifiers>
+		<modifier>
+			<effects>
+				<attacks addMin="1" addMax="2"/>
+				<rangedAccuracy min="12"/> <!-- Don't roll to hit. -->
+				<rangedArmorPenetration add="4"/> <!-- %rangedArmorPenetration add armorPiercing=2 -->
+				<rangedDamage add="3"/> <!-- %rangedDamage add strength=6 -->
+				<strengthDamage base="0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<traits>
+		<trait name="IgnoresCover"/>
+		<trait name="HellstormTemplate"/>
+		<trait name="Poisoned" rank="0"/>
+	</traits>
+</weapon>

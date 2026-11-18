@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	   <!-- Modification -->
+	<entry name="PetalStorm" value="Tempête de pétales"/>
+	<entry name="PetalStormFlavor" value="L'Audrey géante II utilises ses pétales comme des éclats de grenade pour décimer ses ennemis à distance."/>
+	<entry name="SpiritLightning" value="Eclair spirituel"/>
+	<entry name="SpiritLightningFlavor" value="Les Dryades invoquent des éclairs pour annihiler leurs ennemis."/>
+	<entry name="DeathWail" value="Hurlement mortel"/>
+	<entry name="DeathWailFlavor" value="Les Mutants poussent un puissant cri qui sème la mort parmi les unités avec un faible moral."/>
+	<entry name="ParasiticalBreath" value="Souffle parasitique"/>
+	<entry name="ParasiticalBreathFlavor" value="L'Octopoda Facientem projette un nuage d'encre rempli de parasites qui peuvent détacher la chair des os."/>
+	<entry name="SeismicVoid" value="Vide sismique"/>
+	<entry name="SeismicVoidFlavor" value="La roche se brise et les minerais se changent en vapeur argentée alors que le Psyker attire des vagues de magma depuis les profondeurs de la planète."/>
+	<entry name="SkyFall" value="Chute d'étoiles"/>
+	<entry name="SkyFallFlavor" value="De magnifiques orbes de lumières scintillants chutent des froides profondeurs de l'espace, grossissant jusqu'à devenir des étoiles détruisant tout sur leur passage."/>
+	<entry name="HellBreath" value="Souffle infernal"/>
+	<entry name="HellBreathFlavor" value="Un torrent de flames psychiques se déverse des yeux et de la bouche du psyker, engloutissant la cible."/>
+	<entry name="HellBeam" value="Rayon infernal"/>
+	<entry name="HellBeamFlavor" value="Le démon invoque un rayon d'énergie brûlante qui fait fondre les armures et vaporise la chair, ne laissant que d'épouvantables ombres sur son chemin."/>
+	<!-- End Modification -->
+</language>

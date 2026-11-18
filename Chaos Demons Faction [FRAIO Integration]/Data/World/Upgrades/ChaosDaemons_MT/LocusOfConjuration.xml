@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade position="2" icon="Traits/ChaosSpaceMarines/ArcaneOcculum">
+	<requiredUpgrades>
+		<upgrade name="ChaosDaemons_MT/Tzeentch"/>
+	</requiredUpgrades>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseLoyaltyScore base="0.3"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+</upgrade>

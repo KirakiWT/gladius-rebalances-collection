@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait icon="Traits/ChaosSpaceMarines/BloodRage" category="Buff">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<weapon>
+					<trait name="Melee"/>
+				</weapon>
+			</conditions>
+			<effects>
+				<additionalMembersHit add="1"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

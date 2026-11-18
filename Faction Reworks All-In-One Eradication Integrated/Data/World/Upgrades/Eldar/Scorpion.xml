@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade position="10" icon="Units/Eldar/Scorpion">
+	<requiredUpgrades>
+		<upgrade name="Eldar/AdvancedVehicles"/>
+		<upgrade name="Eldar/AdvancedInfantry"/>
+	</requiredUpgrades>
+</upgrade>

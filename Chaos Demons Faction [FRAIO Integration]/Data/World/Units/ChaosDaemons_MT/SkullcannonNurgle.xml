@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>
+		<unit mesh="Units/Reinforcements_MT/SkullcannonNurgle"
+				material="Units/Reinforcements_MT/SkullcannonNurgle"
+				idleAnimation="Units/Reinforcements_MT/SkullcannonNurgle/Idle"
+				idleAnimationCount="2"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="1.2 1.2 1.2"
+				explosionsBone="Waist"/>
+	</model>
+	<weapons>
+		<weapon name="ChaosDaemons_MT/BitingMaw">
+			<model>
+				<weapon fireInterval="0.5"/>
+			</model>
+		</weapon>
+		<weapon name="ChaosDaemons_MT/Plaguebombardment">
+			<model>
+				<projectileWeapon muzzleBone="Muzzle"
+						fireInterval="1.0"
+						effectFaceWeight="0"/>
+			</model>		
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="6"/>
+				<hitpointsMax base="24.0"/>
+				<meleeAccuracy base="8"/>
+				<meleeAttacks base="1"/>
+				<strengthDamage base="3"/>
+				<moraleMax base="8"/>
+				<movementMax base="3"/>
+				<productionCost base="45"/>
+				<foodCost base="40"/>
+				<oreCost base="30"/>
+				<energyCost base="15"/>
+				<foodUpkeep base="1.5"/>
+				<oreUpkeep base="1.5"/>
+				<rangedAccuracy base="8"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<player>
+					<aiControlled/>
+				</player>
+			</conditions>
+			<effects>
+			</effects>
+		</modifier>	
+		<modifier visible="0">
+			<conditions>
+				<player>
+					<notAIControlled/>
+				</player>
+			</conditions>
+			<effects>
+			</effects>
+		</modifier>	
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseVehiclesScore base="1.1"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action	animation="Units/Reinforcements_MT/SkullcannonNurgle/Range"
+						beginFire="0.5"
+						endFire="1.5"
+						chargeAnimation="Units/Reinforcements_MT/SkullcannonNurgle/Charge"
+						chargeBeginFire="0.5"
+						chargeEndFire="1.3"
+						meleeAnimation="Units/Reinforcements_MT/SkullcannonNurgle/Melee"
+						meleeBeginSwing="0"
+						meleeEndSwing="0.5"/>
+			</model>
+		</attack>
+		<die>	
+			<model>
+				<action animation="Units/Reinforcements_MT/SkullcannonNurgle/Die"
+						sound="Units/MediumVehicleDie"
+						soundCount="3"
+						soundDelay="0.2"/>
+			</model>	
+		</die>
+		<idle>
+			<model>
+				<action animationSpeed="1"/>
+			</model>
+		</idle>
+		<move>
+			<model>
+				<action animation="Units/Reinforcements_MT/SkullcannonNurgle/Move"
+						sound="Units/Orks/SquighogBoyMove"
+						soundCount="3"/>
+			</model>
+		</move>
+		<hammerOfWrath consumedActionPoints="0" 
+				consumedMovement="0"
+				cooldown="3"
+				icon="Actions/HammerOfWrath"
+				name="ChaosDaemons_MT/HammerOfWrathNurgle"
+				useConditionsForVisiblity="1"
+				requiredUpgrade="ChaosDaemons_MT/HammerOfWrath">
+			<model>
+				<action sound="Actions/PsychicBuff"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/Nurgle"/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<hitpointsFactorFromMax add="0.1"/>
+										<addTrait name="ChaosDaemons_MT/HammerOfWrath/Nurgle" duration="1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</hammerOfWrath>
+		<dimensionalCorridor cooldown="5"
+				name="ChaosDaemons_MT/WarpRiftTeleport"
+				requiredUpgrade="ChaosDaemons_MT/WarpRift"
+				icon="Actions/Necrons/GravityPulse">
+			<model>
+				<action sound="Actions/Teleport"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/WarpRift"/>
+				</unit>
+			</conditions>
+			<modifiers>
+				<modifier requiredUpgrade="ChaosDaemons_MT/WarpSurge">
+					<effects>
+						<consumedActionPoints max="0"/>
+						<consumedMovement max="0"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</dimensionalCorridor>
+	</actions>
+	<traits>
+		<trait name="Daemon"/>
+		<trait name="Vehicle"/>
+		<trait name="OpenTopped"/>
+		<trait name="ChaosDaemons_MT/Nurgle"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Undivided"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Khorne"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Tzeentch"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Slaanesh"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Nurgle"/>
+		<trait name="ChaosDaemons_MT/WarpRift"/>
+		<trait name="ChaosDaemons_MT/ReinforcedHulls" requiredUpgrade="ChaosDaemons_MT/ExtraVehicleArmour"/>
+	</traits>
+</unit>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Traits/Tyranids/AcidBlood" rankMax="2">
+	<modifiers>
+		<modifier>
+			<effects>
+				<lifeStealFactor addMin="0.17" addMax="0.5"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

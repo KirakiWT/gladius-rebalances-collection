@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Actions/AssaultDoctrine">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit match="Any">
+					<type name="SpaceMarines/AssaultSpaceMarine"/>
+					<type name="SpaceMarines/ScoutBiker"/>
+					<type name="SpaceMarines/PrimarisInvaderATV"/>
+					<type name="SpaceMarines/PrimarisInceptor"/>
+					<type name="SpaceMarines/PrimarisAggressor"/>
+
+					<type name="SpaceMarines/LandSpeeder"/>
+					<type name="SpaceMarines/StormSpeederThunderstrike"/>
+					<type name="SpaceMarines/Razorback"/>
+					<type name="SpaceMarines/Apothecary"/>
+
+					<type name="SpaceMarines/Dreadnought"/>
+					<type name="SpaceMarines/RedemptorDreadnought"/>
+					<type name="SpaceMarines/AssaultTerminator"/>
+
+
+					<type name="SpaceMarines/LandRaider"/>
+
+					<type name="SpaceMarines/StormravenGunship"/>
+					<type name="SpaceMarines/StormtalonGunship"/>
+
+
+
+				</unit>
+			</conditions>
+			<effects>
+				<rangedDamageReduction add="0.10"/>
+				<meleeAccuracy add="1"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

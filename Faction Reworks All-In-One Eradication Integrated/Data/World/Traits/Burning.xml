@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff" icon="Traits/Burn">
+	<perTurnModifiers endure="0">
+		<modifier>
+			<effects>
+				<weaponDamage weapon="Burn"/>
+			</effects>
+		</modifier>
+	</perTurnModifiers>
+</trait>

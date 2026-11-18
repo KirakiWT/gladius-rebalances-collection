@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/Neutral/LuvenalibusAmbullsDiffuse"/>
+		<texture name="Units/Neutral/AmbullNormal"/>
+		<texture name="Units/Neutral/AmbullSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

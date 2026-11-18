@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade visible="0" icon="Units/AdeptusMechanicus/KataphronBreacher" dlc="Supplement12">
+	<requiredUpgrades>
+		<upgrade name="AdeptusMechanicus/AdvancedInfantry"/>
+	</requiredUpgrades>
+</upgrade>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1">
+	<modifiers>
+		<modifier>
+			<effects>
+				<duplicateTypeCost mul="1.0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

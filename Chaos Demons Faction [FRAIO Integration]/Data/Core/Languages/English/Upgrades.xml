@@ -1,0 +1,274 @@
+<?xml version="2.0" encoding="utf-8"?>
+<language>
+
+	<entry name="ChaosDaemons_MT/Flamer" value="<string name='Units/ChaosDaemons_MT/Flamer'/>"/>
+	<entry name="ChaosDaemons_MT/FlamerDescription" value="<string name='Units/ChaosDaemons_MT/FlamerDescription'/>"/>
+	<entry name="ChaosDaemons_MT/FlamerFlavor" value="<string name='Units/ChaosDaemons_MT/FlamerFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/Screamer" value="<string name='Units/ChaosDaemons_MT/Screamer'/>"/>
+	<entry name="ChaosDaemons_MT/ScreamerDescription" value="<string name='Units/ChaosDaemons_MT/ScreamerDescription'/>"/>
+	<entry name="ChaosDaemons_MT/ScreamerFlavor" value="<string name='Units/ChaosDaemons_MT/ScreamerFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/Loyalty" value="<string name='Buildings/ChaosDaemons_MT/Loyalty'/>"/>
+	<entry name="ChaosDaemons_MT/LoyaltyDescription" value="<string name='Buildings/ChaosDaemons_MT/LoyaltyDescription'/>"/>
+	<entry name="ChaosDaemons_MT/LoyaltyFlavor" value="<string name='Buildings/ChaosDaemons_MT/LoyaltyFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/Housing" value="<string name='Buildings/ChaosDaemons_MT/Housing'/>"/>
+	<entry name="ChaosDaemons_MT/HousingDescription" value="<string name='Buildings/ChaosDaemons_MT/HousingDescription'/>"/>
+	<entry name="ChaosDaemons_MT/HousingFlavor" value="<string name='Buildings/ChaosDaemons_MT/HousingFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/Khorne" value="<string name='Buildings/ChaosDaemons_MT/Khorne'/>"/>
+	<entry name="ChaosDaemons_MT/KhorneDescription" value="<string name='Buildings/ChaosDaemons_MT/KhorneDescription'/>"/>
+	<entry name="ChaosDaemons_MT/KhorneFlavor" value="<string name='Buildings/ChaosDaemons_MT/KhorneFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/Slaanesh" value="<string name='Buildings/ChaosDaemons_MT/Slaanesh'/>"/>
+	<entry name="ChaosDaemons_MT/SlaaneshDescription" value="<string name='Buildings/ChaosDaemons_MT/SlaaneshDescription'/>"/>
+	<entry name="ChaosDaemons_MT/SlaaneshFlavor" value="<string name='Buildings/ChaosDaemons_MT/SlaaneshFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/Nurgle" value="<string name='Buildings/ChaosDaemons_MT/Nurgle'/>"/>
+	<entry name="ChaosDaemons_MT/NurgleDescription" value="<string name='Buildings/ChaosDaemons_MT/NurgleDescription'/>"/>
+	<entry name="ChaosDaemons_MT/NurgleFlavor" value="<string name='Buildings/ChaosDaemons_MT/NurgleFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/Tzeentch" value="<string name='Buildings/ChaosDaemons_MT/Tzeentch'/>"/>
+	<entry name="ChaosDaemons_MT/TzeentchDescription" value="<string name='Buildings/ChaosDaemons_MT/TzeentchDescription'/>"/>
+	<entry name="ChaosDaemons_MT/TzeentchFlavor" value="<string name='Buildings/ChaosDaemons_MT/TzeentchFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/Heroes" value="<string name='Buildings/ChaosDaemons_MT/Heroes'/>"/>
+	<entry name="ChaosDaemons_MT/HeroesDescription" value="<string name='Buildings/ChaosDaemons_MT/HeroesDescription'/>"/>
+	<entry name="ChaosDaemons_MT/HeroesFlavor" value="<string name='Buildings/ChaosDaemons_MT/HeroesFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/Vehicles" value="<string name='Buildings/ChaosDaemons_MT/Vehicles'/>"/>
+	<entry name="ChaosDaemons_MT/VehiclesDescription" value="<string name='Buildings/ChaosDaemons_MT/VehiclesDescription'/>"/>
+	<entry name="ChaosDaemons_MT/VehiclesFlavor" value="<string name='Buildings/ChaosDaemons_MT/VehiclesFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/Aircraft" value="<string name='Buildings/ChaosDaemons_MT/Aircraft'/>"/>
+	<entry name="ChaosDaemons_MT/AircraftDescription" value="<string name='Buildings/ChaosDaemons_MT/AircraftDescription'/>"/>
+	<entry name="ChaosDaemons_MT/AircraftFlavor" value="<string name='Buildings/ChaosDaemons_MT/AircraftFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/Construction" value="<string name='Buildings/ChaosDaemons_MT/Construction'/>"/>
+	<entry name="ChaosDaemons_MT/ConstructionDescription" value="<string name='Buildings/ChaosDaemons_MT/ConstructionDescription'/>"/>
+	<entry name="ChaosDaemons_MT/ConstructionFlavor" value="<string name='Buildings/ChaosDaemons_MT/ConstructionFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/Obliterator" value="<string name='Units/ChaosDaemons_MT/Obliterator'/>"/>
+	<entry name="ChaosDaemons_MT/ObliteratorDescription" value="<string name='Units/ChaosDaemons_MT/ObliteratorDescription'/>"/>
+	<entry name="ChaosDaemons_MT/ObliteratorFlavor" value="<string name='Units/ChaosDaemons_MT/ObliteratorFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/BeastOfNurgle" value="<string name='Units/ChaosDaemons_MT/BeastOfNurgle'/>"/>
+	<entry name="ChaosDaemons_MT/BeastOfNurgleDescription" value="<string name='Units/ChaosDaemons_MT/BeastOfNurgleDescription'/>"/>
+	<entry name="ChaosDaemons_MT/BeastOfNurgleFlavor" value="<string name='Units/ChaosDaemons_MT/BeastOfNurgleFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/Bloodcrusher" value="<string name='Units/ChaosDaemons_MT/Bloodcrusher'/>"/>
+	<entry name="ChaosDaemons_MT/BloodcrusherDescription" value="<string name='Units/ChaosDaemons_MT/BloodcrusherDescription'/>"/>
+	<entry name="ChaosDaemons_MT/BloodcrusherFlavor" value="<string name='Units/ChaosDaemons_MT/BloodcrusherFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/Bloodthirster" value="<string name='Units/ChaosDaemons_MT/Bloodthirster'/>"/>
+	<entry name="ChaosDaemons_MT/BloodthirsterDescription" value="<string name='Units/ChaosDaemons_MT/BloodthirsterDescription'/>"/>
+	<entry name="ChaosDaemons_MT/BloodthirsterFlavor" value="<string name='Units/ChaosDaemons_MT/BloodthirsterFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/Bullgryn" value="<string name='Units/ChaosDaemons_MT/Bullgryn'/>"/>
+	<entry name="ChaosDaemons_MT/BullgrynDescription" value="<string name='Units/ChaosDaemons_MT/BullgrynDescription'/>"/>
+	<entry name="ChaosDaemons_MT/BullgrynFlavor" value="<string name='Units/ChaosDaemons_MT/BullgrynFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/BurningChariot" value="<string name='Units/ChaosDaemons_MT/BurningChariot'/>"/>
+	<entry name="ChaosDaemons_MT/BurningChariotDescription" value="<string name='Units/ChaosDaemons_MT/BurningChariotDescription'/>"/>
+	<entry name="ChaosDaemons_MT/BurningChariotFlavor" value="<string name='Units/ChaosDaemons_MT/BurningChariotFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/ChaosLord" value="<string name='Units/ChaosDaemons_MT/ChaosLord'/>"/>
+	<entry name="ChaosDaemons_MT/ChaosLordDescription" value="<string name='Units/ChaosDaemons_MT/ChaosLordDescription'/>"/>
+	<entry name="ChaosDaemons_MT/ChaosLordFlavor" value="<string name='Units/ChaosDaemons_MT/ChaosLordFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/ChaosSpaceMarine" value="<string name='Units/ChaosDaemons_MT/ChaosSpaceMarine'/>"/>
+	<entry name="ChaosDaemons_MT/ChaosSpaceMarineDescription" value="<string name='Units/ChaosDaemons_MT/ChaosSpaceMarineDescription'/>"/>
+	<entry name="ChaosDaemons_MT/ChaosSpaceMarineFlavor" value="<string name='Units/ChaosDaemons_MT/ChaosSpaceMarineFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/GreatUncleanOne" value="<string name='Units/ChaosDaemons_MT/GreatUncleanOne'/>"/>
+	<entry name="ChaosDaemons_MT/GreatUncleanOneDescription" value="<string name='Units/ChaosDaemons_MT/GreatUncleanOneDescription'/>"/>
+	<entry name="ChaosDaemons_MT/GreatUncleanOneFlavor" value="<string name='Units/ChaosDaemons_MT/GreatUncleanOneFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/Havoc" value="<string name='Units/ChaosDaemons_MT/Havoc'/>"/>
+	<entry name="ChaosDaemons_MT/HavocDescription" value="<string name='Units/ChaosDaemons_MT/HavocDescription'/>"/>
+	<entry name="ChaosDaemons_MT/HavocFlavor" value="<string name='Units/ChaosDaemons_MT/HavocFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/HeavyWeaponsSquad" value="<string name='Units/ChaosDaemons_MT/HeavyWeaponsSquad'/>"/>
+	<entry name="ChaosDaemons_MT/HeavyWeaponsSquadDescription" value="<string name='Units/ChaosDaemons_MT/HeavyWeaponsSquadDescription'/>"/>
+	<entry name="ChaosDaemons_MT/HeavyWeaponsSquadFlavor" value="<string name='Units/ChaosDaemons_MT/HeavyWeaponsSquadFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/Hydra" value="<string name='Units/ChaosDaemons_MT/Hydra'/>"/>
+	<entry name="ChaosDaemons_MT/HydraDescription" value="<string name='Units/ChaosDaemons_MT/HydraDescription'/>"/>
+	<entry name="ChaosDaemons_MT/HydraFlavor" value="<string name='Units/ChaosDaemons_MT/HydraFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/KeeperOfSecrets" value="<string name='Units/ChaosDaemons_MT/KeeperOfSecrets'/>"/>
+	<entry name="ChaosDaemons_MT/KeeperOfSecretsDescription" value="<string name='Units/ChaosDaemons_MT/KeeperOfSecretsDescription'/>"/>
+	<entry name="ChaosDaemons_MT/KeeperOfSecretsFlavor" value="<string name='Units/ChaosDaemons_MT/KeeperOfSecretsFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/KnightDesecrator" value="<string name='Units/ChaosDaemons_MT/KnightDesecrator'/>"/>
+	<entry name="ChaosDaemons_MT/KnightDesecratorDescription" value="<string name='Units/ChaosDaemons_MT/KnightDesecratorDescription'/>"/>
+	<entry name="ChaosDaemons_MT/KnightDesecratorFlavor" value="<string name='Units/ChaosDaemons_MT/KnightDesecratorFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/LandRaider" value="<string name='Units/ChaosDaemons_MT/LandRaider'/>"/>
+	<entry name="ChaosDaemons_MT/LandRaiderDescription" value="<string name='Units/ChaosDaemons_MT/LandRaiderDescription'/>"/>
+	<entry name="ChaosDaemons_MT/LandRaiderFlavor" value="<string name='Units/ChaosDaemons_MT/LandRaiderFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/LemanRussBattleTank" value="<string name='Units/ChaosDaemons_MT/LemanRussBattleTank'/>"/>
+	<entry name="ChaosDaemons_MT/LemanRussBattleTankDescription" value="<string name='Units/ChaosDaemons_MT/LemanRussBattleTankDescription'/>"/>
+	<entry name="ChaosDaemons_MT/LemanRussBattleTankFlavor" value="<string name='Units/ChaosDaemons_MT/LemanRussBattleTankFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/LordOfChange" value="<string name='Units/ChaosDaemons_MT/LordOfChange'/>"/>
+	<entry name="ChaosDaemons_MT/LordOfChangeDescription" value="<string name='Units/ChaosDaemons_MT/LordOfChangeDescription'/>"/>
+	<entry name="ChaosDaemons_MT/LordOfChangeFlavor" value="<string name='Units/ChaosDaemons_MT/LordOfChangeFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/MasterOfPossession" value="<string name='Units/ChaosDaemons_MT/MasterOfPossession'/>"/>
+	<entry name="ChaosDaemons_MT/MasterOfPossessionDescription" value="<string name='Units/ChaosDaemons_MT/MasterOfPossessionDescription'/>"/>
+	<entry name="ChaosDaemons_MT/MasterOfPossessionFlavor" value="<string name='Units/ChaosDaemons_MT/MasterOfPossessionFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/Maulerfiend" value="<string name='Units/ChaosDaemons_MT/Maulerfiend'/>"/>
+	<entry name="ChaosDaemons_MT/MaulerfiendDescription" value="<string name='Units/ChaosDaemons_MT/MaulerfiendDescription'/>"/>
+	<entry name="ChaosDaemons_MT/MaulerfiendFlavor" value="<string name='Units/ChaosDaemons_MT/MaulerfiendFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/PlagueDrone" value="<string name='Units/ChaosDaemons_MT/PlagueDrone'/>"/>
+	<entry name="ChaosDaemons_MT/PlagueDroneDescription" value="<string name='Units/ChaosDaemons_MT/PlagueDroneDescription'/>"/>
+	<entry name="ChaosDaemons_MT/PlagueDroneFlavor" value="<string name='Units/ChaosDaemons_MT/PlagueDroneFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/Seeker" value="<string name='Units/ChaosDaemons_MT/Seeker'/>"/>
+	<entry name="ChaosDaemons_MT/SeekerDescription" value="<string name='Units/ChaosDaemons_MT/SeekerDescription'/>"/>
+	<entry name="ChaosDaemons_MT/SeekerFlavor" value="<string name='Units/ChaosDaemons_MT/SeekerFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/Skullcannon" value="<string name='Units/ChaosDaemons_MT/Skullcannon'/>"/>
+	<entry name="ChaosDaemons_MT/SkullcannonDescription" value="recruit powerful weapons piloted by lesser daemons of the Dark Gods."/>
+	<entry name="ChaosDaemons_MT/SkullcannonFlavor" value="<string name='Units/ChaosDaemons_MT/SkullcannonFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/SoulGrinder" value="<string name='Units/ChaosDaemons_MT/SoulGrinder'/>"/>
+	<entry name="ChaosDaemons_MT/SoulGrinderDescription" value="Recruit powerful daemon engines dedicated to the Dark Gods."/>
+	<entry name="ChaosDaemons_MT/SoulGrinderFlavor" value="<string name='Units/ChaosDaemons_MT/SoulGrinderFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/WarDogStalker" value="<string name='Units/ChaosDaemons_MT/WarDogStalker'/>"/>
+	<entry name="ChaosDaemons_MT/WarDogStalkerDescription" value="<string name='Units/ChaosDaemons_MT/WarDogStalkerDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarDogStalkerFlavor" value="<string name='Units/ChaosDaemons_MT/WarDogStalkerFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/WarpTalon" value="<string name='Units/ChaosDaemons_MT/WarpTalon'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTalonDescription" value="<string name='Units/ChaosDaemons_MT/WarpTalonDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTalonFlavor" value="<string name='Units/ChaosDaemons_MT/WarpTalonFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/BlastDamage" value="<string name='Upgrades/ChaosSpaceMarines/BlastDamage'/>"/>
+	<entry name="ChaosDaemons_MT/BlastDamageDescription" value="<string name='Upgrades/ChaosSpaceMarines/BlastDamageDescription'/>"/>
+	<entry name="ChaosDaemons_MT/BlastDamageFlavor" value="<string name='Upgrades/ChaosSpaceMarines/BlastDamageFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/BoltDamage" value="<string name='Upgrades/ChaosSpaceMarines/BoltDamage'/>"/>
+	<entry name="ChaosDaemons_MT/BoltDamageDescription" value="<string name='Upgrades/ChaosSpaceMarines/BoltDamageDescription'/>"/>
+	<entry name="ChaosDaemons_MT/BoltDamageFlavor" value="<string name='Upgrades/ChaosSpaceMarines/BlastDamageFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/CityTier2" value="<string name='Upgrades/ChaosSpaceMarines/CityTier2'/>"/>
+	<entry name="ChaosDaemons_MT/CityTier2Description" value="<string name='Upgrades/ChaosSpaceMarines/CityTier2Description'/>"/>
+	<entry name="ChaosDaemons_MT/CityTier2Flavor" value="<string name='Upgrades/ChaosSpaceMarines/CityTier2Flavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/CityTier3" value="<string name='Upgrades/ChaosSpaceMarines/CityTier3'/>"/>
+	<entry name="ChaosDaemons_MT/CityTier3Description" value="<string name='Upgrades/ChaosSpaceMarines/CityTier3Description'/>"/>
+	<entry name="ChaosDaemons_MT/CityTier3Flavor" value="<string name='Upgrades/ChaosSpaceMarines/CityTier3Flavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/ExtraInfantryArmour" value="Warband Discipline"/>
+	<entry name="ChaosDaemons_MT/ExtraInfantryArmourDescription" value="Mortal infantry and heroes gain +10% hitpoints and +5% accuracy. Lesser daemons and daemon heroes gain +1 armor and +10% hitpoints."/>
+	<entry name="ChaosDaemons_MT/ExtraInfantryArmourFlavor" value="<string name='Upgrades/ChaosSpaceMarines/ExtraInfantryArmourFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/ExtraVehicleArmour" value="Reinforced Hulls"/>
+	<entry name="ChaosDaemons_MT/ExtraVehicleArmourDescription" value="Vehicles gain +1 armor and +10% hitpoints. Daemonic monsters and greater daemons gain +1 armor and +10% hitpoints."/>
+	<entry name="ChaosDaemons_MT/ExtraVehicleArmourFlavor" value="<string name='Upgrades/ChaosSpaceMarines/ExtraVehicleArmourFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/HammerOfWrath" value="<string name='Upgrades/ChaosSpaceMarines/HammerOfWrath'/>"/>
+	<entry name="ChaosDaemons_MT/HammerOfWrathDescription" value="Grants Beast of Nurgle, Be'lakor, Bloodcrusher, Bloodletter, Bloodmaster, Bullgryn, Heldrake, Knight Desecrator, Maulerfiend, Scout Sentinel, Skullcannons, Soul Grinders, War Dog Stalker and Warp Talon the ability to perform more devastating attacks."/>
+	<entry name="ChaosDaemons_MT/HammerOfWrathFlavor" value="<string name='Upgrades/ChaosSpaceMarines/HammerOfWrathFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/LasDamage" value="<string name='Upgrades/ChaosSpaceMarines/LasDamage'/>"/>
+	<entry name="ChaosDaemons_MT/LasDamageDescription" value="<string name='Upgrades/ChaosSpaceMarines/LasDamageDescription'/>"/>
+	<entry name="ChaosDaemons_MT/LasDamageFlavor" value="<string name='Upgrades/ChaosSpaceMarines/LasDamageFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/MeleeDamage" value="<string name='Upgrades/ChaosSpaceMarines/MeleeDamage'/>"/>
+	<entry name="ChaosDaemons_MT/MeleeDamageDescription" value="<string name='Upgrades/ChaosSpaceMarines/MeleeDamageDescription'/>"/>
+	<entry name="ChaosDaemons_MT/MeleeDamageFlavor" value="<string name='Upgrades/ChaosSpaceMarines/MeleeDamageFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/OurLivesForTheGods" value="<string name='Upgrades/ChaosSpaceMarines/OurLivesForTheGods'/>"/>
+	<entry name="ChaosDaemons_MT/OurLivesForTheGodsDescription" value="Sacrificing chaos cultist pledged to the gods grants additional boons for your cities."/>
+	<entry name="ChaosDaemons_MT/OurLivesForTheGodsFlavor" value="<string name='Upgrades/ChaosSpaceMarines/OurLivesForTheGodsFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/RiteOfBlood" value="<string name='Upgrades/ChaosSpaceMarines/RiteOfBlood'/>"/>
+	<entry name="ChaosDaemons_MT/RiteOfBloodDescription" value="<string name='Upgrades/ChaosSpaceMarines/RiteOfBloodDescription'/>"/>
+	<entry name="ChaosDaemons_MT/RiteOfBloodFlavor" value="<string name='Upgrades/ChaosSpaceMarines/RiteOfBloodFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/RiteOfChange" value="<string name='Upgrades/ChaosSpaceMarines/RiteOfChange'/>"/>
+	<entry name="ChaosDaemons_MT/RiteOfChangeDescription" value="<string name='Upgrades/ChaosSpaceMarines/RiteOfChangeDescription'/>"/>
+	<entry name="ChaosDaemons_MT/RiteOfChangeFlavor" value="<string name='Upgrades/ChaosSpaceMarines/RiteOfChangeFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/RiteOfPestilence" value="<string name='Upgrades/ChaosSpaceMarines/RiteOfPestilence'/>"/>
+	<entry name="ChaosDaemons_MT/RiteOfPestilenceDescription" value="<string name='Upgrades/ChaosSpaceMarines/RiteOfPestilenceDescription'/>"/>
+	<entry name="ChaosDaemons_MT/RiteOfPestilenceFlavor" value="<string name='Upgrades/ChaosSpaceMarines/RiteOfPestilenceFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/RiteOfUnholyPleasure" value="<string name='Upgrades/ChaosSpaceMarines/RiteOfUnholyPleasure'/>"/>
+	<entry name="ChaosDaemons_MT/RiteOfUnholyPleasureDescription" value="<string name='Upgrades/ChaosSpaceMarines/RiteOfUnholyPleasureDescription'/>"/>
+	<entry name="ChaosDaemons_MT/RiteOfUnholyPleasureFlavor" value="<string name='Upgrades/ChaosSpaceMarines/RiteOfUnholyPleasureFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/SmokeLauncher" value="<string name='Upgrades/ChaosSpaceMarines/SmokeLauncher'/>"/>
+	<entry name="ChaosDaemons_MT/SmokeLauncherDescription" value="Grants Hydra, Land Raider, Lema Russ Battle Tank and Scout Sentinel the ability to launch a smoke screen that increases the ranged damage reduction."/>
+	<entry name="ChaosDaemons_MT/SmokeLauncherFlavor" value="<string name='Upgrades/ChaosSpaceMarines/SmokeLauncherFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/DaemonicTerror" value="Daemonic Terror"/>
+	<entry name="ChaosDaemons_MT/DaemonicTerrorDescription" value="Enemies within your shadow of chaos take damage each turn."/>
+	<entry name="ChaosDaemons_MT/DaemonicTerrorFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/LocusOfUnstoppableFury" value="<string name='Actions/ChaosDaemons_MT/LocusOfUnstoppableFury'/>"/>
+	<entry name="ChaosDaemons_MT/LocusOfUnstoppableFuryDescription" value="<string name='Actions/ChaosDaemons_MT/LocusOfUnstoppableFuryDescription'/>"/>
+	<entry name="ChaosDaemons_MT/LocusOfUnstoppableFuryFlavor" value="<string name='Actions/ChaosDaemons_MT/LocusOfUnstoppableFuryFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/LocusOfDiabolicalPurpose" value="<string name='Actions/ChaosDaemons_MT/LocusOfDiabolicalPurpose'/>"/>
+	<entry name="ChaosDaemons_MT/LocusOfDiabolicalPurposeDescription" value="<string name='Actions/ChaosDaemons_MT/LocusOfDiabolicalPurposeDescription'/>"/>
+	<entry name="ChaosDaemons_MT/LocusOfDiabolicalPurposeFlavor" value="<string name='Actions/ChaosDaemons_MT/LocusOfDiabolicalPurposeFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/LocusOfFoetidRegeneration" value="<string name='Actions/ChaosDaemons_MT/LocusOfFoetidRegeneration'/>"/>
+	<entry name="ChaosDaemons_MT/LocusOfFoetidRegenerationDescription" value="<string name='Actions/ChaosDaemons_MT/LocusOfFoetidRegenerationDescription'/>"/>
+	<entry name="ChaosDaemons_MT/LocusOfFoetidRegenerationFlavor" value="<string name='Actions/ChaosDaemons_MT/LocusOfFoetidRegenerationFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/LocusOfPoxesUncounted" value="<string name='Actions/ChaosDaemons_MT/LocusOfPoxesUncounted'/>"/>
+	<entry name="ChaosDaemons_MT/LocusOfPoxesUncountedDescription" value="<string name='Actions/ChaosDaemons_MT/LocusOfPoxesUncountedDescription'/>"/>
+	<entry name="ChaosDaemons_MT/LocusOfPoxesUncountedFlavor" value="<string name='Actions/ChaosDaemons_MT/LocusOfPoxesUncountedFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/LocusOfConjuration" value="<string name='Actions/ChaosDaemons_MT/LocusOfConjuration'/>"/>
+	<entry name="ChaosDaemons_MT/LocusOfConjurationDescription" value="<string name='Actions/ChaosDaemons_MT/LocusOfConjurationDescription'/>"/>
+	<entry name="ChaosDaemons_MT/LocusOfConjurationFlavor" value="<string name='Actions/ChaosDaemons_MT/LocusOfConjurationFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/LocusOfTransmogrification" value="<string name='Actions/ChaosDaemons_MT/LocusOfTransmogrification'/>"/>
+	<entry name="ChaosDaemons_MT/LocusOfTransmogrificationDescription" value="<string name='Actions/ChaosDaemons_MT/LocusOfTransmogrificationDescription'/>"/>
+	<entry name="ChaosDaemons_MT/LocusOfTransmogrificationFlavor" value="<string name='Actions/ChaosDaemons_MT/LocusOfTransmogrificationFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/LocusOfUnnaturalSwiftness" value="<string name='Actions/ChaosDaemons_MT/LocusOfUnnaturalSwiftness'/>"/>
+	<entry name="ChaosDaemons_MT/LocusOfUnnaturalSwiftnessDescription" value="<string name='Actions/ChaosDaemons_MT/LocusOfUnnaturalSwiftnessDescription'/>"/>
+	<entry name="ChaosDaemons_MT/LocusOfUnnaturalSwiftnessFlavor" value="<string name='Actions/ChaosDaemons_MT/LocusOfUnnaturalSwiftnessFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/LocusOfDelicateEvisceration" value="<string name='Actions/ChaosDaemons_MT/LocusOfDelicateEvisceration'/>"/>
+	<entry name="ChaosDaemons_MT/LocusOfDelicateEviscerationDescription" value="<string name='Actions/ChaosDaemons_MT/LocusOfDelicateEviscerationDescription'/>"/>
+	<entry name="ChaosDaemons_MT/LocusOfDelicateEviscerationFlavor" value="<string name='Actions/ChaosDaemons_MT/LocusOfDelicateEviscerationFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/LocusOfDamnation" value="Locus of Damnation"/>
+	<entry name="ChaosDaemons_MT/LocusOfDamnationDescription" value="Your different Loci now affect Undivided units."/>
+	
+	<entry name="ChaosDaemons_MT/WarpRift" value="<string name='Actions/ChaosDaemons_MT/WarpRift'/>"/>
+	<entry name="ChaosDaemons_MT/WarpRiftDescription" value="<string name='Actions/ChaosDaemons_MT/WarpRiftDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpRiftFlavor" value="<string name='Actions/ChaosDaemons_MT/WarpRiftFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/WarpSurge" value="Warp Surge"/>
+	<entry name="ChaosDaemons_MT/WarpSurgeDescription" value="Your daemons Warp Travel no longer costs movement or action points."/>
+	<entry name="ChaosDaemons_MT/WarpSurgeFlavor" value="The winds of the warp blow strong, invigorating daemonkind and lending them supernatural speed and ferocity."/>
+	
+	<entry name="ChaosDaemons_MT/CorruptRealspace" value="Corrupt Realspace"/>
+	<entry name="ChaosDaemons_MT/CorruptRealspaceDescription" value="Reduce energy upkeep of units within your shadow of chaos."/>
+	<entry name="ChaosDaemons_MT/CorruptRealspaceFlavor" value="Daemons instinctively feel the need to despoil and corrupt every corner of realspace, the better to sustain their otherworldly forms."/>
+
+	<entry name="ChaosDaemons_MT/Heralds" value="Heralds"/>
+	<entry name="ChaosDaemons_MT/HeraldsDescription" value="Unlock the ability to recruit heralds of the Dark Gods. One daemonic hero unit per Dark God."/>
+	
+	<entry name="ChaosDaemons_MT/ShadowPact" value="Shadow Pact"/>
+	<entry name="ChaosDaemons_MT/ShadowPactDescription" value="Your shadow of chaos reduces morale loss."/>
+	<entry name="ChaosDaemons_MT/ShadowPactFlavor" value="Though they have forsaken the Chaos Gods in favour of Be’lakor, the Dark Master’s mortal Disciples can still draw temporary power from offering soul-pacts to the daemons who fight in his service."/>
+	
+	<entry name="ChaosDaemons_MT/PrimalTerror" value="Primal Terror"/>
+	<entry name="ChaosDaemons_MT/PrimalTerrorDescription" value="Your shadow of chaos further reduces enemy morale."/>
+	<entry name="ChaosDaemons_MT/PrimalTerrorFlavor" value="Monstrous daemonic beings manifested in the physical realm as nightmares given form, stirring the deepest feelings of dread and horror in the minds of all who looked upon them. Even the mightiest champions of the Imperium take pause when faced with such a foe and lesser warriors are often paralysed with fear."/>
+	
+</language>

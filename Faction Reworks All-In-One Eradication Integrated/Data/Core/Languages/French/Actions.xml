@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+<entry name="PoisonSting" value="Piqûre empoisonnée"/>
+<entry name="PoisonStingDescription" value="Les Diables affaiblissent leurs proies avec le poison contenu dans leurs queues."/>
+<entry name="LivingPrometheanIncubator" value="Incubateur vivant de Prométhéens"/>
+<entry name="LivingPrometheanIncubatorDescription" value="Génère une unité de Prométhéens Luvenis"/>
+<entry name="DeathWail" value="Hurlement mortel"/>
+<entry name="DeathWailDescription" value="Les Mutants poussent un puissant cri qui sème la mort parmi les unités avec un faible moral."/>
+<entry name="DryadShield" value="Bouclier des Dryades"/>
+<entry name="DryadShieldDescription" value="Augmente l'armure de la Dryade Exaltée et des alliés adjacents."/>
+<entry name="RejuvenateHealth" value="Rejuvénation"/>
+<entry name="RejuvenateHealthDescription" value="Restaure les points de vie de l'unité d'infanterie alliée ciblée."/>
+<entry name="HorrificVisions" value="Horribles Visions"/>
+<entry name="HorrificVisionsDescription" value="Le Psyker inflige à ses victimes des visions macabres provenant du Warp."/>
+<entry name="ShadowOfTheWarp" value="Ombre du Warp"/>
+<entry name="ShadowOfTheWarpDescription" value="Réduit le moral des psykers ennemis adjacents tous les tours."/>
+<entry name="ShadowOfTheWarpFlavor" value="L'indicible présence du Psyker rayonne autour de lui, étouffant la capacité des psykers se dressant devant lui à utiliser leurs pouvoirs."/>
+<entry name="RoarOfWrath" value="Cri de Rage"/>
+<entry name="RoarOfWrathDescription" value="Restaure le moral des alliés adjacents et réduit le morale des ennemis adjacents."/>
+<entry name="RoarOfWrathFlavor" value="Le cri du Dominas résonne à travers le champ de bataille, renouvelant la force des meutes de Kroot et terrifiant ses ennemis."/>
+<entry name="DaemonPath" value="Chemin démoniaque"/>
+<entry name="DaemonPathDescription" value="Augmente les attaques de l'allié ciblé."/>
+</language>

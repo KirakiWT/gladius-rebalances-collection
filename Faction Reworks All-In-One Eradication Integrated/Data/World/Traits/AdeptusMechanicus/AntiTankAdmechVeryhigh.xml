@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1"
+		category="Buff">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<encounter>
+	                    <opponent match="Any">
+						<trait name="Fortification"/>
+						<trait name="Vehicle"/>
+						<trait name="MonstrousCreature"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<damage mul="3"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait>
+	<perTurnModifiers endure="0">
+		<modifier>
+			<effects>
+				<hitpoints add="1"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="Necrons/ReanimationProtocols2">
+			<effects>
+				<hitpoints add="1"/>
+			</effects>
+		</modifier>
+
+	<modifier requiredUpgrade="Necrons/ReanimationProtocols3">
+			<effects>
+				<hitpoints add="1"/>
+			</effects>
+		</modifier>
+
+	<modifier requiredUpgrade="Necrons/ReanimationProtocols4">
+			<effects>
+				<hitpoints add="1"/>
+			</effects>
+		</modifier>
+
+
+
+	</perTurnModifiers>
+</trait>

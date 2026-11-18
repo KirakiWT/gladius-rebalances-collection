@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+
+	<entry name="ChaosDaemons_MT/Belakor/Dead" value="The first Prince of Chaos"/>
+	<entry name="ChaosDaemons_MT/Belakor/DeadDescription" value="Reduce your units damage and increase the damage they take upon Be'lakors demise."/>
+	<entry name="ChaosDaemons_MT/Belakor/DeadFlavor" value="<string name='Units/ChaosDaemons_MT/BelakorFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/Belakor/Death" value="The first Prince of Chaos"/>
+	<entry name="ChaosDaemons_MT/Belakor/DeathDescription" value="Reduce your units damage and increase the damage they take upon Be'lakors demise."/>
+	<entry name="ChaosDaemons_MT/Belakor/DeathFlavor" value="<string name='Units/ChaosDaemons_MT/BelakorFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/SpellShreddingSymphony" value="Spell-Shredding Symphony"/>
+	<entry name="ChaosDaemons_MT/SpellShreddingSymphonyDescription" value="Increase attacks. Increase armor penetration against Psykers."/>
+	<entry name="ChaosDaemons_MT/SpellShreddingSymphonyFlavor" value="The vile tunes of torture strummed by these daemon-heralds are so unpalatable that even magic comes undone at their vibrations. So too, as it happens, do the casters."/>
+
+	<entry name="ChaosDaemons_MT/CelebrityWarlordEnemy" value="Celebrity Warlord"/>
+	<entry name="ChaosDaemons_MT/CelebrityWarlordEnemyDescription" value="Decrease accuracy."/>
+	<entry name="ChaosDaemons_MT/CelebrityWarlordEnemyFlavor" value="<string name='Traits/ChaosDaemons_MT/CelebrityWarlordFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/CelebrityWarlord" value="Celebrity Warlord"/>
+	<entry name="ChaosDaemons_MT/CelebrityWarlordDescription" value="Increase accuracy."/>
+	<entry name="ChaosDaemons_MT/CelebrityWarlordFlavor" value="This hero has gained a cult following that seeks them out on the battlefield."/>
+
+	<entry name="ChaosDaemons_MT/MaestrosOfDiscordance" value="Maestro of Discordance"/>
+	<entry name="ChaosDaemons_MT/MaestrosOfDiscordanceDescription" value="Attacks heal allied Chaos Daemon units."/>
+	<entry name="ChaosDaemons_MT/MaestrosOfDiscordanceFlavor" value="An Infernal Enrapturess can play music so dissonant that it causes physical harm to enemies while captivating other daemonic entities beyond the veil of reality."/>
+
+	<entry name="ChaosDaemons_MT/EldritchStrength" value="Eldritch Strength"/>
+	<entry name="ChaosDaemons_MT/EldritchStrengthDescription" value="Increase attacks."/>
+	<entry name="ChaosDaemons_MT/EldritchStrengthFlavor" value="The caster imbues their minions with supernatural might."/>
+
+	<entry name="ChaosDaemons_MT/WeaponCurse" value="Weapon Curse"/>
+	<entry name="ChaosDaemons_MT/WeaponCurseDescription" value="Take damage when attacking."/>
+	<entry name="ChaosDaemons_MT/WeaponCurseFlavor" value="The Changecaster's strange powers of mutation warp and dull enemy weapons, rendering them near useless."/>
+
+	<entry name="ChaosDaemons_MT/BoltOfTzeentchEnemy" value="Bolt of Tzeentch"/>
+	<entry name="ChaosDaemons_MT/BoltOfTzeentchEnemyDescription" value="Reduce damage."/>
+	<entry name="ChaosDaemons_MT/BoltOfTzeentchEnemyFlavor" value="<string name='Traits/ChaosDaemons_MT/BoltOfTzeentchFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/BoltOfTzeentch" value="Bolt of Tzeentch"/>
+	<entry name="ChaosDaemons_MT/BoltOfTzeentchDescription" value="Reduce enemy damage."/>
+	<entry name="ChaosDaemons_MT/BoltOfTzeentchFlavor" value="This spell manifests as a prismatic beam of raw magic that tears its victims apart in a display of multispectral colour."/>
+
+	<entry name="ChaosDaemons_MT/InfernalGateway" value="Infernal Gateway"/>
+	<entry name="ChaosDaemons_MT/InfernalGatewayDescription" value="Deal damage each turn and limit movement."/>
+	<entry name="ChaosDaemons_MT/InfernalGatewayFlavor" value="The daemon opens a portal to the Realm of Chaos, pulling enemies to their doom."/>
+
+	<entry name="ChaosDaemons_MT/GoreHungryOnslaught" value="Gore-Hungry Onslaught"/>
+	<entry name="ChaosDaemons_MT/GoreHungryOnslaughtDescription" value="Increase movement and ignore enemy zone of control."/>
+	<entry name="ChaosDaemons_MT/GoreHungryOnslaughtFlavor" value="The manifest will to run down and slaughter their prey allows the daemons of Khorne to surge through physical barriers as though they did not exist, falling upon their victims like bloody phantasms."/>
+
+	<entry name="ChaosDaemons_MT/BloodBegetSkulls" value="Blood begets Skulls"/>
+	<entry name="ChaosDaemons_MT/BloodBegetSkullsDescription" value="Gain influence from combat."/>
+	<entry name="ChaosDaemons_MT/BloodBegetSkullsFlavor" value="The iron reek of mortal blood pulsing through living veins fires the unnatural senses of Khorne’s daemons, drawing them on all the swifter to tear, slay, and hack skulls from necks for mighty Khorne."/>
+
+	<entry name="ChaosDaemons_MT/SkullsBegetBlood" value="Skulls beget Blood"/>
+	<entry name="ChaosDaemons_MT/SkullsBegetBloodDescription" value="Gain lifesteal."/>
+	<entry name="ChaosDaemons_MT/SkullsBegetBloodFlavor" value="Torn from the wet and ragged necks of worthy mortal champions, these skulls blaze with balefire as the daemons of Khorne heft and hurl them. They explode amongst the foe to shed more blood for the Blood God."/>
+
+	<entry name="ChaosDaemons_MT/GiftOfDiseaseEnemy" value="Gift of Disease"/>
+	<entry name="ChaosDaemons_MT/GiftOfDiseaseEnemyDescription" value="Deal damage each turn."/>
+	<entry name="ChaosDaemons_MT/GiftOfDiseaseEnemyFlavor" value="<string name='Traits/ChaosDaemons_MT/GiftOfDiseaseFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/GiftOfDisease" value="Gift of Disease"/>
+	<entry name="ChaosDaemons_MT/GiftOfDiseaseDescription" value="Restore health each turn. Infect enemies with a diseasse."/>
+	<entry name="ChaosDaemons_MT/GiftOfDiseaseFlavor" value="The daemon licks an oozing sore, savouring the tangy flavour of a ripe contagion, before coughing a phlegmy litany that wreathes them and their allies in a pain-inuring ague."/>
+
+	<entry name="ChaosDaemons_MT/JollyGutpipes" value="Jolly Gutpipes"/>
+	<entry name="ChaosDaemons_MT/JollyGutpipesDescription" value="Increase movement."/>
+	<entry name="ChaosDaemons_MT/JollyGutpipesFlavor" value="With a parp and a honk from their gutpipes, a Sloppity Bilepiper entertains their fellow daemons while ensuring their foes remain a captive audience."/>
+
+	<entry name="ChaosDaemons_MT/RancidVisitations" value="Rancid Visitations"/>
+	<entry name="ChaosDaemons_MT/RancidVisitationsDescription" value="Deal damage each turn."/>
+	<entry name="ChaosDaemons_MT/RancidVisitationsFlavor" value="Chanting in a phlegm-choked drone, the daemon conjures forth a dense cloud of occluding corpse-gas and biting, blinding flies to engulf the enemy and leave them nauseated and reeling."/>
+
+	<entry name="ChaosDaemons_MT/ArchitectOfDeception" value="Architect of Deception"/>
+	<entry name="ChaosDaemons_MT/ArchitectOfDeceptionDescription" value="Decrease accuracy."/>
+	<entry name="ChaosDaemons_MT/ArchitectOfDeceptionFlavor" value="No foe, be they mortal or daemonic, can trust their perceptions around this most cunning of daemons. A veil of sorcerous illusion wreathes it so densely that its enemies may not discern the daemon’s true location even should they stand in its very shadow."/>
+
+	<entry name="ChaosDaemons_MT/BloodLegion" value="Blood Legion"/>
+	<entry name="ChaosDaemons_MT/BloodLegionDescription" value="Increase attacks."/>
+	<entry name="ChaosDaemons_MT/BloodLegionFlavor" value="The daemon legions of Khorne burst into realspace like blood from an artery. Bloodcrushers pound the ground as they lead the charge, slamming into the enemy lines with avalanche force. Behind them come snarling Flesh Hounds and gore-slick Bloodletters, the bellow of brazen war horns sounding their massed charge."/>
+
+	<entry name="ChaosDaemons_MT/ContemptForSorcery" value="Contempt for Sorcery"/>
+	<entry name="ChaosDaemons_MT/ContemptForSorceryDescription" value="Increase witchfire damage reduction."/>
+	<entry name="ChaosDaemons_MT/ContemptForSorceryFlavor" value="The loathing for witchery that radiates from the daemons of Khorne can unmake even the mightiest of conjurations."/>
+
+	<entry name="ChaosDaemons_MT/DarkGlory" value="Dark Glory"/>
+	<entry name="ChaosDaemons_MT/DarkGloryDescription" value="Kill an enemy unit to spread your shadow of chaos."/>
+	<entry name="ChaosDaemons_MT/DarkGloryFlavor" value="<string name='Traits/ChaosSpaceMarines/DarkGloryFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/DelightfulAgonies" value="Delightful Agonies"/>
+	<entry name="ChaosDaemons_MT/DelightfulAgoniesDescription" value="Increase damage reduction and morale regeneration."/>
+	<entry name="ChaosDaemons_MT/DelightfulAgoniesFlavor" value="Manipulating the very stuff of its allies’ corporeal manifestations, the daemon turns their physical hurts to euphoric stimuli, allowing them to fight on even with their physical selves in tatters."/>
+	
+	<entry name="ChaosDaemons_MT/Discipline" value="<string name='Traits/Discipline'/>"/>
+	<entry name="ChaosDaemons_MT/DisciplineDescription" value="<string name='Traits/DisciplineDescription'/>"/>
+	<entry name="ChaosDaemons_MT/DisciplineFlavor" value="<string name='Traits/DisciplineFlavor'/>"/>
+
+	<entry name="ChaosDaemons_MT/DreadMarshal" value="Dread Marshal"/>
+	<entry name="ChaosDaemons_MT/DreadMarshalDescription" value="Increase damage."/>
+	<entry name="ChaosDaemons_MT/DreadMarshalFlavor" value="This mighty warrior has proved their devotion to Be’lakor above all, and their loyalty has been rewarded with a host of warriors to command."/>
+	
+	<entry name="ChaosDaemons_MT/DreadMarshalKhorne" value="<string name='Traits/ChaosDaemons_MT/DreadMarshal'/>"/>
+	<entry name="ChaosDaemons_MT/DreadMarshalKhorneDescription" value="Increase damage."/>
+	<entry name="ChaosDaemons_MT/DreadMarshalKhorneFlavor" value="<string name='Traits/ChaosDaemons_MT/DreadMarshalFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/DreadMarshalNurgle" value="<string name='Traits/ChaosDaemons_MT/DreadMarshal'/>"/>
+	<entry name="ChaosDaemons_MT/DreadMarshalNurgleDescription" value="Increase damage and melee damage reduction."/>
+	<entry name="ChaosDaemons_MT/DreadMarshalNurgleFlavor" value="<string name='Traits/ChaosDaemons_MT/DreadMarshalFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/DreadMarshalSlaanesh" value="<string name='Traits/ChaosDaemons_MT/DreadMarshal'/>"/>
+	<entry name="ChaosDaemons_MT/DreadMarshalSlaaneshDescription" value="Increase damage and movement."/>
+	<entry name="ChaosDaemons_MT/DreadMarshalSlaaneshFlavor" value="<string name='Traits/ChaosDaemons_MT/DreadMarshalFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/DreadMarshalTzeentch" value="<string name='Traits/ChaosDaemons_MT/DreadMarshal'/>"/>
+	<entry name="ChaosDaemons_MT/DreadMarshalTzeentchDescription" value="Increase damage and damage reduction."/>
+	<entry name="ChaosDaemons_MT/DreadMarshalTzeentchFlavor" value="<string name='Traits/ChaosDaemons_MT/DreadMarshalFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/DreadMarshalUndivided" value="<string name='Traits/ChaosDaemons_MT/DreadMarshal'/>"/>
+	<entry name="ChaosDaemons_MT/DreadMarshalUndividedDescription" value="Increase damage and reduce morale loss."/>
+	<entry name="ChaosDaemons_MT/DreadMarshalUndividedFlavor" value="<string name='Traits/ChaosDaemons_MT/DreadMarshalFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/FleshyAbundance" value="Fleshy Abundance"/>
+	<entry name="ChaosDaemons_MT/FleshyAbundanceDescription" value="Restore health. Increase for servants of Nurgle."/>
+	<entry name="ChaosDaemons_MT/FleshyAbundanceFlavor" value="The daemon blesses their allies with Nurgle’s bountiful energies, swelling them into even more grotesquely resilient and corpulent forms."/>
+	
+	<entry name="ChaosDaemons_MT/GloryOfBattle" value="Glory of Battle"/>
+	<entry name="ChaosDaemons_MT/GloryOfBattleDescription" value="Increase attacks and life steal while surrounded by enemies."/>
+	<entry name="ChaosDaemons_MT/GloryOfBattleFlavor" value="The more foes that surround this daemon, the faster and more eagerly it fights."/>
+	
+	<entry name="ChaosDaemons_MT/GreaterDaemon" value="Greater Daemon"/>
+	<entry name="ChaosDaemons_MT/GreaterDaemonDescription" value="Increase invulnerable damage reduction."/>
+	<entry name="ChaosDaemons_MT/GreaterDaemonFlavor" value="As the greatest daemons slaughter their way across reality, so they grow in power, earning rewards from their patron deity and learning how to shape realspace to augment their forms."/>
+	
+	<entry name="ChaosDaemons_MT/GrotesqueRegeneration" value="Grotesque Regeneration"/>
+	<entry name="ChaosDaemons_MT/GrotesqueRegenerationDescription" value="Increase health regeneration."/>
+	<entry name="ChaosDaemons_MT/GrotesqueRegenerationFlavor" value="The daemons of Nurgle are tremendously hard to destroy, all the more so in the presence of this walking font of unclean fecundity. Bountiful waves of diseased vigour roll off the daemon, its grotesque generosity an echo of Nurgles own that mends ruptured corporeal forms, reknits burst innards and thickens leathery flesh with fresh layers of rancid blubber."/>
+	
+	<entry name="ChaosDaemons_MT/Khorne" value="Servant of Khorne"/>
+	<entry name="ChaosDaemons_MT/KhorneDescription" value="Mark of Khorne - +25% attacks and +25% melee damage reduction, but -2 armor (not on vehicles). Allows overwatch attacks with melee weapons. Each kill yields 3 Ore. Nearby allied servants of Tzeentch increase morale loss."/>
+	<entry name="ChaosDaemons_MT/KhorneFlavor" value="The Blood God instils a blind rage in his most frenzied adherents."/>
+	
+	<entry name="ChaosDaemons_MT/LegionOfExcess" value="Legion of Excess"/>
+	<entry name="ChaosDaemons_MT/LegionOfExcessDescription" value="Increase attacks. Attacks now cause self damage."/>
+	<entry name="ChaosDaemons_MT/LegionOfExcessFlavor" value="The legions of Slaanesh surge into battle like a blood-spattered carnival run mad. It is a revel where every swathe of diaphanous silk is braided with screaming souls, and every beautiful smile stretches into a needle-fanged leer of cruellest hunger. The presence of these entities is enough to drive mortals mad as the horrific evidence of their eyes wars with forbidden desire welling inside them like bile."/>
+	
+	<entry name="ChaosDaemons_MT/Nurgle" value="Servant of Nurgle"/>
+	<entry name="ChaosDaemons_MT/NurgleDescription" value="Mark of Nurgle - +25% hitpoints, regeneration and increased healing rate, but -1 movement (not on vehicles). Nearby allied servants of Slaanesh increase morale loss."/>
+	<entry name="ChaosDaemons_MT/NurgleFlavor" value="The Father of Plagues bestows gifts of rot and decay upon his followers."/>
+	
+	<entry name="ChaosDaemons_MT/NurglesRot" value="Nurgles Rot"/>
+	<entry name="ChaosDaemons_MT/NurglesRotDescription" value="Decrease armor."/>
+	<entry name="ChaosDaemons_MT/NurglesRotFlavor" value="Gurgling praise to its god, the daemon exudes a wave of soul-pox that eats away the spiritual essence of those who lack Nurgle’s blessings. Victims’ eyes become glassy, their flesh sinks upon their bones and their limbs fall slack before they collapse and begin to rot before their horrified comrades’ eyes."/>
+	
+	<entry name="ChaosDaemons_MT/PlagueLegion" value="Plague Legion"/>
+	<entry name="ChaosDaemons_MT/PlagueLegionDescription" value="Increase damage reduction."/>
+	<entry name="ChaosDaemons_MT/PlagueLegionFlavor" value="One moment, reality is a place of rationality. The next, the veil separating realspace from the Warp strains, then bursts like a fatted boil and from the suppurating rent spill the daemon legions of Nurgle. Despair spreads before them like vomit soaking into pristine silk. Miasmal clouds engulf the foe, causing flesh to blister and slough, metal to fur with rust, and hope itself to rot away into dread misery."/>
+	
+	<entry name="ChaosDaemons_MT/Possession" value="<string name='Traits/ChaosSpaceMarines/Possession'/>"/>
+	<entry name="ChaosDaemons_MT/PossessionDescription" value="Killing enemy units transforms them into allied lesser daemon."/>
+	<entry name="ChaosDaemons_MT/PossessionFlavor" value="<string name='Traits/ChaosSpaceMarines/PossessionFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/ScintillatingLegion" value="Scintillating Legion"/>
+	<entry name="ChaosDaemons_MT/ScintillatingLegionDescription" value="Grants a shield that activates when attacked."/>
+	<entry name="ChaosDaemons_MT/ScintillatingLegionFlavor" value="Capering and cackling in an endless flux of transmogrifying change, the daemonic legions of Tzeentch unleash kaleidoscopic madness upon their enemies. Malevolent Lords of Change robed in sanity-blasting unhues wield raw magic with the ease of breathing. They marshal their bedlam hordes even as they transform screaming mortals into mounds of mutant flesh or set light to reality itself."/>
+	
+	<entry name="ChaosDaemons_MT/ScintillatingLegionShield" value="Scintillating Legion: Shield"/>
+	<entry name="ChaosDaemons_MT/ScintillatingLegionShieldDescription" value="<string name='Traits/ChaosDaemons_MT/ScintillatingLegionDescription'/>"/>
+	<entry name="ChaosDaemons_MT/ScintillatingLegionShieldFlavor" value="<string name='Traits/ChaosDaemons_MT/ScintillatingLegionFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/ScreamerBite" value="Screamer Bite"/>
+	<entry name="ChaosDaemons_MT/ScreamerBiteDescription" value="Increase armor penetration against monstrous creatures and vehicles."/>
+	
+	<entry name="ChaosDaemons_MT/ShadowOfChaos" value="Shadow of Chaos"/>
+	<entry name="ChaosDaemons_MT/ShadowOfChaosDescription" value="This unit is within the Chaos Daemons sphere of influence."/>
+	<entry name="ChaosDaemons_MT/ShadowOfChaosFlavor" value="When daemons pour into realspace, maelstroms of warp energy spill through in their wake. Manifest emotion and unbridled, nightmarish forces twist all that they touch, reshaping the landscape into bizarre forms while tormenting mortal beings to madness. To be embroiled in such tempests is to endure conditions utterly anathema to the fundamental laws of reality, provoking primal terror in even the most emotionless warriors."/>
+	
+	<entry name="ChaosDaemons_MT/ShadowOfChaosEnemy" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaos'/>"/>
+	<entry name="ChaosDaemons_MT/ShadowOfChaosEnemyDescription" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosDescription'/>"/>
+	<entry name="ChaosDaemons_MT/ShadowOfChaosEnemyFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/ShrivellingPox" value="Shrivelling Pox"/>
+	<entry name="ChaosDaemons_MT/ShrivellingPoxDescription" value="Reduce damage dealt. Take damage each turn."/>
+	<entry name="ChaosDaemons_MT/ShrivellingPoxFlavor" value="Muttering an unholy chant in a blighted tongue, the daemon calls down a foul malignancy that races through the enemies’ ranks like wildfire and chews away at their flesh and organs like a tide of ravenous maggots."/>
+	
+	<entry name="ChaosDaemons_MT/Slaanesh" value="Servant of Slaanesh"/>
+	<entry name="ChaosDaemons_MT/SlaaneshDescription" value="Mark of Slaanesh - +1 movement, +50% damage against units with 50% health or less, actions do not consume movement, but -25% hitpoints (not on vehicles). Each kill yields 2 Influence. Nearby allied servants of Nurgle increase morale loss."/>
+	<entry name="ChaosDaemons_MT/SlaaneshFlavor" value="The thrill of battle drives these warriors to charge at spectacular speed."/>
+	
+	<entry name="ChaosDaemons_MT/SoulGlutton" value="Soul Glutton"/>
+	<entry name="ChaosDaemons_MT/SoulGluttonDescription" value="Restore health when killing an enemy unit."/>
+	<entry name="ChaosDaemons_MT/SoulGluttonFlavor" value="This daemon lord guzzles souls, its bloated corporeality reknitting with each fresh morsel."/>
+	
+	<entry name="ChaosDaemons_MT/SoulGrinderSlaanesh" value="Overwhelming Excess"/>
+	<entry name="ChaosDaemons_MT/SoulGrinderSlaaneshDescription" value="Increase range attacks."/>
+	<entry name="ChaosDaemons_MT/SoulGrinderSlaaneshFlavor" value="Sensation gushes relentlessly into the overstimulated minds of the enemy until their souls strain fit to burst. Barely able to think or function, they recoil in their desperate need to stem the unstoppable tide."/>
+	
+	<entry name="ChaosDaemons_MT/Tzeentch" value="Servant of Tzeentch"/>
+	<entry name="ChaosDaemons_MT/TzeentchDescription" value="Mark of Tzeentch - +17% damage reduction, attacks inflict Soulblaze (damage over time) and the unit receives a random Boon of Chaos, but +50% melee damage taken (not on vehicles). Each kill yields 4 Research. Nearby allied servants of Khorne increase morale loss."/>
+	<entry name="ChaosDaemons_MT/TzeentchFlavor" value="Reality twists and weaves around these warriors as they become intertwined in the machinations of the Change God."/>
+	
+	<entry name="ChaosDaemons_MT/Undivided" value="Servant of Chaos Undivided"/>
+	<entry name="ChaosDaemons_MT/UndividedDescription" value="Classification."/>
+	<entry name="ChaosDaemons_MT/UndividedFlavor" value="The Slaves to Darkness forsake their souls by pledging to the Dark Gods."/>
+	
+	<entry name="ChaosDaemons_MT/WorthyOffering" value="Worthy Offering"/>
+	<entry name="ChaosDaemons_MT/WorthyOfferingDescription" value="When gaining experience from combat gain influence."/>
+	<entry name="ChaosDaemons_MT/WorthyOfferingFlavor" value="<string name='Traits/ChaosSpaceMarines/WorthyOfferingFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/WrathUndeniable" value="Wrath Undeniable"/>
+	<entry name="ChaosDaemons_MT/WrathUndeniableDescription" value="Increase melee damage."/>
+	<entry name="ChaosDaemons_MT/WrathUndeniableFlavor" value="Even the banishing blow is often not enough to prevent the daemons of Khorne from lashing out to take bloody vengeance as they discorporate."/>
+	
+	<entry name="ChaosDaemons_MT/WreathedInShades" value="Wreathed in Shades"/>
+	<entry name="ChaosDaemons_MT/WreathedInShadesDescription" value="Increase accuracy and ranged damage reduction."/>
+	<entry name="ChaosDaemons_MT/WreathedInShadesFlavor" value="The psyker draws from the warp a churning mass of damned shades, abandoned worshippers of Be’lakor now doomed to conceal and protect his current servants."/>
+	
+	<entry name="ChaosDaemons_MT/BoonOfChange/BoonOfChange" value="Boon of Change"/>
+	<entry name="ChaosDaemons_MT/BoonOfChange/BoonOfChangeDescription" value=""/>
+	<entry name="ChaosDaemons_MT/BoonOfChange/BoonOfChangeFlavor" value="As the daemon chants, its minions begin to twist and new forms take shape as the will of Tzeentch demands."/>
+	
+	<entry name="ChaosDaemons_MT/BoonOfChange/Armor" value="<string name='Traits/ChaosDaemons_MT/BoonOfChange/BoonOfChange'/>"/>
+	<entry name="ChaosDaemons_MT/BoonOfChange/ArmorDescription" value="Increase armor."/>
+	<entry name="ChaosDaemons_MT/BoonOfChange/ArmorFlavor" value="<string name='Traits/ChaosDaemons_MT/BoonOfChange/BoonOfChangeFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/BoonOfChange/Attacks" value="<string name='Traits/ChaosDaemons_MT/BoonOfChange/BoonOfChange'/>"/>
+	<entry name="ChaosDaemons_MT/BoonOfChange/AttacksDescription" value="Increase attacks."/>
+	<entry name="ChaosDaemons_MT/BoonOfChange/AttacksFlavor" value="<string name='Traits/ChaosDaemons_MT/BoonOfChange/BoonOfChangeFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/BoonOfChange/Movement" value="<string name='Traits/ChaosDaemons_MT/BoonOfChange/BoonOfChange'/>"/>
+	<entry name="ChaosDaemons_MT/BoonOfChange/MovementDescription" value="Increase movement."/>
+	<entry name="ChaosDaemons_MT/BoonOfChange/MovementFlavor" value="<string name='Traits/ChaosDaemons_MT/BoonOfChange/BoonOfChangeFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/ShadowLegion/Khorne" value="Shadow Legion"/>
+	<entry name="ChaosDaemons_MT/ShadowLegion/KhorneDescription" value="Increase movement."/>
+	<entry name="ChaosDaemons_MT/ShadowLegion/KhorneFlavor" value="Heretic Astartes, mortal cultists and nightmarish daemons - all serve Be’lakor and fight amongst the ranks of his Disciples. These fanatical heretics have forsaken the Dark Gods in favour of worshipping their first and greatest champion, whom many of them view as at least a demigod in his own right. "/>
+	
+	<entry name="ChaosDaemons_MT/ShadowLegion/Nurgle" value="<string name='Traits/ChaosDaemons_MT/ShadowLegion/Khorne'/>"/>
+	<entry name="ChaosDaemons_MT/ShadowLegion/NurgleDescription" value="Increase armour."/>
+	<entry name="ChaosDaemons_MT/ShadowLegion/NurgleFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowLegion/KhorneFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/ShadowLegion/Slaanesh" value="<string name='Traits/ChaosDaemons_MT/ShadowLegion/Khorne'/>"/>
+	<entry name="ChaosDaemons_MT/ShadowLegion/SlaaneshDescription" value="Ignore enemy overwatch."/>
+	<entry name="ChaosDaemons_MT/ShadowLegion/SlaaneshFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowLegion/KhorneFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/ShadowLegion/Tzeentch" value="<string name='Traits/ChaosDaemons_MT/ShadowLegion/Khorne'/>"/>
+	<entry name="ChaosDaemons_MT/ShadowLegion/TzeentchDescription" value="Increase damage reduction."/>
+	<entry name="ChaosDaemons_MT/ShadowLegion/TzeentchFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowLegion/KhorneFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/ShadowLegion/Undivided" value="<string name='Traits/ChaosDaemons_MT/ShadowLegion/Khorne'/>"/>
+	<entry name="ChaosDaemons_MT/ShadowLegion/UndividedDescription" value="Increase melee damage reduction."/>
+	<entry name="ChaosDaemons_MT/ShadowLegion/UndividedFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowLegion/KhorneFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/ShadowOfChaos/Khorne" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaos'/>"/>
+	<entry name="ChaosDaemons_MT/ShadowOfChaos/KhorneDescription" value="Increase damage,"/>
+	<entry name="ChaosDaemons_MT/ShadowOfChaos/KhorneFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/ShadowOfChaos/Nurgle" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaos'/>"/>
+	<entry name="ChaosDaemons_MT/ShadowOfChaos/NurgleDescription" value="Increase damage reduction."/>
+	<entry name="ChaosDaemons_MT/ShadowOfChaos/NurgleFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/ShadowOfChaos/Slaanesh" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaos'/>"/>
+	<entry name="ChaosDaemons_MT/ShadowOfChaos/SlaaneshDescription" value="Ignore enemy zone of control."/>
+	<entry name="ChaosDaemons_MT/ShadowOfChaos/SlaaneshFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/ShadowOfChaos/Tzeentch" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaos'/>"/>
+	<entry name="ChaosDaemons_MT/ShadowOfChaos/TzeentchDescription" value="Reflect damage."/>
+	<entry name="ChaosDaemons_MT/ShadowOfChaos/TzeentchFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/ShadowOfChaos/Undivided" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaos'/>"/>
+	<entry name="ChaosDaemons_MT/ShadowOfChaos/UndividedDescription" value="Reduce morale loss."/>
+	<entry name="ChaosDaemons_MT/ShadowOfChaos/UndividedFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/RiteOfBlood" value="<string name='Traits/ChaosSpaceMarines/RiteOfBlood'/>"/>
+	<entry name="ChaosDaemons_MT/RiteOfBloodDescription" value="<string name='Traits/ChaosSpaceMarines/RiteOfBloodDescription'/>"/>
+	<entry name="ChaosDaemons_MT/RiteOfBloodFlavor" value="<string name='Traits/ChaosSpaceMarines/RiteOfBloodFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/RiteOfUnholyPleasure" value="<string name='Traits/ChaosSpaceMarines/RiteOfUnholyPleasure'/>"/>
+	<entry name="ChaosDaemons_MT/RiteOfUnholyPleasureDescription" value="<string name='Traits/ChaosSpaceMarines/RiteOfUnholyPleasureDescription'/>"/>
+	<entry name="ChaosDaemons_MT/RiteOfUnholyPleasureFlavor" value="<string name='Traits/ChaosSpaceMarines/RiteOfUnholyPleasureFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/RiteOfChange" value="<string name='Traits/ChaosSpaceMarines/RiteOfChange'/>"/>
+	<entry name="ChaosDaemons_MT/RiteOfChangeDescription" value="<string name='Traits/ChaosSpaceMarines/RiteOfChangeDescription'/>"/>
+	<entry name="ChaosDaemons_MT/RiteOfChangeFlavor" value="<string name='Traits/ChaosSpaceMarines/RiteOfChangeFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/RiteOfPestilence" value="<string name='Traits/ChaosSpaceMarines/RiteOfPestilence'/>"/>
+	<entry name="ChaosDaemons_MT/RiteOfPestilenceDescription" value="<string name='Traits/ChaosSpaceMarines/RiteOfPestilenceDescription'/>"/>
+	<entry name="ChaosDaemons_MT/RiteOfPestilenceFlavor" value="<string name='Traits/ChaosSpaceMarines/RiteOfPestilenceFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/CultistSacrifice/CultistSacrifice" value="<string name='Actions/ChaosSpaceMarines/CultistSacrifice'/>"/>
+	<entry name="ChaosDaemons_MT/CultistSacrifice/CultistSacrificeDescription" value="Increases the growth rate."/>
+	<entry name="ChaosDaemons_MT/CultistSacrifice/CultistSacrificeFlavor" value="<string name='Actions/ChaosSpaceMarines/CultistSacrificeFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/CultistSacrifice/Khorne" value="<string name='Actions/ChaosSpaceMarines/CultistSacrifice'/>"/>
+	<entry name="ChaosDaemons_MT/CultistSacrifice/KhorneDescription" value="Increases ore generation."/>
+	<entry name="ChaosDaemons_MT/CultistSacrifice/KhorneFlavor" value="<string name='Actions/ChaosSpaceMarines/CultistSacrificeFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/CultistSacrifice/Nurgle" value="<string name='Actions/ChaosSpaceMarines/CultistSacrifice'/>"/>
+	<entry name="ChaosDaemons_MT/CultistSacrifice/NurgleDescription" value="Increases the growth rate."/>
+	<entry name="ChaosDaemons_MT/CultistSacrifice/NurgleFlavor" value="<string name='Actions/ChaosSpaceMarines/CultistSacrificeFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/CultistSacrifice/Slaanesh" value="<string name='Actions/ChaosSpaceMarines/CultistSacrifice'/>"/>
+	<entry name="ChaosDaemons_MT/CultistSacrifice/SlaaneshDescription" value="Increases influence generation."/>
+	<entry name="ChaosDaemons_MT/CultistSacrifice/SlaaneshFlavor" value="<string name='Actions/ChaosSpaceMarines/CultistSacrificeFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/CultistSacrifice/Tzeentch" value="<string name='Actions/ChaosSpaceMarines/CultistSacrifice'/>"/>
+	<entry name="ChaosDaemons_MT/CultistSacrifice/TzeentchDescription" value="Increases energy generation."/>
+	<entry name="ChaosDaemons_MT/CultistSacrifice/TzeentchFlavor" value="<string name='Actions/ChaosSpaceMarines/CultistSacrificeFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/HammerOfWrath/Khorne" value="<string name='Actions/HammerOfWrath'/>"/>
+	<entry name="ChaosDaemons_MT/HammerOfWrath/KhorneDescription" value="Increases the damage of non-Bomb weapons."/>
+	<entry name="ChaosDaemons_MT/HammerOfWrath/KhorneFlavor" value="<string name='Actions/HammerOfWrathFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/HammerOfWrath/Nurgle" value="<string name='Actions/HammerOfWrath'/>"/>
+	<entry name="ChaosDaemons_MT/HammerOfWrath/NurgleDescription" value="Increases the damage of non-Bomb weapons."/>
+	<entry name="ChaosDaemons_MT/HammerOfWrath/NurgleFlavor" value="<string name='Actions/HammerOfWrathFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/HammerOfWrath/Tzeentch" value="<string name='Actions/HammerOfWrath'/>"/>
+	<entry name="ChaosDaemons_MT/HammerOfWrath/TzeentchDescription" value="Increases the damage of non-Bomb weapons. Decrease enemy non-Bomb damage."/>
+	<entry name="ChaosDaemons_MT/HammerOfWrath/TzeentchFlavor" value="<string name='Actions/HammerOfWrathFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/HammerOfWrath/Slaanesh" value="<string name='Actions/HammerOfWrath'/>"/>
+	<entry name="ChaosDaemons_MT/HammerOfWrath/SlaaneshDescription" value="Increases the damage and armour penetration of non-Bomb weapons."/>
+	<entry name="ChaosDaemons_MT/HammerOfWrath/SlaaneshFlavor" value="<string name='Actions/HammerOfWrathFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/HammerOfWrath/Undivided" value="<string name='Actions/HammerOfWrath'/>"/>
+	<entry name="ChaosDaemons_MT/HammerOfWrath/UndividedDescription" value="Increases the damage of non-Bomb weapons."/>
+	<entry name="ChaosDaemons_MT/HammerOfWrath/UndividedFlavor" value="<string name='Actions/HammerOfWrathFlavor'/>"/>
+	
+	<entry name="ChaosDaemons_MT/Locus/LocusOfConjuration" value="Locus of Conjuration"/>
+	<entry name="ChaosDaemons_MT/Locus/LocusOfConjurationDescription" value="Deal additional damage when attacking."/>
+	<entry name="ChaosDaemons_MT/Locus/LocusOfConjurationFlavor" value="This daemon is a walking rift, a prismatic lens through which the sorcerous energies of the warp flows in waves. Nearby daemons of Tzeentch harness the endless outpouring of power and weave it into fresh and potent magicks to hurl at their foes."/>
+	
+	<entry name="ChaosDaemons_MT/Locus/LocusOfDelicateEvisceration" value="Locus of Delicate Evisceration"/>
+	<entry name="ChaosDaemons_MT/Locus/LocusOfDelicateEviscerationDescription" value="Increase armor penetration after moving."/>
+	<entry name="ChaosDaemons_MT/Locus/LocusOfDelicateEviscerationFlavor" value="The daemons of Slaanesh gift blissful agonies to their victims, each bladed caress causing organs to rupture and bones to shatter amidst convulsions of overwhelming pleasure."/>
+	
+	<entry name="ChaosDaemons_MT/Locus/LocusOfDiabolicalPurpose" value="Locus of Diabolical Purpose"/>
+	<entry name="ChaosDaemons_MT/Locus/LocusOfDiabolicalPurposeDescription" value="Add lifesteal for melee weapons."/>
+	<entry name="ChaosDaemons_MT/Locus/LocusOfDiabolicalPurposeFlavor" value="Khorne daemons rarely pause in their slaughter, their insatiable desire to reap the skulls of their foes driving them onwards."/>
+	
+	<entry name="ChaosDaemons_MT/Locus/LocusOfPoxesUncounted" value="Locus of Poxes Uncounted"/>
+	<entry name="ChaosDaemons_MT/Locus/LocusOfPoxesUncountedDescription" value="Add movement."/>
+	<entry name="ChaosDaemons_MT/Locus/LocusOfPoxesUncountedFlavor" value="Like a swift-spreading plague rampaging through a frightened crowd, or a raging fever sweeping over its delirious host, the daemonic foot soldiers of Nurgle flicker across the battlefield to manifest suddenly amidst victims who believed themselves safely out of reach."/>
+	
+	<entry name="ChaosDaemons_MT/Locus/LocusOfTransmogrification" value="Locus of Transmogrification"/>
+	<entry name="ChaosDaemons_MT/Locus/LocusOfTransmogrificationDescription" value="Attacks heal allied units."/>
+	<entry name="ChaosDaemons_MT/Locus/LocusOfTransmogrificationFlavor" value="Change eternal is amongst the greatest powers of the daemons of Tzeentch, and one this entity turns to its advantage. Blows fated to banish its minions change to become fumbling failures. Wounded daemonic forms alter their nature to become hale and undamaged. With one rippling change after another, victory for the foe transforms into crushing and inexplicable defeat."/>
+	
+	<entry name="ChaosDaemons_MT/Locus/LocusOfUnnaturalSwiftness" value="Locus of Unnatural Swiftness"/>
+	<entry name="ChaosDaemons_MT/Locus/LocusOfUnnaturalSwiftnessDescription" value="Increase accuracy after moving."/>
+	<entry name="ChaosDaemons_MT/Locus/LocusOfUnnaturalSwiftnessFlavor" value="Slaaneshi daemons dance across the battlefield with a grace and speed that defies belief. Their obsessive desire to close with their mortal playthings causes the stuff of reality to yield before them, allowing the daemons to cavort directly into battle with shrieks of wild delight."/>
+	
+	<entry name="ChaosDaemons_MT/Locus/LocusOfUnstoppableFury" value="Locus of Unstoppable Fury"/>
+	<entry name="ChaosDaemons_MT/Locus/LocusOfUnstoppableFuryDescription" value="Melee weapons hit additional targets."/>
+	<entry name="ChaosDaemons_MT/Locus/LocusOfUnstoppableFuryFlavor" value="This daemon is a wellspring of supernatural rage, a bellowing berserker whose mere presence catalyses its underlings to new heights of apoplectic savagery and crunching violence."/>
+	
+	<entry name="ChaosDaemons_MT/SmokeScreen/Khorne" value="Smoke Screen: Khorne"/>
+	<entry name="ChaosDaemons_MT/SmokeScreen/KhorneDescription" value="Increase damage."/>
+	
+	<entry name="ChaosDaemons_MT/SmokeScreen/Nurgle" value="Smoke Screen: Nurgle"/>
+	<entry name="ChaosDaemons_MT/SmokeScreen/NurgleDescription" value="Increase melee damage reduction."/>
+	
+	<entry name="ChaosDaemons_MT/SmokeScreen/Slaanesh" value="Smoke Screen: Slaanesh"/>
+	<entry name="ChaosDaemons_MT/SmokeScreen/SlaaneshDescription" value="Increase movement."/>
+	
+	<entry name="ChaosDaemons_MT/SmokeScreen/Tzeentch" value="Smoke Screen: Tzeentch"/>
+	<entry name="ChaosDaemons_MT/SmokeScreen/TzeentchDescription" value="Increase ranged damage reduction."/>
+	
+	<entry name="ChaosDaemons_MT/HarbringerOfLust" value="Harbinger of Lust"/>
+	<entry name="ChaosDaemons_MT/HarbringerOfLustDescription" value="This unit deals more damage to units with 50% health or less."/>
+	<entry name="ChaosDaemons_MT/HarbringerOfLustFlavor" value="The devotees of Slaanesh strike where their prey is weakest."/>
+	<entry name="ChaosDaemons_MT/WarbandDiscipline" value="Warband Discipline"/>
+	<entry name="ChaosDaemons_MT/WarbandDisciplineDescription" value="Increases hitpoints by 10% and accuracy by 5%."/>
+	<entry name="ChaosDaemons_MT/WarbandDisciplineFlavor" value="Mortal followers fight with the zeal of men who have already damned themselves."/>
+	<entry name="ChaosDaemons_MT/DaemonicResilience" value="Daemonic Resilience"/>
+	<entry name="ChaosDaemons_MT/DaemonicResilienceDescription" value="Increases armor by 1 and hitpoints by 10%."/>
+	<entry name="ChaosDaemons_MT/DaemonicResilienceFlavor" value="The Warp itself knits closed the wounds of its children."/>
+	<entry name="ChaosDaemons_MT/ReinforcedHulls" value="Reinforced Hulls"/>
+	<entry name="ChaosDaemons_MT/ReinforcedHullsDescription" value="Increases armor by 1 and hitpoints by 10%."/>
+	<entry name="ChaosDaemons_MT/ReinforcedHullsFlavor" value="Plates scavenged from a thousand wars, welded together with blood."/>
+</language>

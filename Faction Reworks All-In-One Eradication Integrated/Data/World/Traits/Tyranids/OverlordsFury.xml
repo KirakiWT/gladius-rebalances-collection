@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" rankMax="2">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<enemyMajorityInRange range="1"/>
+				</unit>
+			</conditions>
+			<effects>
+				<meleeAttacks mulMin="0.2" mulMax="0.6"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

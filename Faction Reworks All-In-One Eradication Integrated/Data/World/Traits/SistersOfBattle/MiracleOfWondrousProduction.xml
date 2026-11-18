@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Buff" icon="Actions/SistersOfBattle/MiracleOfWondrousProduction" visibilityCategory="Tile">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<building match="Any">
+					<type name="SistersOfBattle/Infantry"/>
+					<type name="SistersOfBattle/Vehicles"/>
+					<type name="SistersOfBattle/Heroes"/>
+					<type name="SistersOfBattle/Auxiliaries"/>
+					<type name="SistersOfBattle/AdvancedInfantry"/>
+					<type name="SistersOfBattle/AdvancedVehicles"/>
+				</building>
+			</conditions>
+			<effects>
+				<production mul="0.5"/>
+
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

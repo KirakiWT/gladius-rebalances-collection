@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>
+		<unit mesh="Units/Reinforcements_MT/PlagueDrone"
+				material="Units/Reinforcements_MT/PlagueDrone"
+				idleAnimation="Units/Reinforcements_MT/PlagueDrone/Idle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				scale="0.8 0.8 0.8"
+				normalWeight="0.1"
+				position="0 0 43"
+				bloodBone="Drone"
+				transparent="1"/>
+	</model>
+	<group size="3" rowSize="2" memberDeltaX="100" memberDeltaY="100"/>
+	<weapons>
+		<weapon name="ChaosDaemons_MT/Plaguesword">
+			<model>
+				<weapon fireInterval="0.4"/>
+			</model>
+		</weapon>
+		<weapon name="CloseCombatWeapon">
+			<model>
+				<weapon fireInterval="0.4"/>
+			</model>
+		</weapon>
+		<weapon name="ChaosDaemons_MT/DeathsHead">
+			<model>
+				<grenadeWeapon muzzleBone="Plaguebearer.011"/>
+			</model>		
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="6"/>
+				<hitpointsMax base="12"/>
+				<meleeAccuracy base="8"/>
+				<meleeAttacks base="1"/>
+				<strengthDamage base="1.5"/>
+				<moraleMax base="8"/>
+				<movementMax base="3"/>
+				<productionCost base="54"/>
+				<foodCost base="100"/>
+				<energyCost base="40"/>
+				<foodUpkeep base="4"/>
+				<rangedAccuracy base="8"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<player>
+					<aiControlled/>
+				</player>
+			</conditions>
+			<effects>
+			</effects>
+		</modifier>	
+		<modifier visible="0">
+			<conditions>
+				<player>
+					<notAIControlled/>
+				</player>
+			</conditions>
+			<effects>
+			</effects>
+		</modifier>	
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseAircraftScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action animation="Units/Reinforcements_MT/PlagueDrone/Range"
+						chargeAnimation="Units/Reinforcements_MT/PlagueDrone/Charge"
+						chargeBeginFire="0.67"
+						chargeEndFire="1"						
+						meleeAnimation="Units/Reinforcements_MT/PlagueDrone/Melee"
+						meleeBeginSwing="0"
+						meleeEndSwing="0.33"
+						beginFire="1.33"
+						endFire="1.67"/>
+			</model>			
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/Reinforcements_MT/PlagueDrone/Die"
+						sound="Units/Neutral/PsychneueinDie"
+						soundCount="2"
+						soundDelay="0.2"/>
+			</model>
+		</die>
+		<move>		
+			<model>
+				<action animation="Units/Reinforcements_MT/PlagueDrone/Move"
+						sound="Units/Neutral/PsychneueinMove"
+						soundCount="1"/>
+			</model>	
+		</move>
+		<dimensionalCorridor cooldown="5"
+				name="ChaosDaemons_MT/WarpRiftTeleport"
+				requiredUpgrade="ChaosDaemons_MT/WarpRift"
+				icon="Actions/Necrons/GravityPulse">
+			<model>
+				<action sound="Actions/Teleport"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/WarpRift"/>
+				</unit>
+			</conditions>
+			<modifiers>
+				<modifier requiredUpgrade="ChaosDaemons_MT/WarpSurge">
+					<effects>
+						<consumedActionPoints max="0"/>
+						<consumedMovement max="0"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</dimensionalCorridor>
+	</actions>
+	<traits>
+		<trait name="Flyer"/>
+		<trait name="Fleet"/>
+		<trait name="Daemon"/>
+		<trait name="MonstrousCreature"/>
+		<trait name="ChaosDaemons_MT/Nurgle"/>
+		<trait name="Regeneration"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Undivided"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Khorne"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Tzeentch"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Slaanesh"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Nurgle"/>
+		<trait name="ChaosDaemons_MT/WarpRift"/>
+		<trait name="ChaosDaemons_MT/DaemonicResilience" requiredUpgrade="ChaosDaemons_MT/ExtraVehicleArmour"/>
+	</traits>
+</unit>

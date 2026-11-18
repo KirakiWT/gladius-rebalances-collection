@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Buff" icon="Traits/AstraMilitarum/FixBayonets!">
+	<modifiers>
+		<modifier>
+			<effects>
+				<meleeDamageReduction add="0.20"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<productionCost base="36"/>
+				<oreCost base="50"/>
+				<populationRequired base="1"/>
+				<slotsRequired base="1"/>
+				<energyUpkeep add="2"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<effects>
+				<ore add="2"/>
+
+				<influence add="2"/>
+
+				<production add="6"/>
+
+			</effects>
+		</modifier>
+	</modifiers>
+	<productionModifiers>
+		<modifier>
+			<effects>
+				
+			</effects>
+		</modifier>
+	</productionModifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseVehiclesProductionScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+	<rapidRise name="Drukhari/PainBrokers"
+	
+				interfaceSound="Interface/RapidRise">
+				
+			<modifiers>
+			<modifier>
+				<effects>
+					<influenceCost mul="2"/>
+				</effects>
+				</modifier>
+
+				<modifier requiredUpgrade="Drukhari/BloodForSouls">
+					<effects>
+						<influenceCost mul="-2.0"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</rapidRise>
+
+		<produceUnit unit="Drukhari/Venom"/>
+
+		<produceUnit unit="Drukhari/Reaver" requiredUpgrade="Drukhari/Reaver"/>
+
+		<produceUnit unit="Drukhari/Raider" requiredUpgrade="Drukhari/Raider"/>
+
+
+	</actions>
+</building>

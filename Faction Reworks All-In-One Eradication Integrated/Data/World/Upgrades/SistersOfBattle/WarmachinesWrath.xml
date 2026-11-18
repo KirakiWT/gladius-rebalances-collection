@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade visible="0" icon="Actions/SistersOfBattle/WarmachinesWrath">
+	<requiredUpgrades>
+		<upgrade name="SistersOfBattle/Vehicles"/>
+		<upgrade name="SistersOfBattle/Auxiliaries"/>		
+	</requiredUpgrades>
+</upgrade>

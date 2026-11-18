@@ -1,0 +1,155 @@
+[Necron Major Rework]
+
+Necrons will receive a major rework to their Unit Roster and Heroes.
+
+[Design Philosophy]
+
+Necrons are one of the stronger factions in the base game, especially because of their simplistic buildings and resources while also having regeneration on all units.
+
+I discovered the following flaws:
+
+1. Resource economy too simple: Their resource economy is too simple even for Gladius standards. This allows much stronger and specialized builds in comparison to other factions.
+
+2. Summoning Core too dominant: You only need the "summoning core" to have a solid army from early to midgame. There you can build early, mid and lategame infantry, support monsters and even colonizers.
+
+3. Rapid Rise imbalanced: The ability to buy units/buildings for influence only looks at production cost. That means fast-constructing buildings are extremely strong, like the second construction building in a city. This even allows fast city rushing which is faster than all other factions.
+________________________________________
+[General Changes]
+
+1. Reworked Resources
+Energy and Ore are now needed for different things:
+• Buildings: Cost Ore and Energy with ore and energy upkeep
+• Infantry: Energy with Energy upkeep
+• Vehicles: Cost Ore with Ore upkeep
+• Flyers: Cost Ore and Energy with ore and energy upkeep
+• Heroes and Monsters: Cost Ore and Energy with ore and energy upkeep
+
+You need both resources now but can decide which path you go depending on your starting resource bonuses.
+
+2. Monster Units
+Are now built in the Royal Pyramid, which means you will need the hero building to construct colonizer units.
+
+3. Canoptek Reanimators
+Are also able to found cities now.
+
+4. Rapid Rise Rebalancing
+Is now way more expensive, but the cost will be reduced drastically when a corresponding tech is researched, which means early on you will no longer be able to fast construct buildings. If you tech the corresponding technology, Rapid Rise is a bit cheaper than before.
+
+5. Unit Rework
+Some units get reworked to fit a better power curve (but Necrons were already incredibly good).
+
+6. Necrodermis Repair
+Cost reduced and fitted to the unit classes:
+• Infantry = cheapest
+• Vehicles/Monsters = middle ground
+• Heroes = expensive
+
+7. New Fortification: Small Gauss Pylon
+A smaller midgame version of the Gauss Pylon which excels against flyers and skimmers and can be constructed by the Canoptek Spyder.
+
+Design Philosophy: Necrons will still be a powerhouse but will have to build other buildings than just summoning cores now.
+________________________________________
+Buildings
+
+• Monsters are now also built in the Royal Pyramid (Hero Building)
+• Canoptek Spyders can also be built in the Headquarters so you don't necessarily need the hero building
+• Necron Lord is now built in the Summoning Core (infantry building)
+• Resource gain on buildings has been reworked
+________________________________________
+Heroes
+
+Necron Lord
+• Can now be built in the Summoning Core (Infantry Building)
+• Now has a 2-range ranged attack
+• Now has an ability to catch enemy units
+• Now has an ability to buff nearby units
+
+Cryptek
+• Is now the default hero in the hero building
+• Almost the same as before
+
+Destroyer Lord
+• Deals more damage now
+• Destruction Protocols tuned down a bit
+• Blood Crusade buffed a bit
+
+Transcedent C'tan
+• Now a T6 Unit
+• Stronger Melee Attacks
+• Abilities Adjusted
+• Now has the Hero Trait
+
+________________________________________
+Infantry Units
+
+General Changes:
+• Now all cost Energy and have energy upkeep
+• Necrodermis Repair costs less now
+
+Necron Warriors
+• Almost the same as before
+• Necrodermis Repair costs less now
+
+Flayed Ones
+• Almost the same as before
+• Necrodermis Repair costs less now
+
+Deathmarks
+• Now have the same armor as Warriors
+• Now have the Scout ability that reveals a 4-tile radius
+• Necrodermis Repair costs less now
+
+Heavy Destroyers
+• A bit higher damage now
+• Necrodermis Repair costs less now
+
+Triarch Praetorians
+• Now a T4 Infantry with melee and ranged high-penetration weapons
+• Can shoot at 2 range
+• Move faster at baseline now
+• Necrodermis Repair costs less now
+________________________________________
+Monsters
+
+General Changes:
+• Now cost Energy and Ore and also have energy and ore upkeep
+• Necrodermis Repair costs less now but more than infantry
+
+Canoptek Spyder
+• Vehicle Support Unit
+• Is now constructed in the Hero building or Main building
+• Can build Small Gauss Pylons
+
+Canoptek Reanimator
+• Infantry Support Unit
+• Is now constructed in the Hero building
+• Can now summon Scarab Hives like the Canoptek Spyder
+• Can now found cities like the Canoptek Spyder
+
+Canoptek Wraiths
+• Is now constructed in the Hero building
+• Almost the same as before
+________________________________________
+Vehicles
+
+General Changes:
+• Now cost Energy and Ore and also have energy and ore upkeep
+• Necrodermis Repair costs less now but more than infantry
+
+Tomb Blades
+• Overall stronger now
+• The Nebuloscope Technology now gives more hitpoints and reduces ranged damage reduction
+
+Annihilation Barge
+• Almost the same as before
+
+Triarch Stalker
+• Cycleable weapons adjusted
+
+Ghost Ark
+• Costs less now and has fewer max hitpoints
+• Now has a weapon array which needs transported units to shoot
+
+Doomsday Ark
+• More damage on weapons
+• Main weapon now has the Armor Hunter trait (deals 100% more damage vs vehicles and monsters)

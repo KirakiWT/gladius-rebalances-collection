@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade position="10" icon="Units/AdeptusMechanicus/KnightCrusader">
+	<requiredUpgrades>
+		<upgrade name="AdeptusMechanicus/AdvancedVehicles"/>
+	</requiredUpgrades>
+</upgrade>

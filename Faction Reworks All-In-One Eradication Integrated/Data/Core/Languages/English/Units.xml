@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	
+
+
+
+
+	<entry name="Eldar/WebwayFortress" value="Webway Fortress"/>
+	<entry name="Eldar/WebwayFortressDescription" value="WebwayFortress"/>
+	<entry name="Eldar/WebwayFortressFlavor" value="WebwayFortress"/>
+
+	<entry name="Eldar/Ranger" value="Rangers"/>
+	<entry name="Eldar/RangerDescription" value="Long-Range Sniper infantry unit that excels at Scouting and taking out enemy infantry."/>
+	<entry name="Eldar/RangerFlavor" value="Moving like shadows through the darkness, Aeldari Rangers take up commanding positions above the battlefield, as silent and lethal as Asuryan’s withering gaze. A Ranger’s keen eyes are constantly seeking out prize targets, his subtle hand signals spelling the doom of commanders and priests. When his cross hairs flit over his target it takes only a single beat of the Aeldari’s heart to judge distance, direction and deflection before he squeezes the trigger."/>
+
+	<entry name="Eldar/Hornet" value="Hornet"/>
+	<entry name="Eldar/HornetDescription" value="Fast reconnaissance skimmer unit with one Transport slot for Infantry."/>
+	<entry name="Eldar/HornetFlavor" value="The Hornet is a small, single-seater attack craft deployed by Aeldari armoured forces in a fast reconnaissance and raiding role. It can be found at the forefront of Aeldari armoured attacks, speeding ahead of the main force of Wave Serpents, often operating alongside other high-speed attack craft such as Jetbikes and Vypers. Even by the Aeldari race's high standards, the Hornet's engine is a wonder of its kind."/>
+
+	<entry name="Eldar/FarseerSkyrunner" value="Farseer Skyrunner"/>
+	<entry name="Eldar/FarseerSkyrunnerDescription" value="Fast jetbike psyker hero unit that debilitates enemies and can summon Shining Spears."/>
+	<entry name="Eldar/FarseerSkyrunnerFlavor" value="The Farseers that guide each craftworld are perhaps the most powerful of all psykers. By leading the Aeldari along the paths of fate they can bring salvation or doom to entire races. They are masters of prediction, and even in battle they perform their subtle art, casting up their wraithbone runes and interpreting changes in the glowing icons as they circle in the air."/>
+
+	<entry name="Eldar/DarkReaper" value="Dark Reapers"/>
+	<entry name="Eldar/DarkReaperDescription" value="Long-range Rocket infantry unit equipped with a variety of missiles. Can also ignore the damage reduction of Flyers, Skimmers and Jet-Bikes."/>
+	<entry name="Eldar/DarkReaperFlavor" value="From far across the battlefield, the Dark Reapers cut down their enemies with devastating salvoes of missiles, each armour-piercing projectile ripping through the air to blast ragged holes in tanks and soldiers alike. Silhouetted against the sky from their position on the high ground, the Reapers are as Khaine himself calling down destruction upon the unworthy. Impassive and all-seeing, they scan the horizon for any signs of movement, complex relays allowing their gaze to be channelled through the barrels of their ritual weaponry at will. Then, with unflinching precision, the Reapers wreak devastation upon their chosen targets."/>
+
+	<entry name="Eldar/AvatarOfKhaine" value="Avatar of Khaine"/>
+	<entry name="Eldar/AvatarOfKhaineDescription" value="Unique monstrous creature Hero, that murders enemies in close combat and sends nearby Aeldari into a merciless rage."/>
+	<entry name="Eldar/AvatarOfKhaineFlavor" value="The molten demigod of war blazes from legend into reality, his almighty bellow of bloodlust fuelling an inferno in the hearts of all those Aeldari who hear it. The living Avatar is an ancient war deity incarnate, rivalled in power only by the incalculable energies of the mightiest Daemons of the immaterium. His eyes glow like embers, and as he moves, his body of burning iron crackles and spits fire, while tendrils of smoke and cinders wreath him like a dark cloak. His mere presence incites the Aeldari around him into a black and merciless rage, the fires of the Bloody-Handed God’s battle lust crackling within them."/>
+
+	<entry name="Eldar/VaulsWrathSupportBattery" value="Heavy Weapon Platform: Laser-Lance"/>
+	<entry name="Eldar/VaulsWrathSupportBatteryDescription" value="Anti-Tank unit that can clear tiles"/>
+	<entry name="Eldar/VaulsWrathSupportBatteryFlavor" value="Aeldari artillery glides forward upon broad grav-platforms, each gun’s generator thrumming low as it obliterates the craftworld’s enemies. Unlike the crude solid explosives hurled by the ordnance of lesser races, these elegant weapons of death cast forth clouds of monofilament strands, waves of sonic fury and roiling blasts of carefully contained Warp energy."/>
+
+	<entry name="Eldar/HemlockWraithfighter" value="Hemlock Wraithfighter"/>
+	<entry name="Eldar/HemlockWraithfighterDescription" value="Devastating flying unit with short range. Can also protect allies and stun enemies."/>
+	<entry name="Eldar/HemlockWraithfighterFlavor" value="The ethereal scream of the Hemlock Wraithfighter drives a spike of terror into the mind, and even its flitting shadow can bring a brave man to his knees. The energies that pour from this eldritch craft are born of a psychic union between the living and the dead. Each Hemlock is piloted by a Spiritseer, a powerful psyker capable of assailing the minds of those below him with morbid visions. Stranger by far is his co-pilot, for the Wraithfighter is crewed by a dead Aeldari soul who controls weapons that would drive a mortal insane. As the Wraithfighter passes over the foe, its D-scythes flare bright – a silent second later, the craft’s victims slump, their souls severed from their bodies."/>
+
+	<entry name="Eldar/Headquarters1" value="Webway Redoubt"/>
+	<entry name="Eldar/Headquarters1Description" value="Headquarters building that generates resources."/>
+	<entry name="Eldar/Headquarters1Flavor" value="The Webway riddles Gladius Prime, but many of the gateways have been lost. Even those that survive are unimaginably ancient, but still they stand, ignored by the younger races. Around them, the Aeldari build emplacements and machinery, to stabilise the gateways renewed connection with the immaterium and defend it against incursion."/>
+
+
+
+	<entry name="Orks/GargantuanSquiggoth" value="Gargantuan Squiggoth"/>
+	<entry name="Orks/GargantuanSquiggothDescription" value="Massive fearsome beast unit that crushes enemy troops and serves as a transport."/>
+	<entry name="Orks/GargantuanSquiggothFlavor" value="Squiggoths are Orkoid monstrosities, towering hulks made of little more than muscle and bad temper. They are distantly related to Squigs and have all savagery and single-mindedness of their smaller cousins, but Squiggoths can grow so large that they dwarf tanks and even buildings. Goaded by the Orks that ride on a howdah upon its back, the Squiggoth thuds into battle, the ground tremblind beneath its feet."/>
+
+	<entry name="Orks/Warboss" value="Warboss"/>
+	<entry name="Orks/WarbossDescription" value="Hero unit that crushes enemies in close combat and inspires allies."/>
+	<entry name="Orks/WarbossFlavor" value="An Ork Warboss is the strongest, toughest, loudest and most violent Ork in his tribe. These massive greenskins seize the lion's share of the loot from every fight, meaning they are usually armed and armoured better than any of their followers. Warbosses are not above making a swift and messy example of anyone whose kit seems shinier or more killy than theirs. They wield absolute authority over their tribe, for greenskin society is based on the idea that might makes right."/>
+
+	<entry name="Orks/Battlewagon" value="Battlewagon"/>
+	<entry name="Orks/BattlewagonDescription" value="Armoured multi-role transport vehicle. Some of its weapons can only be fired while infantry is embarked."/>
+	<entry name="Orks/BattlewagonFlavor" value="Ork Battlewagons rumble to war on a collection of tracks, tyres and massive spiked rollers. Whether lumbering gun-fortresses, bright red speedsters or gaudy rust buckets smeared with Ork glyphs, Battlewagons are massive slabs of motorised junk built to carry big mobs of greenskins into battle. No matter each Battlewagon's individual peculiarities, all fulfil the essential role of armoured attack vehicle. A solid wedge of these mighty tanks can provide a warband with a (somewhat rusty) mailed fist that can be jammed right down the throat of the enemy army."/>
+
+	<entry name="Orks/BigMek" value="Big Mek"/>
+	<entry name="Orks/BigMekDescription" value="Armoured infantry unit with range anti-armor Weapons that protects its allies."/>
+	<entry name="Orks/BigMekFlavor" value="Especially talented or popular Mekboyz will soon attract a following, lording it over a growing gang of underlings. A Mek with this much clout is referred to as a Big Mek, and can prove indispensable to the local Warboss with his knowledge of shokk attack guns, force field technology, and tellyporta rigs."/>
+
+	<entry name="Orks/Deffkopta" value="Deffkoptas"/>
+	<entry name="Orks/DeffkoptaDescription" value="Versatile skirmisher unit that can fly across obstacles and drop bombs as special attack. Cost energy and ore"/>
+	<entry name="Orks/DeffkoptaFlavor" value="Deffkoptas buzz across the battlefield, weaving through the sky on a trail of foul-smelling smoke. As they swoop low over the heads of the enemy, the fiendish Ork flying machines fire punishing salvoes of shot, rokkits and bomms into their midst. Leaving flames and blood-splattered craters in their wake, the Deffkoptas jink erratically away, already hunting for their next victims."/>
+
+	<entry name="Orks/KillBursta" value="Kill Bursta"/>
+	<entry name="Orks/KillBurstaDescription" value="Heavy transport vehicle with a large cannon and assault capacity. Some weapons are only operational while infantry is embarked."/>
+	<entry name="Orks/KillBurstaFlavor" value="Kill tanks are an Ork heavy tank design based around the twin Ork loves of speed and extreme violence. The Kill Bursta's main gun is an immense, wide-bore siege mortar mounted in the centre of its forward hull, much in the manner of a Space Marine Vindicator, only much, much larger! The huge rocket-boosted ordnance launched by the bursta gun, while appallingly short ranged, is powerful enough to blast a hardened bunker or defensive bastion to smithereens, and has been observed in direct fire shattering Imperial super-heavy tanks in a single shot, based as much on luck as good judgement by its gunners."/>
+
+	<entry name="Orks/Mek" value="Meks"/>
+	<entry name="Orks/MekDescription" value="Infantry unit with anti-armor weapons, that repairs vehicles, clears tiles and founds new cities."/>
+	<entry name="Orks/MekFlavor" value="Without Mekboyz, Orks would lack for light, power, transport, and even guns (they lack for sanitation regardless, but that's another story). Whenever an Ork needs something building, be it a shiny new shoota or the boss' new ride, they go straight to the Meks. Furthermore, an Ork with teef to spare will take existing kit to the nearest Mek in the hope of having damage repaired, and maybe some kustomising done. It is a rare day that the customer gets what he asked for, but whatever the Mek turns out will normally be fairly flash all the same."/>
+
+	<entry name="Orks/Warbuggy" value="Warbuggies"/>
+	<entry name="Orks/WarbuggyDescription" value="Fast reconnaissance vehicle unit with range weapons."/>
+	<entry name="Orks/WarbuggyFlavor" value="Orks tend toward light, fast vehicles with big guns that can be cobbled together from any junk to hand. Most are crewed by a mad-eyed Ork driver and cackling gunner, with perhaps a grot or two hanging on for dear life. What they lack in survivability, these crude vehicles make up for in speed, numbers and dakka. They encircle the enemy in speeding squadrons, guns blazing wildly while their crew throw their heads back and howl like Madboyz."/>
+
+	<entry name="Orks/MegatrakkScrapjet" value="Megatrakk Scrapjet"/>
+	<entry name="Orks/MegatrakkScrapjetDescription" value="A metal tube loaded with deadly payloads. Excels against armor, especially with its melee attack"/>
+	<entry name="Orks/MegatrakkScrapjetFlavor" value="A favourite amongst Speed Freeks and grounded Flyboyz alike, Megatrakk Scrapjets provide rocket-propelled acceleration, impressive firepower and the hilarity of ramming into enemy lines at the helm of what is effectively a gigantic, thrust-driven drill. These vehicles allow former Ork pilots to revel in the dimly-remembered joy of mowing down enemies at point-blank range – a joy which, of course, often caused the Flyboy to crash in the first place. Explosions blossom amidst the enemy as rokkits and missiles collide with their targets, while Grot tail-gunners blaze away with chattering big shootas – the array of weaponry welded, bolted, riveted and lashed onto a Megatrakk Scrapjet is fearsome."/>
+
+	<entry name="Orks/SquighogBoy" value="Squighog Boyz"/>
+	<entry name="Orks/SquighogBoyDescription" value="Heavy infantry unit that excels at taking down large prey. Cost food and energy"/>
+	<entry name="Orks/SquighogBoyFlavor" value="Riding Squigs into battle, these Beast Snagga boyz are nomadic Orks, predominantly from the traditionalist Snakebites Clan. Their goal is always to take down the biggest enemy on the battlefield—be that Tyranid, Necron or Ogryn."/>
+
+	<entry name="Orks/BurnaBommer" value="Burna-Bommer"/>
+	<entry name="Orks/BurnaBommerDescription" value="A bomber unit that can easily scorch large infantry formations in cover and is equipped with high-penetration weapons but only has limited attack Range."/>
+	<entry name="Orks/BurnaBommerFlavor" value="Burna-bommers are an inevitable by-product of the Orks' love for speed, fire, and the desire to combine these things while killing something. Strapped with as many incendiary bombs and rockets as is physically feasible, Burna-bommers streak low over the battlefield, raining conflagrant death down on tightly-packed enemy infantry."/>
+
+	<entry name="Orks/Kommando" value="Kommandos"/>
+	<entry name="Orks/KommandoDescription" value="Alpha-strike infiltrator unit that excels in forests or Imperial ruins and can deliver a powerful alpha strike."/>
+	<entry name="Orks/KommandoFlavor" value="Where most Orks love getting stuck in with a minimum of muckin’ about, Kommandos take the average Ork’s low cunning to the extreme. Rather than run at an enemy yelling, they would rather sneak up and stick a dagger through their victim’s ribs. Their greatest satisfaction is the thump of exploding ammo dumps or the screams of enemies as stikkbombs clatter into their barracks. Other Orks grumble, calling it ‘un-Orky’, but can’t deny its effectiveness."/>
+
+	<entry name="Orks/Dakkajet" value="Dakkajet"/>
+	<entry name="Orks/DakkajetDescription" value="Fast and lightly armoured aircraft unit that excels against ground targets. Can also Transport infantry Units."/>
+	<entry name="Orks/DakkajetFlavor" value="Streaking into battle through war-scorched skies, a Dakkajet's massive thruster leaves an oily contrail of black smoke in its wake even as its guns spit streams of bullets at the foe. Though not as nimble as the aircraft of some other races, Dakkajets are capable of an incredible turn of speed that makes them a fearsome enemy to face in aerial combat. It also helps that Orks fly like complete headcases."/>
+
+	<entry name="Orks/MekGun" value="Mek Gunz"/>
+	<entry name="Orks/MekGunDescription" value="Anti-Tank cannon which also immobilizes enemy flyers."/>
+	<entry name="Orks/MekGunFlavor" value="The roar of Mek Gunz has heralded the end for many a hapless foe. Spitting out blasts of crackling energy, swatting planes out of the air or crushing their victims in crackling fists of bright green force, these big, clanky field guns have enough dakka to stomp even the toughest targets. Of course, as no self-respecting Ork would be left behind when there's a fight in the offing, crewing the gunz is left to the long-suffering grots."/>
+
+
+	<entry name="Tyranids/Biovore" value="Biovores"/>
+	<entry name="Tyranids/BiovoreDescription" value="Artillery unit that creates Spore Mines which explode on contact with the enemy."/>
+	<entry name="Tyranids/BiovoreFlavor" value="A Biovore is a squat, bloated creature—yet no less deadly for all that. Deep within its lumpen form, the Biovore nurtures a clutch of Spore Mines—living bombs that blanket the enemy in acids, poisons and shrapnel-sized pieces of chitin. Biovores thump forward in battle, bony protrusions on their fore-limbs anchoring themselves into the ground as they release their vile payload in a single shuddering spasm."/>
+	<entry name="Tyranids/Carnifex" value="Carnifex"/>
+	<entry name="Tyranids/CarnifexDescription" value="Monstrous creature unit with devastating close combat capabilities and a pinning ranged weapon against infantry."/>
+	<entry name="Tyranids/CarnifexFlavor" value="Carnifexes are living engines of destruction, towering monsters of unyielding armoured chitin and knotted alien musculature. They are one of the toughest and deadliest of all a hive fleet's warrior creatures, created to spearhead assaults in massed battles. Though the Hive Mind has since created larger warrior-organisms, few are the Carnifex's equal in terms of size to strength, nor in terms of sheer destructive potential."/>
+	<entry name="Tyranids/Doom" value="The Doom"/>
+	<entry name="Tyranids/DoomDescription" value=""/>
+	<entry name="Tyranids/DoomFlavor" value="The Doom appears to be a one-off creation of the Hive Mind, produced with great difficulty. It is a unique vampiric Zoanthrope, that feeds upon psychic energy. Over its skull sits a long, spine-like growth like a hood and vestigial claws emerge like ribs from its side. Psychic energy can be visibly seen crackling along these structures. In combat, it uses them to focus its psychic powers and draw all the life-energy from its surroundings. A similar creature is thought to have singlehandedly destroyed the Aeldari Craftworld of Malan'tai by devouring the spirits from its Infinity Circuits."/>
+	<entry name="Tyranids/Exocrine" value="Exocrine"/>
+	<entry name="Tyranids/ExocrineDescription" value="Monstrous creature unit that excels when stationary."/>
+	<entry name="Tyranids/ExocrineFlavor" value="Exocrines are feared for their ability to deal death from afar. The most distinctive feature of an Exocrine is its dorsal bio-cannon, which emits a high-pitched hiss a second before firing, giving its prey just enough time to realise the danger they are in before searing plasma scours them into atoms."/>
+	<entry name="Tyranids/Gargoyle" value="Gargoyles"/>
+	<entry name="Tyranids/GargoyleDescription" value="Skimmer infantry unit with blinding attacks"/>
+	<entry name="Tyranids/GargoyleFlavor" value="A Tyranid attack is preceded by the beating of thousands of membranous wings as Gargoyle broods descend upon the foe, blotting out the sun and spitting death from their fleshborers. Their winged manoeuvrability gives Gargoyles a distinct hunting advantage. Wherever Tyranids attack a planet, the defenders look fearfully to the skies, for they know that every sky-borne shadow could be a flock of Gargoyles about to attack."/>
+	<entry name="Tyranids/Haruspex" value="Haruspex"/>
+	<entry name="Tyranids/HaruspexDescription" value="Monstrous melee creature with high-penetration claws that convert melee damage into hit points."/>
+	<entry name="Tyranids/HaruspexFlavor" value="The Tyranid Haruspex is a ferocious beast created to consume biomass at a sickening pace. It is possessed of a rapacious appetite, driven by the need to sate an infinite hunger. Few foes are foolish enough to stand before a feeding Haruspex, for it can devour an entire platoon of soldiers in a matter of moments, shovelling victim after victim into its craw without ever slowing down. Any morsel that proves too large to be swallowed in one gulp is seized with the Haruspex's gargantuan claws and ripped, crushed or battered apart with negligent ease."/>
+	<entry name="Tyranids/Headquarters" value="<string name='Buildings/Tyranids/Headquarters'/>"/>
+	<entry name="Tyranids/HeadquartersDescription" value="Headquarters unit that represents a city's defenses."/>
+	<entry name="Tyranids/HeadquartersFlavor" value="<string name='Buildings/Tyranids/HeadquartersFlavor'/>"/>
+	<entry name="Tyranids/HiveCrone" value="Hive Crone"/>
+	<entry name="Tyranids/HiveCroneDescription" value="A versatile flying monstrosity, even more deadly against airborne foes."/>
+	<entry name="Tyranids/HiveCroneFlavor" value="The Hive Crone is a flying monstrosity used by the Tyranids to establish air superiority over prey worlds. It is a creature perfectly adapted to aerial combat, able to wrestle enemy aircraft out of the skies as proficiently as any daredevil pilot at the controls of a sophisticated jet-fighter."/>
+	<entry name="Tyranids/HiveGuard" value="Hive Guards"/>
+	<entry name="Tyranids/HiveGuardDescription" value="Tough ranged infantry unit with medium penetration"/>
+	<entry name="Tyranids/HiveGuardFlavor" value="Hive Guard are heavily armoured gun-beasts bound to extremely powerful symbiotic bio-weapons. Though they have no eyes, Hive Guard possess a weak telepathic ability that allows them to perceive through the senses of other Tyranids, giving them access to a wealth of targeting information that would overwhelm even the most sophisticated technological cogitator. The scant mental capacity apportioned to the Hive Guard means that, without the direction of the Hive Mind, they have been known to stand motionless, waiting for prey to come within range instead of moving forwards to engage."/>
+	<entry name="Tyranids/HiveTyrant" value="Hive Tyrant (Syn)"/>
+	<entry name="Tyranids/HiveTyrantDescription" value="Flying synapse hero unit with terrifying psychic powers."/>
+	<entry name="Tyranids/HiveTyrantFlavor" value="Hive Tyrants are the commanders of the Tyranid swarms and enact the Hive Mind's will on the field of battle. Though individuals display a wide variety of physical characteristics, all Hive Tyrants are fearsome hulking monsters that tower over even a Dreadnought. They are brutally strong, able to shatter ferrocrete with sickening ease. Every part of such a beast's body is perfectly created to kill, even the layers of chitinous plating that protect them. A Hive Tyrant is a formidable opponent at any distance, as deadly with ranged weapons as it is with bonesword or claw."/>
+	<entry name="Tyranids/Hormagaunt" value="Hormagaunts"/>
+	<entry name="Tyranids/HormagauntDescription" value="Fast basic close combat infantry unit."/>
+	<entry name="Tyranids/HormagauntFlavor" value="Hormagaunts are vicious and extraordinarily single-minded predators that will pursue their victims without pause or respite. With powerful hind legs, Hormagaunts dart across the battlefield in a series of bounding leaps, ignoring injury and tiredness until they have run down their exhausted quarry and torn it apart with frenzied strikes of their scythe-like claws."/>
+	<entry name="Tyranids/Lictor" value="Lictors"/>
+	<entry name="Tyranids/LictorDescription" value="A stealthy melee infantry unit, capable of a single Deep Strike teleport to strike anywhere on the battlefield. <br/><br/>This Unit is not affected by Tyranid Instinctive Behavior."/>
+	<entry name="Tyranids/LictorFlavor" value="The Lictor is a highly specialised development of the Tyranid Warrior bioform, specifically adapted to fill a scout role in the vanguard of the Tyranid advance. Lictors rove ahead of the main body of a swarm, seeking out pockets of resistance to be eradicated and native life forms to be absorbed. Able to move swiftly and without sound through even the densest terrain, and concealed by a chameleonic carapace that renders it all but invisible to the naked eye, a Lictor can remain hidden until it chooses to strike. It can wait motionless for days, unnoticed by its victims, an unseen herald of approaching disaster."/>
+	<entry name="Tyranids/Malanthrope" value="Malanthrope (Syn)"/>
+	<entry name="Tyranids/MalanthropeDescription" value="Support unit that consumes tiles and founds new cities."/>
+	<entry name="Tyranids/MalanthropeFlavor" value="Malanthropes are rarely seen Tyranid creatures. This is because they are not truly warrior organisms, and so are not usually encountered by a prey world's defenders. Instead, these floating creatures follow behind the Tyranid attack; they are typically created only after a prey world's protectors have been defeated and the swarm is in the process of devouring the planet's biomass. On those few occasions that a survivor has seen a Malanthrope and somehow escaped, they have brought with them a tale of horror. They report seeing these giants drift across corpse-strewn battlefields, but unlike other Tyranids, which mindlessly devour everything in their way, Malanthropes seem to selectively search through the slain—as to what they are searching for, none can say."/>
+	<entry name="Tyranids/Maleceptor" value="Maleceptor (Syn)"/>
+	<entry name="Tyranids/MaleceptorDescription" value="Synapse monstrous creature with devastating psychic attacks and a debuff aura against ranged enemies."/>
+	<entry name="Tyranids/MaleceptorFlavor" value="Though blind, the rare and mighty Maleceptor is a living vessel for the Hive Mind. Warp energy spears from its eyeless cranium to vaporise anything in its path, and those with minds strong enough to survive its keening psychic screams are laid low by its powerful talons."/>
+	<entry name="Tyranids/NornEmissary" value="Norn Emissary (Syn)"/>
+	<entry name="Tyranids/NornEmissaryDescription" value="Elite Synapse monstrous creature bred to annihilate strategic enemy targets and with high damage reduction."/>
+	<entry name="Tyranids/NornEmissaryFlavor" value="Each Norn Emissary is spawned for a specific purpose, be it predating on a strategically gifted commander, abducting a knowledgeable prey-being at the behest of its Norn Queen, or some other ineffable task. Melding terrifying psionic potential with speed, agility and awful strength, the Norn Emissary is more than equal to its mission."/>
+	<entry name="Tyranids/Ravener" value="Raveners"/>
+	<entry name="Tyranids/RavenerDescription" value="Fast infantry unit, specialized in skirmishing and capable of medium penetration. These units have a reduced cost when using tunnels."/>
+	<entry name="Tyranids/RavenerFlavor" value="Raveners are voracious predators, their clawed and snake-like bodies driven onwards by an all-consuming hunger. Twisted musculature grants these beasts a terrifying turn of speed. Raveners can bound over small obstacles in an eye-blink, dart between larger obstructions and even slither through flooded marshland with bewildering swiftness. The power housed within the Raveners' wiry forms allows them to burrow long distances beneath a world's surface, before emerging in a spray of earth right in front of an enemy position, claws eviscerating their ambushed prey whilst their thorax-mounted weapon symbiotes spit death."/>
+	<entry name="Tyranids/ScythedHierodule" value="Scythed Hierodule"/>
+	<entry name="Tyranids/ScythedHieroduleDescription" value="Agile gargantuan creature unit that shreds entire armies."/>
+	<entry name="Tyranids/ScythedHieroduleFlavor" value="The Scythed Hierodule was first recorded during the invasion of Hamman's World, a small Imperial colony close to one of the tendrils of Hive Fleet Kraken. Hamman's World was attacked soon after Kraken's defeat on Ichar IV as the hive fleet began to splinter. Nothing like the Hierodule has ever been reported before. It is armed with four huge razor-sharp claws, each capable of slicing clean through a battle tank, and heavily protected by chitin plates, in places up to 30 cm thick. A Hierodule is far larger than a Carnifex and is a monstrous-killing machine, even by Tyranid standards."/>
+	<entry name="Tyranids/SporeMine" value="Spore Mines"/>
+	<entry name="Tyranids/SporeMineDescription" value="Slow unit that detonates itself when coming in contact with an enemy."/>
+	<entry name="Tyranids/SporeMineFlavor" value="Spore Mines have been known to drift for days, just waiting for an unwary foe to come near, before detonating with brutal effect."/>
+	<entry name="Tyranids/Termagant" value="Termagants"/>
+	<entry name="Tyranids/TermagantDescription" value="Basic infantry unit."/>
+	<entry name="Tyranids/TermagantFlavor" value="Termagants are agile and cunning creatures. They are amongst the smallest of the Hive Mind's warriors and were originally created to roam the arterial passages of bio-ships in search of intruders. In planetary invasions, Termagants scuttle forwards on four legs whilst unleashing torrents of fire from the anti-personnel bio-weaponry—commonly fleshborers—clutched in their clawed forelimbs."/>
+	<entry name="Tyranids/Tervigon" value="Tervigon (Syn)"/>
+	<entry name="Tyranids/TervigonDescription" value="Synapse hero unit that spawns armies of Termagants."/>
+	<entry name="Tyranids/TervigonFlavor" value="The Tervigon is a massive synapse creature whose towering carapace shields a swollen abdomen. Though possessed of a formidable array of bio-weapons, from monstrous claws that crush any prey that ventures too close, to banks of razor-tipped spines that can be fired a considerable distance, the Tervigon's true threat lies within… Every Tervigon serves as a living incubator, within whose bloated form dozens upon dozens of Termagants slumber in a state of near-life. The Tervigon can spawn its dormant broods at will, jolting their minds into wakefulness."/>
+	<entry name="Tyranids/Trygon" value="Trygon"/>
+	<entry name="Tyranids/TrygonDescription" value="Monstrous creature unit with devastating melee capabilities. Can build Broodhives to initiate subterranean assaults. These units have a reduced cost when using tunnels."/>
+	<entry name="Tyranids/TrygonFlavor" value="The Trygon is a vast serpentine creature, so colossal that it towers over even the mighty Carnifex. It is a heavily armoured monster, covered from head to tail with a thick carapace of shifting plates. As the Trygon moves, these plates generate a potent bio-static charge that courses along the length of the beast's body and wreathes its bladed forelimbs with crackling power. The Trygon can direct this energy as a lethal high-voltage discharge—unleashing pulsing arcs of lightning that leave its prey as little more than a charred pile of scorched bones."/>
+	<entry name="Tyranids/Tunnel" value="Broodhive"/>
+	<entry name="Tyranids/TunnelDescription" value="Allows units to tunnel from one Broodhive to another."/>
+	<entry name="Tyranids/TunnelFlavor" value="Where the Tyranids arrive, the plants that constitute the Broodhive travel with them. Rapidly proliferating from seeds left by the Tyranid swarm as they pass, these plants burrow their giant hollow roots through soil, metal or stone, enabling Tyranids to pass undetected between areas."/>
+	<entry name="Tyranids/TyranidPrime" value="Tyranid Prime (Syn)"/>
+	<entry name="Tyranids/TyranidPrimeDescription" value="Fearsome synapse hero unit that boosts allied Tyranid Warriors."/>
+	<entry name="Tyranids/TyranidPrimeFlavor" value="Tyranid Primes are the apex of the Tyranid Warrior strain, faster, stronger and smarter than the other Warriors they lead to battle, who instinctively emulate their deadly skill."/>
+	<entry name="Tyranids/Tyrannocyte" value="Tyrannocyte"/>
+	<entry name="Tyranids/TyrannocyteDescription" value="Monstrous creature that transports units to the frontline and supports them by pinning down enemy units."/>
+	<entry name="Tyranids/TyrannocyteFlavor" value="Normally acting as organic drop pods discharged from orbiting Hive Ships, Tyrannocytes have been adapted by the Gladius Prime Hive Mind, isolated as it is by warp storms. Here they act as lumbering floating transports, carrying creatures as large as Carnifexes and protecting them until close to the enemy. Then the Tyrannocyte’s gravid belly opens, disgorging their monstrous cargo, whilst it assaults the enemy with endless barbed stranglers…"/>
+	<entry name="Tyranids/Tyrannofex" value="Tyrannofex"/>
+	<entry name="Tyranids/TyrannofexDescription" value="Monstrous creature unit with long-range weaponry that annihilates even the heaviest vehicles."/>
+	<entry name="Tyranids/TyrannofexFlavor" value="There can be little doubt that the massive Tyrannofex exists purely for destruction—it is a monster created for the most apocalyptic and gruelling of battlegrounds. Striding ominously towards their prey, these alien giants deal death from afar, shattering enemy battle lines with merciless salvos of bio-weapons fire. The only way to stop the unrelenting slaughter is to slay the beast, but a Tyrannofex has the fortitude of a living battle fortress and is heedless of all but the heaviest enemy ordnance. Clad in ablative layers of chitinous armour, a Tyrannofex is as unyielding as any war engine built of steel or born of conventional technology."/>
+	<entry name="Tyranids/Venomthrope" value="Venomthropes"/>
+	<entry name="Tyranids/VenomthropeDescription" value="Infantry unit effective against infantry, with poison attacks and a spore cloud protecting nearby Tyranids."/>
+	<entry name="Tyranids/VenomthropeFlavor" value="The Venomthrope serves as a living chemical weapon dispenser for the swarms of the Tyranid hive fleets. Its whip-like tentacles drip with a multitude of alien poisons. Indeed, so potent are these toxins that it is believed that a Venomthrope's very touch means certain death."/>
+	<entry name="Tyranids/Warrior" value="Tyranid Warriors (Syn)"/>
+	<entry name="Tyranids/WarriorDescription" value="Versatile synapse infantry unit."/>
+	<entry name="Tyranids/WarriorFlavor" value="Tyranid Warriors are the most adaptable of all the Hive Mind's bioforms. They are creatures from the blackest of nightmares, unstoppable killing machines with pulsing ichor for blood, needle-sharp teeth and darkly gleaming eyes that reveal a terrible intelligence at work. A Tyranid Warrior stands twice the height of a man, its carapace protected by a thick chitin. One might expect such a creature to be slow in its actions, but a Tyranid Warrior is lithe, with reactions as swift as a whip."/>
+	<entry name="Tyranids/Zoanthrope" value="Zoanthropes (Syn)"/>
+	<entry name="Tyranids/ZoanthropeDescription" value="Synapse infantry unit with devastating high-penetration psychic abilities and debuffing psychic powers."/>
+	<entry name="Tyranids/ZoanthropeFlavor" value="Zoanthropes are created solely to harness the psychic potential of the Hive Mind, and their entire bodies are perfected towards such a function. If necessary, a Zoanthrope can be used to extend the range of the Hive Mind's synaptic control, utilising the beast's vast cerebral capacity to relay its instructions to lesser creatures. A Zoanthrope's link to the synaptic web is such that, by flexing the merest part of its mind, it can rain incandescent power on the enemy, projecting destructive bolts of energy that boils through adamantium plate and disintegrates flesh with equal ease."/>
+	
+
+
+	<entry name="Tyranids/Genestealer" value="Genestealers"/>
+	<entry name="Tyranids/GenestealerDescription" value="High-penetration melee unit that cannot be targeted by Overwatch fire. This Unit is not affected by Tyranid Instinctive Behavior."/>
+	<entry name="Tyranids/GenestealerFlavor" value="Encountered long before the Tyranids, Genestealer infestations have been a thorn in the Imperium’s side for millenia. In battle, this xenos is a swift and powerful predator with lightning-fast reflexes and serrated claws that can tear through even the thickest of armour. Genestealers also have large, highly adaptive brains and possess a form of brood telepathy that allows them to function with full independence from the Hive Mind. This autonomy allows them to destroy through stealth and guile that which cannot be defeated through numbers alone."/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<entry name="Eldar/WebwayFortress" value="Webway Fortress"/>
+	<entry name="Eldar/WebwayFortressDescription" value="WebwayFortress"/>
+	<entry name="Eldar/WebwayFortressFlavor" value="WebwayFortress"/>
+
+	<entry name="Eldar/Ranger" value="Rangers"/>
+	<entry name="Eldar/RangerDescription" value="Long-Range Sniper infantry unit that excels at Scouting and taking out enemy infantry."/>
+	<entry name="Eldar/RangerFlavor" value="Moving like shadows through the darkness, Aeldari Rangers take up commanding positions above the battlefield, as silent and lethal as Asuryan’s withering gaze. A Ranger’s keen eyes are constantly seeking out prize targets, his subtle hand signals spelling the doom of commanders and priests. When his cross hairs flit over his target it takes only a single beat of the Aeldari’s heart to judge distance, direction and deflection before he squeezes the trigger."/>
+
+	<entry name="Eldar/Hornet" value="Hornet"/>
+	<entry name="Eldar/HornetDescription" value="Fast reconnaissance skimmer unit with one Transport slot for Infantry."/>
+	<entry name="Eldar/HornetFlavor" value="The Hornet is a small, single-seater attack craft deployed by Aeldari armoured forces in a fast reconnaissance and raiding role. It can be found at the forefront of Aeldari armoured attacks, speeding ahead of the main force of Wave Serpents, often operating alongside other high-speed attack craft such as Jetbikes and Vypers. Even by the Aeldari race's high standards, the Hornet's engine is a wonder of its kind."/>
+
+	<entry name="Eldar/FarseerSkyrunner" value="Farseer Skyrunner"/>
+	<entry name="Eldar/FarseerSkyrunnerDescription" value="Fast jetbike psyker hero unit that debilitates enemies and can summon Shining Spears."/>
+	<entry name="Eldar/FarseerSkyrunnerFlavor" value="The Farseers that guide each craftworld are perhaps the most powerful of all psykers. By leading the Aeldari along the paths of fate they can bring salvation or doom to entire races. They are masters of prediction, and even in battle they perform their subtle art, casting up their wraithbone runes and interpreting changes in the glowing icons as they circle in the air."/>
+
+	<entry name="Eldar/DarkReaper" value="Dark Reapers"/>
+	<entry name="Eldar/DarkReaperDescription" value="Long-range Rocket infantry unit equipped with a variety of missiles. Can also ignore the damage reduction of Flyers, Skimmers and Jet-Bikes."/>
+	<entry name="Eldar/DarkReaperFlavor" value="From far across the battlefield, the Dark Reapers cut down their enemies with devastating salvoes of missiles, each armour-piercing projectile ripping through the air to blast ragged holes in tanks and soldiers alike. Silhouetted against the sky from their position on the high ground, the Reapers are as Khaine himself calling down destruction upon the unworthy. Impassive and all-seeing, they scan the horizon for any signs of movement, complex relays allowing their gaze to be channelled through the barrels of their ritual weaponry at will. Then, with unflinching precision, the Reapers wreak devastation upon their chosen targets."/>
+
+	<entry name="Eldar/AvatarOfKhaine" value="Avatar of Khaine"/>
+	<entry name="Eldar/AvatarOfKhaineDescription" value="Unique monstrous creature Hero, that murders enemies in close combat and sends nearby Aeldari into a merciless rage."/>
+	<entry name="Eldar/AvatarOfKhaineFlavor" value="The molten demigod of war blazes from legend into reality, his almighty bellow of bloodlust fuelling an inferno in the hearts of all those Aeldari who hear it. The living Avatar is an ancient war deity incarnate, rivalled in power only by the incalculable energies of the mightiest Daemons of the immaterium. His eyes glow like embers, and as he moves, his body of burning iron crackles and spits fire, while tendrils of smoke and cinders wreath him like a dark cloak. His mere presence incites the Aeldari around him into a black and merciless rage, the fires of the Bloody-Handed God’s battle lust crackling within them."/>
+
+	<entry name="Eldar/VaulsWrathSupportBattery" value="Heavy Weapon Platform: Laser-Lance"/>
+	<entry name="Eldar/VaulsWrathSupportBatteryDescription" value="Anti-Tank unit that can clear tiles"/>
+	<entry name="Eldar/VaulsWrathSupportBatteryFlavor" value="Aeldari artillery glides forward upon broad grav-platforms, each gun’s generator thrumming low as it obliterates the craftworld’s enemies. Unlike the crude solid explosives hurled by the ordnance of lesser races, these elegant weapons of death cast forth clouds of monofilament strands, waves of sonic fury and roiling blasts of carefully contained Warp energy."/>
+
+
+
+	<entry name="Eldar/WebwayFortress" value="Webway Fortress"/>
+	<entry name="Eldar/WebwayFortressDescription" value="WebwayFortress"/>
+	<entry name="Eldar/WebwayFortressFlavor" value="WebwayFortress"/>
+
+
+	<entry name="Eldar/WebwayFortress" value="Webway Fortress"/>
+	<entry name="Eldar/WebwayFortressDescription" value="WebwayFortress"/>
+	<entry name="Eldar/WebwayFortressFlavor" value="WebwayFortress"/>
+
+	<entry name="Drukhari/Wyche" value="Wyches"/>
+	<entry name="Drukhari/WycheDescription" value="Light melee infantry unit with resistance vs melee attacks."/>
+	<entry name="Drukhari/WycheFlavor" value="The dancers of death, Wyches are acrobatic murder-artists, exhibiting their incredible arena skills to slay with precision and elan. They wield exotic weapons – hooks, barbed chains or flensing blades – that require superior ability. These are deadly in Wyches’ hands as they dart, twist and blur around their foes’ clumsy attacks."/>
+
+	<entry name="Drukhari/KabaliteWarrior" value="Kabalite Warriors"/>
+	<entry name="Drukhari/KabaliteWarriorDescription" value="ranged basic infantry unit."/>
+	<entry name="Drukhari/KabaliteWarriorFlavor" value="Clad from head to foot in blade-edged, segmented armour, Kabalite Warriors are an intimidating, arachnoid presence. They are highly-skilled, cruel enforcers who unleash hails of toxin-coated shards during swift and agile advances, driving terrified prey before them at their master’s whim."/>
+
+	<entry name="Drukhari/Wrack" value="Wracks"/>
+	<entry name="Drukhari/WrackDescription" value="Resilient melee infantry unit which can also clear tiles."/>
+	<entry name="Drukhari/WrackFlavor" value="The gnarled hide of the Wracks is a leathery mass of old scars, inured to pain. These adepts of fleshcrafting serve wizened masters of the Covens, and are as much experiments as they are apprentices. They are granted a host of gruesome tools, butchering blades and arcane bioweapons with which they inflict maximum agony."/>
+
+	<entry name="Drukhari/Wyche1" value="Wyches"/>
+	<entry name="Drukhari/Wyche1Description" value="Light melee infantry unit with resistance vs melee attacks."/>
+	<entry name="Drukhari/Wyche1Flavor" value="The dancers of death, Wyches are acrobatic murder-artists, exhibiting their incredible arena skills to slay with precision and elan. They wield exotic weapons – hooks, barbed chains or flensing blades – that require superior ability. These are deadly in Wyches’ hands as they dart, twist and blur around their foes’ clumsy attacks."/>
+
+	<entry name="Drukhari/Wrack1" value="Wracks"/>
+	<entry name="Drukhari/Wrack1Description" value="Resilient melee infantry unit which can also clear tiles."/>
+	<entry name="Drukhari/Wrack1Flavor" value="The gnarled hide of the Wracks is a leathery mass of old scars, inured to pain. These adepts of fleshcrafting serve wizened masters of the Covens, and are as much experiments as they are apprentices. They are granted a host of gruesome tools, butchering blades and arcane bioweapons with which they inflict maximum agony."/>
+
+	<entry name="Drukhari/Haemonculus" value="Haemonculus"/>
+	<entry name="Drukhari/HaemonculusDescription" value="Resilient support hero that heals and protect other Drukhari units to keep them in the fight. This Unit has a special Heal for Wrack Units."/>
+	<entry name="Drukhari/HaemonculusFlavor" value="Wielding arrays of horrific implements from their personal oubliettes and laboratories, Haemonculi drift like sinister predators in battle. They direct their Covens of twisted monstrosities and pain-adepts while hungrily seeking out fresh subjects for their hideous fleshcrafting."/>
+
+	<entry name="Drukhari/Reaver" value="Reavers"/>
+	<entry name="Drukhari/ReaverDescription" value="Anti-armour skirmisher jetbike unit."/>
+	<entry name="Drukhari/ReaverFlavor" value="Reaver jetbikes streak across the battlefield with the same speed and agility they display during their lethal races around the Commorrite arenas. Whether jinking around incoming enemy fire, decapitating foes or culling their victims with ferocious firepower, these high-speed killers are lethal in the extreme."/>
+
+	<entry name="Drukhari/Mandrake" value="Mandrakes"/>
+	<entry name="Drukhari/MandrakeDescription" value="Skirmish infantry unit which is resistant against enemy ranged firepower and works great at range with the Hypex combat drug. Can also teleport."/>
+	<entry name="Drukhari/MandrakeFlavor" value="Feared even by their Drukhari kin, the origins of the unnatural Mandrakes of Aelindrach are lost in time. They appear like the void incarnate, with their midnight skin, bone-white hair and freezing presence. In battle, they literally slip between shadows, emerging only to plunge their sickle blades into the living or sear their flesh with the cold-fire known as Baleblasts."/>
+
+	<entry name="Drukhari/Cronos" value="Cronos"/>
+	<entry name="Drukhari/CronosDescription" value="Resilient monstrous creature that supports nearby Drukhari by healing them and weakens enemy melee Units."/>
+	<entry name="Drukhari/CronosFlavor" value="Like other Engines of Pain, the Cronos is a grisly amalgam of stimm-fed flesh and biomechanical implements shielded by a burnished carapace. Haemonculi create the Cronos to act as a parasite. Its esoteric syphons leech its victim’s life essence, leaving them as husks before projecting the stolen vitality to other Drukhari."/>
+
+	<entry name="Drukhari/Hellion" value="Hellions"/>
+	<entry name="Drukhari/HellionDescription" value="Very mobile melee infantry unit able to jump across the battlefield. Can fulfill multiple roles with the right combat drug."/>
+	<entry name="Drukhari/HellionFlavor" value="When the Hellion gangs ride their bladed skyboards alongside Drukhari raiding parties, they bring terror to the battlefields of realspace. Arrogant and agile, Hellions wield their hellglaives with such skill that battle becomes a contest as to who can perform the most ostentatious acts of battlefield butchery."/>
+
+	<entry name="Drukhari/KabaliteTrueborn" value="Kabalite Trueborn"/>
+	<entry name="Drukhari/KabaliteTruebornDescription" value="Powerful infantry with long range and high firepower"/>
+	<entry name="Drukhari/KabaliteTruebornFlavor" value="In every Kabal there exists a clique of those Drukhari who view themselves as superior to their fellow Kabalites. Most often, this is the result of having been born naturally, rather than as a result of cloning or other esoteric sciences. These ‘Trueborn’ – as they are known – view themselves as purer, and are afforded a more prestigious position in Commorrite society. They are able to demand the very best, and learn from an early age to protect their birthright to such power."/>
+
+	<entry name="Drukhari/Incubi" value="Incubi"/>
+	<entry name="Drukhari/IncubiDescription" value="Powerful melee infantry unit that can take on any opponent. Gains bonus attacks when surrounded by enemies."/>
+	<entry name="Drukhari/IncubiFlavor" value="The Incubi are warrior-perfectionists of the highest order. Protected by the ornate plates of their ancient warsuits, they move swiftly in for the kill, sweeping giant klaives in practised, decapitating strikes."/>
+
+	<entry name="Drukhari/Talos" value="Talos"/>
+	<entry name="Drukhari/TalosDescription" value="Heavy assault monstrous creature with powerful close-range weapons. Can shoot its tail weapon at a different target and reduces the ranged damage of nearby enemy units."/>
+	<entry name="Drukhari/TalosFlavor" value="The Talos Pain Engine is a ghoulish melding of stitch-puckered flesh and armoured artifice, boasting tremendous resilience and a nightmarish array of weaponry. Each is the proud creation of the Drukhari Haemonculi, who employ their Talos as torture devices, surgical assistants and armoured murder machines with equal delight."/>
+
+	<entry name="Drukhari/Archon" value="Archon"/>
+	<entry name="Drukhari/ArchonDescription" value="A ruthless Drukhari commander, both a deadly warrior and an inspiring leader."/>
+	<entry name="Drukhari/ArchonFlavor" value="Archons apply the same inventive malice with which they rule the fractured Kabals to their enemies on the battlefield. Leading many realspace raids, Archons arrogantly dare their enemies to face their martial expertise, their arsenal of eldritch weapons and the labyrinthine cunning that has enabled their rise to power."/>
+
+	<entry name="Drukhari/RazorwingJetfighter" value="Razorwing Jetfighter"/>
+	<entry name="Drukhari/RazorwingJetfighterDescription" value="Supersonic attack jet that excels in tracking down enemy ground forces."/>
+	<entry name="Drukhari/RazorwingJetfighterFlavor" value="These lightning-fast ground attack craft unleash widespread slaughter and disruption with flurries of missiles. Archons call in their strikes to fracture the lesser races’ attempts at organised resistance, and their speed-addicted pilots also indulge in hunting down lumbering tanks and monstrosities with multiple heavy cannons."/>
+
+
+
+
+
+
+	<entry name="ChaosSpaceMarines/ChaosRhino" value="Chaos Rhino"/>
+	<entry name="ChaosSpaceMarines/ChaosRhinoDescription" value="Transport vehicle equipped with a long-range missile launcher that can self-repair."/>
+	<entry name="ChaosSpaceMarines/ChaosRhinoFlavor" value="The Rhino is the most common transport of the Space Marines, and the same can be said of the Heretic Astartes, for this machine is so ruggedly constructed it can see hundreds of years of warfare and still function at peak efficiency. The tank's chassis is based upon a Standard Template Construct, meaning that it is relatively simple to build, maintain and repair. Over the ten thousand years since the Long War began, the Rhino has seen continued use as the favoured transport of the Chaos Space Marines. They will even go so far as to loot them from defeated Imperial armies, though they will burn them clean of Imperial insignia as quickly as possible and festoon the stolen vehicles with spikes, blades and gory trophies taken from the dismembered bodies of their previous owners."/>
+
+	<entry name="ChaosSpaceMarines/Venomcrawler" value="Venomcrawler"/>
+	<entry name="ChaosSpaceMarines/VenomcrawlerDescription" value="Terror-inducing fast walker unit with mid-range Weapons."/>
+	<entry name="ChaosSpaceMarines/VenomcrawlerFlavor" value="Pounding forwards upon bladed limbs come the horrors known as Venomcrawlers. Grotesque amalgams of metal, flesh and daemonic entities, these monstrosities hiss and snarl as they scuttle towards their prey. Fleshy tongues flap from snarling maws and soulflayer tendrils lash back and forth, all tasting the air for the scent of their enemies' fear. As the Venomcrawlers continue to butcher, their fanged mouths gape ever wider, drawing the souls of those slain into their vast mechanical abdomens."/>
+
+	<entry name="ChaosSpaceMarines/Maulerfiend" value="Maulerfiend"/>
+	<entry name="ChaosSpaceMarines/MaulerfiendDescription" value="Fast walker unit with strong anti-armor weapons. This unit has an aura that reduces the melee attacks of adjacent enemy units."/>
+	<entry name="ChaosSpaceMarines/MaulerfiendFlavor" value="The Daemon Engines known as Maulerfiends thunder towards the foe like monstrous attack dogs loosed from the leash. Their eyes glow with balefire as ectoplasmic drool drizzles from their fanged maws. Their thick front limbs end in articulated claws powerful enough to tear a Dreadnought limb from limb. Should they catch a squad of infantry, they will scissor them apart or crush them into paste with a flex of their massive talons."/>
+
+	<entry name="ChaosSpaceMarines/Forgefiend" value="Forgefiend"/>
+	<entry name="ChaosSpaceMarines/ForgefiendDescription" value="Walker unit armed with devastating mid-range twin rotary cannons."/>
+	<entry name="ChaosSpaceMarines/ForgefiendFlavor" value="The Forgefiend Daemon Engine was originally devised to sow death amongst enemy forces from afar. Roughly centauroid in form, the torso of the Forgefiend boasts twin weapon-mounts that carry hell-forged parodies of Imperial armaments. The most common Forgefiends are created with pairs of hades autocannons in place of their primary limbs, rotary gun-clusters that allow them to scythe down masses of enemy troops and even lightly armoured vehicles with contemptuous ease."/>
+
+	<entry name="ChaosSpaceMarines/ChaosSpawn" value="Chaos Spawns"/>
+	<entry name="ChaosSpaceMarines/ChaosSpawnDescription" value="Fast melee infantry unit that mutates each turn. This unit reduces ranged accuracy of nearby enemy units."/>
+	<entry name="ChaosSpaceMarines/ChaosSpawnFlavor" value="Although physically powerful and extremely resilient, Chaos Spawn are insane, mewling creatures with no mental powers or self-awareness. Their former intelligence has been sacrificed to their failed ambition. Many a champion of great promise has ended up as a seething mound of bone and blubber, monstrous and screaming with lunatic rage."/>
+
+	<entry name="ChaosSpaceMarines/ExaltedPoxwalker" value="Exalted Poxwalker"/>
+	<entry name="ChaosSpaceMarines/ExaltedPoxwalkerDescription" value="Tanky melee infantry with the Mark of Nurgle and a rotting aura."/>
+	<entry name="ChaosSpaceMarines/ExaltedPoxwalkerFlavor" value="Where the common poxwalker is but a shambling vessel of decay, the Exalted Poxwalker is a masterwork of Grandfather Nurgles craft a swollen, unholy champion of rot. Its bloated frame teems with virulent plagues, and every staggered step leaves a trail of pestilence that seeps into the soil and air alike. To face it is to drown in the reek of inevitability, for death is not its gift corruption is."/>
+
+	<entry name="ChaosSpaceMarines/Obliterator" value="Obliterators"/>
+	<entry name="ChaosSpaceMarines/ObliteratorDescription" value="Elite Range-infantry unit with cyclable weapons for every Range and enemy type."/>
+	<entry name="ChaosSpaceMarines/ObliteratorFlavor" value="The monstrous warriors of the Obliterator cults are a blasphemy against nature and Machine God alike. Their forms are so altered, so thoroughly conjoined with the tools of war, that every cell in their bodies thrills with a spark of mechanical life. Only the Dark Mechanicum have mastered the complete fusion of metal and flesh, melding the inert and the animate together on a spiritual level in order to form something far greater than mere cybernetics. Because of their Chaos-born powers, Obliterators are capable of not only absorbing weaponry into themselves, but also of manifesting munitions from their titanium-laced flesh."/>
+
+	<entry name="ChaosSpaceMarines/KhorneBerzerker" value="Khorne Berzerkers"/>
+	<entry name="ChaosSpaceMarines/KhorneBerzerkerDescription" value="Heavy melee infantry unit which can move faster when attacking and has lifesteal."/>
+	<entry name="ChaosSpaceMarines/KhorneBerzerkerFlavor" value="It was the gruesome experiments of Angron, Primarch of the World Eaters, that led to the creation of the first Berzerkers. By the ritual lobotomisation of his warriors, he removed all sense of fear and danger and then heightened the rush his soldiers experienced in combat. When the Legion swore itself to Khorne, the Berzerkers were no longer bound by Imperial battle doctrine and were given full rein to exercise their bloodthirsty skills. They have since become the ultimate close combat shock troops, entering an uncontrollable frenzy in the heat of battle."/>
+
+	<entry name="ChaosSpaceMarines/RubricMarine" value="Rubric Marines"/>
+	<entry name="ChaosSpaceMarines/RubricMarineDescription" value="Elite infernal infantry unit with strong Mid-Range weapons."/>
+	<entry name="ChaosSpaceMarines/RubricMarineFlavor" value="These ornate suits of power armour are filled only with dust—the remnants of the proud Space Marines whose spirits are sealed within and animate them still."/>
+
+	<entry name="ChaosSpaceMarines/WarpTalon" value="Warp Talons"/>
+	<entry name="ChaosSpaceMarines/WarpTalonDescription" value="Jump-Pack Melee infantry with high armour Penetration that can warp across difficult terrain and blind unsuspecting enemies."/>
+	<entry name="ChaosSpaceMarines/WarpTalonFlavor" value="When a pack of Warp Talons emerges from the warp, it appears to those on the battlefield below as if daemonic warriors have burst out from nothingness into fiery, vengeful life. Like the stuff of nightmares, they plummet downwards in an explosion of warp fire, tearing into the foe with murderous intent."/>
+
+	<entry name="ChaosSpaceMarines/Warpsmith" value="Warpsmith"/>
+	<entry name="ChaosSpaceMarines/WarpsmithDescription" value="Hero unit that Heals, Damages and Supports vehicles."/>
+	<entry name="ChaosSpaceMarines/WarpsmithFlavor" value="Warpsmiths are the masters of the machine. Most can trace their origins back to the priesthood of Mars, whether through the schisms of the Magi or the rigid doctrine of the Techmarines. However, where the Adeptus Mechanicus regard technology as sacrosanct, the Warpsmiths seek to subjugate and control it."/>
+
+	<entry name="ChaosSpaceMarines/Helbrute" value="Helbrute"/>
+	<entry name="ChaosSpaceMarines/HelbruteDescription" value="Walker unit that goes crazed when damaged."/>
+	<entry name="ChaosSpaceMarines/HelbruteFlavor" value="Helbrutes are twisted mockeries of the Space Marine Dreadnoughts they used to be, combining the firepower of a small tank with the mind of a frenzied maniac. Each Helbrute holds a living creature within its plated metal chest—a Chaos Space Marine driven over the edge of madness by a never-ending cycle of war."/>
+
+	<entry name="ChaosSpaceMarines/MasterOfPossession" value="Master of Possession"/>
+	<entry name="ChaosSpaceMarines/MasterOfPossessionDescription" value="Psyker hero unit that summons Daemons and supports allies. Can be recruited in the Cult Building."/>
+	<entry name="ChaosSpaceMarines/MasterOfPossessionFlavor" value="Masters of Possession lead warbands of devoted warriors in pursuit of untold power. These sorcerous figures have mastered the darkest and most blasphemous lore: the art of using hosts of living flesh to house daemonic spirits. It is they who perform the profane ceremonies of binding that imbue the Daemonkin with their warp-born power. Gouging a breach in the fabric of realspace, the Master of Possession draws a willing entity from the immaterium, channelling its terrible energies into the body of a supplicant or the chassis of a war machine. So thoroughly are these dread figures steeped in blasphemous sorcery that where they walk, reality itself recoils."/>
+
+	<entry name="ChaosSpaceMarines/DarkDisciple" value="Dark Disciples"/>
+	<entry name="ChaosSpaceMarines/DarkDiscipleDescription" value="Infantry unit that increases the defense of nearby Chaos units, casts warp magic, and can heal other units by sacrificing its own health. This unit costs Energy and Food and can be recruited from the Cult Building."/>
+	<entry name="ChaosSpaceMarines/DarkDiscipleFlavor" value="Dark Disciples carry profane accoutrements of their masters’ worship and parrot the fell words spoken in his baleful prayers. Many such disciples have been augmented to better serve in their role–their skin stretched out and inked with grim litanies, or their mouths fitted with Daemon-touched vox-grilles to project their voices into the warp. Amidst the din of combat they join their Dark Apostle’s chants, crying out for the Chaos Gods to manifest their blessings."/>
+
+	<entry name="ChaosSpaceMarines/PlagueMarine" value="Plague Marines"/>
+	<entry name="ChaosSpaceMarines/PlagueMarineDescription" value="Slow and Short-range heavy infantry unit carrying poison Spewer and Granades."/>
+	<entry name="ChaosSpaceMarines/PlagueMarineFlavor" value="Sworn to Nurgle’s service, Plague Marines are bloated with festering corruption, horrific disfigurements, and stinking, decayed bodies. Unlike many traitors from the Horus Heresy, their numbers have only swollen as the millennia have passed. In battle, the putrescent slime that oozes from their sores corrodes armour and boils away skin, and each blow of their corroded weapons brings horrible infection."/>
+
+
+
+
+	<entry name="Necrons/CanoptekReanimator" value="Canoptek Reanimator"/>
+	<entry name="Necrons/CanoptekReanimatorDescription" value="Monster Support walker unit that supports infantry, clears tiles and can found new Necron cities."/>
+	<entry name="Necrons/CanoptekReanimatorFlavor" value="Like its Canoptek peers, the looming Reanimator’s core role is not destruction but maintenance of a Necron Tomb World. Its remit is to repair damage caused during combat, which it does with streams of nano-scarabs, rebuilding nearby Necrons while they still stand."/>
+
+	<entry name="Necrons/CanoptekSpyder" value="Canoptek Spyder"/>
+	<entry name="Necrons/CanoptekSpyderDescription" value="Monstrous support unit that supports vehicles, clears tiles and founds new cities."/>
+
+	<entry name="Necrons/GhostArk" value="Ghost Ark"/>
+	<entry name="Necrons/GhostArkDescription" value="Antigrav transport vehicle with operable Gauss Flayers."/>
+	<entry name="Necrons/GhostArkFlavor" value="Ghost Arks are tasked with trawling for remnants of Necrons unable to self-repair. Recovered components are set upon by swarms of constructor scarabs that return the fallen Necrons to full function. Repaired warriors are then locked in stasis until the Ghost Ark is at capacity, at which point it will either return its cargo to their tomb world or else deploy them directly into battle. Ghost Arks are often used as conventional transports that ferry reinforcements into battle – however, they truly come into their own once their grim cargo has disembarked. Drifting behind the ranks of Necrons, the Arks flicker with emerald energies as they repair one fallen foot soldier after another. The enemy can only watch with dawning horror as their best efforts to slay the Necrons are undone."/>
+
+	<entry name="Necrons/TriarchPraetorian" value="Triarch Praetorians"/>
+	<entry name="Necrons/TriarchPraetorianDescription" value="Fast Elite jump infantry unit with high-penetration melee weapons."/>
+	<entry name="Necrons/TriarchPraetorianFlavor" value="The Triarch Praetorians are the ancient law keepers of the Necron race, peerless warriors charged with the survival of the dynasties and the primacy of the ancient Necrontyr codes."/>
+
+	<entry name="Necrons/AnnihilationBarge" value="Annihilation Barge"/>
+	<entry name="Necrons/AnnihilationBargeDescription" value="Fast mid-range vehicle with versatile weapons. Exceptional against low-armored units."/>
+	<entry name="Necrons/AnnihilationBargeFlavor" value="Annihilation Barges are the Necrons' favoured anti-infantry support platforms. At the Overlord's command, the Annihilation Barges' ancient repulsor sleds are coaxed back into life and the vehicles accompany the tomb world's army to war. Each is armed with a linked pair of tesla destructors—enormous energy cannons that fire arcs of crackling lightning and are death to lightly armoured targets."/>
+
+	<entry name="Necrons/CanoptekWraith" value="Canoptek Wraiths"/>
+	<entry name="Necrons/CanoptekWraithDescription" value="Extremely mobile Monster infantry unit that passes through terrain and enemies with equal ease."/>
+	<entry name="Necrons/CanoptekWraithFlavor" value="Canoptek Wraiths flit across the battlefield like the spectres of the restless dead. Using their dimensional destabilisation matrices, these strange constructs are able to phase in and out of reality at will. This unique technology means that, though no more than mindless drones, Canoptek Wraiths have manifold uses in war. Fortifications are no obstacle to a Wraith, and they are able to pass more or less undetected even through the midst of the foe, making them exceptional spies and assassins both. Furthermore, Canoptek Wraiths make effective terror-troops, appearing as if from nowhere to strike at vital targets in the enemy’s midst. Here, swirling through the panicked gunfire of the foe, the Wraiths flicker rapidly in and out of phase with reality, shots and blades passing harmlessly through their indistinct forms."/>
+
+	<entry name="Necrons/SmallGaussPylon" value="Small Gauss Pylon"/>
+	<entry name="Necrons/SmallGaussPylonDescription" value="Grants Canoptek Spyder the ability to build Small Gauss Pylons, a long-range Anti-Tank unit which can also emit Gloom Prisms."/>
+	<entry name="Necrons/SmallGaussPylonFlavor" value="<string name='Units/Necrons/GaussPylonFlavor'/>"/>
+
+	<entry name="Necrons/GaussPylon" value="Gauss Pylon"/>
+	<entry name="Necrons/GaussPylonDescription" value="Powerful defence turret that shields allied Necron units."/>
+	<entry name="Necrons/GaussPylonFlavor" value="The mysterious Necron defence turrets, designated as 'Pylons' by those who originally encountered them, were first recorded on the uncharted world of WDY-272. Rising suddenly from the desert sands, the Gauss Pylons opened fire without warning and with devastating effect, tanks and armoured carriers burning as the crescent-shaped weapons tore through the unsuspecting Imperial Guard column whilst resisting all return fire."/>
+
+
+	<entry name="Necrons/DoomScythe" value="Doom Scythe"/>
+	<entry name="Necrons/DoomScytheDescription" value="Airborne fighter unit with high-penetration Weapons."/>
+	<entry name="Necrons/DoomScytheFlavor" value="Doom Scythes are heralds of terror and dismay. These supersonic fighter craft range ahead of a Necron army, drawing upon their strategic datastacks to operate with virtual autonomy. Whether performing terror-raids as a precursor to invasion, keeping the air free of enemy aircraft, or launching overwhelming strike missions against key strategic targets, Doom Scythe pilots will complete their task with merciless precision."/>
+
+	<entry name="Necrons/NightScythe" value="Night Scythe"/>
+	<entry name="Necrons/NightScytheDescription" value="Airborne transport unit equipped with high-attack, low-penetration weapons."/>
+	<entry name="Necrons/NightScytheFlavor" value="The Night Scythe is the Necrons' favoured tool of invasion, a sickle-winged herald of woe that possesses the ability to beam Necrons directly into battle. Manoeuvrable enough to evade orbital defences and interceptors, and swift enough to outpace mustering foes, Night Scythes can ghost through a defence perimeter to deploy invasion forces well behind enemy lines."/>
+
+	<entry name="Necrons/Warrior1" value="Necron Warriors"/>
+	<entry name="Necrons/Warrior1Description" value="Basic infantry unit."/>
+	<entry name="Necrons/Warrior1Flavor" value="Even with only a glimmer of consciousness to guide it, a Necron Warrior is a fearsome and resilient foe. Armed with ancient energy weapons, they can scythe down their enemies with lethal volleys of gauss flayer fire, while their unyielding metal bodies repair themselves should they sustain damage."/>
+
+	<entry name="Necrons/CanoptekSpyder1" value="Canoptek Spyder"/>
+	<entry name="Necrons/CanoptekSpyder1Description" value="Monstrous support unit that supports vehicles, clears tiles and founds new cities."/>
+
+	<entry name="Necrons/TriarchStalker" value="Triarch Stalker"/>
+	<entry name="Necrons/TriarchStalkerDescription" value="A versatile walker unit equipped with anti-tank weaponry that also increases the ranged accuracy of Necron units."/>
+	<entry name="Necrons/TriarchStalkerFlavor" value="Like an enormous spider, a Triarch Stalker looms over the battlefield, its devastating weaponry directed by a high-ranking Triarch Praetorian. When a Triarch Stalker advances, it does so with a speed and surety that belies its jerking gait. Indeed, it can cover all manner of terrain with a deftness and precision seldom found in the walkers of less advanced races."/>
+
+	<entry name="Necrons/CanoptekScarab" value="Canoptek Scarabs"/>
+	<entry name="Necrons/CanoptekScarabDescription" value="A close-combat swarm unit that overwhelms the enemy through sheer numbers, reducing the number of attacks of adjacent enemy melee units."/>
+	<entry name="Necrons/CanoptekScarabFlavor" value="Canoptek Scarabs sweep across the battlefield in vast, undulating swarms that devour all in their path. Mindless feeding machines, the Scarabs are constructs designed to break down matter into raw energy that can then be woven into fresh forms. Within the confines of a tomb this process is one of clearing and manufacture, but on the battlefield it is a powerful force of destruction."/>
+
+	<entry name="Necrons/CanoptekScarab1" value="Canoptek Scarabs"/>
+	<entry name="Necrons/CanoptekScarab1Description" value="A weaker, summoned version of standard Canoptek Scarabs. Close-combat swarm unit that overwhelms the enemy through sheer numbers, reducing the number of attacks of adjacent enemy melee units."/>
+	<entry name="Necrons/CanoptekScarab1Flavor" value="Canoptek Scarabs sweep across the battlefield in vast, undulating swarms that devour all in their path. Mindless feeding machines, the Scarabs are constructs designed to break down matter into raw energy that can then be woven into fresh forms. Within the confines of a tomb this process is one of clearing and manufacture, but on the battlefield it is a powerful force of destruction."/>
+
+
+	<entry name="Necrons/TranscendentCtan" value="Transcendent C'tan"/>
+	<entry name="Necrons/TranscendentCtanDescription" value="Monstrous creature unit with an array of devastating powers with long Range."/>
+	<entry name="Necrons/TranscendentCtanFlavor" value="Transcendent C'tan are all that remain of the once mighty star-gods. They are echoes of their former selves, splinters of energy that survived the Necrons' betrayal and were trammelled in tesseract labyrinths. Ancient, archaic technologies shackle these beings to the will of their Necron masters, compelling them to obey and reducing them to the merest echoes of their ancient majesty. Yet even in their reduced and fettered state, Transcendent C'tan are still beings of immense power."/>
+
+	<entry name="Necrons/HexmarkDestroyer" value="Hexmark Destroyer"/>
+	<entry name="Necrons/HexmarkDestroyerDescription" value="Short range specialist, that can tank a lot of damage. Has 2 actions and has extra damage while overwatching. Able to teleport."/>
+	<entry name="Necrons/HexmarkDestroyerFlavor" value="A Hexmark Destroyer was once a Deathmark, before it fell to the Destroyer Curse and joined a Destroyer Cult. Now each one is like a mobile gun battery, all but unrivalled in close-range firepower and able to blast its way through hordes of enemy infantry with impunity."/>
+
+	<entry name="Necrons/Headquarters1" value="Royal Court"/>
+	<entry name="Necrons/Headquarters1Description" value="Headquarters building that generates resources."/>
+	<entry name="Necrons/Headquarters1Flavor" value="The seat of the Necron Phaeron and his court is a great bleak building, one of the few great Necron buildings not originally built to venerate the dead. Instead, its shielding walls are a symbolic reflection of the intense radiation the Necrons suffered under, long ago, on their original homeworld, when they were still weak creatures of flesh and bone."/>
+
+
+
+
+
+
+
+
+	<entry name="SistersOfBattle/ArcoFlagellant" value="Arco-Flagellants"/>
+	<entry name="SistersOfBattle/ArcoFlagellantDescription" value="Hard-Hitting Expendable light melee infantry that refunds part of its cost in the form of Energy when it dies."/>
+	<entry name="SistersOfBattle/ArcoFlagellantFlavor" value="Arco-flagellants lope alongside faithful armies in packs, their lashlike limbs whipping back and forth as they follow their priestly masters to battle. When the enemy is sighted, they are driven into a frenzied killing rage by a potent cocktail of adrenal stimulants and neural kill-signals, whereupon they hurl themselves into battle with no thought for self-preservation or restraint. Hacking and slashing with cyber-implanted flails, pneu-mattocks and cleavers, they fight on dementedly until there is nothing left of their foes but a pile of mutilated corpses."/>
+
+	<entry name="SistersOfBattle/Immolator" value="Immolator"/>
+	<entry name="SistersOfBattle/ImmolatorDescription" value="Anti-infantry transport unit fitted with a twin-linked heavy flamer which reduces enemy ranged damage reduction, making enemies more susceptible to range damage from allied units."/>
+	<entry name="SistersOfBattle/ImmolatorFlavor" value="The Immolator battle tank is a design exclusive to the Adeptus Ministorum, based upon the ubiquitous Rhino chassis. Immolators carry deadly, but short ranged, twin heavy flamers that cleanse the battlefield of all but the toughest of foes. The sight of such a tank rumbling into sight has disrupted more than one enemy battle line as warriors try in vain to evade an Immolator’s fearsome inferno."/>
+
+	<entry name="SistersOfBattle/ArcoFlagellantCanoness" value="Arco-Flagellants"/>
+	<entry name="SistersOfBattle/ArcoFlagellantCanonessDescription" value="Hard-Hitting Expendable light melee infantry that refunds part of its cost in the form of Energy when it dies."/>
+	<entry name="SistersOfBattle/ArcoFlagellantCanonessFlavor" value="Arco-flagellants lope alongside faithful armies in packs, their lashlike limbs whipping back and forth as they follow their priestly masters to battle. When the enemy is sighted, they are driven into a frenzied killing rage by a potent cocktail of adrenal stimulants and neural kill-signals, whereupon they hurl themselves into battle with no thought for self-preservation or restraint. Hacking and slashing with cyber-implanted flails, pneu-mattocks and cleavers, they fight on dementedly until there is nothing left of their foes but a pile of mutilated corpses."/>
+
+	<entry name="SistersOfBattle/Canoness" value="Canoness"/>
+	<entry name="SistersOfBattle/CanonessDescription" value="Witch-hunting hero unit that leads infantry charges while providing battlefield support through buffs and debuffs. Capable of summoning Arco-Flagellants into combat."/>
+	<entry name="SistersOfBattle/CanonessFlavor" value="A Canoness is the overall commander of one of the Orders Militant, a shining example of purity and dedication of purpose. Each is a veteran warrior of many hundreds of battles who has risen to her position through a combination of strong leadership, shrewd tactical genius and sheer overarching faith in the Emperor. When the Ecclesiarchy sounds the call to arms, a Canoness boldly leads her warriors into the fray, refusing to take one step backwards whilst her enemies still draw breath."/>
+
+	<entry name="SistersOfBattle/TechpriestEnginseerSisterOfBattle" value="Tech-Priest Enginseers"/>
+	<entry name="SistersOfBattle/TechpriestEnginseerSisterOfBattleDescription" value="Infantry unit that supports vehicles, clears tiles, construct Fortifications and found new cities"/>
+	<entry name="SistersOfBattle/TechpriestEnginseerSisterOfBattleFlavor" value="Tech-Priest Enginseers serve as custodians for the vehicles of the Imperial Guard. With binary prayers and mystic rites, the Enginseers soothe the machine spirits of their tracked congregation. Without the diligent maintenance of the Enginseers, the Imperial Guard would soon find themselves without the heavy armour vital to their very survival."/>
+
+	<entry name="SistersOfBattle/StrongpointOfFaith" value="Strongpoint Of Faith"/>
+	<entry name="SistersOfBattle/StrongpointOfFaithDescription" value="Fortification with Bolters, Melter and Flamer which need to be manned by a Infantry Unit. Also provided protection to nerby Infantry Units"/>
+	<entry name="SistersOfBattle/StrongpointOfFaithFlavor" value="Tech-Priest Enginseers serve as custodians for the vehicles of the Imperial Guard. With binary prayers and mystic rites, the Enginseers soothe the machine spirits of their tracked congregation. Without the diligent maintenance of the Enginseers, the Imperial Guard would soon find themselves without the heavy armour vital to their very survival."/>
+
+	<entry name="SistersOfBattle/Dialogus" value="Dialogus"/>
+	<entry name="SistersOfBattle/DialogusDescription" value="Faithful support hero unit that can heal infantry and vehicles and uses hymns of battle to bolster allied units."/>
+	<entry name="SistersOfBattle/DialogusFlavor" value="A Sister Dialogus drowns out the filthy war cries of the enemy with shouts of exalting praise to the God-Emperor. She is a locus of faith in the Adepta Sororitas battle line, standing upon fire-swept promontories, arm thrust proudly out with her staff of office in an iron grip as shots whine around her. Her laud hailer amplifies her inspirational rhetoric over the din of battle, and through broadcasts to vox-beads and sensoria arrays she ensures that all nearby Sororitas can benefit spiritually from her deep well of holy knowledge."/>
+
+	<entry name="SistersOfBattle/Dominion" value="Dominions"/>
+	<entry name="SistersOfBattle/DominionDescription" value="Short range anti-infantry unit equipped with flamethrowers. Can use the Scout ability."/>
+	<entry name="SistersOfBattle/DominionFlavor" value="Battle Sisters who utilise specialised weaponry such as storm bolters, flamers and meltaguns are known as Dominions. They are amongst their Order’s most aggressive warriors, driven by the need to destroy the Emperor’s foes. Though their training has tempered the worse excess of their impetuosity, Dominions still yearn to fight at the fore of any Sororitas attack."/>
+
+	<entry name="SistersOfBattle/Seraphim" value="Seraphim"/>
+	<entry name="SistersOfBattle/SeraphimDescription" value="Jump infantry equipped with potent hand flamers which reduces enemy ranged damage reduction, making enemies more susceptible to range damage from allied units. Tankier than Battlesisters but only effective vs low armored targets."/>
+	<entry name="SistersOfBattle/SeraphimFlavor" value="The Seraphim fight in the Adepta Sororitas’ advanced guard. Only Battle Sisters with exceptional dexterity are selected to join their ranks, firing with pinpoint accuracy while moving at great speeds. They must be able to land with incredible precision, cut down foes and retreat within a few heartbeats."/>
+
+
+
+
+	<entry name="Tau/HammerheadGunship" value="TX7 Hammerhead Gunship"/>
+	<entry name="Tau/HammerheadGunshipDescription" value="Skimmer tank unit with Anti-Tank weaponry."/>
+	<entry name="Tau/HammerheadGunshipFlavor" value="Hammerhead Gunships glide into battle like predatory beasts. As they advance, their massive turret armaments traverse smoothly, railguns and ion cannons sweeping left and right as they hunt for targets. The moment a suitable victim presents itself, firing solutions are calculated in the blink of an eye. Power surges as gravitic stabilisers kick in with a bass hum and the Hammerheads loose the lethal fury of their arsenal upon the foe."/>
+	
+	<entry name="Tau/SkyRayGunship" value="TX78 Sky Ray Gunship"/>
+	<entry name="Tau/SkyRayGunshipDescription" value="Skimmer tank unit equipped with powerful missiles against groups of Enemies that excels in first strikes"/>
+	<entry name="Tau/SkyRayGunshipFlavor" value="While the Hammerhead is a dynamic hunter, its sister gunship the TX78 Sky Ray is a far more sinister killer. Mounting a complement of seeker missiles beneath its upswept ordnance racks, the Sky Ray typically lurks behind the main T'au advance, remaining mute and concealed until the moment comes to strike. The Sky Ray often fulfils a supporting role, and its ballistic arsenal can be called in by any T'au with a markerlight to carry out a remote strike on a sufficiently valuable target."/>
+
+	<entry name="Tau/KrootoxRider" value="Krootox Riders"/>
+	<entry name="Tau/KrootoxRiderDescription" value="Heavy Infantry which shines in forests and imperial cities. Can also summon Kroot hounds"/>
+	<entry name="Tau/KrootoxRiderFlavor" value="Surging from the undergrowth with their rifles blazing, the warriors of the Kroot Carnivore squads fall upon their victims with feral shrieks. In their midst lumber massive Krootoxes, gunners perched upon their backs as they direct sawing bursts of heavy fire into the foe."/>
+
+	<entry name="Tau/FireWarriorBreacher" value="Breacher Fire Warriors"/>
+	<entry name="Tau/FireWarriorBreacherDescription" value="Short-range infantry unit that excels against cover and gains extra damage reduction from shield drones"/>
+	<entry name="Tau/FireWarriorBreacherFlavor" value="T’au Breacher infantry specialise in brutally effective close-range assaults, clearing enemy structures and fortified positions of threats in a tight, tactical formation. They deliver sharp, shockingly sudden frontline displays of raw incendiary power that grind enemy soldiers into dust, discharging Pulse Blasters and hurling Photon Grenades until they are certain every path is clear."/>
+
+	<entry name="Tau/GhostkeelBattlesuit" value="XV95 Ghostkeel Battlesuit"/>
+	<entry name="Tau/GhostkeelBattlesuitDescription" value="Battlesuit unit with versatile weapons and strong ranged damage reduction abilities."/>
+	<entry name="Tau/GhostkeelBattlesuitFlavor" value="Ghostkeel Battlesuits lunge from the shadows to rake their prey with lethal volleys of fire. Wreathed in stealth fields projected by their hovering drones, the half-seen battlesuits move with terrifying speed for their size. One moment the enemy is advancing across the battlefield, the next looming killers are bounding through their midst with guns blazing. Panicked return fire flies wide, the Ghostkeels' attackers unable to draw a bead on their sensor-baffled targets."/>
+
+	<entry name="Tau/RiptideBattlesuit" value="XV104 Riptide Battlesuit"/>
+	<entry name="Tau/RiptideBattlesuitDescription" value="Heavily armored battlesuit unit with versatile high-penetration weapons and a multipurpose nova reactor."/>
+	<entry name="Tau/RiptideBattlesuitFlavor" value="Looming through the smoke and flames of the battlefield, XV104 Riptides are a truly terrifying sight. The teams' strides shake the ground, and their jump jets roar thunderously as they make long, dynamic bounds across the war zone. Foes quail in horror as the massive suits swings their heads in their direction, the pilots and their networked Als bringing their mighty arsenals to bear. With a rising whine, the Riptides' nova reactors power up, a momentary glow gathering around the battlesuits' jutting guns before they turn the world to fire and light."/>
+
+	<entry name="Tau/RVarnaBattlesuit" value="XV107 R'Varna Battlesuit"/>
+	<entry name="Tau/RVarnaBattlesuitDescription" value="Super heavily armored battlesuit unit equipped with extremely powerful long-range anti-tank weaponry and a multipurpose nova reactor."/>
+	<entry name="Tau/RVarnaBattlesuitFlavor" value="A development of the Riptide, the T'au XV107 R'varna battlesuit sacrifices mobility for heavier armour and increased firepower in the form of two pulse submunition cannon, experimental weapons systems which fire micro-cluster projectiles capable of saturating the target area in a deadly storm of plasma pulses."/>
+
+	<entry name="Tau/Stormsurge" value="KV128 Stormsurge"/>
+	<entry name="Tau/StormsurgeDescription" value="Giant and super-heavy battlesuit with phenomenal firepower. Gains additional firepower when stationary."/>
+	<entry name="Tau/StormsurgeFlavor" value="The earth shakes with the approach of the towering KV128 Stormsurge. Mag-lifted into battle by modified Manta Missile Destroyers, these titanic walking tanks serve as mobile strongpoints with enough firepower to obliterate entire formations of the foe. Once he has the enemy in his sights, the Stormsurge's pilot fires stabilising anchors, locking the enormous ballistic suit to the ground while the gunner diverts all power to its apocalyptic arsenal of weaponry."/>
+
+	<entry name="Tau/FireWarriorBreacher1" value="Breacher Fire Warriors"/>
+	<entry name="Tau/FireWarriorBreacher1Description" value="Short-range infantry unit that excels against cover and gains extra damage reduction from shield drones"/>
+	<entry name="Tau/FireWarriorBreacher1Flavor" value="T’au Breacher infantry specialise in brutally effective close-range assaults, clearing enemy structures and fortified positions of threats in a tight, tactical formation. They deliver sharp, shockingly sudden frontline displays of raw incendiary power that grind enemy soldiers into dust, discharging Pulse Blasters and hurling Photon Grenades until they are certain every path is clear."/>
+
+	<entry name="Tau/FireWarrior1" value="Fire Warriors"/>
+	<entry name="Tau/FireWarrior1Description" value="Basic versatile infantry unit."/>
+	<entry name="Tau/FireWarrior1Flavor" value="The strobing flare of massed pulse fire announces the attack of a Fire Warrior Strike Team. Whether leaping from the hatch of a hovering Devilfish or drawn up in a resolute firing line, the warriors of a Strike Team maintain a constant blizzard of shots that cuts their foes to pieces. Howling pulse rifles, pulse carbines and tactical support turrets lay down a withering carpet of suppressing fire, while EMP grenades kick out shimmering shockwaves of electromagnetic force that leave enemy vehicles as cold, dead husks."/>
+
+	<entry name="Neutral/KrootHound" value="Wild Kroot Hounds"/>
+	<entry name="Neutral/KrootHoundDescription" value="Agile melee unit that is particularly dangerous in forests."/>
+	<entry name="Neutral/KrootHoundFlavor" value="The pseudo-avian Kroot is uniquely flexible, able to absorb the genetic data of other races by consuming them, but sometimes isolated Kroot communities run into evolutionary dead ends. The Kroot Hound is one such dead end, a devolution of the Kroot into a wolf-like species. On Gladius Prime, they have run feral for generations."/>
+
+	<entry name="Neutral/VespidStingwing" value="Wild Vespids"/>
+	<entry name="Neutral/VespidStingwingDescription" value="Winged ranged infantry unit that excels at combat in ruins and can fly over obstacles."/>
+	<entry name="Neutral/VespidStingwingFlavor" value="Vespid Stingwings dart into battle with unsettling insectile speed. The high pitched whine of their wings inspires atavistic revulsion, seeming to come from every direction at once as it echoes and bounces from ruins and wreckage. When they strike, the Vespids do so with lightning speed, dropping from above with their neutron blasters emitting bolts of translucent fire. Each shot shimmers clean through the armour of the foe, scouring their bodies with massive doses of radiation and burning them alive from the inside."/>
+
+	<entry name="Tau/KrootHound1" value="Trained Kroot Hounds"/>
+	<entry name="Tau/KrootHound1Description" value="Agile melee unit that is particularly dangerous in forests and imperial cities. This one is trained and stronger than their feral counterparts."/>
+	<entry name="Tau/KrootHound1Flavor" value="The pseudo-avian Kroot is uniquely flexible, able to absorb the genetic data of other races by consuming them, but sometimes isolated Kroot communities run into evolutionary dead ends. The Kroot Hound is one such dead end, a devolution of the Kroot into a wolf-like species. On Gladius Prime, they have run feral for generations."/>
+
+	<entry name="Tau/VespidStingwing1" value="Vespid Stingwings"/>
+	<entry name="Tau/VespidStingwing1Description" value="winged ranged infantry unit with low damage but high armor penetration, effective in combat within ruins and forests."/>
+	<entry name="Tau/VespidStingwing1Flavor" value="Vespid Stingwings dart into battle with unsettling insectile speed. The high pitched whine of their wings inspires atavistic revulsion, seeming to come from every direction at once as it echoes and bounces from ruins and wreckage. When they strike, the Vespids do so with lightning speed, dropping from above with their neutron blasters emitting bolts of translucent fire. Each shot shimmers clean through the armour of the foe, scouring their bodies with massive doses of radiation and burning them alive from the inside."/>
+
+	<entry name="Tau/BuilderDrone" value="Builder Drones"/>
+	<entry name="Tau/BuilderDroneDescription" value="Drone unit that repairs Buildings, Battlesuits and Tanks, clears tiles and founds new cities. <br/><br/>Can be build in the Headquarter, Shas'm Barracks, Auxiliary Deployment Hub or Fio'Xar Arsenal "/>
+	<entry name="Tau/BuilderDroneFlavor" value="T’au Drones are small hovering AI machines that fulfil a large variety of support functions. Unlike the Imperium’s AIs, which are very simple and heavily constrained following the Men of Iron rebellion, T’au AIs are intelligent and operate independently. Builder Drones are an Earth Caste flavour."/>
+
+	<entry name="Tau/StealthBattlesuit" value="XV25 Stealth Battlesuits"/>
+	<entry name="Tau/StealthBattlesuitDescription" value="Jet pack infantry unit that specializes in infiltration and anti-armour. Can Markerlight as a free Action"/>
+	<entry name="Tau/StealthBattlesuitFlavor" value="For some foes, the only hint of danger is a slight sensor-ghost, or the unnerving feeling of being watched. For others there is no warning at all, before the world lights up with chattering burst cannons and hissing fusion blasters. Flickering out from amid their camouflage fields come the T'au Stealth Suits, their point-blank salvoes chopping enemy infantry to steaming offal and blowing their armoured vehicles sky high."/>
+	
+	<entry name="Tau/KrootoxRampager" value="Krootox Rampagers"/>
+	<entry name="Tau/KrootoxRampagerDescription" value="Berserker Unit, which shines in short engagements. Can use the Scout ability"/>
+	<entry name="Tau/KrootoxRampagerFlavor" value="Terrifying cavalry, Krootox Rampagers combine the aggression and agility of juvenile Krootox with the vicious skill and cunning of a Kroot rider—if the latter can hold on as the Krootox plunges into the enemy."/>
+
+	<entry name="Tau/Headquarters1" value="Tau'shiro HQ"/>
+	<entry name="Tau/Headquarters1Description" value="Headquarters building that generates resources."/>
+	<entry name="Tau/Headquarters1Flavor" value="Named after the Air Caste’s continent-sized space stations, this fortress acts as the central point of the colony-city. It is theoretically the solitary preserve of the Commanders in a military situation, but in practice is the seat of the colony’s Ethereals."/>
+
+
+
+
+
+
+
+
+	<entry name="AstraMilitarum/TempestusScion" value="Tempestus Scions"/>
+	<entry name="AstraMilitarum/TempestusScionDescription" value="Shock infantry unit which can Deep Strike once and get bonuses in Forest and Imperial City Tiles."/>
+	<entry name="AstraMilitarum/TempestusScionFlavor" value="Militarum Tempestus Scions are often viewed with fear or resentment by the regular troops—nicknames such as 'glory boys' and 'big toy soldiers' are common. Yet this rancour is nothing to the Scions themselves. Trained in covert operations and rapid insertion strike-tactics, they go to battle confident that their every deed is for the good of the Imperium itself."/>
+
+	<entry name="AstraMilitarum/PrimarisPsyker" value="Primaris Psyker-Biomancer"/>
+	<entry name="AstraMilitarum/PrimarisPsykerDescription" value="Hero unit with Restoring and Draining psychic powers."/>
+	<entry name="AstraMilitarum/PrimarisPsykerFlavor" value="Loathed and feared as witches by their superstitious comrades, Primaris Psykers are nonetheless valuable assets to any commander. Though it hardly lessens the constant suspicion they are held in by the Officio Prefectus, each of these psykers possess abilities and control far beyond those of lesser Scholastica Psykana initiates."/>
+
+	<entry name="AstraMilitarum/ScoutSentinel" value="Scout Sentinels"/>
+	<entry name="AstraMilitarum/ScoutSentinelDescription" value="Light armored walker unit specialized in reconnaissance. This version is equipped with anti-armor Krak Missiles and a cyclable Multi-Laser."/>
+	<entry name="AstraMilitarum/ScoutSentinelFlavor" value="The Sentinel is a fast-moving combat walker employed to scout dense terrain and provide close infantry fire support. With surprising speed and locomotive dexterity, Sentinels can traverse terrain that would confound other armoured vehicles. The lighter-armoured Scout Sentinels, in particular, are used to range ahead of the main battle line, setting up brutal ambushes or launching pin-point raids."/>
+
+	<entry name="AstraMilitarum/AttilanRoughRider" value="Attilan Rough Riders"/>
+	<entry name="AstraMilitarum/AttilanRoughRiderDescription" value="Fast elite melee infantry unit that can deal with any target."/>
+	<entry name="AstraMilitarum/AttilanRoughRiderFlavor" value="Horsemen may seem primitive in a galaxy filled with millennia-old horrors, but the Rough Riders of Attila long ago proved their worth to the Astra Militarum. The hunting lances they carry are their concession to modern tactics, with their melta-tipped variants even capable of punching through power armour."/>
+
+	<entry name="AstraMilitarum/Bullgryn" value="Bullgryns"/>
+	<entry name="AstraMilitarum/BullgrynDescription" value="Heavy melee infantry unit that can soak a lot of damage and reduces the damage of enemy units."/>
+	<entry name="AstraMilitarum/BullgrynFlavor" value="Bullgryns are clad in custom-made carapace armour and carry crude assault weaponry to capitalise on the abhumans' stature and resilience. These units provide their comrades with a wall of walking cover as they advance across the battlefield, soaking up vast volumes of enemy fire in the process."/>
+
+	<entry name="AstraMilitarum/FieldOrdnanceBattery" value="Anti-Tank Gun"/>
+	<entry name="AstraMilitarum/FieldOrdnanceBatteryDescription" value="Large, man-portable anti-tank gun effective against enemy armor and monsters at long range. Can also fire incendiary shells that deal low damage but inflict Pinning and Burning debuffs. This unit gains increased damage and defense when stationary in Forest or City tiles."/>
+	<entry name="AstraMilitarum/FieldOrdnanceBatteryFlavor" value="Ordnance teams crew some of the largest human-maneuverable weapons fielded by the Astra Militarum. The brutal xenos infestation of Gladius Prime has forced imperial regiments to prioritize long-range anti-armor capabilities, with crew-served weapons designed to eliminate both mechanical threats and the largest predatory organisms from a safe distance."/>
+
+	<entry name="AstraMilitarum/Basilisk" value="Basilisk"/>
+	<entry name="AstraMilitarum/BasiliskDescription" value="Long-range artillery tank that slows enemy advances and gains bonus damage while remaining stationary."/>
+	<entry name="AstraMilitarum/BasiliskFlavor" value="When the Imperial Guard go to war, they march to the thunderous report of batteries of Basilisks whose guns can flatten cities and end worlds. Instantly recognisable for the long, looming barrel of its earthshaker cannon, the Basilisk boasts a prodigious range."/>
+
+	<entry name="AstraMilitarum/Guardsman1" value="Guardsmen"/>
+	<entry name="AstraMilitarum/Guardsman1Description" value="Light infantry unit."/>
+	<entry name="AstraMilitarum/Guardsman1Flavor" value="From the steaming jungles of Catachan to the war-torn fortress world of Cadia, the humble Guardsmen provide the ironclad backbone of the Imperial Guard."/>
+
+	<entry name="AstraMilitarum/Chimera" value="Chimera"/>
+	<entry name="AstraMilitarum/ChimeraDescription" value="Amphibious transport unit with manned weaponry."/>
+	<entry name="AstraMilitarum/ChimeraFlavor" value="The Chimera is the most prolific and popular armoured transport used by the Imperial Guard. It is rugged, versatile, and easy to produce in huge numbers. For thousands of years it has been accepted wisdom that the Chimera punches well above its weight in a firefight; the tank itself mounts a variety of punishing anti-personnel weaponry, while passengers can lay down additional fire from its spacious top hatch and flank-mounted lasgun arrays."/>
+
+	<entry name="AstraMilitarum/Hydra" value="Hydra"/>
+	<entry name="AstraMilitarum/HydraDescription" value="A versatile tank unit with medium penetration, able to suppress ground targets and dominate airborne enemies from long range."/>
+	<entry name="AstraMilitarum/HydraFlavor" value="Whether faced by lightning-fast xenos fighters or daemonic, leather-winged monstrosities, the Hydra Flak Tank is ideally equipped to blow aerial foes out of the sky. The Hydra's predictive logic-spirit singles out and locks onto its targets with the tenacity of a predatory beast."/>
+
+	<entry name="AstraMilitarum/DevilDog" value="Devil Dog"/>
+	<entry name="AstraMilitarum/DevilDogDescription" value="Anti-infantry tank armed with a high-penetration melter cannon and a heavy flamer, devastating against both light and heavy infantry."/>
+	<entry name="AstraMilitarum/DevilDogFlavor" value="Acquiring its name from the high-pitched howl this weapon makes upon firing, the Devil Dog is capable of punching far above its weight in armoured combat. Indeed, many Devil Dog crews style themselves as big game hunters or monster slayers, excelling in the eradication of enemy armour and exceptionally heavy infantry assets. A foe forced to fight protracted campaigns in dense terrain against the Imperial Guard soon learns to dread the hunched silhouette of the Devil Dog – those who don’t soon find their vehicles reduced to molten slag by this aggressive and fast moving tank hunter."/>
+
+
+	<entry name="AstraMilitarum/Headquarters1" value="Basilica Administratum"/>
+	<entry name="AstraMilitarum/Headquarters1Description" value="Headquarters building that generates resources."/>
+	<entry name="AstraMilitarum/Headquarters1Flavor" value="The central administrative building of any Imperial colony, the magnificent Basilica is a temple to bureaucracy. Generations of plain-clad clerks live and die amidst tottering tomes, deciding the fate of star systems with the feeble thump of their stamps. As the saying goes, the Inquisition may burn you, the Astartes smite you—but only the Adeptus Administratum can torment you for your entire life."/>
+
+
+
+
+
+
+
+	<entry name="AdeptusMechanicus/Cinderfang" value="Cinderfang"/>
+	<entry name="AdeptusMechanicus/CinderfangDescription" value= "Doctrina Imperatives Devil Dog variant which is equipped with a Melta Cannon and a Heavy Phosphor Blaster. Debuffs enemy units with Luminagen, making them more susceptible to other ranged units."/>
+	<entry name="AdeptusMechanicus/CinderfangFlavor" value="Among the forge-temples of Ryza, the name Cinderfang is spoken with reverence and dread. This rare Devil Dog variant replaces chemical weaponry with a brutal Melta Cannon and a hull-mounted Heavy Phosphor Blaster, optimized for total armor liquefaction and blinding suppression."/>
+
+	<entry name="AdeptusMechanicus/VoidshieldBastion" value="Voidshield Bastion"/>
+	<entry name="AdeptusMechanicus/VoidshieldBastionDescription" value="A tech-sacred fortress of the Adeptus Mechanicus, shielded by interlocking voidfields and armed with twin devastating Phosphor Cannons. Three arrays of heavy stubbers provide close-in defense, each requiring manual operation. Debuffs enemy units with Luminagen, making them more susceptible to other ranged units."/>
+	<entry name="AdeptusMechanicus/VoidshieldBastionFlavor" value="A hybrid of Imperial bastion and void shield generator, this fortified structure is engineered by the Adeptus Mechanicus to anchor the battlefield with unwavering resilience. Surrounded by a crackling voidshield and armed with phosphor cannons, it absorbs devastating assaults while burning down the foe with alchemical fire and machine precision. A shrine of steel and circuitry, it embodies both faith and function—unmoving, unbroken, and merciless."/>
+
+	<entry name="AdeptusMechanicus/TechPriestDominus" value="Tech-Priest Dominus"/>
+	<entry name="AdeptusMechanicus/TechPriestDominusDescription" value="Anti-tank Canticles of the Omnissiah hero unit that can damage and debuff enemy tanks, and deploy Kataphron Breachers."/>
+	<entry name="AdeptusMechanicus/TechPriestDominusFlavor" value="Slithering, floating, stalking with avian gait, the Tech-Priests Dominus scour their surroundings with carrion eagerness. Ever vigilant for lost treasures they can pluck from the corpses of the worlds they conquer, their minds boil hot with data, and their spines are bent under the immense weight of knowledge they have torn from an unwilling universe. Despite their crooked appearance, these warrior magi are amongst the deadliest and most determined of all the Omnissiah’s hunters."/>
+	
+	<entry name="AdeptusMechanicus/TechPriestManipulus" value="Tech-Priest Manipulus"/>
+	<entry name="AdeptusMechanicus/TechPriestManipulusDescription" value="Canticles of the Omnissiah hero unit with powerful support and healing abilities"/>
+	<entry name="AdeptusMechanicus/TechPriestManipulusFlavor" value="Among the augmentations of a Tech-Priest Manipulus is a galvanic cell from which they channel powerful charges of the Motive Force. They drain power sources dry and use the energy to overcharge the cells of their warriors’ armaments, all while defending their divine work with blasts from their own arcane weapons."/>
+
+	<entry name="AdeptusMechanicus/SerberysSulphurhound" value="Serberys Sulphurhounds"/>
+	<entry name="AdeptusMechanicus/SerberysSulphurhoundDescription" value="A Doctrina Imperatives infantry unit that can soak a lot of damage. Debuffs enemy units with Luminagen, making them more susceptible to other ranged units."/>
+	<entry name="AdeptusMechanicus/SerberysSulphurhoundFlavor" value="Sulphurhound cavalry squadrons are aggressive shock troops and line-breakers. The loping, mechanical beasts breathe gouts of incinerating phosphor and disembowel the foe with slashing claws, while the elite Skitarii riders unload incandescent pistol fire as they smash through defence lines, before circling back for survivors."/>
+
+	<entry name="AdeptusMechanicus/SydonianDragoon" value="Sydonian Dragoon"/>
+	<entry name="AdeptusMechanicus/SydonianDragoonDescription" value="Fast Doctrina Imperatives close-combat walker unit that excels against Enemy vehicles and fortifications."/>
+	<entry name="AdeptusMechanicus/SydonianDragoonFlavor" value="Sydonian Dragoons are tried and tested Skitarii warriors of the Adeptus Mechanicus who are given the honour of riding to war atop venerated, stilt-legged Ironstrider Engines. These fearless cavaliers thunder through enemy fire to plunge lance-first into the thick of the enemy's ranks, the pent-up energies of their taser weaponry blasting the foe back in a blazing storm of sparks. Those foolish enough to mount a counter-assault are stamped unceremoniously into the dirt."/>
+
+	<entry name="AdeptusMechanicus/SkorpiusDunerider" value="Skorpius Dunerider"/>
+	<entry name="AdeptusMechanicus/SkorpiusDuneriderDescription" value="Doctrina Imperatives transport vehicle. Can fire extra weapons when loaded with infantry."/>
+	<entry name="AdeptusMechanicus/SkorpiusDuneriderFlavor" value="Skorpius Duneriders enable forge lords to ferry squads of their cyborg infantry onto the front lines, overwhelming the foe through swiftly redeployed weight of numbers. Duneriders sweep onto enemy defences in a cloud of chemical smoke, saturating the area with heavy calibre shot as their payload of warriors disembarks."/>
+
+	<entry name="AdeptusMechanicus/SicarianInfiltrator" value="Sicarian Infiltrators"/>
+	<entry name="AdeptusMechanicus/SicarianInfiltratorDescription" value="Doctrina Imperatives fast skirmishing infantry unit that has ranged anti-infantry weapons and overwatch protection."/>
+	<entry name="AdeptusMechanicus/SicarianInfiltratorFlavor" value="Those hunted by Sicarian Infiltrators will find themselves buffeted by the waves of neurostatic these gangle-limbed stalkers broadcast before them. Robbed of their sight, their hearing, even their sense of smell, such victims are easy targets for the compact tools the Infiltrators use in their deadly work. Should the initial salvo from flechette blaster or stubcarbine not prove sufficient, these merciless killers will dart in to finish the job in close assault."/>
+	
+	<entry name="Neutral/KastelanRobot" value="Kastelan Robot"/>
+	<entry name="Neutral/KastelanRobotDescription" value="Extremely durable and heavily armed Canticles of the Omnissiah combat walker unit. Debuffs enemy units with Luminagen, making them more susceptible to other ranged units."/>
+	<entry name="Neutral/KastelanRobotFlavor" value="Kastelan Robots are ancient monstrosities that stamp to war, each an unliving giant assigned a deadly purpose by its master. Soulless, these metallic golems are given thought only by the doctrina wafers in their recessed chestslots and the Cybernetica Datasmiths that program their every move. These machines are walking relics from aeons past, and all the deadlier for it—the air nearby thrums with power, bullets ricocheting from repulsor fields that glow like golden cages around them. Volleys of phosphor blasts and promethium incinerate their foes wherever they may hide, and crushing fists bring ruin wherever they strike. The violence meted out by each maniple is as inspiring to the Omnissiah's faithful as it is terrifying to his foes."/>
+
+	<entry name="AdeptusMechanicus/SkitariiMarshal" value="Skitarii Marshal"/>
+	<entry name="AdeptusMechanicus/SkitariiMarshalDescription" value="Doctrina Imperative hero unit that leads the Adeptus Mechanicus into battle. Debuffs enemy units with Luminagen, making them more susceptible to other ranged units."/>
+	<entry name="AdeptusMechanicus/SkitariiMarshalFlavor" value="Marshals lead the maniples and cohorts of Skitarii soldiery. They are veteran warriors of countless crusades, privileged to bear enhanced augmentations. Marshals stand as intermediaries between Skitarii formations and their priestly masters, employing sacred uplinks to refine their warriors’ doctrines closer to holy perfection."/>
+
+	<entry name="AdeptusMechanicus/SkitariiRanger" value="Skitarii Rangers"/>
+	<entry name="AdeptusMechanicus/SkitariiRangerDescription" value="Doctrina Imperatives elite sniper infantry unit with a high penetration sniper weapon and scout abilities."/>
+	<entry name="AdeptusMechanicus/SkitariiRangerFlavor" value="Where the Tech-Priests are hunters of knowledge, their Skitarii Rangers are hunters of sentient creatures – the enemies of the Omnissiah in particular. These unstoppable cyborgs do not rest until the bloody deed is done, for they are driven ever onward by the imperative to locate their foes and ensure their destruction. They do this not in Drop Pod strikes launched from above, nor by sudden teleportation into the midst of the enemy, but by stalking their quarry over the course of weeks or even months until it can run no more. Once the designated target is in their crosshairs the air fills with the thump and crackle of galvanic weaponry, even as the Skitarii continue their relentless advance. The stink of electrocuted corpses is never far behind."/>
+
+	<entry name="AdeptusMechanicus/OnagerDunecrawler" value="Onager Dunecrawler"/>
+	<entry name="AdeptusMechanicus/OnagerDunecrawlerDescription" value="A Doctrina Imperatives walker unit with long-range weapons that are effective against all targets but exceptional against flying units and skimmers."/>
+	<entry name="AdeptusMechanicus/OnagerDunecrawlerFlavor" value="Onager Dunecrawlers decimate the foes of the Skitarii whilst channelling great swathes of battlefield information to their masters high above. Squadrons of these versatile walkers clank to war in long columns that stalk forwards in uncanny unison, clambering over shattered ruins and wading through toxic run-off without breaking stride. The enemies of the Cult Mechanicus have good reason to fear the Dunecrawler, for these ornate monsters are protected by overlapping emanatus force fields, and bear some of the most esoteric and destructive tank-portable weaponry the Tech-Priests can devise."/>
+
+	<entry name="AdeptusMechanicus/FulguriteElectroPriest" value="Fulgurite Electro-Priests"/>
+	<entry name="AdeptusMechanicus/FulguriteElectroPriestDescription" value="Canticles of the Omnissiah melee infantry unit with good armour penetration, that increases its damage reduction by killing units."/>
+	<entry name="AdeptusMechanicus/FulguriteElectroPriestFlavor" value="Fulgurite Electro-Priests crackle with the life energies of those they have personally slain. Their quest is to locate the Motive Force that animates all things, rip it from the bodies of the unworthy in the heat of battle, and hoard it on behalf of the Machine God. To do so they use electroleech staves – eldritch weapons that suck the bioelectricity from living creatures, drawing it out in one great draught and harnessing it within their core capacitors. Once stolen, that sacred energy can be used to power the holy instead of the heretical, crackling around them in such measure it can even burn away incoming projectiles."/>
+
+	<entry name="AdeptusMechanicus/ArmigerHelverin" value="Armiger Helverin"/>
+	<entry name="AdeptusMechanicus/ArmigerHelverinDescription" value="Canticles of the Omnissiah heavy walker that can take a lot of damage for its weight class."/>
+	<entry name="AdeptusMechanicus/ArmigerHelverinFlavor" value="These smaller Imperial Knights act as highly mobile gun platforms, equipped with paired long-range autocannons. Their pilots are lower-ranking nobles that act as Bondsmen to Knights Preceptor and are often seen working in groups of three to focus their firepower."/>
+
+	<entry name="AdeptusMechanicus/KnightCrusader" value="Knight Crusader"/>
+	<entry name="AdeptusMechanicus/KnightCrusaderDescription" value="Canticles of the Omnissiah Super-heavy walker unit with an endless array of deadly ranged weapons."/>
+	<entry name="AdeptusMechanicus/KnightCrusaderFlavor" value="Finding the optimal firing position, the Knight Crusader locks down its motive actuators in preparation to unleash a punishing salvo. From its avenger gatling cannon it levels a fusillade of heavy shells, sketching deadly patterns across the enemy army’s frontage. Those that are equipped with Icarus autocannons on their shoulders are given an additional duty: to protect their comrades from airborne attack. Swivelling in response to their predictive auto-auguries, the Icarus cannons spit streams of flak fire into the skies to detonate enemy aircraft in distant fireballs. With each section of the battlefield it clears of foes, the Crusader’s steady advance brings new targets under its sights, and it continues to unleash destruction with every stride."/>
+	
+	<entry name="AdeptusMechanicus/Headquarters1" value="Forge Temple"/>
+	<entry name="AdeptusMechanicus/Headquarters1Description" value="Headquarters building that generates resources."/>
+	<entry name="AdeptusMechanicus/Headquarters1Flavor" value="The Forge Temple is the centre of the Adeptus Mechanicus’ presence on a world. Is it a citadel of information, a repository of the remnants of humanity’s long-cherished knowledge… or the headquarters of a fanatical cult dedicated to hoarding information that could save humanity? To even think the latter would, of course, be heresy…"/>
+
+
+
+
+	<entry name="SpaceMarines/Razorback" value="Razorback"/>
+	<entry name="SpaceMarines/RazorbackDescription" value="Tank unit that transports infantry. If adjacent to another Razorback, both ignore a part of enemy cover. <br/><br/>This unit benefits from Tactical Doctrine and Assault Doctrine bonuses."/>
+
+	<entry name="SpaceMarines/Whirlwind" value="Whirlwind"/>
+	<entry name="SpaceMarines/WhirlwindDescription" value="Artillery tank with a variety of missiles to pound enemy positions from afar. If adjacent to another Whirlwind, both gain extra Range and Damage. <br/><br/>This unit benefits from Devastator Doctrine bonuses."/>
+
+	<entry name="SpaceMarines/Hunter" value="Hunter"/>
+	<entry name="SpaceMarines/HunterDescription" value="Tank unit specialized in taking down enemy vehicles. While stationary, this unit gains +1 Range. If adjacent to another Hunter, both gain increased Accuracy. <br/><br/>This unit benefits from Tactical Doctrine bonuses."/>
+
+	<entry name="SpaceMarines/Predator" value="Predator"/>
+	<entry name="SpaceMarines/PredatorDescription" value="Main battle tank unit. If adjacent to another Predator, both gain extra Damage against Monsters, Vehicles and Fortifications. <br/><br/>This unit benefits from Tactical Doctrine bonuses."/>
+
+	<entry name="SpaceMarines/Vindicator" value="Vindicator"/>
+	<entry name="SpaceMarines/VindicatorDescription" value="Heavy tank unit with a devastating close-range cannon. If adjacent to another Vindicator, both ignore enemy cover. <br/><br/>This unit benefits from Devastator Doctrine bonuses."/>
+
+	<entry name="SpaceMarines/Apothecary" value="Apothecaries"/>
+	<entry name="SpaceMarines/ApothecaryDescription" value="Infantry unit that heals allied infantry. Can be build in the Reclusiam or Apothecarion. <br/><br/>This unit benefits from Assault Doctrine bonuses."/>
+
+	<entry name="SpaceMarines/ThunderfireCannon" value="Thunderfire Cannon"/>
+	<entry name="SpaceMarines/ThunderfireCannonDescription" value="Infantry unit that provides long-range barrage support and can clear tiles and repair vehicles. Can be build in the Reclusiam or Apothecarion. <br/><br/>This unit benefits from Devastator Doctrine bonuses."/>
+
+	<entry name="SpaceMarines/AssaultSpaceMarine" value="Assault Space Marines"/>
+	<entry name="SpaceMarines/AssaultSpaceMarineDescription" value="Melee infantry unit equipped with jump packs to overcome terrain obstacles. <br/><br/>This unit benefits from Assault Doctrine bonuses."/>
+
+	<entry name="SpaceMarines/AssaultTerminator" value="Assault Terminators"/>
+	<entry name="SpaceMarines/AssaultTerminatorDescription" value="Heavy melee infantry unit equipped with a powerful weapon and shield. <br/><br/>This unit benefits from Assault Doctrine bonuses."/>
+
+	<entry name="SpaceMarines/DevastatorCenturion" value="Devastator Centurions"/>
+	<entry name="SpaceMarines/DevastatorCenturionDescription" value="Very bulky infantry unit with massive armaments. <br/><br/>This unit benefits from Devastator Doctrine bonuses."/>
+
+	<entry name="SpaceMarines/DevastatorSpaceMarine" value="Devastator Space Marines"/>
+	<entry name="SpaceMarines/DevastatorSpaceMarineDescription" value="Infantry unit equipped to bring down heavy war machines. <br/><br/>This unit benefits from Devastator Doctrine bonuses."/>
+
+	<entry name="SpaceMarines/Dreadnought" value="Dreadnought"/>
+	<entry name="SpaceMarines/DreadnoughtDescription" value="Heavy walker unit that crushes opponents in close combat. <br/><br/>This unit benefits from Assault and Devastator Doctrine bonuses."/>
+
+	<entry name="SpaceMarines/LandRaider" value="Land Raider"/>
+	<entry name="SpaceMarines/LandRaiderDescription" value="Massively armoured and heavily armed transport unit. <br/><br/>This unit benefits from Tactical Doctrine, Assault and Devastator Doctrine bonuses."/>
+
+	<entry name="SpaceMarines/LandSpeeder" value="Land Speeders"/>
+	<entry name="SpaceMarines/LandSpeederDescription" value="Mobile hover vehicle unit that can even traverse water. <br/><br/>This unit benefits from Tactical Doctrine and Assault Doctrine bonuses."/>
+
+	<entry name="SpaceMarines/PrimarisAggressor" value="Primaris Aggressors"/>
+	<entry name="SpaceMarines/PrimarisAggressorDescription" value="Close-quarters anti-infantry unit equipped with flamestorm gauntlets. <br/><br/>This unit benefits from Assault Doctrine and Devastator Doctrine bonuses."/>
+
+	<entry name="SpaceMarines/PrimarisHellblaster" value="Primaris Hellblasters"/>
+	<entry name="SpaceMarines/PrimarisHellblasterDescription" value="Heavy armour-piercing ranged infantry. <br/><br/>This unit benefits from Tactical Doctrine bonuses."/>
+
+	<entry name="SpaceMarines/PrimarisInceptor" value="Primaris Inceptors"/>
+	<entry name="SpaceMarines/PrimarisInceptorDescription" value="Powerful short-range unit equipped with jump packs. <br/><br/>This unit benefits from Assault Doctrine bonuses."/>
+
+	<entry name="SpaceMarines/PrimarisIntercessor" value="Primaris Intercessors"/>
+	<entry name="SpaceMarines/PrimarisIntercessorDescription" value="Tough versatile infantry unit. <br/><br/>This unit benefits from Tactical Doctrine bonuses."/>
+
+	<entry name="SpaceMarines/PrimarisInvaderATV" value="Primaris Invader ATVs"/>
+	<entry name="SpaceMarines/PrimarisInvaderATVDescription" value="Fast vehicle equipped with a gatling cannon. <br/><br/>This unit benefits from Assault Doctrine bonuses."/>
+
+	<entry name="SpaceMarines/PrimarisRepulsorExecutioner" value="Primaris Repulsor Executioner"/>
+	<entry name="SpaceMarines/PrimarisRepulsorExecutionerDescription" value="Heavy tank with transport capabilities and a significant payload of ranged weapons. <br/><br/>This unit benefits from Tactical Doctrine bonuses."/>
+
+	<entry name="SpaceMarines/RedemptorDreadnought" value="Primaris Redemptor Dreadnought"/>
+	<entry name="SpaceMarines/RedemptorDreadnoughtDescription" value="Powerful walker unit with a vast array of weapons. <br/><br/>This unit benefits from Assault Doctrine bonuses."/>
+
+	<entry name="SpaceMarines/Scout" value="Scouts"/>
+	<entry name="SpaceMarines/ScoutDescription" value="Infantry unit specializing in reconnaissance and infiltration. <br/><br/>This unit benefits from Tactical Doctrine bonuses."/>
+
+	<entry name="SpaceMarines/ScoutBiker" value="Scout Bikers"/>
+	<entry name="SpaceMarines/ScoutBikerDescription" value="Fast reconnaissance unit. <br/><br/>This unit benefits from Assault Doctrine bonuses."/>
+
+	<entry name="SpaceMarines/StormravenGunship" value="Stormraven Gunship"/>
+	<entry name="SpaceMarines/StormravenGunshipDescription" value="Heavily armed and armoured airborne transport unit. <br/><br/>This unit benefits from Assault Doctrine, Devastator Doctrine and Tactical Doctrine bonuses."/>
+
+	<entry name="SpaceMarines/StormSpeederThunderstrike" value="Storm Speeder Thunderstrike"/>
+	<entry name="SpaceMarines/StormSpeederThunderstrikeDescription" value="Fast assault vehicle with a powerful anti-armour armament. <br/><br/>This unit benefits from Assault Doctrine and Devastator Doctrine bonuses."/>
+
+	<entry name="SpaceMarines/StormtalonGunship" value="Stormtalon Gunship"/>
+	<entry name="SpaceMarines/StormtalonGunshipDescription" value="Airborne interceptor and ground-attack unit. <br/><br/>This unit benefits from Assault Doctrine, Devastator Doctrine and Tactical Doctrine bonuses."/>
+
+	<entry name="SpaceMarines/TacticalSpaceMarine" value="Tactical Space Marines"/>
+	<entry name="SpaceMarines/TacticalSpaceMarineDescription" value="Versatile infantry unit. <br/><br/>This unit benefits from Tactical Doctrine bonuses."/>
+
+	<entry name="SpaceMarines/Terminator" value="Terminators"/>
+	<entry name="SpaceMarines/TerminatorDescription" value="Heavily armoured infantry unit that can take on virtually every ground opponent. <br/><br/>This unit benefits from Tactical Doctrine bonuses."/>
+
+	<entry name="SpaceMarines/TacticalSpaceMarine1" value="Tactical Space Marines"/>
+	<entry name="SpaceMarines/TacticalSpaceMarine1Description" value="Versatile infantry unit. <br/><br/>This unit benefits from Tactical Doctrine bonuses."/>
+	<entry name="SpaceMarines/TacticalSpaceMarine1Flavor" value="Where an objective must be seized, Tactical Squads attack in a storm of gunfire and combat blades. Where the line must be held, these courageous warriors plant their feet, raise their weapons, and fight to the last. Armed with boltguns and grenades, Tactical Squads are superbly versatile strategic assets."/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<entry name="Neutral/DevilSpawn" value="Devil Spawn"/>
+	<entry name="Neutral/DevilSpawnDescription" value="Poisonous Juvenile Devils"/>
+	<entry name="Neutral/DevilSpawnFlavor" value="Catachan Devils are territorial, yet quite sociable creatures, tending to form nesting groups with others of their kind. These groups often contain several large male Devils, as well as a few dozen juvenile 'Devilspawn.' The entire nest will come together to defend their territory from any intruders, be it rival Devils, human colonists, or other predators, and have even been known to attack Imperial Guard tank companies."/>
+	<entry name="Neutral/GiantAudrey" value="Venus Mantrap"/>
+	<entry name="Neutral/GiantAudreyDescription" value="Frighening monstrosities that devour their victims."/>
+	<entry name="Neutral/GiantAudreyFlavor" value="Each leaf of the Mantrap forms a powerful trap. Sensitive trigger hairs detect nearby prey, causing the plant's trapping mechanism to immediately activate. The leaves then quickly move to reach and trap its prey."/>
+	<entry name="Neutral/Mutant" value="Mutants"/>
+	<entry name="Neutral/MutantDescription" value="Deformed and Corrupted unit that excels in close combat."/>
+	<entry name="Neutral/MutantFlavor" value="Human mutants are often terribly misshapen creatures, abominably deviating from the normal human form. On the other hand, not all mutants are degenerate beasts; many only bear a few extraordinary traits setting them apart from the rest of Mankind. While many mutants are born mutated as a result of their ancestors' exposure to mutagens like radiation or extreme planetary environments over many generations, exposure to the psychic energies of Chaos can also lead to rampant mutation."/>
+	<entry name="Neutral/Promethean" value="Promethean"/>
+	<entry name="Neutral/PrometheanDescription" value="Frighening large, crab-like creature."/>
+	<entry name="Neutral/PrometheanFlavor" value="The Promethean is an immense crab-like creature. Its eyes wave around on stalks, searching for prey to grab with its claws and shove into its gaping maw. Its carapace, overgrown with seaweed, is strong as steel. Although there was once a Cult dedicated to worshipping the Promethean, it is not a Chaotic creature, merely a destructive one."/>
+	<entry name="Neutral/PrometheanYoung" value="Promethean Luvenis"/>
+	<entry name="Neutral/PrometheanYoungDescription" value="Pack swarming crab-like younglings."/>
+	<entry name="Neutral/PrometheanYoungFlavor" value="As destructive as its progenitor, but due to their size stay in cohesive pack formations. Their eyes wave around on stalks, searching for prey to swarm; be wary of these little monstrosities as they birth suddenly, already battle ready to come swiftly the aid of their progenitor."/>
+	<entry name="Neutral/ExaltDryad" value="Exalt Dryad"/>
+	<entry name="Neutral/ExaltDryadDescription" value="Exalt Dryad: Treemen healers"/>
+	<entry name="Neutral/ExaltDryadFlavor" value="Treemen are massive humanoid creatures that resemble upright walking trees. They are considered legend and the few that believe in their existence thought them long dead."/>
+	<entry name="Neutral/OctopodaFacientem" value="Octopoda Facientem"/>
+	<entry name="Neutral/OctopodaFacientemDescription" value="Abomination Hybrid Plague Bringers"/>
+	<entry name="Neutral/OctopodaFacientemFlavor" value="Information is sparce on these unbefore seen creatures touched by Chaos. It is believed these abomination malformed Ocotopi humanoid hybrids are beasts touched with the Rot of Nurgle."/>
+	<entry name="Neutral/Pariah" value="Rogue Psyker"/>
+	<entry name="Neutral/PariahDescription" value="Murderous Psykic Assassins"/>
+	<entry name="Neutral/PariahFlavor" value="A psychic Blank, also known as an Untouchable, a psychic Null, and a Pariah, is a human who possesses the rare mutation sometimes described as the 'Pariah Gene' that makes them generate no psychic presence in the Warp, thus leaving them essentially soulless. Known also as 'Blacksouls' and 'the Soulless,' a Blank is a living anathema for all psykers, regardless of their species."/>
+	<entry name="Neutral/PsychneueinRegina" value="Psychneuein Regina"/>
+	<entry name="Neutral/PsychneueinReginaDescription" value="Regina of the Airborne elusive warp Psychneuein infestor units."/>
+	<entry name="Neutral/PsychneueinReginaFlavor" value="Regina of the rare Warp-sensitive creatures apparently native to Prospero, they seem capable of travel through the Old One's Webways, meaning they're widely distributed around the galaxy. Parallel evolution has resulted in a wasp-like appearance, but a mature adult's significant strength, speed, toughness and rumoured ability to turn insubstantial at will makes them a threat to any sentient being."/>
+	<entry name="Neutral/DominaKrootHound" value="Kroot Hound Domina"/>
+	<entry name="Neutral/DominaKrootHoundDescription" value="Agile predator unit that is particularly dangerous in forests."/>
+	<entry name="Neutral/DominaKrootHoundFlavor" value="The pseudo-avian Kroot is uniquely flexible, able to absorb the genetic data of other races by consuming them, but sometimes isolated Kroot communities run into evolutionary dead ends. The Kroot Hound is one such dead end, a devolution of the Kroot into a wolf-like species. On Gladius Prime, they have run feral for generations."/>
+	<entry name="Neutral/LuvenalibusAmbulls" value="Luvenalibus Ambulls"/>
+	<entry name="Neutral/LuvenalibusAmbullsDescription" value="Younglings of the Powerful native brawler unit that regenerates hitpoints each turn."/>
+	<entry name="Neutral/LuvenalibusAmbullsFlavor" value="The Ambull is an ape-like Xenos species native to the desert Death World of Luther McIntyre IX, which has spread throughout the Imperium of man (presumably as a result of failed attempts at domestication). They are a subterranean race, able to move through ice, sand or rock at speed, and prone to excavating long tunnels as homes."/>
+	<entry name="Neutral/Horror" value="Pink Horrors"/>
+	<entry name="Neutral/HorrorDescription" value="Lesser Daemons of Tzeentch"/>
+	<entry name="Neutral/HorrorFlavor" value="Lesser Daemons of Tzeentch are literally magic made manifest. Pink Horrors, as they are known, frolic together in cheerful, brightly coloured mobs that caper and whirl, cackling insanely at their own incomprehensible jokes as they blur and cartwheel across the battlefield."/>
+	<entry name="Neutral/MagnaDeamonusPyros" value="Magna Deamonus Pyros"/>
+	<entry name="Neutral/MagnaDeamonusPyrosDescription" value="Greater Deamon Lord of Fire"/>
+	<entry name="Neutral/MagnaDeamonusPyrosFlavor" value="Greater Deamon Lord of Fire."/>
+	<entry name="Neutral/ColostratusCanis" value="Colostratus Canis"/>
+	<entry name="Neutral/ColostratusCanisDescription" value="Warp Tainted Hounds"/>
+	<entry name="Neutral/ColostratusCanisFlavor" value="These are nightmarish beasts twisted and deformed by the powers of the Warp. The beasts are agile and strong, capable of catching a man and ripping him to shreds within seconds."/>
+	<entry name="Neutral/CyclopsGastropoda" value="Cyclops Gastropoda"/>
+	<entry name="Neutral/CyclopsGastropodaDescription" value="Cyclops Warp Tainted Slug Creatures"/>
+	<entry name="Neutral/CyclopsGastropodaFlavor" value="These warp slug beasts have a striking resemblence to mythical creature legends of old terra. Terrifying creatures capable of stopping a mans heart by just its gaze."/>
+	<entry name="Neutral/Dragon" value="Dragon"/>
+	<entry name="Neutral/DragonDescription" value="Dragon"/>
+	<entry name="Neutral/DragonFlavor" value="Dragon."/>
+	<!-- End Modifications -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</language>

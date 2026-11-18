@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff" icon="Traits/AdeptusMechanicus/HighVoltage" rankMax="2">
+	<modifiers>
+		<modifier>
+			<effects>
+				<rangedArmorPenetration add="4"/>
+				
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

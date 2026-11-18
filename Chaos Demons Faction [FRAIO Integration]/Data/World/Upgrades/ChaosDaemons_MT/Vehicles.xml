@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade position="1" icon="Buildings/ChaosDaemons_MT/Vehicles">
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseLoyaltyScore base="2"/>
+				<increaseVehiclesProductionScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+</upgrade>

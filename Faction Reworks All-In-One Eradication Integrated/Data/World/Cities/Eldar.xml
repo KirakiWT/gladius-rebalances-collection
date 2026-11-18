@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<city actionsTitle="GUI/EldarCityPowers">
+	<actions>
+		<asuryaniArrivals cooldown="10"
+				durationInSeconds="0.1"
+				interfaceSound="Interface/AsuryaniArrivals"
+				
+				name="Eldar/AsuryaniArrivals">
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="60"/>
+					</effects>
+				</modifier>
+				<modifier requiredUpgrade="Eldar/AsuryaniArrivalsBonus">
+					<effects>
+						<influenceCost mul="-0.4"/>
+					</effects>
+				</modifier>
+				<modifier requiredUpgrade="Eldar/AsuryaniArrivalsBonus2">
+					<effects>
+						<cooldown mul="-0.4"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<actorModifiers>
+				<modifier>
+					<effects>
+						<addTrait duration="10" name="Eldar/AsuryaniArrivals"/>
+					</effects>
+				</modifier>
+			</actorModifiers>
+			<sharedCooldowns>
+				<action name="Eldar/AsuryaniForgehosts"/>
+				<action name="Eldar/AsuryaniTranquility"/>
+				<action name="Eldar/AsuryaniFreewinds"/>
+				<action name="Eldar/AsuryaniAscendant"/>
+				<action name="Eldar/AsuryaniWarborn"/>
+			</sharedCooldowns>
+
+
+		</asuryaniArrivals>
+
+<asuryaniArrivals  cooldown="10"
+				durationInSeconds="0.1"
+				interfaceSound="Interface/AsuryaniArrivals"
+			
+				name="Eldar/AsuryaniForgehosts">
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="60"/>
+					</effects>
+				</modifier>
+				<modifier requiredUpgrade="Eldar/AsuryaniArrivalsBonus">
+					<effects>
+						<influenceCost mul="-0.4"/>
+					</effects>
+				</modifier>
+				<modifier requiredUpgrade="Eldar/AsuryaniArrivalsBonus2">
+					<effects>
+						<cooldown mul="-0.4"/>
+					</effects>
+				</modifier>
+</modifiers>
+	<actorModifiers>
+				<modifier>
+					<effects>
+						<addTrait duration="10" name="Eldar/AsuryaniForgehosts"/>
+					</effects>
+				</modifier>
+</actorModifiers>
+
+	<sharedCooldowns>
+				<action name="Eldar/AsuryaniArrivals"/>
+				<action name="Eldar/AsuryaniTranquility"/>
+				<action name="Eldar/AsuryaniFreewinds"/>
+				<action name="Eldar/AsuryaniAscendant"/>
+				<action name="Eldar/AsuryaniWarborn"/>
+			</sharedCooldowns>
+
+</asuryaniArrivals>
+
+
+
+
+<tactic cooldown="10"
+				durationInSeconds="0.1"
+				interfaceSound="Interface/AsuryaniArrivals"
+				
+				name="Eldar/AsuryaniFreewinds">
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="60"/>
+					</effects>
+				</modifier>
+				<modifier requiredUpgrade="Eldar/AsuryaniArrivalsBonus">
+					<effects>
+						<influenceCost mul="-0.5"/>
+					</effects>
+				</modifier>
+				<modifier requiredUpgrade="Eldar/AsuryaniArrivalsBonus2">
+					<effects>
+						<cooldown mul="-0.4"/>
+					</effects>
+				</modifier>
+					</modifiers>
+				<actorModifiers>
+		
+				<modifier>
+					<effects>
+						<addTrait duration="10" name="Eldar/AsuryaniFreewinds"/>
+					</effects>
+				</modifier>
+	</actorModifiers>
+
+					<sharedCooldowns>
+				<action name="Eldar/AsuryaniArrivals"/>
+				<action name="Eldar/AsuryaniForgehosts"/>
+				<action name="Eldar/AsuryaniTranquility"/>
+				<action name="Eldar/AsuryaniAscendant"/>
+				<action name="Eldar/AsuryaniWarborn"/>
+			</sharedCooldowns>
+	</tactic>
+
+
+<tactic cooldown="10"
+				durationInSeconds="0.1"
+				interfaceSound="Interface/AsuryaniArrivals"
+				
+				name="Eldar/AsuryaniAscendant">
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="0"/>
+					</effects>
+				</modifier>
+				<modifier requiredUpgrade="Eldar/AsuryaniArrivalsBonus">
+					<effects>
+						<influenceCost mul="-0.5"/>
+					</effects>
+				</modifier>
+				<modifier requiredUpgrade="Eldar/AsuryaniArrivalsBonus2">
+					<effects>
+						<cooldown mul="-0.4"/>
+					</effects>
+				</modifier>
+							</modifiers>
+				<actorModifiers>
+			
+				<modifier>
+					<effects>
+						<addTrait duration="10" name="Eldar/AsuryaniAscendant"/>
+					</effects>
+				</modifier>
+</actorModifiers>
+				<sharedCooldowns>
+				<action name="Eldar/AsuryaniArrivals"/>
+				<action name="Eldar/AsuryaniForgehosts"/>
+				<action name="Eldar/AsuryaniTranquility"/>
+				<action name="Eldar/AsuryaniFreewinds"/>
+				<action name="Eldar/AsuryaniWarborn"/>
+			</sharedCooldowns>
+
+	</tactic>
+
+
+
+
+
+	<tactic cooldown="10"
+				durationInSeconds="0.1"
+				interfaceSound="Interface/AsuryaniArrivals"
+				requiredUpgrade="Eldar/AsuryaniTranquility"
+				name="Eldar/AsuryaniTranquility">
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="80"/>
+					</effects>
+				</modifier>
+				<modifier requiredUpgrade="Eldar/AsuryaniArrivalsBonus">
+					<effects>
+						<influenceCost mul="-0.4"/>
+					</effects>
+				</modifier>
+				<modifier requiredUpgrade="Eldar/AsuryaniArrivalsBonus2">
+					<effects>
+						<cooldown mul="-0.4"/>
+					</effects>
+				</modifier>
+			</modifiers>
+				<actorModifiers>
+				<modifier>
+					<effects>
+						<addTrait duration="10" name="Eldar/AsuryaniTranquility"/>
+					</effects>
+				</modifier>
+		</actorModifiers>
+				<sharedCooldowns>
+				<action name="Eldar/AsuryaniArrivals"/>
+				<action name="Eldar/AsuryaniForgehosts"/>
+				<action name="Eldar/AsuryaniFreewinds"/>
+				<action name="Eldar/AsuryaniAscendant"/>
+				<action name="Eldar/AsuryaniWarborn"/>
+			</sharedCooldowns>
+	</tactic>
+
+
+	<tactic cooldown="10"
+				durationInSeconds="0.1"
+				interfaceSound="Interface/AsuryaniArrivals"
+				requiredUpgrade="Eldar/AsuryaniWarborn"
+				name="Eldar/AsuryaniWarborn">
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="100"/>
+					</effects>
+				</modifier>
+				<modifier requiredUpgrade="Eldar/AsuryaniArrivalsBonus">
+					<effects>
+						<influenceCost mul="-0.4"/>
+					</effects>
+				</modifier>
+				<modifier requiredUpgrade="Eldar/AsuryaniArrivalsBonus2">
+					<effects>
+						<cooldown mul="-0.4"/>
+					</effects>
+				</modifier>
+			</modifiers>
+				<actorModifiers>
+				<modifier>
+					<effects>
+						<addTrait duration="10" name="Eldar/AsuryaniWarborn"/>
+					</effects>
+				</modifier>
+		</actorModifiers>
+				<sharedCooldowns>
+				<action name="Eldar/AsuryaniArrivals"/>
+				<action name="Eldar/AsuryaniForgehosts"/>
+				<action name="Eldar/AsuryaniFreewinds"/>
+				<action name="Eldar/AsuryaniAscendant"/>
+				<action name="Eldar/AsuryaniTranquility"/>
+			</sharedCooldowns>
+	</tactic>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</actions>
+	<traits>
+		<trait name="Eldar/RemnantsOfTheFall"/>
+	</traits>
+</city>

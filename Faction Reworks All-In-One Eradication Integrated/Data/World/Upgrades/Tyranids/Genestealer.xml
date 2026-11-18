@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade position="3" icon="Units/Tyranids/Genestealer" dlc="Supplement17">
+	<requiredUpgrades>
+		<upgrade name="Tyranids/Heroes"/>
+	</requiredUpgrades>
+</upgrade>

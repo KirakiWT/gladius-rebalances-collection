@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait visibilityCategory="Building" icon="Actions/AstraMilitarumFoodEdict">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<building match="Any">
+					<type name="AstraMilitarum/Food"/>
+					<type name="AstraMilitarum/Infantry"/>
+				</building>
+			</conditions>
+			<effects>
+				<food mul="0.33"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

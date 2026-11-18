@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" visibilityCategory="Building" icon="Traits/AstraMilitarum/AstraRes">
+	<modifiers>
+
+		<modifier>
+			<conditions>
+				<building match="Any">
+
+					<type name="AstraMilitarum/AdvancedInfantry"/>
+					<type name="AstraMilitarum/AdvancedVehicles"/>
+					<type name="AstraMilitarum/AdvancedVehicles2"/>
+
+					<type name="AstraMilitarum/Infantry"/>
+					<type name="AstraMilitarum/Vehicles"/>
+
+					<type name="AstraMilitarum/Ore"/>
+					<type name="AstraMilitarum/Food"/>
+					<type name="AstraMilitarum/Energy"/>
+					<type name="AstraMilitarum/Influence"/>
+					<type name="AstraMilitarum/Research"/>
+					<type name="AstraMilitarum/Construction"/>
+					<type name="AstraMilitarum/Headquarters"/>
+
+				</building>
+			</conditions>
+			<effects>
+				<energy mul="0.25"/>
+				<ore mul="0.25"/>
+				<food mul="0.25"/>
+				<influence mul="0.25"/>
+
+			</effects>
+		</modifier>
+		
+	</modifiers>
+</trait>

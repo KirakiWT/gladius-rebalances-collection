@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade position="6" icon="Units/AstraMilitarum/ImperialStrongpoint">
+	<requiredUpgrades>
+		<upgrade name="SistersOfBattle/TechpriestEnginseerSisterOfBattle"/>
+	</requiredUpgrades>
+</upgrade>

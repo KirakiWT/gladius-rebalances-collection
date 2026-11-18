@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit dlc="Supplement9">
+	<model>
+		<unit mesh="Units/AdeptusMechanicus/PteraxiiSterylizor"
+				material="Units/AdeptusMechanicus/PteraxiiSterylizor"
+				idleAnimation="Units/AdeptusMechanicus/PteraxiiSterylizorIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="1 1 1"
+				bloodBone="Chest"
+				walker="1"/>
+	</model>
+	<group size="4" rowSize="2" memberDeltaX="110" memberDeltaY="110"/>
+	<weapons>
+		
+		
+		<weapon name="PhosphorTorch">
+			<model>
+				<flamerWeapon muzzleBone="Muzzle"/>
+			</model>
+
+		</weapon>
+				<weapon name="OrbsOfTheOmnissiah" slotName="OrbsOfTheOmnissiah" enabled="0">
+							<model>
+										<flamerWeapon muzzleBone="Muzzle"/>
+																
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="6"/> <!-- %armor base armor=4+ -->
+				<foodUpkeep base="2.5"/> <!-- %foodUpkeep base tier=7 factor=1 -->
+				<foodCost base="20.0"/> <!-- %foodCost base tier=7 factor=0.5 -->
+				<hitpointsMax base="3.5"/> <!-- %hitpointsMax base toughness=3 wounds=2 -->
+				<meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
+				<meleeAttacks base="1.5"/>
+				<oreCost base="20.0"/> <!-- %oreCost base tier=7 factor=0.5 -->
+				<strengthDamage base="1.5"/> <!-- %strengthDamage base strength=4 -->
+				<moraleMax base="6"/> <!-- %moraleMax base leadership=6 -->
+				<movementMax base="4"/>
+				<productionCost base="36.0"/> <!-- %productionCost base tier=7 factor=1 -->
+				<rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseInfantryScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action animation="Units/AdeptusMechanicus/PteraxiiSterylizorAttack"
+						beginFire="1.0"
+						endFire="2.3"
+						chargeAnimation="Units/AdeptusMechanicus/PteraxiiSterylizorCharge"
+						chargeBeginFire="0.3"
+						chargeEndFire="1.3"
+						meleeAnimation="Units/AdeptusMechanicus/PteraxiiSterylizorMelee"
+						meleeBeginSwing="0.4"
+						meleeEndSwing="0.6"/>
+			</model>
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/AdeptusMechanicus/PteraxiiSterylizorDie"
+						animationCount="2"
+						sound="Units/MediumArmoredDie"
+						soundCount="4"
+						soundDelay="0.4"
+						voiceSound="Units/AdeptusMechanicus/InfantryVoiceDie"
+						voiceSoundCount="5"/>
+			</model>		
+		</die>
+		<idle>
+			<model>
+				<action/>
+			</model>
+		</idle>
+		<move>
+			<model>
+				<action animation="Units/AdeptusMechanicus/PteraxiiSterylizorMove"
+						sound="Units/AdeptusMechanicus/PteraxiiSterylizorMove"/>
+			</model>
+		</move>
+	<throwGrenade weaponSlotName="OrbsOfTheOmnissiah" cooldown="10"
+		requiredUpgrade="AdeptusMechanicus/OrbsOfTheOmnissiah">
+			<model>
+				<action animation="Units/AdeptusMechanicus/PteraxiiSterylizorAttack"
+						beginFire="1" endFire="1.1"/>
+			</model>				
+		</throwGrenade>
+		
+		<jumpPack cooldown="3">
+			<model>
+				<action animation="Units/AdeptusMechanicus/PteraxiiSterylizorMove"
+						sound="Actions/PteraxiiSterylizorJumpPack"/>
+			</model>
+			<modifiers>
+				<modifier>
+					<effects>
+						<movement add="0"/>
+						<movementMax add="0"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<beginTargets>
+				<target>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier requiredUpgrade="AdeptusMechanicus/HammerOfWrath">
+									<effects>
+										<addTrait duration="1" name="HammerOfWrath"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</jumpPack>
+	</actions>
+	<traits>
+
+		<trait name="AdeptusMechanicus/InfantryDefensivUpgrade" requiredUpgrade="AdeptusMechanicus/InfantryDefensivUpgrade"/>
+		<trait name="AdeptusMechanicus/InfantryOffensivUpgrade" requiredUpgrade="AdeptusMechanicus/InfantryOffensivUpgrade"/>
+
+		<trait name="AdeptusMechanicus/InfantryDefensivUpgrade2" requiredUpgrade="AdeptusMechanicus/AdvancedDefensivUpgrade"/>
+		<trait name="AdeptusMechanicus/InfantryOffensivUpgrade2" requiredUpgrade="AdeptusMechanicus/AdvancedOffensivUpgrade"/>
+
+
+		<trait name="AdeptusMechanicus/DoctrinaImperatives"/>
+		<trait name="Bulky"/>
+		<trait name="AdeptusMechanicus/OrbsOfTheOmnissiah" requiredUpgrade="AdeptusMechanicus/OrbsOfTheOmnissiah"/>
+		<trait name="AdeptusMechanicus/EnhancedDataTether" requiredUpgrade="AdeptusMechanicus/EnhancedDataTether"/>
+
+		<trait name="AdeptusMechanicus/Bionics"/>
+		<trait name="MoveThroughCover"/>
+	</traits>
+</unit>

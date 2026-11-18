@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon icon="Weapons/Ghostaxe">
+	<model>
+		<weapon fireSound="Weapons/CloseCombatWeapon"
+				fireSoundCount="3"/>
+	</model>
+	<modifiers>
+		<modifier>
+			<effects>
+				<attacks add="1"/>
+				<armorPenetration add="8"/> <!-- %meleeArmorPenetration add armorPiercing=4 -->
+				<strengthDamage mul="0"/> <!-- %strengthDamage mul strength=0 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<target rangeMax="2"/>
+	<traits>
+		<trait name="ChaosSpaceMarines/MeleeDamage" requiredUpgrade="ChaosDaemons_MT/MeleeDamage"/>
+	</traits>
+</weapon>

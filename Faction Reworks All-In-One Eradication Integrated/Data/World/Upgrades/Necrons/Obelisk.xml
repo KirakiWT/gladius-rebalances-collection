@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade position="8" icon="Units/Necrons/Obelisk">
+	<requiredUpgrades>
+		<upgrade name="Necrons/AdvancedVehicles"/>
+	</requiredUpgrades>
+</upgrade>

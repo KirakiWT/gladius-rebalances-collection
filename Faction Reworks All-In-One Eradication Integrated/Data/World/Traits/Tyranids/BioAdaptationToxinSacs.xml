@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff">
+	<modifiers>
+		<modifier>
+			<effects>
+
+				<meleeDamage mul="0.15"/>
+				<meleeAttacks mul="0.15"/>
+
+
+			</effects>
+		</modifier>
+			<modifier>
+			<effects>
+				<supportSystemSlots add="-1"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

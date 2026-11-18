@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff" icon="Actions/ChaosSpaceMarines/ShatterDefences" rankMax="2">
+	<modifiers>
+		<modifier>
+			<effects>
+				<damageTaken mulMin="0.20" mulMax="0.60"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

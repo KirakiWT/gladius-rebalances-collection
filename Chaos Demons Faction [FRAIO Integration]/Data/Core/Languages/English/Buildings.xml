@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	
+	<entry name="ChaosDaemons_MT/Aircraft" value="Helhaunted Eyrie"/>
+	<entry name="ChaosDaemons_MT/AircraftDescription" value="Building that produces heldrakes as well as generates loyalty and influence."/>
+	<entry name="ChaosDaemons_MT/AircraftFlavor" value="10,000 years ago the Heldrakes were fighter craft, piloted by the cream of the Adeptus Astartes. Now, they are hideous amalgams of man and machine, formed by millennia of war into dragon-like creatures that live to fight. This artificial eyrie allows the Warpsmiths and Master of Possession to monitor the Heldrakes and even attempt to replicate their age-old creation."/>
+	
+	<entry name="ChaosDaemons_MT/Construction" value="Warp Forge"/>
+	<entry name="ChaosDaemons_MT/ConstructionDescription" value="Building that constructs new buildings as well as generates ore and influence."/>
+	<entry name="ChaosDaemons_MT/ConstructionFlavor" value="Though the Warpsmiths’ Soul Forges are deep in the Realm of Chaos and hence inaccessible from Gladius, Chaos is nothing if not flexible. These Warp Forges are kept hot by the daily sacrifice of thousands of civilians, captured in the ruins of their fallen Hive World, to pull the warpbound buildings of Chaos into shimmering existence."/>
+	
+	<entry name="ChaosDaemons_MT/Cult" value="Cult of Chaos"/>
+	<entry name="ChaosDaemons_MT/CultDescription" value="Building that produces chaos undivided units and increases loyalty."/>
+	<entry name="ChaosDaemons_MT/CultFlavor" value="What are gods without followers? Here, Cultists and Dark Apostles alike plot to bring converts to the worship of Chaos—not a hard task on Gladius, once people see the inhuman Xenos, the undoubted effects of the Dark Gods’ powers, and the Daemonic shapes lingering in the chancel."/>
+	
+	<entry name="ChaosDaemons_MT/Energy" value="Warpbound Generator"/>
+	<entry name="ChaosDaemons_MT/EnergyDescription" value="Building that generates energy."/>
+	<entry name="ChaosDaemons_MT/EnergyFlavor" value="The fallen Techpriests of Chaos—now the Warpsmiths of the Dark Mechanicum—have had ten thousand years of calibrating their devices beyond the strictures of the Omnissiah. As powerful as a conventional Plasma Generator, this power source can be constructed quickly in situ. Its demon spirit draws energy from the flickering of a tear into the Empyrean to charge an infernal motion device."/>
+	
+	<entry name="ChaosDaemons_MT/Food" value="Renderer"/>
+	<entry name="ChaosDaemons_MT/FoodDescription" value="Building that harvests food."/>
+	<entry name="ChaosDaemons_MT/FoodFlavor" value="Your troops are mostly beyond mortal desires—but the beastmen, mutants and slaves who run your cities aren’t. To provide food for them, bodies of all sorts are brought to the rendering stations, to provide pleasure for the Slaaneshi degenerates who run them and food for the massed workers—the stronger ones, at least. The weaker ones are dinner."/>
+	
+	<entry name="ChaosDaemons_MT/Loyalty" value="Meadow of Sorrow"/>
+	<entry name="ChaosDaemons_MT/LoyaltyDescription" value="Building that increases loyalty."/>
+	<entry name="ChaosDaemons_MT/LoyaltyFlavor" value="It can’t have been a follower of Khorne who named this plain a ‘meadow’—allegory isn’t a concomitant of the Blood God’s troops. Whoever coined it, the metaphor is apt—the carefully-planted rows, tended conscientiously, the gaps refilled as they empty. But the Slaaneshi garden these fields, constantly devising unholy pleasures for their God’s honour at the expense of its victims."/>
+	
+	<entry name="ChaosDaemons_MT/Headquarters" value="Dark Fortress"/>
+	<entry name="ChaosDaemons_MT/HeadquartersDescription" value="Headquarters building that generates resources."/>
+	<entry name="ChaosDaemons_MT/HeadquartersFlavor" value="Even ten thousand years of heresy hasn’t entirely eliminated a Traitor’s training. Like their fellow Adeptus Astartes, Traitor Marines prefer to operate from a secure, well-constructed defensive position—preferably built by the Iron Warriors. This acts as a forward operations base for their raids and pillaging."/>
+	
+	<entry name="ChaosDaemons_MT/Heroes" value="Lord's Quarters"/>
+	<entry name="ChaosDaemons_MT/HeroesDescription" value="Building that produces chaos undivided heroes as well as generates influence and increases loyalty."/>
+	<entry name="ChaosDaemons_MT/HeroesFlavor" value="To call any Chaos Space Marine—murders, sadists, psychopaths and monsters to a man—a ‘hero’ is a contradiction-in-terms. But there are exceptional examples of them, the Sorcerers, Masters and Champions of Chaos who head up warbands and follow the diktats and commands of the Gods. Here, they congregate, under the watchful eyes of their Lord."/>
+	
+	<entry name="ChaosDaemons_MT/Housing" value="Captive Pens"/>
+	<entry name="ChaosDaemons_MT/HousingDescription" value="Building that increases population limit."/>
+	<entry name="ChaosDaemons_MT/HousingFlavor" value="Of all the gods, only Father Nurgle seems to care for his worshippers. And his worshippers care for the slaves who operate the city, confining them in the perfect quarters to breed disease and pestilence, whilst keeping enough of them physically and mentally robust to perform the many horrifying roles their fallen Astartes masters demand of them."/>
+	
+	<entry name="ChaosDaemons_MT/Influence" value="Altar to Chaos"/>
+	<entry name="ChaosDaemons_MT/InfluenceDescription" value="Building that generates influence."/>
+	<entry name="ChaosDaemons_MT/InfluenceFlavor" value="Chaos Undivided is a contradiction in terms. Looking at the Daemons of each God—the giggling Horrors, the droning Plaguebearers, the raging Bloodletters, the gasping Daemonettes— nothing could be more dissimilar. Yet this altar reveals the brutal commonality behind Chaos: A dark stone. Gore-soaked ground. The raised knife. And the bacchanalia."/>
+	
+	<entry name="ChaosDaemons_MT/Ore" value="Slave Mines"/>
+	<entry name="ChaosDaemons_MT/OreDescription" value="Building that harvests ore."/>
+	<entry name="ChaosDaemons_MT/OreFlavor" value="Even the Orks have better ways of getting metal out of the ground than this—but then, the Lords of Chaos’ concern with their servants is less about preventing suffering and more about ensuring it. These mines are crudely cruel, designed to elicit hope, before crushing it. They farm tortured souls for Chaos as much as they do ore."/>
+	
+	<entry name="ChaosDaemons_MT/Research" value="Archive of the Ways"/>
+	<entry name="ChaosDaemons_MT/ResearchDescription" value="Building that generates research."/>
+	<entry name="ChaosDaemons_MT/ResearchFlavor" value="On Daemon worlds, storytellers tells of a warp-lost library that contains all of the thoughts of Tzeentch. In its richness, they say, it rivals the Aeldari’s Black Library or the meaningless infinity of the Library of Babel. Whether Tzeentch’s memoirs exist, an Archive of the Ways is a real-world reflection of that false-world myth—a place where truths can be created, not discovered."/>
+	
+	<entry name="ChaosDaemons_MT/Vehicles" value="Infernal Fabricator"/>
+	<entry name="ChaosDaemons_MT/VehiclesDescription" value="Building that produces chaos undivided ground vehicles as well as generates ore and influence."/>
+	<entry name="ChaosDaemons_MT/VehiclesFlavor" value="Normally confined to the Soul Forges of the Warp, these incomprehensible mechanoid structures are responsible for the creation of all Daemon vehicles. Here, Mechatendril-wreathed Warpsmiths oversee the breaking and corruption of Machine Spirits of captured Imperial vehicles, as well as the forcible incorporation of Lesser Daemons, machinery and tortured flesh into Daemon Engines."/>
+	
+	<entry name="ChaosDaemons_MT/Khorne" value="The Arsenal"/>
+	<entry name="ChaosDaemons_MT/KhorneDescription" value="Building that produces khorne units as well as generates ore and some influence. Units here cost Ore and Food."/>
+	<entry name="ChaosDaemons_MT/KhorneFlavor" value="Here one is surrounded by weapon racks, and on the floor, deep grooves channel the spilt blood; these are the secret lodges where followers come to worship Khorne."/>
+	
+	<entry name="ChaosDaemons_MT/Nurgle" value="Plagued Thicket"/>
+	<entry name="ChaosDaemons_MT/NurgleDescription" value="Building that produces nurgle units as well as generates food, increases growth and loyalty. Units here cost Food and Energy."/>
+	<entry name="ChaosDaemons_MT/NurgleFlavor" value="A diseased thicket of swollen boughs, where the Plagueridden, champions of Nurgle’s lesser Daemons, gather."/>
+	
+	<entry name="ChaosDaemons_MT/Slaanesh" value="Soul Keep"/>
+	<entry name="ChaosDaemons_MT/SlaaneshDescription" value="Building that produces slaanesh units as well as generates influence and increases population limit. Units here are cheaper and cost Food and Energy."/>
+	<entry name="ChaosDaemons_MT/SlaaneshFlavor" value="An isolated tower, where its Daemonic owner keeps the harvested souls until the day they need to feast."/>
+	
+	<entry name="ChaosDaemons_MT/Tzeentch" value="Magus Chambers"/>
+	<entry name="ChaosDaemons_MT/TzeentchDescription" value="Building that produces tzeentch units as well as generates energy and research. Units here cost mostly Energy."/>
+	<entry name="ChaosDaemons_MT/TzeentchFlavor" value="From hidden quarters, the Cult Magus orchestrates covert propagandists to spread teachings of his Dark God both profound and extraordinary."/>
+	
+</language>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff">
+	<perTurnModifiers endure="0">
+		<modifier>
+			<effects>
+				<armor addMin="-2" addMax="-6"/>
+			</effects>
+		</modifier>
+	</perTurnModifiers>
+<onUnitDisappearedModifiers>
+		<modifier>
+			<effects>
+				<addUnit name="Drukhari/Wrack"/>
+			</effects>
+		</modifier>
+	</onUnitDisappearedModifiers>
+</trait>
+
+
+
+
+
+

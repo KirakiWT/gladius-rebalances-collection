@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/Neutral/CyclopsGastropodaDiffuse"/>
+		<texture name="Units/Neutral/CyclopsGastropodaNormal"/>
+		<texture name="Units/Neutral/CyclopsGastropodaSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

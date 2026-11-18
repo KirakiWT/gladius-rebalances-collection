@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon icon="Traits/Tyranids/FeederBeast" attributesModifiedByUnit="0">
+	<modifiers>
+		<modifier>
+			<effects>
+				<attacks add="1"/>
+				<rangedAccuracy min="12"/> <!-- Don't roll to hit. -->
+				<rangedArmorPenetration add="1"/> <!-- %rangedArmorPenetration add armorPiercing=2 -->
+				<rangedDamage add="2"/> <!-- %rangedDamage add strength=6 -->
+				<strengthDamage base="0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<traits>
+		<trait name="IgnoresCover"/>
+		<trait name="Template"/>
+		<trait name="Poisoned" rank="1"/>
+	</traits>
+</weapon>

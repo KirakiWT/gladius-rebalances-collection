@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Buff" icon="Traits/AstraMilitarum/DutyAndHonour!">
+	<modifiers>
+		<modifier>
+			<effects>
+				<moraleLossFactor add="-0.25"/>
+				<morale add="2"/>
+
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

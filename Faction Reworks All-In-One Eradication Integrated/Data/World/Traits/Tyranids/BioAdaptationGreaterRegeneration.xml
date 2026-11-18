@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff">
+	<perTurnModifiers endure="0">
+		<modifier>
+			<effects>
+				<hitpoints add="5"/>
+			</effects>
+		</modifier>
+	</perTurnModifiers>
+
+	<modifiers>
+
+
+		<modifier>
+			<effects>
+				<hitpointsMax mul="0.20"/>
+			</effects>
+		</modifier>
+
+
+
+
+
+		<modifier>
+			<effects>
+				<supportSystemSlots add="-2"/>
+			</effects>
+		</modifier>
+	</modifiers>
+
+
+</trait>

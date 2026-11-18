@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait visible="0">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<player match="Any">
+					<upgrade name="ChaosDaemons_MT/LocusOfFoetidRegeneration"/>
+					<upgrade name="ChaosDaemons_MT/MasterOfPossession"/>
+					<upgrade name="ChaosDaemons_MT/Seeker"/>
+					<upgrade name="ChaosDaemons_MT/Hydra"/>
+					<upgrade name="ChaosDaemons_MT/Havoc"/>
+					<upgrade name="ChaosDaemons_MT/Loyalty"/>
+					<upgrade name="ChaosDaemons_MT/Heralds"/>
+				</player>
+			</conditions>
+			<effects>
+				<energyUpkeep add="1"/>
+				<influenceUpkeep add="1.5"/>
+				<productionCost add="6"/>
+				<hitpointsMax add="6.0"/>
+				<meleeDamage add="2"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

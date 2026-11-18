@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait icon="Traits/Tyranids/FeederBeast" alwaysVisible="1" category="Buff">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<allied/>
+				</unit>
+			</conditions>
+		</modifier>
+	</modifiers>
+	<perTurnModifiers endure="0">
+		<modifier>
+			<effects>
+				<hitpoints add="2"/>
+			</effects>
+		</modifier>
+	</perTurnModifiers>
+	<onCombatOpponentModifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<allied/>
+				</unit>
+				<encounter>
+					<opponent>
+						<noAttacking/>
+						<noTrait name="Fortification"/>
+						<noTrait name="Vehicle"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<addTrait name="ChaosDaemons_MT/GiftOfDiseaseEnemy" duration="2"/>
+			</effects>
+		</modifier>
+	</onCombatOpponentModifiers>
+</trait>

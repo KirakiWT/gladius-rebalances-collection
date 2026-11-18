@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit dlc="Supplement7">
+	<model>
+		<unit mesh="Units/Eldar/AvatarOfKhaine"
+				material="Units/Eldar/AvatarOfKhaine"
+				idleAnimation="Units/Eldar/AvatarOfKhaineIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="0.9 0.9 0.9"
+				bloodBone="Chest"
+				walker="1"/>
+	</model>
+	<weapons>
+		<weapon name="WailingDoomMelee">
+			<model>
+				<powerWeapon effectBoundingVolume="Sword"
+				 		effectBone="Muzzle" 
+						fireInterval="0.5"/>
+			</model>
+		</weapon>
+		<weapon name="WailingDoomRanged" slotName="WailingDoomRanged" enabled="0">
+			<model>
+				<beamWeapon muzzleBone="Muzzle"
+						fireInterval="0.4"
+						effectFaceWeight="0.0"/>			
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="8"/> <!-- %armor base armor=3+ -->
+				<foodCost base="60.0"/> <!-- %foodCost base tier=9 factor=0.5 -->
+				<oreCost base="60.0"/> <!-- %oreCost base tier=9 factor=0.5 -->
+				<energyCost base="60.0"/> <!-- %oreCost base tier=9 factor=0.5 -->
+				<foodUpkeep base="2.0"/> <!-- %foodUpkeep base tier=9 factor=1 -->
+				<energyUpkeep base="2.0"/> <!-- %foodUpkeep base tier=9 factor=1 -->
+				<oreUpkeep base="2.0"/> <!-- %foodUpkeep base tier=9 factor=1 -->
+				<levelMax base="9"/>
+				<hitpointsMax base="30.0"/> <!-- %hitpointsMax base toughness=6 wounds=5 -->
+				<influenceCost base="240.0"/> <!-- %influenceCost base tier=9 factor=1.5 -->
+				<itemSlots base="6"/>
+				<meleeAccuracy base="12"/> <!-- %meleeAccuracy base weaponSkill=10 -->
+				<meleeAttacks base="5"/>
+				<strengthDamage base="3"/> <!-- %strengthDamage base strength=6 -->
+				<!-- <meleeInitiative base="10"/> -->
+				<moraleMax base="12"/> <!-- %moraleMax base leadership=9 -->
+				<movementMax base="3"/>
+				
+				<productionCost base="54.0"/> <!-- %productionCost base tier=9 factor=1 -->
+				<rangedAccuracy base="12"/> <!-- %rangedAccuracy base ballisticSkill=10 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseHeroesScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action	animation="Units/Eldar/AvatarOfKhaineAttack"
+						beginFire="1.0"
+						endFire="1.85"
+						chargeAnimation="Units/Eldar/AvatarOfKhaineCharge"
+						chargeBeginFire="0.35"
+						chargeEndFire="0.85"
+						meleeAnimation="Units/Eldar/AvatarOfKhaineMelee"
+						meleeBeginSwing="0.1"
+						meleeEndSwing="0.7"/>
+			</model>
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/Eldar/AvatarOfKhaineDie0"
+						sound="Units/MediumArmoredDie"
+						soundCount="4"
+						soundDelay="1.55"
+						voiceSound="Units/Eldar/AvatarOfKhaineDie"
+						voiceSoundCount="1"/>
+			</model>		
+		</die>
+		<idle>
+			<model>
+				<action animationSpeed="1.0"/>
+			</model>
+		</idle>
+		<move>
+			<model>
+				<action animation="Units/Eldar/AvatarOfKhaineMove"
+						sound="Units/AstraMilitarum/InfantryMove"
+						soundCount="4"/>
+			</model>				
+		</move>
+		<webwayTravel name="Eldar/WebwayTravel">
+			<model>
+				<action sound="Actions/WebwayTravel"/>
+			</model>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="20"/>
+					</effects>
+				</modifier>
+				<modifier requiredUpgrade="Eldar/WebwayGateBonus2">
+					<effects>
+						<consumedActionPoints max="0"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</webwayTravel>
+		<auraOfFear passive="1">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" excludeRadius="0" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Fear"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</auraOfFear>
+
+		<genericUnitAbility name="Eldar/KhaineAwakened"
+			rank="-1"
+				rankMax="2"
+
+				passive="1">
+			<model>
+
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="2">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Eldar/KhaineAwakened"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+
+
+		<genericUnitAbility name="Eldar/PresenceOfKhain"
+			rank="-1"
+				rankMax="2"
+
+				passive="1">
+			<model>
+
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="2">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Eldar/PresenceOfKhain"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+
+
+
+
+
+	<noEscape cooldown="3"
+				consumedActionPoints="0"
+				consumedMovement="0"
+				name="Eldar/Impaled"
+				rank="-1"
+				rankMax="2"
+				requiredActionPoints="0">
+			<model>
+				<action	animation="Units/Eldar/AvatarOfKhaineAttack"
+						beginFire="1.0"
+						endFire="1.85"/>
+			</model>
+			<modifiers>
+				<modifier>
+					<effects>
+						<damage mulMin="0.5" mulMax="1.0"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<beginTargets>
+				<target rangeMax="2">
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<weaponDamage weapon="WailingDoomRanged"/>
+										<addTrait  name="Eldar/Impaled" durationMin="1" durationMax="3"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</noEscape>
+
+
+
+	<scourgeOfTheBrood consumedActionPoints="0"
+				consumedMovement="0"
+				cooldown="10"
+				name="Eldar/GodOfWar" 
+				rank="-1"
+				rankMax="0"
+				elite="1"
+				levelUpPriority="1"
+				requiredActionPoints="0">
+			<model>
+	
+			</model>			
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Eldar/GodOfWar" duration="3"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</scourgeOfTheBrood>
+
+
+
+
+
+
+
+
+
+
+		<hammerOfWrath consumedActionPoints="0" consumedMovement="0"
+				cooldown="3"
+				requiredUpgrade="Eldar/HammerOfWrath">
+			<model>
+				<action sound="Actions/PsychicBuff"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="HammerOfWrath" duration="1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</hammerOfWrath>
+		<levelUp/>
+		<shop/>
+	</actions>
+	<traits>
+		
+		
+		<trait name="Eldar/AdvancedDefensivUpgrade" requiredUpgrade="Eldar/AdvancedDefensivUpgrade"/>
+		<trait name="Eldar/AdvancedOffensivUpgrade" requiredUpgrade="Eldar/AdvancedOffensivUpgrade"/>
+
+
+
+		<trait name="Eldar/BattleFocus"/>
+		<trait name="Daemon"/>
+	
+		<trait name="Fleet"/>
+		<trait name="Hero"/>
+		<trait name="Eldar/MoltenBody"/>
+		<trait name="MonstrousCreature"/>
+		<trait name="MoveThroughCover"/>
+		<!-- <trait name="Relentless"/> -->
+		<!-- <trait name="Smash"/> -->
+		<trait name="Eldar/SpiritPreservation"/>
+		<trait name="Unique"/>
+	</traits>
+</unit>

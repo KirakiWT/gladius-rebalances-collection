@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="DaPoizon" value="Да Пойзон"/>
+	<entry name="DaPoizonFlavor" value="Да Пойзон"/>
+	<entry name="DaOizon" value="Да Ойзон"/>
+	<entry name="DaOizonFlavor" value="Да Ойзон"/>
+	<entry name="RokkitLaunchaarray" value="Батарея роккит-ланч"/>
+	<entry name="RokkitLaunchaarrayFlavor" value="Грубая, зато простая в производстве, роккит-ланча представляет собой увесистую палку с простым спусковым механизмом, позволяющим орку на «безопасном» конце запустить подозрительно выглядящую ракету примерно в сторону врага."/>
+	<entry name="BigShootaarray" value="Батарея больших шут"/>
+	<entry name="BigShootaarrayFlavor" value="&lt;string name='Weapons/ShootaFlavor'/&gt;"/>
+	<entry name="DaBigZzap" value="Большой Ззап"/>
+	<entry name="DaBigZzapFlavor" value="С диким воплем и горящими зелёным глазами Вирдбой направляет собранную силу Вааагх! в трескучий поток молний. Воздух разрывает оглушительный грохот, когда необузданная психическая энергия хлещет по врагу, плавя металл, обугливая плоть и оставляя после себя лишь выжженные руины и запах озона. Для бойзов это просто очередная славная потеха — громкая, яркая и очень, очень смертоносная."/>
+	<entry name="RokkitLaunchaWarboss" value="Мега-роккит-ланча"/>
+	<entry name="RokkitLaunchaWarbossFlavor" value="Грубая, зато простая в производстве, роккит-ланча представляет собой увесистую палку с простым спусковым механизмом, позволяющим орку на «безопасном» конце запустить подозрительно выглядящую ракету примерно в сторону врага."/>
+	<entry name="SnazzgunWarboss" value="Мега-сназзган"/>
+	<entry name="SnazzgunFlavor" value="Сназзганы — чудеса орочьего знай-как. Их владельцы отдают несметные зубы за дополнительные стволы, барабанные магазины и всевозможные прибамбасы, приделанные к любимой пушке. Получившееся оружие способно изрыгать тучи пылающих пуль, плазменные заряды или залпы реактивных гранат."/>
+	<entry name="BroodleechInfestation" value="Заражение выводковыми пиявками"/>
+	<entry name="Tyranids/BroodleechHive" value="Улей выводковых пиявок"/>
+	<entry name="DeathspitterPrime" value="Смертеплюй"/>
+	<entry name="DeathspitterPrimeFlavor" value="Этот многосоставной симбионт стреляет похожими на личинок организмами с едкими внутренностями. Паучьи челюсти вытягивают боеприпас из выводковой камеры и сдирают с него оболочку, после чего Смертеплюй судорожно реагирует на обнажённую едкую плоть и выстреливает личинку, которая взрывается на цели фонтаном разъедающей слизи."/>
+	<entry name="PowerSwordBanshee" value="Силовой меч"/>
+	<entry name="PowerSwordBansheeFlavor" value="&lt;string name='Weapons/PowerFlavor'/&gt;"/>
+	<entry name="LaserLanceSupportBattery" value="Лазерное копьё"/>
+	<entry name="SplinterCannonArray" value="Батарея осколочных пушек"/>
+	<entry name="SplinterCannonFlavor" value="&lt;string name='Weapons/SplinterFlavor'/&gt;"/>
+	<entry name="SplinterRifleArray" value="Батарея осколочных винтовок"/>
+	<entry name="SplinterRifleArrayFlavor" value="&lt;string name='Weapons/SplinterFlavor'/&gt;"/>
+	<entry name="Whiplash" value="Хлыст"/>
+	<entry name="WhiplashFlavor" value="&lt;string name='Weapons/AgoniserFlavor'/&gt;"/>
+	<entry name="AnimusVitae" value="Анимус Витэ"/>
+	<entry name="AnimusVitaeFlavor" value="Анимус Витэ"/>
+	<entry name="SkullsquirmBlight" value="Черепная скверна"/>
+	<entry name="SkullsquirmBlightFlavor" value="Один из самых любимых даров Дедушки Нургла — микроскопические черви, что пляшут и в костном мозге, и в разуме. Их радостный пир несёт благословенное разложение всем, кто становится свидетелем их божественного голода."/>
+	<entry name="MagmaCutter" value="Магмовый резак"/>
+	<entry name="MagmaCutterFlavor" value="Питаемые Варпом печи пылают в механическом сердце чудовища, подавая потоки жидкого огня в вычурные оружейные системы. Жажда разрушения демона изливается расплавленной смертью."/>
+	<entry name="DaemonClaws" value="Демонические когти"/>
+	<entry name="DaemonClawsFlavor" value="Искажённые до полной неузнаваемости когти Отродья сочатся самой сущностью Варпа. Каждый безумный взмах — бессмысленный акт разрушения, разрывающий плоть, броню и даже саму реальность с безумной силой."/>
+	<entry name="DarkSorcery" value="Тёмное колдовство"/>
+	<entry name="DarkSorceryFlavor" value="Их шепчущие литании оскверняют сам воздух: преданные слуги Хаоса сплетают тёмную магию запретными молитвами своим зловещим богам."/>
+	<entry name="GaussFlayerArrayManned" value="Батарея гаусс-расщепителей"/>
+	<entry name="GaussFlayerArrayMannedFlavor" value="&lt;string name='Weapons/GaussFlavor'/&gt;"/>
+	<entry name="GaussFlayerArrayGhostark" value="Гаусс-расщепители «Призрачного ковчега»"/>
+	<entry name="GaussFlayerArrayGhostarkFlavor" value="&lt;string name='Weapons/GaussFlavor'/&gt;"/>
+	<entry name="SmallGaussAnnihilator" value="Малый гаусс-аннигилятор"/>
+	<entry name="SmallGaussAnnihilatorFlavor" value="Гаусс-пилон черпает энергию из силовой матрицы некронов и направляет её в жёстко встроенные оружейные системы, включая вариант дуги гаусс-потока, установленной также на Монолитах. Куда страшнее гаусс-аннигилятор пилона — узколучевая версия частичного хлыста, которая в сочетании с совершенными системами наведения и захвата целей позволяет поражать как наземные войска, так и приближающуюся авиацию."/>
+	<entry name="TeslaDestructor" value="Тесла-деструктор"/>
+	<entry name="TeslaDestructorFlavor" value="&lt;string name='Weapons/TeslaFlavor'/&gt;"/>
+	<entry name="BoltgunSistersofBattle" value="Болтер"/>
+	<entry name="TwinLinkedHeavyFlamerImmolator" value="Спаренный тяжёлый огнемёт «Иммолятора»"/>
+	<entry name="TwinLinkedHeavyFlamerImmolatorFlavor" value="&lt;string name='Weapons/FlamerFlavor'/&gt;"/>
+	<entry name="CombiFlamer" value="Комби-огнемёт"/>
+	<entry name="CombiFlamerFlavor" value="Болт и пламя объединены праведной целью. Там, где не справляется оружие, очищает огонь."/>
+	<entry name="TwinLinkedHeavyFlamerarray" value="Батарея спаренных тяжёлых огнемётов"/>
+	<entry name="TwinLinkedHeavyFlamerarrayFlavor" value="&lt;string name='Weapons/FlamerFlavor'/&gt;"/>
+	<entry name="TwinLinkedMultiMeltaarray" value="Батарея спаренных мультимелт"/>
+	<entry name="TwinLinkedMultiMeltaarrayFlavor" value="&lt;string name='Weapons/MeltaFlavor'/&gt;"/>
+	<entry name="TwinLinkedBoltgunarray" value="Батарея спаренных болтеров"/>
+	<entry name="TwinLinkedBoltgunarrayFlavor" value="&lt;string name='Weapons/BoltFlavor'/&gt;"/>
+	<entry name="PowerSwordZephyrim" value="Силовой меч"/>
+	<entry name="PowerSwordFlavor" value="&lt;string name='Weapons/PowerFlavor'/&gt;"/>
+	<entry name="TwinLinkedBoltgunHQ" value="Спаренный болтер"/>
+	<entry name="TwinLinkedBoltgunarrayFlavor" value="&lt;string name='Weapons/BoltFlavor'/&gt;"/>
+	<entry name="Agony" value="Чудо очищающей агонии"/>
+	<entry name="AgonyFlavor" value="В священных муках их вера пылает ярче всего: каждая рана становится молитвой, каждая боль — обновлённым обетом. Через святое страдание их гнев очищается, и первыми его огонь ощущают враги."/>
+	<entry name="TwinLinkedSmartMissileSystemTX78" value="Спаренная система управляемых ракет TX78"/>
+	<entry name="TwinLinkedSmartMissileSystemTX78Flavor" value="Система управляемых ракет запускает самонаводящиеся боеприпасы с интеллектом дронов, способные находить цели даже за укрывающей их местностью."/>
+	<entry name="PulseRifleFireblade" value="Ветеранская импульсная винтовка"/>
+	<entry name="PulseRifleFirebladeFlavor" value="&lt;string name='Weapons/PulseFlavor'/&gt;"/>
+	<entry name="NeutronBlaster1" value="Нейтронный бластер"/>
+	<entry name="NeutronBlaster1Flavor" value="Оружие жалокрылов объединяет технологии веспидов и Тау. Кристалл в каждом бластере испускает мощный нейтронный заряд, способный пробить почти любую броню."/>
+	<entry name="TwinLinkedPulseCarbineVehicle" value="Спаренный импульсный карабин"/>
+	<entry name="TwinLinkedPulseCarbineVehicleFlavor" value="&lt;string name='Weapons/PulseFlavor'/&gt;"/>
+	<entry name="CloseCombatWeaponKrootox" value="Кулак круткса"/>
+	<entry name="BombastFieldGun" value="Противотанковое орудие"/>
+	<entry name="BombastFieldGunFlavor" value="Полевое орудие «Бомбаст» — одно из основных средств артиллерии Астра Милитарум и применяется исключительно в батареях полевой артиллерии. Его главное преимущество перед другими стандартными орудиями батареи — навесная траектория, позволяющая вести непрямой огонь."/>
+	<entry name="BombastFieldGun1" value="Зажигательная артиллерия"/>
+	<entry name="FragstormGrenadeLauncher1" value="Гранатомёты"/>
+	<entry name="FragstormGrenadeLauncher1Flavor" value="Массовые и проверенные боями, эти гранатомёты заметно усиливают обычного гвардейца: несколько метких выстрелов способны разнести мешки с песком, зачистить траншею и изменить ход перестрелки."/>
+	<entry name="FragstormGrenadeLauncher2" value="Гранатомёты — крак-боеприпасы"/>
+	<entry name="Burn" value="Горение"/>
+	<entry name="TwinLinkedHydraAutocannonAntiAir" value="Спаренная автопушка «Гидра» — зенитный огонь"/>
+	<entry name="TwinLinkedHydraAutocannonAntiAirFlavor" value="По сути это огромная длинноствольная автопушка на зенитной установке. Автопушка «Гидра», ведомая предсказующим логическим духом, прочерчивает небо режущими линиями смертоносного огня."/>
+	<entry name="TwinLinkedHydraAutocannonGround" value="Спаренная автопушка «Гидра» — огонь по наземным целям"/>
+	<entry name="TwinLinkedHydraAutocannonGroundFlavor" value="По сути это огромная длинноствольная автопушка на зенитной установке. Автопушка «Гидра», ведомая предсказующим логическим духом, прочерчивает небо режущими линиями смертоносного огня."/>
+	<entry name="MultiLaserChimera" value="Мультилазер"/>
+	<entry name="MultiLaserChimeraFlavor" value="&lt;string name='Weapons/LasFlavor'/&gt;"/>
+	<entry name="HeavyStubberArray" value="Батарея тяжёлых когнис-стабберов"/>
+	<entry name="HeavyStubberArrayFlavor" value="&lt;string name='Weapons/CognisFlavor'/&gt;"/>
+	<entry name="OrbsOfTheOmnissiah" value="Сферы Омниссии"/>
+	<entry name="OrbsOfTheOmnissiahFlavor" value="Дарованные Омниссией гранаты способны вывести из строя практически любую машину или фортификацию."/>
+	<entry name="DigitalWeapons" value="Цифровое оружие"/>
+	<entry name="DigitalWeaponsDescription" value="Миниатюрные энергетические излучатели мгновенно плавят бронеплиты и выводят из строя двигатели."/>
+	<entry name="DigitalWeaponsFlavor" value="Крошечные, но смертоносные энергетические излучатели скрыты в мехадендритах и аугметических конечностях техножрецов. Направляемые ноосферными алгоритмами наведения и волей Бога-Машины, они выпускают точечные импульсы фазоразрушающей энергии, предназначенные для перегрузки систем техники, плавления брони и мгновенного повреждения двигателей."/>
+	<entry name="HeavyPhosphorBlasterKastelan" value="Установленный тяжёлый фосфорный бластер"/>
+	<entry name="HeavyPhosphorBlasterKastelanFlavor" value="&lt;string name='Weapons/PhosphorFlavor'/&gt;"/>
+	<entry name="Burn" value="Горение"/>
+	<entry name="ChaplainFlamer" value="Огнемёт капеллана"/>
+	<entry name="PetalStorm" value="Ураган Лепестков"/>
+	<entry name="PetalStormFlavor" value="Гигантская Одри II использует свои лепестки как осколочные гранаты, чтобы уничтожать своих врагов издалека"/>
+	<entry name="SpiritLightning" value="Молнии Духов"/>
+	<entry name="SpiritLightningFlavor" value="Дриады призывают вспышки молний, чтобы уничтожать своих врагов."/>
+	<entry name="DeathWail" value="Смертельный Вой"/>
+	<entry name="DeathWailFlavor" value="Мутанты испускают могучий рёв, который приводит к мгновенной смерти слабых духом."/>
+	<entry name="ParasiticalBreath" value="Паразитическое Дыхание"/>
+	<entry name="ParasiticalBreathFlavor" value="Октопода Фасиентем использует облака чернил насыщенные паразитами, способными сорвать плоть с костей."/>
+	<entry name="SeismicVoid" value="Сейсмическая Пустота"/>
+	<entry name="SeismicVoidFlavor" value="Камень раскалывается, а руды плавится и превращаются в серебистый поток, когда Псайкер поднимает потоки магмы из глубин."/>
+	<entry name="SkyFall" value="Падение Небес"/>
+	<entry name="SkyFallFlavor" value="Дико красивые сферы сверкающего света спускаются из холодных глубин космоса, вырастая до ревущих скоплений по мере приближения."/>
+	<entry name="HellBreath" value="Адское дыхание"/>
+	<entry name="HellBreathFlavor" value="Поток психического пламени изрыгается из глаз и рта псайкера, поглощая цель."/>
+	<entry name="HellBeam" value="Адский луч"/>
+	<entry name="HellBeamFlavor" value="Демон призывает ослепительно-белый луч пылающей энергии. Он превращает броню в шлак и испаряет плоть, оставляя после себя лишь жуткие тени."/>
+</language>

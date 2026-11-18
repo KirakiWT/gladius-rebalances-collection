@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<productionCost base="36"/>
+				<oreCost base="50"/>
+				<populationRequired base="1"/>
+				<slotsRequired base="1"/>
+				<energyUpkeep add="2"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<effects>
+				<loyalty add="2"/>
+				<production add="6"/>		
+			</effects>
+		</modifier>
+	</modifiers>
+	<productionModifiers>
+		<modifier>
+			<effects>
+				
+			</effects>
+		</modifier>
+	</productionModifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseColonizersProductionScore base="1.0"/>
+				<increaseInfantryProductionScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<produceUnit unit="ChaosDaemons_MT/ChaosCultist"/>
+		<produceUnit unit="ChaosDaemons_MT/ChaosSpaceMarine"/>
+		<produceUnit unit="ChaosDaemons_MT/HeavyWeaponsSquad" requiredUpgrade="ChaosDaemons_MT/HeavyWeaponsSquad"/>
+		<produceUnit unit="ChaosDaemons_MT/Havoc" requiredUpgrade="ChaosDaemons_MT/Havoc"/>
+		<produceUnit unit="ChaosDaemons_MT/Bullgryn" requiredUpgrade="ChaosDaemons_MT/Bullgryn"/>
+		<produceUnit unit="ChaosDaemons_MT/WarpTalon" requiredUpgrade="ChaosDaemons_MT/WarpTalon"/>
+		<produceUnit unit="ChaosDaemons_MT/Obliterator" requiredUpgrade="ChaosDaemons_MT/Obliterator"/>
+	</actions>
+</building>

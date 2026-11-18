@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feature category="HolySite"
+		explorable="1"
+		exploreSound="Actions/ExploreHolySite"
+		removeOnExplore="0">
+	<exploreConditions>
+				<player>
+					<faction name="SistersOfBattle"/>
+				</player>
+	</exploreConditions>
+	<model>
+		<necronTomb blueprint="Features/NecronTombGlow"
+				effectBlueprint="Effects/HolySiteGlow"/>
+	</model>
+	<rewards>
+		<research amount="30" amountVariation="10">
+			<!-- <conditions>
+				<unit>
+					<type name="SistersOfBattle/Hospitaller"/>
+				</unit>
+			</conditions> -->
+		</research>
+	</rewards>
+</feature>

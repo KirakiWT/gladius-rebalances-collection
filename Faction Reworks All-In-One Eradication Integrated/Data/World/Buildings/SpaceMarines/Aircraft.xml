@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<productionCost base="36"/>
+				<requisitionsCost base="50"/>
+				<populationRequired base="1"/>
+				<slotsRequired base="1"/>
+				<requisitionsUpkeep add="2"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<effects>
+				<energy add="1"/>
+				<influence add="1"/>
+
+				<populationLimit add="1"/>
+				<production add="6"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<productionModifiers>
+		<modifier>
+			<effects>
+				
+			</effects>
+		</modifier>
+	</productionModifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseAircraftProductionScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+
+				
+				<produceUnit unit="SpaceMarines/LandSpeeder"/>
+				
+				<produceUnit unit="SpaceMarines/AssaultSpaceMarine" requiredUpgrade="SpaceMarines/AssaultSpaceMarine"/>
+	
+				<produceUnit unit="SpaceMarines/Dreadnought" requiredUpgrade="SpaceMarines/Dreadnought"/>
+
+				<produceUnit unit="SpaceMarines/StormSpeederThunderstrike" requiredUpgrade="SpaceMarines/StormSpeederThunderstrike"/>
+				
+				<produceUnit unit="SpaceMarines/PrimarisInceptor" requiredUpgrade="SpaceMarines/PrimarisInceptor"/>
+				
+
+
+
+
+	
+		
+
+
+	</actions>
+</building>

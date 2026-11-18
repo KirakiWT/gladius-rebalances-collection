@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff" icon="Traits/AdeptusMechanicus/KastelanSTC">
+	<modifiers>
+		<modifier>
+			<effects>
+				<hitpointsMax add="10"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

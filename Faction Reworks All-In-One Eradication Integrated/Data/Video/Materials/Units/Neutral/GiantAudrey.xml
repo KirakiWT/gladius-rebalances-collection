@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/Neutral/GiantAudreyDiffuse"/>
+		<texture name="Units/Neutral/GiantAudreyNormal"/>
+		<texture name="Units/Neutral/GiantAudreySIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

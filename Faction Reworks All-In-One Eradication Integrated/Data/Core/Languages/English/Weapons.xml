@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+
+
+	
+<entry name="DaPoizon" value="DaPoizon"/>
+	<entry name="DaPoizonFlavor" value="DaPoizon"/>
+
+<entry name="DaOizon" value="DaOizon"/>
+	<entry name="DaOizonFlavor" value="DaOizon"/>
+
+<entry name="RokkitLaunchaarray" value="Rokkit Launcha Array"/>
+	<entry name="RokkitLaunchaarrayFlavor" value="Crude but easy to manufacture, the rokkit launcha is a stout stick with a simple trigger mechanism that allows the Ork at the 'safe' end to fire a dodgy-looking rokkit in the general direction of the enemy."/>
+
+	<entry name="BigShootaarray" value="Big Shoota Array"/>
+	<entry name="BigShootaarrayFlavor" value="<string name='Weapons/ShootaFlavor'/>"/>
+
+	<entry name="DaBigZzap" value="Da Big Zzap"/>
+	<entry name="DaBigZzapFlavor" value="With a wild scream and eyes blazing green, the Weirdboy channels the gathered Waaagh! into a crackling torrent of lightning. The air splits with a deafening roar as raw psychic energy lashes out, melting metal, searing flesh, and leaving nothing but scorched ruins and the smell of ozone in its wake. To the boyz, it’s just another good laugh—loud, bright, and very, very deadly."/>
+
+<entry name="RokkitLaunchaWarboss" value="Da Mega Rokkit Launcha"/>
+	<entry name="RokkitLaunchaWarbossFlavor" value="Crude but easy to manufacture, the rokkit launcha is a stout stick with a simple trigger mechanism that allows the Ork at the 'safe' end to fire a dodgy-looking rokkit in the general direction of the enemy."/>
+
+<entry name="SnazzgunWarboss" value="Da Mega Snazzgun"/>
+	<entry name="SnazzgunFlavor" value="Snazzguns are marvels of Orky know-wotz. Their owners pour countless teef into having additional barrels, drum magazines, and all manner of widgets and gubbinz attached to their prized guns. The resultant weapons have been known to fire clouds of flaming bullets, blasts of plasma or volleys of rocket-propelled grenades."/>
+
+
+
+<entry name="BroodleechInfestation" value="Brood-leech infestation"/>
+
+<entry name="Tyranids/BroodleechHive" value="Brood-leech Hive"/>
+
+<entry name="DeathspitterPrime" value="Deathspitter"/>
+<entry name="DeathspitterPrimeFlavor" value="This multi-creature symbiote fires maggot-like organisms with corrosive innards. A spider-jawed set of fangs drags an organism from the weapon's brooding chamber and strips off its shell, before the deathspitter reacts to the caustic flesh with a spasm, firing the maggot to explode in a shower of caustic slime against its target."/>
+
+
+
+
+
+	<entry name="PowerSwordBanshee" value="Power Sword"/>
+	<entry name="PowerSwordBansheeFlavor" value="<string name='Weapons/PowerFlavor'/>"/>
+
+
+
+	<entry name="LaserLanceSupportBattery" value="Laser-Lance"/>
+
+	<entry name="SplinterCannonArray" value="Splinter Cannon Array"/>
+	<entry name="SplinterCannonFlavor" value="<string name='Weapons/SplinterFlavor'/>"/>
+
+	<entry name="SplinterRifleArray" value="Splinter Rifle Array"/>
+	<entry name="SplinterRifleArrayFlavor" value="<string name='Weapons/SplinterFlavor'/>"/>
+
+	<entry name="Whiplash" value="Whiplash"/>
+	<entry name="WhiplashFlavor" value="<string name='Weapons/AgoniserFlavor'/>"/>
+
+	<entry name="AnimusVitae" value="AnimusVitae"/>
+	<entry name="AnimusVitaeFlavor" value="AnimusVitae"/>
+
+
+
+	<entry name="SkullsquirmBlight" value="Skullsquirm Blight"/>
+	<entry name="SkullsquirmBlightFlavor" value="Grandfather Nurgle's most cherished gift—microscopic worms that dance through marrow and mind alike. Their joyous feast brings blessed decay to all who witness their divine hunger."/>
+
+	<entry name="MagmaCutter" value="Magma Cutter"/>
+	<entry name="MagmaCutterFlavor" value="Warp-fueled furnaces burn within the beast's mechanical heart, feeding torrents of liquid fire through baroque weapon arrays. The daemon's hunger for destruction flows as molten death."/>
+
+	<entry name="DaemonClaws" value="Daemon Claws"/>
+	<entry name="DaemonClawsFlavor" value="Twisted beyond mortal recognition, the Spawn’s claws drip with the raw essence of the Warp. Each frenzied swipe is a mindless act of destruction, rending flesh, armour, and even reality itself with lunatic strength."/>
+
+	<entry name="DarkSorcery" value="Dark Sorcery"/>
+	<entry name="DarkSorceryFlavor" value="Their whispered litanies corrupt the very air, as these devoted servants of Chaos weave dark magic through forbidden prayers to their malevolent gods."/>
+
+
+	<entry name="GaussFlayerArrayManned" value="Gauss Flayer Array"/>
+	<entry name="GaussFlayerArrayMannedFlavor" value="<string name='Weapons/GaussFlavor'/>"/>
+	
+    <entry name="GaussFlayerArrayGhostark" value="Gauss Flayer Ghostark"/>
+	<entry name="GaussFlayerArrayGhostarkFlavor" value="<string name='Weapons/GaussFlavor'/>"/>
+
+	<entry name="SmallGaussAnnihilator" value="Small Gauss Annihilator"/>
+	<entry name="SmallGaussAnnihilatorFlavor" value="The Gauss Pylon draws energy from the Necron power matrix before discharging it through hardwired weapon systems, including a version of the gauss flux arc also mounted on Monoliths. More fearsome is the Pylon's Gauss annihilator—a tight-beam version of the particle whip which, combined with sophisticated guidance and target-lock systems, enable it to engage troops and incoming aircraft alike."/>
+
+	<entry name="TeslaDestructor" value="Tesla Destructor"/>
+	<entry name="TeslaDestructorFlavor" value="<string name='Weapons/TeslaFlavor'/>"/>
+
+
+
+
+	<!-- Generic -->
+	
+	<entry name="BoltgunSistersofBattle" value="Boltgun"/>
+	
+	<entry name="TwinLinkedHeavyFlamerImmolator" value="Twin-Linked Heavy Flamer Immolator"/>
+	<entry name="TwinLinkedHeavyFlamerImmolatorFlavor" value="<string name='Weapons/FlamerFlavor'/>"/>
+
+	<entry name="CombiFlamer" value="Combi-Flamer"/>
+	<entry name="CombiFlamerFlavor" value="Bolt and flame united in righteous purpose. Where armor fails, fire purifies"/>
+
+	<entry name="TwinLinkedHeavyFlamerarray" value="Twin-Linked Heavy Flamer Array"/>
+	<entry name="TwinLinkedHeavyFlamerarrayFlavor" value="<string name='Weapons/FlamerFlavor'/>"/>
+
+	<entry name="TwinLinkedMultiMeltaarray" value="Twin-Linked Multi-Melta Array"/>
+	<entry name="TwinLinkedMultiMeltaarrayFlavor" value="<string name='Weapons/MeltaFlavor'/>"/>
+
+	<entry name="TwinLinkedBoltgunarray" value="Twin-Linked Boltgun Array"/>
+	<entry name="TwinLinkedBoltgunarrayFlavor" value="<string name='Weapons/BoltFlavor'/>"/>
+
+	<entry name="PowerSwordZephyrim" value="Power Sword"/>
+	<entry name="PowerSwordFlavor" value="<string name='Weapons/PowerFlavor'/>"/>
+
+	<entry name="TwinLinkedBoltgunHQ" value="Twin-Linked Boltgun"/>
+	<entry name="TwinLinkedBoltgunarrayFlavor" value="<string name='Weapons/BoltFlavor'/>"/>
+
+	<entry name="Agony" value="Miracle of Purifying Agony"/>
+	<entry name="AgonyFlavor" value="In sacred torment their faith burns brightest; each wound a prayer, each pang a vow renewed. Through holy suffering, their wrath is made pure—and their enemies are the first to feel its fire."/>
+
+
+
+
+
+
+	<entry name="TwinLinkedSmartMissileSystemTX78" value="Twin-Linked Smart Missile System TX78"/>
+	<entry name="TwinLinkedSmartMissileSystemTX78Flavor" value="A smart missile system fires self-guiding missiles with drone intelligence, which can find targets even hiding behind terrain."/>
+
+	<entry name="PulseRifleFireblade" value="Veteran Pulse Rifle"/>
+	<entry name="PulseRifleFirebladeFlavor" value="<string name='Weapons/PulseFlavor'/>"/>
+
+	<entry name="NeutronBlaster1" value="Neutron Blaster"/>
+	<entry name="NeutronBlaster1Flavor" value="Stingwing weapons are a hybrid of Vespid and T'au technology. The crystal mounted upon each blaster emits a powerful neutron blast that is able to bypass all but the most effective armour."/>
+
+	<entry name="TwinLinkedPulseCarbineVehicle" value="Twin-Linked Pulse Carbine"/>
+	<entry name="TwinLinkedPulseCarbineVehicleFlavor" value="<string name='Weapons/PulseFlavor'/>"/>
+
+	<entry name="CloseCombatWeaponKrootox" value="Krootox Fist"/>
+
+
+
+
+	<entry name="BombastFieldGun" value="Anti-Tank Gun"/>
+	<entry name="BombastFieldGunFlavor" value="A mainstay of the Astra Militarum, the Bombast Field Gun is a smaller-scale artillery weapon used exclusively in Field Ordnance Batteries. Its main advantage over other standardised battery armaments is its arcing trajectory, allowing it to be fired indirectly."/>
+
+	<entry name="BombastFieldGun1" value="Incendiary Artillery"/>
+
+	<entry name="FragstormGrenadeLauncher1" value="Grenade Launchers"/>
+	<entry name="FragstormGrenadeLauncher1Flavor" value="Mass-produced and battle-proven, these launchers add punch to the ordinary Guardsman — a few well-placed rounds can shred sandbags, clear trenches, and change the face of a firefight."/>
+
+	<entry name="FragstormGrenadeLauncher2" value="Grenade Launchers-Krak"/>
+
+	<entry name="Burn" value="Burn"/>
+
+
+	<entry name="TwinLinkedHydraAutocannonAntiAir" value="Twin-Linked Hydra Autocannon Sky-Fire"/>
+	<entry name="TwinLinkedHydraAutocannonAntiAirFlavor" value="Essentially a long-barrelled, outsized autocannon on an anti-aircraft mount, the Hydra autocannon is guided by its predictive logic spirit to fill the skies with sawing lines of deadly fire."/>
+
+
+	<entry name="TwinLinkedHydraAutocannonGround" value="Twin-Linked Hydra Autocannon Ground-Fire"/>
+	<entry name="TwinLinkedHydraAutocannonGroundFlavor" value="Essentially a long-barrelled, outsized autocannon on an anti-aircraft mount, the Hydra autocannon is guided by its predictive logic spirit to fill the skies with sawing lines of deadly fire."/>
+
+	<entry name="MultiLaserChimera" value="Multi-Laser"/>
+	<entry name="MultiLaserChimeraFlavor" value="<string name='Weapons/LasFlavor'/>"/>
+
+
+
+
+	<entry name="HeavyStubberArray" value="Cognis Heavy Stubber Array"/>
+	<entry name="HeavyStubberArrayFlavor" value="<string name='Weapons/CognisFlavor'/>"/>
+
+	<entry name="OrbsOfTheOmnissiah" value="Orbs Of The Omnissiah"/>
+	<entry name="OrbsOfTheOmnissiahFlavor" value="Gifted by the Omnissiah, these granades can shutdown any vehicles and fortification"/>
+
+	<entry name="DigitalWeapons" value="Digital Weapons"/>
+	<entry name="DigitalWeaponsDescription" value="These miniaturized energy emitters melt armor plating, and cripple engines in an instant."/>
+	<entry name="DigitalWeaponsFlavor" value="Tiny yet lethal, these miniaturized energy emitters are concealed within the mechadendrites and augmetic limbs of the Tech-Priests. Guided by noospheric targeting algorithms and the Machine God's will, they unleash pinpoint blasts of phase-disruptive energy designed to overload vehicle systems, melt armor plating, and cripple engines in an instant."/>
+
+	<entry name="HeavyPhosphorBlasterKastelan" value="Mounted Heavy Phosphor Blaster"/>
+	<entry name="HeavyPhosphorBlasterKastelanFlavor" value="<string name='Weapons/PhosphorFlavor'/>"/>
+
+
+
+
+
+
+	<entry name="Burn" value="Burn"/>
+
+	<entry name="ChaplainFlamer" value="Chaplain's Flamer"/>
+
+
+
+
+
+	<entry name="PetalStorm" value="Petal Storm"/>
+	<entry name="PetalStormFlavor" value="The Giant Audrey II uses its petals like grenade shardes to decimate its enemies from afar"/>
+	<entry name="SpiritLightning" value="Spirit Lightning"/>
+	<entry name="SpiritLightningFlavor" value="The Dryads summon flashes of lightning to destroy their enemies."/>
+	<entry name="DeathWail" value="Death Wail"/>
+	<entry name="DeathWailFlavor" value="The Mutants let out an almighty roar that means instant death to the weak minded."/>
+	<entry name="ParasiticalBreath" value="Parasitical Breath"/>
+	<entry name="ParasiticalBreathFlavor" value="The Octopoda Facientem use their oil clouds filled with parasites that can strip flesh from bone."/>
+	<entry name="SeismicVoid" value="Seismic Void"/>
+	<entry name="SeismicVoidFlavor" value="Stone fractures and ores flash burn into silvered steam as the Psyker drags up tides of magma from deep below."/>
+	<entry name="SkyFall" value="Sky Fall"/>
+	<entry name="SkyFallFlavor" value="Savagely beautiful orbs of coruscating light plummet from the cold depths of space, growing to roaring bale-stars as they approach."/>
+	<entry name="HellBreath" value="Hell Breath"/>
+	<entry name="HellBreathFlavor" value="A torrent of psychic flames pour forth from the psyker's eyes and mouth, engulfing the target."/>
+	<entry name="HellBeam" value="Hell Beam"/>
+	<entry name="HellBeamFlavor" value="The Daemon summons a white-hot beam of blazing energy. It melts armour to slag and vaporises flesh, leaving only ghastly shadows in its wake."/>
+	<!-- End Modification -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</language>

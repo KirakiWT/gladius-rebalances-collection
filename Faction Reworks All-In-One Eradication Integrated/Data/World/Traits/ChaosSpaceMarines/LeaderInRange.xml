@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff">
+	<perTurnModifiers endure="0">
+		<modifier>
+			<conditions>
+				<unit>
+					<unitsInRange count="1" range="1">
+						<allied/>
+						<trait name="ChaosSpaceMarines/LeaderOfChaos"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+		   			<moraleLossFactor add="-0.33"/>
+			</effects>
+		</modifier>
+	</perTurnModifiers>
+</trait>

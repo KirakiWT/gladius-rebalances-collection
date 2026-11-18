@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit dlc="Supplement8">
+	<model>
+		<unit mesh="Units/AstraMilitarum/Ratling"
+				material="Units/AstraMilitarum/Ratling"
+				idleAnimation="Units/AstraMilitarum/RatlingIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="0.8 0.8 0.8"
+				bloodBone="Chest"
+				walker="1"/>
+	</model>
+	<group size="5" rowSize="3" memberDeltaX="70" memberDeltaY="50"/>
+	<weapons>
+		<weapon name="SniperRifle">
+			<model>
+				<projectileWeapon muzzleBone="Muzzle"
+						fireInterval="10"
+						effectScale="0.75"/>
+			</model>
+		</weapon>
+		<weapon name="FragstormGrenadeLauncher1" slotName="FragstormGrenadeLauncher1" enabled="0">
+			<model>
+		
+									<projectileWeapon muzzleBone="Muzzle"
+																	fireInterval="0.2"/>
+
+
+			</model>
+		</weapon>
+
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="4"/> <!-- %armor base armor=5+ -->
+				<foodUpkeep base="1.5"/> <!-- %foodUpkeep base tier=5 factor=1 -->
+				<foodCost base="15.0"/> <!-- %foodCost base tier=5 factor=0.5 -->
+				<hitpointsMax base="2"/> <!-- %hitpointsMax base toughness=2 wounds=1 -->
+				<meleeAccuracy base="4"/> <!-- %meleeAccuracy base weaponSkill=2 -->
+				<meleeAttacks base="1"/>
+				<oreCost base="15.0"/> <!-- %oreCost base tier=5 factor=0.5 -->
+				<strengthDamage base="0.75"/> <!-- %strengthDamage base strength=2 -->
+				<moraleMax base="6"/> <!-- %moraleMax base leadership=6 -->
+				<movementMax base="3"/>
+				<productionCost base="30.0"/> <!-- %productionCost base tier=5 factor=1 -->
+				<rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseInfantryScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action animation="Units/AstraMilitarum/RatlingAttack"
+						beginFire="1.3" endFire="1.4"/>
+			</model>
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/AstraMilitarum/RatlingDie"
+						animationCount="2"
+						sound="Units/MediumUnarmoredDie"
+						soundCount="4"
+						soundDelay="0.4"
+						voiceSound="Units/AstraMilitarum/InfantryDie"
+						voiceSoundCount="5"/>
+			</model>		
+		</die>
+		<idle>
+			<model>
+				<action/>
+			</model>
+		</idle>
+		<move>
+			<model>
+				<action animation="Units/AstraMilitarum/RatlingMove"
+						sound="Units/AstraMilitarum/InfantryMove"
+						soundCount="4"/>
+			</model>
+		</move>
+
+
+
+
+
+
+
+<mediPack cooldown="10" requiredUpgrade="AstraMilitarum/MediPack">
+			<model>
+				<action bone="ChestBone"
+						sound="Actions/Heal"/>
+			</model>
+			<conditions>
+				<unit>
+					<damaged/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<hitpointsFactorFromMax add="0.5"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</mediPack>
+
+
+
+		<scout consumedActionPoints="0" consumedMovement="0"
+				cooldown="3"
+				requiredActionPoints="0">
+			<model>
+				<action sound="Actions/Scan"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="4">
+							<modifiers>
+								<modifier>
+									<effects>
+										<reveal/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</scout>
+
+
+
+<useWeapon cooldown="5"
+				requiredActionPoints="1"
+				consumedActionPoints="1"
+				requiredUpgrade="AstraMilitarum/Granadelaunchers"
+				weaponSlotName="FragstormGrenadeLauncher1">
+			<model>
+				<action animation="Units/AstraMilitarum/RatlingAttack"
+						beginFire="1.3" endFire="1.5"/>
+			</model>
+		</useWeapon>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</actions>
+	<traits>
+
+		<trait name="AstraMilitarum/InfantryDefensivUpgrade" requiredUpgrade="AstraMilitarum/InfantryDefensivUpgrade"/>
+		<trait name="AstraMilitarum/InfantryOffensivUpgrade" requiredUpgrade="AstraMilitarum/InfantryOffensivUpgrade"/>
+
+		<trait name="AstraMilitarum/InfantryDefensivUpgrade2" requiredUpgrade="AstraMilitarum/AdvancedDefensivUpgrade"/>
+		<trait name="AstraMilitarum/InfantryOffensivUpgrade2" requiredUpgrade="AstraMilitarum/AdvancedOffensivUpgrade"/>
+
+
+
+		<trait name="Infiltrate"/>
+		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
+		<trait name="AstraMilitarum/ShootSharpAndScarper"/>
+		<trait name="Stealth"/>
+		<trait name="AstraMilitarum/MoreSoldiers!" requiredUpgrade="AstraMilitarum/MoreSoldiers!"/>
+		<trait name="AstraMilitarum/Granadelaunchers" requiredUpgrade="AstraMilitarum/Granadelaunchers"/>
+
+
+	</traits>
+</unit>

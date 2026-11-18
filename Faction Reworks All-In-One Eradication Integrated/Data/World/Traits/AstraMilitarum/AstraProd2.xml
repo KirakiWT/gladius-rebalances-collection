@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" visibilityCategory="Building" icon="Traits/AstraMilitarum/AstraProd2">
+	<modifiers>
+		<modifier>
+			<conditions>
+					<building match="Any">
+
+					<type name="AstraMilitarum/AdvancedVehicles"/>
+
+					<type name="AstraMilitarum/AdvancedVehicles2"/>
+
+				</building>
+			</conditions>
+			<effects>
+				<production mul="0.20"/>
+			</effects>
+		</modifier>
+
+	</modifiers>
+</trait>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff"
+		icon="Actions/Drukhari/Hypex">
+	<modifiers>
+		<modifier>
+			<effects>
+				<rangeMax add="1"/>
+			</effects>
+		</modifier>
+		<modifier visible="1" requiredUpgrade="Drukhari/EnhancedCombatDrugs1">
+			<effects>
+				<rangedAccuracy add="1"/>
+			</effects>
+		</modifier>
+			<modifier visible="1" requiredUpgrade="Drukhari/EnhancedCombatDrugs2">
+			<effects>
+				<rangedDamageReduction add="0.10"/>
+			</effects>
+		</modifier>
+			<modifier visible="1" requiredUpgrade="Drukhari/EnhancedCombatDrugs3">
+			<effects>
+				<rangedAccuracy add="1"/>
+			</effects>
+		</modifier>
+
+		<modifier visible="1" requiredUpgrade="Drukhari/EnhancedCombatDrugs4">
+			<effects>
+				<moraleLossFactor add="-0.33"/>
+			</effects>
+		</modifier>
+
+
+
+	</modifiers>
+</trait>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit dlc="Supplement10">
+	<model>
+		<unit mesh="Units/AstraMilitarum/DevilDog"
+				material="Units/AstraMilitarum/DevilDog"
+				idleAnimation="Units/AstraMilitarum/DevilDogIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				scale="1.1 1.1 1.1"
+				explosionsBone="Hull"
+				uvAnimated="1"/>
+	</model>
+	<weapons>
+		<weapon name="MeltaCannon">
+			<model>
+				<beamWeapon muzzleBone="Cannon_Muzzle" muzzleCount="1"
+						fireInterval="0.2"/>
+			</model>
+		</weapon>
+		<weapon name="HeavyPhosphorBlaster">
+		<model>
+				<projectileWeapon muzzleBone="Machinegun_Muzzle"/>
+			</model>
+		</weapon>	
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="6"/> <!-- %armor base armor=12/12/10 -->
+				<hitpointsMax base="30.0"/> <!-- %hitpointsMax base armor=12/12/10 wounds=3 -->
+				<moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
+				<movementMax base="4"/>
+				<oreUpkeep base="3.0"/> <!-- %oreUpkeep base tier=7 factor=1 -->
+				<oreCost base="60.0"/> <!-- %oreCost base tier=7 factor=1 -->
+				<productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
+				<rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseVehiclesScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action animation="Units/AstraMilitarum/DevilDogAttack"
+						beginFire="1.2"
+						endFire="2.43"/>
+			</model>				
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/AstraMilitarum/DevilDogDie0"
+						sound="Units/MediumVehicleDie"
+						soundCount="3"
+						soundDelay="0"/>
+			</model>
+		</die>
+		<move>
+			<model>
+				<action animation="Units/AstraMilitarum/DevilDogMove"
+						sound="Units/AstraMilitarum/TankMove"
+						soundCount="3"/>
+			</model>
+		</move>
+		<createSmokeScreen cooldown="10"
+				icon="Traits/SmokeScreen"
+				requiredUpgrade="AdeptusMechanicus/CognisHeavyStubber">
+			<model>
+				<action sound="Actions/SmokeScreen"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addFeature duration="3" name="SmokeScreen"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</createSmokeScreen>
+
+
+		
+		<genericUnitAbility name="AdeptusMechanicus/BroadSpectrumDataTether"
+				passive="1"
+				requiredUpgrade="AdeptusMechanicus/BroadSpectrumDataTether">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="AdeptusMechanicus/BroadSpectrumDataTether"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</actions>
+	<traits>
+<trait name="AdeptusMechanicus/DoctrinaImperatives"/>
+<trait name="AdeptusMechanicus/EmanatusForceField"/>
+<trait name="ExtraVehicleArmour" requiredUpgrade="AdeptusMechanicus/ExtraVehicleArmour"/>
+		<trait name="Tank"/>
+		<trait name="Vehicle"/>
+	</traits>
+</unit>

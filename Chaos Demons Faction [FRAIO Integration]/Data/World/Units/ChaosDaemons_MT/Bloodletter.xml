@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>
+		<unit mesh="Units/Reinforcements_MT/Bloodletter"
+				material="Units/Reinforcements_MT/Bloodletter"
+				idleAnimation="Units/Tyranids/TyranidPrimeIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="0.8 0.8 0.8"
+				bloodBone="BloodBone"
+				portraitZoomModifier="1.2"
+				walker="1"/>
+	</model>
+	<group size="8" rowSize="4" memberDeltaX="70" memberDeltaY="50"/>
+	<weapons>
+		<weapon name="ChaosDaemons_MT/Hellblade">
+			<model>
+				<weapon fireInterval="0.4"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>					
+				<armor base="4"/>
+				<hitpointsMax base="2.0"/>
+				<meleeAccuracy base="8"/>
+				<meleeAttacks base="1"/>
+				<strengthDamage base="2"/>
+				<moraleMax base="8"/>
+				<movementMax base="3"/>
+				<productionCost base="30"/>
+				<foodCost base="20"/>
+				<oreCost base="40"/>
+				<oreUpkeep base="2"/>
+				<rangedAccuracy base="8"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<player>
+					<aiControlled/>
+				</player>
+			</conditions>
+			<effects>
+			</effects>
+		</modifier>	
+		<modifier visible="0">
+			<conditions>
+				<player>
+					<notAIControlled/>
+				</player>
+			</conditions>
+			<effects>
+			</effects>
+		</modifier>	
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseInfantryScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action animation="Units/Tyranids/TyranidPrimeAttack"
+						beginFire="0.733333333333"
+						endFire="2"
+						chargeAnimation="Units/Tyranids/TyranidPrimeCharge"
+						chargeBeginFire="0.3"
+						chargeEndFire="1.36666666667"
+						meleeAnimation="Units/Tyranids/TyranidPrimeMelee"
+						meleeBeginSwing="0.133333333333"
+						meleeEndSwing="0.666"/>
+			</model>				
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/Tyranids/TyranidPrimeDie"
+						sound="Units/MediumUnarmoredDie"
+						soundCount="4"
+						soundDelay="1.0"
+						voiceSound="Units/Tyranids/MediumDie"
+						voiceSoundCount="4"/>
+			</model>		
+		</die>
+		<idle>
+			<model>
+				<action/>
+			</model>
+		</idle>
+		<move>
+			<model>
+				<action animation="Units/Tyranids/TyranidPrimeMove"
+						sound="Units/Tyranids/InfantryMove"
+						soundCount="4"/>
+			</model>
+		</move>
+		<hammerOfWrath consumedActionPoints="0" 
+				consumedMovement="0"
+				cooldown="3"
+				icon="Actions/HammerOfWrath"
+				name="ChaosDaemons_MT/HammerOfWrathKhorne"
+				useConditionsForVisiblity="1"
+				requiredUpgrade="ChaosDaemons_MT/HammerOfWrath">
+			<model>
+				<action sound="Actions/PsychicBuff"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/Khorne"/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/HammerOfWrath/Khorne" duration="1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</hammerOfWrath>
+		<dimensionalCorridor cooldown="5"
+				name="ChaosDaemons_MT/WarpRiftTeleport"
+				requiredUpgrade="ChaosDaemons_MT/WarpRift"
+				icon="Actions/Necrons/GravityPulse">
+			<model>
+				<action sound="Actions/Teleport"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/WarpRift"/>
+				</unit>
+			</conditions>
+			<modifiers>
+				<modifier requiredUpgrade="ChaosDaemons_MT/WarpSurge">
+					<effects>
+						<consumedActionPoints max="0"/>
+						<consumedMovement max="0"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</dimensionalCorridor>
+	</actions>
+	<traits>
+		<trait name="Daemon"/>
+		<trait name="ChaosDaemons_MT/Khorne"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Undivided"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Khorne"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Tzeentch"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Slaanesh"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Nurgle"/>
+		<trait name="ChaosDaemons_MT/WarpRift"/>
+		<trait name="ChaosDaemons_MT/ContemptForSorcery"/>
+		<trait name="ChaosDaemons_MT/DaemonicResilience" requiredUpgrade="ChaosDaemons_MT/ExtraInfantryArmour"/>
+	</traits>
+</unit>

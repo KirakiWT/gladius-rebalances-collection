@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Actions/AdeptusMechanicus/GiftOfTheOmnissiah" rankMax="2">
+	<modifiers>
+		<modifier>
+			<effects>
+				<hitpointsMax mulMin="0.2" mulMax="0.6"/>
+				<attacks addMin="1" addMax="3"/> 
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="ChaosDaemons_MT0" value="Children of the Maelstrom"/>
+	<entry name="ChaosDaemons_MT1" value="The Tyrant's Sons"/>
+	<entry name="ChaosDaemons_MT2" value="Doom of the Corpse-Emperor"/>
+	<entry name="ChaosDaemons_MT3" value="The Torment of Isha"/>
+	<entry name="ChaosDaemons_MT4" value="The Iridescent Flaytongues"/>
+	<entry name="ChaosDaemons_MT5" value="Dream of the Tzaangor"/>
+	<entry name="ChaosDaemons_MT6" value="Gorehounds"/>
+	<entry name="ChaosDaemons_MT7" value="The Ways, Changed"/>
+	<entry name="ChaosDaemons_MT8" value="The Tallymen"/>
+	<entry name="ChaosDaemons_MT9" value="Claws of Horus"/>
+	<entry name="ChaosDaemons_MT10" value="The Sweet Agonizers"/>
+	<entry name="ChaosDaemons_MT11" value="The Dispossessed"/>
+	<entry name="ChaosDaemons_MTCount" value="12"/>
+	</language>

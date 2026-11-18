@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" visibilityCategory="Building" icon="Traits/Eldar/AsuryaniForgehosts">
+	<modifiers>
+		<modifier>
+			<conditions>
+					<building>
+					<type name="Eldar/Vehicles"/>
+				</building>
+			</conditions>
+			<effects>
+				<production mul="0.20"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<conditions>
+				<building match="Any">
+					<type name="Eldar/Energy"/>
+					<type name="Eldar/Ore"/>
+					<type name="Eldar/Food"/>
+					<type name="Eldar/Influence"/>
+
+					<type name="Eldar/Infantry"/>
+					<type name="Eldar/Vehicles"/>
+					<type name="Eldar/AdvancedInfantry"/>
+					<type name="Eldar/AdvancedVehicles"/>	
+					
+				
+					<type name="Eldar/Heroes"/>
+					<type name="Eldar/Headquarters"/>
+				</building>
+			</conditions>
+			<effects>
+				<ore mul="0.25"/>
+			</effects>
+		</modifier>
+	<modifier>
+			<conditions>
+				<building>
+						<type name="Eldar/Headquarters"/>
+				</building>
+			</conditions>
+			<effects>
+				<growth mul="0.20"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

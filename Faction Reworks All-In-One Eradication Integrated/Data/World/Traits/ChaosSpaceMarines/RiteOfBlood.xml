@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" visibilityCategory="Building" icon="Actions/ChaosSpaceMarines/RiteOfBlood">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<building match="Any">
+					<type name="ChaosSpaceMarines/Aircraft"/>
+					<type name="ChaosSpaceMarines/Vehicles"/>
+				</building>
+			</conditions>
+			<effects>
+				<production mul="0.33"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<conditions>
+				<building match="Any">
+					<type name="ChaosSpaceMarines/Headquarters"/>
+					<type name="ChaosSpaceMarines/Ore"/>
+					<type name="ChaosSpaceMarines/Vehicles"/>
+				</building>
+			</conditions>
+			<effects>
+				<ore mul="0.33"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

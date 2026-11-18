@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff" icon="Actions/Orks/Krumpify" rankMax="2">
+	<modifiers>
+		<modifier>
+			<effects>
+				<damage mulMin="-0.30" mulMax="-0.60"                    />
+				<movement mulMin="-0.30" mulMax="-0.60"                      />
+				<movementMax mulMin="-0.30" mulMax="-0.60"                   />
+				<damageTaken mulMin="0.12" mulMax="0.36"                               />
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

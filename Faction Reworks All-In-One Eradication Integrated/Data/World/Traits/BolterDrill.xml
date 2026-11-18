@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Actions/BolterDrill">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit match="Any">
+					<type name="SpaceMarines/AssaultSpaceMarine"/>
+					<type name="SpaceMarines/AssaultTerminator"/>
+					<type name="SpaceMarines/Captain"/>
+					<type name="SpaceMarines/Chaplain"/>
+					<type name="SpaceMarines/DevastatorSpaceMarine"/>
+					<type name="SpaceMarines/Apothecary"/>
+					<type name="SpaceMarines/Librarian"/>
+					<type name="SpaceMarines/PrimarisAggressor"/>
+					<type name="SpaceMarines/PrimarisHellblaster"/>
+					<type name="SpaceMarines/PrimarisInceptor"/>
+					<type name="SpaceMarines/PrimarisIntercessor"/>
+					<type name="SpaceMarines/Scout"/>
+					<type name="SpaceMarines/TacticalSpaceMarine"/>
+					<type name="SpaceMarines/Terminator"/>
+					<type name="SpaceMarines/DevastatorCenturion"/>
+					<type name="SpaceMarines/PrimarisInvaderATV"/>
+					<type name="SpaceMarines/ScoutBiker"/>
+					<type name="SpaceMarines/ThunderfireCannon"/>
+
+
+
+				</unit>
+			</conditions>
+			<effects>
+				<movementMax add="1"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

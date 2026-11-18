@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit dlc="Supplement13">
+	<model>
+		<unit mesh="Units/Drukhari/Succubus"
+				material="Units/Drukhari/Succubus"
+				idleAnimation="Units/Drukhari/SuccubusIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				portraitFocusHeightModifier="-8"
+				portraitZoomModifier="1.25"
+				scale="0.8 0.8 0.8"
+				bloodBone="Chest"
+				position="0 0 0"
+				walker="1"/>
+	</model>
+	<weapons>
+		<weapon name="ArchiteGlaive">
+			<model>
+				<weapon/>
+			</model>
+		</weapon>
+		<weapon name="Agoniser">
+			<model>
+				<weapon/>
+			</model>
+		</weapon>
+		<weapon name="Whiplash" slotName="Whiplash" enabled="0">
+
+			<model>
+				
+			</model>
+		</weapon>
+
+
+
+
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="5"/> <!-- %armor base armor=6+ -->
+				<hitpointsMax base="20.0"/> <!-- %hitpointsMax base toughness=3 wounds=3 -->
+				<influenceCost base="80.0"/> <!-- %influenceCost base tier=7 factor=2 -->
+				<itemSlots base="6"/>
+				<levelMax base="9"/>
+				<meleeAccuracy base="10"/> <!-- %meleeAccuracy base weaponSkill=8 -->
+				<meleeAttacks base="3"/>
+				<strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
+				<moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
+				<movementMax base="4"/>
+				<productionCost base="36.0"/> <!-- %productionCost base tier=7 factor=1 --> 
+				<rangedAccuracy base="12"/> <!-- %rangedAccuracy base ballisticSkill=6 -->
+				<foodUpkeep base="2"/> <!-- %foodUpkeep base tier=7 factor=1 -->
+
+				<foodCost base="20.0"/> <!-- %foodCost base tier=7 factor=0.5 -->
+				<oreCost base="20.0"/> <!-- %oreCost base tier=7 factor=0.5 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseHeroesScore base="1.0"/>
+				<increaseSupportScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action	chargeAnimation="Units/Drukhari/SuccubusCharge"
+						meleeAnimation="Units/Drukhari/SuccubusMelee"
+						meleeBeginSwing="0.15"
+						meleeEndSwing="0.5"/>
+			</model>				
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/Drukhari/SuccubusDie1"
+						sound="Units/MediumUnarmoredDie"
+						soundCount="4"
+						soundDelay="0.85"
+						voiceSound="Units/Drukhari/SuccubusDie"
+						voiceSoundCount="1"
+						voiceSoundDelay="0.1"/>
+			</model>		
+		</die>
+		<move>
+			<model>
+				<action animation="Units/Drukhari/SuccubusMove"
+						sound="Units/AstraMilitarum/InfantryMove"
+						soundCount="4"/>
+			</model>		
+		</move>
+		<webwayTravel name="Drukhari/WebwayTravel">
+			<model>
+				<action sound="Actions/WebwayTravel"/>
+			</model>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="20"/>
+					</effects>
+				</modifier>
+				<modifier requiredUpgrade="Drukhari/WebwayTravelAction">
+					<effects>
+						<consumedActionPoints max="0"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<endTargets>
+				<target>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier requiredUpgrade="Drukhari/ShroudGate">
+									<effects>
+										<addTrait duration="3" name="Drukhari/ShroudGate"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</endTargets>
+		</webwayTravel>
+
+
+
+			<combatDrugs consumedActionPoints="0" 
+				consumedMovement="0"
+				cooldown="5"
+				name="Drukhari/GraveLotus"
+				requiredUpgrade="Drukhari/GraveLotus">
+			<model>
+				<action sound="Actions/CombatDrugs"/>
+			</model>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="10"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Drukhari/GraveLotus" duration="5"/>
+										<addTrait name="Regeneration" duration="5"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+			<sharedCooldowns>
+				
+				<action name="Drukhari/Painbringer"/>
+			</sharedCooldowns>
+		</combatDrugs>
+
+
+		<combatDrugs consumedActionPoints="0" 
+				consumedMovement="0"
+				cooldown="5"
+				name="Drukhari/Painbringer">
+			<model>
+				<action sound="Actions/CombatDrugs"/>
+			</model>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="10"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Drukhari/Painbringer" duration="5"/>
+									</effects>
+								</modifier>
+									<modifier visible="1" requiredUpgrade="Drukhari/EnhancedCombatDrugs1">
+									<effects>
+							<addTrait name="Infiltrate" duration="5"/>
+									</effects>
+									</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+			<sharedCooldowns>
+				<action name="Drukhari/GraveLotus"/>
+			
+			</sharedCooldowns>
+		</combatDrugs>
+
+
+
+
+
+
+<genericUnitAbility  consumedActionPoints="0" 
+				consumedMovement="0"
+				cooldown="3"
+				rank="-1"
+				rankMax="2"
+				name="Drukhari/SirensCall"
+				requiredActionPoints="0">
+			<model>
+	<action animation="Units/Drukhari/SuccubusAbility"
+						sound="Actions/NoEscape"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit" radius="1">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<enemy/>
+										</unit>
+									</conditions>
+									<effects>
+										<morale addMin="-2" addMax="-6"/>
+									</effects>
+								</modifier>
+								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+											<faction name="Drukhari"/>
+											<noTrait name="Fortification"/>
+											<noTrait name="MonstrousCreature"/>
+											<noTrait name="Vehicle"/>
+										</unit>
+									</conditions>
+									<effects>
+										<hitpoints mulMin="0.10" mulMax="0.30"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+
+
+
+
+
+		<noEscape cooldown="3"
+				consumedActionPoints="0"
+				consumedMovement="0"
+				name="Drukhari/NoEscape"
+				rank="-1"
+				rankMax="2"
+				requiredActionPoints="0">
+			<model>
+				<action animation="Units/Drukhari/SuccubusAbility"
+						sound="Actions/NoEscape"/>
+			</model>
+			<modifiers>
+				<modifier>
+					<effects>
+						<damage mulMin="0.0" mulMax="2.0"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<beginTargets>
+				<target rangeMax="2">
+					<conditions>
+						<unit>
+							<enemy/>
+							<noTrait name="Flyer"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<weaponDamage weapon="Whiplash"/>
+										<addTrait  name="Drukhari/NoEscape" durationMin="1" durationMax="3"/>
+										<addTrait  name="Blind" durationMin="1" durationMax="3"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</noEscape>
+
+
+
+
+
+
+
+
+
+
+
+		<genericUnitAbility passive="1"
+				name="Drukhari/BridesOfDeath"
+				rank="-1"
+				rankMax="2">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Drukhari/BridesOfDeath"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+
+
+		<whirlingDeath cooldown="3"
+				elite="1"
+				name="Drukhari/WhirlingDeath"
+				consumedMovement="1"
+				consumedActionPoints="1"
+				requiredActionPoints="1"
+				levelUpPriority="1"
+				rank="-1"
+				rankMax="0">
+			<model>
+				<action animation="Units/Drukhari/SuccubusAbility"
+						bone="Chest"
+						sound="Actions/WhirlingDeath"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit" radius="1" excludeRadius="0">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<enemy/>
+											<noTrait name="Flyer"/>
+										</unit>
+									</conditions>
+									<effects>
+										<weaponDamage weapon="WhirlingDeath"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</whirlingDeath>
+		<levelUp/>
+		<shop/>
+	</actions>
+	<traits>
+
+
+		<trait name="Drukhari/InfantryDefensivUpgrade" requiredUpgrade="Drukhari/InfantryDefensivUpgrade"/>
+		<trait name="Drukhari/InfantryOffensivUpgrade" requiredUpgrade="Drukhari/InfantryOffensivUpgrade"/>
+
+		<trait name="Drukhari/InfantryDefensivUpgrade2" requiredUpgrade="Drukhari/AdvancedDefensivUpgrade"/>
+		<trait name="Drukhari/InfantryOffensivUpgrade2" requiredUpgrade="Drukhari/AdvancedOffensivUpgrade"/>
+
+
+		<trait name="Drukhari/Dodge"/>		
+		<trait name="Drukhari/PowerFromPain"/>		
+			
+		<trait name="Hero1"/>
+		<trait name="Fleet"/>
+
+		<trait name="Drukhari/RaidersTactics"/>
+		<trait name="Drukhari/RaidersTacticsHealingRate" requiredUpgrade="Drukhari/RaidersTacticsHealingRate"/>
+		<trait name="Drukhari/SoulHunger"/>
+	</traits>
+</unit>

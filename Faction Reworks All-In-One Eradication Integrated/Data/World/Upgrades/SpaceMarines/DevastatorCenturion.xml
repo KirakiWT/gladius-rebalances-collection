@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade dlc="Supplement8" position="7" icon="Units/SpaceMarines/DevastatorCenturion">
+	<requiredUpgrades>
+		<upgrade name="SpaceMarines/AdvancedInfantry"/>
+	</requiredUpgrades>
+</upgrade>

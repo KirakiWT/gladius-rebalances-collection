@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="Difficulty0ChaosDaemons_MT" value="Cultist"/>
+	<entry name="Difficulty1ChaosDaemons_MT" value="Spawn"/>
+	<entry name="Difficulty2ChaosDaemons_MT" value="Fallen Brother"/>
+	<entry name="Difficulty3ChaosDaemons_MT" value="Champion of Chaos"/>
+	<entry name="Difficulty4ChaosDaemons_MT" value="Chaos Lord"/>
+	<entry name="Difficulty5ChaosDaemons_MT" value="Daemon Prince"/>
+	<entry name="Difficulty6ChaosDaemons_MT" value="Dark God"/>
+</language>

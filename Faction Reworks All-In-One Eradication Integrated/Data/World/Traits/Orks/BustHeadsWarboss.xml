@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Traits/Orks/BustHeadsWarboss" rankMax="2">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<allied/>
+					<faction name="Orks"/>
+					<trait name="Orks/Warboss"/>
+				
+				</unit>
+			</conditions>
+
+			<effects>
+				<invulnerableDamageReduction addMin="0.08" addMax="0.24"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

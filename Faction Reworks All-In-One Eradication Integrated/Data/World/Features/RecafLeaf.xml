@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feature category="Resource" explorable="1">
+	<model>
+		<vegetation material="Features/RecafLeaf"
+				depthMaterial="Features/RecafLeafDepth"/>
+	</model>
+	<areas>
+		<area affects="Tile" radius="1">
+			<modifiers>
+				<modifier>
+					<effects>
+						<production mul="0.1"/>
+						<food mul="0.1"/>
+						<ore mul="0.1"/>
+						<biomass mul="0.1"/>
+						<requisitions mul="0.1"/>
+					</effects>
+				</modifier>
+
+			</modifiers>
+		</area>
+	</areas>
+	<modifiers>
+		<modifier>
+			<effects>
+				<biomass add="2"/>
+				<buildingSlots max="0"/>
+				<food add="1.5"/>
+				<ore add="1.5"/>
+				<requisitions add="2"/>
+
+				<food mul="0.1"/>
+				<ore mul="0.1"/>
+				<biomass mul="0.1"/>
+				<requisitions mul="0.1"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<conditions>
+				<player>
+					<faction name="Necrons"/>
+				</player>
+			</conditions>
+			<effects>
+				<energy mul="0.2"/>
+				<energy add="1.5"/>
+			</effects>
+		</modifier>
+<modifier requiredUpgrade="Eldar/MaidenWorldMastery">
+			<effects>
+				<food add="0.5"/>
+				<influence add="0.5"/>
+			</effects>
+		</modifier>
+
+<modifier requiredUpgrade="Eldar/MaidenWorldMastery2">
+			<effects>
+				<food add="0.5"/>
+				<influence add="0.5"/>
+			</effects>
+		</modifier>
+
+
+
+
+				<modifier requiredUpgrade="Necrons/Dominion">
+			<effects>
+				<influence add="0.5"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="Necrons/Dominion1">
+			<effects>
+				<influence add="0.5"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="Necrons/Dominion3">
+			<effects>
+				<influence add="1"/>
+			</effects>
+		</modifier>
+
+
+
+		<modifier requiredUpgrade="Tyranids/Dominion1">
+			<effects>
+				<influence add="1"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="Tyranids/Dominion2">
+			<effects>
+				<influence add="1"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="Tyranids/Dominion3">
+			<effects>
+				<influence add="1"/>
+			</effects>
+		</modifier>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</modifiers>
+	<vegetation>
+		<trees clusterSizeMin="10" clusterSizeMax="20"
+				scaleMin="0.5" scaleMax="2.0">
+			<meshes>
+				<mesh name="Terrain/Vegetation/RecafPlant0"/>
+				<mesh name="Terrain/Vegetation/RecafPlant1"/>
+				<mesh name="Terrain/Vegetation/RecafPlant2"/>
+				<mesh name="Terrain/Vegetation/RecafPlant3"/>
+				<mesh name="Terrain/Vegetation/RecafPlant4"/>
+				<mesh name="Terrain/Vegetation/RecafPlant5"/>
+				<mesh name="Terrain/Vegetation/RecafPlant6"/>
+				<mesh name="Terrain/Vegetation/RecafPlant7"/>
+			</meshes>
+		</trees>
+	</vegetation>
+
+	<rewards>
+
+		<unit type="Neutral/KrootHound"/>
+		<item type="AdamantiumWeaveVest"/>
+		<item type="AegisHarness"/>
+		<item type="ArmaplasBracers"/>
+		<item type="AxeOfBlindFury"/>
+		<item type="BlightGrenade"/>
+		<item type="BlindGrenade"/>
+		<item type="CombatStimulant"/>
+		<item type="ConcealedWeaponSystem"/>
+		<item type="DuskBlade"/>
+		<item type="DimensionalKey"/>
+		<item type="EnduranceImplant"/>
+		<item type="EntropicLocum"/>
+		<item type="FaolchusWing"/>
+		<item type="ForbiddenKnowledge"/>
+		<item type="JokaeroDigitalWeapon"/>
+		<item type="LaurelsOfCommand"/>
+		<item type="LightningGauntlet"/>
+		<item type="ManCatcher"/>
+		<item type="MourningBladeOfLazaerek"/>
+		<item type="OmniScope"/>
+		<item type="PoweredBolas"/>
+		<item type="PoweredGauntlet"/>
+		<item type="RecoveryPackage"/>
+		<item type="ScrollsOfMagnus"/>
+		<item type="SightlessHelm"/>
+		<item type="StunGrenade"/>
+		<item type="TantalisingIcon"/>
+		<item type="TemporaryShield"/>
+		<item type="UltraWidebandAuspex"/>
+		<item type="UncreatorGauntlet"/>
+		<item type="VolcanisShroud"/>
+		<item type="ZoatHideJerkin"/>
+	</rewards>
+
+
+
+
+</feature>

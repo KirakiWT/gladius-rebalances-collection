@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit dlc="Supplement14">
+	<model>
+		<unit mesh="Units/AstraMilitarum/FieldOrdnanceBattery"
+				material="Units/AstraMilitarum/FieldOrdnanceBattery"
+				idleAnimation="Units/AstraMilitarum/FieldOrdnanceBatteryIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="0.8 0.8 0.8"
+				explosionsBone="Gun"
+				walker="1"/>
+	</model>
+	<group size="2" rowSize="2" memberDeltaX="90" memberDeltaY="120"/>
+	<weapons>
+		<weapon name="BombastFieldGun" slotName="BombastFieldGun">
+			<model>
+				<projectileWeapon muzzleBone="Muzzle"
+						fireInterval="0.83"/>
+			</model>		
+		</weapon>
+
+		<weapon name="BombastFieldGun1" slotName="BombastFieldGun1" enabled="0">
+			<model>
+				<projectileWeapon muzzleBone="Muzzle"
+						fireInterval="0.83"/>
+			</model>		
+		</weapon>
+
+
+
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="6"/> <!-- %armor base armor=4+ -->
+				<foodUpkeep base="2.0"/> <!-- %foodUpkeep base tier=6 factor=1 -->
+				<foodCost base="30.0"/> <!-- %foodCost base tier=6 factor=0.5 -->
+				<hitpointsMax base="10.0"/> <!-- %hitpointsMax base toughness=4 wounds=3 -->
+				<meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
+				<meleeAttacks base="2"/>
+				<strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
+				<!-- <meleeInitiative base="3"/> -->
+				<oreCost base="30.0"/> <!-- %oreCost base tier=6 factor=0.5 -->
+				<moraleMax base="6"/> <!-- %moraleMax base leadership=6 -->
+				<movementMax base="3"/>
+				<productionCost base="42.0"/> <!-- %productionCost base tier=6 factor=1 -->
+				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseInfantryScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action	animation="Units/AstraMilitarum/FieldOrdnanceBatteryAttack"
+						beginFire="1.0"
+						endFire="1.1"/>
+			</model>			
+		</attack>
+		<die>
+			<model>
+				<action	animation="Units/AstraMilitarum/FieldOrdnanceBatteryDie0"
+						sound="Units/LargeArmoredDie"
+						soundCount="4"
+						soundDelay="0.65"
+						voiceSound="Units/AstraMilitarum/InfantryDie"
+						voiceSoundCount="5"/>
+			</model>
+		</die>
+		<idle>
+			<model>
+				<action animationSpeed="1.0"/>
+			</model>
+		</idle>
+		<move>
+			<model>
+				<action	animation="Units/AstraMilitarum/FieldOrdnanceBatteryMove"
+						sound="Units/AstraMilitarum/FieldOrdnanceBatteryMove"
+						soundCount="3"/>
+			</model>		
+		</move>
+
+	<cycleWeapon interfaceSound="Interface/CycleWeapon" 
+				weaponSlotNames="BombastFieldGun BombastFieldGun1"/>
+
+
+
+<mediPack cooldown="10" requiredUpgrade="AstraMilitarum/MediPack1">
+			<model>
+				<action bone="ChestBone"
+						sound="Actions/Heal"/>
+			</model>
+			<conditions>
+				<unit>
+					<damaged/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<hitpointsFactorFromMax add="0.5"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</mediPack>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</actions>
+	<traits>
+
+		<trait name="AstraMilitarum/InfantryDefensivUpgrade" requiredUpgrade="AstraMilitarum/InfantryDefensivUpgrade"/>
+		<trait name="AstraMilitarum/InfantryOffensivUpgrade" requiredUpgrade="AstraMilitarum/InfantryOffensivUpgrade"/>
+
+		<trait name="AstraMilitarum/InfantryDefensivUpgrade2" requiredUpgrade="AstraMilitarum/AdvancedDefensivUpgrade"/>
+		<trait name="AstraMilitarum/InfantryOffensivUpgrade2" requiredUpgrade="AstraMilitarum/AdvancedOffensivUpgrade"/>
+
+
+
+
+
+		<trait name="VeryBulky"/>
+		<trait name="AstraMilitarum/Ambush"/>
+		
+		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
+		
+	</traits>
+</unit>

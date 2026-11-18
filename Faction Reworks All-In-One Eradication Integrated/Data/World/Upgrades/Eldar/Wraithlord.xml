@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade visible="0" icon="Units/Eldar/Wraithlord" dlc="Supplement14">
+	<requiredUpgrades>
+		<upgrade name="Eldar/Ranger"/>
+	</requiredUpgrades>
+</upgrade>

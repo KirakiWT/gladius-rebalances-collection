@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade visible="0" icon="Units/Tau/Commander">
+	<requiredUpgrades>
+		<upgrade name="Tau/AdvancedVehicles"/>
+		<upgrade name="Tau/AdvancedInfantry"/>
+	</requiredUpgrades>
+</upgrade>

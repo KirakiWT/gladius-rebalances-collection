@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch">
+	<modifiers>
+		<modifier>
+			<effects>
+				<feelNoPainDamageReduction add="0.17"/>
+				<meleeDamageTaken mul="0.50"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

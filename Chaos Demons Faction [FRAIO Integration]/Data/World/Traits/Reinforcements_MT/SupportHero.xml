@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" visible="0">
+	<perTurnModifiers endure="0">
+		<modifier>
+			<conditions>
+				<player><aiControlled/></player>
+				<unit>
+					<noTrait name="Items/ArmaplasBracers"/>
+					<level greater="0"/>
+				</unit>
+			</conditions>
+			<effects>
+				<addTrait name="Items/ArmaplasBracers"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<conditions>
+				<player><aiControlled/></player>
+				<unit>
+					<noTrait name="Items/ScrollsOfMagnus"/>
+					<level greater="2"/>
+				</unit>
+			</conditions>
+			<effects>
+				<addTrait name="Items/ScrollsOfMagnus"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<conditions>
+				<player><aiControlled/></player>
+				<unit>
+					<noTrait name="Items/ConcealedWeaponSystem"/>
+					<level greater="4"/>
+				</unit>
+			</conditions>
+			<effects>
+				<addTrait name="Items/ConcealedWeaponSystem"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<conditions>
+				<player><aiControlled/></player>
+				<unit>
+					<noTrait name="Items/AdamantiumWeaveVest"/>
+					<level greater="6"/>
+				</unit>
+			</conditions>
+			<effects>
+				<addTrait name="Items/AdamantiumWeaveVest"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<conditions>
+				<player><aiControlled/></player>
+				<unit>
+					<noTrait name="Items/ZoatHideJerkin"/>
+					<level greater="7"/>
+				</unit>
+			</conditions>
+			<effects>
+				<addTrait name="Items/ZoatHideJerkin"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<conditions>
+				<player><aiControlled/></player>
+				<unit>
+					<noTrait name="Items/TantalisingIcon"/>
+					<level greater="8"/>
+				</unit>
+			</conditions>
+			<effects>
+				<addTrait name="Items/TantalisingIcon"/>
+			</effects>
+		</modifier>
+	</perTurnModifiers>
+</trait>

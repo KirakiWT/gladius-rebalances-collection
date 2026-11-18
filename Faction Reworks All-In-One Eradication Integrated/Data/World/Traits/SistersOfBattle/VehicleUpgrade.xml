@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait icon="Traits/SistersOfBattle/VehicleUpgrade">
+	<modifiers>
+		<modifier>
+			<effects>
+
+				<damage mul="0.05"/>
+			
+				<accuracy mul="0.05"/>
+
+				<hitpointsMax mul="0.10"/>
+
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

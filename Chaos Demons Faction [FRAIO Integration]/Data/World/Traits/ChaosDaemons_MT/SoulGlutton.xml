@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Buff" icon="Traits/ChaosSpaceMarines/Bloated" rankMax="2">
+	<onEnemyKilledSelfModifiers>
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent>
+						<noTrait name="IronWill"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<hitpointsFactorFromMax addMin="0.15" addMax="0.45"/>
+				<processUse action="ChaosDaemons_MT/SoulGlutton"/>
+			</effects>
+		</modifier>
+	</onEnemyKilledSelfModifiers>
+</trait>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait icon="Attributes/LifeSteal" rankMax="2">
+	<modifiers>
+		<modifier>
+			<effects>
+				<lifeStealFactor addMin="0.5" addMax="1.5"/>
+				<lifeStealRadius add="1.0" addMax="3.0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

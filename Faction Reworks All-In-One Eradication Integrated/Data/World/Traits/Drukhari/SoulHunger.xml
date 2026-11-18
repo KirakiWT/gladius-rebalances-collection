@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" alwaysVisible="1">
+	<modifiers>
+		<modifier>
+			<effects>
+				<influencePerKillValue add="3"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="Drukhari/SoulHungerUpgrade">
+			<effects>
+				<researchPerKillValue add="2"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="Drukhari/SoulHungerUpgrade1">
+			<effects>
+				<influencePerKillValue add="2"/>
+			</effects>
+		</modifier>
+
+	<modifier requiredUpgrade="Drukhari/SoulHungerUpgrade2">
+			<effects>
+				<influencePerKillValue add="2"/>
+			</effects>
+		</modifier>
+
+
+	</modifiers>
+</trait>

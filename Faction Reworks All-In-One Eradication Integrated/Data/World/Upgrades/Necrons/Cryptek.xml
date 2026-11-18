@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade visible="0" icon="Units/Necrons/Cryptek">
+	<requiredUpgrades>
+		<upgrade name="Necrons/Heroes"/>
+	</requiredUpgrades>
+</upgrade>

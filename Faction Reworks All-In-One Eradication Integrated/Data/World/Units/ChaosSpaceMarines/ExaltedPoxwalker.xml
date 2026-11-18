@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit spawnDistanceMin="6" dlc="Supplement12">
+	<model>
+		<unit mesh="Units/Neutral/Poxwalker"
+				material="Units/Neutral/Poxwalker"
+				idleAnimation="Units/Neutral/PoxwalkerIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="0.9 0.9 0.9"
+				bloodBone="Chest"
+				walker="1"/>
+	</model>
+	<group size="7" rowSize="4" memberDeltaX="70" memberDeltaY="50"/>
+	<weapons>
+		<weapon name="CloseCombatWeapon">
+ 			<model>
+				<weapon fireInterval="10.0"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="0"/> <!-- %armor base armor=- -->
+				<hitpointsMax base="3.5"/> <!-- %hitpointsMax base toughness=4 wounds=1 -->
+				<meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
+				<meleeAttacks base="1.5"/>
+				<strengthDamage base="2"/> <!-- %strengthDamage base strength=3 -->
+				<moraleMax base="6"/> <!-- %moraleMax base leadership=5 -->
+				<movementMax base="4"/>
+				<productionCost base="30.0"/> <!-- %productionCost base tier=5 factor=1 -->
+				<rangedAccuracy base="4"/> <!-- %rangedAccuracy base ballisticSkill=2 -->
+				<foodUpkeep base="0.75"/> <!-- %foodUpkeep base tier=4 factor=1 -->
+				<energyUpkeep base="0.75"/> <!-- %foodUpkeep base tier=4 factor=1 -->
+				<foodCost base="15.0"/> <!-- %foodCost base tier=4 factor=0.5 -->
+				<energyCost base="15.0"/> <!-- %oreCost base tier=4 factor=0.5 -->
+
+
+
+
+			</effects>
+		</modifier>
+	</modifiers>
+	<actions>
+		<attack>
+			<model>
+				<action chargeAnimation="Units/Neutral/PoxwalkerCharge"
+						meleeAnimation="Units/Neutral/PoxwalkerMelee"
+						meleeBeginSwing="0.5"
+						meleeEndSwing="0.6"/>
+			</model>
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/Neutral/PoxwalkerDie"
+						animationCount="2"
+						sound="Units/MediumUnarmoredDie"
+						soundCount="4"
+						soundDelay="0.7"
+						voiceSound="Units/Neutral/PoxwalkerDie"
+						voiceSoundCount="3"/>
+			</model>
+		</die>
+		<idle>
+			<model>
+				<action/>
+			</model>
+		</idle>
+		<move>
+			<model>
+				<action animation="Units/Neutral/PoxwalkerMove"
+						sound="Units/Tyranids/InfantryMove"
+						soundCount="4"/>
+			</model>
+		</move>
+	
+
+		<genericUnitAbility name="ChaosSpaceMarines/CultistSacrifice">
+			<model>
+			
+			</model>
+			<beginTargets>
+				<target rangeMax="1">
+					<conditions>
+						<unit>
+							<allied/>
+							<type name="ChaosSpaceMarines/Headquarters"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="City">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosSpaceMarines/CultistSacrifice" duration="10"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+			<endTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<removeUnit/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</endTargets>
+		</genericUnitAbility>
+
+		<constructNoctilithCrown icon="Units/ChaosSpaceMarines/NoctilithCrown"
+				requiredUpgrade="ChaosSpaceMarines/NoctilithCrown"
+				cooldown="10">
+			<model>
+		
+			</model>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<energyCost base="20"/>
+						<oreCost base="20"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<beginTargets>
+				<target rangeMax="1">
+					<conditions>
+						<tile>
+							<noFeatureCategory name="Resource"/>
+							<noFeatureCategory name="WireWeed"/>
+							<land/>
+							<noEnemyCity/>
+							<noUnit/>
+							<noFeature name="GravityWaves"/>
+						</tile>
+					</conditions>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addUnit name="ChaosSpaceMarines/NoctilithCrown"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</constructNoctilithCrown>
+
+
+
+
+
+		<genericUnitAbility name="ChaosSpaceMarines/SkullsquirmBlight"
+				passive="1">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" excludeRadius="0" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosSpaceMarines/SkullsquirmBlight"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+
+
+
+
+
+
+
+</actions>
+	<traits>
+		
+		<trait name="ChaosSpaceMarines/CulstistUpgrade" requiredUpgrade="ChaosSpaceMarines/CulstistUpgrade"/>
+		<trait name="ChaosSpaceMarines/ChampionOfChaos"/>
+		<!-- <trait name="Relentless"/> -->
+		<trait name="UnendingHorde"/>
+		<trait name="ChaosSpaceMarines/LeaderInRange"/>
+		<trait name="ChaosSpaceMarines/MarkOfNurgle"/>
+<trait name="Regeneration"/>
+
+
+	</traits>
+</unit>

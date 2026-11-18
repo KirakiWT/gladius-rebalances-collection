@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/Neutral/DragonDiffuse"/>
+		<texture name="Units/Neutral/DragonNormal"/>
+		<texture name="Units/Neutral/DragonSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade dlc="Supplement8" visible="0" icon="Units/Necrons/CanoptekWraith">
+	<requiredUpgrades>
+		<upgrade name="Necrons/Heroes"/>
+	</requiredUpgrades>
+</upgrade>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Buff" icon="Traits/RuinsStealth">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<notMovedThisTurn/>
+				</unit>
+				<tile match="Any">
+					<feature name="ImperialRuin"/>
+					<feature name="Forest"/>
+				</tile>
+			</conditions>
+			<effects>
+				<damage mul="0.2"/>
+				<rangedDamageReduction add="0.17"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

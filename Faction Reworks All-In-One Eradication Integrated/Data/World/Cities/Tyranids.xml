@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<city>
+	<traits>
+		<!-- Grey Matter Dispersion merged into Accelerated Brood Cycle: loyalty effect now unlocked by CityPopulationLimit -->
+		<trait name="Tyranids/CityLoyalty" requiredUpgrade="Tyranids/CityPopulationLimit"/>
+		<trait name="Tyranids/CityProduction" requiredUpgrade="Tyranids/CityProduction"/>
+	</traits>
+</city>

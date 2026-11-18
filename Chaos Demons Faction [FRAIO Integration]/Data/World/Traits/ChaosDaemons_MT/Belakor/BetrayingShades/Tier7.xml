@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait visible="0">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<player match="Any">
+					<upgrade name="ChaosDaemons_MT/LocusOfPoxesUncounted"/>
+					<upgrade name="ChaosDaemons_MT/WarpRift"/>
+					<upgrade name="ChaosDaemons_MT/RiteOfBlood"/>
+					<upgrade name="ChaosDaemons_MT/BlastDamage"/>
+					<upgrade name="ChaosDaemons_MT/ExtraVehicleArmour"/>
+					<upgrade name="ChaosDaemons_MT/BurningChariot"/>
+					<upgrade name="ChaosDaemons_MT/Aircraft"/>
+				</player>
+			</conditions>
+			<effects>
+				<rangedArmorPenetration add="1"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

@@ -1,0 +1,1618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+
+	<entry name="Orks/GargantuanSquiggoth" value="Gargantuan Squiggoth"/>
+	<entry name="Orks/GargantuanSquiggothDescription" value="Massive fearsome beast unit that crushes enemy troops and serves as a transport."/>
+	<entry name="Orks/GargantuanSquiggothFlavor" value="Squiggoths are Orkoid monstrosities, towering hulks made of little more than muscle and bad temper. They are distantly related to Squigs and have all savagery and single-mindedness of their smaller cousins, but Squiggoths can grow so large that they dwarf tanks and even buildings. Goaded by the Orks that ride on a howdah upon its back, the Squiggoth thuds into battle, the ground tremblind beneath its feet."/>
+
+	<entry name="Orks/Warboss" value="Warboss"/>
+	<entry name="Orks/WarbossDescription" value="Hero unit that crushes enemies in close combat and inspires allies."/>
+	<entry name="Orks/WarbossFlavor" value="An Ork Warboss is the strongest, toughest, loudest and most violent Ork in his tribe. These massive greenskins seize the lion's share of the loot from every fight, meaning they are usually armed and armoured better than any of their followers. Warbosses are not above making a swift and messy example of anyone whose kit seems shinier or more killy than theirs. They wield absolute authority over their tribe, for greenskin society is based on the idea that might makes right."/>
+
+	<entry name="Orks/BoysGrabdaShootas" value="Boys Grab da Shootas"/>
+	<entry name="Orks/BoysGrabdaShootasDescription" value="Battlewagon and Kill Bursta gain extra weapon arrays, which can be shot by passengers."/>
+	
+	<entry name="Orks/Bosspole" value="Bosspole"/>
+	<entry name="Orks/BosspoleDescription" value="Further reduces the morale loss of all Mob Rule Units"/>
+	<entry name="Orks/BosspoleFlavor" value="Ork Nobz often sport a trophy pole that shows they are not to be messed with. A Nob with a Bosspole often finds it comes in handy when cracking heads to restore some order in the heat of battle."/>
+
+	<entry name="Orks/Stikkbomb" value="<string name='Weapons/Stikkbomb'/>"/>
+	<entry name="Orks/StikkbombDescription" value="Grants Boys, Warbuggies, Burna Boys, Flash Gitz, Meganobz and Tankbustas the ability to throw anti-infantry grenades."/>
+	<entry name="Orks/StikkbombFlavor" value="<string name='Weapons/StikkbombFlavor'/>"/>
+
+	<entry name="Orks/TankbustaBomb" value="<string name='Weapons/TankbustaBomb'/>"/>
+	<entry name="Orks/TankbustaBombDescription" value="Grants Tankbustas, Meks, Warbikers, Kommandos and Big Mek the ability to throw anti-armour bombs."/>
+	<entry name="Orks/TankbustaBombFlavor" value="<string name='Weapons/TankbustaBombFlavor'/>"/>
+
+	<entry name="Orks/Kommando" value="Kommandos"/>
+	<entry name="Orks/KommandoDescription" value="Alpha-strike infiltrator unit that excels in forests or Imperial ruins and can deliver a powerful alpha strike."/>
+	<entry name="Orks/KommandoFlavor" value="Where most Orks love getting stuck in with a minimum of muckin’ about, Kommandos take the average Ork’s low cunning to the extreme. Rather than run at an enemy yelling, they would rather sneak up and stick a dagger through their victim’s ribs. Their greatest satisfaction is the thump of exploding ammo dumps or the screams of enemies as stikkbombs clatter into their barracks. Other Orks grumble, calling it ‘un-Orky’, but can’t deny its effectiveness."/>
+
+	<entry name="Orks/AdvancedVehicles" value="Da Dread Forge"/>
+	<entry name="Orks/AdvancedVehiclesDescription" value="Building that produces Mid and late-game Vehicles and Aircraft like: Deff Dreads, Kill Burstas, Big Meks, Burna-Bommers, Gorkanauts and Wazbom Blastajets. <br/><br/>Units here cost Ore, Food and Energy. Requires 2 build slots and 2 population to operate, but offers higher production."/>
+
+	<entry name="Orks/AdvancedInfantry" value="Da Boss Pit"/>
+	<entry name="Orks/AdvancedInfantryDescription" value="Building that produces Mid and late-game Infantry and Aircraft Units like: Warbosses, Flash Gitz, Meganobz, Squighog Boyz, Dakkajets and Gargantuan Squiggoth. <br/><br/>Units here cost Food and Ore. Requires 2 build slots and 2 population to operate, but offers higher production."/>
+
+	<entry name="Orks/EndlessHorde" value="Endless horde"/>
+	<entry name="Orks/EndlessHordeDescription" value="Increases the unit size of Boyz, Burna Boyz, Tankbustas, and Kommandos by 1."/>
+	
+	<entry name="Orks/AdvancedVehicles" value="Da Dread Forge"/>
+	<entry name="Orks/AdvancedVehiclesDescription" value="Building that produces Mid and late-game Vehicles and Aircraft like: Deff Dreads, Kill Burstas, Big Meks, Burna-Bommers and Gorkanauts. <br/><br/>Units here cost Ore, Food and Energy. Requires 2 build slots and 2 population to operate, but offers higher production."/>
+
+	<entry name="Orks/AdvancedInfantry" value="Da Boss Pit"/>
+	<entry name="Orks/AdvancedInfantryDescription" value="Building that produces Mid and late-game Infantry and Aircraft Units like: Warbosses, Flash Gitz, Meganobz, Squighog Boyz, Dakkajets and Gargantuan Squiggoth. <br/><br/>Units here cost Food and Ore. Requires 2 build slots and 2 population to operate, but offers higher production."/>
+
+	<entry name="Orks/Housing" value="Da Mob Pen"/>
+	<entry name="Orks/HousingDescription" value="Special Ork building that increases the population limit and can also produce Ork Boyz. <br/><br/>Requires 2 build slots and 0 population to operate."/>
+	<entry name="Orks/HousingFlavor" value="Where boyz gather, fight, and get ready for a proper scrap."/>
+
+	<entry name="Orks/BonusEliteProduction" value="Bonus for elite production"/>
+	<entry name="Orks/BonusEliteProductionDescription" value="Increases the production output of Da Boss Pit and Da Dread Forge by 17%."/>
+
+
+
+
+	<entry name="Orks/ExpandedRanks1" value="Endless Horde"/>
+	<entry name="Orks/ExpandedRanks1Description" value="All units produced Units in the Pile O' Dakka and Meks increase their Squad Size by 1."/>
+
+
+	<entry name="Orks/VehicleOffensivUpgrade" value="Vehicle Dakka Enhancements"/>
+	<entry name="Orks/VehicleOffensivUpgradeDescription" value="All Vehicles produced in the Kult ov Speed and Mek Bitz Yard gain +5% extra damage and +5% extra accuracy."/>
+
+	<entry name="Orks/VehicleDefensivUpgrade" value="Vehicle Armour Modz"/>
+	<entry name="Orks/VehicleDefensivUpgradeDescription" value="All Vehicles produced in the Kult ov Speed and Mek Bitz Yard gain +10% Hitpoints and +5% Feel No Pain damage reduction."/>
+
+
+	<entry name="Orks/InfantryOffensivUpgrade2" value="Infantry Dakka Enhancements"/>
+	<entry name="Orks/InfantryOffensivUpgrade2Description" value="All Infantry Units produced in the Pile O' Dakka and Meks gain another +3% extra damage and +3% extra accuracy."/>
+
+	<entry name="Orks/InfantryDefensivUpgrade2" value="Infantry Armour Modz"/>
+	<entry name="Orks/InfantryDefensivUpgrade2Description" value="All Infantry Units produced in the Pile O' Dakka and Meks gain another +10% Hitpoints and +5% Feel No Pain damage reduction."/>
+
+
+	<entry name="Orks/VehicleOffensivUpgrade2" value="MORE Vehicle Dakka Enhancements"/>
+	<entry name="Orks/VehicleOffensivUpgrade2Description" value="All Vehicles produced in the Kult ov Speed and Mek Bitz Yard gain another +3% extra damage and +3% extra accuracy."/>
+
+	<entry name="Orks/VehicleDefensivUpgrade2" value="MORE Vehicle Armour Modz"/>
+	<entry name="Orks/VehicleDefensivUpgrade2Description" value="All Vehicles produced in the Kult ov Speed and Mek Bitz Yard gain another +10% Hitpoints"/>
+
+
+
+	<entry name="Orks/AdvancedOffensivUpgrade" value="Elite Dakka Enhancements"/>
+	<entry name="Orks/AdvancedOffensivUpgradeDescription" value="All Units produced in Da Dread Forge and Da Boss Pit gain +5% extra damage and +5% extra accuracy. <br/><br/>All Units produced in Imperial Barracks, Veteran Barracks and Manufactorum gain another +3% extra damage and +3% extra accuracy."/>
+
+	<entry name="Orks/AdvancedDefensivUpgrade" value="Elite Armour Modz"/>
+	<entry name="Orks/AdvancedDefensivUpgradeDescription" value="All Units produced in Da Dread Forge and Da Boss Pit gain +10% Hitpoints.  <br/><br/><br/><br/>All Units produced in Imperial Barracks, Veteran Barracks and Manufactorum gain another +10% Hitpoints and 5% "/>
+
+
+	<entry name="Orks/Heroes" value="Da Boss Pit"/>
+	<entry name="Orks/HeroesDescription" value="Building that produces Mid and late-game Infantry and Aircraft Units like: Warbosses, Flash Gitz, Meganobz, Squighog Boyz, Dakkajets and Gargantuan Squiggoth. <br/><br/>Units here cost Food and Ore. Requires 2 build slots and 2 population to operate, but offers higher production."/>
+	<entry name="Orks/HeroesFlavor" value="Only da strongest Orks come outta Da Boss Pit. Everyone else gets stomped, squished, or turned into a lesson fer da next fight." />
+
+
+
+
+
+
+
+
+	<entry name="Tyranids/TyranidPrime" value="Tyranid Prime"/>
+	<entry name="Tyranids/TyranidPrimeDescription" value="Fearsome synapse hero unit that boosts allied Tyranid Warriors. <br/><br/>This Unit can be build in the Predator Lair"/>
+	<entry name="Tyranids/TyranidPrimeFlavor" value="Tyranid Primes are the apex of the Tyranid Warrior strain, faster, stronger and smarter than the other Warriors they lead to battle, who instinctively emulate their deadly skill."/>
+
+	<entry name="Tyranids/HiveCrone" value="Hive Crone"/>
+	<entry name="Tyranids/HiveCroneDescription" value="Flyer unit that excels against airborne targets."/>
+	<entry name="Tyranids/HiveCroneFlavor" value="The Hive Crone is a flying monstrosity used by the Tyranids to establish air superiority over prey worlds. It is a creature perfectly adapted to aerial combat, able to wrestle enemy aircraft out of the skies as proficiently as any daredevil pilot at the controls of a sophisticated jet-fighter."/>
+
+	<entry name="Tyranids/Tyrannocyte" value="Tyrannocyte"/>
+	<entry name="Tyranids/TyrannocyteDescription" value="Monstrous creature that transports units to the frontline and supports them by pinning down enemy units."/>
+	<entry name="Tyranids/TyrannocyteFlavor" value="Normally acting as organic drop pods discharged from orbiting Hive Ships, Tyrannocytes have been adapted by the Gladius Prime Hive Mind, isolated as it is by warp storms. Here they act as lumbering floating transports, carrying creatures as large as Carnifexes and protecting them until close to the enemy. Then the Tyrannocyte’s gravid belly opens, disgorging their monstrous cargo, whilst it assaults the enemy with endless barbed stranglers…"/>
+
+	<entry name="Tyranids/Tyrannocyte" value="Tyrannocyte"/>
+	<entry name="Tyranids/TyrannocyteDescription" value="Monstrous creature that transports units to the frontline and supports them by pinning down enemy units."/>
+	<entry name="Tyranids/TyrannocyteFlavor" value="Normally acting as organic drop pods discharged from orbiting Hive Ships, Tyrannocytes have been adapted by the Gladius Prime Hive Mind, isolated as it is by warp storms. Here they act as lumbering floating transports, carrying creatures as large as Carnifexes and protecting them until close to the enemy. Then the Tyrannocyte’s gravid belly opens, disgorging their monstrous cargo, whilst it assaults the enemy with endless barbed stranglers…"/>
+
+	<entry name="Tyranids/Malanthrope" value="Malanthrope"/>
+	<entry name="Tyranids/MalanthropeDescription" value="Support unit that consumes tiles and founds new cities."/>
+	<entry name="Tyranids/MalanthropeFlavor" value="Malanthropes are rarely seen Tyranid creatures. This is because they are not truly warrior organisms, and so are not usually encountered by a prey world's defenders. Instead, these floating creatures follow behind the Tyranid attack; they are typically created only after a prey world's protectors have been defeated and the swarm is in the process of devouring the planet's biomass. On those few occasions that a survivor has seen a Malanthrope and somehow escaped, they have brought with them a tale of horror. They report seeing these giants drift across corpse-strewn battlefields, but unlike other Tyranids, which mindlessly devour everything in their way, Malanthropes seem to selectively search through the slain—as to what they are searching for, none can say."/>
+
+	<entry name="Tyranids/BioAdaptationRegeneration" value="-Bio-Adaptations: Regeneration"/>
+	<entry name="Tyranids/BioAdaptationRegenerationDescription" value="Units with this bio-adaptation regenerate 2 HP per turn. Each Tyranid unit has bio-adaptation slots that limit the number of bio-adaptations it can evolve."/>
+	<entry name="Tyranids/BioAdaptationRegenerationFlavor" value="Torn flesh knits together with sickening speed as adaptive cells multiply beyond mortal comprehension. Wounds that should be fatal become mere inconveniences to the Hive Mind's perfected organisms."/>
+
+	<entry name="Tyranids/BioAdaptationAdrenalGlands" value="-Bio-Adaptations: Adrenal Glands"/>
+	<entry name="Tyranids/BioAdaptationAdrenalGlandsDescription" value="Units with this bio-adaptation gain 1 additional Movement. Each Tyranid unit has bio-adaptation slots that limit the number of bio-adaptations it can evolve."/>
+	<entry name="Tyranids/BioAdaptationAdrenalGlandsFlavor" value="Adrenal glands saturate their host's bodies with chemicals that boost the creature's metabolism to a hyperactive state of frenzy."/>
+
+	<entry name="Tyranids/BioAdaptationToxinSacs" value="-Bio-Adaptations: Offensive Mutations"/>
+	<entry name="Tyranids/BioAdaptationToxinSacsDescription" value="Grants access to the Toxin Sacs and Hunter-Worm Hive bio-adaptations, which increase either melee or ranged capabilities."/>
+
+	<entry name="Tyranids/BioAdaptationHunterWormHive" value="-Bio-Adaptations: Hunter-Worm Hive"/>
+	<entry name="Tyranids/BioAdaptationHunterWormHiveDescription" value="Units with this bio-adaptation additional Ranged accuracy. Each Tyranid unit has bio-adaptation slots that limit the number of bio-adaptations it can evolve."/>
+	<entry name="Tyranids/BioAdaptationHunterWormHiveFlavor" value="Writhing clusters of predatory parasites nest beneath chitinous plates, their microscopic senses attuned to distant prey. When the creature fires, a thousand hunter worms guide each projectile with unerring precision."/>
+
+	<entry name="Tyranids/BioAdaptationAcidicCarapace" value="-Bio-Adaptation: Defensive Carapaces"/>
+	<entry name="Tyranids/BioAdaptationAcidicCarapaceDescription" value="Grants access to the Acidic Carapace and Sporeburst Carapace bio-adaptations, which increase either melee or ranged defense."/>
+
+	<entry name="Tyranids/BioAdaptationBroodleechHive" value="-Bio-Adaptation: Brood-leech Hive"/>
+	<entry name="Tyranids/BioAdaptationBroodleechHiveDescription" value="Units with this bio-adaptation apply a damage over time effect and the pinning debuff but suffer from reduced Hitpoints"/>
+	<entry name="Tyranids/BioAdaptationBroodleechHiveFlavor" value="Blood Leech Hives are swollen nodules teeming with parasitic broodleeches, writhing just beneath the creature’s carapace. When the host rends its prey, these vermin spill forth, burrowing into flesh and gnawing it from within, spreading agony and paralysis. Yet the infestation comes at a cost—the Tyranid’s own body is sapped by the constant drain of its loathsome passengers, leaving it more fragile than its kin."/>
+
+	<entry name="Tyranids/BioAdaptationSwollenBioChambers" value="-Greater Bio-Adaptation: Swollen Bio-Chambers"/>
+	<entry name="Tyranids/BioAdaptationSwollenBioChambersDescription" value="Units with this bio-adaptation gain 1 additional Range."/>
+	<entry name="Tyranids/BioAdaptationSwollenBioChambersFlavor" value="These grotesquely distended organs swell with volatile fluids and compressed spores. With each convulsive discharge, the swollen chambers hurl living ammunition far beyond its usual reach, saturating distant prey in a storm of bio-organic fire."/>
+
+	<entry name="Tyranids/BioAdaptationGreaterRegeneration" value="-Greater Bio-Adaptation: Greater Regeneration"/>
+	<entry name="Tyranids/BioAdaptationGreaterRegenerationDescription" value="Units with this bio-adaptation regenerate 5 HP per turn and gain additional maximum hitpoints."/>
+	<entry name="Tyranids/BioAdaptationGreaterRegenerationFlavor" value="Through hyperactive metabolic nodes and ever-dividing flesh, the beast reknits torn muscle and seals gaping wounds within moments. Even grievous injuries serve only to feed its relentless renewal, as if the Hive Mind itself refuses to let its organism die."/>
+
+	<entry name="Tyranids/BioAdaptationVampiricSymbiote" value="-Greater Bio-Adaptation: Vampiric Symbiote"/>
+	<entry name="Tyranids/BioAdaptationVampiricSymbioteDescription" value="Units with this bio-adaptation gain lifesteal with melee weapons and increased melee accuracy."/>
+	<entry name="Tyranids/BioAdaptationVampiricSymbioteFlavor" value="Vampiric symbiotes infest the host’s claws and fangs, each a leech-like organism that hungers for warm ichor. As the Tyranid rends its prey, these parasites drink deep, feeding vitality back into the beast and driving it into a frenzy of ever-more precise strikes."/>
+
+	<entry name="Tyranids/BioAdaptationEnhancedSenses" value="-Bio-Adaptation: Enhanced Senses"/>
+	<entry name="Tyranids/BioAdaptationEnhancedSensesDescription" value="Units with this bio-adaptation gain extra sight Range and additional ranged accuracy."/>
+	<entry name="Tyranids/BioAdaptationEnhancedSensesFlavor" value="The beast’s sensory nodes bloom with alien precision, perceiving every movement, every vibration, every heartbeat of its prey."/>
+
+	<entry name="Tyranids/BioAdaptationFleshHooks" value="-Bio-Adaptation: Flesh Hooks"/>
+	<entry name="Tyranids/BioAdaptationFleshHooksDescription" value="Units with this bio-adaptation gain additional melee attacks and movement after attacking."/>
+	<entry name="Tyranids/BioAdaptationFleshHooksFlavor" value="From hidden recesses in the beast’s thorax erupt fleshy hooks tipped with razored barbs. These organic grapnels find purchase in prey and terrain alike, wrenching the Tyranid into the fray with terrifying momentum. Few foes survive long once the hooks sink home."/>
+
+	<entry name="Tyranids/BioAdaptationCorrosiveStrikes" value="-Bio-Adaptation: Corrosive Strikes"/>
+	<entry name="Tyranids/BioAdaptationCorrosiveStrikesDescription" value="Grants access to the Corrosive Strikes bio-adaptation, which causes attacks to apply stacking armour-reducing debuffs. Melee attacks shred armour faster."/>
+	<entry name="Tyranids/BioAdaptationCorrosiveStrikesFlavor" value="The swarm learns. Every blade grows teeth, every gland turns caustic, and the prey's proud armour becomes nothing more than a delay."/>
+
+	<entry name="Tyranids/BioAdaptationLimit" value="Hypermetamorphic Plasticity"/>
+	<entry name="Tyranids/BioAdaptationLimitDescription" value="All Tyranid units gain 1 additional bio-adaptation slot."/>
+	<entry name="Tyranids/BioAdaptationLimitFlavor" value="The Hive Mind's grasp of this world's biology is now total. Its creatures' flesh becomes endlessly mutable, accommodating ever more elaborate combinations of weaponised organs."/>
+
+	<entry name="Tyranids/DeployBroodHive" value="Deploy BroodHive"/>
+	<entry name="Tyranids/DeployBroodHiveDescription" value="Deploys a Broodhive, a fortification which serves as a Tunnel."/>
+
+	<entry name="Tyranids/SubterraneanAssault1" value="Subterranean Assault 1 / 2"/>
+	<entry name="Tyranids/SubterraneanAssault1Description" value="Subterranean Assault on all units cost 25 % less influence. Brood Hive tunnels will be equiped with a Stranglethorn Cannon"/>
+
+	<entry name="Tyranids/SubterraneanAssault2" value="Subterranean Assault 2 / 2"/>
+	<entry name="Tyranids/SubterraneanAssault2Description" value="Subterranean Assault on all units cost 25 % less influence. Brood Hive tunnels will receive 50% more Hitpoints"/>
+
+	<entry name="Tyranids/BioPlasma" value="Carnifex Bio-Plasma"/>
+	<entry name="Tyranids/BioPlasmaDescription" value="Grants Carnifexes and Trygons an additional ranged weapon."/>
+	<entry name="Tyranids/BioPlasmaFlavor" value="<string name='Weapons/BioPlasmaFlavor'/>"/>
+
+	<entry name="Tyranids/Genestealer" value="Genestealers"/>
+	<entry name="Tyranids/GenestealerDescription" value="High-penetration melee unit that cannot be targeted by overwatch fire.  <br/><br/>This Unit is not affected by Tyranid Instinctive Behavior."/>
+	<entry name="Tyranids/GenestealerFlavor" value="Encountered long before the Tyranids, Genestealer infestations have been a thorn in the Imperium’s side for millenia. In battle, this xenos is a swift and powerful predator with lightning-fast reflexes and serrated claws that can tear through even the thickest of armour. Genestealers also have large, highly adaptive brains and possess a form of brood telepathy that allows them to function with full independence from the Hive Mind. This autonomy allows them to destroy through stealth and guile that which cannot be defeated through numbers alone."/>
+
+	<entry name="Tyranids/AdvancedInfantry" value="Maleceptorium"/>
+	<entry name="Tyranids/AdvancedInfantryDescription" value="Building that produces Mid and late-game Monsters like: Hive-Tyrant, Biovore, Haruspex, Maleceptor and Tyrannofex. <br/><br/>Requires 2 build slots and 2 population to operate, but offers higher production."/>
+
+	<entry name="Tyranids/AdvancedVehicles" value="Behemoth Gestation Pit"/>
+	<entry name="Tyranids/AdvancedVehiclesDescription" value="Building that produces Mid and late-game Monsters like: Hive-Tyrant, Carnifex, Exocrine, Hivecrone, Trygon and Harpy. <br/><br/>Requires 2 build slots and 2 population to operate, but offers higher production."/>
+
+	
+	<entry name="Tyranids/CityPopulationLimit" value="Accelerated Brood Cycle"/>
+	<entry name="Tyranids/CityPopulationLimitDescription" value="Increases the population limit of cities by 2 and decreases the loyalty penalty from city amount from 6 to 3. <br/><br/>Tyranids can only increase their population limit with upgrades."/>
+	<entry name="Tyranids/CityPopulationLimitFlavor" value="Nothing truly “lives” in a Tyranid city-hive. Mindless 'organelle' creatures spawn and perform crucial functions before being reassimilated. Alterations to the city structure can be made, enabling these organisms to be spawned and reabsorbed in much shorter windows, allowing for their overall population to increase."/>
+
+	<entry name="Tyranids/CityPopulationLimit1" value="Mass Brood Expansion"/>
+	<entry name="Tyranids/CityPopulationLimit1Description" value="Increases the population limit of cities by 2. <br/><br/>Tyranids can only increase their population limit with upgrades."/>
+	<entry name="Tyranids/CityPopulationLimit1Flavor" value="Nothing truly “lives” in a Tyranid city-hive. Mindless 'organelle' creatures spawn and perform crucial functions before being reassimilated. Alterations to the city structure can be made, enabling these organisms to be spawned and reabsorbed in much shorter windows, allowing for their overall population to increase."/>
+
+	<entry name="Tyranids/CityGrowth" value="Aggressive Expansion"/>
+	<entry name="Tyranids/CityGrowthDescription" value="Increases the growth rate of Tyranid cities and removes the cooldown of reclamation."/>
+
+	<entry name="Tyranids/ConsumeTile2" value="Efficient Digestion"/>
+	<entry name="Tyranids/ConsumeTile2Description" value="Decreases the Influence cost required for Malanthropes to consume tiles by 50%."/>
+	<entry name="Tyranids/ConsumeTile2Flavor" value="Whilst a Malanthrope or Ripper's razor-edged jaws have no problem eating their way through flesh, bone or even plasteel, they are slowed by the necessity of consuming the huge quantities of soil and rock the Hive Mind demands at scale and speed. It is presumed that specialised organisms are deployed to consume these—though, again, none have survived to report them."/>
+
+	<entry name="Tyranids/EndlessSwarm" value="Endless Swarm"/>
+	<entry name="Tyranids/EndlessSwarmDescription" value="Termagaunts, Hormagaunts and Gargoyles now cost 0 Biomass and 0 Upkeep."/>
+
+
+	<entry name="Tyranids/Dominion1" value="Territorial Assimilation"/>
+	<entry name="Tyranids/Dominion1Description" value="Every conquered Outpost also generates additional 0.75 influence per Turn"/>
+
+	<entry name="Tyranids/Dominion2" value="Advanced Territorial Assimilation"/>
+	<entry name="Tyranids/Dominion2Description" value="Every conquered Outpost also generates additional 0.75 influence per Turn"/>
+
+	<entry name="Tyranids/Dominion3" value="Total Territorial Assimilation"/>
+	<entry name="Tyranids/Dominion3Description" value="Every conquered Outpost also generates additional 0.75 influence per Turn"/>
+
+
+
+	
+
+	<entry name="Tyranids/AdvancedInfantry" value="Maleceptorium"/>
+	<entry name="Tyranids/AdvancedInfantryDescription" value="Building that produces Mid and late-game Monsters like: Hive-Tyrant, Biovore, Haruspex, Maleceptor and Tyrannofex. <br/><br/>Requires 2 build slots and 2 population to operate, but offers higher production."/>
+
+
+	<entry name="Tyranids/AdvancedVehicles" value="Behemoth Gestation Pit"/>
+	<entry name="Tyranids/AdvancedVehiclesDescription" value="Building that produces Mid and late-game Monsters like: Hive-Tyrant, Carnifex, Exocrine, Hivecrone and Trygon. <br/><br/>Requires 2 build slots and 2 population to operate, but offers higher production."/>
+
+
+	<entry name="Tyranids/LateGameUnits" value="Leviathan Bio-Forge"/>
+	<entry name="Tyranids/LateGameUnitsDescription" value="Building that produces late-game Monsters like: Trygon, Tyrannofex, Norn Emissary and Scythed Hierodule <br/><br/>Requires 3 build slots and 3 population to operate, but offers higher production."/>
+
+
+	<entry name="Tyranids/CityLoyalty" value="<string name='Traits/Tyranids/CityLoyalty'/>"/>
+	<entry name="Tyranids/CityLoyaltyDescription" value="Decreases the loyalty penalty from the amount of Tyranid cities from 6 to 3"/>
+	<entry name="Tyranids/CityLoyaltyFlavor" value="<string name='Traits/Tyranids/CityLoyaltyFlavor'/>"/>
+
+
+	<entry name="Tyranids/CityCost" value="Metamorphic Malanthropes"/>
+	<entry name="Tyranids/CityCostDescription" value="Reduces the cost of founding new cities by 50%."/>
+	<entry name="Tyranids/CityCostFlavor" value="The role of the Malanthrope in founding new Tyranid hives has been little studied by Imperial Genetors, as in most circumstances they're dead or fleeing when the hive is founded. However, it's believed that they transport the city seed to new locations when a forward brood location is required. Unusual Malanthropes have sometimes been observed, with specialised physical structures that enable them to perform this task more efficiently."/>
+
+
+
+
+
+
+	<entry name="Tyranids/Biovore" value="<string name='Units/Tyranids/Biovore'/>"/>
+	<entry name="Tyranids/BiovoreDescription" value="<string name='Units/Tyranids/BiovoreDescription'/>"/>
+	<entry name="Tyranids/BiovoreFlavor" value="<string name='Units/Tyranids/BiovoreFlavor'/>"/>
+	<entry name="Tyranids/Carnifex" value="<string name='Units/Tyranids/Carnifex'/>"/>
+	<entry name="Tyranids/CarnifexDescription" value="<string name='Units/Tyranids/CarnifexDescription'/>"/>
+	<entry name="Tyranids/CarnifexFlavor" value="<string name='Units/Tyranids/CarnifexFlavor'/>"/>
+	<entry name="Tyranids/Exocrine" value="<string name='Units/Tyranids/Exocrine'/>"/>
+	<entry name="Tyranids/ExocrineDescription" value="<string name='Units/Tyranids/ExocrineDescription'/>"/>
+	<entry name="Tyranids/ExocrineFlavor" value="<string name='Units/Tyranids/ExocrineFlavor'/>"/>
+	<entry name="Tyranids/Gargoyle" value="<string name='Units/Tyranids/Gargoyle'/>"/>
+	<entry name="Tyranids/GargoyleDescription" value="<string name='Units/Tyranids/GargoyleDescription'/>"/>
+	<entry name="Tyranids/GargoyleFlavor" value="<string name='Units/Tyranids/GargoyleFlavor'/>"/>
+	<entry name="Tyranids/Haruspex" value="<string name='Units/Tyranids/Haruspex'/>"/>
+	<entry name="Tyranids/HaruspexDescription" value="<string name='Units/Tyranids/HaruspexDescription'/>"/>
+	<entry name="Tyranids/HaruspexFlavor" value="<string name='Units/Tyranids/HaruspexFlavor'/>"/>
+	<entry name="Tyranids/HiveTyrant" value="<string name='Units/Tyranids/HiveTyrant'/>"/>
+	<entry name="Tyranids/HiveTyrantDescription" value="<string name='Units/Tyranids/HiveTyrantDescription'/>"/>
+	<entry name="Tyranids/HiveTyrantFlavor" value="<string name='Units/Tyranids/HiveTyrantFlavor'/>"/>
+	<entry name="Tyranids/HiveGuard" value="<string name='Units/Tyranids/HiveGuard'/>"/>
+	<entry name="Tyranids/HiveGuardDescription" value="<string name='Units/Tyranids/HiveGuardDescription'/> <br/><br/>This Unit can be build in the Brood Nexus" />
+	<entry name="Tyranids/HiveGuardFlavor" value="<string name='Units/Tyranids/HiveGuardFlavor'/>"/>
+	<entry name="Tyranids/Hormagaunt" value="<string name='Units/Tyranids/Hormagaunt'/>"/>
+	<entry name="Tyranids/HormagauntDescription" value="<string name='Units/Tyranids/HormagauntDescription'/>"/>
+	<entry name="Tyranids/HormagauntFlavor" value="<string name='Units/Tyranids/HormagauntFlavor'/>"/>
+	<entry name="Tyranids/Lictor" value="<string name='Units/Tyranids/Lictor'/>"/>
+	<entry name="Tyranids/LictorDescription" value="<string name='Units/Tyranids/LictorDescription'/>"/>
+	<entry name="Tyranids/LictorFlavor" value="<string name='Units/Tyranids/LictorFlavor'/>"/>
+
+	<entry name="Tyranids/Maleceptor" value="<string name='Units/Tyranids/Maleceptor'/>"/>
+	<entry name="Tyranids/MaleceptorDescription" value="<string name='Units/Tyranids/MaleceptorDescription'/>"/>
+	<entry name="Tyranids/MaleceptorFlavor" value="<string name='Units/Tyranids/MaleceptorFlavor'/>"/>
+	<entry name="Tyranids/NornEmissary" value="<string name='Units/Tyranids/NornEmissary'/>"/>
+	<entry name="Tyranids/NornEmissaryDescription" value="<string name='Units/Tyranids/NornEmissaryDescription'/>"/>
+	<entry name="Tyranids/NornEmissaryFlavor" value="<string name='Units/Tyranids/NornEmissaryFlavor'/>"/>
+	<entry name="Tyranids/Ravener" value="<string name='Units/Tyranids/Ravener'/>"/>
+	<entry name="Tyranids/RavenerDescription" value="<string name='Units/Tyranids/RavenerDescription'/> <br/><br/>This Unit can be build in the Predator Lair"/>
+	<entry name="Tyranids/RavenerFlavor" value="<string name='Units/Tyranids/RavenerFlavor'/>"/>
+	<entry name="Tyranids/ScythedHierodule" value="<string name='Units/Tyranids/ScythedHierodule'/>"/>
+	<entry name="Tyranids/ScythedHieroduleDescription" value="<string name='Units/Tyranids/ScythedHieroduleDescription'/>"/>
+	<entry name="Tyranids/ScythedHieroduleFlavor" value="<string name='Units/Tyranids/ScythedHieroduleFlavor'/>"/>
+	<entry name="Tyranids/Tervigon" value="<string name='Units/Tyranids/Tervigon'/>"/>
+	<entry name="Tyranids/TervigonDescription" value="<string name='Units/Tyranids/TervigonDescription'/> <br/><br/>This Unit can be build in the Brood Nexus" />
+	<entry name="Tyranids/TervigonFlavor" value="<string name='Units/Tyranids/TervigonFlavor'/>"/>
+	<entry name="Tyranids/Trygon" value="<string name='Units/Tyranids/Trygon'/>"/>
+	<entry name="Tyranids/TrygonDescription" value="<string name='Units/Tyranids/TrygonDescription'/>"/>
+	<entry name="Tyranids/TrygonFlavor" value="<string name='Units/Tyranids/TrygonFlavor'/>"/>
+	<entry name="Tyranids/Tyrannofex" value="<string name='Units/Tyranids/Tyrannofex'/>"/>
+	<entry name="Tyranids/TyrannofexDescription" value="<string name='Units/Tyranids/TyrannofexDescription'/>"/>
+	<entry name="Tyranids/TyrannofexFlavor" value="<string name='Units/Tyranids/TyrannofexFlavor'/>"/>
+	<entry name="Tyranids/Venomthrope" value="<string name='Units/Tyranids/Venomthrope'/>"/>
+	<entry name="Tyranids/VenomthropeDescription" value="<string name='Units/Tyranids/VenomthropeDescription'/>"/>
+	<entry name="Tyranids/VenomthropeFlavor" value="<string name='Units/Tyranids/VenomthropeFlavor'/>"/>
+	<entry name="Tyranids/Warrior" value="<string name='Units/Tyranids/Warrior'/>"/>
+	<entry name="Tyranids/WarriorDescription" value="<string name='Units/Tyranids/WarriorDescription'/> <br/><br/>This Unit can be build in the Predator Lair and Brood Nexus"/>
+	<entry name="Tyranids/WarriorFlavor" value="<string name='Units/Tyranids/WarriorFlavor'/>"/>
+	<entry name="Tyranids/Zoanthrope" value="<string name='Units/Tyranids/Zoanthrope'/>"/>
+	<entry name="Tyranids/ZoanthropeDescription" value="<string name='Units/Tyranids/ZoanthropeDescription'/>"/>
+	<entry name="Tyranids/ZoanthropeFlavor" value="<string name='Units/Tyranids/ZoanthropeFlavor'/>"/>
+
+
+
+
+
+
+
+	<entry name="Eldar/AsuryaniWarborn" value="Asuryani Warborn"/>
+	<entry name="Eldar/AsuryaniWarbornDescription" value="Asuryani Path - Increases production speed from Prism Foundy and Spirit Forge by 20%"/>
+
+	<entry name="Eldar/AsuryaniTranquility" value="Asuryani Tranquility"/>
+	<entry name="Eldar/AsuryaniTranquilityDescription" value="Asuryani Path - Increases Growth by 20%, Research by 25% and all other resources by 10%"/>
+
+	<entry name="Eldar/AsuryaniArrivals" value="Asuryani Arrivals"/>
+	<entry name="Eldar/AsuryaniArrivalsDescription" value="Asuryani Path - Increases Growth by 20%, Food by 25% and Asuryan's Crucible [Infantry Building] production Speed by 20%."/>
+	<entry name="Eldar/AsuryaniArrivalsFlavor" value="On the Path of the Welcome, Asuryani tend to the great migration streams. They guide refugees and pilgrims to sanctuary, ensuring that new arrivals find sustenance and purpose in their adopted homes."/>
+
+	<entry name="Eldar/AsuryaniAscendant" value="Asuryani Ascendant"/>
+	<entry name="Eldar/AsuryaniAscendantDescription" value="Asuryani Path - Increases Growth by 20% and Influence gain by 25%"/>
+	<entry name="Eldar/AsuryaniAscendantFlavor" value="The Path of Illumination draws the wisest seers and lorekeepers. Through meditation and study of the ancient ways, they unlock forgotten secrets and guide the emergence of heroes destined for greatness."/>
+
+	<entry name="Eldar/AsuryaniForgehosts" value="Asuryani Forgehosts"/>
+	<entry name="Eldar/AsuryaniForgehostsDescription" value="Asuryani Path - Increases Growth by 20%, Ore by 25% and Greater Ingress [Vehicle Building] production Speed by 20%"/>
+	<entry name="Eldar/AsuryaniForgehostsFlavor" value="Those who walk the Path of the Forge-Spirit commune with the machine-souls of vehicles and mining equipment. Their psychic touch awakens the slumbering potential within adamantium and wraithbone."/>
+
+	<entry name="Eldar/AsuryaniFreewinds" value="Asuryani Freewinds"/>
+	<entry name="Eldar/AsuryaniFreewindsDescription" value="Asuryani Path - Increases Growth by 20%, Energy by 25% and Wayfarer Enclave production Speed by 20%"/>
+
+
+	<entry name="Eldar/PychoReactiveArmor" value="Pycho-Reactive Armor"/>
+	<entry name="Eldar/PychoReactiveArmorDescription" value="Unlocks the Psycho-Reactive Armor ability for Guardians and Autarchs, allowing them to temporarily increase their armor for an influence cost."/>
+	<entry name="Eldar/PychoReactiveArmorFlavor" value="Psycho-conductive fibers woven into wraithbone create armor that thinks alongside its wearer, adapting its density and configuration in the microseconds before impact."/>
+
+	<entry name="Eldar/StalkersGrace" value="Stalkers Grace"/>
+	<entry name="Eldar/StalkersGraceDescription" value="Unlocks the Stalker's Grace ability for Rangers and Vaul's Wrath Support Battery, allowing them to temporarily ignore the Heavy keyword for an influence cost."/>
+	<entry name="Eldar/StalkersGraceFlavor" value="Fluid motion and perfect balance render the distinction between light and heavy weapons meaningless to the trained warrior."/>
+
+	<entry name="Eldar/Ranger" value="Wayfarer Enclave"/>
+	<entry name="Eldar/RangerDescription" value="Building that produces Rangers, Spiritseer, Heavy Weapon Platforms and Wraithblades as well as generates resources. <br/><br/>Units trained here require Energy and Ore/Food as part of their cost."/>
+
+	<entry name="Eldar/VoidStrike" value="Void Strike"/>
+	<entry name="Eldar/VoidStrikeDescription" value="Unlocks the Void Strike ability for Dark Reaper and Hornets, allowing them to temporarily bypass Ranged damage reduction for an influence cost."/>
+	<entry name="Eldar/VoidStrikeFlavor" value="Ancient techniques channel the void between stars, allowing projectiles to bypass even the strongest defenses."/>
+
+	<entry name="Eldar/CrackShot" value="Crackshot"/>
+	<entry name="Eldar/CrackShotDescription" value="Unlocks the Crackshot ability for Firedragons, allowing them to temporarily Increases their Range for an influence Cost."/>
+	<entry name="Eldar/CrackShotFlavor" value="Through perfect weapon calibration and psychic focus, the Fire Dragon extends their melta's deadly embrace to previously untouchable distances."/>
+
+	<entry name="Eldar/RevealWebwayGate" value="Reveal Webway Gate"/>
+	<entry name="Eldar/RevealWebwayGateDescription" value="Unlocks the ability to create a new permanent Webway Gate."/>
+
+	<entry name="Eldar/ExpertHunter" value="Expert Hunter"/>
+	<entry name="Eldar/ExpertHunterDescription" value="Unlocks the Expert Hunter ability for Shining Spears and Farseer Skyrunner, allowing them to increase damage against monstrous creatures, vehicles and fortifications for an influence cost."/>
+	<entry name="Eldar/ExpertHunterFlavor" value="The Shining Spears weaponry might be short-ranged but their Star Lances and Laser Lances are incredibly powerful, as they weave around larger targets, spying out their weak points."/>
+
+	<entry name="Eldar/MaidenWorldMastery" value="Maiden World Mastery"/>
+	<entry name="Eldar/MaidenWorldMasteryDescription" value="Increases the yield of all outposts by +0.75 for single-resource outposts, or by +0.5/+0.5 for outposts with two resources."/>
+	<entry name="Eldar/MaidenWorldMasteryFlavor" value="Through ancient pacts with world-spirits, the Eldar coax greater bounty from living ecosystems. Where others see mere resources, they nurture symbiotic relationships that have flourished for millennia."/>
+
+	<entry name="Eldar/MaidenWorldMastery2" value="Extended Maiden World Mastery"/>
+	<entry name="Eldar/MaidenWorldMastery2Description" value="Increases the yield of all outposts by +0.75 for single-resource outposts, or by +0.5/+0.5 for outposts with two resources."/>
+	<entry name="Eldar/MaidenWorldMastery2Flavor" value="Deepened communion with planetary consciousness unlocks the secrets hidden within stone and flame. The Eldar guide sleeping minerals to wakefulness and teach crystalline formations to sing with energy"/>
+
+	<entry name="Eldar/AsuryaniArrivalsBonus" value="Farseer's Summons"/>
+	<entry name="Eldar/AsuryaniArrivalsBonusDescription" value="Reduces the cost of all Asuryani City abilities by 40%."/>
+	<entry name="Eldar/AsuryaniArrivalsBonusFlavor" value="“My word is more than mere advice: it is an imprecation filtered through the consciousness of our storied dead, striving to bring one iota of order to the disordered universe. Our race understands that and listens to my word, not as that of a dictator but as an attentive student.”<br/>  — Farseer Kataimon of Malantai"/>
+	
+	<entry name="Eldar/AsuryaniArrivalsBonus2" value="Craftworlds' Pledge"/>
+	<entry name="Eldar/AsuryaniArrivalsBonus2Description" value="Reduces the cooldown of all Asuryani City abilities by 40%. This allows to have 2 Asuryani City abilities active at the same time"/>
+	<entry name="Eldar/AsuryaniArrivalsBonus2Flavor" value="“When the Warlocks and Farseers of multiple craftworlds share a vision—a literal vision of the future—then they and their craftworlds work as one. They will denude their own halls of life and spirit to fulfil their pledge to that future.”<br/>  — Lecture transcripts, Grigomen Delr, Rogue Trader and amateur Xenologist"/>
+
+	<entry name="Eldar/PlasmaGrenade" value="<string name='Weapons/PlasmaGrenade'/>"/>
+	<entry name="Eldar/PlasmaGrenadeDescription" value="Grants Guardians, Rangers, Banshees, Fire Dragons, Dark Reapers and Autarchs the ability to throw versatile grenades."/>
+	<entry name="Eldar/PlasmaGrenadeFlavor" value="<string name='Weapons/PlasmaGrenadeFlavor'/>"/>
+
+	<entry name="Eldar/WarShoutDescription" value="Grants Howling Banshees the ability to demoralize adjacent enemies at an Influence cost."/>
+
+	<entry name="Eldar/Autarch" value="Autarch"/>
+	<entry name="Eldar/AutarchDescription" value="Psyker hero unit that leads the Aeldari charge."/>
+	<entry name="Eldar/AutarchFlavor" value="Autarchs have a consummate understanding of the way of the warrior, and the future of the race has been shaped by their excellence in the arts of death. They follow the Path of Command, gaining a wider appreciation of battle than any other and directing the warhost on the most efficient path to victory. Theirs is a burning obsession to see war itself conquered and made subservient to their will."/>
+
+	<entry name="Eldar/VaulsWrathSupportBattery" value="Heavy Weapon Platform: Laser-Lance"/>
+	<entry name="Eldar/VaulsWrathSupportBatteryDescription" value="Long-Range Anti-Tank Field Battery that Can Also Clear Tiles"/>
+	<entry name="Eldar/VaulsWrathSupportBatteryFlavor" value="Aeldari artillery glides forward upon broad grav-platforms, each gun’s generator thrumming low as it obliterates the craftworld’s enemies. Unlike the crude solid explosives hurled by the ordnance of lesser races, these elegant weapons of death cast forth clouds of monofilament strands, waves of sonic fury and roiling blasts of carefully contained Warp energy."/>
+
+	<entry name="Eldar/WebwayScan" value="Webway Scan"/>
+	<entry name="Eldar/WebwayScanDescription" value="Reveals the area around a neutral Webway Gate"/>
+
+	<entry name="Eldar/AdvancedVehicles" value="Prism Foundry"/>
+	<entry name="Eldar/AdvancedVehiclesDescription" value="Building that produces late-game Vehicles and Aircraft like: Wave Serpent, Fire Prism, Crimson Hunter, War Walkers and Scorpions. <br/><br/>Units here cost Ore. Requires 2 build slots and 2 population to operate, but offers higher production."/>
+
+	<entry name="Eldar/AdvancedInfantry" value="Spirit Forge"/>
+	<entry name="Eldar/AdvancedInfantryDescription" value="Building that produces Mid and late-game Infantry and Vehicles Units like: Wraithlords, Avatar of Khaine, Warlocks, Wraithknight, Hemlock Wraithfighter and Scorpion. <br/><br/>Units here cost Energy and Ore. Requires 2 build slots and 2 population to operate, but offers higher production."/>
+
+	<entry name="Eldar/CrimsonHunter" value="Crimson Hunter"/>
+	<entry name="Eldar/CrimsonHunterDescription" value="Flying unit that can surgically remove even the most armoured targets."/>
+	<entry name="Eldar/CrimsonHunterFlavor" value="Leaving a blood-hued blur in their wake, the Crimson Hunters are the assassins of the sky. Perhaps the most unusual of the Aspects of Khaine, they embody the role of the remorseless hunter, who takes wing only to bring destruction to his chosen foes. Armed with pulse lasers and bright lances capable of reducing a man to a pillar of flame in a pinpoint, stabbing beam, the Crimson Hunters can surgically remove the leaders of an enemy army in a single pass."/>
+
+
+
+
+	<entry name="Eldar/InfantryOffensivUpgrade" value="Improved Infantry Training"/>
+	<entry name="Eldar/InfantryOffensivUpgradeDescription" value="All Infantry Units produced in the Asuryan's Crucible and Wayfarer Enclave gain +5% extra damage and +5% extra accuracy."/>
+
+	<entry name="Eldar/InfantryDefensivUpgrade" value="Improved Infantry Wraithbone"/>
+	<entry name="Eldar/InfantryDefensivUpgradeDescription" value="All Infantry Units produced in the Asuryan's Crucible and Wayfarer Enclave gain +10% Hitpoints and +1 armour."/>
+
+	<entry name="Eldar/InfantryOffensivUpgrade2" value="Expert Infantry Training"/>
+	<entry name="Eldar/InfantryOffensivUpgrade2Description" value="All Infantry Units produced in the Asuryan's Crucible and Wayfarer Enclave gain another +3% extra damage and +3% extra accuracy."/>
+
+	<entry name="Eldar/InfantryDefensivUpgrade2" value="Expert Infantry Wraithbone"/>
+	<entry name="Eldar/InfantryDefensivUpgrade2Description" value="All Infantry Units produced in the Asuryan's Crucible and Wayfarer Enclave gain another +10% Hitpoints."/>
+
+
+
+	<entry name="Eldar/VehicleOffensivUpgrade" value="Improved Vehicle Training"/>
+	<entry name="Eldar/VehicleOffensivUpgradeDescription" value="All Units produced in the Greater Ingress, Heavy Weapon Platforms and Wraithblades gain +5% extra damage and +5% extra accuracy."/>
+
+	<entry name="Eldar/VehicleDefensivUpgrade" value="Improved Vehicle Wraithbone"/>
+	<entry name="Eldar/VehicleDefensivUpgradeDescription" value="All Units produced in the Greater Ingress, Heavy Weapon Platforms and Wraithblades gain +10% Hitpoints and +1 extra armour."/>
+
+	<entry name="Eldar/VehicleOffensivUpgrade2" value="Expert Vehicle Training"/>
+	<entry name="Eldar/VehicleOffensivUpgrade2Description" value="All Units produced in the Greater Ingress, Heavy Weapon Platforms and Wraithblades gain another +3% extra damage and +3% extra accuracy."/>
+
+	<entry name="Eldar/VehicleDefensivUpgrade2" value="Expert Vehicle Wraithbone"/>
+	<entry name="Eldar/VehicleDefensivUpgrade2Description" value="All Units produced in the Greater Ingress, Heavy Weapon Platforms and Wraithblades gain another +10% Hitpoints"/>
+
+
+	
+	<entry name="Eldar/AdvancedOffensivUpgrade" value="Improved Elite Training"/>
+	<entry name="Eldar/AdvancedOffensivUpgradeDescription" value="All units produced in the Prism Foundry and Spirit Forge gain +5% extra damage and +5% extra accuracy. <br/><br/>All Units produced in Asuryan's Crucible, Wayfarer Enclave and Greater Ingress gain another +3% extra damage and +3% extra accuracy."/>
+
+	<entry name="Eldar/AdvancedDefensivUpgrade" value="Improved Elite Wraithbone"/>
+	<entry name="Eldar/AdvancedDefensivUpgradeDescription" value="All units produced in the Prism Foundry and Spirit Forge gain +10% Hitpoints and +1 extra armour.  <br/><br/>All Units produced in Asuryan's Crucible, Wayfarer Enclave and Greater Ingress gain another +10% Hitpoints"/>
+
+
+
+
+
+
+
+
+	<entry name="Drukhari/BloodForSouls" value="Blood for Souls"/>
+	<entry name="Drukhari/BloodForSoulsDescription" value="This technology drastically reduces the cost of Pain Brokers for the Kabalite Stronghold, Fleshcraft Coven and Dark Foundry, making it basically usable. <br/><br/>Drukhari can speed up unit production by spending influence through an ability called Pain Brokers." />
+	<entry name="Drukhari/BloodForSoulsFlavor" value="In Commorragh's mercenary quarters, loyalty is bought with the currency of the damned. Souls purchase blades, and screams seal the contract."/>
+
+	<entry name="Drukhari/WarForSouls" value="War for Souls"/>
+	<entry name="Drukhari/WarForSoulsDescription" value="This technology drastically reduces the cost of Pain Brokers for the Obsidian Bladeshrine and Void Barge Docks, making it basically usable. <br/><br/>Drukhari can speed up unit production by spending influence through an ability called Pain Brokers." />
+	<entry name="Drukhari/WarForSoulsFlavor" value="The Dark City's forge-slaves toil endlessly, their pain fueling the creation of war machines. For the right price in captured souls, even the most exotic vehicles emerge from Commorragh's depths."/>
+
+	<entry name="Drukhari/Influence" value="The Enslavement Spire"/>
+	<entry name="Drukhari/InfluenceDescription" value="Special Drukhari Building, that generates influence and increases the population limit. <br/><br/>Requires 2 build slots and 1 population to operate."/>
+	<entry name="Drukhari/InfluenceFlavor" value="Rising above the shadowed districts, the Enslavement Spire is both habitation and prison. Within its barbed halls, captives are broken, catalogued and displayed, their suffering fueling the authority of the Archons. Every scream reinforces Drukhari dominance, and every chained soul is another measure of power."/>
+
+	<entry name="Drukhari/Hypex" value="Hypex"/>
+	<entry name="Drukhari/HypexDescription" value="Combat drug which heightens the senses, increasing the range capabilities of units. Useable by almost all ranged units and ranged vehicles"/>
+	<entry name="Drukhari/HypexFlavor" value="Hypex floods the nervous system with synthetic adrenaline compounds, dilating pupils and accelerating neural responses to extend targeting precision across impossible distances."/>
+
+	<entry name="Drukhari/GraveLotus" value="Grave Lotus"/>
+	<entry name="Drukhari/GraveLotusDescription" value="Combat drug which makes the body more resilient, increasing regeneration capabilities and damage reduction. Useable by almost all Infantry Units and Monsters."/>
+	<entry name="Drukhari/GraveLotusFlavor" value="Grave Lotus courses through blood like liquid armor, numbing pain while accelerating cellular repair. What should kill instead merely wounds, and wounds fade like bad dreams."/>
+
+	<entry name="Drukhari/Painbringer" value="Painbringer"/>
+	<entry name="Drukhari/PainbringerDescription" value="Combat drug which makes the user go berserk, increasing the melee capabilities of units. Useable by almost all melee Infantry and Monsters."/>
+	<entry name="Drukhari/PainbringerFlavor" value="Each dose of Pain Bringers drowns reason in crimson fury, as users feel compelled to share their drug-induced agony through blade and fist."/>
+
+	<entry name="Drukhari/EnhancedCombatDrugs1" value="Enhanced Combat Drugs 1/4"/>
+	<entry name="Drukhari/EnhancedCombatDrugs1Description" value="Improve Combat Drugs: Hypex gains 1 ranged accuracy, Painbringer gain overwatch protection, Grave lotus gains 1 Bonus Armor"/>
+
+	<entry name="Drukhari/EnhancedCombatDrugs2" value="Enhanced Combat Drugs 2/4"/>
+	<entry name="Drukhari/EnhancedCombatDrugs2Description" value="Improve Combat Drugs: Hypex gains 10% ranged damage reduction, Painbringer gain 10% melee damage reduction, Grave lotus gains 10% Feel no pain damage reduction"/>
+
+	<entry name="Drukhari/EnhancedCombatDrugs3" value="Enhanced Combat Drugs 3/4"/>
+	<entry name="Drukhari/EnhancedCombatDrugs3Description" value="Improve Combat Drugs: Hypex gains 1 ranged accuracy, Painbringer gain 1 melee accuracy, Grave lotus gains 20% life steal"/>
+
+	<entry name="Drukhari/EnhancedCombatDrugs4" value="Enhanced Combat Drugs 4/4"/>
+	<entry name="Drukhari/EnhancedCombatDrugs4Description" value="Improve Combat Drugs: All Drugs gain 33% less moral loss"/>
+	
+	<entry name="Drukhari/SoulHungerUpgrade" value="Soul Hunger: Research"/>
+	<entry name="Drukhari/SoulHungerUpgradeDescription" value="Improves the Soulhunger ability of all Drukhari units: Now they also gain bonus research by killing enemies (2 x exp factor)"/>
+	<entry name="Drukhari/SoulHungerUpgradeFlavor" value="Each death becomes a lesson in exquisite anatomy, as Drukhari scholars dissect both flesh and fear to unlock new secrets of suffering."/>
+
+	<entry name="Drukhari/SoulHungerUpgrade1" value="Soul Hunger: More Influence"/>
+	<entry name="Drukhari/SoulHungerUpgrade1Description" value="Improves the Soulhunger ability of all Drukhari units: they gain more influence by killing enemies (from 3 x exp factor to 5 x exp factor)"/>
+	<entry name="Drukhari/SoulHungerUpgrade1Flavor" value="Each death resonates further through the web of fear, as perfected killing techniques spread the Dark Eldar's reputation across entire sectors."/>
+
+	<entry name="Drukhari/SoulHungerUpgrade2" value="Soul Hunger: Even more Influence"/>
+	<entry name="Drukhari/SoulHungerUpgrade2Description" value="Improves the Soulhunger ability of all Drukhari units: they gain even more influence by killing enemies (from 5 x exp factor to 7 x exp factor)"/>
+	<entry name="Drukhari/SoulHungerUpgrade2Flavor" value="Each death resonates further through the web of fear, as perfected killing techniques spread the Dark Eldar's reputation across entire sectors."/>
+
+	<entry name="Drukhari/SufferingAsTribute" value="Suffering as Tribute 1 / 2"/>
+	<entry name="Drukhari/SufferingAsTributeDescription" value="Every conquered Outpost also generates additional 0.75 influence per Turn"/>
+	<entry name="Drukhari/SufferingAsTributeFlavor" value="Each conquered outpost becomes a monument to Drukhari supremacy, its suffering inhabitants a constant reminder of the price of defiance."/>
+
+	<entry name="Drukhari/SufferingAsTribute1" value="Suffering as Tribute 2 / 2"/>
+	<entry name="Drukhari/SufferingAsTribute1Description" value="Every conquered Outpost also generates additional 0.75 influence per Turn"/>
+	<entry name="Drukhari/SufferingAsTribute1Flavor" value="Each conquered outpost becomes a monument to Drukhari supremacy, its suffering inhabitants a constant reminder of the price of defiance."/>
+
+	<entry name="Drukhari/RevealWebwayGate" value="Reveal Webway Gate"/>
+	<entry name="Drukhari/RevealWebwayGateDescription" value="Unlocks the ability to create a new permanent Webway Gate."/>
+
+	<entry name="Drukhari/Archon" value="Archon"/>
+	<entry name="Drukhari/ArchonDescription" value="Versatile hero who grants various offensive bonuses to its raiding party in order to neutralize priority targets."/>
+	<entry name="Drukhari/ArchonFlavor" value="Archons apply the same inventive malice with which they rule the fractured Kabals to their enemies on the battlefield. Leading many realspace raids, Archons arrogantly dare their enemies to face their martial expertise, their arsenal of eldritch weapons and the labyrinthine cunning that has enabled their rise to power."/>
+
+	<entry name="Drukhari/Wyche" value="Wyches"/>
+	<entry name="Drukhari/WycheDescription" value="Light melee infantry unit with resistance vs melee attacks. Wyches can be recruited in the Kabalite Stronghold [Infantry Building] Starscraper [Hero Building]"/>
+	<entry name="Drukhari/WycheFlavor" value="The dancers of death, Wyches are acrobatic murder-artists, exhibiting their incredible arena skills to slay with precision and elan. They wield exotic weapons – hooks, barbed chains or flensing blades – that require superior ability. These are deadly in Wyches’ hands as they dart, twist and blur around their foes’ clumsy attacks."/>
+
+	<entry name="Drukhari/Wrack" value="Wracks"/>
+	<entry name="Drukhari/WrackDescription" value="Resilient melee infantry unit which can also clear tiles."/>
+	<entry name="Drukhari/WrackFlavor" value="The gnarled hide of the Wracks is a leathery mass of old scars, inured to pain. These adepts of fleshcrafting serve wizened masters of the Covens, and are as much experiments as they are apprentices. They are granted a host of gruesome tools, butchering blades and arcane bioweapons with which they inflict maximum agony."/>
+
+	<entry name="Drukhari/HaywireGrenade" value="<string name='Weapons/HaywireGrenade'/>"/>
+	<entry name="Drukhari/HaywireGrenadeDescription" value="Grants Grants Kabalite Warriors, Kabalite Trueborn, Wyches, Hellions, Mandrakes and Incubi the ability to throw anti-vehicle grenades."/>
+	<entry name="Drukhari/HaywireGrenadeFlavor" value="<string name='Weapons/HaywireGrenadeFlavor'/>"/>
+
+	<entry name="Drukhari/PlasmaGrenade" value="<string name='Weapons/PlasmaGrenade'/>"/>
+	<entry name="Drukhari/PlasmaGrenadeDescription" value="Grants Kabalite Warriors, Kabalite Trueborn, Wyches, Hellions and Incubi the ability to throw versatile grenades."/>
+	<entry name="Drukhari/PlasmaGrenadeFlavor" value="<string name='Weapons/PlasmaGrenadeFlavor'/>"/>
+
+	<entry name="Drukhari/RazorwingJetfighter" value="Razorwing Jetfighter"/>
+	<entry name="Drukhari/RazorwingJetfighterDescription" value="Supersonic attack jet that excels in tracking down enemy ground forces."/>
+	<entry name="Drukhari/RazorwingJetfighterFlavor" value="These lightning-fast ground attack craft unleash widespread slaughter and disruption with flurries of missiles. Archons call in their strikes to fracture the lesser races’ attempts at organised resistance, and their speed-addicted pilots also indulge in hunting down lumbering tanks and monstrosities with multiple heavy cannons."/>
+
+	<entry name="Drukhari/AdvancedVehicles" value="Void Barge Docks"/>
+	<entry name="Drukhari/AdvancedVehiclesDescription" value="Building that produces Mid and late-game Vehicles and Aircraft like: Ravager, Talos, Voidraven Bomber and Tantalus. <br/><br/>Units here cost Ore and Energy. Requires 2 build slots and 2 population to operate, but offers higher production."/>
+
+	<entry name="Drukhari/AdvancedInfantry" value="Obsidian Bladeshrine"/>
+	<entry name="Drukhari/AdvancedInfantryDescription" value="Building that produces Mid and late-game Infantry and Aircraft Units like: Helions, Archons, Trueborn, Incubi and Razorwing Jetfighter. <br/><br/>Units here cost Food, Ore and Energy. Requires 2 build slots and 2 population to operate, but offers higher production."/>
+
+
+
+	<entry name="Drukhari/InfantryOffensivUpgrade" value="Improved Infantry Training"/>
+	<entry name="Drukhari/InfantryOffensivUpgradeDescription" value="All Infantry Units produced in the Kabalite Stronghold and Fleshcraft Coven gain +5% extra damage and +5% extra accuracy."/>
+
+	<entry name="Drukhari/InfantryDefensivUpgrade" value="Improved Infantry Equipment"/>
+	<entry name="Drukhari/InfantryDefensivUpgradeDescription" value="All Infantry Units produced in the Kabalite Stronghold and Fleshcraft Coven gain +10% Hitpoints and +5% Feel No Pain damage reduction."/>
+
+	<entry name="Drukhari/InfantryOffensivUpgrade2" value="Expert Infantry Training"/>
+	<entry name="Drukhari/InfantryOffensivUpgrade2Description" value="All Infantry Units produced in the Kabalite Stronghold and Fleshcraft Coven gain another +3% extra damage and +3% extra accuracy."/>
+
+	<entry name="Drukhari/InfantryDefensivUpgrade2" value="Expert Infantry Equipment"/>
+	<entry name="Drukhari/InfantryDefensivUpgrade2Description" value="All Infantry Units produced in the Kabalite Stronghold and Fleshcraft Coven gain another +10% Hitpoints."/>
+
+
+
+	<entry name="Drukhari/VehicleOffensivUpgrade" value="Improved Vehicle Training"/>
+	<entry name="Drukhari/VehicleOffensivUpgradeDescription" value="All Units produced in the Dark Foundry and Chronos gain +5% extra damage and +5% extra accuracy."/>
+
+	<entry name="Drukhari/VehicleDefensivUpgrade" value="Improved Vehicle Equipment"/>
+	<entry name="Drukhari/VehicleDefensivUpgradeDescription" value="All Units produced in the Dark Foundry and Chronos gain +10% Hitpoints and +1 extra armour."/>
+
+	<entry name="Drukhari/VehicleOffensivUpgrade2" value="Expert Vehicle Training"/>
+	<entry name="Drukhari/VehicleOffensivUpgrade2Description" value="All Units produced in the Dark Foundry and Chronos gain another +3% extra damage and +3% extra accuracy."/>
+
+	<entry name="Drukhari/VehicleDefensivUpgrade2" value="Expert Vehicle Equipment"/>
+	<entry name="Drukhari/VehicleDefensivUpgrade2Description" value="All Units produced in the Dark Foundry and Chronos gain another +10% Hitpoints"/>
+
+
+	
+	<entry name="Drukhari/AdvancedOffensivUpgrade" value="Improved Elite Training"/>
+	<entry name="Drukhari/AdvancedOffensivUpgradeDescription" value="All units produced in the Void Barge Docks and Obsidian Bladeshrine gain +5% extra damage and +5% extra accuracy. <br/><br/>All Units produced in Kabalite Stronghold, Fleshcraft Coven and Dark Foundry gain another +3% extra damage and +3% extra accuracy."/>
+
+	<entry name="Drukhari/AdvancedDefensivUpgrade" value="Improved Elite Equipment"/>
+	<entry name="Drukhari/AdvancedDefensivUpgradeDescription" value="All units produced in the Void Barge Docks and Obsidian Bladeshrine gain +10% Hitpoints and +1 extra armour.  <br/><br/>All Units produced in Kabalite Stronghold, Fleshcraft Coven and Dark Foundry gain another +10% Hitpoints"/>
+
+
+
+
+
+
+
+	<entry name="ChaosSpaceMarines/ChaosLord" value="Chaos Lord"/>
+	<entry name="ChaosSpaceMarines/ChaosLordDescription" value="Melee Hero unit that returns damage to attackers and slays units low on hitpoints."/>
+	<entry name="ChaosSpaceMarines/ChaosLordFlavor" value="A Chaos Lord is a tyrannical warrior king who lives to bathe in the blood of worlds. He strives to bring whole star systems to their knees in the name of his patron deities. Typified by merciless ambition and fierce pride, many of these champions of disorder were once noble Chapter Masters and Captains of the Adeptus Astartes, but long years of unremitting war have twisted their souls beyond recovery."/>
+
+	<entry name="ChaosSpaceMarines/MarkOfKhorne" value="Mark of Khorne"/>
+	<entry name="ChaosSpaceMarines/MarkOfKhorneDescription" value="Mark of Chaos - Grants an Chaos Unit +25% attacks and +25% melee damage reduction but -3 armor. Only one Mark can be active on a Unit"/>
+	<entry name="ChaosSpaceMarines/MarkOfKhorneFlavor" value="The Mark of Khorne is bestowed only upon those whose relentless rage and boundless ferocity pays due homage to the Blood Good's own. To such disciples, Khorne grants an unholy wrath that burns as hot as the stars."/>
+	
+	<entry name="ChaosSpaceMarines/MarkOfNurgle" value="Mark of Nurgle"/>
+	<entry name="ChaosSpaceMarines/MarkOfNurgleDescription" value="Mark of Chaos - Grants an Chaos Unit +25% hitpoints and regeneration but -1 movement speed. Only one Mark can be active on a Unit"/>
+	<entry name="ChaosSpaceMarines/MarkOfNurgleFlavor" value="Nurgle's blessing manifests not only as a suite of virulent plagues and diseases, but also as the inhuman constitution needed to survive them."/>
+	
+	<entry name="ChaosSpaceMarines/MarkOfSlaanesh" value="Mark of Slaanesh"/>
+	<entry name="ChaosSpaceMarines/MarkOfSlaaneshDescription" value="Mark of Chaos - Grants an Chaos Unit +1 movement and +50% damage vs wounded units (below 50% HP) but -25% health. Only one Mark can be active on a Unit"/>
+	<entry name="ChaosSpaceMarines/MarkOfSlaaneshFlavor" value="The devotees of Slaanesh have their senses and reactions heightened to a supernatural degree, all the better to drink in the extreme, multifaceted stimuli of the battlefield. A warrior gifted in this manner will move with uncanny grace and speed, his blade lashing out like the tongue of a serpent as he revels in the ugly spectacle of death."/>
+	
+	<entry name="ChaosSpaceMarines/MarkOfTzeentch" value="Mark of Tzeentch"/>
+	<entry name="ChaosSpaceMarines/MarkOfTzeentchDescription" value="Mark of Chaos - Grants an Chaos Unit damage reduction and soulblaze on attacks (2 rounds Damage over time effect) but +50% melee damage taken. Only one Mark can be active on a Unit"/>
+	<entry name="ChaosSpaceMarines/MarkOfTzeentchFlavor" value="Those dedicated to Tzeentch enjoy the protection and prescience of the Master of Manipulation."/>
+
+	<entry name="ChaosSpaceMarines/DaemonEngines1" value="Daemon Engines"/>
+	<entry name="ChaosSpaceMarines/DaemonEngines1Description" value="Grants Venomcrawlers, Hellbrutes and Maulerfiends the ability to damage themselves to enhance their own power."/>
+
+	<entry name="ChaosSpaceMarines/DaemonEngines2" value="Daemon Forge"/>
+	<entry name="ChaosSpaceMarines/DaemonEngines2Description" value="Grants Forgefiends, Defiler and Heldrakes the ability to damage themselves to enhance their own power."/>
+
+	<entry name="ChaosSpaceMarines/IconOfDespair" value="Icon of Despair"/>
+	<entry name="ChaosSpaceMarines/IconOfDespairDescription" value="Icon of Nurgle that can reflect 25% melee damage back to an attacker. Useable to a Unit with any Mark of Chaos. Only one Icon can be active on a Unit"/>
+	<entry name="ChaosSpaceMarines/IconOfDespairFlavor" value="This icon is surrounded by a miasma of disease and hopelessness, turning the thoughts of any nearby foes to the grisly and inevitable deaths that await them."/>
+	
+	<entry name="ChaosSpaceMarines/IconOfExcess" value="Icon of Excess"/>
+	<entry name="ChaosSpaceMarines/IconOfExcessDescription" value="Icon of Slaanesh that allows movement after attacking. Usable on a unit with any Mark of Chaos. Only one Icon can be active on a Unit"/>
+	<entry name="ChaosSpaceMarines/IconOfExcessFlavor" value="Blessed with the Dark Prince's grace, warriors dance through battle with deadly elegance. Each killing blow becomes a step in an endless, beautiful waltz of destruction."/>
+	
+	<entry name="ChaosSpaceMarines/IconOfFlame" value="Icon of Flame"/>
+	<entry name="ChaosSpaceMarines/IconOfFlameDescription" value="Icon of Tzeentch that prevents units from overwatch attacks. Usable on a unit with any Mark of Chaos. Only one Icon can be active on a Unit"/>
+	<entry name="ChaosSpaceMarines/IconOfFlameFlavor" value="The Changer of Ways shrouds his servants in layers of deception and misdirection. Enemy guns track phantoms while the true threat strikes unseen through the veil of confusion."/>
+	
+	<entry name="ChaosSpaceMarines/IconOfVengeance" value="Icon of Vengeance"/>
+	<entry name="ChaosSpaceMarines/IconOfVengeanceDescription" value="Icon of Chaos that grants Fearless to a unit, which reduces moral loss by 67%. Usable on a unit with any Mark of Chaos. Only one Icon can be active on a Unit"/>
+	<entry name="ChaosSpaceMarines/IconOfVengeanceFlavor" value="These icons shine brightly in the Warp, gathering the malefic energies of Chaos to those who bear them and spurring them on to acts of suicidal brabery in their quest to seize victory from the minions of the Corpse-god."/>
+	
+	<entry name="ChaosSpaceMarines/IconOfWrath" value="Icon of Wrath"/>
+	<entry name="ChaosSpaceMarines/IconOfWrathDescription" value="Icon of Khorne that increases attacks by 25% when there are more enemies than allies in adjacent tiles. Usable on a unit with any Mark of Chaos. Only one Icon can be active on a Unit"/>
+	<entry name="ChaosSpaceMarines/IconOfWrathFlavor" value="Blood flows sweetest when outnumbered. The Blood God's icon stirs primal fury in warriors surrounded by foes—each enemy becomes another skull for the throne."/>
+
+	<entry name="ChaosSpaceMarines/ChaosSpawn" value="Chaos Spawns"/>
+	<entry name="ChaosSpaceMarines/ChaosSpawnDescription" value="Fast melee infantry unit that mutates each turn. This unit reduces ranged accuracy of nearby enemy units. This Unit Cost Energy and Food"/>
+	<entry name="ChaosSpaceMarines/ChaosSpawnFlavor" value="Although physically powerful and extremely resilient, Chaos Spawn are insane, mewling creatures with no mental powers or self-awareness. Their former intelligence has been sacrificed to their failed ambition. Many a champion of great promise has ended up as a seething mound of bone and blubber, monstrous and screaming with lunatic rage."/>
+
+	<entry name="ChaosSpaceMarines/Helbrute" value="<string name='Units/ChaosSpaceMarines/Helbrute'/>"/>
+	<entry name="ChaosSpaceMarines/HelbruteDescription" value="Walker unit that goes crazed when damaged. This Unit Cost Energy and Ore"/>
+	<entry name="ChaosSpaceMarines/HelbruteFlavor" value="<string name='Units/ChaosSpaceMarines/HelbruteFlavor'/>"/>
+
+	<entry name="ChaosSpaceMarines/ExaltedPoxwalker" value="Exalted Poxwalker"/>
+	<entry name="ChaosSpaceMarines/ExaltedPoxwalkerDescription" value="Tanky melee infantry with the Mark of Nurgle and a rotting aura. This unit cost Energy and Food and can be recruited in the Cult Building"/>
+	<entry name="ChaosSpaceMarines/ExaltedPoxwalkerFlavor" value="Where the common poxwalker is but a shambling vessel of decay, the Exalted Poxwalker is a masterwork of Grandfather Nurgles craft a swollen, unholy champion of rot. Its bloated frame teems with virulent plagues, and every staggered step leaves a trail of pestilence that seeps into the soil and air alike. To face it is to drown in the reek of inevitability, for death is not its gift corruption is."/>
+
+	<entry name="ChaosSpaceMarines/RiteOfBlood" value="Rite of War"/>
+	<entry name="ChaosSpaceMarines/RiteOfBloodDescription" value="Sacrifices population to Khorne, increasing the production speed of the Infernal Fabricator (Vehicles) and Helhaunted Eyrie (Air+Colossal) by 33%, and boosting Ore output from Slave Mines by 33%."/>
+	<entry name="ChaosSpaceMarines/RiteOfBloodFlavor" value="Khorne may have other, minor, traits—a certain nobility and simplicity of war—but his lust for death and blood outweighs them by far. Rites in his name bring not only his blessing, but also increase the work rate of the slave populace, in their terror that they could be next."/>
+
+	<entry name="ChaosSpaceMarines/RiteOfPestilence" value="Rite of Pestilence"/>
+	<entry name="ChaosSpaceMarines/RiteOfPestilenceDescription" value="Sacrifices population to Nurgle to increase the food output by 33% and the production speed from the Cult and Abominators Genelabs (Infantry) by 33%."/>
+	<entry name="ChaosSpaceMarines/RiteOfPestilenceFlavor" value="A Rite of Pestilence doesn’t explicitly sacrifice to Nurgle—it merely invites his blessing upon your people. Given the virulence of Nurgle’s diseases—the Rot, the Chortling Murrain, the Oozing Pox—many will die of these blessings, in his name. Many others will live with them and burgeon with plague-ridden fecundity."/>
+
+	<entry name="ChaosSpaceMarines/RiteOfUnholyPleasure" value="Rite of Unholy Pleasure"/>
+	<entry name="ChaosSpaceMarines/RiteOfUnholyPleasureDescription" value="Sacrifices population to Slaanesh to increase Influence output by 33% and City Growth by 33%."/>
+	<entry name="ChaosSpaceMarines/RiteOfUnholyPleasureFlavor" value="Stop your ears with wax, bind your mouth, stitch up your eyes, and tie yourself down. Only then invoke Slaanesh, so that you may not succumb utterly to the Pleasure God’s irresistible desires."/>
+
+	<entry name="ChaosSpaceMarines/RiteOfChange" value="Rite of Change"/>
+	<entry name="ChaosSpaceMarines/RiteOfChangeDescription" value="Sacrifices population to Tzeentch to increase the production output of Warp Forges and research output of Archives of the Ways in the city."/>
+	<entry name="ChaosSpaceMarines/RiteOfChangeFlavor" value="Invoking the Changer’s name is highly risky—few know what he will do to further his endless plans, or the curses he brings if he is distracted to no purpose. After a Rite of Change, some mutate, some disappear, some are embedded alive into the city walls—but always something is learned."/>
+
+	<entry name="ChaosSpaceMarines/VeteransOfTheLongWar" value="Veterans of the Long War"/>
+	<entry name="ChaosSpaceMarines/VeteransOfTheLongWarDescription" value="Reduces the morale loss by 33%, and increases the accuracy of infantry units by 2."/>
+	<entry name="ChaosSpaceMarines/VeteransOfTheLongWarFlavor" value="Many Chaos Space Marine factions have been locked in a constant, grinding war against the Imperium of Man for centuries, if not millennia. The burning hate they feel for their loyalist brothers has had time to fester, now eclipsing all other emotions. This applies, above all, to the original nine Traitor Legions who flocked to Horus' banner ten millennia ago and continue their war against their loyal brethren to this day."/>
+
+	<entry name="ChaosSpaceMarines/RubricMarine" value="Rubric Marines"/>
+	<entry name="ChaosSpaceMarines/RubricMarineDescription" value="Elite infernal infantry unit with strong Mid-Range weapons. This Unit Cost Energy and Food"/>
+	<entry name="ChaosSpaceMarines/RubricMarineFlavor" value="These ornate suits of power armour are filled only with dust—the remnants of the proud Space Marines whose spirits are sealed within and animate them still."/>
+
+	<entry name="ChaosSpaceMarines/FragGrenade" value="Frag and Krak granades"/>
+	<entry name="ChaosSpaceMarines/FragGrenadeDescription" value="Grants all Chaos Space Marines infantry unit types the ability to throw Frag and Krak grenades."/>
+	<entry name="ChaosSpaceMarines/FragGrenadeFlavor" value="<string name='Weapons/FragGrenadeFlavor'/>"/>
+
+	<entry name="ChaosSpaceMarines/MeltaBomb" value="<string name='Weapons/MeltaBomb'/>"/>
+	<entry name="ChaosSpaceMarines/MeltaBombDescription" value="Grants all Chaos Space Marines infantry unit types the ability to deploy a melta bomb that is highly effective against heavy vehicles and fortifications."/>
+	<entry name="ChaosSpaceMarines/MeltaBombFlavor" value="<string name='Weapons/MeltaBombFlavor'/>"/>
+
+	<entry name="ChaosSpaceMarines/DarkDisciple" value="<string name='Units/ChaosSpaceMarines/DarkDisciple'/>"/>
+	<entry name="ChaosSpaceMarines/DarkDiscipleDescription" value="Infantry unit that increases the defense of nearby Chaos units, casts warp magic, and can heal other units by sacrificing its own health. This unit costs Energy and Food and can be recruited from the Cult Building."/>
+	<entry name="ChaosSpaceMarines/DarkDiscipleFlavor" value="<string name='Units/ChaosSpaceMarines/DarkDiscipleFlavor'/>"/>
+
+	<entry name="ChaosSpaceMarines/ChaosSpawn" value="Chaos Spawns"/>
+	<entry name="ChaosSpaceMarines/ChaosSpawnDescription" value="Fast melee infantry unit that mutates each turn. This unit reduces ranged accuracy of nearby enemy units. This unit cost Energy and Food and can be recruited in the Cult Building."/>
+	<entry name="ChaosSpaceMarines/ChaosSpawnFlavor" value="Although physically powerful and extremely resilient, Chaos Spawn are insane, mewling creatures with no mental powers or self-awareness. Their former intelligence has been sacrificed to their failed ambition. Many a champion of great promise has ended up as a seething mound of bone and blubber, monstrous and screaming with lunatic rage."/>
+
+	<entry name="ChaosSpaceMarines/Heldrake" value="Heldrake"/>
+	<entry name="ChaosSpaceMarines/HeldrakeDescription" value="Flying vehicle that excels against enemy aircraft."/>
+	<entry name="ChaosSpaceMarines/HeldrakeFlavor" value="Heldrakes are winged Daemon Engines that plummet out of the skies like living comets, hurtling towards enemy aircraft and crashing claws-first into them from above. Each is a vicious, hell-forged predator; a Heldrake takes cruel joy in diving down upon the unsuspecting air support of the enemy in order to shred them to pieces with its scything wings and rune-carved talons."/>
+
+	<entry name="ChaosSpaceMarines/AdvancedVehicles" value="Dark Forge"/>
+	<entry name="ChaosSpaceMarines/AdvancedVehiclesDescription" value="Building that produces  Mid and late-game Vehicles and Warmachines like: Maulerfiends, Forgefiends, Defiler, Land Raiders and Greater Brass Scropions. <br/><br/>Units here cost Ore. Requires 2 build slots and 2 population to operate, but offers higher production."/>
+
+	<entry name="ChaosSpaceMarines/AdvancedInfantry" value="Hall of the Everchosen"/>
+	<entry name="ChaosSpaceMarines/AdvancedInfantryDescription" value="Building that produces Mid and late-game Infantry and Aircraft Units like: Rubric Marines, Daemon Prince, Warp Talons, Chaos Terminators, Obliterators and Helldrakes. <br/><br/>Units here cost Food, Ore and Energy. Requires 2 build slots and 2 population to operate, but offers higher production."/>
+
+	<entry name="ChaosSpaceMarines/Loyalty" value="Meadow of Sorrow"/>
+	<entry name="ChaosSpaceMarines/LoyaltyDescription" value="Special Chaos Building, that increase loyalty and can also produce Chaos Cultist. <br/><br/>Requires 2 build slots and 1 population to operate."/>
+	<entry name="ChaosSpaceMarines/LoyaltyFlavor" value="It can’t have been a follower of Khorne who named this plain a ‘meadow’—allegory isn’t a concomitant of the Blood God’s troops. Whoever coined it, the metaphor is apt—the carefully-planted rows, tended conscientiously, the gaps refilled as they empty. But the Slaaneshi garden these fields, constantly devising unholy pleasures for their God’s honour at the expense of its victims."/>
+
+	<entry name="ChaosSpaceMarines/Heroes" value="Cult of Chaos"/>
+	<entry name="ChaosSpaceMarines/HeroesDescription" value="Building that produces Cultist Units and Deamons as well as generates resources. Units trained here require Energy and Food as part of their cost."/>
+	<entry name="ChaosSpaceMarines/HeroesFlavor" value="What are gods without followers? Here, Cultists and Dark Apostles alike plot to bring converts to the worship of Chaos—not a hard task on Gladius, once people see the inhuman Xenos, the undoubted effects of the Dark Gods’ powers, and the Daemonic shapes lingering in the chancel."/>
+
+
+
+	<entry name="ChaosSpaceMarines/InfantryUpgrade" value="Improved Marine Wargear"/>
+	<entry name="ChaosSpaceMarines/InfantryOffensivUpgradeDescription" value="All units produced in the Abominator's Genelab gain +10% Hitpoints and +5% extra accuracy."/>
+
+	<entry name="ChaosSpaceMarines/CulstistUpgrade" value="Improved Cultist Wargear"/>
+	<entry name="ChaosSpaceMarines/CulstistUpgradeDescription" value="All units produced in the Cult of Chaos gain +15% Hitpoints."/>
+
+	<entry name="ChaosSpaceMarines/VehicleUpgrade" value="Improved Vehicle Wargear"/>
+	<entry name="ChaosSpaceMarines/VehicleUpgradeDescription" value="All units produced in the Infernal Fabricator gain +10% Hitpoints and +5% extra accuracy."/>
+
+
+	
+	<entry name="ChaosSpaceMarines/AdvancedOffensivUpgrade" value="Improved Elite Training"/>
+	<entry name="ChaosSpaceMarines/AdvancedOffensivUpgradeDescription" value="All units produced in the Dark Forge and Hall of the Everchosen gain +5% extra damage and +5% extra accuracy."/>
+
+	<entry name="ChaosSpaceMarines/AdvancedDefensivUpgrade" value="Improved Elite Wargear"/>
+	<entry name="ChaosSpaceMarines/AdvancedDefensivUpgradeDescription" value="All units produced in the Dark Forge and Hall of the Everchosen gain +10% Hitpoints and +1 extra armour."/>
+
+
+
+
+
+
+
+
+
+	<entry name="Necrons/NecrodermisRepairInfantry" value="Necrodermis Repair for Infantry"/>
+	<entry name="Necrons/NecrodermisRepairInfantryDescription" value="Unlocks the Necrodermis Repair ability for Infantry and Heroes. This Ability restores hit points in exchange for influence."/>
+	<entry name="Necrons/NecrodermisRepairInfantryFlavor" value="If a Necron is only mildly damaged, their living metal body can somewhat heal itself, flowing reserve metals to cover flaws and failings."/>
+
+	<entry name="Necrons/NecrodermisRepairVehicles" value="Necrodermis Repair for Vehicles"/>
+	<entry name="Necrons/NecrodermisRepairVehiclesDescription" value="Unlocks the Necrodermis Repair ability for Vehicles and Creatures. This Ability restores hit points in exchange for influence."/>
+	<entry name="Necrons/NecrodermisRepairVehiclesFlavor" value="If a Necron is only mildly damaged, their living metal body can somewhat heal itself, flowing reserve metals to cover flaws and failings."/>
+
+	<entry name="TeslaDamage" value="Viridian Discharge"/>
+	<entry name="TeslaDamageDescription" value="Increases the armour penetration of tesla and disintegrator weapons."/>
+	<entry name="TeslaDamageFlavor" value="The luminous green lightning discharged by these exotic and ancient Necron weapons crackles with life, writhing and seemingly clawing at any target it hits, moving as if it had a mind of its own."/>
+
+	<entry name="Necrons/DoomScythe" value="Doom Scythe"/>
+	<entry name="Necrons/DoomScytheDescription" value="Airborne fighter unit with high-penetration Weapons."/>
+	<entry name="Necrons/DoomScytheFlavor" value="Doom Scythes are heralds of terror and dismay. These supersonic fighter craft range ahead of a Necron army, drawing upon their strategic datastacks to operate with virtual autonomy. Whether performing terror-raids as a precursor to invasion, keeping the air free of enemy aircraft, or launching overwhelming strike missions against key strategic targets, Doom Scythe pilots will complete their task with merciless precision."/>
+
+	<entry name="Necrons/NightScythe" value="Night Scythe"/>
+	<entry name="Necrons/NightScytheDescription" value="Airborne transport unit equipped with high-attack, low-penetration weapons."/>
+	<entry name="Necrons/NightScytheFlavor" value="The Night Scythe is the Necrons' favoured tool of invasion, a sickle-winged herald of woe that possesses the ability to beam Necrons directly into battle. Manoeuvrable enough to evade orbital defences and interceptors, and swift enough to outpace mustering foes, Night Scythes can ghost through a defence perimeter to deploy invasion forces well behind enemy lines."/>
+
+	<entry name="Necrons/Purchase" value="Matter–Energy Conversion"/>
+	<entry name="Necrons/PurchaseDescription" value="Allows you to purchase ore with energy, or energy with ore, at the cost of influence."/>
+
+	<entry name="Necrons/EnergyOre" value="Extraction Matrix"/>
+	<entry name="Necrons/EnergyOreDescription" value="Building that produces Ore and Energy aswell a small population limit increase. <br/><br/>Requires 2 build slots and 2 population to operate, but offers higher production."/>
+	
+	<entry name="Necrons/RapidRiseEarly" value="Rapid Rise"/>
+	<entry name="Necrons/RapidRiseEarlyDescription" value="Reduces the cost of Rapid Rise across all production buildings. <br/><br/>Necrons can speed up production by spending influence through Rapid Rise."/>
+	<entry name="Necrons/RapidRiseEarlyFlavor" value="The Lord strengthens his patron-client protocols, so that his orders are carried out with more speed and less thought—if less free will."/>
+
+	<entry name="Necrons/RapidRiseLate" value="Rapid Rise Warmachine"/>
+	<entry name="Necrons/RapidRiseLateDescription" value="Further reduces the cost of Rapid Rise across all production buildings. <br/><br/>Necrons can speed up production by spending influence through Rapid Rise."/>
+	<entry name="Necrons/RapidRiseLateFlavor" value="The Lord strengthens his patron-client protocols, so that his orders are carried out with more speed and less thought—if less free will."/>
+
+	<entry name="Necrons/RapidRiseConstruction" value="Rapid Rise Buildings"/>
+	<entry name="Necrons/RapidRiseConstructionDescription" value="This technology drastically reduces the cost of Rapid Rise for the Slava Mastaba [Buildings] making it basically usable. <br/><br/>Necrons can speed up unit production by spending influence through an ability called Rapid Rise."/>
+	<entry name="Necrons/RapidRiseConstructionFlavor" value="The Lord strengthens his patron-client protocols, so that his orders are carried out with more speed and less thought—if less free will."/>
+	<entry name="Necrons/RapidRiseBonusConstruction" value="Rapid Rise Buildings"/>
+	<entry name="Necrons/RapidRiseBonusConstructionDescription" value="This technology drastically reduces the cost of Rapid Rise for Construction buildings, making it usable. <br/><br/>Necrons can speed up unit production by spending influence through an ability called Rapid Rise."/>
+	<entry name="Necrons/RapidRiseBonusConstructionFlavor" value="The Lord strengthens his patron-client protocols, so that his orders are carried out with more speed and less thought—if less free will."/>
+	<entry name="Necrons/TranscendentCtan" value="Transcendent C'tan"/>
+	<entry name="Necrons/TranscendentCtanDescription" value="Monstrous creature unit with an array of devastating powers."/>
+
+	<entry name="Necrons/Nebuloscope" value="<string name='Traits/Necrons/Nebuloscope'/>"/>
+	<entry name="Necrons/NebuloscopeDescription" value="Allows Tomb Blades to ignore 33 % ranged damage reduction and grants them 4 extra Hitpoints"/>
+	<entry name="Necrons/NebuloscopeFlavor" value="<string name='Traits/Necrons/NebuloscopeFlavor'/>"/>
+
+	<entry name="Necrons/LivingMetal2" value="Immortal Forms"/>
+	<entry name="Necrons/LivingMetal2Description" value="Increases the healing of Living Metal - Vehicle / Monster Regneration - from 2 to 4 per turn."/>
+	<entry name="Necrons/LivingMetal2Flavor" value="In some abstruse sense, the Necron's machines now remember their former glory and endlessly strive to regain it, flowing their living metal rapidly back to cover any damage."/>
+
+	<entry name="Necrons/ScarabHive" value="<string name='Actions/Necrons/ScarabHive'/>"/>
+	<entry name="Necrons/ScarabHiveDescription" value="Grants Canoptek Spyders and Canoptek Reanimators the ability to construct Canoptek Scarabs."/>
+	<entry name="Necrons/ScarabHiveFlavor" value="<string name='Actions/Necrons/ScarabHiveFlavor'/>"/>
+
+	<entry name="Necrons/GloomPrism" value="<string name='Actions/Necrons/GloomPrism'/>"/>
+	<entry name="Necrons/GloomPrismDescription" value="Increases the invulnerable damage reduction of Canoptek Spyders, Canoptek Reanimators and Small Gauss Pylons. These units also emit this damage reduction to adjacent allied units."/>
+	<entry name="Necrons/GloomPrismFlavor" value="<string name='Actions/Necrons/GloomPrismFlavor'/>"/>
+
+	<entry name="Necrons/SmallGaussPylon" value="Small Gauss Pylon"/>
+	<entry name="Necrons/SmallGaussPylonDescription" value="Grants Canoptek Spyder the ability to build Small Gauss Pylons, a long-range Anti-Tank unit which can also emit Gloom Prisms."/>
+	<entry name="Necrons/SmallGaussPylonFlavor" value="<string name='Units/Necrons/GaussPylonFlavor'/>"/>
+
+	<entry name="Necrons/Lord" value="Lord"/>
+	<entry name="Necrons/LordDescription" value="Iconic hero unit with versatile abilities. Built at the Summoning Core."/>
+	<entry name="Necrons/LordFlavor" value="These Lords of the Necrons, though lesser in stature and power than an Overlord or phaeron, are nonetheless formidable foes in their own right, and often march to war at the head of a vast mechanical army. Independent of their monarchs, Lords are cunning leaders and pitiless commanders, focused upon the destruction of their foes and their own personal glory."/>
+
+	<entry name="Necrons/HeroesDescription" value="Unlocks the Canoptek Matrix, which produces Canoptek Scarabs, Reanimators and Spyders, as well as the Cryptek hero."/>
+
+	<entry name="Necrons/DestroyerLordDescription" value="Hero unit with exceptional close combat capabilities. Built at the Hypostyle Temple."/>
+	<entry name="Necrons/ReanimationProtocols2" value="Optimized Regeneration"/>
+	<entry name="Necrons/ReanimationProtocols2Description" value="Increases the amount healed by Reanimation Protocols and Living Metal by 1 HP per turn."/>
+	<entry name="Necrons/ReanimationProtocols2Flavor" value="With these Cryptek-derived repair and revival systems, Necrons are even more likely to shrug off apparently-fatal damage."/>
+
+	<entry name="Necrons/ReanimationProtocols3" value="Advanced Regeneration"/>
+	<entry name="Necrons/ReanimationProtocols3Description" value="Increases the amount healed by Reanimation Protocols and Living Metal by 1 HP per turn."/>
+	<entry name="Necrons/ReanimationProtocols3Flavor" value="With these Cryptek-derived repair and revival systems, Necrons are even more likely to shrug off apparently-fatal damage."/>
+
+	<entry name="Necrons/ReanimationProtocols4" value="Perfected Regeneration"/>
+	<entry name="Necrons/ReanimationProtocols4Description" value="Increases the amount healed by Reanimation Protocols and Living Metal by 1 HP per turn."/>
+	<entry name="Necrons/ReanimationProtocols4Flavor" value="With these Cryptek-derived repair and revival systems, Necrons are even more likely to shrug off apparently-fatal damage."/>
+
+	<entry name="Necrons/NecrodermisRepair2" value="Smart Necrodermis Repairs"/>
+	<entry name="Necrons/NecrodermisRepair2Description" value="Necrodermis Repairs no longer needs an action to use."/>
+	<entry name="Necrons/NecrodermisRepair2Flavor" value="The Crypteks have improved the nanomechanical structure of the Necrons' living metal bodies once again, allowing them to recover from almost any damage."/>
+	
+	<entry name="Necrons/NecrodermisRepair3" value="Enhanced Necrodermis Repairs"/>
+	<entry name="Necrons/NecrodermisRepair3Description" value="Increase the Necrodermis Repair healing by 15 %"/>
+	<entry name="Necrons/NecrodermisRepair3Flavor" value="The living metal that constitutes the Necron bodies and vehicles now constantly writhes, rebuilding itself from moment to moment."/>
+
+	<entry name="Necrons/NecrodermisRepair4" value="Faster Necrodermis Repairs"/>
+	<entry name="Necrons/NecrodermisRepair4Description" value="Reduces the cooldown of Necrodermis Repairs by 2 Turns."/>
+	<entry name="Necrons/NecrodermisRepair4Flavor" value="The living metal that constitutes the Necron bodies and vehicles now constantly writhes, rebuilding itself from moment to moment."/>
+
+	<entry name="Necrons/Dominion" value="Dominion: Awakening"/>
+	<entry name="Necrons/DominionDescription" value="Every conquered Outpost also generates additional 0.5 influence per Turn"/>
+	<entry name="Necrons/DominionFlavor" value="As the tombs stir and the ancient circuits hum once more, the dynasty reclaims its first tendrils of power. Worlds long lost begin to recognize their true masters."/>
+
+	<entry name="Necrons/Dominion1" value="Dominion: Rising"/>
+	<entry name="Necrons/Dominion1Description" value="Every conquered Outpost also generates additional 0.5 influence per Turn"/>
+	<entry name="Necrons/Dominion1Flavor" value="The dynasty’s influence spreads like cold metal across the land. Outposts fall into silent obedience as the will of the Necrons strengthens with each conquest."/>
+
+	<entry name="Necrons/Dominion3" value="Dominion: Eternal"/>
+	<entry name="Necrons/Dominion3Description" value="Every conquered Outpost also generates additional 1 influence per Turn"/>
+	<entry name="Necrons/Dominion3Flavor" value="All resistance is extinguished. The stars themselves bow to the undying rule of the Necrons, and their Dominion is eternal."/>
+
+	<entry name="Necrons/DimensionalCorridor" value="<string name='Actions/Necrons/DimensionalCorridor'/>"/>
+	<entry name="Necrons/DimensionalCorridorDescription" value="Grants infantry and Tomp Blades the ability to teleport to cities and Monoliths."/>
+	<entry name="Necrons/DimensionalCorridorFlavor" value="<string name='Actions/Necrons/DimensionalCorridorFlavor'/>"/>
+
+	<entry name="Necrons/AdvancedVehicles" value="Hyperphase Nexus"/>
+	<entry name="Necrons/AdvancedVehiclesDescription" value="Building that produces Mid and late-game Vehicles and Monsters like: Hexmark Destroyer, Canoptek Wraiths, Doomsday Ark, Doom Scythe, Obilisk and Seraptek Heavy Construct <br/><br/>Units here cost Ore and Energy. Requires 2 build slots and 2 population to operate, but offers higher production."/>
+
+	<entry name="Necrons/AdvancedInfantry" value="Immortal Necropolis"/>
+	<entry name="Necrons/AdvancedInfantryDescription" value="Building that produces Mid and late-game Infantry and Vehicles Units like: Immortals, Transcendent C´Tan, Night Scythe, Skorpekh Destoryers and Monoliths. <br/><br/>Units here cost Ore and Energy. Requires 2 build slots and 2 population to operate, but offers higher production."/>
+
+	<entry name="Necrons/NightScythe" value="Night Scythe"/>
+	<entry name="Necrons/NightScytheDescription" value="Airborne transport unit."/>
+	<entry name="Necrons/NightScytheFlavor" value="The Night Scythe is the Necrons' favoured tool of invasion, a sickle-winged herald of woe that possesses the ability to beam Necrons directly into battle. Manoeuvrable enough to evade orbital defences and interceptors, and swift enough to outpace mustering foes, Night Scythes can ghost through a defence perimeter to deploy invasion forces well behind enemy lines."/>
+
+	<entry name="Necrons/GaussPylon" value="<string name='Units/Necrons/GaussPylon'/>"/>
+	<entry name="Necrons/GaussPylonDescription" value="Grants cities the ability to raise powerful gauss fortifications from the ground."/>
+	<entry name="Necrons/GaussPylonFlavor" value="<string name='Units/Necrons/GaussPylonFlavor'/>"/>
+
+	<entry name="Necrons/InfantryOffensivUpgrade" value="Improved Infantry Combat Protocol"/>
+	<entry name="Necrons/InfantryOffensivUpgradeDescription" value="All Infantry Units produced in the Summoning Core, Canoptek Scarabs and Cryptek gain +5% extra damage and +5% extra accuracy."/>
+
+	<entry name="Necrons/InfantryDefensivUpgrade" value="Improved Infantry Living Metal"/>
+	<entry name="Necrons/InfantryDefensivUpgradeDescription" value="All Infantry Units produced in the Summoning Core, Canoptek Scarabs and Cryptek gain +10% Hitpoints and +1 armour."/>
+
+	<entry name="Necrons/InfantryOffensivUpgrade2" value="Expert Infantry Combat Protocol"/>
+	<entry name="Necrons/InfantryOffensivUpgrade2Description" value="All Infantry Units produced in the Summoning Core, Canoptek Scarabs and Cryptek gain another +3% extra damage and +3% extra accuracy."/>
+
+	<entry name="Necrons/InfantryDefensivUpgrade2" value="Expert Infantry Living Metal"/>
+	<entry name="Necrons/InfantryDefensivUpgrade2Description" value="All Infantry Units produced in the Summoning Core, Canoptek Scarabs and Cryptek gain another +10% Hitpoints."/>
+
+	<entry name="Necrons/VehicleOffensivUpgrade" value="Improved Vehicle Combat Protocol"/>
+	<entry name="Necrons/VehicleOffensivUpgradeDescription" value="All Units produced in the Hypostyle Temple, Canoptek Reanimators and Canoptek Spyders gain +5% extra damage and +5% extra accuracy."/>
+
+	<entry name="Necrons/VehicleDefensivUpgrade" value="Improved Vehicle Living Metal"/>
+	<entry name="Necrons/VehicleDefensivUpgradeDescription" value="All Units produced in the Hypostyle Temple, Canoptek Reanimators and Canoptek Spyders gain +10% Hitpoints and +1 extra armour."/>
+
+	<entry name="Necrons/VehicleOffensivUpgrade2" value="Expert Vehicle Combat Protocol"/>
+	<entry name="Necrons/VehicleOffensivUpgrade2Description" value="All Units produced in the Hypostyle Temple, Canoptek Reanimators and Canoptek Spyders gain another +3% extra damage and +3% extra accuracy."/>
+
+	<entry name="Necrons/VehicleDefensivUpgrade2" value="Expert Vehicle Living Metal"/>
+	<entry name="Necrons/VehicleDefensivUpgrade2Description" value="All Units produced in the Hypostyle Temple, Canoptek Reanimators and Canoptek Spyders gain another +10% Hitpoints"/>
+
+	<entry name="Necrons/AdvancedOffensivUpgrade" value="Improved Elite Combat Protocol"/>
+	<entry name="Necrons/AdvancedOffensivUpgradeDescription" value="All units produced in the Hyperphase Nexus and Immortal Necropolis gain +5% extra damage and +5% extra accuracy. <br/><br/>All Units produced in Summoning Core, Hypostyle Temple and Canoptek Matrix gain another +3% extra damage and +3% extra accuracy."/>
+
+	<entry name="Necrons/AdvancedDefensivUpgrade" value="Improved Elite Living Metal"/>
+	<entry name="Necrons/AdvancedDefensivUpgradeDescription" value="All units produced in the Hyperphase Nexus and Immortal Necropolis gain +10% Hitpoints and +1 extra armour.  <br/><br/>All Units produced in Summoning Core, Hypostyle Temple and Canoptek Matrix gain another +10% Hitpoints"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<entry name="SistersOfBattle/RifleScopes" value="Rifle Scopes"/>
+	<entry name="SistersOfBattle/RifleScopesDescription" value="increases attack range from Bolters by 1. This includes Battlesisters, Cities and Strongpoint of Faith."/>
+	<entry name="SistersOfBattle/RifleScopesFlavor" value="Mag-locked targeting array with consecrated range-finders and blessed trajectorial calculators. These hallowed optics transform even the most distant target into the Emperor's righteous judgment, delivered with bolt-round precision across the killing fields of war."/>
+
+	<entry name="SistersOfBattle/TechpriestEnginseerSisterOfBattle" value="Tech-Priest Enginseers"/>
+	<entry name="SistersOfBattle/TechpriestEnginseerSisterOfBattleDescription" value="Infantry unit that supports vehicles, clears tiles and construct Fortifications. Can be built in the Ministorium Workshop [Construction] or Legatines Priory [Hero building]."/>
+	<entry name="SistersOfBattle/TechpriestEnginseerSisterOfBattleFlavor" value="Tech-Priest Enginseers serve as custodians for the vehicles of the Imperial Guard. With binary prayers and mystic rites, the Enginseers soothe the machine spirits of their tracked congregation. Without the diligent maintenance of the Enginseers, the Imperial Guard would soon find themselves without the heavy armour vital to their very survival."/>
+
+	<entry name="SistersOfBattle/Hospitaller" value="Hospitallers"/>
+	<entry name="SistersOfBattle/HospitallerDescription" value="Infantry unit that explores Sororitas Holy Sites, heals allied infantry, clears tiles and founds new cities. Can be built in the Ministorium Workshop [Construction] or Legatines Priory [Hero building]."/>
+	<entry name="SistersOfBattle/HospitallerFlavor" value="Hospitallers are physical and spiritual healers. They are possessed of medicinal expertise as well as serving as a font of faith for those in need, whispering mantras of vigour to dull pain and intoning prayers to salve fevered minds. They move swiftly across the battlefield, working in solemn calm despite the harshest conditions."/>
+
+	<entry name="SistersOfBattle/StrongpointOfFaith" value="Strongpoint Of Faith"/>
+	<entry name="SistersOfBattle/StrongpointOfFaithDescription" value="Grants Tech-Priest Enginseers the Power of the Machine Spirit ability, increasing the accuracy of vehicles. Tech-Priest Enginseers can also construct fortifications equipped with bolters, meltas, and flamers, which must be manned by an infantry unit."/>
+	<entry name="SistersOfBattle/StrongpointOfFaithFlavor" value="Tech-Priest Enginseers serve as custodians for the vehicles of the Imperial Guard. With binary prayers and mystic rites, the Enginseers soothe the machine spirits of their tracked congregation. Without the diligent maintenance of the Enginseers, the Imperial Guard would soon find themselves without the heavy armour vital to their very survival."/>
+
+	<entry name="SistersOfBattle/MedicusMinistorum" value="<string name='Traits/SistersOfBattle/MedicusMinistorum'/>"/>
+	<entry name="SistersOfBattle/MedicusMinistorumDescription" value="Hospitaller heal increases by 2 HP, Grants feel no pain damage reduction to allied infantry units adjacent to a Hospitaller unit or a Strongpoint of Faith"/>
+	<entry name="SistersOfBattle/MedicusMinistorumFlavor" value="<string name='Traits/SistersOfBattle/MedicusMinistorumFlavor'/>"/>
+
+	<entry name="SistersOfBattle/AnchoriteSarcophagus" value="<string name='Traits/SistersOfBattle/AnchoriteSarcophagus'/>"/>
+	<entry name="SistersOfBattle/AnchoriteSarcophagusDescription" value="Increases the armour of Mortifiers by 2 and the Hitpoints by 5."/>
+	<entry name="SistersOfBattle/AnchoriteSarcophagusFlavor" value="<string name='Traits/SistersOfBattle/AnchoriteSarcophagusFlavor'/>"/>
+	
+	<entry name="SistersOfBattle/FragGrenade" value="Frag Granades"/>
+	<entry name="SistersOfBattle/FragGrenadeDescription" value="All infantry units gain the ability to throw frag grenades."/>
+	<entry name="SistersOfBattle/FragGrenadeFlavor" value="<string name='Weapons/FragGrenadeFlavor'/>"/>
+
+	<entry name="SistersOfBattle/MeltaBomb" value="<string name='Weapons/MeltaBomb'/>"/>
+	<entry name="SistersOfBattle/MeltaBombDescription" value="All infantry units gain the ability gain the ability to deploy a melta bomb that is highly effective against heavy vehicles and fortifications."/>
+	<entry name="SistersOfBattle/MeltaBombFlavor" value="<string name='Weapons/MeltaBombFlavor'/>"/>
+
+	<entry name="SistersOfBattle/MartyredArsenal" value="Martyred Arsenal"/>
+	<entry name="SistersOfBattle/MartyredArsenalDescription" value="Sacred Rite that increases the production output of Legatines' Priories."/>
+	<entry name="SistersOfBattle/MartyredArsenalFlavor" value="“And the faithful shall be relentless in their inquisition. Nothing shall stand in the way of their will; neither the laws of men nor xenos; not qualms nor friends; not steel nor plascrete nor adamantium.”<br/>  — Canoness Vandire, In Memoriam De Virtute"/>
+
+	<entry name="SistersOfBattle/GloriousAcquisition" value="Glorious Acquisition"/>
+	<entry name="SistersOfBattle/GloriousAcquisitionDescription" value="Acquire Tiles now cost 50% less production."/>
+
+	<entry name="SistersOfBattle/ExpandedRanks" value="Expanded Ranks"/>
+	<entry name="SistersOfBattle/ExpandedRanksDescription" value="Increase the Squad Size of all Adepta Sororitas Infantry Units by 1."/>
+	<entry name="SistersOfBattle/ExpandedRanksFlavor" value="Where one Sister stands, another is called to her side. Through devotion, discipline, and the Emperor’s inexhaustible grace, the ranks swell—not by chance, but by sacred purpose."/>
+
+	<entry name="SistersOfBattle/MiracleOfFaith" value="Miracle of Faith"/>
+	<entry name="SistersOfBattle/MiracleOfFaithDescription" value="Resets the Cooldown of an Act of Faith ability."/>
+	<entry name="SistersOfBattle/MiracleOfFaithFlavor" value="In the crucible of battle, a radiant surge of devotion sweeps through the faithful. For a heartbeat, the veil lifts—and in that holy instant, every deed becomes possible again."/>
+
+	<entry name="SistersOfBattle/UpliftedMiracleOfFaith" value="Uplifted Miracle of Faith"/>
+	<entry name="SistersOfBattle/UpliftedMiracleOfFaithDescription" value="Reduces the cooldown of Miracle of Faith by 50 %"/>
+	<entry name="SistersOfBattle/UpliftedMiracleOfFaithFlavor" value="In the crucible of battle, a radiant surge of devotion sweeps through the faithful. For a heartbeat, the veil lifts—and in that holy instant, every deed becomes possible again."/>
+
+	<entry name="SistersOfBattle/MiracleOfReignitedSpirit" value="Miracle of Reignited Spirit"/>
+	<entry name="SistersOfBattle/MiracleOfReignitedSpiritDescription" value="Restores the Morale of a target Unit."/>
+	<entry name="SistersOfBattle/MiracleOfReignitedSpiritFlavor" value="A spark of divine fervour reignites within the weary, lifting their hearts beyond fear. In the Emperor’s light, their spirits rise unbroken once more."/>
+
+	<entry name="SistersOfBattle/UpliftedMiracleOfReignitedSpirit" value="Uplifted Miracle of Reignited Spirit"/>
+	<entry name="SistersOfBattle/UpliftedMiracleOfReignitedSpiritDescription" value="Miracle of Reignited Spirit also restores 10 Hitpoints of target Unit."/>
+	<entry name="SistersOfBattle/UpliftedMiracleOfReignitedSpiritFlavor" value="A spark of divine fervour reignites within the weary, lifting their hearts beyond fear. In the Emperor’s light, their spirits rise unbroken once more."/>
+
+	<entry name="SistersOfBattle/MiracleOfDivineShielding" value="Miracle of Divine Shielding"/>
+	<entry name="SistersOfBattle/MiracleOfDivineShieldingDescription" value="Grants extreme damage reduction while disabling movement and decreasing damage dealt for one turn."/>
+	<entry name="SistersOfBattle/MiracleOfDivineShieldingFlavor" value="Shrouded in the Emperor’s unbreakable light, the Sister becomes an unyielding bulwark. Though her blade stills and her stride falters, her faith alone turns aside the fiercest blows."/>
+
+	<entry name="SistersOfBattle/MiracleOfPurifyingAgony" value="Miracle of Purifying Agony"/>
+	<entry name="SistersOfBattle/MiracleOfPurifyingAgonyDescription" value="The unit gains a damage buff but takes damage at the end of each turn."/>
+	<entry name="SistersOfBattle/MiracleOfPurifyingAgonyFlavor" value="In sacred torment their faith burns brightest; each wound a prayer, each pang a vow renewed. Through holy suffering, their wrath is made pure—and their enemies are the first to feel its fire."/>
+
+	<entry name="SistersOfBattle/MiracleOfWondrousProduction" value="Miracle of Wondrous Production"/>
+	<entry name="SistersOfBattle/MiracleOfWondrousProductionDescription" value="Grants all unit production buildings a production boost. Does not apply to constructing buildings."/>
+	<entry name="SistersOfBattle/MiracleOfWondrousProductionFlavor" value="By righteous hymn and holy fire, the Sisters rouse the sanctified forges to miraculous fervor—arming the faithful with divine haste. Yet such blessings are reserved only for His warriors, never for mere stone and scaffolding."/>
+
+	<entry name="SistersOfBattle/UpliftedMiracleOfWondrousProduction" value="Uplifted Miracle of Wondrous Production"/>
+	<entry name="SistersOfBattle/UpliftedMiracleOfWondrousProductionDescription" value="Reduces the Cooldown of Miracle of Wondrous Production by 2 Turn"/>
+
+	<entry name="SistersOfBattle/MiracleOfRighteousMomentum" value="Miracle of Righteous Momentum"/>
+	<entry name="SistersOfBattle/MiracleOfRighteousMomentumDescription" value="Grants a unit +2 Movement Speed for one turn."/>
+	<entry name="SistersOfBattle/MiracleOfRighteousMomentumFlavor" value="With hearts afire and purpose unbroken, the Sisters surge forth. In that blessed instant, the Emperor’s will carries them faster than mortal flesh should ever move."/>
+
+	<entry name="SistersOfBattle/UpliftedMiracleOfRighteousMomentum" value="Uplifted Miracle of Righteous Momentum"/>
+	<entry name="SistersOfBattle/UpliftedMiracleOfRighteousMomentumDescription" value="Miracle of Righteous Momentum also ignores enemy Zones of Control and decreases its cooldown by 1 turn."/>
+
+	<entry name="SistersOfBattle/SisterSuperior" value="Sister Superior 1 / 2"/>
+	<entry name="SistersOfBattle/SisterSuperiorDescription" value="Increases the morale of all Sororitas Units by 1"/>
+	<entry name="SistersOfBattle/SisterSuperiorFlavor" value="It is the Sisters Superior who form the true lynchpins of each squad of Battle Sisters. Speaking with authority derived from years of combat experience and supreme faith in the God-Emperor, these remarkable officers ensure that every Sister under their command fights to the full extent of her abilities and endurance, thereby maximising the strategic impact of the squad as a whole."/>
+
+	<entry name="SistersOfBattle/SisterSuperior2" value="Sister Superior 2 / 2"/>
+	<entry name="SistersOfBattle/SisterSuperior2Description" value="Increases the morale of all Sororitas Units by 1"/>
+	<entry name="SistersOfBattle/SisterSuperior2Flavor" value="It is the Sisters Superior who form the true lynchpins of each squad of Battle Sisters. Speaking with authority derived from years of combat experience and supreme faith in the God-Emperor, these remarkable officers ensure that every Sister under their command fights to the full extent of her abilities and endurance, thereby maximising the strategic impact of the squad as a whole."/>
+
+	<entry name="SistersOfBattle/AvengeTheMartyrs" value="Avenge the Martyrs"/>
+	<entry name="SistersOfBattle/AvengeTheMartyrsDescription" value="Increases the morale loss reduction from Avenging Zeal / Martyr Spirit."/>
+	<entry name="SistersOfBattle/AvengeTheMartyrsFlavor" value="<string name='Traits/SistersOfBattle/MartyrSpiritFlavor'/>"/>
+
+	<entry name="SistersOfBattle/LitanyOfHealingGrace" value="Litany of Healing Grace"/>
+	<entry name="SistersOfBattle/LitanyOfHealingGraceDescription" value="Imagifiers now heal allied infantry units around them for 2 Hit Points per turn."/>
+	<entry name="SistersOfBattle/LitanyOfHealingGraceFlavor" value="As the Imagifier intones her sacred verse, a gentle radiance flows from her relics. Flesh knits, spirits steady, and the Emperor’s mercy mends what steel and flame have torn."/>
+	
+	<entry name="SistersOfBattle/AdvancedVehicles" value="Armory of the Faithful"/>
+	<entry name="SistersOfBattle/AdvancedVehiclesDescription" value="Building that produces Mid and late-game Vehicles and Aircraft like: Castigator, Exorcist, Avenger Strike Fighter and Cerastus Knight-Lancer. <br/><br/>Requires 2 build slots and 2 population to operate, but offers higher production."/>
+
+	<entry name="SistersOfBattle/AdvancedInfantry" value="Sanctum of the Martyred Saint"/>
+	<entry name="SistersOfBattle/AdvancedInfantryDescription" value="Building that produces Mid and late-game Infantry and Warmaschines like: Zephyrim, Saint Celestine, Lighning Fighter, Celestian Sacresants, Paragon Warsuits. <br/><br/>Requires 2 build slots and 2 population to operate, but offers higher production."/>
+
+	<entry name="SistersOfBattle/LightningFighter" value="Lightning Fighter"/>
+	<entry name="SistersOfBattle/LightningFighterDescription" value="Extremely fast air superiority fighter unit."/>
+	<entry name="SistersOfBattle/LightningFighterFlavor" value="The Lightning was re-discovered during the Saint-Sean Crusade, with the fighter's STC template given over to the Mechanicus Lords of Cypra Mundi for dissemination. The Lightning's main role is as an air superiority fighter, a role it fulfils ably."/>
+
+	<entry name="SistersOfBattle/Immolator" value="Immolator"/>
+	<entry name="SistersOfBattle/ImmolatorDescription" value="Anti-infantry transport unit fitted with a twin-linked heavy flamer."/>
+	<entry name="SistersOfBattle/ImmolatorFlavor" value="The Immolator battle tank is a design exclusive to the Adeptus Ministorum, based upon the ubiquitous Rhino chassis. Immolators carry deadly, but short ranged, twin heavy flamers that cleanse the battlefield of all but the toughest of foes. The sight of such a tank rumbling into sight has disrupted more than one enemy battle line as warriors try in vain to evade an Immolator’s fearsome inferno."/>
+
+	<entry name="SistersOfBattle/HolySite" value="Crown Basilica of the Emperor"/>
+	<entry name="SistersOfBattle/HolySiteDescription" value="Unique Sororitas Building that doubles its resource production if built on a Holy Site. <br/><br/>Requires 2 build slots and 2 population to operate."/>
+
+
+	<entry name="SistersOfBattle/HolySite" value="Crown Basilica of the Emperor"/>
+	<entry name="SistersOfBattle/HolySiteDescription" value="Unique Sororitas Building, that produces Requisitions, Research and Influence. Doubles its resource production if built on a Holy Site. <br/><br/>Clearing tiles on a Holy Site is prohibited, as doing so will cause the site to disappear. The Emperor demands that his holy ground remain untouched."/>
+
+
+
+	<entry name="SistersOfBattle/ExpandedRanks1" value="Expanded Infantry Ranks"/>
+	<entry name="SistersOfBattle/ExpandedRanks1Description" value="All units produced in the Battle Chapel increase their Squad Size by 1."/>
+
+	<entry name="SistersOfBattle/ExpandedRanks2" value="Expanded Support Ranks"/>
+	<entry name="SistersOfBattle/ExpandedRanks2Description" value="All units produced in the Legatines Priory increase their Squad Size by 1."/>
+
+	<entry name="SistersOfBattle/VehicleUpgrade" value="Improved Vehicle Maintenance"/>
+	<entry name="SistersOfBattle/VehicleUpgradeDescription" value="Vehicles produced in the Anointed Hangar gain +10% Hitpoints, +5% extra damage and +5% extra accuracy. <br/><br/>Seraphim increase their Squad Size by 1."/>
+
+
+
+
+	<entry name="SistersOfBattle/AdvancedOffensivUpgrade" value="Improved Elite Training"/>
+	<entry name="SistersOfBattle/AdvancedOffensivUpgradeDescription" value="All Vehicles produced in the Sanctum of the Martyred Saint and Armory of the Faithful gain +5% extra damage and +5% extra accuracy. <br/><br/>Celestian Sacresants increase their Squad Size by 1."/>
+
+	<entry name="SistersOfBattle/AdvancedDefensivUpgrade" value="Improved Elite Equipment"/>
+	<entry name="SistersOfBattle/AdvancedDefensivUpgradeDescription" value="All Vehicles produced in the Sanctum of the Martyred Saint and Armory of the Faithful gain +10% Hitpoints.  <br/><br/>Zepherium increase their Squad Size by 1."/>
+
+	
+
+
+
+
+	<entry name="Tau/VelocityTracker" value="Velocity Tracker Support System"/>
+	<entry name="Tau/VelocityTrackerDescription" value="Installs support system. Increases accuracy by 33% against units with the Flyer, Jetbike, Jet Pack, or Skimmer traits, but reduces accuracy by 33% against all other ground units."/>
+	<entry name="Tau/VelocityTrackerFlavor" value="These advanced motion-detecting and heat-seeking sensor systems allow pilots to track the movements of airborne targets."/>
+
+	<entry name="Tau/AutomatedRepairSystem" value="Automated Repair Support System"/>
+	<entry name="Tau/AutomatedRepairSystemDescription" value="Support System, that Restores 2 hitpoints each turn."/>
+	<entry name="Tau/AutomatedRepairSystemFlavor" value="Tiny maintenance drones swarm over damaged systems to repair them in the midst of battle."/>
+
+	<entry name="Tau/GunDrone" value="Basic Drone Support"/>
+	<entry name="Tau/GunDroneDescription" value="Provides Drone Support for Fire Warriors, Fire Warrior Breacher, Pathfinder, Stealth Battlesuits, Piranha, Devilfish, Cadre Fireblade and Ethereal"/>
+	<entry name="Tau/GunDroneFlavor" value="Tau Fire Warriors fight alongside agile drones that shield, scout, and strike with deadly precision—each action a step toward victory for the Greater Good."/>
+
+	<entry name="Tau/VehicleDrones" value="Vehicle Drones"/>
+	<entry name="Tau/VehicleDronesDescription" value="Provides Drone Support for Piranha, Devilfish, Hammerhead Gunships and Sky Ray Gunship"/>
+	<entry name="Tau/VehicleDronesFlavor" value="Tau vehicles deploy specialized drones that enhance targeting, absorb enemy fire, and execute support protocols—all to ensure dominance on the battlefield."/>
+
+	<entry name="Tau/MechDrones" value="Advanced Drone Support"/>
+	<entry name="Tau/MechDronesDescription" value="Provides Drone Support for Crisis Battlesuits, Broadside Battlesuits, Commanders, Hammerhead Gunships and Sky Ray Gunships"/>
+	<entry name="Tau/MechDronesFlavor" value="A Battlesuit never fights alone. From concealed ports, drones deploy with flawless precision—scouts, shields, and fire support for the Greater Good."/>
+
+	<entry name="Tau/CamouflageSystem" value="Camouflage Support System"/>
+	<entry name="Tau/CamouflageSystemDescription" value="Support System, which protects from Overwatch attacks."/>
+	<entry name="Tau/CamouflageSystemFlavor" value="Advanced holo-field projectors bend light around Tau battle suits, rendering them nearly invisible to both optical sensors and the naked eye. This cutting-edge stealth technology represents the pinnacle of Earth Caste engineering."/>
+
+	<entry name="Tau/UtopiaBonus" value="In Diversity, Unity"/>
+	<entry name="Tau/UtopiaBonusDescription" value="Increases the loyalty bonus from new building types by 0.75 per building."/>
+	<entry name="Tau/UtopiaBonusFlavor" value="The ideal Tau city is an example to all others, displaying a perfect balance of the various castes of the T’au race with their client and auxiliary races, all living in harmony."/>
+
+	<entry name="Tau/UtopiaBonus1" value="In Cooperation, Unity"/>
+	<entry name="Tau/UtopiaBonus1Description" value="Increases the loyalty bonus from new building types by 0.75 per building."/>
+	<entry name="Tau/UtopiaBonus1Flavor" value="The ideal Tau city is an example to all others, displaying a perfect balance of the various castes of the T’au race with their client and auxiliary races, all living in harmony."/>
+
+	<entry name="Tau/HeavyMechExtendedDroneSupport" value="Heavy-Mech Extended Drone Support"/>
+	<entry name="Tau/HeavyMechExtendedDroneSupportDescription" value="Reduces the Cooldown of Drone Deployments from Ghostkeel, Riptide and RVarna Battlesuits by 40 %."/>
+	<entry name="Tau/HeavyMechExtendedDroneSupportFlavor" value="The ideal Tau city is an example to all others, displaying a perfect balance of the various castes of the T’au race with their client and auxiliary races, all living in harmony."/>
+
+	<entry name="Tau/RestorativeNanites" value="Restorative Nanites Support System"/>
+	<entry name="Tau/RestorativeNanitesDescription" value="Nanite swarm, which provides adjacent non-Battlesuit Infantry with 1 HP per turn healing over time effects"/>
+	<entry name="Tau/RestorativeNanitesFlavor" value="Includes Firewarriors, Breachers, Pathfinders, Etherals, Cadre Fireblades, Krootox Riders, Kroot Hounds and Vespides "/>
+
+	<entry name="Tau/PathfinderExtendedDroneSupport" value="Scout Support"/>
+	<entry name="Tau/PathfinderExtendedDroneSupportDescription" value="Pathfinders receive a 50% cooldown reduction on their drone summons. <br/><br/>Krootox Riders receive a 50% cooldown reduction on their Kroot Hound summon. <br/><br/>Krootox Rampagers reduce the cooldown of their Charge ability by 1 turn."/>
+
+	<entry name="Tau/NovaReactor" value="Nova Reactor"/>
+	<entry name="Tau/NovaReactorDescription" value="Unlocks Nova Reactor abilities for Riptide and RVana Battlesuits"/>
+
+	<entry name="Tau/PhotonandEMPGrenades" value="Photon and EMP Granades"/>
+	<entry name="Tau/PhotonandEMPGrenadesDescription" value="Grants Fire Warriors, Fire Warriors Breachers, Pathfinders and Cadre Fireblades the ability to throw blinding- and EMP grenades."/>
+	<entry name="Tau/PhotonandEMPGrenadesFlavor" value="<string name='Weapons/PhotonGrenadeFlavor'/>"/>
+
+	<entry name="Tau/ForTheGreaterGood" value="For The Greater Good"/>
+	<entry name="Tau/ForTheGreaterGoodDescription" value="Grants a faction ability that lowers the morale of a targeted enemy unit. The cost increases with the target’s strength."/>
+	<entry name="Tau/ForTheGreaterGoodFlavor" value="“There are two kinds of conduct the Ethereals will not countenance. The first is a failure to reflect upon what is for the Greater Good of the T'au race. The second is the deliberate refusal to follow the path of the Greater Good when it is clear what it must be.”<br/>  — Por'ui Dal'yth Ukos, water caste envoy"/>
+
+	<entry name="Tau/ForTheGreaterGoodBonus" value="Charpactin Ambassaspores"/>
+	<entry name="Tau/ForTheGreaterGoodBonusDescription" value="Reduces the influence cost of 'For The Greater Good' by 50% and reduces the cooldown by 1 turn."/>
+	<entry name="Tau/ForTheGreaterGoodBonusFlavor" value="When our Water Caste diplomats are in the field, they sometimes find it useful to take along our fungoid Charpactin allies, whose strobing ultraviolet communications have a sedative, almost hypnotic, effect on nearly all races."/>
+
+	<entry name="Tau/VespidStingwing1" value="Vespid Stingwings"/>
+	<entry name="Tau/VespidStingwing1Description" value="winged ranged infantry unit with low damage but high armor penetration, effective in combat within ruins and forests."/>
+	<entry name="Tau/VespidStingwing1Flavor" value="Vespid Stingwings dart into battle with unsettling insectile speed. The high pitched whine of their wings inspires atavistic revulsion, seeming to come from every direction at once as it echoes and bounces from ruins and wreckage. When they strike, the Vespids do so with lightning speed, dropping from above with their neutron blasters emitting bolts of translucent fire. Each shot shimmers clean through the armour of the foe, scouring their bodies with massive doses of radiation and burning them alive from the inside."/>
+
+	<entry name="Tau/SeekerMissile" value="<string name='Weapons/SeekerMissile'/>"/>
+	<entry name="Tau/SeekerMissileDescription" value="Grants TX4 Piranha and TY7 Devilfish a long range missile Weapon with a Cooldown."/>
+	<entry name="Tau/SeekerMissileFlavor" value="<string name='Weapons/SeekerMissileFlavor'/>"/>
+
+	<entry name="Tau/TracerRounds" value="Tracer Rounds System"/>
+	<entry name="Tau/TracerRoundsDescription" value="Support system that applies the Illuminated status to targets it hits, reducing their ranged damage reduction."/>
+	<entry name="Tau/TracerRoundsFlavor" value="The Tracer System was engineered for one purpose: to ensure that no battlefield environment—dust, smoke, debris, or fortification—can shield the prey from the hunter. Each round carries a spectral marker that penetrates interference and binds itself to an enemy’s energy signature. Once tagged, our targeting arrays see them with perfect clarity, as though they were standing in the open. It is elegance through inevitability."/>
+
+	<entry name="Tau/CadreFireblade" value="Cadre Fireblade"/>
+	<entry name="Tau/CadreFirebladeDescription" value="Hero unit that excels at empowering steady firing lines."/>
+	<entry name="Tau/CadreFirebladeFlavor" value="As the enemy surges closer, the Fireblade's courage steels his comrades, steadying the firing line and focussing the mind of every Fire Warrior present. Raising his pulse rifle and sighting down its length, the Cadre Fireblade calls out enemy weak spots and optimal firing solutions to his followers, watching the foe press closer with a practised eye. Only at the optimum moment does the Fireblade bark out the order to fire. At the Fireblade's command, the T'au gunline unleashes a storm of fire, an energised squall that tears the enemy to pieces with terrible efficiency."/>
+
+	<entry name="Tau/KrootoxRampager" value="Krootox Rampagers"/>
+	<entry name="Tau/KrootoxRampagerDescription" value="Berserker Unit, which shines in short engagements. Can use the Scout ability"/>
+	<entry name="Tau/KrootoxRampagerFlavor" value="Terrifying cavalry, Krootox Rampagers combine the aggression and agility of juvenile Krootox with the vicious skill and cunning of a Kroot rider—if the latter can hold on as the Krootox plunges into the enemy."/>
+
+	<entry name="Tau/KrootoxRampager" value="Krootox Rampagers"/>
+	<entry name="Tau/KrootoxRampagerDescription" value="Berserker Unit, which shines in short engagements. Can use the Scout ability"/>
+	<entry name="Tau/KrootoxRampagerFlavor" value="Terrifying cavalry, Krootox Rampagers combine the aggression and agility of juvenile Krootox with the vicious skill and cunning of a Kroot rider—if the latter can hold on as the Krootox plunges into the enemy."/>
+
+	<entry name="Tau/RazorsharkStrikeFighter" value="AX3 Razorshark Strike Fighter"/>
+	<entry name="Tau/RazorsharkStrikeFighterDescription" value="Well-equipped flying fighter unit."/>
+	<entry name="Tau/RazorsharkStrikeFighterFlavor" value="As the Razorshark begins its attack run, some foes spray fire into the skies in the hope of driving off their attacker. Others dash for cover, praying to their primitive deities for help that will not come. Neither course of action will save them. Hurtling down from the clouds, the lethal strike fighter rakes the enemy with a punishing salvo. Burst cannon rounds chew lines of carnage through the foe, bodies twitching and dancing as they are struck again and again. Seeker missiles scream down to punch through tank turrets and turn armoured transports into blazing pyres. Yet it is the rain of fire from the Razorshark's quad ion turret that is truly terrifying, the stream of high energy shots chopping the foe into glowing chunks or blasting them apart in a single, massive explosion of energy."/>
+
+	<entry name="Tau/AdvancedVehicles" value="Kor'vattra Support Complex"/>
+	<entry name="Tau/AdvancedVehiclesDescription" value="Building that produces Mid and late-game Vehicles and Aircraft like: Commanders, XV95 Ghostkeel Battlesuits, TX7 Hammerhead Gunship, AX3 Razorshark Strike Fighter, XV107 R'Varna Battlesuit and Tiger Shark. <br/><br/>Units here cost Ore and Energy. Requires 2 build slots and 2 population to operate, but offers higher production."/>
+
+	<entry name="Tau/AdvancedInfantry" value="Xar'vesa Crisis Centre"/>
+	<entry name="Tau/AdvancedInfantryDescription" value="Building that produces Mid and late-game Infantry and Vehicles Units like: Commanders, XV8 Crisis Battlesuits, XV88 BroadSide Battlesuits, XV104 Riptide Battlesuits, AX39 Sun Shark Bomber and KV128 Stormsurge. <br/><br/>Units here cost Food, Ore and Energy. Requires 2 build slots and 2 population to operate, but offers higher production."/>
+
+
+
+
+
+	<entry name="Tau/InfantryUpgrade" value="Improved Infantry Training"/>
+	<entry name="Tau/InfantryUpgradeDescription" value="All units produced in the Shas'm Barracks gain +10% Hitpoints and +5% extra accuracy."/>
+
+	<entry name="Tau/AuxiliaryUpgrade" value="Improved Auxiliary Training"/>
+	<entry name="Tau/AuxiliaryUpgradeDescription" value="All units produced in the Auxiliary Deployment Hub gain +10% Hitpoints, +5% extra accuracy and +5% Feel No Pain damage reduction."/>
+
+	<entry name="Tau/VehicleUpgrade" value="Improved Vehicle Training"/>
+	<entry name="Tau/VehicleUpgradeDescription" value="All units produced in the Fio'xar Arsenal, Builder Drones and Combat Drones gain +10% Hitpoints and +1 extra armour."/>
+
+
+
+	<entry name="Tau/AllOffensivUpgrade2" value="Expert Training"/>
+	<entry name="Tau/InfantryOffensivUpgrade2Description" value="All units produced in the Shas'm Barracks, Auxiliary Deployment Hub and Fio'xar Arsenal gain another +3% extra damage and +3% extra accuracy."/>
+
+	<entry name="Tau/AllDefensivUpgrade2" value="Expert Wargear"/>
+	<entry name="Tau/InfantryDefensivUpgrade2Description" value="All units produced in the Shas'm Barracks, Auxiliary Deployment Hub and Fio'xar Arsenal gain another +10% Hitpoints."/>
+
+
+
+
+	<entry name="Tau/AdvancedOffensivUpgrade" value="Improved Elite Training"/>
+	<entry name="Tau/AdvancedOffensivUpgradeDescription" value="All units produced in the Xar'vesa Crisis Centre and Kor'vattra Support Complex gain +5% extra damage and +5% extra accuracy. <br/><br/>All units produced in the Shas'm Barracks, Auxiliary Deployment Hub and Fio'xar Arsenal gain another +3% extra damage and +3% extra accuracy."/>
+
+	<entry name="Tau/AdvancedDefensivUpgrade" value="Improved Elite Wargear"/>
+	<entry name="Tau/AdvancedDefensivUpgradeDescription" value="All units produced in the Xar'vesa Crisis Centre and Kor'vattra Support Complex gain +10% Hitpoints and +1 extra armour. <br/><br/>All units produced in the Shas'm Barracks, Auxiliary Deployment Hub and Fio'xar Arsenal gain another +10% Hitpoints."/>
+
+
+
+
+
+
+
+
+
+    <entry name="AstraMilitarum/WyrdvanePsyker" value="Wyrdvane Psykers"/>
+	<entry name="AstraMilitarum/WyrdvanePsykerDescription" value="Psyker unit that specializes in debuffs."/>
+	<entry name="AstraMilitarum/WyrdvanePsykerFlavor" value="Wyrdvane Psykers transform the howling might of the Warp into a deadly weapon of Imperial supremacy. They are formed from those Scholastica Psykana inductees not able to control their burgeoning powers without guidance and aid. As individuals, such psykers are unpredictable and unsafe. Yet working in concert, these deadly mutants can be a valuable asset."/>
+
+    <entry name="AstraMilitarum/TechpriestEnginseer" value="Tech-Priest Enginseers"/>
+	<entry name="AstraMilitarum/TechpriestEnginseerDescription" value="Infantry unit that supports vehicles, clears tiles and founds new cities. <br/><br/>Can be built in the Labour Corps or Imperial Barracks."/>
+	<entry name="AstraMilitarum/TechpriestEnginseerFlavor" value="Tech-Priest Enginseers serve as custodians for the vehicles of the Imperial Guard. With binary prayers and mystic rites, the Enginseers soothe the machine spirits of their tracked congregation. Without the diligent maintenance of the Enginseers, the Imperial Guard would soon find themselves without the heavy armour vital to their very survival."/>
+
+	<entry name="AstraMilitarum/TempestusScion" value="<string name='Units/AstraMilitarum/TempestusScion'/>"/>
+	<entry name="AstraMilitarum/TempestusScionDescription" value="<string name='Units/AstraMilitarum/TempestusScionDescription'/>"/>
+	<entry name="AstraMilitarum/TempestusScionFlavor" value="<string name='Units/AstraMilitarum/TempestusScionFlavor'/>"/>
+
+	<entry name="AstraMilitarum/MediPack" value="Small Medi-Packs"/>
+	<entry name="AstraMilitarum/MediPackDescription" value="Grants Guardsmen, Ratlings, Weapons Teams, Tempestus Scions and Lord Commissars the ability to heal themselves during combat."/>
+	<entry name="AstraMilitarum/MediPackFlavor" value="<string name='Actions/MediPackFlavor'/>"/>
+
+	<entry name="AstraMilitarum/MediPack1" value="Big Medi-Packs"/>
+	<entry name="AstraMilitarum/MediPack1Description" value="Grants Field Ordnance Batteries, Attilan Rough Riders, Wyrdvane Psykers and Bullgryns the ability to heal themselves during combat."/>
+	<entry name="AstraMilitarum/MediPack1Flavor" value="Medi-packs contain all the necessary drugs, dressings and surgical tools to get a wounded Imperial Guardsman back in the fight, or save the lives of vital personnel."/>
+
+	<entry name="AstraMilitarum/HeroesProductionEdict" value="Heroic Doctrine"/>
+	<entry name="AstraMilitarum/HeroesProductionEdictDescription" value="Edict that increases the production output of the Shrine of the Aquila by 33%"/>
+	<entry name="AstraMilitarum/HeroesProductionEdictFlavor" value="In times of unending war, heroes are not found — they are forged. This doctrine ensures that commanders rise swiftly, ready to lead where others would falter."/>
+
+	<entry name="AstraMilitarumFoodEdict" value="Agronomic Surge"/>
+	<entry name="AstraMilitarumFoodEdictDescription" value="Edict that increases the Food output of all buildings in the city by 33%, except the Headquarters."/>
+	<entry name="AstraMilitarumFoodEdictFlavor" value="Edict, Departmento Munitorum: to all Imperial subjects. Personal rations are reduced with immediate effect. Arbitrators have been dispatched to farms, granaries and storehouses to ensure compliance."/>
+
+	<entry name="AstraMilitarumOreEdict" value="Extraction Quotas"/>
+	<entry name="AstraMilitarumOreEdictDescription" value="Edict that increases the Ore output of all buildings in the city by 33%, except the Headquarters."/>
+	<entry name="AstraMilitarumOreEdictFlavor" value="Edict, Departmento Munitorum: to all manufactory overseers: servitors are required to be run continuously for this cycle. Burnouts / fatalities are to be replaced from the lower ranks of the penal and labour corps."/>
+
+	<entry name="AstraMilitarumResearchEdict" value="Revelations of the Omnissiah"/>
+	<entry name="AstraMilitarumResearchEdictDescription" value="Edict that increases the Research output of all buildings in the city by 33%, except the Headquarters."/>
+	<entry name="AstraMilitarumResearchEdictFlavor" value="Edict, Adeptus Mechanicus: to all Tech-Priests. During this cycle, the Quest for Knowledge takes precedence. Studies of STC designs, exploratory missions are to be encouraged. Praise the Omnissiah!"/>
+
+	<entry name="AstraMilitarumEnergyEdict" value="Running Hot"/>
+	<entry name="AstraMilitarumEnergyEdictDescription" value="Edict that increases the Energy output of all buildings in the city by 33%, except the Headquarters."/>
+	<entry name="AstraMilitarumEnergyEdictFlavor" value="Edict, Departmento Munitorum: to all power unit overseers. Safeguards are to be removed on all plasma ionisers; the Labour Corps has been mandated to replenish manpower depleted by resulting meltdowns without further authorisation."/>
+
+	<entry name="AstraMilitarum/HammerOfWrath" value="<string name='Actions/HammerOfWrath'/>"/>
+	<entry name="AstraMilitarum/HammerOfWrathDescription" value="Grants Scout Sentinels, Attilan Rough Riders, Tempestus Scions, Heavy Weapon Teams and Bullgryns the ability to perform more devastating attacks."/>
+	<entry name="AstraMilitarum/HammerOfWrathFlavor" value="<string name='Actions/HammerOfWrathFlavor'/>"/>
+
+	<entry name="AstraMilitarum/VoxCaster" value="<string name='Traits/VoxCaster'/>"/>
+	<entry name="AstraMilitarum/VoxCasterDescription" value="Reduces the morale loss for all Infantry units."/>
+	<entry name="AstraMilitarum/VoxCasterFlavor" value="<string name='Traits/VoxCasterFlavor'/>"/>
+
+	<entry name="AstraMilitarum/FragGrenade" value="Frag and Krak Grenade"/>
+	<entry name="AstraMilitarum/FragGrenadeDescription" value="Grants Guardsmen, Ratlings, Tempestus Scions, Tech-Priest Enginseers and Bullgryns the ability to throw Frag and Krak Grenades."/>
+	<entry name="AstraMilitarum/FragGrenadeFlavor" value="<string name='Weapons/FragGrenadeFlavor'/>"/>
+
+	<entry name="AstraMilitarum/Granadelaunchers" value="Grenade Launchers"/>
+	<entry name="AstraMilitarum/GranadelaunchersDescription" value="Grants Guardsmen, Ratlings and Tempestus Scions the ability to fire frag grenades at range and increases their unit size by one."/>
+	<entry name="AstraMilitarum/GranadelaunchersFlavor" value="Mass-produced and battle-proven, these launchers add punch to the ordinary Guardsman — a few well-placed rounds can shred sandbags, clear trenches, and change the face of a firefight."/>
+
+	<entry name="AstraMilitarum/ExpandedRanks" value="Expanded Ranks"/>
+	<entry name="AstraMilitarum/ExpandedRanksDescription" value="Increase the Squad Size of Guardsmen by 2 and Tempestus Scions by 1. Also increases the maximum morale of these Units by 2"/>
+	<entry name="AstraMilitarum/ExpandedRanksFlavor" value="By decree of the Departmento Munitorum, regiments are granted authorization to expand their ranks. More bodies mean more fire, more faith, and fewer questions."/>
+
+	<entry name="AstraMilitarum/MoreSoldiers!" value="More Soldiers!"/>
+	<entry name="AstraMilitarum/MoreSoldiers!Description" value="Increase the Squad Size of all infantry Units by 1 (Except Anti-Tank Guns) and Guardsmen by 2. Also Grants Guardsmen and Scions Krak-Grenade Launchers."/>
+	<entry name="AstraMilitarum/MoreSoldiers!Flavor" value="The line breaks? Then make another line! More soldiers, more guns — drown the heretic in the weight of Imperial flesh!"/>
+
+	<entry name="AstraMilitarum/AdvancedVehicles" value="Heavy Armour Complex"/>
+	<entry name="AstraMilitarum/AdvancedVehiclesDescription" value="Building that produces Mid and late-game Vehicles and Aircraft like: Tank Commander, Leman Russ Tank, Deathstrike, Thunderbolt, Marauder Bomber and Baneblade. <br/><br/>Units here cost Ore and Energy. Requires 2 build slots and 2 population to operate, but offers higher production."/>
+
+	<entry name="AstraMilitarum/AdvancedInfantry" value="Veteran Barracks"/>
+	<entry name="AstraMilitarum/AdvancedInfantryDescription" value="Building that produces Mid-game Infantry Units like: Lord Commissar, Tempestus Scions, Wyrdvane Psykers, Anti-Tank Guns and Attilan Rough Riders as well as generates resources. <br/><br/>Units trained here require Food and Ore/Energy as part of their cost. Offers slightly higher production."/>
+
+	<entry name="AstraMilitarum/AdvancedVehicles2" value="Heavy Support Foundry"/>
+	<entry name="AstraMilitarum/AdvancedVehicles2Description" value="Building that produces Mid and late-game Units like: Tank Commander, Basilisk, Bullgryns, Valkyrie, Rogal Dorn Tank and Baneblade. <br/><br/>Units here cost Ore, Energy or Food. Requires 2 build slots and 2 population to operate, but offers higher production."/>
+
+	<entry name="AstraMilitarum/CityGrowth" value="Breeding Licenses"/>
+	<entry name="AstraMilitarum/CityGrowthDescription" value="Increases the growth rate of your cities by 17%"/>
+
+
+	<entry name="AstraMilitarum/Heroes" value="Veteran Barracks"/>
+	<entry name="AstraMilitarum/HeroesDescription" value="Building that produces Mid-game Infantry Units like: Lord Commissar, Tempestus Scions, Wyrdvane Psykers, Anti-Tank Guns and Attilan Rough Riders as well as generates resources. <br/><br/>Units trained here require Food and Ore/Energy as part of their cost. Offers slightly higher production."/>
+	<entry name="AstraMilitarum/HeroesFlavor" value="Sanctified by duty and blood, these barracks train proven warriors of the Astra Militarum. Each soldier who departs does so in the Emperor’s name, ready to pay the price of war once more."/>
+
+
+
+
+
+	<entry name="AstraMilitarum/AstraBasic" value="Baseline Production Edict"/>
+	<entry name="AstraMilitarum/AstraBasicDescription" value="Increases all unit and building production by 5%. <br/><br/>Increases Ore, Food, Energy, and Research output by 5%, and Influence by 10%. <br/><br/>Only one Edict can be active at a time."/>
+
+	<entry name="AstraMilitarum/AstraDefence" value="Garrison Mobilisation Edict"/>
+	<entry name="AstraMilitarum/AstraDefenceDescription" value="Increases the armour of all Units on city tiles by 2 <br/><br/>Increases Unit production of Imperial Baracks by 25%.  <br/><br/>Increases Influence production by 15%. <br/><br/>Only one Edict can be active at a time."/>
+
+	<entry name="AstraMilitarum/AstraProd" value="Ground Forces Production Edict"/>
+	<entry name="AstraMilitarum/AstraProdDescription" value="Increases Production speed of Imperial Barracks, Manufactorum and Veteran Barracks by 25%. <br/><br/>Increases building production speed by 10% <br/><br/>Only one Edict can be active at a time. "/>
+
+	<entry name="AstraMilitarum/AstraProd2" value="Heavy Asset Production Edict"/>
+	<entry name="AstraMilitarum/AstraProd2Description" value="Increases Production speed of Heavy Armour Complex and Heavy Support Foundry by 20%. except the Headquarters. <br/><br/>Only one Edict can be active at a time."/>
+	
+	<entry name="AstraMilitarum/AstraRes" value="Resource Extraction Edict"/>
+	<entry name="AstraMilitarum/AstraResDescription" value="Edict that increases the Ore, Energy, Food and Influence output of all buildings in the city by 25% <br/><br/>Only one Edict can be active at a time."/>
+
+	<entry name="AstraMilitarum/AstraUtility" value="Administration Edict"/>
+	<entry name="AstraMilitarum/AstraUtilityDescription" value="Edict that increases Research output by 33%. <br/><br/>Increases Ore, Energy, Food and Influence production by 10% <br/><br/>Only one Edict can be active at a time."/>
+
+
+
+	<entry name="AstraMilitarum/FixBayonets!" value="Command: Fix Bayonets!"/>
+	<entry name="AstraMilitarum/FixBayonets!Description" value="All units within 1 tile radius gain +20% melee damage reduction for 1 turn."/>
+
+	<entry name="AstraMilitarum/MoveMoveMove!" value="Command: Move, Move, Move!"/>
+	<entry name="AstraMilitarum/MoveMoveMove!Description" value="All units within 1 tile radius gain +1 Movement Point, even if they have already moved this turn."/>
+
+	<entry name="AstraMilitarum/DutyAndHonour!" value="Command: Duty and Honour!"/>
+	<entry name="AstraMilitarum/DutyAndHonour!Description" value="All units within 1 tile radius instantly gain 2 Morale and take 25% less Morale damage for 1 turn."/>
+
+	<entry name="AstraMilitarum/TakeCover!" value="Command: Take Cover!"/>
+	<entry name="AstraMilitarum/TakeCover!Description" value="All units within 1 tile radius gain +20% ranged damage reduction for 1 turn. This bonus only applies if the unit has not moved this turn."/>
+
+	<entry name="AstraMilitarum/TakeAim!" value="Command: Take Aim!"/>
+	<entry name="AstraMilitarum/TakeAim!Description" value="All units within 1 tile radius gain +2 Accuracy (+17% damage) for 1 turn. This bonus only applies if the unit has not moved this turn."/>
+
+
+
+	<entry name="AstraMilitarum/BetterCommands" value="Improved Commands"/>
+	<entry name="AstraMilitarum/BetterCommandsDescription" value="All Commands have 2 turns less cooldown. Usually from 5 to 3 turns."/>
+
+
+	<entry name="AstraMilitarum/HunterKillerMissile1" value="<string name='Weapons/HunterKillerMissile'/>"/>
+	<entry name="AstraMilitarum/HunterKillerMissile1Description" value="Unlocks hunter-killer missiles for Chimaeras, Hydras and Devil Dogs."/>
+	<entry name="AstraMilitarum/HunterKillerMissile1Flavor" value="<string name='Weapons/HunterKillerMissileFlavor'/>"/>
+
+
+
+	<entry name="AstraMilitarum/InfantryOffensivUpgrade" value="Improved Infantry Training"/>
+	<entry name="AstraMilitarum/InfantryOffensivUpgradeDescription" value="All units produced in the Imperial Barracks and Veteran Barracks gain +5% extra damage and +5% extra accuracy."/>
+
+	<entry name="AstraMilitarum/InfantryDefensivUpgrade" value="Improved Infantry Equipment."/>
+	<entry name="AstraMilitarum/InfantryDefensivUpgradeDescription" value="All units produced in the Imperial Barracks and Veteran Barracks gain +15% Hitpoints and +5% Feel No Pain damage reduction."/>
+
+	<entry name="AstraMilitarum/InfantryOffensivUpgrade2" value="Expert Infantry Training"/>
+	<entry name="AstraMilitarum/InfantryOffensivUpgrade2Description" value="All units produced in the Imperial Barracks and Veteran Barracks gain another +3% extra damage and +3% extra accuracy."/>
+
+	<entry name="AstraMilitarum/InfantryDefensivUpgrade2" value="Expert Infantry Equipment"/>
+	<entry name="AstraMilitarum/InfantryDefensivUpgrade2Description" value="All units produced in the Imperial Barracks and Veteran Barracks gain another +10% Hitpoints."/>
+
+
+
+	<entry name="AstraMilitarum/VehicleOffensivUpgrade" value="Improved Vehicle Training"/>
+	<entry name="AstraMilitarum/VehicleOffensivUpgradeDescription" value="All units produced in the Manufactorum gain +5% extra damage and +5% extra accuracy."/>
+
+	<entry name="AstraMilitarum/VehicleDefensivUpgrade" value="Improved Vehicle Maintenance"/>
+	<entry name="AstraMilitarum/VehicleDefensivUpgradeDescription" value="All units produced in the Manufactorum gain +10% Hitpoints and +1 extra armour."/>
+
+	<entry name="AstraMilitarum/VehicleOffensivUpgrade2" value="Expert Vehicle Training"/>
+	<entry name="AstraMilitarum/VehicleOffensivUpgrade2Description" value="All units produced in the Manufactorum gain another +3% extra damage and +3% extra accuracy."/>
+
+	<entry name="AstraMilitarum/VehicleDefensivUpgrade2" value="Expert Vehicle Maintenance"/>
+	<entry name="AstraMilitarum/VehicleDefensivUpgrade2Description" value="All units produced in the Manufactorum another +10% Hitpoints"/>
+
+
+	
+	<entry name="AstraMilitarum/AdvancedOffensivUpgrade" value="Improved Elite Training"/>
+	<entry name="AstraMilitarum/AdvancedOffensivUpgradeDescription" value="All units produced in the Heavy Armour Complex and Heavy Support Foundry gain +5% extra damage and +5% extra accuracy. <br/><br/>All Units produced in Imperial Barracks, Veteran Barracks and Manufactorum gain another +3% extra damage and +3% extra accuracy."/>
+
+	<entry name="AstraMilitarum/AdvancedDefensivUpgrade" value="Improved Elite Equipment"/>
+	<entry name="AstraMilitarum/AdvancedDefensivUpgradeDescription" value="All units produced in the Heavy Armour Complex and Heavy Support Foundry gain +10% Hitpoints and +1 extra armour.  <br/><br/>All Units produced in Imperial Barracks, Veteran Barracks and Manufactorum gain another +10% Hitpoints"/>
+
+
+
+
+
+
+
+
+	<entry name="AdeptusMechanicus/EnhancedDataTether" value="Enhanced Data-Tether"/>
+	<entry name="AdeptusMechanicus/EnhancedDataTetherDescription" value="Grants 2 additional Moral to Skitarii Vanguards, Skitarii Marshall, Skitarii Rangers, Serberys Sulphurhounds, Ruskstalkers, Infiltrators and Sterylizors."/>
+	<entry name="AdeptusMechanicus/EnhancedDataTetherFlavor" value="Seen as the mouthpieces of the Tech-Priests, who in turn are the prophets of the Machine God himself, those honoured with bearing enhanced data-tethers are obeyed without hesitation by their reverent Skitarii comrades."/>
+
+	<entry name="AdeptusMechanicus/OrbsOfTheOmnissiah" value="Orbs of the Omnissiah"/>
+	<entry name="AdeptusMechanicus/OrbsOfTheOmnissiahDescription" value="Gifted by the Omnissiah, these granades can shutdown any vehicles and fortification useable by Skitarii Vanguard, Skitarii Marshal, Sicarian Infiltrators, Skitarii Rangers, Sulphurhounds, Pteraxii Sterylizors and Electropriest."/>
+	<entry name="AdeptusMechanicus/OrbsOfTheOmnissiahFlavor" value="Gifted by the Omnissiah, these granades can shutdown any vehicles and fortification"/>
+
+	<entry name="AdeptusMechanicus/Cinderfang" value="Cinderfang"/>
+	<entry name="AdeptusMechanicus/CinderfangDescription" value= "Doctrina Imperatives Devil Dog variant which is equipped with a Melta Cannon and a Heavy Phosphor Blaster."/>
+	<entry name="AdeptusMechanicus/CinderfangFlavor" value="Among the forge-temples of Ryza, the name Cinderfang is spoken with reverence and dread. This rare Devil Dog variant replaces chemical weaponry with a brutal Melta Cannon and a hull-mounted Heavy Phosphor Blaster, optimized for total armor liquefaction and blinding suppression."/>
+
+    <entry name="AdeptusMechanicus/CognisHeavyStubber" value="Heavy Stubber and Smokescreen"/>
+	<entry name="AdeptusMechanicus/CognisHeavyStubberDescription" value="Grants Onager Dunecrawlers a Cognis Heavy Stubber and Crinderfangs a smoke launcher"/>
+	<entry name="AdeptusMechanicus/CognisHeavyStubberFlavor" value="<string name='Weapons/CognisHeavyStubberFlavor'/>"/>
+
+	<entry name="AdeptusMechanicus/VoicesInTheCode" value="<string name='Actions/AdeptusMechanicus/VoicesInTheCode'/>"/>
+	<entry name="AdeptusMechanicus/VoicesInTheCodeDescription" value="Increases the morale loss of enemy units adjacent to Sicarian Infiltrators and Ruststalkers."/>
+	<entry name="AdeptusMechanicus/VoicesInTheCodeFlavor" value="<string name='Actions/AdeptusMechanicus/VoicesInTheCodeFlavor'/>"/>
+
+	<entry name="AdeptusMechanicus/Omnispex" value="<string name='Traits/AdeptusMechanicus/Omnispex'/>"/>
+	<entry name="AdeptusMechanicus/OmnispexDescription" value="Allows Skitarii Vanguard, Skitarii Rangers, Skitarii infiltrators, Ironstrider Billistarius, Skorpius Dunerider, Onager Dunecrawler to bypass ranged damage reduction by 17 percent."/>
+	<entry name="AdeptusMechanicus/OmnispexFlavor" value="<string name='Traits/AdeptusMechanicus/OmnispexFlavor'/>"/>
+
+    <entry name="AdeptusMechanicus/ThermoExchangeEfficiency" value="is now a legacy tech (1)"/>
+	<entry name="AdeptusMechanicus/ThermoExchangeEfficiencyDescription" value="Please dont Research game might be crashing"/>
+	<entry name="AdeptusMechanicus/ThermoExchangeEfficiencyFlavor" value="Paradoxically, slowing down the inputs to the Thermo-Exchanger and feeding the plasma through a second set of heat couplings and condensers can stretch the length of time it can operate beyond nominal goals—or at least reduce the amount of lives lost and repairs needed."/>
+
+	<entry name="AdeptusMechanicus/InvocationOfMachineMight" value="is now a legacy tech (2)"/>
+	<entry name="AdeptusMechanicus/InvocationOfMachineMightDescription" value="Please dont Research game might be crashing"/>
+	<entry name="AdeptusMechanicus/InvocationOfMachineMightFlavor" value="<string name='Actions/AdeptusMechanicus/InvocationOfMachineMightFlavor'/>"/>
+
+	<entry name="AdeptusMechanicus/VoidshieldBastion" value="Voidshield Bastion"/>
+	<entry name="AdeptusMechanicus/VoidshieldBastionDescription" value="Grants Cybernetica Datasmiths the ability to construct Voidshielded fortifications with Phorsphor Cannons and Stubber arrays."/>
+	<entry name="AdeptusMechanicus/VoidshieldBastionFlavor" value= "A hybrid of Imperial bastion and void shield generator, this fortified structure is engineered by the Adeptus Mechanicus to anchor the battlefield with unwavering resilience. Surrounded by a crackling voidshield and armed with phosphor cannons, it absorbs devastating assaults while burning down the foe with alchemical fire and machine precision. A shrine of steel and circuitry, it embodies both faith and function—unmoving, unbroken, and merciless."/>
+
+	<entry name="AdeptusMechanicus/XenariteAcceptance" value="Xenarite Acceptance"/>
+	<entry name="AdeptusMechanicus/XenariteAcceptanceDescription" value="Increases research from Ruins of Vaul and Shard of Vaul by 1.25"/>
+	<entry name="AdeptusMechanicus/XenariteAcceptanceFlavor" value="It seems the Xenarite Tech-Priests from Stygies VIII are having their way on Gladius Prime too—setting up observation units and drones at every Outpost to understand the Xenos better. The practical applications in terms of research are immediately obvious…"/>
+
+	<entry name="AdeptusMechanicus/LucianSpecialisation" value="Lucian Specialisation 1 / 2"/>
+	<entry name="AdeptusMechanicus/LucianSpecialisationDescription" value="Improves the Monolithic Buildings faction passive: Increases the resource output of non-headquarters buildings of the same type on a tile by 3% (Deault is 4%)."/>
+	<entry name="AdeptusMechanicus/LucianSpecialisationFlavor" value="Inside the hollow Forge World of Lucius is a trapped sun, but to the Adeptus Mechanicus that is less interesting than the planet’s specialisations—a unique metal “Luciun” and warp travel. Magi of Lucius encourage specialisation in depth."/>
+
+	<entry name="AdeptusMechanicus/LucianSpecialisation2" value="Lucian Specialisation 2 / 2"/>
+	<entry name="AdeptusMechanicus/LucianSpecialisation2Description" value="Improves the Monolithic Buildings faction passive: Increases the resource output of non-headquarters buildings of the same type on a tile by 3% (Deault is 4%)."/>
+	<entry name="AdeptusMechanicus/LucianSpecialisation2Flavor" value="Inside the hollow Forge World of Lucius is a trapped sun, but to the Adeptus Mechanicus that is less interesting than the planet’s specialisations—a unique metal “Luciun” and warp travel. Magi of Lucius encourage specialisation in depth."/>
+
+	<entry name="AdeptusMechanicus/DoctrinaImperativesPerfection" value="Doctrina Imperatives Perfection"/>
+	<entry name="AdeptusMechanicus/DoctrinaImperativesPerfectionDescription" value="Decrease the Cooldown of all Doctrina Imperatives global abilities by 1 round"/>
+
+	<entry name="AdeptusMechanicus/CanticlesOfTheOmnissiahPerfection" value="Canticles of the Omnissiah Perfection"/>
+	<entry name="AdeptusMechanicus/CanticlesOfTheOmnissiahPerfectionDescription" value="Decrease the Cooldown of all Canticles of the Omnissiah Perfection global abilities by 1 round"/>
+
+	<entry name="AdeptusMechanicus/ElectromancerHighVoltage" value="Electromancer High Voltage"/>
+	<entry name="AdeptusMechanicus/ElectromancerHighVoltageDescription" value="Increases the armour penetration of Litany of the Electromancer by 4. Increases Fulgurite Electro-Priest unit size by 1 and their armour penetration by 4."/>
+
+	<entry name="AdeptusMechanicus/ArchaeopterTransvector" value="Archaeopter Transvector"/>
+	<entry name="AdeptusMechanicus/ArchaeopterTransvectorDescription" value="Doctrina Imperatives flying transport unit."/>
+	<entry name="AdeptusMechanicus/ArchaeopterTransvectorFlavor" value="Ideal aerial insertion transports, Transvectors are used in vast numbers by Explorator fleets for reconnaissance and rapid extraction in the face of hostiles. They are incredibly agile, their implanted pilots able to reshape the wings to suit changing atmospherics, while directing their cognis heavy stubbers to scythe apart oncoming foes."/>
+
+	<entry name="AdeptusMechanicus/Advanced" value="Macro-Manufactorum"/>
+	<entry name="AdeptusMechanicus/AdvancedDescription" value="Building that produces late-game infantry, tanks, and aircraft. Requires 2 build slots and 2 population to operate, but offers higher production."/>
+	
+
+	<entry name="AdeptusMechanicus/BulwarkImperative" value="Bulwark Imperative"/>
+	<entry name="AdeptusMechanicus/BulwarkImperativeDescription" value="Increases the armour, but decreases the movement of Doctrina Imperatives units.<br/><br/>Cost scales with the amount of affected units (up to 10)."/>
+	<entry name="AdeptusMechanicus/BulwarkImperativeFlavor" value="The warrior wisdom of ancient and experienced Reductors is force-loaded into the Skitarii’s minds. Each thrilling pulse of data locks microactuators into bracing positions, brings reserve power cells online and bestows a sensation of sacred invulnerability upon the Tech-Priests’ soldiers."/>
+
+	<entry name="AdeptusMechanicus/ProtectorImperative" value="Protector Imperative"/>
+	<entry name="AdeptusMechanicus/ProtectorImperativeDescription" value="Increases the ranged accuracy, but decreases the armour of Doctrina Imperatives units.<br/><br/>Cost scales with the amount of affected units (up to 10)."/>
+	<entry name="AdeptusMechanicus/ProtectorImperativeFlavor" value="The Protector imperative is codified to yield the maximum spectra of hard data. Extra power is fed into narrow-band optics and rangefinders connected directly to the Skitarii’s priority programming as the holy warriors’ guns become an extension of themselves."/>
+
+	<entry name="AdeptusMechanicus/ConquerorImperative" value="Conqueror Imperative"/>
+	<entry name="AdeptusMechanicus/ConquerorImperativeDescription" value="Increases the melee accuracy, but decreases the sight range of Doctrina Imperatives units.<br/><br/>Cost scales with the amount of affected units (up to 10)."/>
+	<entry name="AdeptusMechanicus/ConquerorImperativeFlavor" value="When the enemy close in, the Tech-Priests controlling each maniple inload Conqueror imperatives that boost the martial subroutines of their Skitarii minions and galvanise them into physical action at the expense of their more elaborate targeting programmes."/>
+
+	<entry name="AdeptusMechanicus/AggressorImperative" value="Aggressor Imperative"/>
+	<entry name="AdeptusMechanicus/AggressorImperativeDescription" value="Increases the movement, but decreases the ranged accuracy of Doctrina Imperatives units.<br/><br/>Cost scales with the amount of affected units (up to 10)."/>
+	<entry name="AdeptusMechanicus/AggressorImperativeFlavor" value="The Skitarii feel the press of an invisible hand upon their minds as the Machine God drives them forward. Servos are pushed to their structural limits as fibre bundles fill with the boundless energy of the Motive Force and propel the faithful on an unstoppable crusade."/>
+
+	<entry name="AdeptusMechanicus/LitanyOfTheElectromancer" value="Litany of the Electromancer"/>
+	<entry name="AdeptusMechanicus/LitanyOfTheElectromancerDescription" value="Damage ability with global range targeting 1 unit.<br/><br/>Attack and cost scale with the amount of Canticles of the Omnissiah units (up to 10). Base Attack 1 Attack + 1 Attack per unit."/>
+	<entry name="AdeptusMechanicus/LitanyOfTheElectromancerFlavor" value="Summoning the spark of the Machine God’s divinity that burns within them, the Omnissiah’s faithful manifest blazing auras of energy that lay low the unbeliever."/>
+
+	<entry name="AdeptusMechanicus/Shroudpsalm" value="Shroudpsalm"/> 
+	<entry name="AdeptusMechanicus/ShroudpsalmDescription" value="Reduces the accuracy of an enemy unit for 2 turns.<br/><br/>The effectiveness is increased by the number of Canticles of the Omnissiah units under your control (up to 10 units). Base debuff: 25% + 7.5% per unit."/>
+	<entry name="AdeptusMechanicus/ShroudpsalmFlavor" value="Robot, servitor and priest shift their binharic emissions into the visible spectra, the static pouring from their vox-grilles manifesting as an electromagnetic storm that hides them from the foe."/>
+
+	<entry name="AdeptusMechanicus/BenedictionOfOmniscience" value="Benediction of Omniscience"/> 
+	<entry name="AdeptusMechanicus/BenedictionOfOmniscienceDescription" value="Increases the damage reduction of a unit.<br/><br/>The effectiveness is increased by the number of Canticles of the Omnissiah units under your control (up to 10 units). Base effect: 21% + 3% per unit."/>
+	
+	<entry name="AdeptusMechanicus/IncantationOfTheIronSoul" value="Incantation of the Iron Soul"/> 
+	<entry name="AdeptusMechanicus/IncantationOfTheIronSoulDescription" value="Increases the Morale of all Units of a target unit and all tiles around it.<br/><br/>The effectiveness is increased by the number of Canticles of the Omnissiah units under your control (up to 10 units). Base effect: 2 Morale + 0.3 per unit."/>
+	
+	<entry name="AdeptusMechanicus/AdvancedVehicles" value="Macro-Manufactorum"/>
+	<entry name="AdeptusMechanicus/AdvancedVehiclesDescription" value="Building that produces late-game Vehicles and Aircraft like: Kastellan Robots, Archaeopter Transvector, Armiger Helverin, Archaeopter Stratoraptor and KnightCrusader. <br/><br/>Units here cost Requisitions and Energy. Requires 2 build slots and 2 population to operate, but offers higher production."/>
+
+	<entry name="AdeptusMechanicus/AdvancedInfantry" value="Legio Cybernetica Nexus"/>
+	<entry name="AdeptusMechanicus/AdvancedInfantryDescription" value="Building that produces Mid and late-game Infantry and Vehicles Units like: Kataphron Breacher, Sicarian Ruststalker, Kataphron Destroyer and Skorpius Disintegrator. <br/><br/>Units here cost Food and Ore. Requires 2 build slots and 2 population to operate, but offers higher production."/>
+
+	<entry name="AdeptusMechanicus/BroadSpectrumDataTether" value="<string name='Traits/AdeptusMechanicus/BroadSpectrumDataTether'/>"/>
+	<entry name="AdeptusMechanicus/BroadSpectrumDataTetherDescription" value="All Vehicles and Aircraft now reduces the morale loss of adjacent Adeptus Mechanicus units."/>
+	<entry name="AdeptusMechanicus/BroadSpectrumDataTetherFlavor" value="<string name='Traits/AdeptusMechanicus/BroadSpectrumDataTetherFlavor'/>"/>
+
+	<entry name="AdeptusMechanicus/BroadSpectrumDataTether" value="<string name='Traits/AdeptusMechanicus/BroadSpectrumDataTether'/>"/>
+	<entry name="AdeptusMechanicus/BroadSpectrumDataTetherDescription" value="All Vehicles and Aircraft now reduces the morale loss of adjacent Adeptus Mechanicus units."/>
+	<entry name="AdeptusMechanicus/BroadSpectrumDataTetherFlavor" value="<string name='Traits/AdeptusMechanicus/BroadSpectrumDataTetherFlavor'/>"/>
+
+	<entry name="AdeptusMechanicus/KastelanSTC" value="Kastelan STC"/>
+	<entry name="AdeptusMechanicus/KastelanSTCDescription" value="Increase the HP of the Kastelan Robots by 10 and equip them with a shoulder-mounted heavy phosphor blaster."/>
+	<entry name="AdeptusMechanicus/KastelanSTCFlavor" value="<string name='Traits/AdeptusMechanicus/BroadSpectrumDataTetherFlavor'/>"/>
+
+	<entry name="AdeptusMechanicus/Monastery" value="Monastery of the Omnissiah’s Lightning"/>
+	<entry name="AdeptusMechanicus/MonasteryDescription" value="Building that produces a lot of Energy and can also produce Electropriests. <br/><br/> Requires 3 build slots and 3 population to operate."/>
+	<entry name="AdeptusMechanicus/MonasteryFlavor" value="Within these sanctified halls, flesh is rendered unto the Omnissiah and repaid in lightning. Each prayer is a circuit, each scar a sacrament, and through suffering the Sacred Current flows eternal."/>
+
+
+
+	<entry name="AdeptusMechanicus/InfantryOffensivUpgrade" value="Improved Skitarii Training"/>
+	<entry name="AdeptusMechanicus/InfantryOffensivUpgradeDescription" value="All Infantry Units produced in the Genetor Caropraedium and Sub-Cloister gain +5% extra damage and +5% extra accuracy."/>
+
+	<entry name="AdeptusMechanicus/InfantryDefensivUpgrade" value="Improved Skitarii Equipment."/>
+	<entry name="AdeptusMechanicus/InfantryDefensivUpgradeDescription" value="All Infantry Units produced in the Genetor Caropraedium and Sub-Cloister gain +15% Hitpoints."/>
+
+	<entry name="AdeptusMechanicus/InfantryOffensivUpgrade2" value="Expert Skitarii Training"/>
+	<entry name="AdeptusMechanicus/InfantryOffensivUpgrade2Description" value="All Infantry Units produced in the Genetor Caropraedium and Sub-Cloister gain another +3% extra damage and +3% extra accuracy."/>
+
+	<entry name="AdeptusMechanicus/InfantryDefensivUpgrade2" value="Expert Skitarii Equipment"/>
+	<entry name="AdeptusMechanicus/InfantryDefensivUpgrade2Description" value="All Infantry Units produced in the Genetor Caropraedium and Sub-Cloister gain another +10% Hitpoints."/>
+
+
+
+	<entry name="AdeptusMechanicus/VehicleOffensivUpgrade" value="Improved Vehicle Training"/>
+	<entry name="AdeptusMechanicus/VehicleOffensivUpgradeDescription" value="All Vehicles produced in Manufactorum Cybernetica and Kastelan Robots +5% extra damage and +5% extra accuracy."/>
+
+	<entry name="AdeptusMechanicus/VehicleDefensivUpgrade" value="Improved Vehicle Maintenance"/>
+	<entry name="AdeptusMechanicus/VehicleDefensivUpgradeDescription" value="All Vehicles produced in Manufactorum Cybernetica and Kastelan Robots +10% Hitpoints."/>
+
+	<entry name="AdeptusMechanicus/VehicleOffensivUpgrade2" value="Expert Vehicle Training"/>
+	<entry name="AdeptusMechanicus/VehicleOffensivUpgrade2Description" value="All Vehicles produced in Manufactorum Cybernetica and Kastelan Robots gain another +3% extra damage and +3% extra accuracy."/>
+
+	<entry name="AdeptusMechanicus/VehicleDefensivUpgrade2" value="Expert Vehicle Maintenance"/>
+	<entry name="AdeptusMechanicus/VehicleDefensivUpgrade2Description" value="All Vehicles produced in Manufactorum Cybernetica and Kastelan Robots gain another +10% Hitpoints"/>
+
+
+	
+	<entry name="AdeptusMechanicus/AdvancedOffensivUpgrade" value="Improved Elite Training"/>
+	<entry name="AdeptusMechanicus/AdvancedOffensivUpgradeDescription" value="All units produced in the Macro-Manufactorum and Legio Cybernetica Nexus gain +5% extra damage and +5% extra accuracy. <br/><br/>All Units from Genetor Caropraedium and Sub-Cloister and Manufactorum Cybernetica gain another +3% extra damage and +3% extra accuracy."/>
+
+	<entry name="AdeptusMechanicus/AdvancedDefensivUpgrade" value="Improved Elite Equipment"/>
+	<entry name="AdeptusMechanicus/AdvancedDefensivUpgradeDescription" value="All units produced in the Heavy Armour Complex and Heavy Support Foundry gain +10% Hitpoints.  <br/><br/>All Units from Genetor Caropraedium and Sub-Cloister and Manufactorum Cybernetica gain another +10% Hitpoints"/>
+
+
+
+
+
+
+
+
+   	<entry name="SpaceMarines/FortressOfRedemptionDamageReduction" value="Stronghold Shielding"/>
+	<entry name="SpaceMarines/FortressOfRedemptionDamageReductionDescription" value="Grants Fortresses of Redemption 1 Armor, 30 Lifepoints and also a Twin-Linked Lascannon."/>
+	<entry name="SpaceMarines/FortressOfRedemptionDamageReductionFlavor" value="<string name='Traits/SpaceMarines/FortressOfRedemptionDamageReductionFlavor'/>"/>
+
+	<entry name="SpaceMarines/DevastatorDoctrine" value="<string name='Traits/DevastatorDoctrine'/>"/>
+	<entry name="SpaceMarines/DevastatorDoctrineDescription" value="<string name='Actions/DevastatorDoctrineDescription'/>"/>
+	<entry name="SpaceMarines/DevastatorDoctrineFlavor" value="<string name='Traits/DevastatorDoctrineFlavor'/>"/>
+
+	<entry name="SpaceMarines/AssaultDoctrine" value="<string name='Traits/AssaultDoctrine'/>"/>
+	<entry name="SpaceMarines/AssaultDoctrineDescription" value="<string name='Actions/AssaultDoctrineDescription'/>"/>
+	<entry name="SpaceMarines/AssaultDoctrineFlavor" value="<string name='Traits/AssaultDoctrineFlavor'/>"/>
+
+	<entry name="SpaceMarines/TacticalDoctrine" value="<string name='Traits/TacticalDoctrine'/>"/>
+	<entry name="SpaceMarines/TacticalDoctrineDescription" value="<string name='Actions/TacticalDoctrineDescription'/>"/>
+	<entry name="SpaceMarines/TacticalDoctrineFlavor" value="<string name='Actions/TacticalDoctrineFlavor'/>"/>
+
+	<entry name="SpaceMarines/BolterDrill" value="<string name='Traits/BolterDrill'/>"/>
+	<entry name="SpaceMarines/BolterDrillDescription" value="<string name='Actions/BolterDrillDescription'/>"/>
+	<entry name="SpaceMarines/BolterDrillFlavor" value="<string name='Traits/BolterDrillFlavor'/>"/>
+
+	<entry name="SpaceMarines/CityTier2" value="<string name='Traits/SpaceMarines/CityTier2'/>"/>
+	<entry name="SpaceMarines/CityTier2Description" value="Increases the tile acquisition radius of the city and decrease the cooldown of Fortress Of Redemption by 10%. Also increase the resource output of Fortress Of Redemption"/>
+	<entry name="SpaceMarines/CityTier2Flavor" value="<string name='Traits/SpaceMarines/CityTier2Flavor'/>"/>
+
+	<entry name="SpaceMarines/CityTier3" value="<string name='Traits/SpaceMarines/CityTier3'/>"/>
+	<entry name="SpaceMarines/CityTier3Description" value="Increases the tile acquisition radius of the city and decrease the cooldown of Fortress Of Redemption by 20%. Also increase the resource output of Fortress Of Redemption"/>
+	<entry name="SpaceMarines/CityTier3Flavor" value="<string name='Traits/SpaceMarines/CityTier3Flavor'/>"/>
+
+	<entry name="SpaceMarines/CityTier4" value="<string name='Traits/SpaceMarines/CityTier4'/>"/>
+	<entry name="SpaceMarines/CityTier4Description" value="Increases the tile acquisition radius of the city and decrease the cooldown of Fortress Of Redemption by 20%. Also increase the resource output of Fortress Of Redemption"/>
+	<entry name="SpaceMarines/CityTier4Flavor" value="<string name='Traits/SpaceMarines/CityTier4Flavor'/>"/>
+
+	<entry name="SpaceMarines/PredatorLascannon" value="Additional Heavy Bolters"/>
+	<entry name="SpaceMarines/PredatorLascannonDescription" value="Grants Predators and Aquila Macro-Cannons extra Heavy Bolters."/>
+	<entry name="SpaceMarines/PredatorLascannonFlavor" value="<string name='Weapons/HeavyBolterFlavor'/>"/>
+
+	<entry name="SpaceMarines/ClusterMines" value="<string name='Weapons/ClusterMines'/>"/>
+	<entry name="SpaceMarines/ClusterMinesDescription" value="Grants Scouts, Scout Bikers and Thunderfire Cannons the ability to place cluster mines."/>
+	<entry name="SpaceMarines/ClusterMinesFlavor" value="<string name='Weapons/ClusterMinesFlavor'/>"/>
+
+	<entry name="SpaceMarines/StormtalonGunship" value="Stormtalon Gunship"/>
+	<entry name="SpaceMarines/StormtalonGunshipDescription" value="Airborne interceptor and ground-attack unit."/>
+	<entry name="SpaceMarines/StormtalonGunshipFlavor" value="The smaller Stormtalon Gunship is incredibly fast and agile, and makes a superb air-interceptor and ground attack craft. With a single press of a trigger, the Stormtalon's pilot purges his victims from existence amid a whistling hail of missiles, bolts and las blasts. All the while, the Stormtalon jinks and weaves with incredible speed, enemy fire slicing around it to no avail."/>
+
+	<entry name="SpaceMarines/OrbitalRelay1" value="Orbital Relay 1 / 2"/>
+	<entry name="SpaceMarines/OrbitalRelay1Description" value="This technology reduces the cost of orbital Deployment by 25%"/>
+	<entry name="SpaceMarines/OrbitalRelay1Flavor" value="Refined drop-pod trajectories and optimized launch sequences reduce fuel consumption and preparation time. When every bolt shell and lasgun power pack must be delivered from orbit, efficiency becomes salvation."/>
+
+	<entry name="SpaceMarines/OrbitalRelay2" value="Orbital Relay 2 / 2"/>
+	<entry name="SpaceMarines/OrbitalRelay2Description" value="This technology reduces the cost of orbital Deployment by another 25%"/>
+	<entry name="SpaceMarines/OrbitalRelay2Flavor" value="Refined drop-pod trajectories and optimized launch sequences reduce fuel consumption and preparation time. When every bolt shell and lasgun power pack must be delivered from orbit, efficiency becomes salvation."/>
+
+	<entry name="SpaceMarines/LastStandDoctrine" value="Advanced Doctrine: Last Stand"/>
+	<entry name="SpaceMarines/LastStandDoctrineDescription" value="Advanced Doctrine: Whenever a Space Marine unit is destroyed, all nearby Space Marine units gain +1 Ranged Accuracy, +10% Melee Attacks, and 5% Damage Reduction"/>
+	<entry name="SpaceMarines/LastStandDoctrineFlavor" value="Even in death, we serve. Let the blood of our fallen brothers fuel the fires of vengeance, and may their sacrifice echo through the warp itself. For every battle-brother that falls, ten heretics shall follow. This we swear by the Emperor's holy name."/>
+
+	<entry name="SpaceMarines/DozerBlade" value="<string name='Traits/DozerBlade'/>"/>
+	<entry name="SpaceMarines/DozerBladeDescription" value="Reduces the movement penalty for Hunters, Predators, Razorbacks and Whirlwinds in forests and imperial ruins. Also grants Siege Shields to Vindicators"/>
+	<entry name="SpaceMarines/DozerBladeFlavor" value="<string name='Traits/DozerBladeFlavor'/>"/>
+
+	<entry name="SpaceMarines/FragGrenade" value="Frag and Krak Granades"/>
+	<entry name="SpaceMarines/FragGrenadeDescription" value="Grants Tactical Space Marines, Apothecaries, Scouts, Scout Bikers and Devastator Space Marines the ability to throw Frag and Krak granades."/>
+	<entry name="SpaceMarines/FragGrenadeFlavor" value="<string name='Weapons/FragGrenadeFlavor'/>"/>
+
+	<entry name="SpaceMarines/MeltaBomb" value="<string name='Weapons/MeltaBomb'/>"/>
+	<entry name="SpaceMarines/MeltaBombDescription" value="Grants Primaris Intercessors and Assault Space Marines the ability to deploy a melta bomb that is highly effective against heavy vehicles and fortifications."/>
+	<entry name="SpaceMarines/MeltaBombFlavor" value="<string name='Weapons/MeltaBombFlavor'/>"/>
+
+	<entry name="SpaceMarines/AdvancedVehicles" value="Forge Sanctum"/>
+	<entry name="SpaceMarines/AdvancedVehiclesDescription" value="Building that produces late-game Vehicles and Walkers like: Predators, Redemptor Dreadnoughts, Primaris Repulsor Executioners and Land Raiders. <br/><br/>Units here cost Requisitions. Requires 2 build slots and 2 population to operate, but offers higher production."/>
+
+	<entry name="SpaceMarines/AdvancedInfantry" value="Reliquary"/>
+	<entry name="SpaceMarines/AdvancedInfantryDescription" value="Building that produces late-game Infantry and Aircraft Units like: Terminators, Stormtalon Gunships, Assault Terminators, Devastator Centurions, Stormraven Gunships and Thunderhawk Gunships. <br/><br/>Units here cost Requisitions and Energy. Requires 2 build slots and 2 population to operate, but offers higher production."/>
+
+
+
+	<entry name="SpaceMarines/InfantryOffensivUpgrade" value="Improved Marine Training"/>
+	<entry name="SpaceMarines/InfantryOffensivUpgradeDescription" value="All Infantry Units produced in the Apothecarion, Reclusiam and Assault Pads gain +5% extra damage and +5% extra accuracy."/>
+
+	<entry name="SpaceMarines/InfantryDefensivUpgrade" value="Improved Marine Wargear"/>
+	<entry name="SpaceMarines/InfantryDefensivUpgradeDescription" value="All Infantry Units produced in the Apothecarion, Reclusiam and Assault Pads gain +10% Hitpoints and +1 armour."/>
+
+	<entry name="SpaceMarines/InfantryOffensivUpgrade2" value="Expert Marine Training"/>
+	<entry name="SpaceMarines/InfantryOffensivUpgrade2Description" value="All Infantry Units produced in the Apothecarion, Reclusiam and Assault Pads gain another +3% extra damage and +3% extra accuracy."/>
+
+	<entry name="SpaceMarines/InfantryDefensivUpgrade2" value="Expert Marine Wargear"/>
+	<entry name="SpaceMarines/InfantryDefensivUpgrade2Description" value="All Infantry Units produced in the Apothecarion, Reclusiam and Assault Pads gain another +10% Hitpoints."/>
+
+
+
+	<entry name="SpaceMarines/VehicleOffensivUpgrade" value="Improved Vehicle Training"/>
+	<entry name="SpaceMarines/VehicleOffensivUpgradeDescription" value="All Vehicles produced in the Armoury and Assault Pads gain +5% extra damage and +5% extra accuracy."/>
+
+	<entry name="SpaceMarines/VehicleDefensivUpgrade" value="Improved Vehicle Wargear"/>
+	<entry name="SpaceMarines/VehicleDefensivUpgradeDescription" value="All Vehicles produced in the Armoury and Assault Pads gain +10% Hitpoints and +1 extra armour."/>
+
+	<entry name="SpaceMarines/VehicleOffensivUpgrade2" value="Expert Vehicle Training"/>
+	<entry name="SpaceMarines/VehicleOffensivUpgrade2Description" value="All Vehicles produced in the Armoury and Assault Pads gain another +3% extra damage and +3% extra accuracy."/>
+
+	<entry name="SpaceMarines/VehicleDefensivUpgrade2" value="Expert Vehicle Wargear"/>
+	<entry name="SpaceMarines/VehicleDefensivUpgrade2Description" value="All Vehicles produced in the Armoury and Assault Pads gain another +10% Hitpoints"/>
+
+
+	
+	<entry name="SpaceMarines/AdvancedOffensivUpgrade" value="Improved Elite Training"/>
+	<entry name="SpaceMarines/AdvancedOffensivUpgradeDescription" value="All units produced in the Forge Sanctum and Reliquary gain +5% extra damage and +5% extra accuracy. <br/><br/>All Units produced in Apothecarion, Armoury, Assault Pads and Reclusiam gain another +3% extra damage and +3% extra accuracy."/>
+
+	<entry name="SpaceMarines/AdvancedDefensivUpgrade" value="Improved Elite Wargear"/>
+	<entry name="SpaceMarines/AdvancedDefensivUpgradeDescription" value="All units produced in the Forge Sanctum and Reliquary gain +10% Hitpoints and +1 extra armour.  <br/><br/>All Units produced in Apothecarion, Armoury, Assault Pads and Reclusiam gain another +10% Hitpoints"/>
+
+
+
+
+
+
+
+
+
+
+</language>
+   

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff">
+	<modifiers>
+	<modifier>
+		<conditions>
+				<weapon>
+					<trait name="Melee"/>
+				</weapon>
+			</conditions>
+			<effects>
+				<lifeStealFactor add="0.5"/>
+				<meleeAccuracy add="2"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<effects>
+				<supportSystemSlots add="-2"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Buff" icon="Actions/AdeptusMechanicus/PowerSurge" visibilityCategory="Tile">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<building match="Any">
+					<type name="SistersOfBattle/Infantry"/>
+					<type name="SistersOfBattle/Vehicles"/>
+					<type name="SistersOfBattle/Heroes"/>
+					<type name="SistersOfBattle/Auxiliaries"/>
+
+
+				</building>
+			</conditions>
+			<effects>
+				<production mul="0.525"/>
+
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

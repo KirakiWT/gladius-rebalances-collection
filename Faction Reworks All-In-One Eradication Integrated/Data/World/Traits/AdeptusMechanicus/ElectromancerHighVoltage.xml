@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Traits/AdeptusMechanicus/HighVoltage">
+	<modifiers>
+		<modifier>
+			<effects>
+				<meleeArmorPenetration add="4"/>
+				<groupSizeMax add="1"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

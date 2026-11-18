@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait icon="Actions/ChaosSpaceMarines/RiteOfPestilence" category="Debuff">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<enemy/>
+				</unit>
+			</conditions>
+			<effects>
+				<armor add="-1"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>
+		<unit mesh="Units/Reinforcements_MT/BlueHorror"
+				material="Units/Reinforcements_MT/BlueHorror"
+				idleAnimation="Units/Reinforcements_MT/BlueHorror/Idle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				walker="1"
+				scale="0.6 0.6 0.6"
+				normalWeight="0.1"
+				bloodBone="Waist"/>
+	</model>
+	<group size="8" rowSize="4" memberDeltaX="70" memberDeltaY="50"/>
+	<weapons>
+		<weapon name="CloseCombatWeapon">
+			<model>
+				<weapon fireInterval="1.0"
+						fireSoundCount="0"/>
+			</model>
+		</weapon>
+		<weapon name="ChaosDaemons_MT/CoruscatingBlueFlames">
+			<model>
+				<flamerWeapon muzzleBone="Muzzle" fireInterval="1.0" muzzleCount="4"/>
+			</model>		
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="4"/>
+				<hitpointsMax base="2.0"/>
+				<meleeAccuracy base="6"/>
+				<meleeAttacks base="1"/>
+				<strengthDamage base="1"/>
+				<moraleMax base="8"/>
+				<movementMax base="3"/>
+				<productionCost base="36"/>
+				<foodCost base="20"/>
+				<energyCost base="50"/>
+				<energyUpkeep base="2.5"/>
+				<rangedAccuracy base="8"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<player>
+					<aiControlled/>
+				</player>
+			</conditions>
+			<effects>
+			</effects>
+		</modifier>	
+		<modifier visible="0">
+			<conditions>
+				<player>
+					<notAIControlled/>
+				</player>
+			</conditions>
+			<effects>
+			</effects>
+		</modifier>	
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseInfantryScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action animation="Units/Reinforcements_MT/BlueHorror/Range"
+						chargeAnimation="Units/Reinforcements_MT/BlueHorror/Charge"
+						chargeBeginFire="0.67"
+						chargeEndFire="0.833"						
+						meleeAnimation="Units/Reinforcements_MT/BlueHorror/Melee"
+						meleeBeginSwing="0"
+						meleeEndSwing="0.5"
+						beginFire="0.5"
+						endFire="1.33"/>
+			</model>			
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/Reinforcements_MT/BlueHorror/Die"
+						sound="Units/MediumUnarmoredDie"
+						soundCount="4"
+						soundDelay="1.0"
+						voiceSound="Units/Tyranids/MediumDie"
+						voiceSoundCount="4"/>
+			</model>
+		</die>
+		<move>		
+			<model>
+				<action animation="Units/Reinforcements_MT/BlueHorror/Move"
+						sound="Units/Tyranids/InfantryMove"
+						soundCount="4"/>
+			</model>	
+		</move>
+		<quantumShielding cooldown="2"
+				name="ChaosDaemons_MT/ScintillatingLegionShield"
+				icon="Actions/Necrons/QuantumShielding"
+				passive="1"
+				useConditionsForVisiblity="1">
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/ScintillatingLegion"/>
+				</unit>
+			</conditions>
+			<perTurnProcessUseConditions>
+				<unit>
+					<damagedThisTurn/>
+				</unit>
+			</perTurnProcessUseConditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/ScintillatingLegionShield"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</quantumShielding>
+		<dimensionalCorridor cooldown="5"
+				name="ChaosDaemons_MT/WarpRiftTeleport"
+				requiredUpgrade="ChaosDaemons_MT/WarpRift"
+				icon="Actions/Necrons/GravityPulse">
+			<model>
+				<action sound="Actions/Teleport"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/WarpRift"/>
+				</unit>
+			</conditions>
+			<modifiers>
+				<modifier requiredUpgrade="ChaosDaemons_MT/WarpSurge">
+					<effects>
+						<consumedActionPoints max="0"/>
+						<consumedMovement max="0"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</dimensionalCorridor>
+	</actions>
+	<traits>
+		<trait name="Daemon"/>
+		<trait name="ChaosDaemons_MT/Tzeentch"/>
+		<trait name="SoulBlaze"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Undivided"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Khorne"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Tzeentch"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Slaanesh"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Nurgle"/>
+		<trait name="ChaosDaemons_MT/WarpRift"/>
+		<trait name="ChaosDaemons_MT/DaemonicResilience" requiredUpgrade="ChaosDaemons_MT/ExtraInfantryArmour"/>
+	</traits>
+</unit>

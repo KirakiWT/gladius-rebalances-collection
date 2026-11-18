@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Actions/Orks/ProphetOfTheWaaagh">
+	<modifiers>
+		<modifier>
+			<effects>
+				<movementMax add="1"/>
+				<armor add="2"/>
+				<influencePerCombatFromUpkeepFactor mul="0.33"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

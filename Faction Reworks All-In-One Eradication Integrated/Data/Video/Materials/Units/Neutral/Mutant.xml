@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/Neutral/MutantDiffuse"/>
+		<texture name="Units/Neutral/MutantNormal"/>
+		<texture name="Units/Neutral/MutantSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

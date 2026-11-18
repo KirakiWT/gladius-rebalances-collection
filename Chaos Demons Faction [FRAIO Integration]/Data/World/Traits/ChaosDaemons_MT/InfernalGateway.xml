@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff" icon="Weapons/PsychicMaelstrom">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<enemy/>
+				</unit>
+			</conditions>
+			<effects>
+				<movementMax max="1"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<perTurnModifiers endure="0">
+		<modifier>
+			<conditions>
+				<unit>
+					<enemy/>
+				</unit>
+			</conditions>
+			<effects>
+				<weaponDamage weapon="ChaosDaemons_MT/InfernalGateway"/>
+			</effects>
+		</modifier>
+	</perTurnModifiers>
+</trait>

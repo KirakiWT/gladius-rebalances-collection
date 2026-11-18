@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade position="4" icon="Units/Tau/KrootoxRampager" dlc="Supplement17">
+	<requiredUpgrades>
+		<upgrade name="Tau/Heroes"/>
+	</requiredUpgrades>
+</upgrade>

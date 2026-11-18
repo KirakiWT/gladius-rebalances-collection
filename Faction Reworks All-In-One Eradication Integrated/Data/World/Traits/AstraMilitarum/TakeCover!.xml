@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Buff" icon="Traits/AstraMilitarum/TakeCover!">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<notMovedThisTurn/>
+				</unit>
+			</conditions>
+			<effects>
+				<rangedDamageReduction add="0.20"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

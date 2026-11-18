@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>
+		<unit mesh="Units/Reinforcements_MT/Screamer"
+				material="Units/Reinforcements_MT/BurningChariot"
+				idleAnimation="Units/Reinforcements_MT/Screamer/Idle"
+				idleAnimationCount="2"
+				idleContinuously="1"
+				scale="0.7 0.7 0.7"
+				position="0 0 32"
+				bloodBone="Screamer"/>
+	</model>
+	<group size="5" rowSize="3" memberDeltaX="60" memberDeltaY="60"/>
+	<weapons>
+		<weapon name="ChaosDaemons_MT/ScreamerBite">
+			<model>
+				<weapon fireInterval="10.0"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="6"/>
+				<hitpointsMax base="3"/>
+				<meleeAccuracy base="8"/>
+				<meleeAttacks base="1"/>
+				<strengthDamage base="1.5"/>
+				<moraleMax base="8"/>
+				<movementMax base="4"/>
+				<productionCost base="48"/>
+				<foodCost base="40"/>
+				<energyCost base="100"/>
+				<energyUpkeep base="5"/>
+				<rangedAccuracy base="8"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<player>
+					<aiControlled/>
+				</player>
+			</conditions>
+			<effects>
+			</effects>
+		</modifier>	
+		<modifier visible="0">
+			<conditions>
+				<player>
+					<notAIControlled/>
+				</player>
+			</conditions>
+			<effects>
+			</effects>
+		</modifier>	
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseAircraftScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>	
+			<model>
+				<action chargeAnimation="Units/Reinforcements_MT/Screamer/Charge"
+						chargeBeginFire="0.33"
+						chargeEndFire="1.25"						
+						meleeAnimation="Units/Reinforcements_MT/Screamer/Melee"
+						meleeBeginSwing="0"
+						meleeEndSwing="0.5"/>
+			</model>
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/Reinforcements_MT/Screamer/Die"
+						sound="Units/MediumUnarmoredDie"
+						soundCount="4"
+						soundDelay="1.0"
+						voiceSound="Units/Tyranids/MediumDie"
+						voiceSoundCount="4"/>
+			</model>
+		</die>
+		<idle>
+		</idle>
+		<move>
+			<model>
+				<action animation="Units/Reinforcements_MT/Screamer/Move"
+						sound="Units/ChaosSpaceMarines/HeldrakeMove"/>
+			</model>
+		</move>
+		<quantumShielding cooldown="2"
+				name="ChaosDaemons_MT/ScintillatingLegionShield"
+				icon="Actions/Necrons/QuantumShielding"
+				passive="1"
+				useConditionsForVisiblity="1">
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/ScintillatingLegion"/>
+				</unit>
+			</conditions>
+			<perTurnProcessUseConditions>
+				<unit>
+					<damagedThisTurn/>
+				</unit>
+			</perTurnProcessUseConditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/ScintillatingLegionShield"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</quantumShielding>
+		<dimensionalCorridor cooldown="5"
+				name="ChaosDaemons_MT/WarpRiftTeleport"
+				requiredUpgrade="ChaosDaemons_MT/WarpRift"
+				icon="Actions/Necrons/GravityPulse">
+			<model>
+				<action sound="Actions/Teleport"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/WarpRift"/>
+				</unit>
+			</conditions>
+			<modifiers>
+				<modifier requiredUpgrade="ChaosDaemons_MT/WarpSurge">
+					<effects>
+						<consumedActionPoints max="0"/>
+						<consumedMovement max="0"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</dimensionalCorridor>
+	</actions>
+	<traits>
+		<trait name="Daemon"/>
+		<trait name="Flyer"/>
+		<trait name="Fleet"/>
+		<trait name="MonstrousCreature"/>
+		<trait name="ChaosDaemons_MT/Tzeentch"/>
+		<trait name="SoulBlaze"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Undivided"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Khorne"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Tzeentch"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Slaanesh"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Nurgle"/>
+		<trait name="ChaosDaemons_MT/WarpRift"/>
+		<trait name="ChaosDaemons_MT/DaemonicResilience" requiredUpgrade="ChaosDaemons_MT/ExtraVehicleArmour"/>
+	</traits>
+</unit>

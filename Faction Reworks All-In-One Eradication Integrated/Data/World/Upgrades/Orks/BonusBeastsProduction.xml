@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade visible="0" icon="Traits/Orks/BonusBeastsProduction">
+	<requiredUpgrades>
+		<upgrade name="Orks/Beasts"/>
+	</requiredUpgrades>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseSupportScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+</upgrade>

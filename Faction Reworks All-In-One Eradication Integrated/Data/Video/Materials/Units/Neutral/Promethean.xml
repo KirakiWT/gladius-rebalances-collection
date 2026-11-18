@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/Neutral/PrometheanDiffuse"/>
+		<texture name="Units/Neutral/PrometheanNormal"/>
+		<texture name="Units/Neutral/PrometheanSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

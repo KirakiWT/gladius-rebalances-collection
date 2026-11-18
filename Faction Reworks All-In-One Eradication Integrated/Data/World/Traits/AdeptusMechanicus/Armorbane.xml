@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff" icon="Actions/Drukhari/NoEscape" rankMax="2">
+	<modifiers>
+		<modifier>
+			<effects>
+				<armor addMin="-2" addMax="-6"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

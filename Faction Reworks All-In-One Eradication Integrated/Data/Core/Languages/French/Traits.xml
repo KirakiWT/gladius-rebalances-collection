@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<!-- Modifications -->
+	<entry name="DevilStung" value="Piqué par un Diable"/>
+	<entry name="DevilStungDescription" value="Réduit le mouvement, les dégâts reçus et les dégâts infligés."/>
+	<entry name="DryadShield" value="Bouclier des Dryades"/>
+	<entry name="DryadShieldDescription" value="Augmente l'armure."/>
+	<entry name="DaemonPath" value="Chemin démoniaque"/>
+	<entry name="DaemonPathDescription" value="Augmente les attaques de l'unité."/>
+	<!-- End Modifications -->
+</language>

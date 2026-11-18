@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait visible="0">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<player match="Any">
+					<upgrade name="ChaosDaemons_MT/PrimalTerror"/>
+					<upgrade name="ChaosDaemons_MT/RiteOfUnholyPleasure"/>
+					<upgrade name="ChaosDaemons_MT/LasDamage"/>
+					<upgrade name="ChaosDaemons_MT/LordOfChange"/>
+					<upgrade name="ChaosDaemons_MT/Bloodthirster"/>
+					<upgrade name="ChaosDaemons_MT/LocusOfDamnation"/>
+				</player>
+			</conditions>
+			<effects>
+				<attacks add="1"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

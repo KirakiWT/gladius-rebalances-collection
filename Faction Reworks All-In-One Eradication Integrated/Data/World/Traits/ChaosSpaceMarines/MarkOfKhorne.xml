@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Actions/ChaosSpaceMarines/MarkOfKhorne">
+	<modifiers>
+		<modifier>
+			<effects>
+			<armor add="-3"/>
+			<attacks mul="0.25"/>
+			<meleeDamageReduction add="0.25"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

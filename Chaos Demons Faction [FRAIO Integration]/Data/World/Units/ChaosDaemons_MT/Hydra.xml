@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>		
+		<unit mesh="Units/AstraMilitarum/Hydra"
+				material="Units/AstraMilitarum/Hydra"
+				idleAnimation="Units/AstraMilitarum/HydraIdle"
+				idleAnimationCount="2"
+				scale="1.2 1.2 1.2"
+				explosionsBone="Hull"
+				uvAnimated="1"/>
+	</model>
+	<weapons>
+		<weapon name="TwinLinkedHydraAutocannon" count="2">
+			<model>
+				<projectileWeapon muzzleBone=".Muzzle"
+						muzzleCount="4"
+						effectFaceWeight="0"/>
+			</model>
+		</weapon>
+		<weapon name="HeavyBolter">
+			<model>
+				<projectileWeapon mesh="Weapons/AstraMilitarum/HydraHeavyBolter"
+						material="Weapons/AstraMilitarum/HydraHeavyBolter"
+						bone=".Attachment1"
+						muzzleBone=".BolterMuzzle0"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="7"/> <!-- %armor base armor=12/10/10 -->
+				<hitpointsMax base="24.0"/> <!-- %hitpointsMax base armor=12/10/10 wounds=3 -->
+				<oreUpkeep base="2.0"/> <!-- %oreUpkeep base tier=6 factor=1 -->
+				<oreCost base="40.0"/> <!-- %oreCost base tier=6 factor=1 -->
+				<moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
+				<movementMax base="4"/>
+				<productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
+				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseVehiclesScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action animation="Units/AstraMilitarum/HydraAttack"
+						beginFire="0.4" endFire="2.53"/>
+			</model>			
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/AstraMilitarum/HydraDie"
+						sound="Units/MediumVehicleDie"
+						soundCount="3"
+						soundDelay="0.2"/>
+			</model>		
+		</die>
+		<move>
+			<model>
+				<action animation="Units/AstraMilitarum/HydraMove"
+						sound="Units/AstraMilitarum/TankMove"
+						soundCount="3"/>
+			</model>		
+		</move>
+		<quantumShielding cooldown="2"
+				name="ChaosDaemons_MT/ScintillatingLegionShield"
+				icon="Actions/Necrons/QuantumShielding"
+				passive="1"
+				useConditionsForVisiblity="1">
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/ScintillatingLegion"/>
+				</unit>
+			</conditions>
+			<perTurnProcessUseConditions>
+				<unit>
+					<damagedThisTurn/>
+				</unit>
+			</perTurnProcessUseConditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/ScintillatingLegionShield"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</quantumShielding>
+		<createSmokeScreen cooldown="10"
+				icon="Traits/SmokeScreen"
+				name="ChaosDaemons_MT/SmokeLauncherUndivided"
+				useConditionsForVisiblity="1"
+				requiredUpgrade="ChaosDaemons_MT/SmokeLauncher">
+			<model>
+				<action sound="Actions/SmokeScreen"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/Undivided"/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addFeature duration="3" name="SmokeScreen"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+			<sharedCooldowns>
+				<action name="ChaosDaemons_MT/SmokeLauncherKhorne"/>
+				<action name="ChaosDaemons_MT/SmokeLauncherTzeentch"/>
+				<action name="ChaosDaemons_MT/SmokeLauncherSlaanesh"/>
+				<action name="ChaosDaemons_MT/SmokeLauncherNurgle"/>
+			</sharedCooldowns>
+		</createSmokeScreen>
+		<createSmokeScreen cooldown="10"
+				icon="Traits/SmokeScreen"
+				name="ChaosDaemons_MT/SmokeLauncherKhorne"
+				useConditionsForVisiblity="1"
+				requiredUpgrade="ChaosDaemons_MT/SmokeLauncher">
+			<model>
+				<action sound="Actions/SmokeScreen"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/Khorne"/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addFeature duration="3" name="ChaosDaemons_MT/SmokeScreen/Khorne"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+			<sharedCooldowns>
+				<action name="ChaosDaemons_MT/SmokeLauncherUndivided"/>
+				<action name="ChaosDaemons_MT/SmokeLauncherTzeentch"/>
+				<action name="ChaosDaemons_MT/SmokeLauncherSlaanesh"/>
+				<action name="ChaosDaemons_MT/SmokeLauncherNurgle"/>
+			</sharedCooldowns>
+		</createSmokeScreen>
+		<createSmokeScreen cooldown="10"
+				icon="Traits/SmokeScreen"
+				name="ChaosDaemons_MT/SmokeLauncherNurgle"
+				useConditionsForVisiblity="1"
+				requiredUpgrade="ChaosDaemons_MT/SmokeLauncher">
+			<model>
+				<action sound="Actions/SmokeScreen"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/Nurgle"/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addFeature duration="3" name="ChaosDaemons_MT/SmokeScreen/Nurgle"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+			<sharedCooldowns>
+				<action name="ChaosDaemons_MT/SmokeLauncherUndivided"/>
+				<action name="ChaosDaemons_MT/SmokeLauncherKhorne"/>
+				<action name="ChaosDaemons_MT/SmokeLauncherTzeentch"/>
+				<action name="ChaosDaemons_MT/SmokeLauncherSlaanesh"/>
+			</sharedCooldowns>
+		</createSmokeScreen>
+		<createSmokeScreen cooldown="10"
+				icon="Traits/SmokeScreen"
+				name="ChaosDaemons_MT/SmokeLauncherSlaanesh"
+				useConditionsForVisiblity="1"
+				requiredUpgrade="ChaosDaemons_MT/SmokeLauncher">
+			<model>
+				<action sound="Actions/SmokeScreen"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/Slaanesh"/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addFeature duration="3" name="ChaosDaemons_MT/SmokeScreen/Slaanesh"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+			<sharedCooldowns>
+				<action name="ChaosDaemons_MT/SmokeLauncherUndivided"/>
+				<action name="ChaosDaemons_MT/SmokeLauncherKhorne"/>
+				<action name="ChaosDaemons_MT/SmokeLauncherTzeentch"/>
+				<action name="ChaosDaemons_MT/SmokeLauncherNurgle"/>
+			</sharedCooldowns>
+		</createSmokeScreen>
+		<createSmokeScreen cooldown="10"
+				icon="Traits/SmokeScreen"
+				name="ChaosDaemons_MT/SmokeLauncherTzeentch"
+				useConditionsForVisiblity="1"
+				requiredUpgrade="ChaosDaemons_MT/SmokeLauncher">
+			<model>
+				<action sound="Actions/SmokeScreen"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/Tzeentch"/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addFeature duration="3" name="ChaosDaemons_MT/SmokeScreen/Tzeentch"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+			<sharedCooldowns>
+				<action name="ChaosDaemons_MT/SmokeLauncherUndivided"/>
+				<action name="ChaosDaemons_MT/SmokeLauncherKhorne"/>
+				<action name="ChaosDaemons_MT/SmokeLauncherSlaanesh"/>
+				<action name="ChaosDaemons_MT/SmokeLauncherNurgle"/>
+			</sharedCooldowns>
+		</createSmokeScreen>
+	</actions>
+	<traits>
+		<trait name="ChaosDaemons_MT/ReinforcedHulls" requiredUpgrade="ChaosDaemons_MT/ExtraVehicleArmour"/>
+		<trait name="OpenTopped"/>
+		<trait name="Tank"/>
+		<trait name="Vehicle"/>
+		<trait name="ChaosDaemons_MT/Undivided"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Undivided"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Khorne"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Tzeentch"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Slaanesh"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Nurgle"/>
+	</traits>
+</unit>

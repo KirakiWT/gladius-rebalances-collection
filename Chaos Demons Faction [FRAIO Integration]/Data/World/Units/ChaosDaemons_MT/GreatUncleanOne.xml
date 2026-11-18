@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>
+		<unit mesh="Units/Reinforcements_MT/GreatUncleanOne"
+				material="Units/Reinforcements_MT/GreatUncleanOne"
+				idleAnimation="Units/Reinforcements_MT/GreatUncleanOne/Idle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="1.2 1.2 1.2"
+				bloodBone="Waist"
+				walker="1"/>
+	</model>
+	<weapons>
+		<weapon name="ChaosDaemons_MT/Bilesword">
+			<model>
+				<weapon fireInterval="0.5"/>
+			</model>
+		</weapon>
+		<weapon name="ChaosDaemons_MT/PutridVomit">
+			<model>
+				<flamerWeapon muzzleBone="Bone.011"
+								effectFaceWeight="0"/>
+			</model>
+		</weapon>
+		<weapon name="ChaosDaemons_MT/PutridVomit">
+			<model>
+				<flamerWeapon muzzleBone="Bone.003"
+								effectFaceWeight="0"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="6"/>
+				<hitpointsMax base="64.0"/>
+				<meleeAccuracy base="10"/>
+				<meleeAttacks base="2"/>
+				<strengthDamage base="6"/>
+				<moraleMax base="12"/>
+				<movementMax base="3"/>
+				<productionCost base="66"/>
+				<foodCost base="200"/>
+				<energyCost base="80"/>
+				<influenceCost base="320"/>
+				<foodUpkeep base="8"/>
+				<rangedAccuracy base="6"/>
+				<influenceUpkeep base="16.0"/>
+				<itemSlots base="6"/>
+				<levelMax base="9"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<player>
+					<aiControlled/>
+				</player>
+			</conditions>
+			<effects>
+			</effects>
+		</modifier>	
+		<modifier visible="0">
+			<conditions>
+				<player>
+					<notAIControlled/>
+				</player>
+			</conditions>
+			<effects>
+			</effects>
+		</modifier>	
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseHeroesScore base="2.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action	animation="Units/Reinforcements_MT/GreatUncleanOne/Idle2"
+						beginFire="0.5"
+						endFire="2.0"
+						chargeAnimation="Units/Reinforcements_MT/GreatUncleanOne/Charge"
+						meleeAnimation="Units/Reinforcements_MT/GreatUncleanOne/Melee"
+						chargeBeginFire="1.0"
+						chargeEndFire="2.0"
+						animationSpeed="0.5"
+						meleeBeginSwing="0.0"
+						meleeEndSwing="1"/>
+			</model>
+		</attack>
+		<die>		
+			<model>
+				<action animation="Units/Reinforcements_MT/GreatUncleanOne/Die"
+						sound="Units/MediumArmoredDie"
+						soundCount="4"
+						soundDelay="0.8"
+						voiceSound="Units/ChaosSpaceMarines/DaemonPrinceDie"
+						voiceSoundCount="1"/>
+			</model>
+		</die>
+		<idle>
+			<model>
+				<action animationSpeed="0.5"/>
+			</model>
+		</idle>
+		<move>	
+			<model>
+				<action animation="Units/Reinforcements_MT/GreatUncleanOne/Move"
+						animationSpeed="0.5"
+						sound="Units/Tyranids/HaruspexMove"
+						soundCount="2"/>
+			</model>				
+		</move>
+		<auraOfFear passive="1">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" excludeRadius="0" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Fear"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</auraOfFear>
+		<genericUnitAbility name="ChaosDaemons_MT/NurglesRot" passive="1" icon="Actions/ChaosSpaceMarines/RiteOfPestilence">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="1" excludeRadius="0">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/NurglesRot"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<genericUnitAbility name="ChaosDaemons_MT/ShadowOfChaos" passive="1" icon="Actions/ChaosSpaceMarines/BoonOfMutation">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/ShadowOfChaos"/>
+									</effects>
+								</modifier>
+								<modifier visible="0">
+									<effects>
+										<addTrait name="ChaosDaemons_MT/ShadowOfChaosEnemy"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<orationOfRestoration cooldown="3"
+				name="ChaosDaemons_MT/ShrivellingPox"
+				icon="Traits/ChaosSpaceMarines/Afflicted"
+				consumedActionPoints="0" 
+				consumedMovement="0"
+				rank="-1"
+				rankMax="2">
+			<model>
+				<action animation="Units/Reinforcements_MT/GreatUncleanOne/Idle2"
+						sound="Actions/MysticBuff"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit" radius="1">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<enemy/>
+										</unit>
+									</conditions>
+									<effects>
+										<addTrait duration="3" name="ChaosDaemons_MT/ShrivellingPox"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</orationOfRestoration>
+		<orationOfRestoration cooldown="3"
+				name="ChaosDaemons_MT/FleshyAbundance"
+				icon="Actions/OrationOfRestoration"
+				consumedActionPoints="0" 
+				consumedMovement="0"
+				levelUpPriority="1"
+				rank="-1"
+				rankMax="2">
+			<model>
+				<action animation="Units/Reinforcements_MT/GreatUncleanOne/Idle1"
+						sound="Actions/MysticBuff"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit" radius="1">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+										</unit>
+									</conditions>
+									<effects>
+										<addTrait duration="3" name="ChaosDaemons_MT/FleshyAbundance"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</orationOfRestoration>
+		<genericUnitAbility name="ChaosDaemons_MT/DuskOfChaos"
+				icon="Traits/ChaosSpaceMarines/ChampionOfChaos"
+				passive="1"
+				rank="-1"
+				levelUpPriority="1"
+				rankMax="2">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radiusMin="2" radiusMax="4" excludeRadius="0">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/ShadowOfChaos"/>
+										<addTrait name="ChaosDaemons_MT/NurglesRot"/>
+										<addTrait name="Fear"/>
+									</effects>
+								</modifier>
+								<modifier visible="0">
+									<effects>
+										<addTrait name="ChaosDaemons_MT/ShadowOfChaosEnemy"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<genericUnitAbility name="ChaosDaemons_MT/PlagueLegion"
+				icon="Units/ChaosDaemons_MT/GreatUncleanOne"
+				passive="1"
+				rank="-1"
+				elite="1"
+				levelUpPriority="1"
+				rankMax="0">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="100">
+							<modifiers>
+								<modifier viisble="0">
+									<effects>
+										<addTrait name="ChaosDaemons_MT/PlagueLegion"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<levelUp/>
+		<shop/>
+		<dimensionalCorridor cooldown="5"
+				name="ChaosDaemons_MT/WarpRiftTeleport"
+				requiredUpgrade="ChaosDaemons_MT/WarpRift"
+				icon="Actions/Necrons/GravityPulse">
+			<model>
+				<action sound="Actions/Teleport"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/WarpRift"/>
+				</unit>
+			</conditions>
+			<modifiers>
+				<modifier requiredUpgrade="ChaosDaemons_MT/WarpSurge">
+					<effects>
+						<consumedActionPoints max="0"/>
+						<consumedMovement max="0"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</dimensionalCorridor>
+	</actions>
+	<traits>
+		<trait name="Daemon"/>
+		<trait name="ChaosDaemons_MT/GreaterDaemon"/>
+		<trait name="Fearless"/>
+		<trait name="Hero"/>
+		<trait name="MonstrousCreature"/>
+		<trait name="MoveThroughCover"/>
+		<trait name="Psyker"/>
+		<trait name="Relentless"/>
+		<trait name="Smash"/>
+		<trait name="Hero"/>
+		<trait name="ChaosDaemons_MT/Nurgle"/>
+		<trait name="Regeneration"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Undivided"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Khorne"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Tzeentch"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Slaanesh"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Nurgle"/>
+		<trait name="ChaosDaemons_MT/WarpRift"/>
+		<trait name="Reinforcements_MT/MeleeHero"/>
+		<trait name="ChaosDaemons_MT/DaemonicResilience" requiredUpgrade="ChaosDaemons_MT/ExtraVehicleArmour"/>
+	</traits>
+</unit>

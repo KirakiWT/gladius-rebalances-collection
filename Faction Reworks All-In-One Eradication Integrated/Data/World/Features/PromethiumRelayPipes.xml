@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feature category="Resource" explorable="1">
+	<model>
+		<simpleModel mesh="Features/PromethiumRelayPipes"
+				material="Features/PromethiumRelayPipes"
+				groundFlow="1"
+				groundMaterial="Features/PromethiumRelayPipesGround"/>
+	</model>
+	<areas>
+		<area affects="Tile" radius="1">
+			<modifiers>
+				<modifier>
+					<effects>
+						<energy mul="0.2"/>
+					</effects>
+				</modifier>
+				<modifier>
+					<conditions>
+						<player>
+							<faction name="Tyranids"/>
+						</player>
+					</conditions>
+					<effects>
+						<biomass mul="0.1"/>
+						<influence mul="0.1"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</area>
+	</areas>
+	<modifiers>
+		<modifier>
+			<effects>
+				<buildingSlots max="0"/>
+				<energy mul="0.2"/>
+				<energy add="3"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<conditions>
+				<player>
+					<faction name="Tyranids"/>
+				</player>
+			</conditions>
+			<effects>
+				<biomass mul="0.05"/>
+				<biomass add="1.5"/>
+				<influence mul="0.1"/>
+				<influence add="1.5"/>
+			</effects>
+		</modifier>	
+	<modifier requiredUpgrade="Eldar/MaidenWorldMastery2">
+			<effects>
+				<energy add="1"/>
+			</effects>
+		</modifier>
+
+	<modifier requiredUpgrade="Eldar/MaidenWorldMastery">
+			<effects>
+				<energy add="1"/>
+			</effects>
+		</modifier>
+
+
+
+
+
+			<modifier requiredUpgrade="Necrons/Dominion">
+			<effects>
+				<influence add="0.5"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="Necrons/Dominion1">
+			<effects>
+				<influence add="0.5"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="Necrons/Dominion3">
+			<effects>
+				<influence add="1"/>
+			</effects>
+		</modifier>
+
+
+
+		<modifier requiredUpgrade="Tyranids/Dominion1">
+			<effects>
+				<influence add="1"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="Tyranids/Dominion2">
+			<effects>
+				<influence add="1"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="Tyranids/Dominion3">
+			<effects>
+				<influence add="1"/>
+			</effects>
+		</modifier>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</modifiers>
+
+		<rewards>
+		<biomass amount="2"/>
+		<energy amount="5"/>
+
+
+	</rewards>
+</feature>

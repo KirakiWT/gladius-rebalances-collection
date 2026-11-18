@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff">
+	<modifiers>
+		<modifier>
+			<effects>
+				<invulnerableDamageReduction min="10.00"/>
+				<movementMax add="-99"/>
+				<accuracy mul="-10.00"/>
+			
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Actions/TacticalDoctrine">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit match="Any">
+					<type name="SpaceMarines/TacticalSpaceMarine"/>
+					<type name="SpaceMarines/Scout"/>
+					<type name="SpaceMarines/PrimarisIntercessor"/>
+					
+					<type name="SpaceMarines/PrimarisHellblaster"/>
+					<type name="SpaceMarines/Terminator"/>
+
+					<type name="SpaceMarines/Razorback"/>
+					<type name="SpaceMarines/Hunter"/>
+
+
+					<type name="SpaceMarines/LandSpeeder"/>
+					<type name="SpaceMarines/StormravenGunship"/>
+					<type name="SpaceMarines/StormtalonGunship"/>
+
+
+					<type name="SpaceMarines/LandRaider"/>
+					<type name="SpaceMarines/Predator"/>
+					<type name="SpaceMarines/PrimarisRepulsorExecutioner"/>
+
+
+
+
+
+				</unit>
+			</conditions>
+			<effects>
+				<attacks mul="0.10"/>
+				<rangedDamageReductionBypass add="0.10"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

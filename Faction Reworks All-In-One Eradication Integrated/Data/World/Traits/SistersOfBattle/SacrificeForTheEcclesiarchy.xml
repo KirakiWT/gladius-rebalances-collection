@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff">
+	<onUnitDisappeared>
+		<area affects="Player">
+			<modifiers>
+				<modifier>
+					<effects>
+						<energyFromExperienceValueFactor add="7"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</area>
+	</onUnitDisappeared>
+</trait>

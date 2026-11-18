@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade visible="0" icon="Traits/ExtraVehicleArmour">
+	<requiredUpgrades>
+		<upgrade name="AdeptusMechanicus/Vehicles"/>
+		<upgrade name="AdeptusMechanicus/Aircraft"/>
+	</requiredUpgrades>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseVehiclesScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+</upgrade>

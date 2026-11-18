@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" rankMax="2" icon="Traits/PsychicBlock">
+	<modifiers>
+		<modifier>
+			<effects>
+				<attacks mulMin="0.17" mulMax="0.5"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent>
+						<trait name="Psyker"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<armorPenetration addMin="1" addMax="3"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

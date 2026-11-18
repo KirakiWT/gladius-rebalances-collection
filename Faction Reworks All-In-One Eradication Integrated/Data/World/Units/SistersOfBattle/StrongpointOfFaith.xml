@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit spawnCountMax="1">
+	<model>
+		<structureUnit mesh="Units/AstraMilitarum/ImperialStrongpoint"
+				material="Buildings/AstraMilitarum/Buildings"
+				groundMaterial="Units/AstraMilitarum/ImperialStrongpointGround"
+				idleAnimation=""
+				idleAnimationCount="0"
+				heatImpactSound="Impacts/HeatConcrete"
+				heatImpactSoundCount="4"
+				kineticImpactSound="Impacts/KineticConcrete"
+				kineticImpactSoundCount="5"
+				scale="0.8 0.8 0.8"
+				explosionsBone="Strongpoint"
+				uvAnimated="0"/>
+	</model>
+	<weapons>
+		<weapon name="TwinLinkedBoltgunarray" count="5">
+			<model>
+				<projectileWeapon mesh="Weapons/SistersOfBattle/HeadquartersGuns"
+						material="Buildings/SistersOfBattle/Buildings"
+						bone="Guns"
+						muzzleBone="Boltgun"
+						muzzleCount="3"/>
+			</model>
+		</weapon>
+ 		<weapon name="TwinLinkedMultiMeltaarray" count="1">
+			<model>
+				<beamWeapon mesh="Weapons/SistersOfBattle/HeadquartersGuns"
+						material="Buildings/SistersOfBattle/Buildings"
+						bone="Guns"
+						muzzleBone="Melta"
+						muzzleCount="1"/>
+			</model>
+		</weapon>
+		<weapon name="TwinLinkedHeavyFlamerarray" count="1">
+			<model>
+				<flamerWeapon mesh="Weapons/SistersOfBattle/HeadquartersGuns"
+						material="Buildings/SistersOfBattle/Buildings"
+						bone="Guns"
+						muzzleBone="Flamer"
+						muzzleCount="1"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="8"/> <!-- %armor base armor=14/14/14 -->
+				<cargoSlots base="6"/> <!-- %cargoSlots base capacity=20 -->
+				<hitpointsMax base="50.0"/> <!-- %hitpointsMax base armor=14/14/14 wounds=2 -->
+				<moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
+				<movementMax max="0"/>
+				<productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 --> 
+				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+				<requisitionsUpkeep base="3.0"/> <!-- %requisitionsUpkeep base tier=9 factor=1 -->
+				<requisitionsCost base="30.0"/> <!-- %requisitionsCost base tier=9 factor=1 -->
+				<energyCost base="30.0"/> <!-- %energyCost base tier=6 factor=0.5 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<actions>
+		<attack>
+			<model>
+				<action beginFire="0.15" endFire="2.6"/>
+			</model>
+		</attack>
+		<die>
+			<model>
+				<action sound="Units/HeavyBuildingDie"
+						soundCount="3"/>
+			</model>
+		</die>
+
+<genericUnitAbility passive="1"
+				name="SistersOfBattle/MedicusMinistorum"
+				requiredUpgrade="SistersOfBattle/MedicusMinistorum">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" excludeRadius="0" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="SistersOfBattle/MedicusMinistorum"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+
+
+		<genericUnitAbility passive="1"
+				name="SistersOfBattle/LaudHailer"
+				requiredUpgrade="SistersOfBattle/LaudHailer">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" excludeRadius="0" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="SistersOfBattle/LaudHailer"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+
+
+
+
+
+
+
+
+
+
+	</actions>
+	<traits>
+		<trait name="SistersOfBattle/ShieldOfFaith"/>
+		<trait name="Fortification"/>
+		<trait name="Transport"/>
+		<trait name="SistersOfBattle/SisterSuperior" requiredUpgrade="SistersOfBattle/SisterSuperior"/>
+		<trait name="SistersOfBattle/SisterSuperior2" requiredUpgrade="SistersOfBattle/SisterSuperior2"/>
+	</traits>
+</unit>

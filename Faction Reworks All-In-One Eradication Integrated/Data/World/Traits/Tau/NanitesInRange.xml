@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff">
+	<perTurnModifiers endure="0">
+		<modifier>
+			<conditions>
+				<unit>
+					<unitsInRange count="1" range="1">
+						<allied/>
+						<trait name="Tau/RestorativeNanites"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+		
+			<hitpoints add="1"/>
+			
+			</effects>
+		</modifier>
+	</perTurnModifiers>
+</trait>

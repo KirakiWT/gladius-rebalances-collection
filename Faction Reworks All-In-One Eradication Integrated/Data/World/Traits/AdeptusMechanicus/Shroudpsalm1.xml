@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff" icon="Actions/AdeptusMechanicus/Shroudpsalm" rankMax="9">
+	<modifiers>
+		<modifier>
+			<effects>
+					<accuracy mulMin="-0.25" mulMax="-1.0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

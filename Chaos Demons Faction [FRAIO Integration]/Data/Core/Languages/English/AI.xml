@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="ChaosDaemons_MT0" value="Lucius"/>
+	<entry name="ChaosDaemons_MT1" value="Horus"/>
+	<entry name="ChaosDaemons_MT2" value="Valerian"/>
+	<entry name="ChaosDaemons_MT3" value="Agrippa"/>
+	<entry name="ChaosDaemons_MT4" value="Morbus"/>
+	<entry name="ChaosDaemons_MT5" value="Canker"/>
+	<entry name="ChaosDaemons_MT6" value="Oothismos"/>
+	<entry name="ChaosDaemons_MT7" value="Phylax"/>
+	<entry name="ChaosDaemons_MT8" value="Pugna"/>
+	<entry name="ChaosDaemons_MT9" value="Rudis"/>
+	<entry name="ChaosDaemons_MT10" value="Salpinx"/>
+	<entry name="ChaosDaemons_MT11" value="Tablifus"/>
+	<entry name="ChaosDaemons_MT12" value="Iovarian"/>
+	<entry name="ChaosDaemons_MT13" value="Kopis"/>
+	<entry name="ChaosDaemons_MT14" value="Draconis"/>
+	<entry name="ChaosDaemons_MT15" value="Papilus"/>
+	<entry name="ChaosDaemons_MT16" value="Rumpens"/>
+	<entry name="ChaosDaemons_MT17" value="Engron"/>
+	<entry name="ChaosDaemons_MT18" value="Libidus"/>
+	<entry name="ChaosDaemons_MT19" value="Artificion"/>
+	<entry name="ChaosDaemons_MTCount" value="20"/>
+</language>

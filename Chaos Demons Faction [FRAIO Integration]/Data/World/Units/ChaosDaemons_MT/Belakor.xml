@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>
+		<unit mesh="Units/Reinforcements_MT/Belakor"
+				material="Units/Reinforcements_MT/Belakor"
+				idleAnimation="Units/Reinforcements_MT/Belakor/Idle"
+				idleAnimationCount="4"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="1.5 1.5 1.5"
+				bloodBone="Bone001"
+				walker="1"/>
+	</model>
+	<weapons>
+		<weapon name="ChaosDaemons_MT/BladeOfShadows">
+			<model>
+				<weapon fireInterval="0.5"/>
+			</model>
+		</weapon>
+		<weapon name="ChaosDaemons_MT/BetrayingShades" enabled="0" slotName="BetrayingShades">
+			<model>
+				<flamerWeapon muzzleBone="SwordTip"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="8"/>
+				<hitpointsMax base="18.0"/>
+				<meleeAccuracy base="12"/>
+				<meleeAttacks base="2"/>
+				<strengthDamage base="3"/>
+				<moraleMax base="12"/>
+				<movementMax base="3"/>
+				<productionCost base="60.0"/> 
+				<rangedAccuracy base="10"/>
+				<energyUpkeep base="2.0"/>
+				<influenceUpkeep base="3.0"/>
+				<itemSlots base="6"/>
+				<levelMax base="9"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseHeroesScore base="5.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action	animation="Units/Reinforcements_MT/Belakor/Range"
+						beginFire="0.5"
+						endFire="1.5"
+						chargeAnimation="Units/Reinforcements_MT/Belakor/Charge"
+						meleeAnimation="Units/Reinforcements_MT/Belakor/Melee"
+						meleeBeginSwing="0.0"
+						meleeEndSwing="0.83"/>
+			</model>
+		</attack>
+		<die>	
+			<model>
+				<action animation="Units/Reinforcements_MT/Belakor/Die"
+						sound="Units/MediumArmoredDie"
+						soundCount="4"
+						soundDelay="0.8"
+						voiceSound="Units/ChaosSpaceMarines/DaemonPrinceDie"
+						voiceSoundCount="1"/>
+			</model>	
+		</die>
+		<idle>
+			<model>
+				<action animationSpeed="1.0"/>
+			</model>
+		</idle>
+		<move>	
+			<model>
+				<action animation="Units/Reinforcements_MT/Belakor/Move"
+						sound="Units/AstraMilitarum/BullgrynMove"
+						soundCount="4"/>
+			</model>			
+		</move>
+		<auraOfFear passive="1">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" excludeRadius="0" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Fear"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</auraOfFear>
+		<genericUnitAbility name="ChaosSpaceMarines/PrinceOfChaos" passive="1">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosSpaceMarines/PrinceOfChaos"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<genericUnitAbility name="ChaosDaemons_MT/ShadowOfChaos" passive="1" icon="Actions/ChaosSpaceMarines/BoonOfMutation">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/ShadowOfChaos"/>
+									</effects>
+								</modifier>
+								<modifier visible="0">
+									<effects>
+										<addTrait name="ChaosDaemons_MT/ShadowOfChaosEnemy"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<jumpPack cooldown="3">
+			<model>
+				<action animation="Units/Reinforcements_MT/Belakor/Fly"
+						sound="Units/Tyranids/HiveTyrantMove"
+						soundCount="2"/>
+			</model>
+			<modifiers>
+				<modifier>
+					<effects>
+						<movement add="1"/>
+						<movementMax add="1"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</jumpPack>
+		<infernalPower name="ChaosDaemons_MT/AntiFlyer" cooldown="1" consumedActionPoints="0" 
+				consumedMovement="0" icon="Traits/Flyer">
+			<model>
+				<action	sound="Actions/ChaosEliteBuff"/>
+			</model>	
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/AdjacentFlyer"/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Flyer" duration="1"/>
+										<addTrait name="ChaosDaemons_MT/Flyer" duration="1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</infernalPower>
+		<hammerOfWrath consumedActionPoints="0" 
+				consumedMovement="0"
+				cooldown="3"
+				icon="Actions/HammerOfWrath"
+				name="ChaosDaemons_MT/HammerOfWrathUndivided"
+				useConditionsForVisiblity="1"
+				requiredUpgrade="ChaosDaemons_MT/HammerOfWrath">
+			<model>
+				<action sound="Actions/PsychicBuff"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/Undivided"/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/HammerOfWrath/Undivided" duration="1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</hammerOfWrath>
+		<useWeapon cooldown="3"
+				weaponSlotName="BetrayingShades"
+				psychicPower="1"
+				rank="-1"
+				rankMax="2">
+			<model>
+				<action	animation="Units/Reinforcements_MT/Belakor/Range"
+						beginFire="0.5"
+						endFire="1.5"/>
+			</model>
+			<modifiers>
+				<modifier>
+					<effects>
+						<additionalMembersHit addMin="0" addMax="4"/>
+					</effects>
+				</modifier>
+			</modifiers>	
+		</useWeapon>
+		<incursion cooldown="7"
+				levelUpPriority="0.9"
+				name="ChaosDaemons_MT/DaemonicReinforcements"
+				icon="Actions/ChaosSpaceMarines/Incursion"
+				rank="-1"
+				rankMax="2">
+			<model>
+				<action	animation="Units/Reinforcements_MT/Belakor/Range"
+						sound="Actions/ChaosEliteDebuff"/>
+			</model>
+			<modifiers>
+				<modifier visible="0">
+					<conditions>
+						<unit>
+							<trait name="ChaosDaemons_MT/Belakor/Tier3"/>
+						</unit>
+					</conditions>
+					<effects>
+						<cooldown add="-1"/>
+					</effects>
+				</modifier>
+				<modifier visible="0">
+					<conditions>
+						<unit>
+							<trait name="ChaosDaemons_MT/Belakor/Tier4"/>
+						</unit>
+					</conditions>
+					<effects>
+						<cooldown add="-1"/>
+					</effects>
+				</modifier>
+				<modifier visible="0">
+					<conditions>
+						<unit>
+							<trait name="ChaosDaemons_MT/Belakor/Tier6"/>
+						</unit>
+					</conditions>
+					<effects>
+						<cooldown add="-1"/>
+					</effects>
+				</modifier>
+				<modifier visible="0">
+					<conditions>
+						<unit>
+							<trait name="ChaosDaemons_MT/Belakor/Tier7"/>
+						</unit>
+					</conditions>
+					<effects>
+						<consumedActionPoints max="0"/>
+						<consumedMovement max="0"/>
+					</effects>
+				</modifier>
+				<modifier visible="0">
+					<conditions>
+						<unit>
+							<trait name="ChaosDaemons_MT/Belakor/Tier9"/>
+						</unit>
+					</conditions>
+					<effects>
+						<cooldown add="-1"/>
+					</effects>
+				</modifier>
+				<modifier visible="0">
+					<conditions>
+						<unit>
+							<trait name="ChaosDaemons_MT/Belakor/Tier10"/>
+						</unit>
+					</conditions>
+					<effects>
+						<cooldown add="-2"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<beginTargets>
+				<target rangeMax="1">
+					<conditions>
+						<tile>
+							<land/>
+							<noUnit/>
+							<noFeature name="GravityWaves"/>
+						</tile>
+					</conditions>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<randomEffects count="1">
+										<addUnit name="ChaosDaemons_MT/Bloodletter" consumedAction="0" consumedMovement="0"/>
+										<addUnit name="ChaosDaemons_MT/BlueHorror" consumedAction="0" consumedMovement="0"/>
+										<addUnit name="ChaosDaemons_MT/Daemonette" consumedAction="0" consumedMovement="0"/>
+										<addUnit name="ChaosDaemons_MT/Plaguebearer" consumedAction="0" consumedMovement="0"/>
+									</randomEffects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait durationMin="3" durationMax="7" name="Summon"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</incursion>
+		<genericUnitAbility name="ChaosDaemons_MT/DuskOfChaos"
+				icon="Traits/ChaosSpaceMarines/ChampionOfChaos"
+				passive="1"
+				rank="-1"
+				levelUpPriority="0.6"
+				rankMax="2">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radiusMin="2" radiusMax="4">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/ShadowOfChaos"/>
+										<addTrait name="ChaosSpaceMarines/PrinceOfChaos"/>
+										<addTrait name="Fear"/>
+									</effects>
+								</modifier>
+								<modifier visible="0">
+									<effects>
+										<addTrait name="ChaosDaemons_MT/ShadowOfChaosEnemy"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<genericUnitAbility name="ChaosDaemons_MT/ShadowLegion"
+				icon="Units/ChaosDaemons_MT/Belakor"
+				passive="1"
+				rank="-1"
+				elite="1"
+				levelUpPriority="1"
+				rankMax="0">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="100">
+							<modifiers>
+								<modifier viisble="0">
+									<effects>
+										<addTrait name="ChaosDaemons_MT/ShadowLegion/Undivided"/>
+										<addTrait name="ChaosDaemons_MT/ShadowLegion/Tzeentch"/>
+										<addTrait name="ChaosDaemons_MT/ShadowLegion/Slaanesh"/>
+										<addTrait name="ChaosDaemons_MT/ShadowLegion/Khorne"/>
+										<addTrait name="ChaosDaemons_MT/ShadowLegion/Nurgle"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<levelUp/>
+		<shop/>
+		<dimensionalCorridor cooldown="5"
+				name="ChaosDaemons_MT/WarpRiftTeleport"
+				requiredUpgrade="ChaosDaemons_MT/WarpRift"
+				icon="Actions/Necrons/GravityPulse">
+			<model>
+				<action sound="Actions/Teleport"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/WarpRift"/>
+				</unit>
+			</conditions>
+			<modifiers>
+				<modifier requiredUpgrade="ChaosDaemons_MT/WarpSurge">
+					<effects>
+						<consumedActionPoints max="0"/>
+						<consumedMovement max="0"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</dimensionalCorridor>
+	</actions>
+	<traits>
+		<trait name="Daemon"/>
+		<trait name="ChaosDaemons_MT/GreaterDaemon"/>
+		<trait name="ChaosDaemons_MT/Undivided"/>
+		<trait name="Fearless"/>
+		<trait name="Hero"/>
+		<trait name="MonstrousCreature"/>
+		<trait name="MoveThroughCover"/>
+		<trait name="Relentless"/>
+		<trait name="ChaosDaemons_MT/Belakor/Tier3"/>
+		<trait name="ChaosDaemons_MT/Belakor/Tier4"/>
+		<trait name="ChaosDaemons_MT/Belakor/Tier6"/>
+		<trait name="ChaosDaemons_MT/Belakor/Tier7"/>
+		<trait name="ChaosDaemons_MT/Belakor/Tier9"/>
+		<trait name="ChaosDaemons_MT/Belakor/Tier10"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Undivided"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Khorne"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Tzeentch"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Slaanesh"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Nurgle"/>
+		<trait name="Unique"/>
+		<trait name="ChaosDaemons_MT/AdjacentFlyer"/>
+		<trait name="ChaosDaemons_MT/WarpRift"/>
+		<trait name="Reinforcements_MT/MeleeHero"/>
+		<trait name="ChaosDaemons_MT/Belakor/Death"/>
+		<trait name="ChaosDaemons_MT/DaemonicResilience" requiredUpgrade="ChaosDaemons_MT/ExtraVehicleArmour"/>
+	</traits>
+</unit>

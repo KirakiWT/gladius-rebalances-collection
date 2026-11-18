@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Actions/Eldar/KhaineAwakened" rankMax="2">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<allied/>
+					<faction name="Eldar"/>
+				</unit>
+			</conditions>
+			<effects>
+				<meleeAttacks mulMin="0.08" mulMax="0.24" />
+				<meleeDamageReduction addMin="0.08" addMax="0.24"/>
+			
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon icon="Weapons/CroziusArcanum">
+	<model>
+		<weapon fireSound="Weapons/ControlStave"
+				fireSoundCount="1"/>
+	</model>
+	<traits>
+		<trait name="Melee"/>
+		<trait name="ChaosSpaceMarines/MeleeDamage" requiredUpgrade="ChaosDaemons_MT/MeleeDamage"/>
+	</traits>
+</weapon>
