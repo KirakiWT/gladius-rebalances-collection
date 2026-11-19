@@ -148,12 +148,12 @@ The main package is stored under:
 
 The faction-specific XML is organized by shared game-data category, rather than by 11 separate top-level mod folders. For example:
 
-- World/Buildings/<Faction>/
-- World/Traits/<Faction>/
-- World/Units/<Faction>/
-- World/Upgrades/<Faction>/
-- World/Factions/<Faction>.xml
-- World/Cities/<Faction>.xml (where applicable)
+- World/Buildings/FactionName/
+- World/Traits/FactionName/
+- World/Units/FactionName/
+- World/Upgrades/FactionName/
+- World/Factions/FactionName.xml
+- World/Cities/FactionName.xml (where applicable)
 
 This shared World tree is a key reason a shallow root-level scan can miss the distribution of faction changes. The separate ORIGINAL VANILLA FILES folder provides Core and World reference data for comparisons.
 
