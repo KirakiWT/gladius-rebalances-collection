@@ -54,3 +54,8 @@ Load **Faction Reworks All-In-One** first and this add-on **below it**. The Worl
 This is a test build and has **not** been tested in-game. Confirm mesh compilation, animation playback, muzzle/bone names, animation event timings, production availability, texture appearance and localization in a local match. Core language `.xml.ext` support is less reliable than World `.xml.ext`; verify both English and Russian strings in-game.
 
 The game requires the Adepta Sororitas content that supplies the reused Saint Celestine icon (`Supplement11`).
+
+
+## Bone attachment references
+
+The custom model uses the supplied skeleton name `bip01 spine` for both death/blood and explosion effect anchors (`bloodBone` and `explosionsBone`). Gladius expects **bone names, not numeric bone IDs**, in these unit XML fields. The bolter `muzzleBone` is a separate barrel attachment and remains `Muzzle` pending an in-game check. Blender workflow and the distinction between mesh bone IDs and unit-level bone-name references are documented in [BLENDER_BONE_REFERENCES.md](BLENDER_BONE_REFERENCES.md).
