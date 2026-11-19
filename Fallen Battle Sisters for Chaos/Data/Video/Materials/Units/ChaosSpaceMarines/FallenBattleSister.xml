@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/ChaosSpaceMarines/FallenBattleSisterDiffuse"/>
+		<texture name="Units/ChaosSpaceMarines/FallenBattleSisterNormal"/>
+		<texture name="Units/ChaosSpaceMarines/FallenBattleSisterSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

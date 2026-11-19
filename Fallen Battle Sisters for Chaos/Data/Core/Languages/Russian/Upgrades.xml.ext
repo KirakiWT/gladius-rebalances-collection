@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="ChaosSpaceMarines/FallenBattleSister" value="Павшие Сёстры Битвы"/>
+	<entry name="ChaosSpaceMarines/FallenBattleSisterDescription" value="Открывает производство отряда Павших Сестёр Битвы."/>
+	<entry name="ChaosSpaceMarines/FallenBattleSisterFlavor" value="Осквернённые остатки Адепта Сороритас, теперь сражающиеся под знамёнами Хаоса."/>
+</language>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="ChaosSpaceMarines/FallenBattleSister" value="Павшие Сёстры Битвы"/>
+	<entry name="ChaosSpaceMarines/FallenBattleSisterDescription" value="Отряд из шести павших Сестёр Битвы. Вооружён болтерами и оружием ближнего боя."/>
+	<entry name="ChaosSpaceMarines/FallenBattleSisterFlavor" value="Когда-то они служили Императору, но теперь их вера обращена к Хаосу. Дисциплина и навыки обращения с болтером сохранились, однако бывшие сёстры теперь служат тёмным владыкам."/>
+</language>

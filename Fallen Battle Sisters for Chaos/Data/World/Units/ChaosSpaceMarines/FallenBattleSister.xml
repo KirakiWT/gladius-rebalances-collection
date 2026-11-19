@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit dlc="Supplement11">
+	<model>
+		<unit mesh="Units/ChaosSpaceMarines/FallenBattleSister"
+				material="Units/ChaosSpaceMarines/FallenBattleSister"
+				idleAnimation="Units/ChaosSpaceMarines/FallenBattleSisterIdle"
+				idleAnimationCount="1"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="0.9 0.9 0.9"
+				walker="1"/>
+	</model>
+	<group size="6" rowSize="3" memberDeltaX="80" memberDeltaY="64"/>
+	<weapons>
+		<weapon name="Boltgun">
+			<model>
+				<projectileWeapon muzzleBone="Muzzle"/>
+			</model>
+		</weapon>
+		<weapon name="CloseCombatWeapon">
+			<model>
+				<weapon fireInterval="0.5"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="8"/>
+				<hitpointsMax base="2.5"/>
+				<meleeAccuracy base="6"/>
+				<meleeAttacks base="1.5"/>
+				<strengthDamage base="1"/>
+				<moraleMax base="8"/>
+				<movementMax base="3"/>
+				<productionCost base="36.0"/>
+				<rangedAccuracy base="8"/>
+				<foodUpkeep base="2.0"/>
+				<foodCost base="20.0"/>
+				<oreCost base="20.0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseInfantryScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action animation="Units/ChaosSpaceMarines/FallenBattleSisterAttack"
+						beginFire="0.67"
+						endFire="1.97"
+						meleeAnimation="Units/ChaosSpaceMarines/FallenBattleSisterMelee"
+						meleeBeginSwing="0.2"
+						meleeEndSwing="0.9"/>
+			</model>
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/ChaosSpaceMarines/FallenBattleSisterDie"
+						sound="Units/MediumArmoredDie"
+						soundCount="4"
+						soundDelay="0.5"
+						voiceSound="Units/SistersOfBattle/InfantryDie"
+						voiceSoundCount="5"/>
+			</model>
+		</die>
+		<idle>
+			<model>
+				<action/>
+			</model>
+		</idle>
+		<move>
+			<model>
+				<action animation="Units/ChaosSpaceMarines/FallenBattleSisterMove"
+						sound="Units/SistersOfBattle/InfantryMove"
+						soundCount="3"/>
+			</model>
+		</move>
+	</actions>
+</unit>

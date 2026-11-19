@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="ChaosSpaceMarines/FallenBattleSister" value="Fallen Battle Sisters"/>
+	<entry name="ChaosSpaceMarines/FallenBattleSisterDescription" value="Unlocks production of Fallen Battle Sisters."/>
+	<entry name="ChaosSpaceMarines/FallenBattleSisterFlavor" value="A corrupted remnant of the Adepta Sororitas, now fighting beneath the banners of Chaos."/>
+</language>
