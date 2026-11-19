@@ -1,87 +1,91 @@
-# Warhammer 40,000: Gladius — Faction Rebalances Collection
+# Warhammer 40,000: Gladius — Global Faction Reworks
 
-A collection of large-scale faction reworks and balance changes for **Warhammer 40,000: Gladius – Relics of War**.
+A comprehensive faction overhaul and balance collection for **Warhammer 40,000: Gladius – Relics of War**.
 
-The project aims to revisit the game's factions as a whole: their rosters, unit roles, faction mechanics, progression, and balance. The goal is to make the factions feel more deliberately designed while preserving what makes each of them distinct.
+This project is **not a Necron-only rebalance**. Its main All-In-One package contains faction-specific gameplay data for all 11 standard playable factions in the original rework collection. The goal is to make unit roles clearer, improve roster and technology progression, revisit faction economies and buildings, and strengthen each faction's defining mechanics without erasing its identity.
 
-> **Note:** This repository is a collection of mod data and reference files. It is not a single standalone mod package. The exact scope and implementation status of individual faction changes may vary; consult the files and design notes before assuming that every planned change is complete.
+For a detailed, AI-oriented record of the design intent, faction-by-faction changes, global rules and repository structure, see **[PROJECT_CONTEXT.md](PROJECT_CONTEXT.md)**.
+
+## Scope of the rework
+
+All 11 core factions receive substantial changes to rosters, Heroes, buildings, technologies, economy or faction mechanics. The highlights below are an overview; consult [PROJECT_CONTEXT.md](PROJECT_CONTEXT.md) and the linked original Workshop notes for the fuller summaries.
+
+| Faction | Main rework themes |
+|---|---|
+| Space Marines | Reworked roster and Heroes, expanded doctrine system, Fortress of Redemption economy, buildings and early Drop Pod access |
+| Adeptus Mechanicus | Reworked Litanies and Imperatives, city economy, roster and tech tree; Cinderfang and Voidshield Bastion |
+| Astra Militarum | Reworked production paths, tech tree, squad progression and Heroes; grenade launchers, medikits and anti-tank options |
+| T'au | Reworked drones and their cooldowns, expanded Battlesuit support systems to vehicles and aircraft, stronger early game |
+| Adepta Sororitas | Reworked infantry, Heroes, Sacred Rites and Acts of Faith; Tech-Priest and Strongpoint of Faith |
+| Chaos Space Marines | Reworked Chaos Marks with trade-offs, faction powers, city buffs, tech path and Hero/building distribution; Exalted Poxwalkers |
+| Craftworld Aeldari | Influence-driven Asuryani Paths, city specialization, Webway infrastructure, Wraith production and the Avatar as a Hero |
+| Drukhari | Influence-based instant recruitment/construction, three Combat Drugs, revised outpost economy and reduced snowball mechanics |
+| Necrons | Reworked Ore/Energy economy, production routes, Rapid Rise, Necrodermis Repair, Heroes, Canoptek units and fortifications |
+| Orks | More distinct unit roles, streamlined production buildings, revised resource paths, Heroes and stronger late-game options |
+| Tyranids | Bio-Adaptations for unit customization, early tunnelling, specialized production buildings, roster and Hero changes |
+
+### Global gameplay changes
+
+The original All-In-One description also documents shared rules affecting multiple factions:
+
+- River tiles provide +20% Energy and +20% Food, but reduce city building slots by 1.
+- Healing is increased to 20% per turn on Outpost tiles and 25% per turn on City tiles.
+- Pinned no longer increases the target's ranged damage reduction.
+- Skyfire applies to Air Units, Skimmers and Jetpack Units, with 33% more damage against those types and 33% less against ground units.
+- Soulblaze and other damage-over-time effects last 2 turns instead of 1.
+- Grenades for almost all factions ignore cover by default, have fixed 50% accuracy and cannot benefit from accuracy modifiers.
+
+The original package description also includes two neutral-enemy reworks. More detail, source links and interpretation notes are kept in [PROJECT_CONTEXT.md](PROJECT_CONTEXT.md).
 
 ## Repository contents
 
 ### 1. Faction Reworks All-In-One — Eradication Integrated
 
-Directory: `Faction Reworks All-In-One Eradication Integrated/`
+Directory: Faction Reworks All-In-One Eradication Integrated/
 
-The main integrated package. Its game-data structure includes faction-specific content for all 11 standard playable factions represented in the project:
+The main integrated package. Its Data tree contains faction-specific Buildings, Traits, Units and Upgrades, plus shared weapons, language files, audio, textures, meshes, animations and other game data.
 
-- Adeptus Mechanicus
-- Astra Militarum
-- Chaos Space Marines
-- Drukhari
-- Eldar
-- Necrons
-- Orks
-- Sisters of Battle
-- Space Marines
-- T'au
-- Tyranids
+The repository includes a detailed [Necron design document](Faction%20Reworks%20All-In-One%20Eradication%20Integrated/design_document.txt). This is the most extensive faction-specific design document currently stored inside the All-In-One folder, **not the complete specification of the project**. The other factions also have major reworks documented in their original Workshop descriptions; see [PROJECT_CONTEXT.md](PROJECT_CONTEXT.md).
 
-The package contains game data for buildings, units, traits, upgrades, weapons, factions and related systems, alongside supporting audio, textures, meshes and animations. It also includes a preview image and a design document.
-
-#### Necron Major Rework — design document overview
-
-The included [`design_document.txt`](Faction%20Reworks%20All-In-One%20Eradication%20Integrated/design_document.txt) outlines a broad Necron rework. Its stated design goal is to preserve the faction's strength while reducing its reliance on the Summoning Core and encouraging more varied building and economy choices.
-
-The document describes the following changes:
-
-- **Economy and production:** Ore and Energy gain more distinct roles. Buildings use both resources; infantry primarily uses Energy; vehicles use Ore; and flyers, heroes and monsters use both. Monster production moves to the Royal Pyramid, while Canoptek Spyders can be produced by either the Headquarters or the Hero building.
-- **City expansion and support units:** Canoptek Reanimators become city founders and gain the ability to summon Scarab Hives. They are positioned as infantry support, while Canoptek Spyders fill a vehicle-support role.
-- **Early-game pacing:** Rapid Rise becomes substantially more expensive before its related technology is researched, with its cost reduced after unlocking that technology. The stated aim is to curb very early building and city rushing.
-- **Repair and fortification:** Necrodermis Repair costs are differentiated by unit class, with infantry cheapest, vehicles and monsters in the middle, and heroes most expensive. A new **Small Gauss Pylon** is introduced as a midgame fortification focused on flyers and skimmers, buildable by Canoptek Spyders.
-- **Heroes:** The Necron Lord moves to the Summoning Core and gains a 2-range attack, a unit-catching ability and a nearby-unit buff. The Cryptek becomes the default Hero-building hero; the Destroyer Lord and Transcendent C'tan also receive adjustments, including a T6 profile and stronger melee for the C'tan.
-- **Infantry:** Infantry shifts to Energy costs and upkeep. Deathmarks gain a 4-tile Scout reveal and Warrior-level armour; Heavy Destroyers receive a damage increase; and Triarch Praetorians become faster T4 infantry with high-penetration melee and ranged attacks and 2-range shooting.
-- **Monsters and vehicles:** Canoptek unit roles and production are revised. Tomb Blades are strengthened, Triarch Stalker weapon options are adjusted, Ghost Arks become cheaper but less durable and require transported units to use their weapon array, and the Doomsday Ark gains damage and an anti-vehicle/monster bonus on its main weapon.
-
-This is a summary of the **design document's stated scope**, not a guarantee that every listed change has been independently verified in the current in-game build. The source document is the reference for the detailed unit-by-unit notes.
-
-Steam Workshop ID recorded in `SteamID.txt`: **3841700987**  
+Steam Workshop ID recorded in SteamID.txt: **3841700987**  
 [Open the All-In-One Workshop item](https://steamcommunity.com/sharedfiles/filedetails/?id=3841700987)
 
 ### 2. Chaos Daemons Faction — FRAIO Integration
 
-Directory: `Chaos Demons Faction [FRAIO Integration]/`
+Directory: Chaos Demons Faction [FRAIO Integration]/
 
-A separate Chaos Daemons faction package marked as an integration with the All-In-One collection. It contains its own game data, including faction, unit, building, trait, upgrade and weapon definitions, as well as supporting scene assets, textures, meshes and animations.
+A separate Chaos Daemons faction package marked as an integration with the All-In-One collection. It contains its own faction, unit, building, trait, upgrade and weapon data, along with supporting scene assets, textures, meshes and animations.
 
-The directory also includes a preview image and its own `SteamID.txt`.
+**Important distinction:** Chaos Space Marines are one of the 11 factions in the core rework. Chaos Daemons are maintained separately in this FRAIO integration package.
 
-Steam Workshop ID recorded in `SteamID.txt`: **3773456041**  
+Steam Workshop ID recorded in SteamID.txt: **3773456041**  
 [Open the Chaos Daemons Workshop item](https://steamcommunity.com/sharedfiles/filedetails/?id=3773456041)
 
 ### 3. Original vanilla files
 
-Directory: `ORIGINAL VANILLA FILES/`
+Directory: ORIGINAL VANILLA FILES/
 
-Contains the game's original `Core` and `World` data trees. These files are kept as a reference for comparing modded content against the vanilla game.
+Contains the original Core and World data trees. These files are reference material for comparing modded content against the vanilla game; they are not another mod package.
 
-This folder is reference material, not an additional faction rework. Take care not to overwrite modded files with vanilla copies when installing or updating content.
+Do not overwrite the integrated mod files with vanilla copies when installing or updating content.
 
 ## Using the mods
 
-For the Steam version, open the corresponding Workshop pages above and subscribe to the items you want to use. Enable the subscribed content in the game's mod manager before starting a match.
+For the Steam version, open the corresponding Workshop pages and subscribe to the items you want to use. Enable the subscribed content in the game's mod manager before starting a match.
 
-The repository also preserves the underlying mod data for inspection, comparison and development. The folder names and internal directory structure are kept intact to make it easier to identify which files belong to each package.
+The repository also preserves the underlying mod data for inspection, comparison and development. The folder hierarchy is kept intact so that faction-specific and shared game data can be traced.
 
-## Project notes
+## Project documentation
 
-- The All-In-One package and the Chaos Daemons integration are stored as separate directories.
-- The vanilla data is provided separately for reference.
-- The Necron design document is the currently included faction-specific design document; it should not be treated as a complete changelog for every faction.
-- Game version compatibility, a complete per-faction change list and a formal release history are not yet documented here. Check the associated Workshop pages and repository updates for the latest information.
+- **[PROJECT_CONTEXT.md](PROJECT_CONTEXT.md)** — project-wide design philosophy, all 11 faction summaries, global mechanics, neutral packs, original Workshop sources, data layout and a vanilla comparison snapshot.
+- **[Necron design document](Faction%20Reworks%20All-In-One%20Eradication%20Integrated/design_document.txt)** — detailed Necron-specific design notes.
+- **[Original vanilla files](ORIGINAL%20VANILLA%20FILES/)** — reference data for comparison.
+
+When documenting or changing a faction, use the original Workshop notes for design intent and inspect the current integrated XML/assets to verify implementation details. The Necron document must not be treated as evidence that other factions are unchanged.
 
 ## Feedback and contributions
 
-Suggestions, balance feedback, bug reports and improvement proposals are welcome. When reporting an issue, please include the affected faction, unit or mechanic, the mod package you are using, and any relevant reproduction details.
+Suggestions, balance feedback, bug reports and improvement proposals are welcome. When reporting an issue, include the affected faction, unit or mechanic, the mod package you are using, and any reproduction details.
 
 ---
 
