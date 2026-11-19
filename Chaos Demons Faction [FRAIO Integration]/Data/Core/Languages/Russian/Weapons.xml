@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="ChaosDaemons_MT/RancidVisitations" value="Прогорклые посещения"/>
+	<entry name="ChaosDaemons_MT/Marotter" value="Гнилостная выдра"/>
+	<entry name="ChaosDaemons_MT/GiftOfDisease" value="Дар болезни"/>
+	<entry name="ChaosDaemons_MT/BladeOfBlood" value="Клинок крови"/>
+	<entry name="ChaosDaemons_MT/ArcaneFireball" value="Мистический огненный шар"/>
+	<entry name="ChaosDaemons_MT/InfernalGateway" value="Адский портал"/>
+	<entry name="ChaosDaemons_MT/BoltOfTzeentch" value="Молния Тзинча"/>
+	<entry name="ChaosDaemons_MT/ScreamingMelody" value="Кричащая мелодия"/>
+	<entry name="ChaosDaemons_MT/VileLaugh" value="Гнусный смех"/>
+	<entry name="ChaosDaemons_MT/AlluringBlade" value="Очаровательный клинок"/>
+	<entry name="ChaosDaemons_MT/AxeOfKhorne" value="Топор Корна"/>
+	<entry name="ChaosDaemons_MT/AxeThrow" value="Топор Корна (Метание)"/>
+	<entry name="ChaosDaemons_MT/BetrayingShades" value="Предательские тени"/>
+	<entry name="ChaosDaemons_MT/Bilesword" value="Гнойный меч"/>
+	<entry name="ChaosDaemons_MT/BitingMaw" value="Кусачая пасть"/>
+	<entry name="ChaosDaemons_MT/BladedHorn" value="Острый рог"/>
+	<entry name="ChaosDaemons_MT/BladeOfShadows" value="Клинок теней"/>
+	<entry name="ChaosDaemons_MT/BoltOfChange" value="Молния перемен"/>
+	<entry name="ChaosDaemons_MT/CacophonicVoice" value="Какофонический хор"/>
+	<entry name="ChaosDaemons_MT/Chainsword" value="Цепной меч"/>
+	<entry name="ChaosDaemons_MT/CoruscatingBlueFlames" value="Мерцающие синие языки пламени"/>
+	<entry name="ChaosDaemons_MT/DaemonbreathSpear" value="Копьё демонического дыхания"/>
+	<entry name="ChaosDaemons_MT/DaemoniTerror" value="Демонический ужас"/>
+	<entry name="ChaosDaemons_MT/DeathsHead" value="Голова смерти"/>
+	<entry name="ChaosDaemons_MT/FireOfTzeentchBlue" value="Огонь Тзинча (Синий)"/>
+	<entry name="ChaosDaemons_MT/FireOfTzeentchPink" value="Огонь Тзинча (Розовый)"/>
+	<entry name="ChaosDaemons_MT/FlickeringFlames" value="Мерцающее пламя"/>
+	<entry name="ChaosDaemons_MT/Hellblade" value="Адский клинок"/>
+	<entry name="ChaosDaemons_MT/HellfireBreath" value="Дыхание адского огня"/>
+	<entry name="ChaosDaemons_MT/EyeOfTzeentch" value="Око Тзинча"/>
+	<entry name="ChaosDaemons_MT/IronClaw" value="Железная клешня"/>
+	<entry name="ChaosDaemons_MT/LaserDestructor" value="Лазерный разрушитель"/>
+	<entry name="ChaosDaemons_MT/LashingTounge" value="Хлещущий язык"/>
+	<entry name="ChaosDaemons_MT/Lightningcannon" value="Молниеносная пушка"/>
+	<entry name="ChaosDaemons_MT/Phantasmagoria" value="Фантасмагория"/>
+	<entry name="ChaosDaemons_MT/PhlegmBombardment" value="Флегматичная бомбардировка"/>
+	<entry name="ChaosDaemons_MT/Plaguebombardment" value="Чумная бомбардировка"/>
+	<entry name="ChaosDaemons_MT/Plaguesword" value="Чумной клинок"/>
+	<entry name="ChaosDaemons_MT/PutridVomit" value="Гнилостная рвота"/>
+	<entry name="ChaosDaemons_MT/RageUnchained" value="Ярость безудержная"/>
+	<entry name="ChaosDaemons_MT/ReaperChaintalon" value="Коса-цепной коготь"/>
+	<entry name="ChaosDaemons_MT/ScreamerBite" value="Укус Визжащего"/>
+	<entry name="ChaosDaemons_MT/ShrivellingPox" value="Усыхающая оспа"/>
+	<entry name="ChaosDaemons_MT/Skullcannon" value="Черепная пушка"/>
+	<entry name="ChaosDaemons_MT/SnappingClaws" value="Щёлкающие когти"/>
+	<entry name="ChaosDaemons_MT/SoulBlaze" value="Возгорание души"/>
+	<entry name="ChaosDaemons_MT/StaffOfTzeentch" value="Посох Тзинча"/>
+	<entry name="ChaosDaemons_MT/VileVomit" value="Гнусная рвота"/>
+	<entry name="ChaosDaemons_MT/Warpbarrage" value="Варп-залп"/>
+	<entry name="ChaosDaemons_MT/Warpfire" value="Варп-огонь"/>
+	<entry name="ChaosDaemons_MT/Warpgaze" value="Варп-взор"/>
+	<entry name="ChaosDaemons_MT/WarpStrikeClaw" value="Коготь варп-удара"/>
+	<entry name="ChaosDaemons_MT/Warpsword" value="Варп-меч"/>
+	<entry name="ChaosDaemons_MT/WitstealerSword" value="Клинок, похищающий разум"/>
+</language>

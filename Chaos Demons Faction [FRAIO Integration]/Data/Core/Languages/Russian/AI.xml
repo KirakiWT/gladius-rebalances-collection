@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="ChaosDaemons_MT0" value="Луций"/>
+	<entry name="ChaosDaemons_MT1" value="Хорус"/>
+	<entry name="ChaosDaemons_MT2" value="Валериан"/>
+	<entry name="ChaosDaemons_MT3" value="Агриппа"/>
+	<entry name="ChaosDaemons_MT4" value="Морбус"/>
+	<entry name="ChaosDaemons_MT5" value="Канкер"/>
+	<entry name="ChaosDaemons_MT6" value="Оотисмос"/>
+	<entry name="ChaosDaemons_MT7" value="Филакс"/>
+	<entry name="ChaosDaemons_MT8" value="Пугна"/>
+	<entry name="ChaosDaemons_MT9" value="Рудис"/>
+	<entry name="ChaosDaemons_MT10" value="Сальпинкс"/>
+	<entry name="ChaosDaemons_MT11" value="Таблифус"/>
+	<entry name="ChaosDaemons_MT12" value="Иовариан"/>
+	<entry name="ChaosDaemons_MT13" value="Копис"/>
+	<entry name="ChaosDaemons_MT14" value="Драконис"/>
+	<entry name="ChaosDaemons_MT15" value="Папилус"/>
+	<entry name="ChaosDaemons_MT16" value="Румпенс"/>
+	<entry name="ChaosDaemons_MT17" value="Энгрон"/>
+	<entry name="ChaosDaemons_MT18" value="Либидус"/>
+	<entry name="ChaosDaemons_MT19" value="Артифицион"/>
+	<entry name="ChaosDaemons_MTCount" value="20"/>
+</language>

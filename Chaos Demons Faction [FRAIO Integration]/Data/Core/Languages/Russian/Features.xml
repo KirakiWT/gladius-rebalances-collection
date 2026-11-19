@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="ChaosDaemons_MT/InfernalGateway" value="<string name='Traits/ChaosDaemons_MT/InfernalGateway'/>"/>
+	<entry name="ChaosDaemons_MT/InfernalGatewayDescription" value="<string name='Traits/ChaosDaemons_MT/InfernalGatewayDescription'/>"/>
+	<entry name="ChaosDaemons_MT/InfernalGatewayFlavor" value="<string name='Traits/ChaosDaemons_MT/InfernalGatewayFlavor'/>"/>
+	<entry name="ChaosDaemons_MTCityDescription" value="<string name='Features/ChaosSpaceMarinesCityDescription'/>"/>
+	<entry name="ChaosDaemons_MTCityFlavor" value="<string name='Features/ChaosSpaceMarinesCityFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/ShadowOfChaos" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaos'/>"/>
+	<entry name="ChaosDaemons_MT/ShadowOfChaosDescription" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosDescription'/>"/>
+	<entry name="ChaosDaemons_MT/ShadowOfChaosFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/WreathedInShades" value="<string name='Traits/ChaosDaemons_MT/WreathedInShades'/>"/>
+	<entry name="ChaosDaemons_MT/WreathedInShadesDescription" value="<string name='Traits/ChaosDaemons_MT/WreathedInShadesDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WreathedInShadesFlavor" value="<string name='Traits/ChaosDaemons_MT/WreathedInShadesFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/SmokeScreen/Khorne" value="<string name='Traits/SmokeScreen'/>"/>
+	<entry name="ChaosDaemons_MT/SmokeScreen/KhorneDescription" value="<string name='Traits/SmokeScreenDescription'/>"/>
+	<entry name="ChaosDaemons_MT/SmokeScreen/KhorneFlavor" value="<string name='Traits/SmokeScreenFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/SmokeScreen/Nurgle" value="<string name='Traits/SmokeScreen'/>"/>
+	<entry name="ChaosDaemons_MT/SmokeScreen/NurgleDescription" value="<string name='Traits/SmokeScreenDescription'/>"/>
+	<entry name="ChaosDaemons_MT/SmokeScreen/NurgleFlavor" value="<string name='Traits/SmokeScreenFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/SmokeScreen/Tzeentch" value="<string name='Traits/SmokeScreen'/>"/>
+	<entry name="ChaosDaemons_MT/SmokeScreen/TzeentchDescription" value="<string name='Traits/SmokeScreenDescription'/>"/>
+	<entry name="ChaosDaemons_MT/SmokeScreen/TzeentchFlavor" value="<string name='Traits/SmokeScreenFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/SmokeScreen/Slaanesh" value="<string name='Traits/SmokeScreen'/>"/>
+	<entry name="ChaosDaemons_MT/SmokeScreen/SlaaneshDescription" value="<string name='Traits/SmokeScreenDescription'/>"/>
+	<entry name="ChaosDaemons_MT/SmokeScreen/SlaaneshFlavor" value="<string name='Traits/SmokeScreenFlavor'/>"/>
+	<entry name="ChaosDaemons_MTCity" value="Город демонов Хаоса"/>
+</language>

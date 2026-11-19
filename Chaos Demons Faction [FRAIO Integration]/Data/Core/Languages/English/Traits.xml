@@ -404,4 +404,7 @@
 	<entry name="ChaosDaemons_MT/TzeentchAscension2" value="Master of Fate"/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="+75% hitpoints, +1 armor and +35% damage. +17% damage reduction and each kill yields 3 Research."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
+	<entry name="ChaosDaemons_MT/FesteringBulk" value="Festering Bulk"/>
+	<entry name="ChaosDaemons_MT/FesteringBulkDescription" value="Takes 120% more damage."/>
+	<entry name="ChaosDaemons_MT/FesteringBulkFlavor" value="Its vast, rotting body offers more to hit than any warrior could hope to guard."/>
 </language>

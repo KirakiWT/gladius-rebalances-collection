@@ -323,6 +323,7 @@
 		<trait name="Smash"/>
 		<trait name="Hero"/>
 		<trait name="ChaosDaemons_MT/Nurgle"/>
+		<trait name="ChaosDaemons_MT/FesteringBulk"/>
 		<trait name="ChaosDaemons_MT/NurgleAscension1" requiredUpgrade="ChaosDaemons_MT/NurgleAscension1"/>
 		<trait name="ChaosDaemons_MT/NurgleAscension2" requiredUpgrade="ChaosDaemons_MT/NurgleAscension2"/>
 		<trait name="Regeneration"/>

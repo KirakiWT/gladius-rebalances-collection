@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="StrengthDamage" value="Урон"/>
+	<entry name="StrengthDamageIcon" value="&lt;icon height='20' texture='Icons/Attributes/Damage'/&gt;"/>
+	<entry name="PreventEnemyOverwatch" value="Игнорирует дозор врага"/>
+	<entry name="MeleeOverwatch" value="Дозор в ближнем бою"/>
+	<entry name="IgnoreZoneOfControl" value="Игнорирует зону контроля"/>
+	<entry name="MeleeInitiative" value="Инициатива в ближнем бою"/>
+</language>

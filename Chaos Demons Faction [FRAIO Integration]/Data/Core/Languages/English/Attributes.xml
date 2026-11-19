@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="StrengthDamage" value="Damage"/>
+	<entry name="StrengthDamageIcon" value="<icon height='20' texture='Icons/Attributes/Damage'/>"/>
+	<entry name="PreventEnemyOverwatch" value="Prevents Enemy Overwatch"/>
+	<entry name="MeleeOverwatch" value="Melee Overwatch"/>
+	<entry name="IgnoreZoneOfControl" value="Ignores Zone of Control"/>
+	<entry name="MeleeInitiative" value="Melee Initiative"/>
+</language>
