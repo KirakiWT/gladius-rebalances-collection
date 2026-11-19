@@ -67,3 +67,7 @@ The five animation files are intentionally stored as **Proxy Studios source XML*
 The in-game unit XML references animation resource stems (without either `.xml` or `.anm` extension). The exact file-to-reference mapping and the comparison with the precompiled `.anm` assets used by the repository's Chaos Demons mod are documented in [ANIMATION_FORMAT_AND_PATHS.md](ANIMATION_FORMAT_AND_PATHS.md).
 
 One timing item remains for in-game/Blender review: the bolter clip reports 17 frames at 24 fps, while the unit currently uses `beginFire="0.67"` and `endFire="1.97"`. Do not assume this window matches the clip duration; scrub the exported attack animation and tune the firing window only after checking the visible muzzle/projectile timing.
+
+## Latest startup log finding
+
+The 2026-11-19 startup log reports a fatal engine assertion `frameRate == 30` for all five Fallen Battle Sister animation clips. Their current source XML headers use 24 fps. Re-export all five animations from Blender with the Proxy Studios exporter at 30 fps, preserving intended clip duration; do not just rename XML to ANM or blindly change the header. See [ANIMATION_FORMAT_AND_PATHS.md](ANIMATION_FORMAT_AND_PATHS.md) for the log diagnosis and safe re-export checklist. The required All-In-One dependency was disabled in the reported run and should be enabled above this add-on during testing.
