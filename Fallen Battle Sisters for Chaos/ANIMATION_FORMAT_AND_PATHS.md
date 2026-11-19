@@ -91,3 +91,30 @@ Gladius documentation describes `beginFire` / `endFire` as controlling when proj
 - Blender Import & Export — official exporter and import tool format support: https://modtools.toffster.dev/tools/gladius-blender-import
 - Chaos Demons Be'lakor unit definition in this repository: https://github.com/KirakiWT/gladius-rebalances-collection/blob/main/Chaos%20Demons%20Faction%20%5BFRAIO%20Integration%5D/Data/World/Units/ChaosDaemons_MT/Belakor.xml
 - Chaos Demons Be'lakor compiled animations in this repository: https://github.com/KirakiWT/gladius-rebalances-collection/tree/main/Chaos%20Demons%20Faction%20%5BFRAIO%20Integration%5D/Data/Video/Animations/Units/Reinforcements_MT/Belakor
+
+## Fatal startup crash found in logs (2026-11-19)
+
+The new `Gladius.error.log` identifies the fatal error during `Loading animations ...`:
+
+```
+Animation.cpp:150
+Assertion "frameRate == 30" failed
+```
+
+The engine names all five custom clips as failures:
+
+- `FallenBattleSisterAttack`
+- `FallenBattleSisterMove`
+- `FallenBattleSisterDie`
+- `FallenBattleSisterMelee`
+- `FallenBattleSisterIdle`
+
+The corresponding source XML files in this add-on currently declare `frameRate="24"`. The mesh/material/animation resource paths resolve to the files that exist; the fatal assertion is the animation frame-rate check, not a missing `.anm` extension or a bad folder path.
+
+**Required correction:** re-export all five clips through the Proxy Studios Animation exporter at 30 fps. In Blender, set Output Properties → Format → Frame Rate to 30 fps (FPS Base 1.0), verify the animation range, export each clip again, and confirm every output header says `frameRate="30"`. Keep the files as XML; Gladius compiles them to `.anm` at runtime.
+
+**Timing caution:** merely changing the XML header from 24 to 30 is not a safe final fix. It makes the same frame samples play at a shorter duration. Since these clips are currently authored/exported at 24 fps, preserve their real-time duration when converting/resampling them to 30 fps. Re-sample the animated pose over time or retime the keyframe sequence appropriately before export, then review playback and the `beginFire` / `endFire` window in game. The existing bolter clip has 17 frames at 24 fps, so its fire window should be revisited after a correctly timed 30 fps export.
+
+**Additional log context:** the dependency mod `Faction Reworks All-In-One Eradication Integrated` is listed under Disabled for this run, even though the Fallen Battle Sisters add-on expects it. Enable All-In-One above this add-on for integration testing. The fallback-icon warnings are secondary to the fatal animation assertion. The `Marked content corrupt` line appears after the crash and is a consequence of the crash-handling configuration, not its root cause.
+
+No animation or mesh asset files were modified by this log review.
