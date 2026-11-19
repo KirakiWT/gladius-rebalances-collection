@@ -15,13 +15,13 @@ explosionsBone="bip01 spine"
 
 The previous `bloodBone="Chest"` came from the Sisters template and did not match the custom Dawn of War-derived skeleton name supplied for this model. These two attributes now use the custom skeleton's `bip01 spine` name.
 
-The bolter projectile effect is a separate attachment and remains:
+The bolter projectile effect is a separate attachment and uses the custom model marker:
 
 ```xml
-<projectileWeapon muzzleBone="Muzzle"/>
+<projectileWeapon muzzleBone="marker_fx_bolter_01_fire"/>
 ```
 
-Do not change `muzzleBone` to the spine just to satisfy the death-effect anchor: a muzzle point should be at the weapon barrel, otherwise the firing flash/projectile will originate from the torso. The current `Muzzle` reference still needs a separate in-game check against the custom model's skeleton.
+This is the supplied skeleton marker for the bolter firing effect. Do not change `muzzleBone` to the spine just to satisfy the death-effect anchor: the shot and muzzle flash must originate at the bolter barrel.
 
 ## Bone name or numeric ID?
 
@@ -54,5 +54,5 @@ The separate community **Gladius Import** add-on has its import controls in the 
 
 - Confirm the exact bone spelling/case in the custom exported skeleton. This project intentionally avoids statically inspecting the very large mesh XML; the final confirmation is in Blender or in-game.
 - Confirm that death blood/explosion effects originate around the upper torso with `bip01 spine`.
-- Confirm the bolter muzzle effect. If the custom skeleton has no bone named `Muzzle`, identify the actual barrel/helper bone in Blender and change only `muzzleBone` to that exact name.
+- Confirm the bolter muzzle effect using `marker_fx_bolter_01_fire`. If the muzzle flash/projectile is offset, inspect this marker position in Blender; keep `muzzleBone` tied to the marker rather than the spine.
 - Do not rename or rebuild the Dawn of War skeleton merely to match the vanilla Sisters names; keep animation bone names consistent across mesh and all animation exports.
