@@ -8,7 +8,7 @@
 				idleContinuously="1"
 				normalWeight="0.1"
 				scale="0.9 0.9 0.9"
-				bloodBone="sync_kill_4_marker"
+				bloodBone="bip01 spine1"
 				explosionsBone="bip01 spine1"
 				walker="1"/>
 	</model>
@@ -16,7 +16,7 @@
 	<weapons>
 		<weapon name="Boltgun">
 			<model>
-				<projectileWeapon muzzleBone="marker_fx_bolter_01_fire"/>
+				<projectileWeapon muzzleBone="bip01 r hand"/>
 			</model>
 		</weapon>
 		<weapon name="CloseCombatWeapon">
