@@ -7,7 +7,7 @@
 	<modifiers>
 		<modifier>
 			<effects>
-				<meleeAttacks add="0.5" mul="2"/>
+				<meleeAttacks base="2"/>
 				<meleeArmorPenetration add="8"/>
 				<meleeDamage add="2"/>
 			</effects>
