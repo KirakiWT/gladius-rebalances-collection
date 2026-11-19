@@ -118,3 +118,19 @@ The corresponding source XML files in this add-on currently declare `frameRate="
 **Additional log context:** the dependency mod `Faction Reworks All-In-One Eradication Integrated` is listed under Disabled for this run, even though the Fallen Battle Sisters add-on expects it. Enable All-In-One above this add-on for integration testing. The fallback-icon warnings are secondary to the fatal animation assertion. The `Marked content corrupt` line appears after the crash and is a consequence of the crash-handling configuration, not its root cause.
 
 No animation or mesh asset files were modified by this log review.
+
+
+## Follow-up runtime spawn failure (2026-11-19)
+
+The latest debug spawn reaches unit construction and fails at:
+
+```
+Blood.cpp:26
+Assertion "boneID != -1" failed
+```
+
+The unit XML had `bloodBone="bip01 spine"`. The supplied animation exports contain `bip01 spine1` as a named bone (bone ID 29), while the exact `bip01 spine` string is not present in those animation exports. The unit XML now uses `bip01 spine1` for both `bloodBone` and `explosionsBone`. This is grounded in the exported animation skeleton, but the next in-game spawn must confirm that the mesh resolves this name.
+
+The same log shows **Faction Reworks All-In-One Eradication Integrated** disabled and the Fallen Battle Sisters add-on enabled. Enable All-In-One above this add-on so its Abominator's Genelab integration is active.
+
+The log also records non-fatal missing resource warnings for the unit icon and the three runtime DDS textures (Diffuse, Normal, SIC). These are separate from the fatal `Blood.cpp` assertion.
