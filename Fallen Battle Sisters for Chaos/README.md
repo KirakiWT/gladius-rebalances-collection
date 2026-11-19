@@ -59,3 +59,11 @@ The game requires the Adepta Sororitas content that supplies the reused Saint Ce
 ## Bone attachment references
 
 The custom model uses the supplied skeleton name `bip01 spine` for both death/blood and explosion effect anchors (`bloodBone` and `explosionsBone`). Gladius expects **bone names, not numeric bone IDs**, in these unit XML fields. The bolter `muzzleBone` uses the custom skeleton marker `marker_fx_bolter_01_fire`. Blender workflow and the distinction between mesh bone IDs and unit-level bone-name references are documented in [BLENDER_BONE_REFERENCES.md](BLENDER_BONE_REFERENCES.md).
+
+## Animation file format and path resolution
+
+The five animation files are intentionally stored as **Proxy Studios source XML** under `Data/Video/Animations/Units/ChaosSpaceMarines/`. This is the editable export format produced by the official Blender exporter. Gladius compiles animation XML into encrypted runtime `.anm` data when the game loads the mod. Do **not** rename these XML source files to `.anm`.
+
+The in-game unit XML references animation resource stems (without either `.xml` or `.anm` extension). The exact file-to-reference mapping and the comparison with the precompiled `.anm` assets used by the repository's Chaos Demons mod are documented in [ANIMATION_FORMAT_AND_PATHS.md](ANIMATION_FORMAT_AND_PATHS.md).
+
+One timing item remains for in-game/Blender review: the bolter clip reports 17 frames at 24 fps, while the unit currently uses `beginFire="0.67"` and `endFire="1.97"`. Do not assume this window matches the clip duration; scrub the exported attack animation and tune the firing window only after checking the visible muzzle/projectile timing.
