@@ -226,7 +226,6 @@ These counts are a repository snapshot, not a balance score or a measure of how 
 ### Current upstream base and original All-In-One lineage
 - [Faction Reworks All-In-One Patched — current upstream base](https://steamcommunity.com/sharedfiles/filedetails/?id=3737847171)
 - [Original All-In-One Workshop item by Niemeria](https://steamcommunity.com/sharedfiles/filedetails/?id=3555293815)
-- [Workshop discussion linked by the repository owner](https://steamcommunity.com/workshop/filedetails/discussion/3841700987/570429280068051957/)
 - [Archived description of Faction Reworks All-In-One Patched](https://catalogue.smods.ru/archives/455030)
 
 ### Original standalone faction reworks
