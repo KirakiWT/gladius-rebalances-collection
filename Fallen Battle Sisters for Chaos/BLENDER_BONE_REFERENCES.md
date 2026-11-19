@@ -9,11 +9,11 @@ File: `Data/World/Units/ChaosSpaceMarines/FallenBattleSister.xml`
 The death/blood and explosion effect anchors both point to the supplied skeleton bone name:
 
 ```xml
-bloodBone="bip01 spine"
-explosionsBone="bip01 spine"
+bloodBone="bip01 spine1"
+explosionsBone="bip01 spine1"
 ```
 
-The previous `bloodBone="Chest"` came from the Sisters template and did not match the custom Dawn of War-derived skeleton name supplied for this model. These two attributes now use the custom skeleton's `bip01 spine` name.
+The previous `bloodBone="Chest"` came from the Sisters template and did not match the custom Dawn of War-derived skeleton name supplied for this model. These two attributes now use the custom skeleton's `bip01 spine1` name.
 
 The bolter projectile effect is a separate attachment and uses the custom model marker:
 
@@ -53,6 +53,20 @@ The separate community **Gladius Import** add-on has its import controls in the 
 ## Checks still required in-game
 
 - Confirm the exact bone spelling/case in the custom exported skeleton. This project intentionally avoids statically inspecting the very large mesh XML; the final confirmation is in Blender or in-game.
-- Confirm that death blood/explosion effects originate around the upper torso with `bip01 spine`.
+- Confirm that death blood/explosion effects originate around the upper torso with `bip01 spine1`.
 - Confirm the bolter muzzle effect using `marker_fx_bolter_01_fire`. If the muzzle flash/projectile is offset, inspect this marker position in Blender; keep `muzzleBone` tied to the marker rather than the spine.
 - Do not rename or rebuild the Dawn of War skeleton merely to match the vanilla Sisters names; keep animation bone names consistent across mesh and all animation exports.
+
+
+
+## Runtime follow-up: blood anchor name
+
+The latest debug spawn failed at `Blood.cpp:26` with `Assertion "boneID != -1" failed`. This means the engine could not resolve the configured `bloodBone` name against the loaded model skeleton.
+
+The previous `bip01 spine` value was not found as an exact bone name in the supplied animation exports. The exported Attack, Move, and Die clips contain a bone named `bip01 spine1` (animation bone ID 29). The unit-level blood and explosion anchors have therefore been changed to `bip01 spine1`. Confirm this candidate with another in-game spawn; the large mesh XML remains intentionally uninspected.
+
+## Production building
+
+The unit is already registered in `Data/World/Buildings/ChaosSpaceMarines/Infantry.xml.ext`. The building ID `ChaosSpaceMarines/Infantry` is localized by All-In-One as **Abominator's Genelab**. Its `produceUnit` entry is gated by the tier-IV `ChaosSpaceMarines/FallenBattleSister` upgrade. The latest log shows All-In-One disabled, so enable that mod above this add-on when testing production.
+
+The same log contains non-fatal missing texture warnings for the three runtime DDS maps and missing unit/upgrade GUI icons. These are separate from the fatal blood-bone assertion.
