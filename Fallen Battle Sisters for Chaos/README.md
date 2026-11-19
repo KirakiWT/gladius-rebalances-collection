@@ -8,10 +8,11 @@ Adds one six-model Fallen Battle Sisters squad to **Chaos Space Marines**. This 
 - Unlock: Chaos Space Marines Infantry branch, technology position 4; requires `ChaosSpaceMarines/Infantry`
 - Production: adds one `produceUnit` entry through `Infantry.xml.ext`
 - Squad size: 6
-- Unit and technology icon: reuses the existing `Units/SistersOfBattle/SaintCelestine` resource
+- Unit and technology icon: both explicitly reference the existing `Units/SistersOfBattle/SaintCelestine` resource
 - Combat profile: copied from the All-In-One Battle Sister definition (armour, health, accuracy, melee profile, morale, movement and production value)
 - Weapons: Battle Sister `Boltgun` plus the generic Gladius `CloseCombatWeapon` slot
 - Sounds: reuses the All-In-One Battle Sister infantry movement and death sounds
+- Permanent Chaos Space Marine statuses: `ChaosSpaceMarines/ChampionOfChaos` and `ChaosSpaceMarines/LeaderOfChaos`
 - CSM economy conversion: Battle Sister Requisition cost/upkeep are represented as 20 Food + 20 Ore and 2 Food upkeep, since Chaos Space Marines do not use the Sororitas Requisition economy
 
 ### Melee implementation note
@@ -49,9 +50,9 @@ The material definition already refers to the Diffuse, Normal and SIC resource n
 
 ## Load order and testing
 
-Load **Faction Reworks All-In-One** first and this add-on **below it**. The World building extension then merges into the All-In-One Chaos Space Marines Infantry building.
+In the Gladius mod list, place **Faction Reworks All-In-One above this add-on** and **Fallen Battle Sisters for Chaos below it**. The add-on's `Infantry.xml.ext` then merges the Fallen Battle Sisters production entry into the All-In-One `ChaosSpaceMarines/Infantry` building (Abominator's Genelab).
 
-This is a test build and has **not** been tested in-game. Confirm mesh compilation, animation playback, muzzle/bone names, animation event timings, production availability, texture appearance and localization in a local match. Core language `.xml.ext` support is less reliable than World `.xml.ext`; verify both English and Russian strings in-game.
+This is a test build and has **not** been tested in-game. Confirm mesh compilation, animation playback, muzzle/bone names, animation event timings, production availability, texture appearance and localization in a local match. English and Russian localization is supplied through partial `Units.xml`, `Upgrades.xml` and `Traits.xml` files under each language folder. Core language `.xml.ext` sidecars are intentionally not used.
 
 The game requires the Adepta Sororitas content that supplies the reused Saint Celestine icon (`Supplement11`).
 

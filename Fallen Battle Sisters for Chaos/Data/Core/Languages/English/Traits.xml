@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="ChaosSpaceMarines/ChampionOfChaos" value="Champion of Chaos"/>
+	<entry name="ChaosSpaceMarines/ChampionOfChaosDescription" value="Killing an enemy unit may reward this unit with an unlocked Boon of Chaos or transform non-heroes into a Chaos Spawn or Daemon Prince."/>
+	<entry name="ChaosSpaceMarines/ChampionOfChaosFlavor" value="It is not unusual for the Chaos powers to bestow strange boons and mutations upon those who kill in their name. Not all of these boons are beneficial—the dark ones are as fickle as they are inscrutable, and even their most ardent followers are little more than pawns in a celestial game."/>
+	<entry name="ChaosSpaceMarines/LeaderOfChaos" value="Leader of Chaos"/>
+	<entry name="ChaosSpaceMarines/LeaderOfChaosDescription" value="Reduces morale loss for nearby Cultists, Exalted Poxwalkers and Dark Disciples."/>
+</language>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="ChaosSpaceMarines/ChampionOfChaos" value="Чемпион Хаоса"/>
+	<entry name="ChaosSpaceMarines/ChampionOfChaosDescription" value="Убийство вражеского подразделения может наградить это подразделение постоянным Благословением Хаоса, а может превратить его в Отродье Хаоса или Князя-Демона."/>
+	<entry name="ChaosSpaceMarines/ChampionOfChaosFlavor" value="Силы Хаоса нередко посылают странные дары и мутации тем, кто убивает во имя них. Не все эти дары полезны — Тёмные Боги так же непостоянны, как и непостижимы, и даже их самые ярые последователи всего лишь пешки в игре богов."/>
+	<entry name="ChaosSpaceMarines/LeaderOfChaos" value="Предводитель Хаоса"/>
+	<entry name="ChaosSpaceMarines/LeaderOfChaosDescription" value="Снижает потерю морали ближайших культистов, Возвышенных чумных зомби и Тёмных учеников."/>
+</language>
