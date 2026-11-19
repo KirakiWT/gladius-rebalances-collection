@@ -71,3 +71,8 @@ One timing item remains for in-game/Blender review: the bolter clip reports 17 f
 ## Latest startup log finding
 
 The 2026-11-19 startup log reports a fatal engine assertion `frameRate == 30` for all five Fallen Battle Sister animation clips. Their current source XML headers use 24 fps. Re-export all five animations from Blender with the Proxy Studios exporter at 30 fps, preserving intended clip duration; do not just rename XML to ANM or blindly change the header. See [ANIMATION_FORMAT_AND_PATHS.md](ANIMATION_FORMAT_AND_PATHS.md) for the log diagnosis and safe re-export checklist. The required All-In-One dependency was disabled in the reported run and should be enabled above this add-on during testing.
+
+
+## Production building
+
+Fallen Battle Sister is already registered in `Data/World/Buildings/ChaosSpaceMarines/Infantry.xml.ext`, which extends the `ChaosSpaceMarines/Infantry` building localized by All-In-One as **Abominator's Genelab**. Production is gated by the tier-IV `ChaosSpaceMarines/FallenBattleSister` technology. Enable **Faction Reworks All-In-One Eradication Integrated** above this add-on when testing the integration; it was disabled in the latest uploaded log.
