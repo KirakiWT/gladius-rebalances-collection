@@ -19,7 +19,7 @@
 				<projectileWeapon muzzleBone="bip01 r hand"/>
 			</model>
 		</weapon>
-		<weapon name="CloseCombatWeapon">
+		<weapon name="EnchantedScimitar">
 			<model>
 				<weapon fireInterval="0.5"/>
 			</model>
