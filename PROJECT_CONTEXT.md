@@ -4,9 +4,43 @@
 
 ## Project identity
 
-This repository contains an integrated, global faction overhaul for Warhammer 40,000: Gladius – Relics of War. The central All-In-One package is not a Necron-only rebalance: it includes substantial faction-specific data for all 11 standard playable factions represented in the original rework collection.
+This repository contains an integrated, global faction overhaul for Warhammer 40,000: Gladius – Relics of War. The central All-In-One package is not a Necron-only rebalance: it includes substantial faction-specific data for all 11 standard playable factions.
 
-The original standalone faction reworks were published by Niemeria and later brought together in an All-In-One package. This repository stores an Eradication-integrated version and the associated source/reference data. The separate Chaos Daemons FRAIO Integration is an additional faction package; it should not be confused with the Chaos Space Marines rework included among the 11 core factions.
+The upstream design originated in Niemeria's standalone faction reworks and was consolidated into an All-In-One package. **The repository's current All-In-One base is the [Faction Reworks All-In-One Patched Workshop version](https://steamcommunity.com/sharedfiles/filedetails/?id=3737847171), not the unpatched original upload.** The current repository documents that patched baseline; the project owner has stated that no separate balance/rework layer has yet been added on top of it. Treat the Patched Workshop changelog as upstream history, not as repository-authored changes. The separate Chaos Daemons FRAIO Integration is an additional faction package; it should not be confused with the Chaos Space Marines rework included among the 11 core factions.
+
+## Patched baseline and notable follow-up changes
+
+The current All-In-One package is based on the [Faction Reworks All-In-One Patched Workshop item](https://steamcommunity.com/sharedfiles/filedetails/?id=3737847171). Its description carries over the original Niemeria overview of all 11 faction reworks and lists subsequent fixes and balance adjustments. The notes below are especially important because they update or refine the inherited design summary.
+
+### Tyranids — June 12, 2026
+
+- City founding cost is reduced from **60/60 to 30/30 Biomass/Influence**.
+- Metamorphic Malanthropes (previously the T4 −50% research effect) becomes baseline and is hidden from the technology tree.
+- Grey Matter Dispersion is folded into **T3 Accelerated Brood Cycle**, combining +2 population limit with the loyalty-penalty reduction.
+- The Headquarters weapon is changed from a Devourer to a Heavy Venom Cannon in both relevant HQ files; the changelog estimates approximately +16% damage against unarmoured targets and +39% against armour 3.
+- A new **T5 Corrosive Strikes** Bio-Adaptation applies stacking Corrosion (−0.75 armour for 2 turns) on every attack; melee attacks also apply Lacerations (−0.5 armour for 2 turns), for a combined −1.25 armour per melee hit.
+- **T8 Hypermetamorphic Plasticity** grants +1 Bio-Adaptation slot to all units. Assimilation Accelerants is folded into T7 Aggressive Expansion, while the reclaim-cooldown removal is moved to the growth technology.
+
+**Implementation caveat from the patch notes:** the author marked this set as not yet tested in-game at the time; the new adaptations were also using borrowed/placeholder icons. Verify the current integrated data and test in-game before treating every detail as confirmed behaviour.
+
+### Necrons — June 7, 2026
+
+- Extraction Matrix yield is increased from **6 to 7**, with **+1 Influence**.
+- Its base cost is reduced from **12× to 5× production cost** (the note compares this to **4× in vanilla**); upgrades now affect all buildings.
+- **Rapid Rise Early** is associated with T2 and reduces the cost to **4.25×**. **Rapid Rise Warmachine** moves from T7 to T5 and reduces the cost to **3.5×**.
+
+These figures refine the broader Rapid Rise discussion in the local Necron design document. Use the Patched changelog for the follow-up values, and inspect the current XML before asserting the live implementation.
+
+### Space Marines — June 7, 2026
+
+The Chaplain's **Fortress of Will** armour buff receives target filtering and can no longer target Heroes, Vehicles or Fortifications. The Chaplain's listed HP is reduced from **26 to 22**.
+
+### Smaller maintenance fixes
+
+- **Drukhari (June 14, 2026):** a quest reference is redirected to Painbringer.
+- **Adeptus Mechanicus (June 7, 2026):** a stray Necron reference is removed from a building description.
+
+The mirrored Patched description reports a last revision of June 23, 2026. The dates above follow the changelog labels; not every item is a major balance change. Source: [Patched All-In-One Workshop item](https://steamcommunity.com/sharedfiles/filedetails/?id=3737847171); accessible mirrored description: [Faction Reworks All-In-One Patched](https://catalogue.smods.ru/archives/455030).
 
 ## Core design philosophy
 
@@ -24,7 +58,7 @@ The approach is faction-specific rather than a single universal balance formula.
 
 ## Faction-by-faction design overview
 
-The summaries below paraphrase the original standalone Workshop descriptions and patch notes. They describe the documented design intent; they are not a substitute for checking the current integrated XML data when verifying exact implementation.
+The summaries below paraphrase the original standalone Workshop descriptions inherited by the Patched All-In-One package. They describe the documented design intent; apply the separate Patched follow-up notes above where they supersede or refine the original overview. Neither source is a substitute for checking the current integrated XML data when verifying exact implementation.
 
 ### Space Marines
 
@@ -177,6 +211,8 @@ A tree comparison of the current All-In-One Data/World files against ORIGINAL VA
 
 These counts are a repository snapshot, not a balance score or a measure of how much gameplay changed. Shared weapons, language files, textures, audio, animations and other global data are not included in the per-faction totals. File counts should not be used to rank the depth or quality of a faction rework.
 
+**Snapshot provenance:** this comparison table was first recorded in documentation commit [`b612b3b2e84c83a7332ca6b3ef241b1040348d79`](https://github.com/KirakiWT/gladius-rebalances-collection/commit/b612b3b2e84c83a7332ca6b3ef241b1040348d79), created on **2026-11-19 at 00:02:21 UTC**. The counts are a dated capture, not a live query; recompute them before using them as current repository metrics.
+
 ## Important interpretation rules for future project work
 
 1. **Do not treat the Necron design_document.txt as a complete project specification.** It is the only detailed faction design document currently present in the All-In-One folder, but the original Workshop descriptions document extensive redesigns for the other ten factions as well.
@@ -187,7 +223,8 @@ These counts are a repository snapshot, not a balance score or a measure of how 
 
 ## Sources
 
-### Original All-In-One and consolidated description
+### Current upstream base and original All-In-One lineage
+- [Faction Reworks All-In-One Patched — current upstream base](https://steamcommunity.com/sharedfiles/filedetails/?id=3737847171)
 - [Original All-In-One Workshop item by Niemeria](https://steamcommunity.com/sharedfiles/filedetails/?id=3555293815)
 - [Workshop discussion linked by the repository owner](https://steamcommunity.com/workshop/filedetails/discussion/3841700987/570429280068051957/)
 - [Archived description of Faction Reworks All-In-One Patched](https://catalogue.smods.ru/archives/455030)
