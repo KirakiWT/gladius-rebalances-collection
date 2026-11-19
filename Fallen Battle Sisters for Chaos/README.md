@@ -58,4 +58,4 @@ The game requires the Adepta Sororitas content that supplies the reused Saint Ce
 
 ## Bone attachment references
 
-The custom model uses the supplied skeleton name `bip01 spine` for both death/blood and explosion effect anchors (`bloodBone` and `explosionsBone`). Gladius expects **bone names, not numeric bone IDs**, in these unit XML fields. The bolter `muzzleBone` is a separate barrel attachment and remains `Muzzle` pending an in-game check. Blender workflow and the distinction between mesh bone IDs and unit-level bone-name references are documented in [BLENDER_BONE_REFERENCES.md](BLENDER_BONE_REFERENCES.md).
+The custom model uses the supplied skeleton name `bip01 spine` for both death/blood and explosion effect anchors (`bloodBone` and `explosionsBone`). Gladius expects **bone names, not numeric bone IDs**, in these unit XML fields. The bolter `muzzleBone` uses the custom skeleton marker `marker_fx_bolter_01_fire`. Blender workflow and the distinction between mesh bone IDs and unit-level bone-name references are documented in [BLENDER_BONE_REFERENCES.md](BLENDER_BONE_REFERENCES.md).
