@@ -16,7 +16,7 @@
 	<weapons>
 		<weapon name="Boltgun">
 			<model>
-				<projectileWeapon muzzleBone="Muzzle"/>
+				<projectileWeapon muzzleBone="marker_fx_bolter_01_fire"/>
 			</model>
 		</weapon>
 		<weapon name="CloseCombatWeapon">
