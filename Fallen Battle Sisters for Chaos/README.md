@@ -41,9 +41,9 @@ The supplied PNG source maps are preserved under `Assets/SourceTextures/` and ar
 
 | Source PNG | Intended game texture |
 |---|---|
-| `Combined_base.png` | `Data/Video/Textures/Units/ChaosSpaceMarines/FallenBattleSisterDiffuse.dds` |
-| `Combined_normal.png` | `Data/Video/Textures/Units/ChaosSpaceMarines/FallenBattleSisterNormal.dds` |
-| `Combined_metallic.png` + inverted `Combined_roughness.png` | `Data/Video/Textures/Units/ChaosSpaceMarines/FallenBattleSisterSIC.dds` |
+| `FallenBattleSister_Diffuse.png` | `Data/Video/Textures/Units/ChaosSpaceMarines/FallenBattleSisterDiffuse.dds` |
+| `FallenBattleSister_Normal.png` | `Data/Video/Textures/Units/ChaosSpaceMarines/FallenBattleSisterNormal.dds` |
+| `FallenBattleSister_Metallic.png` + inverted `FallenBattleSister_Roughness.png` | `Data/Video/Textures/Units/ChaosSpaceMarines/FallenBattleSisterSIC.dds` |
 
 The material definition already refers to the Diffuse, Normal and SIC resource names. The three DDS files above still need to be generated and copied to the listed paths; raw PNGs are source files, not the finished Gladius texture assets. No emissive/team-colour source was supplied, so those channels are not authored.
 

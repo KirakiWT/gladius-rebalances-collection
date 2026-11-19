@@ -13,10 +13,10 @@ These paths mirror the Gladius mesh/animation data hierarchy. The XML asset cont
 
 The four supplied PNG files are copied to `Assets/SourceTextures/`:
 
-- `Combined_base.png`
-- `Combined_normal.png`
-- `Combined_metallic.png`
-- `Combined_roughness.png`
+- `FallenBattleSister_Diffuse.png`
+- `FallenBattleSister_Normal.png`
+- `FallenBattleSister_Metallic.png`
+- `FallenBattleSister_Roughness.png`
 
 They are source inputs only. Gladius uses DDS texture assets, so the following runtime files are still outstanding:
 
