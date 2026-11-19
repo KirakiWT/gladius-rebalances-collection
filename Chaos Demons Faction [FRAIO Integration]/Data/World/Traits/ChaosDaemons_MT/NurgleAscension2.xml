@@ -3,10 +3,8 @@
 	<modifiers>
 		<modifier>
 			<effects>
-				<hitpointsMax mul="0.6"/>
-				<armor add="1"/>
-				<strengthDamage mul="0.60"/>
-				<meleeAttacks add="1"/>
+				<hitpointsMax mul="2.5"/>
+				<strengthDamage mul="0.35"/>
 			</effects>
 		</modifier>
 	</modifiers>

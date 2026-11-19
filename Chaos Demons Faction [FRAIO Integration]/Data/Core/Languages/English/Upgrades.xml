@@ -272,27 +272,27 @@
 	<entry name="ChaosDaemons_MT/PrimalTerrorFlavor" value="Monstrous daemonic beings manifested in the physical realm as nightmares given form, stirring the deepest feelings of dread and horror in the minds of all who looked upon them. Even the mightiest champions of the Imperium take pause when faced with such a foe and lesser warriors are often paralysed with fear."/>
 	
 	<entry name="ChaosDaemons_MT/KhorneAscension1" value="Blood Ascendant"/>
-	<entry name="ChaosDaemons_MT/KhorneAscension1Description" value="The Bloodthirster gains +20% hitpoints, +1 armor and +20% damage."/>
+	<entry name="ChaosDaemons_MT/KhorneAscension1Description" value="The Bloodthirster gains +15% hitpoints, +1 armor and +15% damage."/>
 	<entry name="ChaosDaemons_MT/KhorneAscension1Flavor" value="The longer the daemon walks in the material realm, the more of the Warp it brings with it."/>
 	<entry name="ChaosDaemons_MT/KhorneAscension2" value="Avatar of Slaughter"/>
-	<entry name="ChaosDaemons_MT/KhorneAscension2Description" value="The Bloodthirster gains +80% hitpoints, +1 armor, +60% damage and +1 melee attack, matching the titans of other factions."/>
+	<entry name="ChaosDaemons_MT/KhorneAscension2Description" value="The Bloodthirster gains +75% hitpoints, +1 armor and +35% damage. Heals a part of the damage dealt. Matches the titans of other factions."/>
 	<entry name="ChaosDaemons_MT/KhorneAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension1" value="Grandfather’s Gift"/>
-	<entry name="ChaosDaemons_MT/NurgleAscension1Description" value="The GreatUncleanOne gains +20% hitpoints, +1 armor and +20% damage."/>
+	<entry name="ChaosDaemons_MT/NurgleAscension1Description" value="The Great Unclean One gains +250% hitpoints and +15% damage."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension1Flavor" value="The longer the daemon walks in the material realm, the more of the Warp it brings with it."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension2" value="Rotten Colossus"/>
-	<entry name="ChaosDaemons_MT/NurgleAscension2Description" value="The GreatUncleanOne gains +60% hitpoints, +1 armor, +60% damage and +1 melee attack, matching the titans of other factions."/>
+	<entry name="ChaosDaemons_MT/NurgleAscension2Description" value="The Great Unclean One gains +250% hitpoints and +35% damage. Regenerates 4 hitpoints every turn. Matches the titans of other factions."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension1" value="Euphoric Ascension"/>
-	<entry name="ChaosDaemons_MT/SlaaneshAscension1Description" value="The KeeperOfSecrets gains +20% hitpoints, +1 armor and +20% damage."/>
+	<entry name="ChaosDaemons_MT/SlaaneshAscension1Description" value="The Keeper of Secrets gains +15% hitpoints, +1 armor and +15% damage."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension1Flavor" value="The longer the daemon walks in the material realm, the more of the Warp it brings with it."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension2" value="Dark Prince’s Apotheosis"/>
-	<entry name="ChaosDaemons_MT/SlaaneshAscension2Description" value="The KeeperOfSecrets gains +80% hitpoints, +1 armor, +60% damage and +1 melee attack, matching the titans of other factions."/>
+	<entry name="ChaosDaemons_MT/SlaaneshAscension2Description" value="The Keeper of Secrets gains +75% hitpoints and +35% damage. +1 movement and each kill yields 3 Influence. Matches the titans of other factions."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension1" value="Architect’s Favour"/>
-	<entry name="ChaosDaemons_MT/TzeentchAscension1Description" value="The LordOfChange gains +20% hitpoints, +1 armor and +20% damage."/>
+	<entry name="ChaosDaemons_MT/TzeentchAscension1Description" value="The Lord of Change gains +15% hitpoints, +1 armor and +15% damage."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension1Flavor" value="The longer the daemon walks in the material realm, the more of the Warp it brings with it."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2" value="Master of Fate"/>
-	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="The LordOfChange gains +80% hitpoints, +1 armor, +60% damage and +1 melee attack, matching the titans of other factions."/>
+	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="The Lord of Change gains +75% hitpoints, +1 armor and +35% damage. +17% damage reduction and each kill yields 3 Research. Matches the titans of other factions."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 </language>

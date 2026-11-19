@@ -3,9 +3,9 @@
 	<modifiers>
 		<modifier>
 			<effects>
-				<hitpointsMax mul="0.20"/>
+				<hitpointsMax mul="0.15"/>
 				<armor add="1"/>
-				<strengthDamage mul="0.20"/>
+				<strengthDamage mul="0.15"/>
 			</effects>
 		</modifier>
 	</modifiers>

@@ -35,7 +35,7 @@
 				<hitpointsMax base="44"/>
 				<meleeAccuracy base="12"/>
 				<meleeAttacks base="3"/>
-				<strengthDamage base="5"/>
+				<strengthDamage base="4"/>
 				<moraleMax base="12"/>
 				<movementMax base="3"/>
 				<productionCost base="54"/>
