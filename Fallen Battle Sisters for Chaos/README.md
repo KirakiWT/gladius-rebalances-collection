@@ -58,7 +58,7 @@ The game requires the Adepta Sororitas content that supplies the reused Saint Ce
 
 ## Bone attachment references
 
-The death/blood and explosion effect anchors now use `bip01 spine1`. The previous `bip01 spine` value caused a runtime `Blood.cpp:26` assertion (`boneID != -1`); `bip01 spine1` is present in the exported animation skeleton as bone ID 29. Gladius expects **bone names, not numeric bone IDs**, in these unit XML fields. The bolter `muzzleBone` uses the custom skeleton marker `marker_fx_bolter_01_fire`. Blender workflow and the distinction between mesh bone IDs and unit-level bone-name references are documented in [BLENDER_BONE_REFERENCES.md](BLENDER_BONE_REFERENCES.md).
+The death/blood and explosion effect anchors currently use `bip01 spine1`, but the latest runtime test still fails with `Blood.cpp:26` (`boneID != -1`). The fact that `bip01 spine1` appears in animation tracks (ID 29) does not prove it exists in the mesh skeleton; the exact mesh Armature bone name must be checked in Blender before choosing the final value. Gladius expects **bone names, not numeric bone IDs**, in these unit XML fields. The bolter `muzzleBone` uses the custom skeleton marker `marker_fx_bolter_01_fire`. Blender workflow and the distinction between mesh bone IDs and unit-level bone-name references are documented in [BLENDER_BONE_REFERENCES.md](BLENDER_BONE_REFERENCES.md).
 
 ## Animation file format and path resolution
 
@@ -75,4 +75,4 @@ The 2026-11-19 startup log reports a fatal engine assertion `frameRate == 30` fo
 
 ## Production building
 
-Fallen Battle Sister is already registered in `Data/World/Buildings/ChaosSpaceMarines/Infantry.xml.ext`, which extends the `ChaosSpaceMarines/Infantry` building localized by All-In-One as **Abominator's Genelab**. Production is gated by the tier-IV `ChaosSpaceMarines/FallenBattleSister` technology. Enable **Faction Reworks All-In-One Eradication Integrated** above this add-on when testing the integration; it was disabled in the latest uploaded log.
+Fallen Battle Sister is already registered in `Data/World/Buildings/ChaosSpaceMarines/Infantry.xml.ext`, which extends the `ChaosSpaceMarines/Infantry` building localized by All-In-One as **Abominator's Genelab**. Production is gated by the tier-IV `ChaosSpaceMarines/FallenBattleSister` technology. The latest log records the local All-In-One folder as disabled but also records an enabled Workshop item at `steamapps/workshop/content/489630/3841700987`; the user confirms that enabled Workshop item is the same All-In-One version. The Workshop dependency was therefore active in that run.
