@@ -14,7 +14,7 @@
 		</modifier>
 		<modifier visible="0">
 			<effects>
-				<researchPerKillValue add="4"/>
+				<researchPerKillValue add="2"/>
 			</effects>
 		</modifier>
 		<modifier>
@@ -35,11 +35,14 @@
 		<modifier>
 			<conditions>
 				<unit>
-					<missingBoonOfChaos/>
+					<unitsInRange count="1" range="2">
+						<allied/>
+						<trait name="ChaosDaemons_MT/Khorne"/>
+					</unitsInRange>
 				</unit>
 			</conditions>
 			<effects>
-				<addRandomBoonOfChaos/>
+				<morale add="-2"/>
 			</effects>
 		</modifier>
 	</perTurnModifiers>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh" category="Buff">
+	<modifiers>
+		<modifier>
+			<effects>
+				<hitpointsMax mul="0.8"/>
+				<armor add="1"/>
+				<strengthDamage mul="0.60"/>
+				<meleeAttacks add="1"/>
+				<movementMax add="1"/>
+				<influencePerKillValue add="3"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

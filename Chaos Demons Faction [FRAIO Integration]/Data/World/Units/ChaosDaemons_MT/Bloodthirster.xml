@@ -32,19 +32,18 @@
 		<modifier visible="0">
 			<effects>
 				<armor base="8"/>
-				<hitpointsMax base="48.0"/>
+				<hitpointsMax base="44"/>
 				<meleeAccuracy base="12"/>
-				<meleeAttacks base="2"/>
-				<strengthDamage base="6"/>
+				<meleeAttacks base="3"/>
+				<strengthDamage base="5"/>
 				<moraleMax base="12"/>
 				<movementMax base="3"/>
-				<productionCost base="51"/>
-				<foodCost base="80"/>
-				<oreCost base="160"/>
-				<influenceCost base="320"/>
-				<oreUpkeep base="8"/>
+				<productionCost base="54"/>
+				<foodCost base="40"/>
+				<oreCost base="100"/>
+				<influenceCost base="240"/>
+				<oreUpkeep base="5"/>
 				<rangedAccuracy base="10"/>
-				<influenceUpkeep base="16.0"/>
 				<itemSlots base="6"/>
 				<levelMax base="9"/>
 			</effects>
@@ -370,6 +369,8 @@
 		<trait name="Fleet"/>
 		<trait name="ChaosDaemons_MT/ContemptForSorcery"/>
 		<trait name="ChaosDaemons_MT/Khorne"/>
+		<trait name="ChaosDaemons_MT/KhorneAscension1" requiredUpgrade="ChaosDaemons_MT/KhorneAscension1"/>
+		<trait name="ChaosDaemons_MT/KhorneAscension2" requiredUpgrade="ChaosDaemons_MT/KhorneAscension2"/>
 		<trait name="ChaosDaemons_MT/ShadowOfChaos/Undivided"/>
 		<trait name="ChaosDaemons_MT/ShadowOfChaos/Khorne"/>
 		<trait name="ChaosDaemons_MT/ShadowOfChaos/Tzeentch"/>

@@ -282,4 +282,7 @@
 	<entry name="ChaosDaemons_MT/LocusOfDelicateEviscerationDescription" value="Increase the armour penetration of Slaanesh units after moving."/>
 	<entry name="ChaosDaemons_MT/LocusOfDelicateEviscerationFlavor" value="<string name='Traits/ChaosDaemons_MT/Locus/LocusOfDelicateEviscerationFlavor'/>"/>
 
+	<entry name="ChaosDaemons_MT/HearMyCommand" value="Hear my Command!"/>
+	<entry name="ChaosDaemons_MT/HearMyCommandDescription" value="Restore an Action Point to a target Infantry Unit."/>
+	<entry name="ChaosDaemons_MT/HearMyCommandFlavor" value="Obedience is the only virtue a Commissar demands, and the only one the Warp respects."/>
 </language>

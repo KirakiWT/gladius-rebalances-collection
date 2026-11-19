@@ -35,21 +35,21 @@
 		<modifier visible="0">
 			<effects>
 				<armor base="6"/> <!-- %armor base armor=4+ -->
-				<foodUpkeep base="2.0"/> <!-- %foodUpkeep base tier=6 factor=1 -->
+				<foodUpkeep base="1"/> <!-- %foodUpkeep base tier=6 factor=1 -->
 				<foodCost base="20.0"/> <!-- %foodCost base tier=6 factor=0.5 -->
-				<hitpointsMax base="6.0"/> <!-- %hitpointsMax base toughness=3 wounds=3 -->
-				<influenceUpkeep base="4.0"/> <!-- %influenceUpkeep base tier=6 factor=2 -->
+				<hitpointsMax base="14"/> <!-- %hitpointsMax base toughness=3 wounds=3 -->
 				<influenceCost base="80.0"/> <!-- %influenceCost base tier=6 factor=2 -->
 				<itemSlots base="6"/>
 				<levelMax base="9"/>
 				<meleeAccuracy base="10"/> <!-- %meleeAccuracy base weaponSkill=5 -->
-				<meleeAttacks base="3"/>
+				<meleeAttacks base="5"/>
 				<strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
 				<!-- <meleeInitiative base="3"/> -->
 				<moraleMax base="12"/> <!-- %moraleMax base leadership=9 -->
 				<movementMax base="3"/>
-				<oreCost base="20.0"/> <!-- %oreCost base tier=6 factor=0.5 -->
 				<productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
+				<energyUpkeep base="1"/>
+				<energyCost base="20"/>
 				<rangedAccuracy base="10"/> <!-- %rangedAccuracy base ballisticSkill=5 -->
 			</effects>
 		</modifier>
@@ -185,13 +185,51 @@
 				</selfTarget>
 			</beginTargets>
 		</bringItDown>
-		<summaryExecution cooldown="3" rank="-1" 
+
+		<genericUnitAbility
+				consumedActionPoints="0"
+				consumedMovement="0"
+				name="ChaosDaemons_MT/HearMyCommand"
+				cooldownMin="8"
+				cooldownMax="4"
+				rank="-1"
+				rankMax="2"
+				requiredActionPoints="0">
+			<model>
+				<action animation="Units/AstraMilitarum/LordCommissarShout"
+						bone="ChestBone"
+						sound="Actions/AstraMilitarumBuff"/>
+			</model>
+			<beginTargets>
+				<target rangeMin="1" rangeMax="3">
+					<conditions>
+						<unit>
+							<faction name="ChaosDaemons_MT"/>
+							<noTrait name="Fortification"/>
+							<noTrait name="MonstrousCreature"/>
+							<noTrait name="Vehicle"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<actionPoints add="1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</genericUnitAbility>
+		<summaryExecution cooldown="3" 
 				icon="Actions/SummaryExecution"
 				name="ChaosDaemons_MT/SummaryExecution"
 				requiredActionPoints="0"
 				consumedActionPoints="0"
-				consumedMovement="0"
-				rankMax="2">
+				consumedMovement="0">
 			<model>
 				<action animation="Units/AstraMilitarum/LordCommissarAttack"
 						beginFire="0.4"

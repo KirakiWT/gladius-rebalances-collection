@@ -33,20 +33,19 @@
 	<modifiers>
 		<modifier visible="0">
 			<effects>
-				<armor base="6"/>
-				<hitpointsMax base="64.0"/>
+				<armor base="7"/>
+				<hitpointsMax base="52"/>
 				<meleeAccuracy base="10"/>
-				<meleeAttacks base="2"/>
-				<strengthDamage base="6"/>
+				<meleeAttacks base="3"/>
+				<strengthDamage base="4"/>
 				<moraleMax base="12"/>
 				<movementMax base="3"/>
-				<productionCost base="66"/>
-				<foodCost base="200"/>
-				<energyCost base="80"/>
-				<influenceCost base="320"/>
-				<foodUpkeep base="8"/>
+				<productionCost base="54"/>
+				<foodCost base="100"/>
+				<energyCost base="40"/>
+				<influenceCost base="240"/>
+				<foodUpkeep base="5"/>
 				<rangedAccuracy base="6"/>
-				<influenceUpkeep base="16.0"/>
 				<itemSlots base="6"/>
 				<levelMax base="9"/>
 			</effects>
@@ -324,6 +323,8 @@
 		<trait name="Smash"/>
 		<trait name="Hero"/>
 		<trait name="ChaosDaemons_MT/Nurgle"/>
+		<trait name="ChaosDaemons_MT/NurgleAscension1" requiredUpgrade="ChaosDaemons_MT/NurgleAscension1"/>
+		<trait name="ChaosDaemons_MT/NurgleAscension2" requiredUpgrade="ChaosDaemons_MT/NurgleAscension2"/>
 		<trait name="Regeneration"/>
 		<trait name="ChaosDaemons_MT/ShadowOfChaos/Undivided"/>
 		<trait name="ChaosDaemons_MT/ShadowOfChaos/Khorne"/>

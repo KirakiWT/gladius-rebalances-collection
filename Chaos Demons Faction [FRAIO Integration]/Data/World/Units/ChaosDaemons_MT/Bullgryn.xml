@@ -28,16 +28,16 @@
 			<effects>
 				<armor base="6"/> <!-- %armor base armor=4+ -->
 				<foodUpkeep base="3.0"/> <!-- %foodUpkeep base tier=7 factor=1 -->
-				<foodCost base="30.0"/> <!-- %foodCost base tier=7 factor=0.5 -->
+				<foodCost base="40"/> <!-- %foodCost base tier=7 factor=0.5 -->
 				<hitpointsMax base="12.0"/> <!-- %hitpointsMax base toughness=5 wounds=3 -->
 				<meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
 				<meleeAttacks base="2"/>
 				<strengthDamage base="2"/> <!-- %strengthDamage base strength=5 -->
 				<!-- <meleeInitiative base="2"/> -->
-				<oreCost base="30.0"/> <!-- %oreCost base tier=7 factor=0.5 -->
+				<oreCost base="40"/> <!-- %oreCost base tier=7 factor=0.5 -->
 				<moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
 				<movementMax base="3"/>
-				<productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
+				<productionCost base="48"/> <!-- %productionCost base tier=7 factor=1 -->
 				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
 			</effects>
 		</modifier>

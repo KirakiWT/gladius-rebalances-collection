@@ -32,4 +32,19 @@
 			</effects>
 		</modifier>
 	</modifiers>
+	<perTurnModifiers endure="0">
+		<modifier>
+			<conditions>
+				<unit>
+					<unitsInRange count="1" range="2">
+						<allied/>
+						<trait name="ChaosDaemons_MT/Nurgle"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<morale add="-2"/>
+			</effects>
+		</modifier>
+	</perTurnModifiers>
 </trait>
