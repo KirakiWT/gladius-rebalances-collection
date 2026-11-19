@@ -134,3 +134,11 @@ The unit XML had `bloodBone="bip01 spine"`. The supplied animation exports conta
 The same log shows **Faction Reworks All-In-One Eradication Integrated** disabled and the Fallen Battle Sisters add-on enabled. Enable All-In-One above this add-on so its Abominator's Genelab integration is active.
 
 The log also records non-fatal missing resource warnings for the unit icon and the three runtime DDS textures (Diffuse, Normal, SIC). These are separate from the fatal `Blood.cpp` assertion.
+
+
+
+## Log clarification: Workshop All-In-One is enabled
+
+In the latest `Logs(4).zip`, the local folder copy `Mods/Faction Reworks All-In-One Eradication Integrated` appears in `Mods/Disabled`, but a separate Workshop item `steamapps/workshop/content/489630/3841700987` appears as `Mod enabled`. The user confirms this Workshop item is the same All-In-One version. The log therefore does **not** establish that All-In-One is completely disabled; the earlier diagnosis conflated the disabled local duplicate with the enabled Workshop copy. The local Fallen Battle Sisters mod is also shown as enabled.
+
+The persistent spawn failure is independent of that load-order interpretation: the stack trace fails in `Blood::Blood` with `boneID != -1`. The current `bloodBone="bip01 spine1"` remains unverified against the actual mesh Armature. Animation track names alone cannot prove mesh-bone lookup will succeed. Use the Blender Armature-name inspection documented in `BLENDER_BONE_REFERENCES.md`; do not guess another name or statically parse the large mesh XML.
