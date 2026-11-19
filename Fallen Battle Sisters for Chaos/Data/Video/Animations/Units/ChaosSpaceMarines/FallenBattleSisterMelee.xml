@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<animation version="0.9" frames="61" frameRate="24">
+<animation version="0.9" frames="61" frameRate="30">
 	<bone id="0" name="bip01 bonus pagne p01">
 		<frame id="0">
 			<position x="0.111487" y="0.138976" z="-0.208884"/>
