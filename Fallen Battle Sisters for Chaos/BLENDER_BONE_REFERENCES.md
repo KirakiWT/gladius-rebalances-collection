@@ -70,3 +70,26 @@ The previous `bip01 spine` value was not found as an exact bone name in the supp
 The unit is already registered in `Data/World/Buildings/ChaosSpaceMarines/Infantry.xml.ext`. The building ID `ChaosSpaceMarines/Infantry` is localized by All-In-One as **Abominator's Genelab**. Its `produceUnit` entry is gated by the tier-IV `ChaosSpaceMarines/FallenBattleSister` upgrade. The latest log shows All-In-One disabled, so enable that mod above this add-on when testing production.
 
 The same log contains non-fatal missing texture warnings for the three runtime DDS maps and missing unit/upgrade GUI icons. These are separate from the fatal blood-bone assertion.
+
+
+
+## Blender verification required after repeated spawn crash
+
+The latest log still fails at `Blood.cpp:26` with `boneID != -1` while constructing the Blood effect. The unit XML currently names `bip01 spine1`, but finding this string in animation tracks is not sufficient proof that the mesh skeleton contains that bone. Blood-effect bone lookup happens against the loaded mesh/model skeleton.
+
+Do not choose another name based only on animation XML or by guessing. In Blender 5.1.2, open the original Fallen Sister .blend containing the **same Armature used to export fallsister3**, switch to the Scripting workspace, create a new text block, and run:
+
+```python
+import bpy
+
+for obj in bpy.context.scene.objects:
+    if obj.type == "ARMATURE":
+        print("\\nARMATURE:", obj.name)
+        for bone in obj.data.bones:
+            if any(term in bone.name.casefold() for term in ("spine", "chest", "torso")):
+                print(repr(bone.name))
+```
+
+Use the exact printed bone name (including capitalization, spaces, and suffixes) for `bloodBone` and, if the explosion anchor is intended to share the same point, `explosionsBone`. Then export the mesh and confirm in-game. Do not statically inspect the large mesh XML for this check.
+
+If several Armature objects appear, identify the one actually bound to the Fallen Sister mesh; do not select a control rig or an unused source rig.
