@@ -181,7 +181,7 @@
 				</target>
 			</beginTargets>
 		</markOfTzeentch>
-		<webwayArtillery cooldown="3"
+		<webwayArtillery cooldown="5"
 				durationInSeconds="0.1"
 				name="ChaosDaemons_MT/WarpRift"
 				icon="Units/ChaosDaemons_MT/WarpRift"
@@ -191,7 +191,7 @@
 			<modifiers>
 				<modifier visible="0">
 					<effects>
-						<influenceCost base="40"/>
+						<influenceCost base="60"/>
 					</effects>
 				</modifier>
 			</modifiers>
@@ -232,7 +232,7 @@
 			<modifiers>
 				<modifier visible="0">
 					<effects>
-						<influenceCost base="4"/>
+						<influenceCost base="6"/>
 					</effects>
 				</modifier>
 			</modifiers>
@@ -270,7 +270,7 @@
 			<modifiers>
 				<modifier visible="0">
 					<effects>
-						<influenceCost base="4"/>
+						<influenceCost base="6"/>
 					</effects>
 				</modifier>
 			</modifiers>
@@ -308,7 +308,7 @@
 			<modifiers>
 				<modifier visible="0">
 					<effects>
-						<influenceCost base="4"/>
+						<influenceCost base="6"/>
 					</effects>
 				</modifier>
 			</modifiers>
@@ -346,7 +346,7 @@
 			<modifiers>
 				<modifier visible="0">
 					<effects>
-						<influenceCost base="4"/>
+						<influenceCost base="6"/>
 					</effects>
 				</modifier>
 			</modifiers>
@@ -384,7 +384,7 @@
 			<modifiers>
 				<modifier visible="0">
 					<effects>
-						<influenceCost base="4"/>
+						<influenceCost base="6"/>
 					</effects>
 				</modifier>
 			</modifiers>
@@ -422,7 +422,7 @@
 			<modifiers>
 				<modifier visible="0">
 					<effects>
-						<influenceCost base="4"/>
+						<influenceCost base="6"/>
 					</effects>
 				</modifier>
 			</modifiers>
@@ -460,7 +460,7 @@
 			<modifiers>
 				<modifier visible="0">
 					<effects>
-						<influenceCost base="4"/>
+						<influenceCost base="6"/>
 					</effects>
 				</modifier>
 			</modifiers>
@@ -498,7 +498,7 @@
 			<modifiers>
 				<modifier visible="0">
 					<effects>
-						<influenceCost base="4"/>
+						<influenceCost base="6"/>
 					</effects>
 				</modifier>
 			</modifiers>

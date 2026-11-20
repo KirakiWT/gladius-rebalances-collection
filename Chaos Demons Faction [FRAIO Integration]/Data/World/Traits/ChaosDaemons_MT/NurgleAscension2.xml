@@ -4,7 +4,7 @@
 		<modifier>
 			<effects>
 				<hitpointsMax mul="2.0"/>
-				<strengthDamage mul="0.35"/>
+				<strengthDamage mul="0.2"/>
 			</effects>
 		</modifier>
 	</modifiers>

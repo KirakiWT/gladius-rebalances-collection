@@ -315,6 +315,7 @@
 		<trait name="Daemon"/>
 		<trait name="ChaosDaemons_MT/GreaterDaemon"/>
 		<trait name="Fearless"/>
+		<trait name="Unique"/>
 		<trait name="Hero"/>
 		<trait name="MonstrousCreature"/>
 		<trait name="MoveThroughCover"/>

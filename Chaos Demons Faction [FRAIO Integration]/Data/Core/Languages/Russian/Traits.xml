@@ -290,27 +290,27 @@
 	<entry name="ChaosDaemons_MT/FesteringBulkDescription" value="Получает на 120% больше урона."/>
 	<entry name="ChaosDaemons_MT/FesteringBulkFlavor" value="Огромное гниющее тело – слишком большая мишень, чтобы её мог защитить любой воин."/>
 	<entry name="ChaosDaemons_MT/KhorneAscension1" value="Кровавое вознесение"/>
-	<entry name="ChaosDaemons_MT/KhorneAscension1Description" value="+15% здоровья, +1 к броне и +15% урона."/>
+	<entry name="ChaosDaemons_MT/KhorneAscension1Description" value="+35% здоровья, +1 к броне и +15% урона."/>
 	<entry name="ChaosDaemons_MT/KhorneAscension1Flavor" value="Чем дольше демон бродит по материальному миру, тем больше Варпа он приносит с собой."/>
 	<entry name="ChaosDaemons_MT/KhorneAscension2" value="Аватар бойни"/>
-	<entry name="ChaosDaemons_MT/KhorneAscension2Description" value="+75% здоровья, +1 к броне и +35% урона. Восстанавливает часть нанесённого урона."/>
+	<entry name="ChaosDaemons_MT/KhorneAscension2Description" value="+35% здоровья, +1 к броне и +20% урона. Восстанавливает часть нанесённого урона."/>
 	<entry name="ChaosDaemons_MT/KhorneAscension2Flavor" value="На пике могущества великий демон выходит против боевых машин и титанов."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension1" value="Дар Дедушки"/>
 	<entry name="ChaosDaemons_MT/NurgleAscension1Description" value="+200% здоровья и +15% урона."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension1Flavor" value="Чем дольше демон бродит по материальному миру, тем больше Варпа он приносит с собой."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension2" value="Гнилой колосс"/>
-	<entry name="ChaosDaemons_MT/NurgleAscension2Description" value="+200% здоровья и +35% урона. Восстанавливает 4 здоровья каждый ход."/>
+	<entry name="ChaosDaemons_MT/NurgleAscension2Description" value="+200% здоровья и +20% урона. Восстанавливает 4 здоровья каждый ход."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension2Flavor" value="На пике могущества великий демон выходит против боевых машин и титанов."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension1" value="Эйфорическое вознесение"/>
-	<entry name="ChaosDaemons_MT/SlaaneshAscension1Description" value="+15% здоровья, +1 к броне и +15% урона."/>
+	<entry name="ChaosDaemons_MT/SlaaneshAscension1Description" value="+35% здоровья, +1 к броне и +15% урона."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension1Flavor" value="Чем дольше демон бродит по материальному миру, тем больше Варпа он приносит с собой."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension2" value="Апофеоз Тёмного Принца"/>
-	<entry name="ChaosDaemons_MT/SlaaneshAscension2Description" value="+75% здоровья и +35% урона. +1 к передвижению, каждое убийство приносит 3 влияния."/>
+	<entry name="ChaosDaemons_MT/SlaaneshAscension2Description" value="+35% здоровья и +20% урона. +1 к передвижению, каждое убийство приносит 3 влияния."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension2Flavor" value="На пике могущества великий демон выходит против боевых машин и титанов."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension1" value="Милость Зодчего"/>
-	<entry name="ChaosDaemons_MT/TzeentchAscension1Description" value="+15% здоровья, +1 к броне и +15% урона."/>
+	<entry name="ChaosDaemons_MT/TzeentchAscension1Description" value="+35% здоровья, +1 к броне и +15% урона."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension1Flavor" value="Чем дольше демон бродит по материальному миру, тем больше Варпа он приносит с собой."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2" value="Властелин судьбы"/>
-	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="+75% здоровья, +1 к броне и +35% урона. +17% к защите от урона, каждое убийство приносит 3 очка исследований."/>
+	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="+35% здоровья, +1 к броне и +20% урона. +17% к защите от урона, каждое убийство приносит 3 очка исследований."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2Flavor" value="На пике могущества великий демон выходит против боевых машин и титанов."/>
 </language>

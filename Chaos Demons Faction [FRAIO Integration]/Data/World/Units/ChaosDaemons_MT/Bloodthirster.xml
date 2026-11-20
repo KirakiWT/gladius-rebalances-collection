@@ -32,7 +32,7 @@
 		<modifier visible="0">
 			<effects>
 				<armor base="8"/>
-				<hitpointsMax base="44"/>
+				<hitpointsMax base="40"/>
 				<meleeAccuracy base="12"/>
 				<meleeAttacks base="3"/>
 				<strengthDamage base="4"/>
@@ -409,6 +409,7 @@
 		<trait name="Daemon"/>
 		<trait name="ChaosDaemons_MT/GreaterDaemon"/>
 		<trait name="Fearless"/>
+		<trait name="Unique"/>
 		<trait name="Hero"/>
 		<trait name="MonstrousCreature"/>
 		<trait name="MoveThroughCover"/>

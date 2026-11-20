@@ -3,8 +3,8 @@
 	<modifiers>
 		<modifier>
 			<effects>
-				<hitpointsMax mul="0.75"/>
-				<strengthDamage mul="0.35"/>
+				<hitpointsMax mul="0.35"/>
+				<strengthDamage mul="0.2"/>
 				<movementMax add="1"/>
 				<influencePerKillValue add="3"/>
 			</effects>

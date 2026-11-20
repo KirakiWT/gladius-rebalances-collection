@@ -381,28 +381,28 @@
 	<entry name="ChaosDaemons_MT/ReinforcedHullsDescription" value="Increases armor by 1 and hitpoints by 10%."/>
 	<entry name="ChaosDaemons_MT/ReinforcedHullsFlavor" value="Plates scavenged from a thousand wars, welded together with blood."/>
 	<entry name="ChaosDaemons_MT/KhorneAscension1" value="Blood Ascendant"/>
-	<entry name="ChaosDaemons_MT/KhorneAscension1Description" value="+15% hitpoints, +1 armor and +15% damage."/>
+	<entry name="ChaosDaemons_MT/KhorneAscension1Description" value="+35% hitpoints, +1 armor and +15% damage."/>
 	<entry name="ChaosDaemons_MT/KhorneAscension1Flavor" value="The longer the daemon walks in the material realm, the more of the Warp it brings with it."/>
 	<entry name="ChaosDaemons_MT/KhorneAscension2" value="Avatar of Slaughter"/>
-	<entry name="ChaosDaemons_MT/KhorneAscension2Description" value="+75% hitpoints, +1 armor and +35% damage. Heals a part of the damage dealt."/>
+	<entry name="ChaosDaemons_MT/KhorneAscension2Description" value="+35% hitpoints, +1 armor and +20% damage. Heals a part of the damage dealt."/>
 	<entry name="ChaosDaemons_MT/KhorneAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension1" value="Grandfather’s Gift"/>
 	<entry name="ChaosDaemons_MT/NurgleAscension1Description" value="+200% hitpoints and +15% damage."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension1Flavor" value="The longer the daemon walks in the material realm, the more of the Warp it brings with it."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension2" value="Rotten Colossus"/>
-	<entry name="ChaosDaemons_MT/NurgleAscension2Description" value="+200% hitpoints and +35% damage. Regenerates 4 hitpoints every turn."/>
+	<entry name="ChaosDaemons_MT/NurgleAscension2Description" value="+200% hitpoints and +20% damage. Regenerates 4 hitpoints every turn."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension1" value="Euphoric Ascension"/>
-	<entry name="ChaosDaemons_MT/SlaaneshAscension1Description" value="+15% hitpoints, +1 armor and +15% damage."/>
+	<entry name="ChaosDaemons_MT/SlaaneshAscension1Description" value="+35% hitpoints, +1 armor and +15% damage."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension1Flavor" value="The longer the daemon walks in the material realm, the more of the Warp it brings with it."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension2" value="Dark Prince’s Apotheosis"/>
-	<entry name="ChaosDaemons_MT/SlaaneshAscension2Description" value="+75% hitpoints and +35% damage. +1 movement and each kill yields 3 Influence."/>
+	<entry name="ChaosDaemons_MT/SlaaneshAscension2Description" value="+35% hitpoints and +20% damage. +1 movement and each kill yields 3 Influence."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension1" value="Architect’s Favour"/>
-	<entry name="ChaosDaemons_MT/TzeentchAscension1Description" value="+15% hitpoints, +1 armor and +15% damage."/>
+	<entry name="ChaosDaemons_MT/TzeentchAscension1Description" value="+35% hitpoints, +1 armor and +15% damage."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension1Flavor" value="The longer the daemon walks in the material realm, the more of the Warp it brings with it."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2" value="Master of Fate"/>
-	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="+75% hitpoints, +1 armor and +35% damage. +17% damage reduction and each kill yields 3 Research."/>
+	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="+35% hitpoints, +1 armor and +20% damage. +17% damage reduction and each kill yields 3 Research."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 	<entry name="ChaosDaemons_MT/FesteringBulk" value="Festering Bulk"/>
 	<entry name="ChaosDaemons_MT/FesteringBulkDescription" value="Takes 120% more damage."/>

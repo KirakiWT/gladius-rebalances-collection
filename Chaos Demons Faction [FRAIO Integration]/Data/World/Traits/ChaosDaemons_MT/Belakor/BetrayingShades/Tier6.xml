@@ -7,9 +7,7 @@
 					<upgrade name="ChaosDaemons_MT/LocusOfDelicateEvisceration"/>
 					<upgrade name="ChaosDaemons_MT/MeleeDamage"/>
 					<upgrade name="ChaosDaemons_MT/PlagueDrone"/>
-					<upgrade name="ChaosDaemons_MT/LemanRussBattleTank"/>
 					<upgrade name="ChaosDaemons_MT/WarpTalon"/>
-					<upgrade name="ChaosDaemons_MT/Bullgryn"/>
 					<upgrade name="ChaosDaemons_MT/CorruptRealspace"/>
 				</player>
 			</conditions>

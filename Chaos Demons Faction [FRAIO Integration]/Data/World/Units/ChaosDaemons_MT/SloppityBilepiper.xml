@@ -27,7 +27,7 @@
 		<modifier visible="0">
 			<effects>
 				<armor base="4"/>
-				<hitpointsMax base="12"/>
+				<hitpointsMax base="14"/>
 				<meleeAccuracy base="8"/>
 				<meleeAttacks base="1"/>
 				<strengthDamage base="1.5"/>
@@ -36,7 +36,7 @@
 				<productionCost base="45"/>
 				<foodCost base="75"/>
 				<energyCost base="30"/>
-				<influenceCost base="120"/>
+				<influenceCost base="100"/>
 				<foodUpkeep base="6"/>
 				<rangedAccuracy base="8"/>
 				<itemSlots base="6"/>
