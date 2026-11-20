@@ -31,11 +31,11 @@
 	<modifiers>
 		<modifier visible="0">
 			<effects>
-				<armor base="8"/>
+				<armor base="7"/>
 				<hitpointsMax base="40"/>
 				<meleeAccuracy base="12"/>
-				<meleeAttacks base="3"/>
-				<strengthDamage base="4"/>
+				<meleeAttacks base="2"/>
+				<strengthDamage base="3"/>
 				<moraleMax base="12"/>
 				<movementMax base="3"/>
 				<productionCost base="54"/>
