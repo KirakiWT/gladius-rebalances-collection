@@ -296,10 +296,10 @@
 	<entry name="ChaosDaemons_MT/KhorneAscension2Description" value="+75% здоровья, +1 к броне и +35% урона. Восстанавливает часть нанесённого урона."/>
 	<entry name="ChaosDaemons_MT/KhorneAscension2Flavor" value="На пике могущества великий демон выходит против боевых машин и титанов."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension1" value="Дар Дедушки"/>
-	<entry name="ChaosDaemons_MT/NurgleAscension1Description" value="+250% здоровья и +15% урона."/>
+	<entry name="ChaosDaemons_MT/NurgleAscension1Description" value="+63% здоровья и +15% урона."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension1Flavor" value="Чем дольше демон бродит по материальному миру, тем больше Варпа он приносит с собой."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension2" value="Гнилой колосс"/>
-	<entry name="ChaosDaemons_MT/NurgleAscension2Description" value="+250% здоровья и +35% урона. Восстанавливает 4 здоровья каждый ход."/>
+	<entry name="ChaosDaemons_MT/NurgleAscension2Description" value="+87% здоровья и +35% урона. Восстанавливает 4 здоровья каждый ход."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension2Flavor" value="На пике могущества великий демон выходит против боевых машин и титанов."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension1" value="Эйфорическое вознесение"/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension1Description" value="+15% здоровья, +1 к броне и +15% урона."/>

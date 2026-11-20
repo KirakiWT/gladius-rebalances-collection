@@ -209,10 +209,10 @@
 	<entry name="ChaosDaemons_MT/KhorneAscension2Description" value="Кровавый жаждущий получает +75% здоровья, +1 к броне и +35% урона. Восстанавливает часть нанесённого урона. Не уступает титанам других фракций."/>
 	<entry name="ChaosDaemons_MT/KhorneAscension2Flavor" value="На пике могущества великий демон выходит против боевых машин и титанов."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension1" value="Дар Дедушки"/>
-	<entry name="ChaosDaemons_MT/NurgleAscension1Description" value="Великий нечистый получает +250% здоровья и +15% урона."/>
+	<entry name="ChaosDaemons_MT/NurgleAscension1Description" value="Великий нечистый получает +63% здоровья и +15% урона."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension1Flavor" value="Чем дольше демон бродит по материальному миру, тем больше Варпа он приносит с собой."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension2" value="Гнилой колосс"/>
-	<entry name="ChaosDaemons_MT/NurgleAscension2Description" value="Великий нечистый получает +250% здоровья и +35% урона. Восстанавливает 4 здоровья каждый ход. Не уступает титанам других фракций."/>
+	<entry name="ChaosDaemons_MT/NurgleAscension2Description" value="Великий нечистый получает +87% здоровья и +35% урона. Восстанавливает 4 здоровья каждый ход. Не уступает титанам других фракций."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension2Flavor" value="На пике могущества великий демон выходит против боевых машин и титанов."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension1" value="Эйфорическое вознесение"/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension1Description" value="Хранитель тайн получает +15% здоровья, +1 к броне и +15% урона."/>
@@ -226,4 +226,7 @@
 	<entry name="ChaosDaemons_MT/TzeentchAscension2" value="Властелин судьбы"/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="Владыка перемен получает +75% здоровья, +1 к броне и +35% урона. +17% к защите от урона, каждое убийство приносит 3 очка исследований. Не уступает титанам других фракций."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2Flavor" value="На пике могущества великий демон выходит против боевых машин и титанов."/>
+	<entry name="ChaosDaemons_MT/SkullLordPact" value="Договор Владыки Черепов"/>
+	<entry name="ChaosDaemons_MT/SkullLordPactDescription" value="Открывает способность Кровавого жаждущего «Договор Владыки Черепов»."/>
+	<entry name="ChaosDaemons_MT/SkullLordPactFlavor" value="Кхорну всё равно, откуда течёт кровь, лишь бы она текла."/>
 </language>

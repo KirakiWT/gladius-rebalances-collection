@@ -387,10 +387,10 @@
 	<entry name="ChaosDaemons_MT/KhorneAscension2Description" value="+75% hitpoints, +1 armor and +35% damage. Heals a part of the damage dealt."/>
 	<entry name="ChaosDaemons_MT/KhorneAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension1" value="Grandfather’s Gift"/>
-	<entry name="ChaosDaemons_MT/NurgleAscension1Description" value="+250% hitpoints and +15% damage."/>
+	<entry name="ChaosDaemons_MT/NurgleAscension1Description" value="+63% hitpoints and +15% damage."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension1Flavor" value="The longer the daemon walks in the material realm, the more of the Warp it brings with it."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension2" value="Rotten Colossus"/>
-	<entry name="ChaosDaemons_MT/NurgleAscension2Description" value="+250% hitpoints and +35% damage. Regenerates 4 hitpoints every turn."/>
+	<entry name="ChaosDaemons_MT/NurgleAscension2Description" value="+87% hitpoints and +35% damage. Regenerates 4 hitpoints every turn."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension1" value="Euphoric Ascension"/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension1Description" value="+15% hitpoints, +1 armor and +15% damage."/>

@@ -3,7 +3,7 @@
 	<textures>
 		<texture name="Units/ChaosSpaceMarines/FallenBattleSister/Diffuse"/>
 		<texture name="Units/ChaosSpaceMarines/FallenBattleSister/Normal"/>
-		<texture name="Units/ChaosSpaceMarines/FallenBattleSister/SIC"/>
+		<texture name="Units/ChaosSpaceMarines/SIC"/>
 		<texture name="ShadowMapColor"/>
 	</textures>
 </material>

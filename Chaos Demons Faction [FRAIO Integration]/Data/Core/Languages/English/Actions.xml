@@ -285,4 +285,7 @@
 	<entry name="ChaosDaemons_MT/HearMyCommand" value="Hear my Command!"/>
 	<entry name="ChaosDaemons_MT/HearMyCommandDescription" value="Restore an Action Point to a target Infantry Unit."/>
 	<entry name="ChaosDaemons_MT/HearMyCommandFlavor" value="Obedience is the only virtue a Commissar demands, and the only one the Warp respects."/>
+	<entry name="ChaosDaemons_MT/SkullLordPact" value="Skull Lord’s Pact"/>
+	<entry name="ChaosDaemons_MT/SkullLordPactDescription" value="Sacrifices any allied non-hero unit and summons a Lord of Skulls under your control in its place for 4 turns. Cooldown: 20 turns."/>
+	<entry name="ChaosDaemons_MT/SkullLordPactFlavor" value="A thousand skulls for a throne, and the throne walks."/>
 </language>

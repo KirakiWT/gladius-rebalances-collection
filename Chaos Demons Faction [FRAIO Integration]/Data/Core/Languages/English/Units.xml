@@ -197,4 +197,7 @@
 	<entry name="ChaosDaemons_MT/ObliteratorDescription" value="<string name='Units/ChaosSpaceMarines/ObliteratorDescription'/>"/>
 	<entry name="ChaosDaemons_MT/ObliteratorFlavor" value="<string name='Units/ChaosSpaceMarines/ObliteratorFlavor'/>"/>
 	
+	<entry name="ChaosDaemons_MT/LordOfSkulls" value="Lord of Skulls"/>
+	<entry name="ChaosDaemons_MT/LordOfSkullsDescription" value="Almost unstoppable war engine that can slaughter entire armies."/>
+	<entry name="ChaosDaemons_MT/LordOfSkullsFlavor" value="Grinding across the battlefield on rumbling tracks, the Lord of Skulls towers over its terrified foes. Given life by the raging spirit of a Bloodthirster bound within its hull, and powered by the boiling blood of murderers, this unholy engine of war is death to all who stand before it. Its devastating guns reduce swathes of victims to ruin, drowning them in jets of red-hot gore or burying them under rains of gnashing skulls. As it ploughs through the enemy ranks, the Daemon Engine wields its roaring cleaver with a speed and skill that is entirely horrifying in something so huge. Entire ranks of enemy warriors are swept away with a single swing, tanks and monstrous beasts swatted through the air like toys. Even towering war engines such as Stompas or Titans are made to look clumsy and sluggish as the Lord of Skulls hacks off their limbs and tears open their armoured torsos amid blossoms of dirty flame. Few warriors can face the Lord of Skulls and live, for it is a machine of absolute destruction."/>
 </language>

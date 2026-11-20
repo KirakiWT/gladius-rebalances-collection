@@ -213,4 +213,7 @@
 	<entry name="ChaosDaemons_MT/HearMyCommand" value="Слушай мою команду!"/>
 	<entry name="ChaosDaemons_MT/HearMyCommandDescription" value="Восстанавливает очко действия целевому юниту пехоты."/>
 	<entry name="ChaosDaemons_MT/HearMyCommandFlavor" value="Послушание – единственная добродетель, которой требует комиссар, и единственная, которую уважает Варп."/>
+	<entry name="ChaosDaemons_MT/SkullLordPact" value="Договор Владыки Черепов"/>
+	<entry name="ChaosDaemons_MT/SkullLordPactDescription" value="Приносит в жертву любого союзного юнита, кроме героев, и на его месте на 4 хода призывает подконтрольного вам Владыку Черепов. Перезарядка: 20 ходов."/>
+	<entry name="ChaosDaemons_MT/SkullLordPactFlavor" value="Тысяча черепов для трона, и трон идёт в бой."/>
 </language>

@@ -332,6 +332,54 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
+		<genericUnitAbility cooldown="20"
+				name="ChaosDaemons_MT/SkullLordPact"
+				icon="Units/Neutral/LordOfSkulls"
+				requiredUpgrade="ChaosDaemons_MT/SkullLordPact">
+			<model>
+				<action sound="Actions/ChaosBuff"/>
+			</model>
+			<beginTargets>
+				<target rangeMin="1" rangeMax="100">
+					<conditions>
+						<unit>
+							<allied/>
+							<faction name="ChaosDaemons_MT"/>
+							<noTrait name="Hero"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<removeUnit/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addUnit name="ChaosDaemons_MT/LordOfSkulls" consumedAction="0" consumedMovement="0" levelMin="0" levelMax="9"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait duration="4" name="Summon"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</genericUnitAbility>
 		<levelUp/>
 		<shop/>
 		<dimensionalCorridor cooldown="5"
