@@ -32,8 +32,8 @@
 				<influence mul="0.1"/>
 				<research mul="0.1"/>
 
-				<research add="1.5"/>
-				<influence add="1.5"/>
+				
+				<influence add="2"/>
 			</effects>
 		</modifier>
 
