@@ -381,15 +381,15 @@
 	<entry name="ChaosDaemons_MT/ReinforcedHullsDescription" value="Increases armor by 1 and hitpoints by 10%."/>
 	<entry name="ChaosDaemons_MT/ReinforcedHullsFlavor" value="Plates scavenged from a thousand wars, welded together with blood."/>
 	<entry name="ChaosDaemons_MT/KhorneAscension2" value="Avatar of Slaughter"/>
-	<entry name="ChaosDaemons_MT/KhorneAscension2Description" value="+35% hitpoints, +1 armor and +20% damage. Heals a part of the damage dealt."/>
+	<entry name="ChaosDaemons_MT/KhorneAscension2Description" value="+20% damage. Heals a part of the damage dealt."/>
 	<entry name="ChaosDaemons_MT/KhorneAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension2" value="Rotten Colossus"/>
-	<entry name="ChaosDaemons_MT/NurgleAscension2Description" value="+35% hitpoints and +20% damage. Regenerates 4 hitpoints every turn."/>
+	<entry name="ChaosDaemons_MT/NurgleAscension2Description" value="+35% hitpoints. Regenerates 4 hitpoints every turn."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension2" value="Dark Prince’s Apotheosis"/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension2Description" value="+35% hitpoints and +20% damage. +1 movement and each kill yields 3 Influence."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2" value="Master of Fate"/>
-	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="+35% hitpoints, +1 armor and +20% damage. +17% damage reduction and each kill yields 3 Research."/>
+	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="+20% damage. +17% damage reduction and each kill yields 3 Research."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 </language>

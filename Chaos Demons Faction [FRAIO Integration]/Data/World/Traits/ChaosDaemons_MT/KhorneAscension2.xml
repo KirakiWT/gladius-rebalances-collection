@@ -3,8 +3,6 @@
 	<modifiers>
 		<modifier>
 			<effects>
-				<hitpointsMax mul="0.35"/>
-				<armor add="1"/>
 				<strengthDamage mul="0.2"/>
 				<lifeStealFactor add="0.25"/>
 			</effects>

@@ -287,15 +287,15 @@
 	<entry name="ChaosDaemons_MT/ReinforcedHullsDescription" value="Увеличивает броню на 1 и здоровье на 10%."/>
 	<entry name="ChaosDaemons_MT/ReinforcedHullsFlavor" value="Пластины, снятые с тысячи войн и сваренные кровью."/>
 	<entry name="ChaosDaemons_MT/KhorneAscension2" value="Аватар бойни"/>
-	<entry name="ChaosDaemons_MT/KhorneAscension2Description" value="+35% здоровья, +1 к броне и +20% урона. Восстанавливает часть нанесённого урона."/>
+	<entry name="ChaosDaemons_MT/KhorneAscension2Description" value="+20% урона. Восстанавливает часть нанесённого урона."/>
 	<entry name="ChaosDaemons_MT/KhorneAscension2Flavor" value="На пике могущества великий демон выходит против боевых машин и титанов."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension2" value="Гнилой колосс"/>
-	<entry name="ChaosDaemons_MT/NurgleAscension2Description" value="+35% здоровья и +20% урона. Восстанавливает 4 здоровья каждый ход."/>
+	<entry name="ChaosDaemons_MT/NurgleAscension2Description" value="+35% здоровья. Восстанавливает 4 здоровья каждый ход."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension2Flavor" value="На пике могущества великий демон выходит против боевых машин и титанов."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension2" value="Апофеоз Тёмного Принца"/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension2Description" value="+35% здоровья и +20% урона. +1 к передвижению, каждое убийство приносит 3 влияния."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension2Flavor" value="На пике могущества великий демон выходит против боевых машин и титанов."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2" value="Властелин судьбы"/>
-	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="+35% здоровья, +1 к броне и +20% урона. +17% к защите от урона, каждое убийство приносит 3 очка исследований."/>
+	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="+20% урона. +17% к защите от урона, каждое убийство приносит 3 очка исследований."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2Flavor" value="На пике могущества великий демон выходит против боевых машин и титанов."/>
 </language>

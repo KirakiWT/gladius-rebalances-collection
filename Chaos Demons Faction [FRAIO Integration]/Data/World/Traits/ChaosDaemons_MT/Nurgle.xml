@@ -42,7 +42,7 @@
 				</unit>
 			</conditions>
 			<effects>
-				<morale add="-2"/>
+				<morale add="-1"/>
 			</effects>
 		</modifier>
 	</perTurnModifiers>

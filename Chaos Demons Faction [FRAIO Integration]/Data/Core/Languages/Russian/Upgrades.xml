@@ -203,16 +203,16 @@
 	<entry name="ChaosDaemons_MT/PrimalTerrorDescription" value="Ваша тень хаоса ещё больше снижает боевой дух врагов."/>
 	<entry name="ChaosDaemons_MT/PrimalTerrorFlavor" value="Чудовищные демонические сущности, воплощённые в физическом мире как кошмары, обретшие форму, пробуждают глубочайшие чувства страха и ужаса в умах всех, кто смотрит на них. Даже величайшие чемпионы Империума колеблются перед лицом такого врага, а менее опытные воины часто парализованы страхом."/>
 	<entry name="ChaosDaemons_MT/KhorneAscension2" value="Аватар бойни"/>
-	<entry name="ChaosDaemons_MT/KhorneAscension2Description" value="Кровавый жаждущий получает +35% здоровья, +1 к броне и +20% урона. Восстанавливает часть нанесённого урона. Не уступает титанам других фракций."/>
+	<entry name="ChaosDaemons_MT/KhorneAscension2Description" value="Кровавый жаждущий получает +20% урона. Восстанавливает часть нанесённого урона. Не уступает титанам других фракций."/>
 	<entry name="ChaosDaemons_MT/KhorneAscension2Flavor" value="На пике могущества великий демон выходит против боевых машин и титанов."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension2" value="Гнилой колосс"/>
-	<entry name="ChaosDaemons_MT/NurgleAscension2Description" value="Великий нечистый получает +35% здоровья и +20% урона. Восстанавливает 4 здоровья каждый ход. Не уступает титанам других фракций."/>
+	<entry name="ChaosDaemons_MT/NurgleAscension2Description" value="Великий нечистый получает +35% здоровья. Восстанавливает 4 здоровья каждый ход. Не уступает титанам других фракций."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension2Flavor" value="На пике могущества великий демон выходит против боевых машин и титанов."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension2" value="Апофеоз Тёмного Принца"/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension2Description" value="Хранитель тайн получает +35% здоровья и +20% урона. +1 к передвижению, каждое убийство приносит 3 влияния. Не уступает титанам других фракций."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension2Flavor" value="На пике могущества великий демон выходит против боевых машин и титанов."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2" value="Властелин судьбы"/>
-	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="Владыка перемен получает +35% здоровья, +1 к броне и +20% урона. +17% к защите от урона, каждое убийство приносит 3 очка исследований. Не уступает титанам других фракций."/>
+	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="Владыка перемен получает +20% урона. +17% к защите от урона, каждое убийство приносит 3 очка исследований. Не уступает титанам других фракций."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2Flavor" value="На пике могущества великий демон выходит против боевых машин и титанов."/>
 	<entry name="ChaosDaemons_MT/SkullLordPact" value="Договор Владыки Черепов"/>
 	<entry name="ChaosDaemons_MT/SkullLordPactDescription" value="Открывает способность Кровавого жаждущего «Договор Владыки Черепов»."/>
