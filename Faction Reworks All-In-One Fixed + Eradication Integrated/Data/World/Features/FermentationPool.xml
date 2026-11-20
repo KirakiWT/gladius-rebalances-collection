@@ -38,11 +38,11 @@ explorable="1">
 	<modifiers>
 		<modifier>
 			<effects>
-				<biomass add="3"/>
+				<biomass add="2"/>
 				<buildingSlots max="0"/>
-				<food add="3"/>
+				<food add="2"/>
 				<growth mul="0.2"/>
-				<requisitions add="3"/>
+				<requisitions add="2"/>
 			</effects>
 		</modifier>
 		<modifier>
@@ -52,8 +52,8 @@ explorable="1">
 				</player>
 			</conditions>
 			<effects>
-				<energy add="1.5"/>	
-				<influence add="1.5"/>
+				<energy add="1"/>	
+				<influence add="1"/>
 			</effects>
 		</modifier>
 		<modifier requiredUpgrade="Eldar/MaidenWorldMastery">
