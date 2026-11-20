@@ -2,4 +2,6 @@
 <language>
 	<entry name="EnchantedScimitar" value="Enchanted Scimitar"/>
 	<entry name="EnchantedScimitarFlavor" value="A blade bound to forbidden Warp power. Its runes quicken each strike and drive its keen edge through armour."/>
+	<entry name="FallenCombiFlamer" value="Combi-Flamer"/>
+	<entry name="FallenCombiFlamerFlavor" value="A boltgun and flamer combined into a single weapon, adapted for a servant of Chaos."/>
 </language>

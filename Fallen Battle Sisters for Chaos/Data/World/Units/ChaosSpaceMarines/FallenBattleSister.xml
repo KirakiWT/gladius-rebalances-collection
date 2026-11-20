@@ -87,5 +87,9 @@
 	<traits>
 		<trait name="ChaosSpaceMarines/ChampionOfChaos"/>
 		<trait name="ChaosSpaceMarines/LeaderOfChaos"/>
+		<trait name="ExtraInfantryArmour" requiredUpgrade="ChaosSpaceMarines/ExtraInfantryArmour"/>
+		<trait name="ChaosSpaceMarines/CulstistUpgrade" requiredUpgrade="ChaosSpaceMarines/CulstistUpgrade"/>
+		<trait name="ChaosSpaceMarines/GiftOfMutation" requiredUpgrade="ChaosSpaceMarines/GiftOfMutation"/>
+		<trait name="ChaosSpaceMarines/VeteransOfTheLongWar" requiredUpgrade="ChaosSpaceMarines/VeteransOfTheLongWar"/>
 	</traits>
 </unit>

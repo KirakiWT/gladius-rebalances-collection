@@ -19,7 +19,7 @@
 						fireInterval="0.2"/>
 			</model>
 		</weapon>
-		<weapon name="CombiFlamer">
+		<weapon name="FallenCombiFlamer">
 			<model>
 				<projectileWeapon muzzleBone="canoness_bolter_flamer"
 						fireInterval="10"
@@ -48,9 +48,9 @@
 				<movementMax base="3"/>
 				<productionCost base="36.0"/>
 				<rangedAccuracy base="10"/>
-				<requisitionsUpkeep base="1.0"/>
+				<oreUpkeep base="1.0"/>
 				<energyUpkeep base="1.0"/>
-				<requisitionsCost base="20.0"/>
+				<oreCost base="20.0"/>
 				<energyCost base="20.0"/>
 			</effects>
 		</modifier>
@@ -116,7 +116,10 @@
 		<trait name="SistersOfBattle/ShieldOfFaith"/>
 		<trait name="SistersOfBattle/Martyrdom"/>
 		<trait name="SistersOfBattle/OathOfFaith"/>
-		<trait name="ExtraInfantryArmour" requiredUpgrade="SistersOfBattle/ExtraInfantryArmour"/>
+		<trait name="ExtraInfantryArmour" requiredUpgrade="ChaosSpaceMarines/ExtraInfantryArmour"/>
+		<trait name="ChaosSpaceMarines/InfantryUpgrade" requiredUpgrade="ChaosSpaceMarines/InfantryUpgrade"/>
+		<trait name="ChaosSpaceMarines/GiftOfMutation" requiredUpgrade="ChaosSpaceMarines/GiftOfMutation"/>
+		<trait name="ChaosSpaceMarines/VeteransOfTheLongWar" requiredUpgrade="ChaosSpaceMarines/VeteransOfTheLongWar"/>
 		<trait name="Hero1"/>
 		<trait name="Rosarius"/>
 		<trait name="Stubborn"/>

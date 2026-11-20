@@ -16,6 +16,5 @@
 	<traits>
 		<trait name="Melee"/>
 		<trait name="ChaosSpaceMarines/MeleeDamage" requiredUpgrade="ChaosSpaceMarines/MeleeDamage"/>
-		<trait name="SistersOfBattle/MeleeWeaponBonus" requiredUpgrade="SistersOfBattle/MeleeWeaponBonus"/>
 	</traits>
 </weapon>

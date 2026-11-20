@@ -1,7 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<building>
-	<actions>
-		<produceUnit unit="ChaosSpaceMarines/FallenCanoness"
-				requiredUpgrade="ChaosSpaceMarines/FallenCanoness"/>
-	</actions>
-</building>
+<building/>
