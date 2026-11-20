@@ -120,6 +120,8 @@
 		<trait name="ChaosSpaceMarines/InfantryUpgrade" requiredUpgrade="ChaosSpaceMarines/InfantryUpgrade"/>
 		<trait name="ChaosSpaceMarines/GiftOfMutation" requiredUpgrade="ChaosSpaceMarines/GiftOfMutation"/>
 		<trait name="ChaosSpaceMarines/VeteransOfTheLongWar" requiredUpgrade="ChaosSpaceMarines/VeteransOfTheLongWar"/>
+		<trait name="ChaosSpaceMarines/AdvancedDefensivUpgrade" requiredUpgrade="ChaosSpaceMarines/AdvancedDefensivUpgrade"/>
+		<trait name="ChaosSpaceMarines/AdvancedOffensivUpgrade" requiredUpgrade="ChaosSpaceMarines/AdvancedOffensivUpgrade"/>
 		<trait name="Hero1"/>
 		<trait name="Rosarius"/>
 		<trait name="Stubborn"/>
