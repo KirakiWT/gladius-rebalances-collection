@@ -82,7 +82,7 @@
 			<effects>
 				<biomass add="1"/>
 				<biomass mul="0.1"/>
-				<influence add="-1"/>
+				<influence add="1"/>
 				<influence mul="0.1"/>
 			</effects>
 		</modifier>
