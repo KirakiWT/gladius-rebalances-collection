@@ -2,5 +2,6 @@
 <upgrade position="5" icon="Units/SistersOfBattle/SaintCelestine" dlc="Supplement11">
 	<requiredUpgrades>
 		<upgrade name="ChaosSpaceMarines/FallenBattleSister"/>
+		<upgrade name="ChaosSpaceMarines/AdvancedInfantry"/>
 	</requiredUpgrades>
 </upgrade>
