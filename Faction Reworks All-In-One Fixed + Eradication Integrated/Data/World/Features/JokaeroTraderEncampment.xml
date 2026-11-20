@@ -69,7 +69,7 @@
 		<modifier>
 			<effects>
 				<buildingSlots max="0"/>
-				<influence add="3"/>
+				<influence add="2"/>
 				<influence mul="0.2"/>
 			</effects>
 		</modifier>
@@ -80,9 +80,9 @@
 				</player>
 			</conditions>
 			<effects>
-				<biomass add="1.5"/>
+				<biomass add="1"/>
 				<biomass mul="0.1"/>
-				<influence add="1.5"/>
+				<influence add="-1"/>
 				<influence mul="0.1"/>
 			</effects>
 		</modifier>
