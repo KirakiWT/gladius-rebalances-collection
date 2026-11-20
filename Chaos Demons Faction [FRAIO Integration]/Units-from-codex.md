@@ -65,30 +65,65 @@
 Формат профиля Warhammer 40,000: **WS/BS/S/T/W/I/A/Ld/Save**.  
 Формат Gladius: **Armor/HP/MeleeAcc/MeleeAttacks/StrengthDamage/Morale/Move/RangedAcc**.
 
-### Основные совпадающие юниты
+### Явное сопоставление профилей 7-й редакции и Gladius
 
-| Настольный юнит | Очки и профиль 7-й редакции | Файл Gladius | Базовый профиль Gladius |
-|---|---|---|---|
-| [Be'lakor](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/4364-0360-c913-91c4/be%27lakor%2C-the-dark-master) | 350 pts; 9/5/6/5/4/8/5/10/–/4++ | `Belakor.xml` | 8/40/12/2/3/12/3/10 |
-| [Beast of Nurgle](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/f341-0a10-d29c-ba9f/beasts) | 52 pts; 3/0/4/5/4/2/D6+1/7/– | `BeastOfNurgle.xml` | 6/36/8/2/4/8/3/6 |
-| [Bloodcrusher](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/95fb-a926-71d8-c0c0/bloodcrushers) | 45 pts; 5/5/5/4/3/4/3/7/6+ | `Bloodcrusher.xml` | 8/8/8/2/2/8/3/8 |
-| [Bloodletter](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/0388-83e6-f4f8-71f6/bloodletters) | 10 pts; 5/5/4/3/1/4/1/7/6+ | `Bloodletter.xml` | 4/2/8/1/2/8/3/8 |
-| [Bloodthirster — Insensate Rage](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/c16e-320b-e286-059e/bloodthirster-of-insensate-rage) | 275 pts; 10/10/6/6/5/9/6/9/3+ | `Bloodthirster.xml` | 8/40/12/3/4/12/3/10 |
-| [Bloodthirster — Unfettered Fury](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/a387-df65-c063-8b9a/bloodthirster-of-unfettered-fury) | 250 pts; 10/10/6/6/5/9/6/9/3+ | `Bloodthirster.xml` | 8/40/12/3/4/12/3/10 |
-| [Wrath of Khorne Bloodthirster](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/4ac0-632a-80e4-f66e/wrath-of-khorne-bloodthirster) | 300 pts; 10/10/6/6/5/9/6/9/3+ | `Bloodthirster.xml` | 8/40/12/3/4/12/3/10 |
-| [Blue Horrors](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/b77b-9911-3d41-85b9/blue-horrors) | 5 pts; 3/3/2/2/1/3/1/7/– | `BlueHorror.xml` | 4/2/6/1/1/8/3/8 |
-| [Burning Chariot](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/a893-cc46-de93-381e/burning-chariot-of-tzeentch) | 100 pts; Vehicle BS3, F10/S10/R10, HP3 | `BurningChariot.xml` | 8/20/8/1/1.5/8/4/8 |
-| [Daemonettes](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/01ae-db1f-a7a3-8773/daemonettes) | 9 pts; 5/4/3/3/1/5/2/7/– | `Daemonette.xml` | 4/2/8/2/1/8/3/8 |
-| [Flamers](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/e407-1ea5-659c-5858/flamers) | 23 pts; 2/4/4/4/2/4/2/7/– | `Flamer.xml` | 6/6/8/1/1.5/8/3/8 |
-| [Great Unclean One](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/5749-a0d7-e352-7e28/great-unclean-one) | 190 pts; 6/3/6/7/6/4/5/9/– | `GreatUncleanOne.xml` | 0/100/10/2/4/12/3/6 |
-| [Keeper of Secrets](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/d221-997d-99e7-c51f/keeper-of-secrets) | 170 pts; 9/6/6/6/5/10/6/9/– | `KeeperOfSecrets.xml` | 6/40/12/5/3/12/4/12 |
-| [Lord of Change](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/5795-6660-b297-a685/lord-of-change) | 230 pts; 6/6/6/6/5/6/5/9/– | `LordOfChange.xml` | 4/36/8/3/3/12/3/12 |
-| [Plague Drones](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/2dbb-806a-ea09-fc13/plague-drones) | 42 pts; 3/3/4/5/3/2/3/7/– | `PlagueDrone.xml` | 6/12/8/1/1.5/8/3/8 |
-| [Plaguebearers](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/7cee-b1d5-693b-a28d/plaguebearers) | 9 pts; 3/3/4/4/1/2/1/7/– | `Plaguebearer.xml` | 4/2.5/8/1/1.5/8/3/8 |
-| [Screamers](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/5e4f-7d93-beac-c8fd/screamers) | 25 pts; 3/0/4/4/2/4/3/7/– | `Screamer.xml` | 6/3/8/1/1.5/8/4/8 |
-| [Seekers](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/6760-51e4-b79a-bdce/seekers) | 12 pts; 5/4/3/3/1/5/3/7/– | `Seeker.xml` | 6/4/8/2/1/8/4/8 |
-| [Skull Cannon](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/2fea-4024-4f96-117c/skull-cannon-of-khorne) | 125 pts; Vehicle BS5, F12/S12/R10, HP3 | `SkullcannonKhorne.xml` | 6/24/8/1/4/8/3/6 |
-| [Soul Grinder](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/bea6-b66e-ef91-7ad5/soul-grinder-of-chaos) | 135 pts; Walker WS3/BS3/S6, F13/S13/R11, I3/A4, HP4 | `SoulGrinderKhorne.xml` | 8/42/6/1/4/10/3/6 |
+В этой таблице профиль 7-й редакции и профиль Gladius приведены **с названиями каждого поля**, а не набором чисел без подписи.
+
+**Профиль 7-й редакции:** WS / BS / S / T / W / I / A / Ld / Sv.  
+**Профиль Gladius:** Armor / HP / MeleeAcc / RangedAcc / MeleeAttacks / StrengthDamage / Morale / Move.
+
+- WS = Weapon Skill; BS = Ballistic Skill; S = Strength; T = Toughness; W = Wounds; I = Initiative; A = Attacks; Ld = Leadership; Sv = обычный armour save.
+- Для Be'lakor отдельно записан invulnerable save 4++. У других демонов специальный Daemonic save (обычно 5++) — это правило, а не отдельная характеристика WS/BS-профиля.
+- Для машин и шагоходов 7e использует Vehicle Armour Value / Hull Points или Walker-профиль. Там, где нет стандартных WS/BS/S/T/W/I/A/Ld/Sv, это явно отмечено.
+
+| Юнит 7e | Очки | Профиль 7e с подписями | XML юнита в моде | Профиль Gladius с подписями |
+|---|---:|---|---|---|
+| [Be'lakor, The Dark Master](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/4364-0360-c913-91c4/be%27lakor%2C-the-dark-master) | 350 | WS 9; BS 5; S 6; T 5; W 4; I 8; A 5; Ld 10; Sv —; Inv 4++ | `Belakor.xml` | Armor 8; HP 40; MeleeAcc 12; RangedAcc 10; MeleeAttacks 2; StrengthDamage 3; Morale 12; Move 3; Group 1 |
+| [Beast of Nurgle](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/78a9-42bf-5992-dae8/beast-of-nurgle) | 52 | WS 3; BS 0; S 4; T 5; W 4; I 2; A D6+1; Ld 7; Sv — | `BeastOfNurgle.xml` | Armor 6; HP 36; MeleeAcc 8; RangedAcc 6; MeleeAttacks 2; StrengthDamage 4; Morale 8; Move 3; Group 1 |
+| [Bloodcrushers of Khorne](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/4038-e15a-4b22-1843/bloodcrushers-of-khorne) | 45 | WS 5; BS 5; S 5; T 4; W 3; I 4; A 3; Ld 7; Sv 6+ | `Bloodcrusher.xml` | Armor 8; HP 8; MeleeAcc 8; RangedAcc 8; MeleeAttacks 2; StrengthDamage 2; Morale 8; Move 3; Group 3 |
+| [Bloodletters of Khorne](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/8cb7-dde6-f565-0f6c/bloodletters-of-khorne) | 10 | WS 5; BS 5; S 4; T 3; W 1; I 4; A 1; Ld 7; Sv 6+ | `Bloodletter.xml` | Armor 4; HP 2; MeleeAcc 8; RangedAcc 8; MeleeAttacks 1; StrengthDamage 2; Morale 8; Move 3; Group 8 |
+| [Bloodthirster of Insensate Rage](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/c16e-320b-e286-059e/bloodthirster-of-insensate-rage) | 275 | WS 10; BS 10; S 6; T 6; W 5; I 9; A 6; Ld 9; Sv 3+ | `Bloodthirster.xml` | Armor 8; HP 40; MeleeAcc 12; RangedAcc 10; MeleeAttacks 3; StrengthDamage 4; Morale 12; Move 3; Group 1 |
+| [Bloodthirster of Unfettered Fury](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/a387-df65-c063-8b9a/bloodthirster-of-unfettered-fury) | 250 | WS 10; BS 10; S 6; T 6; W 5; I 9; A 6; Ld 9; Sv 3+ | `Bloodthirster.xml` | Armor 8; HP 40; MeleeAcc 12; RangedAcc 10; MeleeAttacks 3; StrengthDamage 4; Morale 12; Move 3; Group 1 |
+| [Wrath of Khorne Bloodthirster](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/4ac0-632a-80e4-f66e/wrath-of-khorne-bloodthirster) | 300 | WS 10; BS 10; S 6; T 6; W 5; I 9; A 6; Ld 9; Sv 3+ | `Bloodthirster.xml` | Armor 8; HP 40; MeleeAcc 12; RangedAcc 10; MeleeAttacks 3; StrengthDamage 4; Morale 12; Move 3; Group 1 |
+| [Blue Horrors](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/176e-d25c-3180-96f0/blue-horrors) | 5 | WS 3; BS 3; S 2; T 2; W 1; I 3; A 1; Ld 7; Sv — | `BlueHorror.xml` | Armor 4; HP 2; MeleeAcc 6; RangedAcc 8; MeleeAttacks 1; StrengthDamage 1; Morale 8; Move 3; Group 8 |
+| [Burning Chariot of Tzeentch](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/a893-cc46-de93-381e/burning-chariot-of-tzeentch) | 100 | Vehicle: BS 3; AV 10/10/10 (F/S/R); HP 3 | `BurningChariot.xml` | Armor 8; HP 20; MeleeAcc 8; RangedAcc 8; MeleeAttacks 1; StrengthDamage 1.5; Morale 8; Move 4; Group 2 |
+| [Daemonettes of Slaanesh](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/846f-0ade-cd97-79ad/daemonettes-of-slaanesh) | 9 | WS 5; BS 4; S 3; T 3; W 1; I 5; A 2; Ld 7; Sv — | `Daemonette.xml` | Armor 4; HP 2; MeleeAcc 8; RangedAcc 8; MeleeAttacks 2; StrengthDamage 1; Morale 8; Move 3; Group 8 |
+| [Flamers of Tzeentch](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/6c47-2be0-97d6-2241/flamers-of-tzeentch) | 23 | WS 2; BS 4; S 4; T 4; W 2; I 4; A 2; Ld 7; Sv — | `Flamer.xml` | Armor 6; HP 6; MeleeAcc 8; RangedAcc 8; MeleeAttacks 1; StrengthDamage 1.5; Morale 8; Move 3; Group 3 |
+| [Great Unclean One](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/5749-a0d7-e352-7e28/great-unclean-one) | 190 | WS 6; BS 3; S 6; T 7; W 6; I 4; A 5; Ld 9; Sv — | `GreatUncleanOne.xml` | Armor 0; HP 100; MeleeAcc 10; RangedAcc 6; MeleeAttacks 2; StrengthDamage 4; Morale 12; Move 3; Group 1 |
+| [Keeper of Secrets](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/d221-997d-99e7-c51f/keeper-of-secrets) | 170 | WS 9; BS 6; S 6; T 6; W 5; I 10; A 6; Ld 9; Sv — | `KeeperOfSecrets.xml` | Armor 6; HP 40; MeleeAcc 12; RangedAcc 12; MeleeAttacks 5; StrengthDamage 3; Morale 12; Move 4; Group 1 |
+| [Lord of Change](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/5795-6660-b297-a685/lord-of-change) | 230 | WS 6; BS 6; S 6; T 6; W 5; I 6; A 5; Ld 9; Sv — | `LordOfChange.xml` | Armor 4; HP 36; MeleeAcc 8; RangedAcc 12; MeleeAttacks 3; StrengthDamage 3; Morale 12; Move 3; Group 1 |
+| [Plague Drones of Nurgle](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/6bd1-3a60-56c5-95f3/plague-drones-of-nurgle) | 42 | WS 3; BS 3; S 4; T 5; W 3; I 2; A 3; Ld 7; Sv — | `PlagueDrone.xml` | Armor 6; HP 12; MeleeAcc 8; RangedAcc 8; MeleeAttacks 1; StrengthDamage 1.5; Morale 8; Move 3; Group 3 |
+| [Plaguebearers of Nurgle](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/cd60-32a3-614d-6b49/plaguebearers-of-nurgle) | 9 | WS 3; BS 3; S 4; T 4; W 1; I 2; A 1; Ld 7; Sv — | `Plaguebearer.xml` | Armor 4; HP 2.5; MeleeAcc 8; RangedAcc 8; MeleeAttacks 1; StrengthDamage 1.5; Morale 8; Move 3; Group 8 |
+| [Screamers of Tzeentch](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/64c7-e41b-d44a-a822/screamers-of-tzeentch) | 25 | WS 3; BS 0; S 4; T 4; W 2; I 4; A 3; Ld 7; Sv — | `Screamer.xml` | Armor 6; HP 3; MeleeAcc 8; RangedAcc 8; MeleeAttacks 1; StrengthDamage 1.5; Morale 8; Move 4; Group 5 |
+| [Seekers of Slaanesh](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/f3ea-7c9f-b1f9-ff87/seekers-of-slaanesh) | 12 | WS 5; BS 4; S 3; T 3; W 1; I 5; A 3; Ld 7; Sv — | `Seeker.xml` | Armor 6; HP 4; MeleeAcc 8; RangedAcc 8; MeleeAttacks 2; StrengthDamage 1; Morale 8; Move 4; Group 5 |
+| [Skull Cannon of Khorne](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/2fea-4024-4f96-117c/skull-cannon-of-khorne) | 125 | Vehicle: BS 5; AV 12/12/10 (F/S/R); HP 3 | `SkullcannonKhorne.xml` | Armor 6; HP 24; MeleeAcc 8; RangedAcc 6; MeleeAttacks 1; StrengthDamage 4; Morale 8; Move 3; Group 1 |
+| [Soul Grinder of Chaos](https://www.newrecruit.eu/wiki/wh40k-7th-edition/warhammer-40%2C000-7th-edition/chaos-daemons%3A-codex/bea6-b66e-ef91-7ad5/soul-grinder-of-chaos) | 135 | Walker: WS 3; BS 3; S 6; AV 13/13/11 (F/S/R); I 3; A 4; HP 4 | `SoulGrinderKhorne.xml` | Armor 8; HP 42; MeleeAcc 6; RangedAcc 6; MeleeAttacks 1; StrengthDamage 4; Morale 10; Move 3; Group 1 |
+
+### Как читать пары характеристик
+
+Это **сопоставление по смыслу**, а не математическое преобразование одной игровой системы в другую.
+
+| Настольная характеристика | Ближайшее поле Gladius | Насколько корректна пара |
+|---|---|---|
+| WS (Weapon Skill) | MeleeAcc | Ближайшая пара: обе влияют на эффективность ближнего боя, но шкалы и формулы разные |
+| BS (Ballistic Skill) | RangedAcc | Ближайшая пара: обе описывают точность стрельбы, но шкалы разные |
+| S (Strength) | StrengthDamage | Только тематическая пара. StrengthDamage в XML — параметр урона атаки, а не сила модели |
+| T (Toughness) | Armor + HP | Прямого поля Toughness в Gladius нет. Живучесть складывается из брони и запаса HP |
+| W (Wounds) | HP | Ближайшая пара, но HP в Gladius относится к игровому юниту/отряду и не обязано совпадать с W одной миниатюры |
+| I (Initiative) | Нет прямого аналога | Initiative как отдельного параметра в показанном XML юнита нет |
+| A (Attacks) | MeleeAttacks | Ближайшая пара, но Gladius считает атаки по собственной боевой модели и может представлять отряд, а не одну модель |
+| Ld (Leadership) | Morale | Ближайшая пара по устойчивости к потерям/подавлению; шкалы разные |
+| Sv (Armour Save) и Invulnerable Save | Armor | Не эквивалентны: в Warhammer это бросок спас-броска, в Gladius Armor — параметр другой системы защиты |
+| Movement / скорость | Move | Направление соответствия есть, но дюймы настолки и клетки/очки движения Gladius несопоставимы напрямую |
+
+### Что особенно важно при балансировке
+
+1. **Не сравнивать значения напрямую как коэффициенты.** Например, MeleeAcc 12 не означает WS 12, а HP 40 не означает 40 ран.
+2. **Сравнивать роль и относительную силу внутри фракции.** Если Bloodcrusher должен быть прочнее Bloodletter, смотрим на Armor/HP/атаки/стоимость относительно других юнитов Gladius, а затем сверяем с отношением W/T/Save и очков в настолке.
+3. **Отряды и модели имеют разные масштабы.** В моде Bloodletters имеют Group 8 и HP 2 в XML; нельзя трактовать HP 2 как W 2 одного Bloodletter. Это параметр Gladius, а размер группы задаётся отдельно.
+4. **Профили техники не нужно насильно сводить к пехотному набору.** У Burning Chariot и Skull Cannon важны vehicle AV и HP; у Soul Grinder — Walker-профиль и AV.
+
+> Ограничение источника: текстовый просмотр страниц New Recruit показывает названия datasheet'ов, категории, очки, опции и правила, но не отображает в читаемом тексте полные блоки характеристик каждой модели. Поэтому таблица использует профили 7e, уже записанные в этой сравнительной базе; перед использованием цифр как окончательного источника правил их следует сверить с печатным Codex: Chaos Daemons / Daemonic Incursion. Профили Gladius, напротив, извлечены непосредственно из базовых `<effects>` соответствующих XML-файлов мода.
 
 ### Экономика, размер отряда и оружие в Gladius
 
