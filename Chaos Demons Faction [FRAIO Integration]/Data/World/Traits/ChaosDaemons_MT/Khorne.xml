@@ -19,40 +19,16 @@
 				<orePerKillValue add="3"/>
 			</effects>
 		</modifier>
-		<modifier>
-			<conditions>
-				<unit>
-					<attackedThisTurn/>
-				</unit>
-			</conditions>
-			<effects>
-				<oreUpkeep max="0"/>
-				<foodUpkeep max="0"/>
-				<energyUpkeep max="0"/>
-			</effects>
-		</modifier>
-		<modifier>
+
+<modifier>
 			<effects>
 				<oreUpkeep mul="0.5"/>
 				<foodUpkeep mul="0.5"/>
 				<energyUpkeep mul="0.5"/>
 			</effects>
 		</modifier>
-		<modifier>
-			<conditions>
-				<unit>
-					<unitsInRange count="1" range="2">
-						<enemy/>
-					</unitsInRange>
-				</unit>
-			</conditions>
-			<effects>
-				<oreUpkeep mul="-0.5"/>
-				<foodUpkeep mul="-0.5"/>
-				<energyUpkeep mul="-0.5"/>
-			</effects>
-		</modifier>
-		<modifier>
+
+<modifier>
 			<conditions>
 				<unit>
 					<unitsInRange count="1" range="2">
