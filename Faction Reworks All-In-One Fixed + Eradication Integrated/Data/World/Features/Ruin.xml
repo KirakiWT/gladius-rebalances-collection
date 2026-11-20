@@ -26,7 +26,7 @@
 			<effects>
 				<buildingSlots max="0"/>
 				<research mul="0.2"/>
-				<research add="3"/>
+				<research add="2"/>
 			</effects>
 		</modifier>
 		<modifier requiredUpgrade="AdeptusMechanicus/XenariteAcceptance">
