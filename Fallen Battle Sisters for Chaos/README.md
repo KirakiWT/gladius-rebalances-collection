@@ -6,7 +6,7 @@ Adds one six-model Fallen Battle Sisters squad to **Chaos Space Marines**. This 
 
 - Unit ID: `ChaosSpaceMarines/FallenBattleSister`
 - Unlock: Chaos Space Marines Infantry branch, technology position 4; requires `ChaosSpaceMarines/Infantry`
-- Production: adds one `produceUnit` entry through `Infantry.xml.ext`
+- Production: adds a `produceUnit` entry to both `Cult.xml.ext` and `Heroes.xml.ext` because All-In-One gives both building IDs the displayed name “Cult of Chaos”
 - Squad size: 6
 - Unit and technology icon: both explicitly reference the existing `Units/SistersOfBattle/SaintCelestine` resource
 - Combat profile: copied from the All-In-One Battle Sister definition (armour, health, accuracy, melee profile, morale, movement and production value)
@@ -77,3 +77,11 @@ The 2026-11-19 startup log reports a fatal engine assertion `frameRate == 30` fo
 ## Production building
 
 Fallen Battle Sister is already registered in `Data/World/Buildings/ChaosSpaceMarines/Infantry.xml.ext`, which extends the `ChaosSpaceMarines/Infantry` building localized by All-In-One as **Abominator's Genelab**. Production is gated by the tier-IV `ChaosSpaceMarines/FallenBattleSister` technology. The latest log records the local All-In-One folder as disabled but also records an enabled Workshop item at `steamapps/workshop/content/489630/3841700987`; the user confirms that enabled Workshop item is the same All-In-One version. The Workshop dependency was therefore active in that run.
+
+
+## Fallen Canoness
+
+- Unit ID: `ChaosSpaceMarines/FallenCanoness`
+- Unlock: technology position 5, matching `ChaosSpaceMarines/AdvancedInfantry`; requires both `ChaosSpaceMarines/FallenBattleSister` and `ChaosSpaceMarines/AdvancedInfantry`
+- Production: `AdvancedInfantry.xml.ext` adds the unit to the **Hall of the Everchosen**
+- The Canoness receives the All-In-One Hall of the Everchosen defensive and offensive research bonuses.
