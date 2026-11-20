@@ -378,7 +378,7 @@
 					<areas>
 						<area affects="Tile" radius="100">
 							<modifiers>
-								<modifier viisble="0">
+								<modifier visible="0">
 									<effects>
 										<addTrait name="ChaosDaemons_MT/ShadowLegion/Undivided"/>
 										<addTrait name="ChaosDaemons_MT/ShadowLegion/Tzeentch"/>

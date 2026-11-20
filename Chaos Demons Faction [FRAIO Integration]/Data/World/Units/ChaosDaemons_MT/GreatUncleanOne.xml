@@ -34,7 +34,7 @@
 		<modifier visible="0">
 			<effects>
 				<armor base="0"/>
-				<hitpointsMax base="80"/>
+				<hitpointsMax base="100"/>
 				<meleeAccuracy base="10"/>
 				<meleeAttacks base="2"/>
 				<strengthDamage base="4"/>
@@ -274,9 +274,9 @@
 			<beginTargets>
 				<selfTarget>
 					<areas>
-						<area affects="Tile" radius="100">
+						<area affects="Tile" radius="5">
 							<modifiers>
-								<modifier viisble="0">
+								<modifier visible="0">
 									<effects>
 										<addTrait name="ChaosDaemons_MT/PlagueLegion"/>
 									</effects>

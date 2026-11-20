@@ -4,6 +4,7 @@
 		<modifier>
 			<conditions>
 				<unit>
+					<allied/>
 					<trait name="ChaosDaemons_MT/Khorne"/>
 				</unit>
 			</conditions>

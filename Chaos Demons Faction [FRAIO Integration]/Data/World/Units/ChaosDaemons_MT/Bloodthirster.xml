@@ -319,9 +319,9 @@
 			<beginTargets>
 				<selfTarget>
 					<areas>
-						<area affects="Tile" radius="100">
+						<area affects="Tile" radius="5">
 							<modifiers>
-								<modifier viisble="0">
+								<modifier visible="0">
 									<effects>
 										<addTrait name="ChaosDaemons_MT/BloodLegion"/>
 									</effects>
@@ -345,6 +345,7 @@
 						<unit>
 							<allied/>
 							<faction name="ChaosDaemons_MT"/>
+							<trait name="ChaosDaemons_MT/Khorne"/>
 							<noTrait name="Hero"/>
 						</unit>
 					</conditions>

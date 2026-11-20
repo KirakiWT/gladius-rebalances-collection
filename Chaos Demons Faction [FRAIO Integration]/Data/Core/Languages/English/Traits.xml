@@ -162,11 +162,11 @@
 	<entry name="ChaosDaemons_MT/PossessionFlavor" value="<string name='Traits/ChaosSpaceMarines/PossessionFlavor'/>"/>
 	
 	<entry name="ChaosDaemons_MT/ScintillatingLegion" value="Scintillating Legion"/>
-	<entry name="ChaosDaemons_MT/ScintillatingLegionDescription" value="Grants a shield that activates when attacked."/>
+	<entry name="ChaosDaemons_MT/ScintillatingLegionDescription" value="Reduces ranged damage taken."/>
 	<entry name="ChaosDaemons_MT/ScintillatingLegionFlavor" value="Capering and cackling in an endless flux of transmogrifying change, the daemonic legions of Tzeentch unleash kaleidoscopic madness upon their enemies. Malevolent Lords of Change robed in sanity-blasting unhues wield raw magic with the ease of breathing. They marshal their bedlam hordes even as they transform screaming mortals into mounds of mutant flesh or set light to reality itself."/>
 	
 	<entry name="ChaosDaemons_MT/ScintillatingLegionShield" value="Scintillating Legion: Shield"/>
-	<entry name="ChaosDaemons_MT/ScintillatingLegionShieldDescription" value="<string name='Traits/ChaosDaemons_MT/ScintillatingLegionDescription'/>"/>
+	<entry name="ChaosDaemons_MT/ScintillatingLegionShieldDescription" value="Grants a shield that activates when attacked."/>
 	<entry name="ChaosDaemons_MT/ScintillatingLegionShieldFlavor" value="<string name='Traits/ChaosDaemons_MT/ScintillatingLegionFlavor'/>"/>
 	
 	<entry name="ChaosDaemons_MT/ScreamerBite" value="Screamer Bite"/>
@@ -387,10 +387,10 @@
 	<entry name="ChaosDaemons_MT/KhorneAscension2Description" value="+75% hitpoints, +1 armor and +35% damage. Heals a part of the damage dealt."/>
 	<entry name="ChaosDaemons_MT/KhorneAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension1" value="Grandfather’s Gift"/>
-	<entry name="ChaosDaemons_MT/NurgleAscension1Description" value="+63% hitpoints and +15% damage."/>
+	<entry name="ChaosDaemons_MT/NurgleAscension1Description" value="+200% hitpoints and +15% damage."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension1Flavor" value="The longer the daemon walks in the material realm, the more of the Warp it brings with it."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension2" value="Rotten Colossus"/>
-	<entry name="ChaosDaemons_MT/NurgleAscension2Description" value="+87% hitpoints and +35% damage. Regenerates 4 hitpoints every turn."/>
+	<entry name="ChaosDaemons_MT/NurgleAscension2Description" value="+200% hitpoints and +35% damage. Regenerates 4 hitpoints every turn."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension1" value="Euphoric Ascension"/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension1Description" value="+15% hitpoints, +1 armor and +15% damage."/>

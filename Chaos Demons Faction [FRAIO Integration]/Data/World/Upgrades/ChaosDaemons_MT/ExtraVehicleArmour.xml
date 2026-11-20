@@ -3,10 +3,6 @@
 	<requiredUpgrades>
 		<upgrade name="ChaosDaemons_MT/Aircraft"/>
 		<upgrade name="ChaosDaemons_MT/Vehicles"/>
-		<upgrade name="ChaosDaemons_MT/Khorne"/>
-		<upgrade name="ChaosDaemons_MT/Nurgle"/>
-		<upgrade name="ChaosDaemons_MT/Slaanesh"/>
-		<upgrade name="ChaosDaemons_MT/Tzeentch"/>
 	</requiredUpgrades>
 	<strategyModifiers>
 		<modifier>

@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <upgrade position="8" icon="Units/ChaosDaemons_MT/SoulGrinder">
-	<requiredUpgrades>
-		<upgrade name="ChaosDaemons_MT/Khorne"/>
-		<upgrade name="ChaosDaemons_MT/Nurgle"/>
-		<upgrade name="ChaosDaemons_MT/Tzeentch"/>
-		<upgrade name="ChaosDaemons_MT/Slaanesh"/>
-	</requiredUpgrades>
 	<strategyModifiers>
 		<modifier>
 			<effects>

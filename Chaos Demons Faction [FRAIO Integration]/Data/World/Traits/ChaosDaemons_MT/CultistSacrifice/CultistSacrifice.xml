@@ -8,7 +8,7 @@
 				</building>
 			</conditions>
 			<effects>
-				<growth mul="0.5"/>
+				<growth mul="0.33"/>
 			</effects>
 		</modifier>
 	</modifiers>

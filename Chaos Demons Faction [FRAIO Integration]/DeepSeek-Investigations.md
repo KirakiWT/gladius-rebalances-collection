@@ -458,3 +458,36 @@ Greater Daemons имеют обычный Daemon (33% invulnerable damage reduct
 3. **Не считать копию из AIO автоматически правильной для этой фракции.** Копия даёт надёжный baseline, но согласованные особенности Chaos Daemons (Marks, upkeep Khorne, daemon protections, Shadow) могут требовать локального отличия.
 4. **Считать все перечисленные production lists и gating историческим снимком.** Перед реализацией повторно прочитать актуальные файлы репозитория: предыдущая нейросеть могла уже внести изменения после исходного лога.
 
+
+
+## 15. Журнал изменений: серия 1 (реализация P0)
+
+Все правки — только в папке мода. Игровой тест не проводился.
+
+### Исправлено
+- **DreadMarshal**: опечатка `Unidvided` → `Undivided` (DreadMarshal.xml, DreadMarshalUndivided.xml); `DreadMarshalTzeentch` проверял марку Slaanesh → теперь Tzeentch; в `DreadMarshalKhorne` добавлено `<allied/>`. Способность Chaos Lord теперь выдаёт союзникам трейт по их марке (Undivided/Khorne/Nurgle/Slaanesh/Tzeentch), а не пустой базовый `DreadMarshal` (он остался неиспользуемым).
+- **Scintillating Legion**: пустой эффект заменён на `rangedDamageReduction +0.17` (EN/RU описание обновлено; описание Shield отделено от описания Legion).
+- **Shadow of Chaos**: Slaanesh — `ignoreZoneOfControl` перенесён в видимый модификатор (пустой убран); Tzeentch — добавлен `ShadowPact` (−0.17 потерь морали); Undivided — убран дублирующий `ShadowPact` (было −0.34, стало −0.17; ShadowPact для Undivided теперь без отдельного эффекта).
+- **Legions**: радиус ауры у Lord of Change / Keeper of Secrets / Great Unclean One / Bloodthirster 100 → 5. У Belakor оставлен 100 (глобальное исключение).
+- **Lord of Skulls**: добавлен `ShadowOfChaos/Khorne`; жертва SkullLordPact теперь требует марку Khorne (и по-прежнему не-героя).
+- **Great Unclean One**: HP 80 → 100; NurgleAscension1/2: `hitpointsMax mul` 0.63/0.87 → 2.0/2.0 (ожидаемо 100/300/500 при аддитивном сложении mul; проверить в игре). FesteringBulk (+120% входящего урона) оставлен как сознательное решение. Описания EN/RU обновлены.
+- **Жертвоприношение культиста**: рост `mul` 0.5 → 0.33.
+- Опечатка `viisble` → `visible` в 5 юнитах (Legion-способности и Belakor; теперь их модификаторы видимы в UI).
+
+### Проверено и признано НЕ багом
+- **Belakor** не производится ни одним зданием (ссылка только в стартовой армии) — пункт аудита неактуален. Статы (18 HP / 8 брони) не менялись: нужны решения.
+- **Юнит `ChaosDaemons_MT/Headquarters`** используется как тип HQ в условиях CultistSacrifice, RiteOfPestilence и способностях Cultist — это не мёртвый контент, удалять нельзя.
+- **Locus of Diabolical Purpose**: условие Khorne верное (у каждого бога по 2 Locus: у Khorne — Unstoppable Fury и Diabolical Purpose). Расхождение только в иконке (Nurgle/Bloated).
+- **HQ**: лояльность +17 уже стоит (Buildings/Headquarters.xml).
+
+### Не сделано / ждёт решения
+- Остальные Greater Daemons (Bloodthirster, Keeper, Lord of Change): нужны целевые HP/броня/Ascension по аналогии с GUO.
+- Gating пантеона (Heralds/Skullcannon/SoulGrinder/ExtraVehicleArmour требуют всех 4 богов), экономика (Housing/Aircraft/CityTier2), Heralds, Ascension Khorne/Slaanesh/Tzeentch, сокращение смертного ростера, проекция Shadow у города, Locus-стек, Mark of Tzeentch `meleeDamageTaken`, проверка .ext-апгрейдов оружия.
+
+
+## 16. Журнал изменений: серия 2 (доступность по богам)
+
+- `Heralds`, `Skullcannon`, `SoulGrinder`: убрано требование всех четырёх богов. Юниты по-прежнему производятся в зданиях своих богов, а здание бога открывается его собственным апгрейдом, поэтому для двух выбранных богов нужные юниты доступны.
+- `ExtraVehicleArmour`: убраны четыре бога, остались `Aircraft` и `Vehicles`.
+- Граф зависимостей проверен скриптом: 76 узлов, ссылок на несуществующие апгрейды нет, циклов нет.
+- Не менялось: цена/темп исследования апгрейдов богов (пункт «третий и четвёртый бог должны быть невыгодны» остаётся открытым, нужен тест темпа).

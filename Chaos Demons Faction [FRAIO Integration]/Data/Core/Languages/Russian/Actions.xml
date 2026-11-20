@@ -130,7 +130,7 @@
 	<entry name="ChaosDaemons_MT/TreasonOfTzeentchDescription" value="Оглушает вражеский отряд."/>
 	<entry name="ChaosDaemons_MT/TreasonOfTzeentchFlavor" value="Псайкер проникает в разум своей жертвы, подчиняя ее волю и обращая ее против ее же союзников."/>
 	<entry name="ChaosDaemons_MT/ScintillatingLegion" value="<string name='Traits/ChaosDaemons_MT/ScintillatingLegion'/>"/>
-	<entry name="ChaosDaemons_MT/ScintillatingLegionDescription" value="Дарует вашим слугам Тзинча щит, который активируется при атаке."/>
+	<entry name="ChaosDaemons_MT/ScintillatingLegionDescription" value="Дарует вашим слугам Тзинча снижение урона от дальних атак и щит, который активируется при атаке."/>
 	<entry name="ChaosDaemons_MT/ScintillatingLegionFlavor" value="<string name='Traits/ChaosDaemons_MT/ScintillatingLegionFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/WreathedInShades" value="<string name='Traits/ChaosDaemons_MT/WreathedInShades'/>"/>
 	<entry name="ChaosDaemons_MT/WreathedInShadesDescription" value="Распространяет вашу Тень Хаоса на соседние клетки и увеличивает точность и снижение дальнего урона, пока это действует."/>

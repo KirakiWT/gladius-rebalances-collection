@@ -121,10 +121,10 @@
 	<entry name="ChaosDaemons_MT/PossessionDescription" value="Убийство вражеских отрядов превращает их в союзных малых демонов."/>
 	<entry name="ChaosDaemons_MT/PossessionFlavor" value="<string name='Traits/ChaosSpaceMarines/PossessionFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/ScintillatingLegion" value="Мерцающий легион"/>
-	<entry name="ChaosDaemons_MT/ScintillatingLegionDescription" value="Предоставляет щит, который активируется при атаке."/>
+	<entry name="ChaosDaemons_MT/ScintillatingLegionDescription" value="Снижает урон, получаемый от дальних атак."/>
 	<entry name="ChaosDaemons_MT/ScintillatingLegionFlavor" value="Каперсы и кудахтанье в бесконечном потоке трансмогрифицирующих изменений, демонические легионы Тзинча обрушивают калейдоскопическое безумие на своих врагов. Злобные Владыки Перемен, облаченные в разрушающие рассудок существа, владеют грубой магией, обладая легкостью дыхания. Они собирают свои орды бедлама, одновременно превращая кричащих смертных в кучи мутантной плоти или проливая свет на саму реальность."/>
 	<entry name="ChaosDaemons_MT/ScintillatingLegionShield" value="Мерцающий легион: Щит"/>
-	<entry name="ChaosDaemons_MT/ScintillatingLegionShieldDescription" value="<string name='Traits/ChaosDaemons_MT/ScintillatingLegionDescription'/>"/>
+	<entry name="ChaosDaemons_MT/ScintillatingLegionShieldDescription" value="Предоставляет щит, который активируется при атаке."/>
 	<entry name="ChaosDaemons_MT/ScintillatingLegionShieldFlavor" value="<string name='Traits/ChaosDaemons_MT/ScintillatingLegionFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/ScreamerBite" value="Укус Крикуна"/>
 	<entry name="ChaosDaemons_MT/ScreamerBiteDescription" value="Увеличивает бронепробиваемость против чудовищных существ и транспортных средств."/>
@@ -296,10 +296,10 @@
 	<entry name="ChaosDaemons_MT/KhorneAscension2Description" value="+75% здоровья, +1 к броне и +35% урона. Восстанавливает часть нанесённого урона."/>
 	<entry name="ChaosDaemons_MT/KhorneAscension2Flavor" value="На пике могущества великий демон выходит против боевых машин и титанов."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension1" value="Дар Дедушки"/>
-	<entry name="ChaosDaemons_MT/NurgleAscension1Description" value="+63% здоровья и +15% урона."/>
+	<entry name="ChaosDaemons_MT/NurgleAscension1Description" value="+200% здоровья и +15% урона."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension1Flavor" value="Чем дольше демон бродит по материальному миру, тем больше Варпа он приносит с собой."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension2" value="Гнилой колосс"/>
-	<entry name="ChaosDaemons_MT/NurgleAscension2Description" value="+87% здоровья и +35% урона. Восстанавливает 4 здоровья каждый ход."/>
+	<entry name="ChaosDaemons_MT/NurgleAscension2Description" value="+200% здоровья и +35% урона. Восстанавливает 4 здоровья каждый ход."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension2Flavor" value="На пике могущества великий демон выходит против боевых машин и титанов."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension1" value="Эйфорическое вознесение"/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension1Description" value="+15% здоровья, +1 к броне и +15% урона."/>

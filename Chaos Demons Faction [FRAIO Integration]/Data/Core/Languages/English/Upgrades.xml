@@ -278,10 +278,10 @@
 	<entry name="ChaosDaemons_MT/KhorneAscension2Description" value="The Bloodthirster gains +75% hitpoints, +1 armor and +35% damage. Heals a part of the damage dealt. Matches the titans of other factions."/>
 	<entry name="ChaosDaemons_MT/KhorneAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension1" value="Grandfather’s Gift"/>
-	<entry name="ChaosDaemons_MT/NurgleAscension1Description" value="The Great Unclean One gains +63% hitpoints and +15% damage."/>
+	<entry name="ChaosDaemons_MT/NurgleAscension1Description" value="The Great Unclean One gains +200% hitpoints and +15% damage."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension1Flavor" value="The longer the daemon walks in the material realm, the more of the Warp it brings with it."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension2" value="Rotten Colossus"/>
-	<entry name="ChaosDaemons_MT/NurgleAscension2Description" value="The Great Unclean One gains +87% hitpoints and +35% damage. Regenerates 4 hitpoints every turn. Matches the titans of other factions."/>
+	<entry name="ChaosDaemons_MT/NurgleAscension2Description" value="The Great Unclean One gains +200% hitpoints and +35% damage. Regenerates 4 hitpoints every turn. Matches the titans of other factions."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension1" value="Euphoric Ascension"/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension1Description" value="The Keeper of Secrets gains +15% hitpoints, +1 armor and +15% damage."/>

@@ -13,18 +13,6 @@
 				<moraleLossFactor add="-0.17"/>
 			</effects>
 		</modifier>
-		<modifier requiredUpgrade="ChaosDaemons_MT/ShadowPact">
-			<conditions>
-				<unit>
-					<allied/>
-					<trait name="ChaosDaemons_MT/ShadowOfChaos"/>
-					<trait name="ChaosDaemons_MT/Undivided"/>
-				</unit>
-			</conditions>
-			<effects>
-				<moraleLossFactor add="-0.17"/>
-			</effects>
-		</modifier>
 		<modifier requiredUpgrade="ChaosDaemons_MT/CorruptRealspace">
 			<conditions>
 				<unit>

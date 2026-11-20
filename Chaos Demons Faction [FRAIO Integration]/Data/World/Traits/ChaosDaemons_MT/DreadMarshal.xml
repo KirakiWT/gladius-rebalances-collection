@@ -5,7 +5,7 @@
 			<conditions>
 				<unit>
 					<allied/>
-					<noTrait name="ChaosDaemons_MT/Unidvided"/>
+					<noTrait name="ChaosDaemons_MT/Undivided"/>
 					<noTrait name="ChaosDaemons_MT/Khorne"/>
 					<noTrait name="ChaosDaemons_MT/Slaanesh"/>
 					<noTrait name="ChaosDaemons_MT/Nurgle"/>

@@ -9,15 +9,6 @@
 					<trait name="ChaosDaemons_MT/Slaanesh"/>
 				</unit>
 			</conditions>
-		</modifier>
-		<modifier visible="0">
-			<conditions>
-				<unit>
-					<allied/>
-					<trait name="ChaosDaemons_MT/ShadowOfChaos"/>
-					<trait name="ChaosDaemons_MT/Slaanesh"/>
-				</unit>
-			</conditions>
 			<effects>
 				<ignoreZoneOfControl add="1"/>
 			</effects>

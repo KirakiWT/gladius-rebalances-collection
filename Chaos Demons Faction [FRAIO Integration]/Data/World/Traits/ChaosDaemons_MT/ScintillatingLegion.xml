@@ -8,6 +8,9 @@
 					<trait name="ChaosDaemons_MT/Tzeentch"/>
 				</unit>
 			</conditions>
+			<effects>
+				<rangedDamageReduction add="0.17"/>
+			</effects>
 		</modifier>
 	</modifiers>
 </trait>

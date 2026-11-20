@@ -155,6 +155,7 @@
 		<trait name="Vehicle"/>
 		<trait name="Walker"/>
 		<trait name="ChaosDaemons_MT/Khorne"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Khorne"/>
 		<trait name="ChaosDaemons_MT/ReinforcedHulls" requiredUpgrade="ChaosDaemons_MT/ExtraVehicleArmour"/>
 	</traits>
 </unit>

@@ -5,7 +5,7 @@
 			<conditions>
 				<unit>
 					<allied/>
-					<trait name="ChaosDaemons_MT/Slaanesh"/>
+					<trait name="ChaosDaemons_MT/Tzeentch"/>
 				</unit>
 			</conditions>
 			<effects>

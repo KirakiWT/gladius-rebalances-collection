@@ -175,7 +175,7 @@
 	<entry name="ChaosDaemons_MT/TreasonOfTzeentchFlavor" value="The psyker reaches into the mind of its victim, subverting their will and turning them upon their own allies."/>
 
 	<entry name="ChaosDaemons_MT/ScintillatingLegion" value="<string name='Traits/ChaosDaemons_MT/ScintillatingLegion'/>"/>
-	<entry name="ChaosDaemons_MT/ScintillatingLegionDescription" value="Grant your servants of Tzeentch a shield that activates when attacked."/>
+	<entry name="ChaosDaemons_MT/ScintillatingLegionDescription" value="Grant your servants of Tzeentch reduced ranged damage taken and a shield that activates when attacked."/>
 	<entry name="ChaosDaemons_MT/ScintillatingLegionFlavor" value="<string name='Traits/ChaosDaemons_MT/ScintillatingLegionFlavor'/>"/>
 
 	<entry name="ChaosDaemons_MT/WreathedInShades" value="<string name='Traits/ChaosDaemons_MT/WreathedInShades'/>"/>
