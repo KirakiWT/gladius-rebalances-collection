@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/ChaosSpaceMarines/FallenCanoness/Diffuse"/>
+		<texture name="Units/ChaosSpaceMarines/FallenCanoness/Normal"/>
+		<texture name="Units/ChaosSpaceMarines/FallenCanoness/SIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>
