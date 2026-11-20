@@ -419,7 +419,6 @@
 		<trait name="Fleet"/>
 		<trait name="ChaosDaemons_MT/ContemptForSorcery"/>
 		<trait name="ChaosDaemons_MT/Khorne"/>
-		<trait name="ChaosDaemons_MT/KhorneAscension1" requiredUpgrade="ChaosDaemons_MT/KhorneAscension1"/>
 		<trait name="ChaosDaemons_MT/KhorneAscension2" requiredUpgrade="ChaosDaemons_MT/KhorneAscension2"/>
 		<trait name="ChaosDaemons_MT/ShadowOfChaos/Undivided"/>
 		<trait name="ChaosDaemons_MT/ShadowOfChaos/Khorne"/>

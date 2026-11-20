@@ -344,7 +344,7 @@ Greater Daemons имеют обычный Daemon (33% invulnerable damage reduct
 - [ ] Heralds остаются героями; каждый имеет оправданную нишу, стоимость и живучесть.
 - [ ] Belakor не производится одновременно со стартовой выдачей; характеристики и эффект Belakor/Dead работают ожидаемо.
 - [ ] Lord of Skulls получает правильные Khorne/Daemon-механики, не складывает чрезмерные защиты и не призывается через дешёвую неподходящую жертву.
-- [ ] Festering Bulk и armor Great Unclean One проверены на фактический входящий урон/живучесть.
+- [x] Festering Bulk удалён (серия 4); armor Great Unclean One = 6; осталось проверить живучесть GUO в игре.
 
 ### Ритуалы, Locus и оружейные апгрейды
 - [ ] Cultist sacrifice даёт +33% роста на ожидаемую длительность и корректно расходует культиста; бонусы OurLivesForTheGods по богам не складываются ошибочно.
@@ -470,7 +470,7 @@ Greater Daemons имеют обычный Daemon (33% invulnerable damage reduct
 - **Shadow of Chaos**: Slaanesh — `ignoreZoneOfControl` перенесён в видимый модификатор (пустой убран); Tzeentch — добавлен `ShadowPact` (−0.17 потерь морали); Undivided — убран дублирующий `ShadowPact` (было −0.34, стало −0.17; ShadowPact для Undivided теперь без отдельного эффекта).
 - **Legions**: радиус ауры у Lord of Change / Keeper of Secrets / Great Unclean One / Bloodthirster 100 → 5. У Belakor оставлен 100 (глобальное исключение).
 - **Lord of Skulls**: добавлен `ShadowOfChaos/Khorne`; жертва SkullLordPact теперь требует марку Khorne (и по-прежнему не-героя).
-- **Great Unclean One**: HP 80 → 100; NurgleAscension1/2: `hitpointsMax mul` 0.63/0.87 → 2.0/2.0 (ожидаемо 100/300/500 при аддитивном сложении mul; проверить в игре). FesteringBulk (+120% входящего урона) оставлен как сознательное решение. Описания EN/RU обновлены.
+- **Great Unclean One**: (устарело, см. серию 4) в серии 1 HP были подняты до 100/300/500 и сохранён FesteringBulk — это пересмотрено.
 - **Жертвоприношение культиста**: рост `mul` 0.5 → 0.33.
 - Опечатка `viisble` → `visible` в 5 юнитах (Legion-способности и Belakor; теперь их модификаторы видимы в UI).
 
@@ -481,7 +481,7 @@ Greater Daemons имеют обычный Daemon (33% invulnerable damage reduct
 - **HQ**: лояльность +17 уже стоит (Buildings/Headquarters.xml).
 
 ### Не сделано / ждёт решения
-- Остальные Greater Daemons (Bloodthirster, Keeper, Lord of Change): нужны целевые HP/броня/Ascension по аналогии с GUO.
+- Остальные Greater Daemons: цели HP/брони/Ascension заданы в серии 3.
 - Gating пантеона (Heralds/Skullcannon/SoulGrinder/ExtraVehicleArmour требуют всех 4 богов), экономика (Housing/Aircraft/CityTier2), Heralds, Ascension Khorne/Slaanesh/Tzeentch, сокращение смертного ростера, проекция Shadow у города, Locus-стек, Mark of Tzeentch `meleeDamageTaken`, проверка .ext-апгрейдов оружия.
 
 
@@ -511,8 +511,8 @@ Greater Daemons имеют обычный Daemon (33% invulnerable damage reduct
 
 ## 18. Журнал изменений: серия 3
 
-- **Greater Daemons**: все четыре получили `Unique`. Базовые HP: Bloodthirster 44→40, Keeper 44→40, Lord of Change 40→36 (GUO 100, см. серию 1).
-- **Ascension** (Khorne/Slaanesh/Tzeentch): HP +35% и +35% (было +15%/+75%), урон Asc2 +20% (было +35%). Nurgle: +200%/+200% HP, урон Asc2 +20%. Ориентир на 10 тире: ~68 HP × 50% invulnerable у Bloodthirster/Keeper, ~61 у Lord of Change, без учёта уровней героя. Описания EN/RU обновлены.
+- **Greater Daemons**: все четыре получили `Unique`. Базовые HP: Bloodthirster 44→40, Keeper 44→40, Lord of Change 40→36; Great Unclean One — см. серию 4.
+- **Ascension** (Khorne/Slaanesh/Tzeentch): HP +35% и +35% (было +15%/+75%), урон Asc2 +20% (было +35%). Nurgle: +35%/+35% HP (после серии 4), урон Asc2 +20%, +4 HP/ход на Asc2. Ориентир на 10 тире: ~68 HP × 50% invulnerable у Bloodthirster/Keeper, ~61 у Lord of Change, без учёта уровней героя. Описания EN/RU обновлены.
 - **Belakor**: HP 18→40 (стартовый уникальный герой; в HQ не производится).
 - **Heralds** (остаются героями): Bloodmaster 14 HP/100 влияния, Changecaster 12/100, Sloppity Bilepiper 14/100, Infernal Enrapturess 12/90.
 - **Warp Rift**: 40→60 влияния, кулдаун 3→5.
@@ -522,8 +522,8 @@ Greater Daemons имеют обычный Daemon (33% invulnerable damage reduct
 - Проверено: `economy` (Housing 30/40, Aircraft 36/50, CityTier2 позиция 4, Loyalty 30/60 +6/+4) уже совпадает с AIO. Mark of Tzeentch `meleeDamageTaken mul=0.50` — это штраф, скопированный из AIO, не менялся.
 
 ## 19. Чек-лист для проверки в игре
-1. Greater Daemons: один на тип (нельзя построить второго); HP на 7/8/10 тире (GUO 100/300/500, остальные ~40/54/68); при необходимости подправить `mul` в Ascension.
-2. GUO: реально ли `damageTaken mul=1.2` даёт +120% входящего урона и не слишком ли высок эффективный HP при 500.
+1. Greater Daemons: один на тип (нельзя построить второго); HP на 7/8/10 тире (GUO ≈ 60/77/94 с учётом +25% от Nurgle-марки, остальные ~40/54/68); при необходимости подправить `mul` в Ascension.
+2. GUO без Festering Bulk: роль танка (больше HP и регенерации, чем у других, но броня 6 и слабее урон); проверить, что он не доминирует над Bloodthirster/Keeper/Lord of Change и не слишком слаб в атаке.
 3. Dread Marshal: все марки получают свой бафф на 3 хода; Khorne +33% урона.
 4. Scintillating Legion: −17% урона от дальнего боя; радиус легионов 5, Belakor глобально.
 5. Shadow of Chaos: Slaanesh игнорирует ZoC, Tzeentch получает ShadowPact, Undivided не −0.34; HQ проецирует радиус 2.
@@ -533,3 +533,22 @@ Greater Daemons имеют обычный Daemon (33% invulnerable damage reduct
 9. Жертвоприношение культиста +33%; Warp Rift 60/кд 5; Locus 6 влияния; Belakor 40 HP, после смерти дебафф `Dead`.
 10. Оружейные апгрейды (.ext): исследовать только демонический `BoltDamage`/`LasDamage`/`MeleeDamage`/`BlastDamage` и убедиться, что урон растёт.
 11. Загрузка мода без ошибок в логе (удалённые апгрейды Hydra/Leman Russ/Bullgryn/HeavyWeaponsSquad больше нигде не упоминаются).
+
+
+## 20. Журнал изменений: серия 4 (Great Unclean One)
+
+Решение владельца проекта: Nurgle-демон действительно был заметно сильнее остальных (в оригинальном аудите ≈244 HP на 10 тире при 50% неуязвимости) — выровнять с остальными по характеристикам; штраф «+120% получаемого урона» убрать. Старые комментарии и файлы в папке не считать источником правды; актуальны только этот файл и чат DeepSeek.
+- `FesteringBulk`: удалён трейт, ссылка в `GreatUncleanOne.xml` и локализация EN/RU.
+- GUO: HP 100→48, броня 0→6 (между Keeper 6 и Bloodthirster 8). Роль — танк/регенерация: больше всех HP, но слабее в атаке (2 атаки, дальняя точность 6, скорость 3, Nurgle-марка даёт −1 к движению и +25% HP, +10% лечения).
+- NurgleAscension1/2: HP +35%/+35% (как у остальных), урон +15%/+20%, на Asc2 сохранена регенерация +4 HP/ход. Ожидаемое HP: ~60 на 7 тире, ~77 на 8, ~94 на 10 (+ уровни героя) против ~40/54/68 у Bloodthirster/Keeper.
+- Описания Nurgle Ascension (EN/RU) обновлены.
+- Открытый вопрос для теста: при армии 94 HP × 50% неуязвимости × регенерация GUO всё ещё самый живучий; если он по-прежнему доминирует — снизить базовые HP до 44 или убрать +4 HP/ход.
+
+## 21. Журнал изменений: серия 5 (упрощение Ascension, ослабление GUO)
+
+Решение владельца проекта: Greater Daemons хватает одного усиления на 10 тире; апгрейды 10 тира «в порядке» и не пересматриваются. Серия 5 заменяет сведения о GUO и Ascension 1 из разделов 15, 18 и 20.
+- **Удалены апгрейды 8 тира** `KhorneAscension1`, `NurgleAscension1`, `SlaaneshAscension1`, `TzeentchAscension1`, их трейты и ссылки в юнитах, локализация EN/RU. Остальные апгрейды 8 тира (CityTier3, SoulGrinder, LandRaider, Obliterator, HammerOfWrath, LocusOfDiabolicalPurpose, SmokeLauncher) не тронуты.
+- **Апгрейды 10 тира** (`*Ascension2`) не менялись, кроме одного: из-за удаления ступени 1 их требование заменено на апгрейд самого Greater Daemon (`Bloodthirster`/`GreatUncleanOne`/`KeeperOfSecrets`/`LordOfChange`) — тот же, что требовала удалённая ступень. Эффекты (HP +35%, урон +20% и т.д.) прежние.
+- **Great Unclean One**: броня 6 → 3, `meleeAttacks` 2 → 1 (одна атака Bilesword).
+- Ожидаемые HP на 10 тире теперь без бонуса ступени 1: Bloodthirster/Keeper ≈ 54, Lord of Change ≈ 49, GUO ≈ 77 (с +25% от Nurgle-метки), плюс уровни героя; броня Bloodthirster 9, Keeper 6, Lord of Change 5, GUO 3. Если на 10 тире Greater Daemons окажутся слабее титанов, поднять числа в `*Ascension2` (это единственная ступень).
+- Чек-лист: убедиться, что `*Ascension2` исследуется сразу после открытия Greater Daemon и что в списке апгрейдов нет пустой позиции 8 для демонов.

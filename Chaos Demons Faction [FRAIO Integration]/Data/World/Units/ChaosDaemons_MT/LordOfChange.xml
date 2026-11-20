@@ -421,7 +421,6 @@
 		<trait name="Smash"/>
 		<trait name="Hero"/>
 		<trait name="ChaosDaemons_MT/Tzeentch"/>
-		<trait name="ChaosDaemons_MT/TzeentchAscension1" requiredUpgrade="ChaosDaemons_MT/TzeentchAscension1"/>
 		<trait name="ChaosDaemons_MT/TzeentchAscension2" requiredUpgrade="ChaosDaemons_MT/TzeentchAscension2"/>
 		<trait name="SoulBlaze"/>
 		<trait name="ChaosDaemons_MT/ShadowOfChaos/Undivided"/>

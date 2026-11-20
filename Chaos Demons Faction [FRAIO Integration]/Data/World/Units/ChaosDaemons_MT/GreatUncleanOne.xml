@@ -33,10 +33,10 @@
 	<modifiers>
 		<modifier visible="0">
 			<effects>
-				<armor base="6"/>
+				<armor base="3"/>
 				<hitpointsMax base="48"/>
 				<meleeAccuracy base="10"/>
-				<meleeAttacks base="2"/>
+				<meleeAttacks base="1"/>
 				<strengthDamage base="4"/>
 				<moraleMax base="12"/>
 				<movementMax base="3"/>
@@ -324,7 +324,6 @@
 		<trait name="Smash"/>
 		<trait name="Hero"/>
 		<trait name="ChaosDaemons_MT/Nurgle"/>
-		<trait name="ChaosDaemons_MT/NurgleAscension1" requiredUpgrade="ChaosDaemons_MT/NurgleAscension1"/>
 		<trait name="ChaosDaemons_MT/NurgleAscension2" requiredUpgrade="ChaosDaemons_MT/NurgleAscension2"/>
 		<trait name="Regeneration"/>
 		<trait name="ChaosDaemons_MT/ShadowOfChaos/Undivided"/>
