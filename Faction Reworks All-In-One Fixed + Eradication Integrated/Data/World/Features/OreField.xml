@@ -32,9 +32,9 @@
 			<effects>
 				<buildingSlots max="0"/>
 				<requisitions mul="0.2"/>
-				<requisitions add="3"/>
+				<requisitions add="2"/>
 				<ore mul="0.2"/>
-				<ore add="3"/>
+				<ore add="2"/>
 			</effects>
 		</modifier>
 		<modifier>
@@ -45,7 +45,7 @@
 			</conditions>
 			<effects>
 				<influence mul="0.2"/>
-				<influence add="3"/>
+				<influence add="2"/>
 			</effects>
 		</modifier>
 		<modifier requiredUpgrade="Eldar/MaidenWorldMastery2">
