@@ -35,9 +35,7 @@
 	<actions>
 		<produceUnit unit="ChaosDaemons_MT/ChaosCultist"/>
 		<produceUnit unit="ChaosDaemons_MT/ChaosSpaceMarine"/>
-		<produceUnit unit="ChaosDaemons_MT/HeavyWeaponsSquad" requiredUpgrade="ChaosDaemons_MT/HeavyWeaponsSquad"/>
 		<produceUnit unit="ChaosDaemons_MT/Havoc" requiredUpgrade="ChaosDaemons_MT/Havoc"/>
-		<produceUnit unit="ChaosDaemons_MT/Bullgryn" requiredUpgrade="ChaosDaemons_MT/Bullgryn"/>
 		<produceUnit unit="ChaosDaemons_MT/WarpTalon" requiredUpgrade="ChaosDaemons_MT/WarpTalon"/>
 		<produceUnit unit="ChaosDaemons_MT/Obliterator" requiredUpgrade="ChaosDaemons_MT/Obliterator"/>
 	</actions>

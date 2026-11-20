@@ -13,18 +13,14 @@
 				<cityRadius add="1"/>
 				<energy add="6"/>
 				<food add="6"/>
-				<loyalty add="6"/>
+				<loyalty add="17"/>
 				<influence add="6"/>
 				<ore add="6"/>
 				<populationLimit add="6"/>
 				<research add="6"/>
-				<production add="6"/>
 			</effects>
 		</modifier>
 	</modifiers>
-	<actions>
-		<produceUnit unit="ChaosDaemons_MT/Belakor"/>
-	</actions>
 	<traits>
 		<trait name="ChaosSpaceMarines/CityTier2" requiredUpgrade="ChaosDaemons_MT/CityTier2"/>
 		<trait name="ChaosSpaceMarines/CityTier3" requiredUpgrade="ChaosDaemons_MT/CityTier3"/>

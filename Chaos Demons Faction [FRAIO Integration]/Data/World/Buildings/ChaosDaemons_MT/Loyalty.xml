@@ -3,8 +3,8 @@
 	<modifiers>
 		<modifier visible="0">
 			<effects>
-				<productionCost base="36"/>
-				<oreCost base="50"/>
+				<productionCost base="30"/>
+				<oreCost base="60"/>
 				<populationRequired base="1"/>
 				<slotsRequired base="1"/>
 				<energyUpkeep add="2"/>
@@ -13,6 +13,7 @@
 		<modifier>
 			<effects>
 				<loyalty add="6"/>
+				<production add="4"/>
 			</effects>
 		</modifier>
 	</modifiers>

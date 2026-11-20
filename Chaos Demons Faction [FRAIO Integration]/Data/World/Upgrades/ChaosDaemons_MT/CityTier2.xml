@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="5" icon="Upgrades/CityTier2">
+<upgrade position="4" icon="Upgrades/CityTier2">
 	<strategyModifiers>
 		<modifier>
 			<effects>

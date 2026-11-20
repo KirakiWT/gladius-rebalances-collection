@@ -33,11 +33,8 @@
 		</modifier>
 	</strategyModifiers>
 	<actions>
-		<produceUnit unit="ChaosDaemons_MT/ScoutSentinel"/>
-		<produceUnit unit="ChaosDaemons_MT/Hydra" requiredUpgrade="ChaosDaemons_MT/Hydra"/>
 		<produceUnit unit="ChaosDaemons_MT/Maulerfiend" requiredUpgrade="ChaosDaemons_MT/Maulerfiend"/>
 		<produceUnit unit="ChaosDaemons_MT/WarDogStalker" requiredUpgrade="ChaosDaemons_MT/WarDogStalker"/>
-		<produceUnit unit="ChaosDaemons_MT/LemanRussBattleTank" requiredUpgrade="ChaosDaemons_MT/LemanRussBattleTank"/>
 		<produceUnit unit="ChaosDaemons_MT/LandRaider" requiredUpgrade="ChaosDaemons_MT/LandRaider"/>
 		<produceUnit unit="ChaosDaemons_MT/KnightDesecrator" requiredUpgrade="ChaosDaemons_MT/KnightDesecrator"/>
 	</actions>

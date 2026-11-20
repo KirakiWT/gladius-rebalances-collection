@@ -33,7 +33,6 @@
 		</modifier>
 	</strategyModifiers>
 	<actions>
-		<produceUnit unit="ChaosDaemons_MT/LordCommissar"/>
 		<produceUnit unit="ChaosDaemons_MT/ChaosLord" requiredUpgrade="ChaosDaemons_MT/ChaosLord"/>
 		<produceUnit unit="ChaosDaemons_MT/MasterOfPossession" requiredUpgrade="ChaosDaemons_MT/MasterOfPossession"/>
 	</actions>
