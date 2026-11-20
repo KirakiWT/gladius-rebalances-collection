@@ -50,7 +50,7 @@ The material definition already refers to the Diffuse, Normal and SIC resource n
 
 ## Load order and testing
 
-In the Gladius mod list, place **Faction Reworks All-In-One above this add-on** and **Fallen Battle Sisters for Chaos below it**. The add-on's `Infantry.xml.ext` then merges the Fallen Battle Sisters production entry into the All-In-One `ChaosSpaceMarines/Infantry` building (Abominator's Genelab).
+In the Gladius mod list, place **Faction Reworks All-In-One above this add-on** and **Fallen Battle Sisters for Chaos below it**. The add-on extends the All-In-One `ChaosSpaceMarines/Cult` and `ChaosSpaceMarines/Heroes` buildings to register Fallen Battle Sisters (both display as “Cult of Chaos”), and extends `ChaosSpaceMarines/AdvancedInfantry` to register Fallen Canoness in the Hall of the Everchosen.
 
 This is a test build and has **not** been tested in-game. Confirm mesh compilation, animation playback, muzzle/bone names, animation event timings, production availability, texture appearance and localization in a local match. English and Russian localization is supplied through partial `Units.xml`, `Upgrades.xml` and `Traits.xml` files under each language folder. Core language `.xml.ext` sidecars are intentionally not used.
 
@@ -76,7 +76,7 @@ The 2026-11-19 startup log reports a fatal engine assertion `frameRate == 30` fo
 
 ## Production building
 
-Fallen Battle Sister is already registered in `Data/World/Buildings/ChaosSpaceMarines/Infantry.xml.ext`, which extends the `ChaosSpaceMarines/Infantry` building localized by All-In-One as **Abominator's Genelab**. Production is gated by the tier-IV `ChaosSpaceMarines/FallenBattleSister` technology. The latest log records the local All-In-One folder as disabled but also records an enabled Workshop item at `steamapps/workshop/content/489630/3841700987`; the user confirms that enabled Workshop item is the same All-In-One version. The Workshop dependency was therefore active in that run.
+Fallen Battle Sisters are registered in both `Cult.xml.ext` and `Heroes.xml.ext`: All-In-One assigns the same localized name, **Cult of Chaos / Культ Хаоса**, to two internal building IDs (`ChaosSpaceMarines/Cult` and `ChaosSpaceMarines/Heroes`). Their production is gated by the tier-IV `ChaosSpaceMarines/FallenBattleSister` technology. Fallen Canoness is registered in `AdvancedInfantry.xml.ext` for the **Hall of the Everchosen**; her position-5 technology requires both `ChaosSpaceMarines/FallenBattleSister` and `ChaosSpaceMarines/AdvancedInfantry`. The latest log records the local All-In-One folder as disabled but also records an enabled Workshop item at `steamapps/workshop/content/489630/3841700987`; the user confirms that enabled Workshop item is the same All-In-One version. The Workshop dependency was therefore active in that run.
 
 
 ## Fallen Canoness
