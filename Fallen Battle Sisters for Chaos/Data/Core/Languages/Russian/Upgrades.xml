@@ -3,4 +3,7 @@
 	<entry name="ChaosSpaceMarines/FallenBattleSister" value="Павшие Сёстры Битвы"/>
 	<entry name="ChaosSpaceMarines/FallenBattleSisterDescription" value="Открывает производство отряда Павших Сестёр Битвы."/>
 	<entry name="ChaosSpaceMarines/FallenBattleSisterFlavor" value="Осквернённые остатки Адепта Сороритас, теперь сражающиеся под знамёнами Хаоса."/>
+	<entry name="ChaosSpaceMarines/FallenCanoness" value="Павшая Канонесса"/>
+	<entry name="ChaosSpaceMarines/FallenCanonessDescription" value="Открывает производство Павшей Канонессы."/>
+	<entry name="ChaosSpaceMarines/FallenCanonessFlavor" value="Бывшая командующая Адепта Сороритас, теперь присягнувшая силам Хаоса."/>
 </language>

@@ -3,4 +3,7 @@
 	<entry name="ChaosSpaceMarines/FallenBattleSister" value="Fallen Battle Sisters"/>
 	<entry name="ChaosSpaceMarines/FallenBattleSisterDescription" value="A six-model infantry squad of corrupted Battle Sisters. Armed with boltguns and close-combat weapons."/>
 	<entry name="ChaosSpaceMarines/FallenBattleSisterFlavor" value="Once sworn to the Emperor, these Sisters have been cast into the service of Chaos. Their discipline and bolter drills remain, but their faith has turned to darker masters."/>
+	<entry name="ChaosSpaceMarines/FallenCanoness" value="Fallen Canoness"/>
+	<entry name="ChaosSpaceMarines/FallenCanonessDescription" value="A fallen Canoness hero armed with a power sword and combi-flamer."/>
+	<entry name="ChaosSpaceMarines/FallenCanonessFlavor" value="Once a commander of the Adepta Sororitas, this Canoness now leads her warriors in the name of Chaos."/>
 </language>

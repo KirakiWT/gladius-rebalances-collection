@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<unit dlc="Supplement11" icon="Units/SistersOfBattle/SaintCelestine">
+<unit dlc="Supplement11" icon="Units/SistersOfBattle/Dominion">
 	<model>
 		<unit mesh="Units/ChaosSpaceMarines/FallenBattleSister"
 				material="Units/ChaosSpaceMarines/FallenBattleSister"
