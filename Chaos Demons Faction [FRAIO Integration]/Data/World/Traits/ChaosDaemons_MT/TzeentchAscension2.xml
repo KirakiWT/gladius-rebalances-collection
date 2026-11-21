@@ -3,8 +3,6 @@
 	<modifiers>
 		<modifier>
 			<effects>
-				<hitpointsMax mul="0.35"/>
-				<armor add="1"/>
 				<strengthDamage mul="0.2"/>
 				<feelNoPainDamageReduction add="0.17"/>
 				<researchPerKillValue add="3"/>
