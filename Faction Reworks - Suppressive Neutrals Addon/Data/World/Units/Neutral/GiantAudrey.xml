@@ -68,6 +68,7 @@
 		</move>
 	</actions>
 	<traits>
+		<trait name="Tyranids/ChameleonicSkin"/>
 		<trait name="MonstrousCreature"/>
 		<trait name="MoveThroughCover"/>
 	</traits>
