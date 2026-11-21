@@ -156,14 +156,66 @@
 - Не оцениваются достижимость всех технологий, полный граф зависимостей, корректность локализации и фактическая работа DLC-gate.
 - Совпадение или отличие XML само по себе не устанавливает, насколько сильнее или слабее фракция в реальной партии.
 
-## 6. Следующие проверки
+## 6. Третий проход: граф улучшений и доступность сущностей
 
-- Проследить все `requiredUpgrade` от действий зданий до upgrade XML, отдельно проверить отсутствующие или недостижимые связи.
+Проверены все 17 XML зданий, 49 XML юнитов и 67 XML улучшений в `Data/World` пакета Chaos Daemons, а также определения фракции и города.
+
+### Проверка ссылок
+
+- 16 уникальных целей `constructBuilding` из зданий имеют соответствующие XML в `World/Buildings/ChaosDaemons_MT`.
+- 39 уникальных целей `produceUnit` имеют соответствующие XML в `World/Units/ChaosDaemons_MT`.
+- Все локальные значения `requiredUpgrade`, обнаруженные в XML зданий, юнитов, фракции и города, соответствуют существующим файлам в `World/Upgrades/ChaosDaemons_MT`.
+- Все ссылки `<requiredUpgrades><upgrade name="..."/>` внутри 67 XML улучшений ведут на существующие локальные upgrade-файлы. В проверенной цепочке циклических зависимостей не обнаружено.
+
+Одна межпакетная ссылка обнаружена в `Units/ChaosDaemons_MT/ChaosCultist.xml`: `ChaosSpaceMarines/ChaosRising`. Она разрешается в AIO по пути `Data/World/Upgrades/ChaosSpaceMarines/ChaosRising.xml`. Это существующая зависимость от базового интегрированного пакета, а не отсутствующий локальный upgrade. Её наличие следует учитывать при использовании Chaos Daemons отдельно от AIO.
+
+### Подтверждённые цепочки prerequisites
+
+| Ветка | Зависимость по XML |
+|---|---|
+| Khorne | Khorne → Bloodthirster → KhorneAscension2 и SkullLordPact |
+| Nurgle | Nurgle → GreatUncleanOne → NurgleAscension2 |
+| Slaanesh | Slaanesh → KeeperOfSecrets → SlaaneshAscension2 |
+| Tzeentch | Tzeentch → LordOfChange → TzeentchAscension2 |
+| Vehicles | Vehicles → Maulerfiend, WarDogStalker, LandRaider, KnightDesecrator и SmokeLauncher |
+| Heroes | Heroes → ChaosLord и MasterOfPossession |
+| Teleport / movement | WarpRift → WarpSurge |
+| Vehicle armour | ExtraVehicleArmour требует одновременно Aircraft и Vehicles |
+| Locus | LocusOfDamnation требует все восемь Locus upgrades; каждый из восьми зависит от соответствующей ветки одного из четырёх богов |
+
+Все перечисленные имена присутствуют в локальном upgrade-дереве. В частности, восемь Locus — это две способности для каждого из Khorne, Nurgle, Slaanesh и Tzeentch.
+
+### Городские улучшения
+
+Локальные `CityTier2.xml` и `CityTier3.xml` существуют. Их Git blob SHA совпадают с соответствующими AIO-файлами Chaos Space Marines. В самих этих двух upgrade XML нет явного `requiredUpgrades` между Tier 2 и Tier 3; Headquarters ссылается на оба локальных улучшения отдельно. Это совпадает с AIO-шаблоном и не выглядит отдельным расхождением Chaos Daemons.
+
+### Юниты без обычного производственного здания
+
+Шесть unit XML существуют, но ни один из 17 проверенных Chaos Daemons buildings не содержит для них `produceUnit`:
+
+- `Bullgryn.xml`
+- `HeavyWeaponsSquad.xml`
+- `Hydra.xml`
+- `LemanRussBattleTank.xml`
+- `LordCommissar.xml`
+- `ScoutSentinel.xml`
+
+В локализации у них есть имена и описания, а их модели используют Astra Militarum / Reinforcements assets. Пока это только кандидаты на неиспользуемые или выдаваемые другим способом определения: отсутствие `produceUnit` в зданиях не доказывает, что юниты нигде не создаются. Эти записи не удалялись и не менялись.
+
+Не следует путать их с сущностями без `produceUnit`, у которых найден другой явный путь появления: Be'lakor входит в стартовый состав фракции; WarpRift создаётся действием фракции; LordOfSkulls вызывается способностью Bloodthirster; Headquarters имеет отдельное служебное определение.
+
+### Итог граф-проверки
+
+На уровне статических ссылок в проверенных зданиях, юнитах, фракции, городе и upgrade prerequisites отсутствующих локальных файлов не найдено. Это подтверждает целостность адресуемых XML-узлов, но не доказывает, что каждый upgrade можно исследовать в реальной партии или что каждая способность срабатывает как задумано. Для такого вывода нужны проверка полного механизма исследования и игровые тесты.
+
+## 7. Следующие проверки
+
 - Сравнить стоимость и параметры основных юнитов Chaos Daemons с релевантными аналогами AIO по одинаковым полям.
 - Отдельно проверить Shadow of Chaos, Locus и эффекты марок по цепочкам Unit → Trait → Feature / Weapon.
+- Проверить в игре доступность шести unit XML без обычного `produceUnit` и определить, задуманы ли они как reinforcement / summon / legacy content.
 - Для условий и способностей, семантика которых зависит от движка, отделить статическую проверку XML от результатов игрового теста.
 
-## 7. Журнал последующих записей
+## 8. Журнал последующих записей
 
 Добавлять сюда только воспроизводимые наблюдения. Для каждой записи указывать дату, точный путь XML, проверенное условие или значение и отдельно — был ли результат подтверждён в игре.
 
