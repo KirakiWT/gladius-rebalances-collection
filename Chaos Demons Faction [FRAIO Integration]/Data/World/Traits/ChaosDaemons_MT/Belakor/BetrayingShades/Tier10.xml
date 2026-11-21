@@ -4,7 +4,6 @@
 		<modifier>
 			<conditions>
 				<player match="Any">
-					<upgrade name="ChaosDaemons_MT/PrimalTerror"/>
 					<upgrade name="ChaosDaemons_MT/RiteOfUnholyPleasure"/>
 					<upgrade name="ChaosDaemons_MT/LasDamage"/>
 					<upgrade name="ChaosDaemons_MT/LordOfChange"/>
