@@ -29,12 +29,12 @@
 		<modifier visible="0">
 			<effects>
 				<armor set="0"/>
-				<hitpointsMax set="3"/>
+				<hitpointsMax set="5"/>
 				<meleeAccuracy set="8"/>
-				<meleeArmorPenetration set="4.0"/>
+				<meleeArmorPenetration set="3.0"/>
 				<meleeAttacks set="1"/>
 				<meleeDamage set="2.0"/>
-				<moraleMax set="6"/>
+				<moraleMax set="8"/>
 				<movementMax set="3"/>
 				<productionCost set="42.0"/>
 			</effects>

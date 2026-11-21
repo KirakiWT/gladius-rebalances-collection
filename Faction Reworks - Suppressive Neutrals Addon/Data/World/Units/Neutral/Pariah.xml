@@ -12,7 +12,7 @@
 	<model>
 		<unit mesh="Units/Neutral/Pariah"
 				material="Units/Neutral/Pariah"
-				scale="1.0 1.0 1.0"
+				scale="1 1 1"
 				idleAnimation="Units/Neutral/PariahIdle"
 				idleAnimationCount="3"
 				idleContinuously="1"
@@ -20,7 +20,7 @@
 				bloodBone="mixamorig:Hips"
 				walker="1"/>
 	</model>
-	<group size="1"/>
+	<group size="4"/>
 	<weapons>
 		<weapon name="SkyFall" slotName="SkyFall" enabled="0"/>
 		<weapon name="SeismicVoid" slotName="SeismicVoid" enabled="0"/>
@@ -28,8 +28,8 @@
 	<modifiers>
 		<modifier visible="0">
 			<effects>
-				<armor set="6"/>
-				<hitpointsMax set="6.0"/>
+				<armor set="1"/>
+				<hitpointsMax set="2.0"/>
 				<meleeAccuracy set="8"/>
 				<meleeArmorPenetration set="0.0"/>
 				<meleeAttacks set="1"/>

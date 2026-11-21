@@ -30,14 +30,14 @@
 	<modifiers>
 		<modifier visible="0">
 			<effects>
-				<armor base="6"/> <!-- %armor base armor=4+ -->
-				<hitpointsMax base="16.0"/> <!-- %hitpointsMax base toughness=5 wounds=4 -->
+				<armor base="7"/> <!-- %armor base armor=4+ -->
+				<hitpointsMax base="25"/> <!-- %hitpointsMax base toughness=5 wounds=4 -->
 				<meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
 				<meleeAttacks base="4"/>
 				<moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
 				<movementMax base="2"/>
 				<productionCost base="48.0"/> <!-- %productionCost base tier=8 factor=1 -->
-				<strengthDamage base="3"/> <!-- %strengthDamage base strength=6 -->
+				<strengthDamage base="3.5"/> <!-- %strengthDamage base strength=6 -->
 			</effects>
 		</modifier>
 	</modifiers>

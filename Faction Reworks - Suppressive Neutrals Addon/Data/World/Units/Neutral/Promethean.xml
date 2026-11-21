@@ -31,11 +31,11 @@
 		<modifier visible="0">
 			<effects>
 				<armor set="9"/>
-				<hitpointsMax set="12.0"/>
+				<hitpointsMax set="18.0"/>
 				<meleeAccuracy set="5"/>
 				<meleeArmorPenetration set="3.0"/>
 				<meleeAttacks set="3"/>
-				<meleeDamage set="3"/>
+				<meleeDamage set="2"/>
 				<moraleMax set="6"/>
 				<movementMax set="3"/>
 				<productionCost set="42.0"/>
@@ -65,7 +65,7 @@
 				<action animation="Units/Neutral/PrometheanMove"/>
 			</model>		
 		</move>
-		<livingIncubator cooldown="35"
+		<livingIncubator cooldown="15"
 				name="LivingPrometheanIncubator"
 				rank="1"
 				rankMax="1">
@@ -97,7 +97,7 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<addUnit name="Neutral/PrometheanYoung" consumedAction="0" consumedMovement="0" levelMin="0" levelMax="6"/>
+										<addUnit name="Neutral/PrometheanYoung" consumedAction="0" consumedMovement="0" levelMin="0" levelMax="4"/>
 									</effects>
 								</modifier>
 							</modifiers>

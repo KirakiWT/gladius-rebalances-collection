@@ -34,7 +34,7 @@
 				<meleeArmorPenetration set="3.0"/>
 				<meleeAttacks set="3"/>
 				<meleeDamage set="3"/>
-				<moraleMax set="6"/>
+				<moraleMax set="10"/>
 				<movementMax set="3"/>
 				<productionCost set="42.0"/>
 			</effects>

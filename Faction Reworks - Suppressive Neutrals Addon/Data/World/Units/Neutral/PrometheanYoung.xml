@@ -28,11 +28,11 @@
 	<modifiers>
 		<modifier visible="0">
 			<effects>
-				<armor set="2"/>
-				<hitpointsMax set="3.0"/>
+				<armor set="5"/>
+				<hitpointsMax set="1.0"/>
 				<meleeArmorPenetration set="0.0"/>
 				<meleeAccuracy set="4"/>
-				<meleeAttacks set="3"/>
+				<meleeAttacks set="2"/>
 				<strengthDamage set="1"/>
 				<moraleMax set="12"/>
 				<movementMax set="4"/>
