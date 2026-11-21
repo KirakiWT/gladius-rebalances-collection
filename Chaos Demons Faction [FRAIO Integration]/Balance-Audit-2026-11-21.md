@@ -267,29 +267,32 @@ Bullgryn имеет особенно понятную историческую �
 
 - `World/Features/ChaosDaemons_MT/ShadowOfChaos.xml` существует и добавляет marker traits `ShadowOfChaos` и `ShadowOfChaosEnemy`.
 - Для Undivided, Khorne, Nurgle, Slaanesh и Tzeentch существуют отдельные trait definitions. Они проверяют наличие Shadow marker и соответствующей марки; в них заданы faction-specific бонусы, а также общие бонусы к morale loss и Energy Upkeep.
-- `ShadowOfChaosEnemy.xml` задаёт базовую добавку `moraleLossFactor +0.17`; дополнительный модификатор `+0.33` закрыт условием `requiredUpgrade="ChaosDaemons_MT/PrimalTerror"`.
-- В том же enemy trait есть отдельный per-turn эффект для `ChaosDaemons_MT/DaemonicTerror`. Upgrade `DaemonicTerror.xml` существует; его нельзя считать заменой PrimalTerror, поскольку эффекты и локализованные описания у них разные.
+- `ShadowOfChaosEnemy.xml` задаёт базовую добавку `moraleLossFactor +0.17`; отдельный дополнительный модификатор `+0.33` всё ещё ссылается на выведенный из состава проекта upgrade ID `ChaosDaemons_MT/PrimalTerror`. Эта ссылка — остаток, а не основание восстанавливать upgrade.
+- В том же enemy trait есть отдельный per-turn эффект для `ChaosDaemons_MT/DaemonicTerror`; `DaemonicTerror.xml` существует и остаётся самостоятельной механикой. Его наличие не меняет решение об исключении PrimalTerror.
 - Среди обнаруженных источников Shadow-маркера: `DarkGlory` добавляет feature на клетки в радиусе 1–3 после убийства врага; Lord Commissar может создать feature через способность; Lord of Change, Changecaster и Warp Rift также содержат faction-specific Shadow marker effects.
 
-### Подтверждённая отсутствующая upgrade definition: PrimalTerror
+### PrimalTerror: исключён из состава проекта
 
-Полный текущий Git tree репозитория не содержит `World/Upgrades/ChaosDaemons_MT/PrimalTerror.xml`. В AIO и ORIGINAL VANILLA FILES определения с таким namespace/id тоже нет.
+**Решение по составу:** `PrimalTerror` должен быть удалён и не должен восстанавливаться как upgrade. Отсутствие `World/Upgrades/ChaosDaemons_MT/PrimalTerror.xml` — ожидаемое состояние, а не запрос на создание нового определения. Не следует придумывать для него стоимость, prerequisites или игровые эффекты.
 
-При этом `ChaosDaemons_MT/PrimalTerror` встречается в действующих XML-ссылках:
+В текущих игровых данных при этом остались три ссылки на исключённый ID:
 
-1. `World/Traits/ChaosDaemons_MT/ShadowOfChaosEnemy.xml` — условие для дополнительного `moraleLossFactor +0.33`.
-2. `World/Traits/ChaosDaemons_MT/Belakor/Tier10.xml` — одно из шести условий для Tier 10 бонусов Be'lakor.
-3. `World/Traits/ChaosDaemons_MT/Belakor/BetrayingShades/Tier10.xml` — условие для дополнительного Tier 10 эффекта Betraying Shades.
+1. `World/Traits/ChaosDaemons_MT/ShadowOfChaosEnemy.xml` — дополнительный модификатор `moraleLossFactor +0.33` закрыт условием `requiredUpgrade="ChaosDaemons_MT/PrimalTerror"`.
+2. `World/Traits/ChaosDaemons_MT/Belakor/Tier10.xml` — ID включён в набор условий для одного из Tier 10 модификаторов Be'lakor.
+3. `World/Traits/ChaosDaemons_MT/Belakor/BetrayingShades/Tier10.xml` — ID включён в набор условий для Tier 10 эффекта Betraying Shades.
 
-В английском и русском `Data/Core/Languages/*/Upgrades.xml` уже есть название, описание и flavor для PrimalTerror. Это подтверждает, что UI-строки подготовлены, но не заменяет World upgrade definition.
+Кроме того, английский и русский `Data/Core/Languages/*/Upgrades.xml` сохраняют по три устаревшие строки: название, описание и flavor.
 
-**Статус:** отсутствующее XML-определение улучшения с подтверждёнными ссылками. Это наиболее конкретная неполная связь, найденная в этом проходе. Исправление возможно только отдельным разрешённым изменением игрового XML, которого в рамках текущего документального прохода не выполняется.
+**Классификация:** это остаточные ссылки и локализация удалённого элемента, а не недостающая реализация. Их следует удалить вместе с самим ID при разрешённой чистке игровых XML и языковых файлов. До такой чистки нельзя считать подтверждённым, как движок трактует эти оставшиеся условия; в частности, не следует утверждать, что соответствующие бонусы Be'lakor или Shadow of Chaos работают либо не работают в игре.
+
+По установленному ограничению на текущем проходе изменяются только документы: игровые XML и локализация не редактируются.
 
 ## 9. Следующие проверки
 
 - Сравнить стоимость и параметры основных юнитов Chaos Daemons с релевантными аналогами AIO по одинаковым полям.
 - Отдельно проверить Shadow of Chaos, Locus и эффекты марок по цепочкам Unit → Trait → Feature / Weapon.
 - Проверить связи `Reinforcements_MT/SupportHero` и связанные правила создания юнитов из интегрированной основы AIO; отдельно выяснить, являются ли шесть unit definitions запланированным reinforcement / support / legacy content.
+- При разрешённой правке игровых данных удалить остаточные ссылки на исключённый `PrimalTerror` из трёх trait XML и убрать его name / description / flavor entries из английской и русской `Upgrades.xml`; затем перепроверить оставшиеся prerequisites Tier 10.
 - Для условий и способностей, семантика которых зависит от движка, отделить статическую проверку XML от результатов игрового теста.
 
 ## 10. Журнал последующих записей
