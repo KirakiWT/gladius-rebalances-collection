@@ -18,7 +18,7 @@
 
 ### Chaos Demons Faction [FRAIO Integration]
 
-Отдельный рабочий пакет Chaos Daemons, не тождественный Chaos Space Marines внутри AIO. В Data/World находятся определения фракции и её игровых сущностей; локализация находится в Data/Core/Languages.
+Отдельный пакет контента фракции Chaos Daemons, рассчитанный на интеграцию поверх AIO и не предназначенный для автономной игры. AIO — обязательная основа; Chaos Daemons не является альтернативной заменой AIO. При этом он остаётся отдельной фракцией и не тождественен Chaos Space Marines внутри AIO. В Data/World находятся его faction-specific определения; локализация находится в Data/Core/Languages.
 
 Проверенные значения текущего XML:
 
@@ -27,7 +27,7 @@
 - Data/World/Buildings/ChaosDaemons_MT/Headquarters.xml: здание добавляет +17 Loyalty, +6 Energy, Food, Influence, Ore, Research и Population Limit.
 - В faction XML объявлены действия марок Khorne, Nurgle, Slaanesh и Tzeentch.
 
-Сравнение зданий с AIO / Chaos Space Marines показывает, что пять базовых ресурсных зданий совпадают по содержимому XML; Construction и Cult имеют подтверждённые отличия. Подробная запись с путями и цифрами находится в [Balance-Audit-2026-11-21.md](Chaos%20Demons%20Faction%20%5BFRAIO%20Integration%5D/Balance-Audit-2026-11-21.md).
+Сравнение зданий с AIO / Chaos Space Marines показывает, что пять базовых ресурсных зданий совпадают по содержимому XML; Construction и Cult имеют подтверждённые отличия. Ссылки Chaos Daemons на общие сущности AIO ожидаемы и не должны автоматически считаться дефектами. Подробная запись с путями и цифрами находится в [Balance-Audit-2026-11-21.md](Chaos%20Demons%20Faction%20%5BFRAIO%20Integration%5D/Balance-Audit-2026-11-21.md).
 
 SteamID.txt содержит Workshop ID: **3773456041** — [страница мода в Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3773456041).
 
