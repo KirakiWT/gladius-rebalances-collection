@@ -1,15 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait icon="Actions/ChaosSpaceMarines/BoonOfMutation" alwaysColored="1" category="Buff" visible="0">
-	<modifiers>
-		<modifier>
-			<conditions>
-				<unit>
-					<allied/>
-				</unit>
-			</conditions>
-			<effects>
-				<accuracy mul="0.1"/>
-			</effects>
-		</modifier>
-	</modifiers>
 </trait>
