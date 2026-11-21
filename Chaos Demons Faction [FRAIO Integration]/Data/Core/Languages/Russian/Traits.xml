@@ -296,6 +296,6 @@
 	<entry name="ChaosDaemons_MT/SlaaneshAscension2Description" value="+35% здоровья и +20% урона. +1 к передвижению, каждое убийство приносит 3 влияния."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension2Flavor" value="На пике могущества великий демон выходит против боевых машин и титанов."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2" value="Властелин судьбы"/>
-	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="+35% здоровья, +1 к броне и +20% урона. +17% к защите от урона, каждое убийство приносит 3 очка исследований."/>
+	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="+35% здоровья, +1 к броне и +20% урона, каждое убийство приносит 3 очка исследований."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2Flavor" value="На пике могущества великий демон выходит против боевых машин и титанов."/>
 </language>
