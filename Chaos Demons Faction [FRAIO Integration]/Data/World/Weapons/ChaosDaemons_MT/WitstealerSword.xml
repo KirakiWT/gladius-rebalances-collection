@@ -7,7 +7,7 @@
 	<modifiers>
 		<modifier>
 			<effects>
-				<attacks base="2"/>
+				<attacks mul="0.5"/>
 				<meleeArmorPenetration add="0"/> <!-- %meleeArmorPenetration add armorPiercing=1 -->
 				<strengthDamage mul="0"/> <!-- %strengthDamage mul strength=2 -->
 			</effects>
