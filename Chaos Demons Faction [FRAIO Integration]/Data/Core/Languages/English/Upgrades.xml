@@ -267,9 +267,6 @@
 	<entry name="ChaosDaemons_MT/ShadowPactDescription" value="Your shadow of chaos reduces morale loss."/>
 	<entry name="ChaosDaemons_MT/ShadowPactFlavor" value="Though they have forsaken the Chaos Gods in favour of Be’lakor, the Dark Master’s mortal Disciples can still draw temporary power from offering soul-pacts to the daemons who fight in his service."/>
 	
-	<entry name="ChaosDaemons_MT/PrimalTerror" value="Primal Terror"/>
-	<entry name="ChaosDaemons_MT/PrimalTerrorDescription" value="Your shadow of chaos further reduces enemy morale."/>
-	<entry name="ChaosDaemons_MT/PrimalTerrorFlavor" value="Monstrous daemonic beings manifested in the physical realm as nightmares given form, stirring the deepest feelings of dread and horror in the minds of all who looked upon them. Even the mightiest champions of the Imperium take pause when faced with such a foe and lesser warriors are often paralysed with fear."/>
 	
 	<entry name="ChaosDaemons_MT/KhorneAscension2" value="Avatar of Slaughter"/>
 	<entry name="ChaosDaemons_MT/KhorneAscension2Description" value="The Bloodthirster gains +20% damage. Heals a part of the damage dealt. Matches the titans of other factions."/>
