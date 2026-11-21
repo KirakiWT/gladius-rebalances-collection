@@ -7,13 +7,13 @@
 				idleAnimationCount="1"
 				idleContinuously="1"
 				normalWeight="0.1"
-				scale="33 33 33"
+				scale="35 35 35"
 				bloodBone="bip01 spine2"
 				explosionsBone="bip01 spine2"
 				walker="1"/>
 	</model>
 	<weapons>
-		<weapon name="PowerSword">
+		<weapon name="FallenPowerSword">
 			<model>
 				<weapon fireInterval="0.5"
 						fireSoundCount="0"/>
@@ -109,6 +109,7 @@
 		<leadTheRighteous cooldown="3"
 				consumedActionPoints="0"
 				consumedMovement="0"
+				icon="Actions/ChaosSpaceMarines/AuraOfDarkGlory"
 				name="ChaosSpaceMarines/DamnedLitany"
 				requiredActionPoints="0"
 				rank="-1"
@@ -140,49 +141,19 @@
 				</selfTarget>
 			</beginTargets>
 		</leadTheRighteous>
-		<deathBeforeDisgrace cooldown="3"
-				consumedActionPoints="0"
-				consumedMovement="0"
-				name="ChaosSpaceMarines/HereticalSermon"
-				requiredActionPoints="0"
-				rank="-1"
-				rankMax="2">
-			<model>
-				<action sound="Actions/ChaosBuff"/>
-			</model>
-			<beginTargets>
-				<target rangeMax="3">
-					<conditions>
-						<unit>
-							<enemy/>
-						</unit>
-					</conditions>
-					<areas>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<morale addMin="-3" addMax="-9"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</target>
-			</beginTargets>
-		</deathBeforeDisgrace>
 		<genericUnitAbility passive="1"
-				name="ChaosSpaceMarines/AuraOfBlasphemy"
+				icon="Actions/ChaosSpaceMarines/Possession"
+				name="ChaosSpaceMarines/WrathfulCommunion"
 				rank="-1"
 				rankMax="2">
 			<beginTargets>
 				<selfTarget>
 					<areas>
-						<area affects="Tile" radius="1">
+						<area affects="Unit">
 							<modifiers>
 								<modifier>
 									<effects>
-										<addTrait name="ChaosSpaceMarines/AuraOfBlasphemy"/>
+										<addTrait name="ChaosSpaceMarines/WrathfulCommunion"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -191,20 +162,23 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-		<righteousJudgement cooldown="3"
-				elite="1"
-				name="ChaosSpaceMarines/MarkedForDamnation"
-				levelUpPriority="1"
+		<deathBeforeDisgrace cooldown="3"
+				consumedActionPoints="0"
+				consumedMovement="0"
+				icon="Actions/ChaosSpaceMarines/DeferredAbsolution"
+				name="ChaosSpaceMarines/BloodAbsolution"
+				requiredActionPoints="0"
 				rank="-1"
-				rankMax="0">
+				rankMax="2">
 			<model>
-				<action sound="Actions/RighteousJudgement"/>
+				<action sound="Actions/ChaosBuff"/>
 			</model>
 			<beginTargets>
-				<target rangeMax="3">
+				<target rangeMax="2">
 					<conditions>
 						<unit>
-							<enemy/>
+							<allied/>
+							<faction name="ChaosSpaceMarines"/>
 						</unit>
 					</conditions>
 					<areas>
@@ -212,7 +186,8 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<addTrait duration="1" name="ChaosSpaceMarines/MarkedForDamnation"/>
+										<morale addMin="3" addMax="9"/>
+										<addTrait duration="1" name="ChaosSpaceMarines/AbsolvedInBlood"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -220,7 +195,27 @@
 					</areas>
 				</target>
 			</beginTargets>
-		</righteousJudgement>
+		</deathBeforeDisgrace>
+		<huntersFromHyperspace cooldown="10"
+				consumedActionPoints="1"
+				elite="1"
+				icon="Actions/Necrons/HuntersFromHyperspace"
+				levelUpPriority="1"
+				name="ChaosSpaceMarines/WarpStride"
+				rank="-1"
+				rankMax="0"
+				requiredActionPoints="0">
+			<model>
+				<action sound="Actions/HuntersFromHyperspace"/>
+			</model>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="20"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</huntersFromHyperspace>
 		<levelUp/>
 		<shop/>
 	</actions>

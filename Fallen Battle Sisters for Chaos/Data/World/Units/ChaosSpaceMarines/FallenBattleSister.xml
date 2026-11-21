@@ -7,7 +7,7 @@
 				idleAnimationCount="1"
 				idleContinuously="1"
 				normalWeight="0.1"
-				scale="33 33 33"
+				scale="35 35 35"
 				bloodBone="bip01 spine1"
 				explosionsBone="bip01 spine1"
 				walker="1"/>

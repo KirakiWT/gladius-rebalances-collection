@@ -5,18 +5,6 @@
 	<entry name="ChaosSpaceMarines/ChampionOfChaosFlavor" value="It is not unusual for the Chaos powers to bestow strange boons and mutations upon those who kill in their name. Not all of these boons are beneficial—the dark ones are as fickle as they are inscrutable, and even their most ardent followers are little more than pawns in a celestial game."/>
 	<entry name="ChaosSpaceMarines/LeaderOfChaos" value="Leader of Chaos"/>
 	<entry name="ChaosSpaceMarines/LeaderOfChaosDescription" value="Reduces morale loss for nearby Cultists, Exalted Poxwalkers and Dark Disciples."/>
-	<entry name="ChaosSpaceMarines/DamnedLitany" value="Damned Litany"/>
-	<entry name="ChaosSpaceMarines/DamnedLitanyDescription" value="Increases the damage of this unit and nearby allied Chaos Space Marines infantry units."/>
-	<entry name="ChaosSpaceMarines/DamnedLitanyFlavor" value="The hymns of the Ecclesiarchy are still sung, but every verse now ends in a name that was once forbidden."/>
-	<entry name="ChaosSpaceMarines/HereticalSermon" value="Heretical Sermon"/>
-	<entry name="ChaosSpaceMarines/HereticalSermonDescription" value="Reduces the morale of the target enemy unit."/>
-	<entry name="ChaosSpaceMarines/HereticalSermonFlavor" value="“You pray to a corpse on a throne. Look upon what we serve, and tell me you do not feel your faith crack.”"/>
-	<entry name="ChaosSpaceMarines/AuraOfBlasphemy" value="Aura of Blasphemy"/>
-	<entry name="ChaosSpaceMarines/AuraOfBlasphemyDescription" value="Enemy units fighting this unit and adjacent allied Chaos Space Marines units lose morale."/>
-	<entry name="ChaosSpaceMarines/AuraOfBlasphemyFlavor" value="The Canoness carries her defilement openly. Those who face her see an icon they once revered turned into an insult to the Emperor."/>
-	<entry name="ChaosSpaceMarines/MarkedForDamnation" value="Marked for Damnation"/>
-	<entry name="ChaosSpaceMarines/MarkedForDamnationDescription" value="The target enemy unit takes more damage and has reduced accuracy."/>
-	<entry name="ChaosSpaceMarines/MarkedForDamnationFlavor" value="A single word from a fallen Canoness is enough to condemn a victim in the eyes of the Dark Gods, and Chaos is quick to collect."/>
 	<entry name="ChaosSpaceMarines/BlackenedAegis" value="Blackened Aegis"/>
 	<entry name="ChaosSpaceMarines/BlackenedAegisDescription" value="Increases the invulnerable and witchfire damage reduction. Reduced while Broken."/>
 	<entry name="ChaosSpaceMarines/BlackenedAegisFlavor" value="The faith that once shielded her has been twisted into something darker, yet it still turns aside what should have killed her."/>
@@ -32,4 +20,16 @@
 	<entry name="ChaosSpaceMarines/DamnationBrand" value="Damnation Brand"/>
 	<entry name="ChaosSpaceMarines/DamnationBrandDescription" value="Increases the damage against Heroes."/>
 	<entry name="ChaosSpaceMarines/DamnationBrandFlavor" value="Each stake is inscribed with the name of a champion who must be brought low."/>
+	<entry name="ChaosSpaceMarines/DamnedLitany" value="Damned Litany"/>
+	<entry name="ChaosSpaceMarines/DamnedLitanyDescription" value="Increases the damage and reduces the morale loss."/>
+	<entry name="ChaosSpaceMarines/DamnedLitanyFlavor" value="The hymns of the Ecclesiarchy are still sung, but every verse now ends in a name that was once forbidden."/>
+	<entry name="ChaosSpaceMarines/WrathfulCommunion" value="Wrathful Communion"/>
+	<entry name="ChaosSpaceMarines/WrathfulCommunionDescription" value="Killing an enemy restores morale, grants bonus damage, restores the morale of nearby allied Chaos Space Marines units and reduces the cooldown of Damned Litany and Warp Stride."/>
+	<entry name="ChaosSpaceMarines/WrathfulCommunionFlavor" value="Every death she deals is a prayer answered. The Dark Gods reward the faithful, and the faithful around her feel it."/>
+	<entry name="ChaosSpaceMarines/FervorOfTheKill" value="Fervor of the Kill"/>
+	<entry name="ChaosSpaceMarines/FervorOfTheKillDescription" value="Increases the damage."/>
+	<entry name="ChaosSpaceMarines/FervorOfTheKillFlavor" value="The taste of a fresh kill keeps the blade swinging."/>
+	<entry name="ChaosSpaceMarines/AbsolvedInBlood" value="Absolved in Blood"/>
+	<entry name="ChaosSpaceMarines/AbsolvedInBloodDescription" value="Greatly reduces the morale loss."/>
+	<entry name="ChaosSpaceMarines/AbsolvedInBloodFlavor" value="A soul that has been absolved has nothing left to fear."/>
 </language>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Actions/ChaosSpaceMarines/DarkGlory" rankMax="2">
+<trait category="Buff" icon="Actions/ChaosSpaceMarines/AuraOfDarkGlory" rankMax="2">
 	<modifiers>
 		<modifier>
 			<effects>
 				<damage mulMin="0.05" mulMax="0.15"/>
+				<moraleLossFactor addMin="-0.2" addMax="-0.5"/>
 			</effects>
 		</modifier>
 	</modifiers>

@@ -5,18 +5,6 @@
 	<entry name="ChaosSpaceMarines/ChampionOfChaosFlavor" value="Силы Хаоса нередко посылают странные дары и мутации тем, кто убивает во имя них. Не все эти дары полезны — Тёмные Боги так же непостоянны, как и непостижимы, и даже их самые ярые последователи всего лишь пешки в игре богов."/>
 	<entry name="ChaosSpaceMarines/LeaderOfChaos" value="Предводитель Хаоса"/>
 	<entry name="ChaosSpaceMarines/LeaderOfChaosDescription" value="Снижает потерю морали ближайших культистов, Возвышенных чумных зомби и Тёмных учеников."/>
-	<entry name="ChaosSpaceMarines/DamnedLitany" value="Литания проклятых"/>
-	<entry name="ChaosSpaceMarines/DamnedLitanyDescription" value="Увеличивает урон этого подразделения и ближайших союзных пехотных подразделений Космодесанта Хаоса."/>
-	<entry name="ChaosSpaceMarines/DamnedLitanyFlavor" value="Гимны Экклезиархии всё ещё звучат, но каждый стих теперь завершается именем, которое когда-то было под запретом."/>
-	<entry name="ChaosSpaceMarines/HereticalSermon" value="Еретическая проповедь"/>
-	<entry name="ChaosSpaceMarines/HereticalSermonDescription" value="Снижает мораль целевого вражеского подразделения."/>
-	<entry name="ChaosSpaceMarines/HereticalSermonFlavor" value="«Вы молитесь трупу на троне. Взгляните на того, кому служим мы, и скажите, что ваша вера не дала трещину»."/>
-	<entry name="ChaosSpaceMarines/AuraOfBlasphemy" value="Аура богохульства"/>
-	<entry name="ChaosSpaceMarines/AuraOfBlasphemyDescription" value="Вражеские подразделения, сражающиеся с этим подразделением и соседними союзными подразделениями Космодесанта Хаоса, теряют мораль."/>
-	<entry name="ChaosSpaceMarines/AuraOfBlasphemyFlavor" value="Канонесса открыто носит свою скверну. Те, кто встречает её, видят некогда почитаемый символ, обращённый в оскорбление Императора."/>
-	<entry name="ChaosSpaceMarines/MarkedForDamnation" value="Отмеченный проклятием"/>
-	<entry name="ChaosSpaceMarines/MarkedForDamnationDescription" value="Целевое вражеское подразделение получает больше урона, а его меткость снижается."/>
-	<entry name="ChaosSpaceMarines/MarkedForDamnationFlavor" value="Одного слова павшей Канонессы достаточно, чтобы Тёмные Боги увидели в жертве осуждённого, а Хаос быстро взыскивает долги."/>
 	<entry name="ChaosSpaceMarines/BlackenedAegis" value="Почерневшая эгида"/>
 	<entry name="ChaosSpaceMarines/BlackenedAegisDescription" value="Увеличивает неуязвимое и колдовское снижение урона. Ослабляется, пока подразделение сломлено."/>
 	<entry name="ChaosSpaceMarines/BlackenedAegisFlavor" value="Вера, что прежде защищала её, извратилась и потемнела, но по-прежнему отводит удар, который должен был стать смертельным."/>
@@ -32,4 +20,16 @@
 	<entry name="ChaosSpaceMarines/DamnationBrand" value="Клеймо проклятия"/>
 	<entry name="ChaosSpaceMarines/DamnationBrandDescription" value="Увеличивает урон по героям."/>
 	<entry name="ChaosSpaceMarines/DamnationBrandFlavor" value="На каждом колу начертано имя чемпиона, которого надлежит низвергнуть."/>
+	<entry name="ChaosSpaceMarines/DamnedLitany" value="Литания проклятых"/>
+	<entry name="ChaosSpaceMarines/DamnedLitanyDescription" value="Увеличивает урон и снижает потерю морали."/>
+	<entry name="ChaosSpaceMarines/DamnedLitanyFlavor" value="Гимны Экклезиархии всё ещё звучат, но каждый стих теперь завершается именем, которое когда-то было под запретом."/>
+	<entry name="ChaosSpaceMarines/WrathfulCommunion" value="Причастие гнева"/>
+	<entry name="ChaosSpaceMarines/WrathfulCommunionDescription" value="Убийство врага восстанавливает мораль, увеличивает урон, восстанавливает мораль ближайших союзных подразделений Космодесанта Хаоса и сокращает перезарядку Литании проклятых и Шага сквозь Варп."/>
+	<entry name="ChaosSpaceMarines/WrathfulCommunionFlavor" value="Каждая её жертва — услышанная молитва. Тёмные Боги вознаграждают верных, и верные рядом с ней это чувствуют."/>
+	<entry name="ChaosSpaceMarines/FervorOfTheKill" value="Пыл убийства"/>
+	<entry name="ChaosSpaceMarines/FervorOfTheKillDescription" value="Увеличивает урон."/>
+	<entry name="ChaosSpaceMarines/FervorOfTheKillFlavor" value="Вкус свежей смерти не даёт клинку остановиться."/>
+	<entry name="ChaosSpaceMarines/AbsolvedInBlood" value="Отпущение кровью"/>
+	<entry name="ChaosSpaceMarines/AbsolvedInBloodDescription" value="Значительно снижает потерю морали."/>
+	<entry name="ChaosSpaceMarines/AbsolvedInBloodFlavor" value="Душе, получившей отпущение, нечего бояться."/>
 </language>

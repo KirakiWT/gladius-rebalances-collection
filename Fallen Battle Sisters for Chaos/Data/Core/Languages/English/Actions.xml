@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
 	<entry name="ChaosSpaceMarines/DamnedLitany" value="Damned Litany"/>
-	<entry name="ChaosSpaceMarines/DamnedLitanyDescription" value="Increases the damage of this unit and nearby allied Chaos Space Marines infantry units."/>
+	<entry name="ChaosSpaceMarines/DamnedLitanyDescription" value="Increases the damage of this unit and nearby allied Chaos Space Marines infantry units and reduces their morale loss."/>
 	<entry name="ChaosSpaceMarines/DamnedLitanyFlavor" value="The hymns of the Ecclesiarchy are still sung, but every verse now ends in a name that was once forbidden."/>
-	<entry name="ChaosSpaceMarines/HereticalSermon" value="Heretical Sermon"/>
-	<entry name="ChaosSpaceMarines/HereticalSermonDescription" value="Reduces the morale of the target enemy unit."/>
-	<entry name="ChaosSpaceMarines/HereticalSermonFlavor" value="“You pray to a corpse on a throne. Look upon what we serve, and tell me you do not feel your faith crack.”"/>
-	<entry name="ChaosSpaceMarines/AuraOfBlasphemy" value="Aura of Blasphemy"/>
-	<entry name="ChaosSpaceMarines/AuraOfBlasphemyDescription" value="Enemy units fighting this unit and adjacent allied Chaos Space Marines units lose morale."/>
-	<entry name="ChaosSpaceMarines/AuraOfBlasphemyFlavor" value="The Canoness carries her defilement openly. Those who face her see an icon they once revered turned into an insult to the Emperor."/>
-	<entry name="ChaosSpaceMarines/MarkedForDamnation" value="Marked for Damnation"/>
-	<entry name="ChaosSpaceMarines/MarkedForDamnationDescription" value="The target enemy unit takes more damage and has reduced accuracy."/>
-	<entry name="ChaosSpaceMarines/MarkedForDamnationFlavor" value="A single word from a fallen Canoness is enough to condemn a victim in the eyes of the Dark Gods, and Chaos is quick to collect."/>
+	<entry name="ChaosSpaceMarines/WrathfulCommunion" value="Wrathful Communion"/>
+	<entry name="ChaosSpaceMarines/WrathfulCommunionDescription" value="Each enemy killed by this unit restores its morale, grants it bonus damage for 2 turns, restores the morale of nearby allied Chaos Space Marines units and reduces the cooldown of Damned Litany and Warp Stride."/>
+	<entry name="ChaosSpaceMarines/WrathfulCommunionFlavor" value="Every death she deals is a prayer answered. The Dark Gods reward the faithful, and the faithful around her feel it."/>
+	<entry name="ChaosSpaceMarines/BloodAbsolution" value="Blood Absolution"/>
+	<entry name="ChaosSpaceMarines/BloodAbsolutionDescription" value="Restores the morale of the target allied unit and greatly reduces its morale loss for 1 turn."/>
+	<entry name="ChaosSpaceMarines/BloodAbsolutionFlavor" value="“Confess nothing. Kneel to no one. Your sins are already paid in blood, and the Gods have accepted the payment.”"/>
+	<entry name="ChaosSpaceMarines/WarpStride" value="Warp Stride"/>
+	<entry name="ChaosSpaceMarines/WarpStrideDescription" value="Teleports to the target explored tile. Costs influence."/>
+	<entry name="ChaosSpaceMarines/WarpStrideFlavor" value="She does not march to the battlefield. She steps out of the Warp where the fear is strongest and the prey is closest."/>
 </language>

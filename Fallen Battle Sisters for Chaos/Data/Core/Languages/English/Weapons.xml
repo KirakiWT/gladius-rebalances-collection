@@ -6,4 +6,6 @@
 	<entry name="FallenCombiFlamerFlavor" value="A boltgun and flamer combined into a single weapon, adapted for a servant of Chaos."/>
 	<entry name="FallenHereticStake" value="Heretic’s Stake"/>
 	<entry name="FallenHereticStakeFlavor" value="A boltgun stake loaded with a blasphemous round that is inscribed to hunt champions."/>
+	<entry name="FallenPowerSword" value="Power Sword"/>
+	<entry name="FallenPowerSwordFlavor" value="A power sword reforged for a servant of Chaos. Its edge is the same, only the hand that holds it has changed."/>
 </language>

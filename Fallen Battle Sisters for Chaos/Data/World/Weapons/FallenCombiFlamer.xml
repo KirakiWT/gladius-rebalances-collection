@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon>
+<weapon icon="Weapons/Flamer">
 	<model>
 		<flamerWeapon fireSound="Weapons/Flamer"
 				fireSoundCount="3"/>

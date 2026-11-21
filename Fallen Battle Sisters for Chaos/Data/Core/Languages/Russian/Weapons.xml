@@ -6,4 +6,6 @@
 	<entry name="FallenCombiFlamerFlavor" value="Комбинированное оружие, объединяющее болтер и огнемёт и приспособленное для служителя Хаоса."/>
 	<entry name="FallenHereticStake" value="Кол еретички"/>
 	<entry name="FallenHereticStakeFlavor" value="Кол для болтера с богохульным зарядом, на котором начертано повеление охотиться на чемпионов."/>
+	<entry name="FallenPowerSword" value="Силовой меч"/>
+	<entry name="FallenPowerSwordFlavor" value="Силовой меч, перекованный для слуги Хаоса. Клинок прежний, сменилась лишь рука, что его держит."/>
 </language>
