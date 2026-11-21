@@ -23,16 +23,6 @@
 		</modifier>
 	</modifiers>
 	<perTurnModifiers endure="0">
-		<modifier requiredUpgrade="ChaosDaemons_MT/PrimalTerror">
-			<conditions>
-				<unit>
-					<enemy/>
-				</unit>
-			</conditions>
-			<effects>
-				<morale add="-2"/>
-			</effects>
-		</modifier>
 		<modifier requiredUpgrade="ChaosDaemons_MT/DaemonicTerror">
 			<conditions>
 				<unit>
