@@ -11,16 +11,6 @@
 				<moraleLossFactor add="0.17"/>
 			</effects>
 		</modifier>
-		<modifier requiredUpgrade="ChaosDaemons_MT/PrimalTerror">
-			<conditions>
-				<unit>
-					<enemy/>
-				</unit>
-			</conditions>
-			<effects>
-				<moraleLossFactor add="0.33"/>
-			</effects>
-		</modifier>
 	</modifiers>
 	<perTurnModifiers endure="0">
 		<modifier requiredUpgrade="ChaosDaemons_MT/DaemonicTerror">
