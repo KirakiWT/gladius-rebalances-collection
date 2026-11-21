@@ -11,5 +11,15 @@
 				<accuracy mul="-0.1"/>
 			</effects>
 		</modifier>
+		<modifier>
+			<conditions>
+				<unit>
+					<allied/>
+				</unit>
+			</conditions>
+			<effects>
+				<accuracy mul="0.1"/>
+			</effects>
+		</modifier>
 	</modifiers>
 </trait>
