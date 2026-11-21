@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="Neutral/GiantAudreyRootSnare" value="Корневой захват"/>
+	<entry name="Neutral/GiantAudreyRootSnareDescription" value="Обездвиживает выбранное вражеское подразделение на 1 ход."/>
+	<entry name="Neutral/GiantAudreyRootSnareFlavor" value="Гибкие отростки Венеры Мантрап оплетают добычу, намертво удерживая её на месте."/>
+</language>
