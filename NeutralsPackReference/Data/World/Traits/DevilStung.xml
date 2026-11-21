@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff" icon="Actions/Misfortune">
+	<modifiers>
+		<modifier>
+			<effects>
+				<damage mul="-0.33"/>
+				<movement mul="-0.33"/>
+				<movementMax mul="-0.33"/>
+				<damageTaken mul="0.33"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

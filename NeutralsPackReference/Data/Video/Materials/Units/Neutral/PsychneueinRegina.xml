@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/Neutral/PsychneueinDiffuse"/>
+		<texture name="Units/Neutral/PsychneueinNormal"/>
+		<texture name="Units/Neutral/PsychneueinSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

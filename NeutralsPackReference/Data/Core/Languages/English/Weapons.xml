@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	   <!-- Modification -->
+	<entry name="PetalStorm" value="Petal Storm"/>
+	<entry name="PetalStormFlavor" value="The Giant Audrey II uses its petals like grenade shardes to decimate its enemies from afar"/>
+	<entry name="SpiritLightning" value="Spirit Lightning"/>
+	<entry name="SpiritLightningFlavor" value="The Dryads summon flashes of lightning to destroy their enemies."/>
+	<entry name="DeathWail" value="Death Wail"/>
+	<entry name="DeathWailFlavor" value="The Mutants let out an almighty roar that means instant death to the weak minded."/>
+	<entry name="ParasiticalBreath" value="Parasitical Breath"/>
+	<entry name="ParasiticalBreathFlavor" value="The Octopoda Facientem use their oil clouds filled with parasites that can strip flesh from bone."/>
+	<entry name="SeismicVoid" value="Seismic Void"/>
+	<entry name="SeismicVoidFlavor" value="Stone fractures and ores flash burn into silvered steam as the Psyker drags up tides of magma from deep below."/>
+	<entry name="SkyFall" value="Sky Fall"/>
+	<entry name="SkyFallFlavor" value="Savagely beautiful orbs of coruscating light plummet from the cold depths of space, growing to roaring bale-stars as they approach."/>
+	<entry name="HellBreath" value="Hell Breath"/>
+	<entry name="HellBreathFlavor" value="A torrent of psychic flames pour forth from the psyker's eyes and mouth, engulfing the target."/>
+	<entry name="HellBeam" value="Hell Beam"/>
+	<entry name="HellBeamFlavor" value="The Daemon summons a white-hot beam of blazing energy. It melts armour to slag and vaporises flesh, leaving only ghastly shadows in its wake."/>
+	<!-- End Modification -->
+</language>

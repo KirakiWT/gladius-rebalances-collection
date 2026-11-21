@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit spawnCountMax="1">
+	<responses>
+		<select sound="Units/Neutral/AmbullAttack" soundCount="2"/>
+	</responses>
+	<model>
+		<unit mesh="Units/Neutral/Ambull"
+				material="Units/Neutral/LuvenalibusAmbulls"
+				scale="0.7 0.7 0.7"
+				idleAnimation="Units/Neutral/AmbullIdle"
+				idleAnimationCount="4"
+				idleContinuously="1"
+				normalWeight="0.1"
+				bloodBone="BloodBone"
+				walker="1"/>
+	</model>
+	<group size="10" rowSize="5" memberDeltaX="80" memberDeltaY="50"/>
+	<weapons>
+		<weapon name="CloseCombatWeapon">
+			<model>
+				<weapon fireInterval="0.5"
+						fireSoundCount="0"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor set="2"/>
+				<hitpointsMax set="1.5"/>
+				<meleeAccuracy set="8"/>
+				<meleeArmorPenetration set="0.0"/>
+				<meleeAttacks set="1"/>
+				<strengthDamage set="2"/>
+				<moraleMax set="6"/>
+				<movementMax set="3"/>
+				<productionCost set="24.0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<actions>
+		<attack>
+			<model>
+				<action animation="Units/Neutral/AmbullAttack"
+						chargeAnimation="Units/Neutral/AmbullCharge"
+						meleeAnimation="Units/Neutral/AmbullMelee"
+						meleeBeginSwing="0.33"
+						meleeEndSwing="1.16666666667"
+						meleeDefenseAnimation="Units/Neutral/AmbullMelee"
+						meleeDefenseBeginSwing="0.33"
+						meleeDefenseEndSwing="1.16666666667"
+						meleeSound="Units/Neutral/AmbullAttack"
+						meleeSoundCount="2"/>
+			</model>				
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/Neutral/AmbullDie"
+						animationCount="3"
+						sound="Units/Neutral/AmbullDie"
+						soundCount="3"/>
+			</model>
+		</die>
+		<move>
+			<model>
+				<action animation="Units/Neutral/AmbullMove"
+						sound="Units/Neutral/AmbullMove"
+						soundCount="2"/>
+			</model>
+		</move>
+	</actions>
+	<traits>
+		<trait name="Regeneration"/>
+		<trait name="Rending"/>
+	</traits>
+</unit>

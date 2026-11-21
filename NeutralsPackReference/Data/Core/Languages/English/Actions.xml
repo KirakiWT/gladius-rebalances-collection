@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+<entry name="PoisonSting" value="Poison Sting"/>
+<entry name="PoisonStingDescription" value="The Devils enfeeble their prey with the poison in their tails."/>
+<entry name="LivingPrometheanIncubator" value="Living Promethean Incubator"/>
+<entry name="LivingPrometheanIncubatorDescription" value="Spawns the Promethean Luvenis unit."/>
+<entry name="DeathWail" value="Death Wail"/>
+<entry name="DeathWailDescription" value="The Mutants let out an almighty roar that means instant death to the weak minded."/>
+<entry name="DryadShield" value="Dryad Shield"/>
+<entry name="DryadShieldDescription" value="Increases the armour of the Exalt Dryad and adjacent allied units."/>
+<entry name="RejuvenateHealth" value="Rejuvenate Health"/>
+<entry name="RejuvenateHealthDescription" value="Restores the hitpoints of the target allied infantry unit."/>
+<entry name="HorrificVisions" value="Horrific Visions"/>
+<entry name="HorrificVisionsDescription" value="The Psyker inflicts gruesome visions from within the warp to their victims."/>
+<entry name="ShadowOfTheWarp" value="Shadow Of The Warp"/>
+<entry name="ShadowOfTheWarpDescription" value="Reduces the morale of adjacent enemy psyker units each turn."/>
+<entry name="ShadowOfTheWarpFlavor" value="The unfathomable presence of the Psyker radiates around it, smothering the ability of the psykers who stand before them to draw upon their void powers."/>
+<entry name="RoarOfWrath" value="Roar of Wrath"/>
+<entry name="RoarOfWrathDescription" value="Restores the morale of adjacent allied units and reduces the morale of adjacent enemy units."/>
+<entry name="RoarOfWrathFlavor" value="The Dominas roar echoes like thunder across the battlefield, filling the younger hounds with new strength while causing the enemy to cower in terror."/>
+<entry name="DaemonPath" value="Daemon Path"/>
+<entry name="DaemonPathDescription" value="Increases the attacks of the targeted allied unit."/>
+<entry name="PetalStorm" value="Petal Storm"/>
+<entry name="PetalStormFlavor" value="The Giant Audrey II uses its petals like grenade shardes to decimate its enemies from afar"/>
+</language>

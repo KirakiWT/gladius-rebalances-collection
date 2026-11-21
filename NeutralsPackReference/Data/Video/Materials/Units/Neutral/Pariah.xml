@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/Neutral/PariahDiffuse"/>
+		<texture name="Units/Neutral/PariahNormal"/>
+		<texture name="Units/Neutral/PariahSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

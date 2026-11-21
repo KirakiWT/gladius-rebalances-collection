@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/Neutral/MagnaDeamonusPyrosDiffuse"/>
+		<texture name="Units/Neutral/MagnaDeamonusPyrosNormal"/>
+		<texture name="Units/Neutral/MagnaDeamonusPyrosSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>
+		<unit mesh="Units/Neutral/Dragon"
+				material="Units/Neutral/Dragon"
+				scale="1.0 1.0 1.0"
+				idleAnimation="Units/Neutral/DragonIdle"
+				idleAnimationCount="0"
+				idleContinuously="0"
+				normalWeight="0.1"
+				bloodBone="spine1"
+				walker="1"/>
+	</model>
+	<group size="1" rowSize="3" memberDeltaX="80" memberDeltaY="64"/>
+	<weapons>
+		<!-- has 2 attacks, my idea was to have the tail attack poison the enemy making them either take DOT or it makes them take more damage-->
+		<weapon name="CloseCombatWeapon" slotName="CloseCombatWeapon">
+			<model>
+				<weapon fireInterval="0.5"
+						fireSoundCount="0"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor set="8"/> <!-- %armor set armor=3+ -->
+				<hitpointsMax set="18.0"/> <!-- %hitpointsMax set toughness=6 wounds=3 -->
+				<meleeAccuracy set="8"/> <!-- %meleeAccuracy set weaponSkill=4 -->
+				<meleeArmorPenetration set="3.0"/> <!-- %meleeArmorPenetration set strength=7 -->
+				<meleeAttacks set="3"/>
+				<meleeDamage set="3"/> <!-- %meleeDamage set strength=7 -->
+				<!-- <meleeInitiative set="3"/> -->
+				<moraleMax set="8"/>
+				<movementMax set="4"/>
+				<productionCost set="42.0"/> <!-- %productionCost set tier=7 factor=1 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<actions>
+		<attack>
+			<model>
+				<action chargeAnimation="Units/Neutral/DemonLordFireMove"
+					    meleeAnimation="Units/Neutral/DemonLordFireAttack"
+						meleeBeginSwing="0.0"
+						meleeEndSwing="0.71"
+						meleeDefenseAnimation="Units/Neutral/DemonLordFireAttack"
+						meleeDefenseBeginSwing="0.0"
+						meleeDefenseEndSwing="0.71"/>
+			</model>
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/Neutral/DemonLordFireDie"
+						animationCount="0"/>
+			</model>
+		</die>
+		<move>
+			<model>
+				<action animation="Units/Neutral/DemonLordFireMove"/>
+			</model>		
+		</move>
+	</actions>
+	<traits>
+		<trait name="MonstrousCreature"/>
+		<trait name="Rending"/>
+		<trait name="Rampage"/>
+		<trait name="Fearless"/>
+	</traits>
+</unit>

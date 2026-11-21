@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	   <!-- Modification -->
+	<entry name="PetalStorm" value="Ураган Лепестков"/>
+	<entry name="PetalStormFlavor" value="Гигантская Одри II использует свои лепестки как осколочные гранаты, чтобы уничтожать своих врагов издалека"/>
+	<entry name="SpiritLightning" value="Молнии Духов"/>
+	<entry name="SpiritLightningFlavor" value="Дриады призывают вспышки молний, чтобы уничтожать своих врагов."/>
+	<entry name="DeathWail" value="Смертельный Вой"/>
+	<entry name="DeathWailFlavor" value="Мутанты испускают могучий рёв, который приводит к мгновенной смерти слабых духом."/>
+	<entry name="ParasiticalBreath" value="Паразитическое Дыхание"/>
+	<entry name="ParasiticalBreathFlavor" value="Октопода Фасиентем использует облака чернил насыщенные паразитами, способными сорвать плоть с костей."/>
+	<entry name="SeismicVoid" value="Сейсмическая Пустота"/>
+	<entry name="SeismicVoidFlavor" value="Камень раскалывается, а руды плавится и превращаются в серебистый поток, когда Псайкер поднимает потоки магмы из глубин."/>
+	<entry name="SkyFall" value="Падение Небес"/>
+	<entry name="SkyFallFlavor" value="Дико красивые сферы сверкающего света спускаются из холодных глубин космоса, вырастая до ревущих скоплений по мере приближения."/>
+	<!-- End Modification -->
+</language>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<!-- Modifications -->
+	<entry name="DevilStung" value="Жало Дьявола"/>
+	<entry name="DevilStungDescription" value="Снижает урон и дальность передвижения, увеличивает получаемый урон"/>
+	<entry name="DryadShield" value="Щит Дриады"/>
+	<entry name="DryadShieldDescription" value="Увеличивает броню Высокой Дриады и соседних союзных отрядов."/>
+	<!-- End Modifications -->
+</language>

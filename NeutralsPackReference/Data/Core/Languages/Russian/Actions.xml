@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+<entry name="PoisonSting" value="Ядовитое Жало"/>
+<entry name="PoisonStingDescription" value="Дьяволы используют яд своих хвостов, чтобы ослабить жертву."/>
+<entry name="LivingPrometheanIncubator" value="Живой Инкубатор Прометида"/>
+<entry name="LivingPrometheanIncubatorDescription" value="Порождает Молодняк Прометида."/>
+<entry name="DeathWail" value="Смертельный Вой"/>
+<entry name="DeathWailDescription" value="Мутанты испускают могучий рёв, который приводит к мгновенной смерти слабых духом."/>
+<entry name="DryadShield" value="Щит Дриады"/>
+<entry name="DryadShieldDescription" value="Увеличивает броню Высокой Дриады и соседних союзных отрядов."/>
+<entry name="RejuvenateHealth" value="Обновление Здоровья"/>
+<entry name="RejuvenateHealthDescription" value="Восстанавливает очки здоровья союзному пехотному отряду."/>
+<entry name="HorrificVisions" value="Ужасные Видения"/>
+<entry name="HorrificVisionsDescription" value="Псайкер насылает отвратительные видения самого варпа на своих жертв."/>
+<entry name="ShadowOfTheWarp" value="Тень Варпа"/>
+<entry name="ShadowOfTheWarpDescription" value="Каждый ход снижает мораль соседних вражеских псайкеров."/>
+<entry name="ShadowOfTheWarpFlavor" value="Присутствие псайкера опустошительно распространяется вокруг, снижая способность псайкеров, стоящих перед ним, использовать свои пустотные силы."/>
+<entry name="RoarOfWrath" value="Яростный Рёв"/>
+<entry name="RoarOfWrathDescription" value="Восстанавливает мораль соседних союзных отрядов и снижает мораль соседних вражеских."/>
+<entry name="RoarOfWrathFlavor" value="Рёв Владыки Гончих эхом громыхает по полю боя, заставляя молодых гончих наполняться новой силой, а врагов опускаться в ужасе."/>
+</language>

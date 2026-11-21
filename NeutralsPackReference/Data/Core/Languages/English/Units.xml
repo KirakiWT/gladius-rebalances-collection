@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<!-- modifications -->
+	<entry name="Neutral/DevilSpawn" value="Devil Spawn"/>
+	<entry name="Neutral/DevilSpawnDescription" value="Poisonous Juvenile Devils"/>
+	<entry name="Neutral/DevilSpawnFlavor" value="Catachan Devils are territorial, yet quite sociable creatures, tending to form nesting groups with others of their kind. These groups often contain several large male Devils, as well as a few dozen juvenile 'Devilspawn.' The entire nest will come together to defend their territory from any intruders, be it rival Devils, human colonists, or other predators, and have even been known to attack Imperial Guard tank companies."/>
+	<entry name="Neutral/GiantAudrey" value="Venus Mantrap"/>
+	<entry name="Neutral/GiantAudreyDescription" value="Frighening monstrosities that devour their victims."/>
+	<entry name="Neutral/GiantAudreyFlavor" value="Each leaf of the Mantrap forms a powerful trap. Sensitive trigger hairs detect nearby prey, causing the plant's trapping mechanism to immediately activate. The leaves then quickly move to reach and trap its prey."/>
+	<entry name="Neutral/Mutant" value="Mutants"/>
+	<entry name="Neutral/MutantDescription" value="Deformed and Corrupted unit that excels in close combat."/>
+	<entry name="Neutral/MutantFlavor" value="Human mutants are often terribly misshapen creatures, abominably deviating from the normal human form. On the other hand, not all mutants are degenerate beasts; many only bear a few extraordinary traits setting them apart from the rest of Mankind. While many mutants are born mutated as a result of their ancestors' exposure to mutagens like radiation or extreme planetary environments over many generations, exposure to the psychic energies of Chaos can also lead to rampant mutation."/>
+	<entry name="Neutral/Promethean" value="Promethean"/>
+	<entry name="Neutral/PrometheanDescription" value="Frighening large, crab-like creature."/>
+	<entry name="Neutral/PrometheanFlavor" value="The Promethean is an immense crab-like creature. Its eyes wave around on stalks, searching for prey to grab with its claws and shove into its gaping maw. Its carapace, overgrown with seaweed, is strong as steel. Although there was once a Cult dedicated to worshipping the Promethean, it is not a Chaotic creature, merely a destructive one."/>
+	<entry name="Neutral/PrometheanYoung" value="Promethean Luvenis"/>
+	<entry name="Neutral/PrometheanYoungDescription" value="Pack swarming crab-like younglings."/>
+	<entry name="Neutral/PrometheanYoungFlavor" value="As destructive as its progenitor, but due to their size stay in cohesive pack formations. Their eyes wave around on stalks, searching for prey to swarm; be wary of these little monstrosities as they birth suddenly, already battle ready to come swiftly the aid of their progenitor."/>
+	<entry name="Neutral/ExaltDryad" value="Exalt Dryad"/>
+	<entry name="Neutral/ExaltDryadDescription" value="Exalt Dryad: Treemen healers"/>
+	<entry name="Neutral/ExaltDryadFlavor" value="Treemen are massive humanoid creatures that resemble upright walking trees. They are considered legend and the few that believe in their existence thought them long dead."/>
+	<entry name="Neutral/OctopodaFacientem" value="Octopoda Facientem"/>
+	<entry name="Neutral/OctopodaFacientemDescription" value="Abomination Hybrid Plague Bringers"/>
+	<entry name="Neutral/OctopodaFacientemFlavor" value="Information is sparce on these unbefore seen creatures touched by Chaos. It is believed these abomination malformed Ocotopi humanoid hybrids are beasts touched with the Rot of Nurgle."/>
+	<entry name="Neutral/Pariah" value="Pariah"/>
+	<entry name="Neutral/PariahDescription" value="Murderous Psykic Assassins"/>
+	<entry name="Neutral/PariahFlavor" value="A psychic Blank, also known as an Untouchable, a psychic Null, and a Pariah, is a human who possesses the rare mutation sometimes described as the 'Pariah Gene' that makes them generate no psychic presence in the Warp, thus leaving them essentially soulless. Known also as 'Blacksouls' and 'the Soulless,' a Blank is a living anathema for all psykers, regardless of their species."/>
+	<entry name="Neutral/PsychneueinRegina" value="Psychneuein Regina"/>
+	<entry name="Neutral/PsychneueinReginaDescription" value="Regina of the Airborne elusive warp Psychneuein infestor units."/>
+	<entry name="Neutral/PsychneueinReginaFlavor" value="Regina of the rare Warp-sensitive creatures apparently native to Prospero, they seem capable of travel through the Old One's Webways, meaning they're widely distributed around the galaxy. Parallel evolution has resulted in a wasp-like appearance, but a mature adult's significant strength, speed, toughness and rumoured ability to turn insubstantial at will makes them a threat to any sentient being."/>
+	<entry name="Neutral/DominaKrootHound" value="Kroot Hound Domina"/>
+	<entry name="Neutral/DominaKrootHoundDescription" value="Agile predator unit that is particularly dangerous in forests."/>
+	<entry name="Neutral/DominaKrootHoundFlavor" value="The pseudo-avian Kroot is uniquely flexible, able to absorb the genetic data of other races by consuming them, but sometimes isolated Kroot communities run into evolutionary dead ends. The Kroot Hound is one such dead end, a devolution of the Kroot into a wolf-like species. On Gladius Prime, they have run feral for generations."/>
+	<entry name="Neutral/LuvenalibusAmbulls" value="Luvenalibus Ambulls"/>
+	<entry name="Neutral/LuvenalibusAmbullsDescription" value="Younglings of the Powerful native brawler unit that regenerates hitpoints each turn."/>
+	<entry name="Neutral/LuvenalibusAmbullsFlavor" value="The Ambull is an ape-like Xenos species native to the desert Death World of Luther McIntyre IX, which has spread throughout the Imperium of man (presumably as a result of failed attempts at domestication). They are a subterranean race, able to move through ice, sand or rock at speed, and prone to excavating long tunnels as homes."/>
+	<entry name="Neutral/Horror" value="Pink Horrors"/>
+	<entry name="Neutral/HorrorDescription" value="Lesser Daemons of Tzeentch"/>
+	<entry name="Neutral/HorrorFlavor" value="Lesser Daemons of Tzeentch are literally magic made manifest. Pink Horrors, as they are known, frolic together in cheerful, brightly coloured mobs that caper and whirl, cackling insanely at their own incomprehensible jokes as they blur and cartwheel across the battlefield."/>
+	<entry name="Neutral/MagnaDeamonusPyros" value="Magna Deamonus Pyros"/>
+	<entry name="Neutral/MagnaDeamonusPyrosDescription" value="Greater Deamon Lord of Fire"/>
+	<entry name="Neutral/MagnaDeamonusPyrosFlavor" value="Greater Deamon Lord of Fire."/>
+	<entry name="Neutral/ColostratusCanis" value="Colostratus Canis"/>
+	<entry name="Neutral/ColostratusCanisDescription" value="Warp Tainted Hounds"/>
+	<entry name="Neutral/ColostratusCanisFlavor" value="These are nightmarish beasts twisted and deformed by the powers of the Warp. The beasts are agile and strong, capable of catching a man and ripping him to shreds within seconds."/>
+	<entry name="Neutral/CyclopsGastropoda" value="Cyclops Gastropoda"/>
+	<entry name="Neutral/CyclopsGastropodaDescription" value="Cyclops Warp Tainted Slug Creatures"/>
+	<entry name="Neutral/CyclopsGastropodaFlavor" value="These warp slug beasts have a striking resemblence to mythical creature legends of old terra. Terrifying creatures capable of stopping a mans heart by just its gaze."/>
+	<entry name="Neutral/Dragon" value="Dragon"/>
+	<entry name="Neutral/DragonDescription" value="Dragon"/>
+	<entry name="Neutral/DragonFlavor" value="Dragon."/>
+	<!-- End Modifications -->
+</language>

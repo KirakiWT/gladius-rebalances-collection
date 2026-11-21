@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<!-- modifications -->
+	<entry name="Neutral/DevilSpawn" value="Diable juvénile"/>
+	<entry name="Neutral/DevilSpawnDescription" value="Diable junévile venimeux"/>
+	<entry name="Neutral/DevilSpawnFlavor" value="Les Diables de Catachan sont des créatures territoriales mais plutôt sociales, ayant tendance à former des nichées avec d'autres membres de leur espèce. Ces nichées contiennent souvent plusieurs Diables mâles ainsi que quelques dizaines de Diables juvéniles. Tous les membres de la nichée défendront leur territoire ensemble contre n'importe quel intrus, qu'ils s'agissent d'autres Diables, de colons humains ou d'autres prédateurs, ils ont même déjà été vus s'attaquant à des compagnies de chars de la Garde Impériale."/>
+	<entry name="Neutral/GiantAudrey" value="Venus Mantrap"/>
+	<entry name="Neutral/GiantAudreyDescription" value="Effrayantes monstrosités qui dévorent leurs victimes."/>
+	<entry name="Neutral/GiantAudreyFlavor" value="Chaque feuille du Mantrap forme un piège puissant. Les poils sensibles déclencheurs détectent les proies proches, ce qui provoque l'activation immédiate du mécanisme de piégeage de la plante. Les feuilles se déplacent ensuite rapidement pour atteindre et piéger sa proie."/>
+	<entry name="Neutral/Mutant" value="Mutants"/>
+	<entry name="Neutral/MutantDescription" value="Unité déformée et corrompu qui excelle au combat au corps-à-corps."/>
+	<entry name="Neutral/MutantFlavor" value="Les mutants humains sont souvent des créatures terriblement difformes, déviant abominablement de la forme humaine normale. Cependant tous les mutants ne sont pas des bêtes dégénérées; nombre d'entre eux ont seulement quelques différences extraordinaires qui les met à part du reste de l'Humanité. Bien que de nombreux mutants sont nés mutés du faitt de l'exposition de leur ancêtes sur plusieurs générations à des mutagènes comme les radiations ou des environnement planétaires extrêmes, l'exposition aux énergies psychiques du chaos peut aussi mener à des mutations incontrôlables."/>
+	<entry name="Neutral/Promethean" value="Promethéen"/>
+	<entry name="Neutral/PrometheanDescription" value="Effroyable créature ressemblant à un énorme crabe."/>
+	<entry name="Neutral/PrometheanFlavor" value="Le Prométhéen est une énorme créature dont l'apparence rappelle un crabe. Ses yeux s'agitent au bout de tiges, cherchant des proies à attraper avec ses pinces avant de les avaler dans sa gueule béante. Sa carapace, recouverte d'algues, est aussi dure que l'acier. Bien qu'il y eut autrefois un Culte dédié à l'adoration des Prométhéens, ce n'est pas une créature du Chaos, mais une entité qui sème la destruction."/>
+	<entry name="Neutral/PrometheanYoung" value="Promethéen Luvenis"/>
+	<entry name="Neutral/PrometheanYoungDescription" value="Une horde de créatures ressemblant à des crabes."/>
+	<entry name="Neutral/PrometheanYoungFlavor" value="Tout aussi destructeurs que leur progéniteur, leur petite taille les force à rester groupés. Leurs yeux s'agitent eux aussi au bout de tiges, cherchant des proies à submerger sous leur nombres; faites attention à ces petites monstrosités car elles naissent soudainement, déjà prêtes à se battre pour aider leur progéniteur."/>
+	<entry name="Neutral/ExaltDryad" value="Dryade Exaltée"/>
+	<entry name="Neutral/ExaltDryadDescription" value="Soigneurs des Hommes-Arbres"/>
+	<entry name="Neutral/ExaltDryadFlavor" value="Les Homme-Arbres sont d'immenses créatures humanoïdes qui ressemblent à des arbres avec des jambes. Ils sont considérés comme une légende, et les rares à croire en leur existence les pensent éteints depuis longtemps."/>
+	<entry name="Neutral/OctopodaFacientem" value="Octopoda Facientem"/>
+	<entry name="Neutral/OctopodaFacientemDescription" value="Abomination hybride vecteur de maladies."/>
+	<entry name="Neutral/OctopodaFacientemFlavor" value="Il n'y a que peu d'informations sur ces créatures touchées par le Chaos, qui n'avait jamais été vue avant. On pense que ces abominables et malformés pieuvre-humain hybrides sont issus de bêtes affectés par la Pourriture de Nurgle."/>
+	<entry name="Neutral/Pariah" value="Pariah"/>
+	<entry name="Neutral/PariahDescription" value="Assassins spécialisés dans le meurtre de Psykers."/>
+	<entry name="Neutral/PariahFlavor" value="Un Pariah, aussi connu comme Intouchable, est un humain qui possède une mutation rare, parfois appelé le "gène Pariah", qui les fait ne produire aucune présence dans le Warp, les rendant essentiellement dépourvus d'âmes. Un Pariah est un anathème vivant pour tous les psykers, quelque soit leur espèce."/>
+	<entry name="Neutral/PsychneueinRegina" value="Psychneuein Regina"/>
+	<entry name="Neutral/PsychneueinReginaDescription" value="Reine des insaisissables Psychneueins, une créature volante du warp."/>
+	<entry name="Neutral/PsychneueinReginaFlavor" value="La Psychneuien Regina est la reine d'une rare créature sensible au Warp apparemment native de Prospero, le Psychneuein semble capable de voyager à travers la Toile des Anciens, ce qui signifie qu'on les trouve partout dans la galaxie. Une évolution parallèle a abouti à une forme de simili-guêpes, mais la force, la vitesse et la ténacité considérables, ainsi que, selon les rumeurs, la capacité de devenir immatériel à volonté, d'un adulte font d'eux une menace pour tout être doué de raison."/>
+	<entry name="Neutral/DominaKrootHound" value="Kroot Hound Domina"/>
+	<entry name="Neutral/DominaKrootHoundDescription" value="Prédateur agile particulièrement dangereux dans les forêts."/>
+	<entry name="Neutral/DominaKrootHoundFlavor" value="Les pseudo-aviens Kroots sont particulièrement flexibles, capable d'absorber les données génétiques d'autres races en les mangeant, mais parfois des communautés isolées de Kroots aboutissent dans des impasses évolutionnaires. La meute de Kroots est dans une de ces impasses, une dévolution du Kroot en une espèce de simili-loup. Sur Gladius Prime, ils sont devenus sauvages au fil des générations. Le Kroot Hound Domina est le meneur de telles meutes."/>
+	<entry name="Neutral/LuvenalibusAmbulls" value="Luvenalibus Ambulls"/>
+	<entry name="Neutral/LuvenalibusAmbullsDescription" value="Younglings of the Powerful native brawler unit that regenerates hitpoints each turn."/>
+	<entry name="Neutral/LuvenalibusAmbullsFlavor" value="L'Ambull est une espèce xénos ressemblant à des singes, espèce native du monde mort désertique de Luther McIntyre IX, et qui s'est répandue dans l'Imperium de l'homme (vraisemblablement suite à l'échec de tentatives de domestication). Il s'agit d'une race souterraine, capable de se déplacer rapidement dans la glace, le sable ou la roche, et enclin à se creuser de longs tunnels en guise de maisons. Les Luvenalibus sont des Ambulls juvéniles."/>
+	<entry name="Neutral/Horror" value="Horreurs Roses"/>
+	<entry name="Neutral/HorrorDescription" value="Démons mineurs de Tzeentch"/>
+	<entry name="Neutral/HorrorFlavor" value="Les démons mineurs de Tzeentch sont litérallement de la magie vivant. Les Horreurs Roses, comme on les appelle, gambadent gaiement ensemble, ces créatures aux couleurs vives cabriolent et tourbillonent, ricanant de manière démente à leurs propres blagues incompréhensibles, pendant qu'elles fondent sur leurs ennemis."/>
+	<entry name="Neutral/MagnaDeamonusPyros" value="Magna Deamonus Pyros"/>
+	<entry name="Neutral/MagnaDeamonusPyrosDescription" value="Démon majeur de feu"/>
+	<entry name="Neutral/MagnaDeamonusPyrosFlavor" value="Démon majeur de feu"/>
+	<entry name="Neutral/ColostratusCanis" value="Colostratus Canis"/>
+	<entry name="Neutral/ColostratusCanisDescription" value="Canidés corrompus par le Warp"/>
+	<entry name="Neutral/ColostratusCanisFlavor" value="Ce sont des créatures cauchemardesques, tordues et déformées par les puissance du Warp. Ces bêtes sont fortes et agiles, capables d'attraper un homme et de le réduire en pièces en quelques secondes."/>
+	<entry name="Neutral/CyclopsGastropoda" value="Cyclops Gastropoda"/>
+	<entry name="Neutral/CyclopsGastropodaDescription" value="Limaces cyclopéennes corrompues par le warp"/>
+	<entry name="Neutral/CyclopsGastropodaFlavor" value="Ces limaces du warp ont une ressemblance frappante avec une créature mythique de l'antique Terra. Ces terrifiantes créatures sont capables d'arrêter le coeur d'un homme d'un simple regard."/>
+	<entry name="Neutral/Dragon" value="Dragon"/>
+	<entry name="Neutral/DragonDescription" value="Dragon"/>
+	<entry name="Neutral/DragonFlavor" value="Dragon."/>
+	<!-- End Modifications -->
+</language>
