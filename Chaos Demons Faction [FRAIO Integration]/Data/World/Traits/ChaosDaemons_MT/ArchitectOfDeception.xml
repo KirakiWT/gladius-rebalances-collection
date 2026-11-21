@@ -2,6 +2,11 @@
 <trait icon="Actions/ChaosSpaceMarines/RiteOfChange" category="Debuff">
 	<modifiers>
 		<modifier>
+			<conditions>
+				<unit>
+					<enemy/>
+				</unit>
+			</conditions>
 			<effects>
 				<accuracy mul="-0.1"/>
 			</effects>
