@@ -83,6 +83,22 @@
 						soundCount="3"/>
 			</model>
 		</move>
+		<huntersFromHyperspace cooldown="6"
+				consumedActionPoints="1"
+				icon="Actions/Necrons/HuntersFromHyperspace"
+				name="ChaosSpaceMarines/WarpStride"
+				requiredActionPoints="0">
+			<model>
+				<action sound="Actions/HuntersFromHyperspace"/>
+			</model>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="30"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</huntersFromHyperspace>
 	</actions>
 	<traits>
 		<trait name="ChaosSpaceMarines/ChampionOfChaos"/>

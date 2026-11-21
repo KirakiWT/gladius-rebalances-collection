@@ -24,7 +24,7 @@
 	<entry name="ChaosSpaceMarines/DamnedLitanyDescription" value="Увеличивает урон и снижает потерю морали."/>
 	<entry name="ChaosSpaceMarines/DamnedLitanyFlavor" value="Гимны Экклезиархии всё ещё звучат, но каждый стих теперь завершается именем, которое когда-то было под запретом."/>
 	<entry name="ChaosSpaceMarines/WrathfulCommunion" value="Причастие гнева"/>
-	<entry name="ChaosSpaceMarines/WrathfulCommunionDescription" value="Убийство врага восстанавливает мораль, увеличивает урон, восстанавливает мораль ближайших союзных подразделений Космодесанта Хаоса и сокращает перезарядку Литании проклятых и Шага сквозь Варп."/>
+	<entry name="ChaosSpaceMarines/WrathfulCommunionDescription" value="Убийство врага восстанавливает мораль, увеличивает урон, восстанавливает мораль ближайших союзных подразделений Космодесанта Хаоса, сокращает перезарядку Литании проклятых на 1 и полностью сбрасывает перезарядку Шага сквозь Варп."/>
 	<entry name="ChaosSpaceMarines/WrathfulCommunionFlavor" value="Каждая её жертва — услышанная молитва. Тёмные Боги вознаграждают верных, и верные рядом с ней это чувствуют."/>
 	<entry name="ChaosSpaceMarines/FervorOfTheKill" value="Пыл убийства"/>
 	<entry name="ChaosSpaceMarines/FervorOfTheKillDescription" value="Увеличивает урон."/>

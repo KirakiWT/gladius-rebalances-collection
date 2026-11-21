@@ -4,12 +4,12 @@
 	<entry name="ChaosSpaceMarines/DamnedLitanyDescription" value="Increases the damage of this unit and nearby allied Chaos Space Marines infantry units and reduces their morale loss."/>
 	<entry name="ChaosSpaceMarines/DamnedLitanyFlavor" value="The hymns of the Ecclesiarchy are still sung, but every verse now ends in a name that was once forbidden."/>
 	<entry name="ChaosSpaceMarines/WrathfulCommunion" value="Wrathful Communion"/>
-	<entry name="ChaosSpaceMarines/WrathfulCommunionDescription" value="Each enemy killed by this unit restores its morale, grants it bonus damage for 2 turns, restores the morale of nearby allied Chaos Space Marines units and reduces the cooldown of Damned Litany and Warp Stride."/>
+	<entry name="ChaosSpaceMarines/WrathfulCommunionDescription" value="Each enemy killed by this unit restores its morale, grants it bonus damage for 2 turns, restores the morale of nearby allied Chaos Space Marines units, reduces the cooldown of Damned Litany by 1 and completely resets the cooldown of Warp Stride."/>
 	<entry name="ChaosSpaceMarines/WrathfulCommunionFlavor" value="Every death she deals is a prayer answered. The Dark Gods reward the faithful, and the faithful around her feel it."/>
 	<entry name="ChaosSpaceMarines/BloodAbsolution" value="Blood Absolution"/>
 	<entry name="ChaosSpaceMarines/BloodAbsolutionDescription" value="Restores the morale of the target allied unit and greatly reduces its morale loss for 1 turn."/>
 	<entry name="ChaosSpaceMarines/BloodAbsolutionFlavor" value="“Confess nothing. Kneel to no one. Your sins are already paid in blood, and the Gods have accepted the payment.”"/>
 	<entry name="ChaosSpaceMarines/WarpStride" value="Warp Stride"/>
-	<entry name="ChaosSpaceMarines/WarpStrideDescription" value="Teleports to the target explored tile. Costs influence."/>
+	<entry name="ChaosSpaceMarines/WarpStrideDescription" value="Teleports to the target explored tile. Costs influence. Using it does not consume action points for the Fallen Canoness."/>
 	<entry name="ChaosSpaceMarines/WarpStrideFlavor" value="She does not march to the battlefield. She steps out of the Warp where the fear is strongest and the prey is closest."/>
 </language>

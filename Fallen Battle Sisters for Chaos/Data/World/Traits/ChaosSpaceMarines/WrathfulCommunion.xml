@@ -33,7 +33,7 @@
 						</unit>
 					</conditions>
 					<effects>
-						<cooldown add="-3"/>
+						<cooldown add="-6"/>
 					</effects>
 				</modifier>
 				<modifier>

@@ -4,12 +4,12 @@
 	<entry name="ChaosSpaceMarines/DamnedLitanyDescription" value="Увеличивает урон этого подразделения и ближайших союзных пехотных подразделений Космодесанта Хаоса и снижает их потерю морали."/>
 	<entry name="ChaosSpaceMarines/DamnedLitanyFlavor" value="Гимны Экклезиархии всё ещё звучат, но каждый стих теперь завершается именем, которое когда-то было под запретом."/>
 	<entry name="ChaosSpaceMarines/WrathfulCommunion" value="Причастие гнева"/>
-	<entry name="ChaosSpaceMarines/WrathfulCommunionDescription" value="Каждый враг, убитый этим подразделением, восстанавливает его мораль, на 2 хода увеличивает его урон, восстанавливает мораль ближайших союзных подразделений Космодесанта Хаоса и сокращает перезарядку Литании проклятых и Шага сквозь Варп."/>
+	<entry name="ChaosSpaceMarines/WrathfulCommunionDescription" value="Каждый враг, убитый этим подразделением, восстанавливает его мораль, на 2 хода увеличивает его урон, восстанавливает мораль ближайших союзных подразделений Космодесанта Хаоса, сокращает перезарядку Литании проклятых на 1 и полностью сбрасывает перезарядку Шага сквозь Варп."/>
 	<entry name="ChaosSpaceMarines/WrathfulCommunionFlavor" value="Каждая её жертва — услышанная молитва. Тёмные Боги вознаграждают верных, и верные рядом с ней это чувствуют."/>
 	<entry name="ChaosSpaceMarines/BloodAbsolution" value="Кровавое отпущение"/>
 	<entry name="ChaosSpaceMarines/BloodAbsolutionDescription" value="Восстанавливает мораль целевого союзного подразделения и на 1 ход значительно снижает его потерю морали."/>
 	<entry name="ChaosSpaceMarines/BloodAbsolutionFlavor" value="«Не кайтесь. Ни пред кем не преклоняйтесь. Ваши грехи уже оплачены кровью, и Боги приняли плату»."/>
 	<entry name="ChaosSpaceMarines/WarpStride" value="Шаг сквозь Варп"/>
-	<entry name="ChaosSpaceMarines/WarpStrideDescription" value="Телепортирует на целевую исследованную клетку. Стоит влияние."/>
+	<entry name="ChaosSpaceMarines/WarpStrideDescription" value="Телепортирует на целевую исследованную клетку. Стоит влияние. Для Павшей Канонессы использование не тратит очки действия."/>
 	<entry name="ChaosSpaceMarines/WarpStrideFlavor" value="Она не идёт на поле боя маршем. Она выходит из Варпа там, где страх сильнее всего, а добыча ближе всего."/>
 </language>

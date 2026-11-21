@@ -38,7 +38,7 @@
 			<effects>
 				<armor base="8"/>
 				<hitpointsMax base="14.0"/>
-				<influenceCost base="80.0"/>
+				<influenceCost base="100.0"/>
 				<itemSlots base="6"/>
 				<levelMax base="9"/>
 				<meleeAccuracy base="10"/>
@@ -109,7 +109,7 @@
 		<leadTheRighteous cooldown="3"
 				consumedActionPoints="0"
 				consumedMovement="0"
-				icon="Actions/ChaosSpaceMarines/AuraOfDarkGlory"
+				icon="Actions/SistersOfBattle/WarHymn"
 				name="ChaosSpaceMarines/DamnedLitany"
 				requiredActionPoints="0"
 				rank="-1"
@@ -196,8 +196,9 @@
 				</target>
 			</beginTargets>
 		</deathBeforeDisgrace>
-		<huntersFromHyperspace cooldown="10"
-				consumedActionPoints="1"
+		<huntersFromHyperspace cooldown="6"
+				consumedActionPoints="0"
+				consumedMovement="0"
 				elite="1"
 				icon="Actions/Necrons/HuntersFromHyperspace"
 				levelUpPriority="1"
@@ -231,6 +232,7 @@
 		<trait name="ChaosSpaceMarines/VeteransOfTheLongWar" requiredUpgrade="ChaosSpaceMarines/VeteransOfTheLongWar"/>
 		<trait name="ChaosSpaceMarines/AdvancedDefensivUpgrade" requiredUpgrade="ChaosSpaceMarines/AdvancedDefensivUpgrade"/>
 		<trait name="ChaosSpaceMarines/AdvancedOffensivUpgrade" requiredUpgrade="ChaosSpaceMarines/AdvancedOffensivUpgrade"/>
+		<trait name="HitAndRun"/>
 		<trait name="Hero1"/>
 		<trait name="Stubborn"/>
 	</traits>
