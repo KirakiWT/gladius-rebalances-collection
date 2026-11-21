@@ -266,6 +266,7 @@
 						<unit>
 							<allied/>
 							<faction name="ChaosDaemons_MT"/>
+							<noTrait name="ChaosDaemons_MT/GreaterDaemon"/>
 							<noTrait name="ChaosDaemons_MT/BoonOfChange/Movement"/>
 							<noTrait name="ChaosDaemons_MT/BoonOfChange/Armor"/>
 							<noTrait name="ChaosDaemons_MT/BoonOfChange/Attacks"/>
