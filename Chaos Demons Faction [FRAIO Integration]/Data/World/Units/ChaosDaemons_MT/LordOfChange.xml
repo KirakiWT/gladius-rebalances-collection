@@ -372,30 +372,6 @@
 								</modifier>
 							</modifiers>
 						</area>
-						<area affects="Unit" radiusMin="2" radiusMax="4" excludeRadius="0">
-							<modifiers>
-								<modifier>
-									<conditions>
-										<unit>
-											<allied/>
-										</unit>
-									</conditions>
-									<effects>
-										<addTrait name="ChaosDaemons_MT/ArchitectOfDeceptionAlly"/>
-									</effects>
-								</modifier>
-								<modifier>
-									<conditions>
-										<unit>
-											<enemy/>
-										</unit>
-									</conditions>
-									<effects>
-										<addTrait name="ChaosDaemons_MT/ArchitectOfDeception"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
 					</areas>
 				</selfTarget>
 			</beginTargets>
