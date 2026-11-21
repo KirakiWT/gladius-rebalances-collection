@@ -16,6 +16,11 @@
 			<effects>
 				<consumedMovement max="0"/>
 				<influencePerKillValue add="2"/>
+			</effects>
+		</modifier>
+		<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/SlaaneshAscension2">
+			<effects>
+				<influencePerKillValue max="0"/>
 				<influencePerExperience add="3"/>
 			</effects>
 		</modifier>
