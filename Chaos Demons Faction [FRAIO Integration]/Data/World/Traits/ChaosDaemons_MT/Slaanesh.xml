@@ -16,6 +16,7 @@
 			<effects>
 				<consumedMovement max="0"/>
 				<influencePerKillValue add="2"/>
+				<influencePerExperience add="3"/>
 			</effects>
 		</modifier>
 		<modifier>
