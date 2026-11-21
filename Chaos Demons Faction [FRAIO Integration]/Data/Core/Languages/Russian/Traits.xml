@@ -55,7 +55,7 @@
 	<entry name="ChaosDaemons_MT/RancidVisitationsDescription" value="Наносит урон каждый ход."/>
 	<entry name="ChaosDaemons_MT/RancidVisitationsFlavor" value="Песнопя в задыхающемся от мокроты гуле, демон вызывает густое облако закупоривающего трупного газа и кусающих, ослепляющих мух, чтобы поглотить врага и оставить его в тошноте и шоке."/>
 	<entry name="ChaosDaemons_MT/ArchitectOfDeception" value="Архитектор обмана"/>
-	<entry name="ChaosDaemons_MT/ArchitectOfDeceptionDescription" value="Уменьшает точность."/>
+	<entry name="ChaosDaemons_MT/ArchitectOfDeceptionDescription" value="Повышает точность союзников на 10% и снижает точность врагов на 10%."/>
 	<entry name="ChaosDaemons_MT/ArchitectOfDeceptionFlavor" value="Ни один враг, будь то смертный или демонический, не может доверять своему восприятию этого самого хитрого из демонов. Завеса колдовской иллюзии окутывает его так густо, что его враги могут не распознать истинного местонахождения демона, даже если они окажутся в его тени."/>
 	<entry name="ChaosDaemons_MT/BloodLegion" value="Кровавый легион"/>
 	<entry name="ChaosDaemons_MT/BloodLegionDescription" value="Увеличивает количество атак."/>
