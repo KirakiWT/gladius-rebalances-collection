@@ -22,6 +22,7 @@ A few values visible in the current XML:
 
 - The faction definition marks Chaos Daemons as playable and assigns DLC gate Supplement3.
 - The faction definition sets starting resources to 25 Energy, 25 Food, 25 Influence, and 50 Ore.
+- Its starting units are one Chaos Cultist, one Chaos Space Marine, and Be'lakor.
 - The Chaos Daemons Headquarters building adds 17 Loyalty and 6 each of Energy, Food, Influence, Ore, Research, and Population Limit.
 
 These are current XML values, not a claim that each value differs from AIO. Consult the relevant XML before describing a specific change relative to the baseline.
@@ -37,10 +38,11 @@ The folder's SteamID.txt records Workshop item **3773456041**: [Chaos Daemons on
 
 ## Documentation and verification
 
-- [PROJECT_CONTEXT.md](./PROJECT_CONTEXT.md) describes the repository roles and the current XML facts recorded for Chaos Daemons.
+- [PROJECT_CONTEXT.md](./PROJECT_CONTEXT.md) describes repository roles, the documentation-only edit policy, and the current XML facts recorded for Chaos Daemons.
+- [Chaos Daemons XML balance audit](./Chaos%20Demons%20Faction%20%5BFRAIO%20Integration%5D/Balance-Audit-2026-11-21.md) records verified faction values and the current building/economy comparison with the AIO Chaos Space Marines baseline.
 - [AIO Necron XML reference](./Faction%20Reworks%20All-In-One%20Fixed%20%2B%20Eradication%20Integrated/design_document.txt) records a small selection of Necron implementation details checked against the AIO XML.
 
-When documenting a mechanic, inspect its current XML in the relevant package. Do not use old investigation notes, chat logs, proposed changes, or historical design text as proof of current implementation. XML declarations also do not by themselves confirm engine behaviour; test in-game when the effect depends on undocumented engine semantics.
+When documenting a mechanic, inspect its current XML in the relevant package. XML may be read for verification, but repository maintenance changes are restricted to documentation files (`.md` and `.txt`); game XML and asset files are not edited. Do not use old investigation notes, chat logs, proposed changes, or historical design text as proof of current implementation. XML declarations also do not by themselves confirm engine behaviour; test in-game when the effect depends on undocumented engine semantics.
 
 ## Feedback
 
