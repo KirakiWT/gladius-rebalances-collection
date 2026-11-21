@@ -74,7 +74,7 @@
 	<entry name="ChaosDaemons_MT/RancidVisitationsFlavor" value="Chanting in a phlegm-choked drone, the daemon conjures forth a dense cloud of occluding corpse-gas and biting, blinding flies to engulf the enemy and leave them nauseated and reeling."/>
 
 	<entry name="ChaosDaemons_MT/ArchitectOfDeception" value="Architect of Deception"/>
-	<entry name="ChaosDaemons_MT/ArchitectOfDeceptionDescription" value="Decrease accuracy."/>
+	<entry name="ChaosDaemons_MT/ArchitectOfDeceptionDescription" value="Increases accuracy of allied units by 10% and decreases accuracy of enemy units by 10%."/>
 	<entry name="ChaosDaemons_MT/ArchitectOfDeceptionFlavor" value="No foe, be they mortal or daemonic, can trust their perceptions around this most cunning of daemons. A veil of sorcerous illusion wreathes it so densely that its enemies may not discern the daemon’s true location even should they stand in its very shadow."/>
 
 	<entry name="ChaosDaemons_MT/BloodLegion" value="Blood Legion"/>
