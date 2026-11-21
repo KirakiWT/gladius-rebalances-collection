@@ -4,4 +4,6 @@
 	<entry name="EnchantedScimitarFlavor" value="A blade bound to forbidden Warp power. Its runes quicken each strike and drive its keen edge through armour."/>
 	<entry name="FallenCombiFlamer" value="Combi-Flamer"/>
 	<entry name="FallenCombiFlamerFlavor" value="A boltgun and flamer combined into a single weapon, adapted for a servant of Chaos."/>
+	<entry name="FallenHereticStake" value="Heretic’s Stake"/>
+	<entry name="FallenHereticStakeFlavor" value="A boltgun stake loaded with a blasphemous round that is inscribed to hunt champions."/>
 </language>

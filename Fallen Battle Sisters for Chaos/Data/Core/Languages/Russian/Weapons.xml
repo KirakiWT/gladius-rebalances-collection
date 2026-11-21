@@ -4,4 +4,6 @@
 	<entry name="EnchantedScimitarFlavor" value="Клинок, скреплённый с запретной силой Варпа. Его руны ускоряют каждый удар, а острая кромка с лёгкостью пробивает броню."/>
 	<entry name="FallenCombiFlamer" value="Комби-огнемёт"/>
 	<entry name="FallenCombiFlamerFlavor" value="Комбинированное оружие, объединяющее болтер и огнемёт и приспособленное для служителя Хаоса."/>
+	<entry name="FallenHereticStake" value="Кол еретички"/>
+	<entry name="FallenHereticStakeFlavor" value="Кол для болтера с богохульным зарядом, на котором начертано повеление охотиться на чемпионов."/>
 </language>

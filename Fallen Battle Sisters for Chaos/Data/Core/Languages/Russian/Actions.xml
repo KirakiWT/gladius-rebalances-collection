@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="ChaosSpaceMarines/DamnedLitany" value="Литания проклятых"/>
+	<entry name="ChaosSpaceMarines/DamnedLitanyDescription" value="Увеличивает урон этого подразделения и ближайших союзных пехотных подразделений Космодесанта Хаоса."/>
+	<entry name="ChaosSpaceMarines/DamnedLitanyFlavor" value="Гимны Экклезиархии всё ещё звучат, но каждый стих теперь завершается именем, которое когда-то было под запретом."/>
+	<entry name="ChaosSpaceMarines/HereticalSermon" value="Еретическая проповедь"/>
+	<entry name="ChaosSpaceMarines/HereticalSermonDescription" value="Снижает мораль целевого вражеского подразделения."/>
+	<entry name="ChaosSpaceMarines/HereticalSermonFlavor" value="«Вы молитесь трупу на троне. Взгляните на того, кому служим мы, и скажите, что ваша вера не дала трещину»."/>
+	<entry name="ChaosSpaceMarines/AuraOfBlasphemy" value="Аура богохульства"/>
+	<entry name="ChaosSpaceMarines/AuraOfBlasphemyDescription" value="Вражеские подразделения, сражающиеся с этим подразделением и соседними союзными подразделениями Космодесанта Хаоса, теряют мораль."/>
+	<entry name="ChaosSpaceMarines/AuraOfBlasphemyFlavor" value="Канонесса открыто носит свою скверну. Те, кто встречает её, видят некогда почитаемый символ, обращённый в оскорбление Императора."/>
+	<entry name="ChaosSpaceMarines/MarkedForDamnation" value="Отмеченный проклятием"/>
+	<entry name="ChaosSpaceMarines/MarkedForDamnationDescription" value="Целевое вражеское подразделение получает больше урона, а его меткость снижается."/>
+	<entry name="ChaosSpaceMarines/MarkedForDamnationFlavor" value="Одного слова павшей Канонессы достаточно, чтобы Тёмные Боги увидели в жертве осуждённого, а Хаос быстро взыскивает долги."/>
+</language>

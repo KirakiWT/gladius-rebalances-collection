@@ -5,4 +5,31 @@
 	<entry name="ChaosSpaceMarines/ChampionOfChaosFlavor" value="It is not unusual for the Chaos powers to bestow strange boons and mutations upon those who kill in their name. Not all of these boons are beneficial—the dark ones are as fickle as they are inscrutable, and even their most ardent followers are little more than pawns in a celestial game."/>
 	<entry name="ChaosSpaceMarines/LeaderOfChaos" value="Leader of Chaos"/>
 	<entry name="ChaosSpaceMarines/LeaderOfChaosDescription" value="Reduces morale loss for nearby Cultists, Exalted Poxwalkers and Dark Disciples."/>
+	<entry name="ChaosSpaceMarines/DamnedLitany" value="Damned Litany"/>
+	<entry name="ChaosSpaceMarines/DamnedLitanyDescription" value="Increases the damage of this unit and nearby allied Chaos Space Marines infantry units."/>
+	<entry name="ChaosSpaceMarines/DamnedLitanyFlavor" value="The hymns of the Ecclesiarchy are still sung, but every verse now ends in a name that was once forbidden."/>
+	<entry name="ChaosSpaceMarines/HereticalSermon" value="Heretical Sermon"/>
+	<entry name="ChaosSpaceMarines/HereticalSermonDescription" value="Reduces the morale of the target enemy unit."/>
+	<entry name="ChaosSpaceMarines/HereticalSermonFlavor" value="“You pray to a corpse on a throne. Look upon what we serve, and tell me you do not feel your faith crack.”"/>
+	<entry name="ChaosSpaceMarines/AuraOfBlasphemy" value="Aura of Blasphemy"/>
+	<entry name="ChaosSpaceMarines/AuraOfBlasphemyDescription" value="Enemy units fighting this unit and adjacent allied Chaos Space Marines units lose morale."/>
+	<entry name="ChaosSpaceMarines/AuraOfBlasphemyFlavor" value="The Canoness carries her defilement openly. Those who face her see an icon they once revered turned into an insult to the Emperor."/>
+	<entry name="ChaosSpaceMarines/MarkedForDamnation" value="Marked for Damnation"/>
+	<entry name="ChaosSpaceMarines/MarkedForDamnationDescription" value="The target enemy unit takes more damage and has reduced accuracy."/>
+	<entry name="ChaosSpaceMarines/MarkedForDamnationFlavor" value="A single word from a fallen Canoness is enough to condemn a victim in the eyes of the Dark Gods, and Chaos is quick to collect."/>
+	<entry name="ChaosSpaceMarines/BlackenedAegis" value="Blackened Aegis"/>
+	<entry name="ChaosSpaceMarines/BlackenedAegisDescription" value="Increases the invulnerable and witchfire damage reduction. Reduced while Broken."/>
+	<entry name="ChaosSpaceMarines/BlackenedAegisFlavor" value="The faith that once shielded her has been twisted into something darker, yet it still turns aside what should have killed her."/>
+	<entry name="ChaosSpaceMarines/SpiteOfTheDamned" value="Spite of the Damned"/>
+	<entry name="ChaosSpaceMarines/SpiteOfTheDamnedDescription" value="Increases the damage while below 50% hitpoints."/>
+	<entry name="ChaosSpaceMarines/SpiteOfTheDamnedFlavor" value="Betrayal burns longer than devotion ever did. The more she bleeds, the more she hates."/>
+	<entry name="ChaosSpaceMarines/ProfaneMartyrdom" value="Profane Martyrdom"/>
+	<entry name="ChaosSpaceMarines/ProfaneMartyrdomDescription" value="On death, reduces the morale loss and increases the damage of all allied Chaos Space Marines units."/>
+	<entry name="ChaosSpaceMarines/ProfaneMartyrdomFlavor" value="Her death is not an end but an offering, and her warriors fight on to ensure it was not made in vain."/>
+	<entry name="ChaosSpaceMarines/BloodOfTheFallen" value="Blood of the Fallen"/>
+	<entry name="ChaosSpaceMarines/BloodOfTheFallenDescription" value="Reduces the morale loss and increases the damage."/>
+	<entry name="ChaosSpaceMarines/BloodOfTheFallenFlavor" value="The blood of a martyred Canoness stains the ground and stirs those who follow her."/>
+	<entry name="ChaosSpaceMarines/DamnationBrand" value="Damnation Brand"/>
+	<entry name="ChaosSpaceMarines/DamnationBrandDescription" value="Increases the damage against Heroes."/>
+	<entry name="ChaosSpaceMarines/DamnationBrandFlavor" value="Each stake is inscribed with the name of a champion who must be brought low."/>
 </language>

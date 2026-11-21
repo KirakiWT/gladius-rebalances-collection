@@ -26,7 +26,7 @@
 						effectScale="0.75"/>
 			</model>
 		</weapon>
-		<weapon name="CondemnorBoltgunSilverStake" slotName="CondemnorBoltgunSilverStake" enabled="0">
+		<weapon name="FallenHereticStake" slotName="FallenHereticStake" enabled="0">
 			<model>
 				<projectileWeapon muzzleBone="bip01 r hand"
 						fireInterval="10"/>
@@ -102,20 +102,137 @@
 				requiredActionPoints="1"
 				consumedActionPoints="1"
 				requiredMovement="0"
-				weaponSlotName="CondemnorBoltgunSilverStake">
+				weaponSlotName="FallenHereticStake">
 			<model>
 				<action animation="Units/ChaosSpaceMarines/FallenCanonessAttack"
 						beginFire="1.0"
 						endFire="1.1"/>
 			</model>
 		</useWeapon>
+		<leadTheRighteous cooldown="3"
+				consumedActionPoints="0"
+				consumedMovement="0"
+				name="ChaosSpaceMarines/DamnedLitany"
+				requiredActionPoints="0"
+				rank="-1"
+				rankMax="2">
+			<model>
+				<action sound="Actions/ChaosBuff"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit" radius="2">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+											<noTrait name="Vehicle"/>
+											<noTrait name="Fortification"/>
+											<faction name="ChaosSpaceMarines"/>
+										</unit>
+									</conditions>
+									<effects>
+										<addTrait duration="1" name="ChaosSpaceMarines/DamnedLitany"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</leadTheRighteous>
+		<deathBeforeDisgrace cooldown="3"
+				consumedActionPoints="0"
+				consumedMovement="0"
+				name="ChaosSpaceMarines/HereticalSermon"
+				requiredActionPoints="0"
+				rank="-1"
+				rankMax="2">
+			<model>
+				<action sound="Actions/ChaosBuff"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="3">
+					<conditions>
+						<unit>
+							<enemy/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<morale addMin="-3" addMax="-9"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</deathBeforeDisgrace>
+		<genericUnitAbility passive="1"
+				name="ChaosSpaceMarines/AuraOfBlasphemy"
+				rank="-1"
+				rankMax="2">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosSpaceMarines/AuraOfBlasphemy"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<righteousJudgement cooldown="3"
+				elite="1"
+				name="ChaosSpaceMarines/MarkedForDamnation"
+				levelUpPriority="1"
+				rank="-1"
+				rankMax="0">
+			<model>
+				<action sound="Actions/RighteousJudgement"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="3">
+					<conditions>
+						<unit>
+							<enemy/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait duration="1" name="ChaosSpaceMarines/MarkedForDamnation"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</righteousJudgement>
 		<levelUp/>
 		<shop/>
 	</actions>
 	<traits>
-		<trait name="SistersOfBattle/ShieldOfFaith"/>
-		<trait name="SistersOfBattle/Martyrdom"/>
-		<trait name="SistersOfBattle/OathOfFaith"/>
+		<trait name="ChaosSpaceMarines/BlackenedAegis"/>
+		<trait name="ChaosSpaceMarines/SpiteOfTheDamned"/>
+		<trait name="ChaosSpaceMarines/ProfaneMartyrdom"/>
+		<trait name="ChaosSpaceMarines/ChampionOfChaos"/>
+		<trait name="ChaosSpaceMarines/LeaderOfChaos"/>
 		<trait name="ExtraInfantryArmour" requiredUpgrade="ChaosSpaceMarines/ExtraInfantryArmour"/>
 		<trait name="ChaosSpaceMarines/InfantryUpgrade" requiredUpgrade="ChaosSpaceMarines/InfantryUpgrade"/>
 		<trait name="ChaosSpaceMarines/GiftOfMutation" requiredUpgrade="ChaosSpaceMarines/GiftOfMutation"/>
@@ -123,7 +240,6 @@
 		<trait name="ChaosSpaceMarines/AdvancedDefensivUpgrade" requiredUpgrade="ChaosSpaceMarines/AdvancedDefensivUpgrade"/>
 		<trait name="ChaosSpaceMarines/AdvancedOffensivUpgrade" requiredUpgrade="ChaosSpaceMarines/AdvancedOffensivUpgrade"/>
 		<trait name="Hero1"/>
-		<trait name="Rosarius"/>
 		<trait name="Stubborn"/>
 	</traits>
 </unit>
