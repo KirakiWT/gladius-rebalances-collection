@@ -163,7 +163,7 @@
 	<entry name="ChaosDaemons_MT/SummaryExecutionFlavor" value="<string name='Actions/SummaryExecutionFlavor'/>"/>
 	
 	<entry name="ChaosDaemons_MT/ArchitectOfDeception" value="<string name='Traits/ChaosDaemons_MT/ArchitectOfDeception'/>"/>
-	<entry name="ChaosDaemons_MT/ArchitectOfDeceptionDescription" value="Increase the accuracy of adjacent allied units by 10% and decrease the accuracy of adjacent enemy units by 10%."/>
+	<entry name="ChaosDaemons_MT/ArchitectOfDeceptionDescription" value="Decrease accuracy of adjacent enemy units."/>
 	<entry name="ChaosDaemons_MT/ArchitectOfDeceptionFlavor" value="<string name='Traits/ChaosDaemons_MT/ArchitectOfDeceptionFlavor'/>"/>
 	
 	<entry name="ChaosDaemons_MT/BoonOfChange" value="<string name='Traits/ChaosDaemons_MT/BoonOfChange/BoonOfChange'/>"/>
