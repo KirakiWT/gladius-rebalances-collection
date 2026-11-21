@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<responses>
+		<action name="UseWeapon/PetalStorm" sound="Units/Neutral/GiantAudrey1" soundCount="1"/>
+		<action name="die" sound="Units/Neutral/GiantAudrey" soundCount="2"/>
+		<attack sound="Units/Neutral/GiantAudrey1" soundCount="1"/>
+		<move sound="Units/Neutral/GiantAudrey" soundCount="2"/>
+		<select sound="Units/Neutral/GiantAudrey" soundCount="2"/>
+	</responses>
+	<model>
+		<unit mesh="Units/Neutral/GiantAudrey"
+				material="Units/Neutral/GiantAudrey"
+				scale="4.0 4.0 4.0"
+				idleAnimation="Units/Neutral/GiantAudreyIdle"
+				idleAnimationCount="4"
+				idleContinuously="1"
+				normalWeight="0.1"
+				bloodBone="Bip01_Spine"
+				walker="1"/>
+	</model>
+	<group size="1" rowSize="3" memberDeltaX="80" memberDeltaY="64"/>
+	<weapons>
+		<weapon name="CloseCombatWeapon" slotName="CloseCombatWeapon">
+			<model>
+				<weapon fireInterval="0.5"
+						fireSoundCount="0"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor set="6"/> 
+				<hitpointsMax set="15.0"/>
+				<meleeAccuracy set="8"/>
+				<meleeArmorPenetration set="6.0"/>
+				<meleeAttacks set="2"/>
+				<meleeDamage set="3"/>
+				<moraleMax set="6"/>
+				<movementMax set="4"/>
+				<rangedAccuracy set="6"/>
+				<productionCost set="42.0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<actions>
+		<attack>
+			<model>
+				<action chargeAnimation="Units/Neutral/GiantAudreyCharge"
+						meleeAnimation="Units/Neutral/GiantAudreyMelee"
+						meleeBeginSwing="0.0"
+						meleeEndSwing="1.0"
+						meleeDefenseAnimation="Units/Neutral/GiantAudreyMelee"
+						meleeDefenseBeginSwing="0.0"
+						meleeDefenseEndSwing="1.0"/>
+			</model>
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/Neutral/GiantAudreyDie"
+						animationCount="1"/>
+			</model>
+		</die>
+		<move>
+			<model>
+				<action animation="Units/Neutral/GiantAudreyMove"/>
+			</model>		
+		</move>
+	</actions>
+	<traits>
+		<trait name="MonstrousCreature"/>
+		<trait name="MoveThroughCover"/>
+	</traits>
+</unit>

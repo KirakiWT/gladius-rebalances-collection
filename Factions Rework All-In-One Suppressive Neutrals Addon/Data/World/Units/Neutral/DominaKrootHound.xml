@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit spawnCountMax="1" spawnDistanceMin="6">
+	<responses>
+		<select sound="Units/Neutral/KrootHoundAttack" soundCount="2"/>
+	</responses>
+	<model>
+		<unit mesh="Units/Neutral/KrootHound"
+				material="Units/Neutral/DominaKrootHound"
+				scale="1.4 1.4 1.4"
+				idleAnimation="Units/Neutral/KrootHoundIdle"
+				idleAnimationCount="4"
+				idleContinuously="1"
+				normalWeight="0.1"
+				bloodBone="ChestBone"
+				walker="1"/>
+	</model>
+	<group size="1" rowSize="3" memberDeltaX="80" memberDeltaY="50"/>
+	<weapons>
+		<weapon name="CloseCombatWeapon">
+			<model>
+				<weapon fireInterval="1.0"
+						fireSoundCount="0"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor set="4"/>
+				<hitpointsMax set="8.0"/>
+				<meleeAccuracy set="8"/>
+				<meleeArmorPenetration set="3.0"/>
+				<meleeAttacks set="2"/>
+				<strengthDamage set="5"/>
+				<moraleMax set="4"/>
+				<movementMax set="5"/>
+				<productionCost set="24.0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<actions>
+		<attack>
+			<model>
+				<action animation="Units/Neutral/KrootHoundAttack"
+						chargeAnimation="Units/Neutral/KrootHoundCharge"
+						meleeAnimation="Units/Neutral/KrootHoundMelee"
+						meleeBeginSwing="0.5"
+						meleeEndSwing="1.0"
+						meleeDefenseAnimation="Units/Neutral/KrootHoundMelee"
+						meleeDefenseBeginSwing="0.5"
+						meleeDefenseEndSwing="1.0"
+						meleeSound="Units/Neutral/KrootHoundAttack"
+						meleeSoundCount="2"/>
+			</model>
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/Neutral/KrootHoundDie"
+						sound="Units/Neutral/KrootHoundDie"
+						soundCount="2"/>
+			</model>
+		</die>
+		<move>
+			<model>
+				<action animation="Units/Neutral/KrootHoundMove"
+						sound="Units/Neutral/KrootHoundMove"
+						soundCount="4"/>
+			</model>		
+		</move>
+		<canticlesOfWrath cooldown="3"
+				name="RoarOfWrath"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				consumedMovement="0"
+				rank="0"
+				rankMax="0">
+			<model>
+				<action animation="Units/Neutral/KrootHoundAttack"
+						sound="Actions/MysticBuff"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit" radius="1">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+										</unit>
+									</conditions>
+									<effects>
+										<morale addMin="2" addMax="6"/>
+									</effects>
+								</modifier>
+								<modifier>
+									<conditions>
+										<unit>
+											<enemy/>
+										</unit>
+									</conditions>
+									<effects>
+										<morale addMin="-2" addMax="-6"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</canticlesOfWrath>
+	</actions>
+	<traits>
+		<trait name="Fleet"/>
+		<trait name="Infiltrate"/>
+		<trait name="MoveThroughCover"/>
+		<trait name="ForestStealth"/>
+	</traits>
+</unit>
