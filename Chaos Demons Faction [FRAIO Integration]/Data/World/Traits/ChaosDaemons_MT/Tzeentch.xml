@@ -8,13 +8,17 @@
 				</unit>
 			</conditions>
 			<effects>
-				<feelNoPainDamageReduction add="0.17"/>
 				<meleeDamageTaken mul="0.50"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
 			<effects>
 				<researchPerKillValue add="2"/>
+			</effects>
+		</modifier>
+		<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/TzeentchAscension2">
+			<effects>
+				<researchPerKillValue max="0"/>
 				<researchPerExperience add="3"/>
 			</effects>
 		</modifier>
