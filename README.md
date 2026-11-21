@@ -1,13 +1,13 @@
 # Warhammer 40,000: Gladius — Faction Rebalance Collection
 
-This repository contains an integrated faction-rework package, a separate Chaos Daemons faction package, and vanilla game files kept for comparison. The XML in each package is the implementation source of truth; documentation is only a guide to the repository.
+This repository contains an integrated faction-rework package, a Chaos Daemons faction add-on that is designed to run on top of AIO (not as a standalone mod), and vanilla game files kept for comparison. The XML in each package is the implementation source of truth; documentation is only a guide to the repository.
 
 ## Repository map
 
 | Directory or file | Role |
 |---|---|
 | [Faction Reworks All-In-One Fixed + Eradication Integrated](./Faction%20Reworks%20All-In-One%20Fixed%20%2B%20Eradication%20Integrated/) | **Main baseline package.** The integrated mod. Its Data tree contains the current game definitions and supporting package data. Use its XML as the baseline when comparing faction mechanics and balance. |
-| [Chaos Demons Faction [FRAIO Integration]](./Chaos%20Demons%20Faction%20%5BFRAIO%20Integration%5D/) | **Separate working faction package.** Contains its own Chaos Daemons faction, building, unit, trait, upgrade, weapon, and language definitions. This is distinct from the Chaos Space Marines content in the AIO package. |
+| [Chaos Demons Faction [FRAIO Integration]](./Chaos%20Demons%20Faction%20%5BFRAIO%20Integration%5D/) | **AIO-dependent faction add-on.** Contains its own Chaos Daemons faction, building, unit, trait, upgrade, weapon, and language definitions. It is designed to integrate with and require the AIO package; it is not intended for standalone play. This is distinct from the Chaos Space Marines content in the AIO package. |
 | [ORIGINAL VANILLA FILES](./ORIGINAL%20VANILLA%20FILES/) | **Reference only.** Original game Core and World data for comparisons. These files are not a mod package and should not replace modded files. |
 | Fallen Battle Sisters for Chaos | Outside the scope of the faction rebalance collection; ignored by this project documentation. |
 | Models-to-be-added | Asset holding area; ignored by this project documentation. |
@@ -31,8 +31,8 @@ The folder's SteamID.txt records Workshop item **3773456041**: [Chaos Daemons on
 
 ## How the packages relate
 
-- The AIO folder is the integrated baseline and main comparison point.
-- Chaos Daemons is maintained as a separate faction package with its own XML definitions and current faction-specific balance data.
+- The AIO folder is the required integrated foundation and main comparison point.
+- Chaos Daemons is maintained as a separate faction add-on with its own XML definitions and faction-specific balance data; it relies on the AIO environment and is not a standalone package.
 - ORIGINAL VANILLA FILES is used only to check what the original game files contain.
 - Chaos Space Marines in AIO and Chaos Daemons in the separate package are different factions; do not treat their names or XML as interchangeable.
 
