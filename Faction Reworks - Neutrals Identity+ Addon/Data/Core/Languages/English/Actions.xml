@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="Neutral/GiantAudreyRootSnare" value="Root Snare"/>
+	<entry name="Neutral/GiantAudreyRootSnareDescription" value="Immobilizes the selected enemy unit for 1 turn."/>
+	<entry name="Neutral/GiantAudreyRootSnareFlavor" value="Giant Audrey's tendrils coil around its prey, holding it fast in place."/>
+</language>
