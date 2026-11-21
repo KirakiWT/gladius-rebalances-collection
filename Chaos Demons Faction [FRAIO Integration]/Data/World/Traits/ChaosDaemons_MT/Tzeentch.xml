@@ -15,6 +15,7 @@
 		<modifier visible="0">
 			<effects>
 				<researchPerKillValue add="2"/>
+				<researchPerExperience add="3"/>
 			</effects>
 		</modifier>
 		<modifier>
