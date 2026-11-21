@@ -390,6 +390,6 @@
 	<entry name="ChaosDaemons_MT/SlaaneshAscension2Description" value="+35% hitpoints and +20% damage. +1 movement and each kill yields 3 Influence."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2" value="Master of Fate"/>
-	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="+35% hitpoints, +1 armor and +20% damage. +17% damage reduction and each kill yields 3 Research."/>
+	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="+35% hitpoints, +1 armor and +20% damage and each kill yields 3 Research."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 </language>
