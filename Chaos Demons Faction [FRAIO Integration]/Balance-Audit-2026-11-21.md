@@ -271,28 +271,23 @@ Bullgryn имеет особенно понятную историческую �
 - В том же enemy trait есть отдельный per-turn эффект для `ChaosDaemons_MT/DaemonicTerror`; `DaemonicTerror.xml` существует и остаётся самостоятельной механикой. Его наличие не меняет решение об исключении PrimalTerror.
 - Среди обнаруженных источников Shadow-маркера: `DarkGlory` добавляет feature на клетки в радиусе 1–3 после убийства врага; Lord Commissar может создать feature через способность; Lord of Change, Changecaster и Warp Rift также содержат faction-specific Shadow marker effects.
 
-### PrimalTerror: исключён из состава проекта
+### PrimalTerror: исключён, остаточные записи удалены
 
-**Решение по составу:** `PrimalTerror` должен быть удалён и не должен восстанавливаться как upgrade. Отсутствие `World/Upgrades/ChaosDaemons_MT/PrimalTerror.xml` — ожидаемое состояние, а не запрос на создание нового определения. Не следует придумывать для него стоимость, prerequisites или игровые эффекты.
+**Решение по составу:** `PrimalTerror` намеренно исключён и не должен восстанавливаться как upgrade. Файла `World/Upgrades/ChaosDaemons_MT/PrimalTerror.xml` в проекте нет и не требуется; для него не создаются стоимость, prerequisites или новые игровые эффекты.
 
-В текущих игровых данных при этом остались три ссылки на исключённый ID:
+В ходе очистки удалены все найденные игровые и интерфейсные остатки:
 
-1. `World/Traits/ChaosDaemons_MT/ShadowOfChaosEnemy.xml` — дополнительный модификатор `moraleLossFactor +0.33` закрыт условием `requiredUpgrade="ChaosDaemons_MT/PrimalTerror"`.
-2. `World/Traits/ChaosDaemons_MT/Belakor/Tier10.xml` — ID включён в набор условий для одного из Tier 10 модификаторов Be'lakor.
-3. `World/Traits/ChaosDaemons_MT/Belakor/BetrayingShades/Tier10.xml` — ID включён в набор условий для Tier 10 эффекта Betraying Shades.
+1. Из `World/Traits/ChaosDaemons_MT/ShadowOfChaosEnemy.xml` удалён отдельный modifier с условием `requiredUpgrade="ChaosDaemons_MT/PrimalTerror"` и `moraleLossFactor +0.33`. Базовый `moraleLossFactor +0.17` и отдельный per-turn modifier `DaemonicTerror` сохранены.
+2. Из `World/Traits/ChaosDaemons_MT/Belakor/Tier10.xml` и `World/Traits/ChaosDaemons_MT/Belakor/BetrayingShades/Tier10.xml` удалена только строка prerequisite `PrimalTerror`. Остальные пять upgrade-условий в каждом `player match="Any"` сохранены вместе с их эффектами.
+3. Из английского и русского `Data/Core/Languages/*/Upgrades.xml` удалены по три записи: название, Description и Flavor.
 
-Кроме того, английский и русский `Data/Core/Languages/*/Upgrades.xml` сохраняют по три устаревшие строки: название, описание и flavor.
-
-**Классификация:** это остаточные ссылки и локализация удалённого элемента, а не недостающая реализация. Их следует удалить вместе с самим ID при разрешённой чистке игровых XML и языковых файлов. До такой чистки нельзя считать подтверждённым, как движок трактует эти оставшиеся условия; в частности, не следует утверждать, что соответствующие бонусы Be'lakor или Shadow of Chaos работают либо не работают в игре.
-
-По установленному ограничению на текущем проходе изменяются только документы: игровые XML и локализация не редактируются.
+**Статус:** в игровых XML и локализации пакета Chaos Daemons остаточные ссылки и строки `PrimalTerror` устранены. `DaemonicTerror` — отдельная механика, она сохранена. Изменения подтверждают статическую очистку файлов; фактическое поведение Shadow of Chaos и Tier 10 Be'lakor требует отдельного игрового теста.
 
 ## 9. Следующие проверки
 
 - Сравнить стоимость и параметры основных юнитов Chaos Daemons с релевантными аналогами AIO по одинаковым полям.
 - Отдельно проверить Shadow of Chaos, Locus и эффекты марок по цепочкам Unit → Trait → Feature / Weapon.
 - Проверить связи `Reinforcements_MT/SupportHero` и связанные правила создания юнитов из интегрированной основы AIO; отдельно выяснить, являются ли шесть unit definitions запланированным reinforcement / support / legacy content.
-- При разрешённой правке игровых данных удалить остаточные ссылки на исключённый `PrimalTerror` из трёх trait XML и убрать его name / description / flavor entries из английской и русской `Upgrades.xml`; затем перепроверить оставшиеся prerequisites Tier 10.
 - Для условий и способностей, семантика которых зависит от движка, отделить статическую проверку XML от результатов игрового теста.
 
 ## 10. Журнал последующих записей
