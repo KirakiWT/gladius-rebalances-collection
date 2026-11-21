@@ -4,7 +4,6 @@
 		<modifier>
 			<effects>
 				<strengthDamage mul="0.2"/>
-				<feelNoPainDamageReduction add="0.17"/>
 			</effects>
 		</modifier>
 	</modifiers>
