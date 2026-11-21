@@ -1,155 +1,71 @@
-[Necron Major Rework]
+NECRONS — СПРАВКА ПО ТЕКУЩЕМУ XML AIO
+======================================
 
-Necrons will receive a major rework to their Unit Roster and Heroes.
+Назначение
+---------
+Краткая техническая справка по отдельным определениям Necrons в пакете
+Faction Reworks All-In-One Fixed + Eradication Integrated.
 
-[Design Philosophy]
+Это не полная спецификация фракции и не список будущих изменений. Текущую
+реализацию подтверждают XML-файлы в Data/World; ниже приведены проверенные
+примеры, а не исчерпывающий перечень контента.
 
-Necrons are one of the stronger factions in the base game, especially because of their simplistic buildings and resources while also having regeneration on all units.
+Здания
+------
 
-I discovered the following flaws:
+Data/World/Buildings/Necrons/Infantry.xml
 
-1. Resource economy too simple: Their resource economy is too simple even for Gladius standards. This allows much stronger and specialized builds in comparison to other factions.
+- Без дополнительного улучшения производит Warrior.
+- Производство Lord, FlayedOne, Deathmark, HeavyDestroyer и TriarchPraetorian
+  привязано к соответствующим улучшениям.
+- В базовом модификаторе здания заданы Production 36, Ore 25, Energy 25,
+  +1 Energy Upkeep, +1 Ore Upkeep, 1 Population Required и 1 Slot Required.
+- Дополнительный модификатор здания даёт +2 Influence, +2 Energy и +6
+  Production.
 
-2. Summoning Core too dominant: You only need the "summoning core" to have a solid army from early to midgame. There you can build early, mid and lategame infantry, support monsters and even colonizers.
+Data/World/Buildings/Necrons/Heroes.xml
 
-3. Rapid Rise imbalanced: The ability to buy units/buildings for influence only looks at production cost. That means fast-constructing buildings are extremely strong, like the second construction building in a city. This even allows fast city rushing which is faster than all other factions.
-________________________________________
-[General Changes]
+- Без дополнительного улучшения доступны CanoptekScarab и Cryptek.
+- CanoptekReanimator и CanoptekSpyder производятся при наличии соответствующих
+  улучшений.
+- В базовом модификаторе здания заданы Production 36, Ore 25, Energy 25,
+  +1 Energy Upkeep, +1 Ore Upkeep, 1 Population Required и 1 Slot Required.
+- Дополнительный модификатор даёт +2 Population Limit, +1 Ore, +1 Energy и
+  +6 Production.
+- В здании объявлено действие Rapid Rise. Его влияние на стоимость зависит
+  от базового модификатора и улучшений RapidRiseEarly / RapidRiseLate;
+  значения XML не следует пересчитывать без проверки семантики движка.
 
-1. Reworked Resources
-Energy and Ore are now needed for different things:
-• Buildings: Cost Ore and Energy with ore and energy upkeep
-• Infantry: Energy with Energy upkeep
-• Vehicles: Cost Ore with Ore upkeep
-• Flyers: Cost Ore and Energy with ore and energy upkeep
-• Heroes and Monsters: Cost Ore and Energy with ore and energy upkeep
+Юниты и способности
+-------------------
 
-You need both resources now but can decide which path you go depending on your starting resource bonuses.
+Data/World/Units/Necrons/CanoptekReanimator.xml
 
-2. Monster Units
-Are now built in the Royal Pyramid, which means you will need the hero building to construct colonizer units.
+- Базовые параметры включают Armor 6, HP 24, Production 36, Energy Cost 20,
+  Ore Cost 20, а также по 1 Energy и Ore Upkeep.
+- Есть действие Found City с условием наличия на целевой клетке особенности
+  NecronTomb.
+- В XML также объявлены NecrodermisRepair и ScarabHive.
 
-3. Canoptek Reanimators
-Are also able to found cities now.
+Data/World/Units/Necrons/CanoptekSpyder.xml
 
-4. Rapid Rise Rebalancing
-Is now way more expensive, but the cost will be reduced drastically when a corresponding tech is researched, which means early on you will no longer be able to fast construct buildings. If you tech the corresponding technology, Rapid Rise is a bit cheaper than before.
+- Базовые параметры включают Armor 6, HP 24, Production 36, Energy Cost 20,
+  Ore Cost 20, а также по 1 Energy и Ore Upkeep.
+- Есть действие Found City с условием наличия на целевой клетке особенности
+  NecronTomb.
+- XML объявляет ScarabHive и FabricatorClawArray.
+- Действие constructImperialStrongpoint создаёт SmallGaussPylon на допустимой
+  соседней клетке; в его скрытом модификаторе указаны 30 Energy и 30 Ore.
 
-5. Unit Rework
-Some units get reworked to fit a better power curve (but Necrons were already incredibly good).
+Проверяемые исходники
+--------------------
 
-6. Necrodermis Repair
-Cost reduced and fitted to the unit classes:
-• Infantry = cheapest
-• Vehicles/Monsters = middle ground
-• Heroes = expensive
+- Data/World/Buildings/Necrons/Infantry.xml
+- Data/World/Buildings/Necrons/Heroes.xml
+- Data/World/Units/Necrons/CanoptekReanimator.xml
+- Data/World/Units/Necrons/CanoptekSpyder.xml
 
-7. New Fortification: Small Gauss Pylon
-A smaller midgame version of the Gauss Pylon which excels against flyers and skimmers and can be constructed by the Canoptek Spyder.
-
-Design Philosophy: Necrons will still be a powerhouse but will have to build other buildings than just summoning cores now.
-________________________________________
-Buildings
-
-• Monsters are now also built in the Royal Pyramid (Hero Building)
-• Canoptek Spyders can also be built in the Headquarters so you don't necessarily need the hero building
-• Necron Lord is now built in the Summoning Core (infantry building)
-• Resource gain on buildings has been reworked
-________________________________________
-Heroes
-
-Necron Lord
-• Can now be built in the Summoning Core (Infantry Building)
-• Now has a 2-range ranged attack
-• Now has an ability to catch enemy units
-• Now has an ability to buff nearby units
-
-Cryptek
-• Is now the default hero in the hero building
-• Almost the same as before
-
-Destroyer Lord
-• Deals more damage now
-• Destruction Protocols tuned down a bit
-• Blood Crusade buffed a bit
-
-Transcedent C'tan
-• Now a T6 Unit
-• Stronger Melee Attacks
-• Abilities Adjusted
-• Now has the Hero Trait
-
-________________________________________
-Infantry Units
-
-General Changes:
-• Now all cost Energy and have energy upkeep
-• Necrodermis Repair costs less now
-
-Necron Warriors
-• Almost the same as before
-• Necrodermis Repair costs less now
-
-Flayed Ones
-• Almost the same as before
-• Necrodermis Repair costs less now
-
-Deathmarks
-• Now have the same armor as Warriors
-• Now have the Scout ability that reveals a 4-tile radius
-• Necrodermis Repair costs less now
-
-Heavy Destroyers
-• A bit higher damage now
-• Necrodermis Repair costs less now
-
-Triarch Praetorians
-• Now a T4 Infantry with melee and ranged high-penetration weapons
-• Can shoot at 2 range
-• Move faster at baseline now
-• Necrodermis Repair costs less now
-________________________________________
-Monsters
-
-General Changes:
-• Now cost Energy and Ore and also have energy and ore upkeep
-• Necrodermis Repair costs less now but more than infantry
-
-Canoptek Spyder
-• Vehicle Support Unit
-• Is now constructed in the Hero building or Main building
-• Can build Small Gauss Pylons
-
-Canoptek Reanimator
-• Infantry Support Unit
-• Is now constructed in the Hero building
-• Can now summon Scarab Hives like the Canoptek Spyder
-• Can now found cities like the Canoptek Spyder
-
-Canoptek Wraiths
-• Is now constructed in the Hero building
-• Almost the same as before
-________________________________________
-Vehicles
-
-General Changes:
-• Now cost Energy and Ore and also have energy and ore upkeep
-• Necrodermis Repair costs less now but more than infantry
-
-Tomb Blades
-• Overall stronger now
-• The Nebuloscope Technology now gives more hitpoints and reduces ranged damage reduction
-
-Annihilation Barge
-• Almost the same as before
-
-Triarch Stalker
-• Cycleable weapons adjusted
-
-Ghost Ark
-• Costs less now and has fewer max hitpoints
-• Now has a weapon array which needs transported units to shoot
-
-Doomsday Ark
-• More damage on weapons
-• Main weapon now has the Armor Hunter trait (deals 100% more damage vs vehicles and monsters)
+Это выборка текущих XML-объявлений, а не оценка баланса и не подтверждение
+фактического поведения всех способностей в игре. Для полного вывода нужно
+проверять связанные Upgrade / Trait / Weapon XML и проводить игровой тест,
+когда результат зависит от семантики движка.
