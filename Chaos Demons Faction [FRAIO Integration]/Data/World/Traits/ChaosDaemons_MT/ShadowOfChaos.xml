@@ -8,6 +8,7 @@
 				</unit>
 			</conditions>
 			<effects>
+				<accuracy mul="0.1"/>
 			</effects>
 		</modifier>
 	</modifiers>
