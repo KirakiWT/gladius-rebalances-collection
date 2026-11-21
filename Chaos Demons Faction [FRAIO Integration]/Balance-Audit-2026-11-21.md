@@ -244,14 +244,55 @@ Bullgryn имеет особенно понятную историческую �
 
 Это пока не доказательство ошибочного удаления или незавершённой функции. Возможные внешние правила Reinforcements / сценариев и поведение движка здесь не подтверждены. Ни один из этих XML не изменялся.
 
-## 8. Следующие проверки
+## 8. Пятый проход: Shadow of Chaos и Locus
+
+### Locus: восемь действий и их эффекты
+
+В `Data/World/Factions/ChaosDaemons_MT.xml` объявлены все восемь Locus-doctrina. У каждой действия имя совпадает с её `requiredUpgrade`; все восемь upgrade XML существуют, а `LocusOfDamnation.xml` перечисляет их все как обязательные prerequisites.
+
+| Бог | Locus | Реализация |
+|---|---|---|
+| Khorne | Unstoppable Fury | Временный trait; соответствующая trait definition существует |
+| Khorne | Diabolical Purpose | Временный trait; соответствующая trait definition существует |
+| Nurgle | Foetid Regeneration | Прямой эффект `hitpoints add="6"` для Nurgle; также для Undivided при LocusOfDamnation |
+| Nurgle | Poxes Uncounted | Временный trait; соответствующая trait definition существует |
+| Tzeentch | Conjuration | Временный trait; соответствующая trait definition существует |
+| Tzeentch | Transmogrification | Временный trait; соответствующая trait definition существует |
+| Slaanesh | Unnatural Swiftness | Временный trait; соответствующая trait definition существует |
+| Slaanesh | Delicate Evisceration | Временный trait; соответствующая trait definition существует |
+
+В каталоге `World/Traits/ChaosDaemons_MT/Locus` есть семь trait XML, а для Foetid Regeneration отдельного trait-файла нет. Это не следует считать dangling reference: соответствующее действие в faction XML не вызывает `addTrait`, а задаёт эффект HP напрямую. Для этой способности отдельная trait definition в проверенной схеме не используется.
+
+### Shadow of Chaos: связанная структура
+
+- `World/Features/ChaosDaemons_MT/ShadowOfChaos.xml` существует и добавляет marker traits `ShadowOfChaos` и `ShadowOfChaosEnemy`.
+- Для Undivided, Khorne, Nurgle, Slaanesh и Tzeentch существуют отдельные trait definitions. Они проверяют наличие Shadow marker и соответствующей марки; в них заданы faction-specific бонусы, а также общие бонусы к morale loss и Energy Upkeep.
+- `ShadowOfChaosEnemy.xml` задаёт базовую добавку `moraleLossFactor +0.17`; дополнительный модификатор `+0.33` закрыт условием `requiredUpgrade="ChaosDaemons_MT/PrimalTerror"`.
+- В том же enemy trait есть отдельный per-turn эффект для `ChaosDaemons_MT/DaemonicTerror`. Upgrade `DaemonicTerror.xml` существует; его нельзя считать заменой PrimalTerror, поскольку эффекты и локализованные описания у них разные.
+- Среди обнаруженных источников Shadow-маркера: `DarkGlory` добавляет feature на клетки в радиусе 1–3 после убийства врага; Lord Commissar может создать feature через способность; Lord of Change, Changecaster и Warp Rift также содержат faction-specific Shadow marker effects.
+
+### Подтверждённая отсутствующая upgrade definition: PrimalTerror
+
+Полный текущий Git tree репозитория не содержит `World/Upgrades/ChaosDaemons_MT/PrimalTerror.xml`. В AIO и ORIGINAL VANILLA FILES определения с таким namespace/id тоже нет.
+
+При этом `ChaosDaemons_MT/PrimalTerror` встречается в действующих XML-ссылках:
+
+1. `World/Traits/ChaosDaemons_MT/ShadowOfChaosEnemy.xml` — условие для дополнительного `moraleLossFactor +0.33`.
+2. `World/Traits/ChaosDaemons_MT/Belakor/Tier10.xml` — одно из шести условий для Tier 10 бонусов Be'lakor.
+3. `World/Traits/ChaosDaemons_MT/Belakor/BetrayingShades/Tier10.xml` — условие для дополнительного Tier 10 эффекта Betraying Shades.
+
+В английском и русском `Data/Core/Languages/*/Upgrades.xml` уже есть название, описание и flavor для PrimalTerror. Это подтверждает, что UI-строки подготовлены, но не заменяет World upgrade definition.
+
+**Статус:** отсутствующее XML-определение улучшения с подтверждёнными ссылками. Это наиболее конкретная неполная связь, найденная в этом проходе. Исправление возможно только отдельным разрешённым изменением игрового XML, которого в рамках текущего документального прохода не выполняется.
+
+## 9. Следующие проверки
 
 - Сравнить стоимость и параметры основных юнитов Chaos Daemons с релевантными аналогами AIO по одинаковым полям.
 - Отдельно проверить Shadow of Chaos, Locus и эффекты марок по цепочкам Unit → Trait → Feature / Weapon.
 - Проверить связи `Reinforcements_MT/SupportHero` и связанные правила создания юнитов из интегрированной основы AIO; отдельно выяснить, являются ли шесть unit definitions запланированным reinforcement / support / legacy content.
 - Для условий и способностей, семантика которых зависит от движка, отделить статическую проверку XML от результатов игрового теста.
 
-## 9. Журнал последующих записей
+## 10. Журнал последующих записей
 
 Добавлять сюда только воспроизводимые наблюдения. Для каждой записи указывать дату, точный путь XML, проверенное условие или значение и отдельно — был ли результат подтверждён в игре.
 
