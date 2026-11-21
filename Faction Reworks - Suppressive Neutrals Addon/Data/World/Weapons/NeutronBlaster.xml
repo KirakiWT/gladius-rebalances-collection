@@ -14,7 +14,7 @@
 			<effects>
 				<attacks add="2"/>
 				<rangedArmorPenetration add="5"/> <!-- %rangedArmorPenetration add armorPiercing=3 -->
-				<rangedDamage add="1.8"/> <!-- %rangedDamage add strength=5 -->
+				<rangedDamage add="1.2"/> <!-- %rangedDamage add strength=5 -->
 				<strengthDamage base="0"/>
 			</effects>
 		</modifier>
@@ -22,6 +22,7 @@
 	<target rangeMax="2"/>
 	<traits>
 		<trait name="Assault"/>
+		<trait name="RapidFire"/>
 		<trait name="Tau/LasDamage" requiredUpgrade="Tau/LasDamage"/>
 	</traits>
 </weapon>
