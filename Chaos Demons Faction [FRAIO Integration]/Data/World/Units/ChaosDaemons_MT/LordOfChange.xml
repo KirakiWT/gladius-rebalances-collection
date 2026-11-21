@@ -27,8 +27,8 @@
 	<modifiers>
 		<modifier visible="0">
 			<effects>
-				<armor base="4"/>
-				<hitpointsMax base="36"/>
+				<armor base="3"/>
+				<hitpointsMax base="25"/>
 				<meleeAccuracy base="8"/>
 				<meleeAttacks base="3"/>
 				<strengthDamage base="3"/>
