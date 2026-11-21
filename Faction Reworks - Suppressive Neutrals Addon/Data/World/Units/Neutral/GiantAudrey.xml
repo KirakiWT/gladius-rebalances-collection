@@ -68,7 +68,7 @@
 		</move>
 	</actions>
 	<traits>
-		<trait name="MonstrousCreature"/>
+		<trait name="Tyranids/ChameleonicSkin"/>
 		<trait name="MoveThroughCover"/>
 	</traits>
 </unit>
