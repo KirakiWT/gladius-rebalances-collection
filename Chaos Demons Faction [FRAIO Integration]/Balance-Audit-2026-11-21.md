@@ -167,7 +167,7 @@
 - Все локальные значения `requiredUpgrade`, обнаруженные в XML зданий, юнитов, фракции и города, соответствуют существующим файлам в `World/Upgrades/ChaosDaemons_MT`.
 - Все ссылки `<requiredUpgrades><upgrade name="..."/>` внутри 67 XML улучшений ведут на существующие локальные upgrade-файлы. В проверенной цепочке циклических зависимостей не обнаружено.
 
-Одна межпакетная ссылка обнаружена в `Units/ChaosDaemons_MT/ChaosCultist.xml`: `ChaosSpaceMarines/ChaosRising`. Она разрешается в AIO по пути `Data/World/Upgrades/ChaosSpaceMarines/ChaosRising.xml`. Это существующая зависимость от базового интегрированного пакета, а не отсутствующий локальный upgrade. Её наличие следует учитывать при использовании Chaos Daemons отдельно от AIO.
+В `Units/ChaosDaemons_MT/ChaosCultist.xml` есть ссылка на `ChaosSpaceMarines/ChaosRising`. Она разрешается в AIO по пути `Data/World/Upgrades/ChaosSpaceMarines/ChaosRising.xml`. Это ожидаемая интеграционная зависимость: Chaos Daemons предназначен для работы поверх AIO, а не как самостоятельный мод. Поэтому ссылка не является дефектом и не должна устраняться копированием или дублированием upgrade в локальном namespace.
 
 ### Подтверждённые цепочки prerequisites
 
@@ -208,14 +208,50 @@
 
 На уровне статических ссылок в проверенных зданиях, юнитах, фракции, городе и upgrade prerequisites отсутствующих локальных файлов не найдено. Это подтверждает целостность адресуемых XML-узлов, но не доказывает, что каждый upgrade можно исследовать в реальной партии или что каждая способность срабатывает как задумано. Для такого вывода нужны проверка полного механизма исследования и игровые тесты.
 
-## 7. Следующие проверки
+## 7. Четвёртый проход: шесть Imperial-derived unit definitions
+
+Повторно проверены шесть юнитов, для которых в предыдущем проходе не нашлось обычного `produceUnit` в зданиях Chaos Daemons. Дополнительно выполнено сравнение с соответствующими Astra Militarum XML в AIO, проверены их weapon / trait / action declarations и выполнен адресный поиск прямых `produceUnit` и `addUnit` ссылок.
+
+### Сопоставление с AIO
+
+В таблице перечислены базовые значения из скрытых модификаторов. В проверенных числовых полях значения Chaos Daemons совпадают с AIO; различия сосредоточены в оружии, traits и действиях.
+
+| Юнит | Проверенные базовые значения | Отличия Chaos-варианта от AIO |
+|---|---|---|
+| Bullgryn | Armor 6, HP 12, Production 48, Food 40, Ore 40, Food Upkeep 3, Movement 3 | Faction traits, Scintillating Legion, четыре варианта Hammer of Wrath. Chaos unit mesh ссылается на `Units/Reinforcements_MT/Bullgryn`. |
+| HeavyWeaponsSquad | Armor 4, HP 4, Production 30, Food 15, Ore 15, Food Upkeep 1.5, Movement 3 | То же базовое вооружение Frag/Krak Missile Launcher; traits заменены на Scintillating Legion, Warband Discipline, Undivided и Shadow of Chaos. |
+| Hydra | Armor 6, HP 24, Production 39, Ore 50, Ore Upkeep 2, Movement 4 | Вместо пары Ground / Anti-Air Hydra autocannon definitions и Hunter-Killer Missile в Chaos XML указаны TwinLinkedHydraAutocannon и HeavyBolter; добавлены марки и Smoke Screen. |
+| LemanRussBattleTank | Armor 8, HP 42, Production 48, Ore 80, Ore Upkeep 4, Movement 3 | В Chaos XML указаны BattleCannon и Lascannon; в AIO дополнительно есть HeavyBolter и HunterKillerMissile. Добавлены марки и Smoke Screen. |
+| LordCommissar | Armor 6, HP 14, Production 36, Food 20, Energy 20, Influence 80, Food Upkeep 1, Energy Upkeep 1, Movement 3 | BoltPistol / PowerSword сохраняются; вместо Astra Militarum traits — Chaos traits, AuraOfDiscipline, BringItDown, HearMyCommand и SummaryExecution. Добавлен `Reinforcements_MT/SupportHero`. |
+| ScoutSentinel | Armor 5, HP 16, Production 36, Ore 40, Ore Upkeep 2, Movement 4 | В Chaos XML указан только MultiLaser, тогда как AIO ещё содержит KrakMissileLauncher. Добавлены марки, Smoke Screen и варианты Hammer of Wrath. |
+
+Это сравнение проверяет только указанные базовые поля и перечисленные XML-объявления. Оно не утверждает, что различия в weapon lists автоматически являются ошибкой или что unit balance одинаков при одинаковых основных числах.
+
+### Доступность и пути создания
+
+- Ни одно из шести имён не встречается как цель `produceUnit unit="ChaosDaemons_MT/…"` в XML зданий Chaos Daemons.
+- Для этих шести unit ID не обнаружены прямые `addUnit name="ChaosDaemons_MT/…"` ссылки в поиске по репозиторию.
+- В локальном `World/Upgrades/ChaosDaemons_MT` нет одноимённых unlock-upgrade XML, открывающих производство этих юнитов.
+- В английской и русской локализации присутствуют имена, описания и flavor entries. Наличие локализации подтверждает, что ключи предусмотрены для интерфейса, но не доказывает доступность юнита.
+- `LordCommissar.xml` имеет trait `Reinforcements_MT/SupportHero`, однако в проверенном XML его самого нет в производственных действиях зданий Chaos Daemons и не найдено прямой ссылки на его создание.
+- В AIO-версии `AstraMilitarum/LordCommissar.xml` есть отдельная способность `AstraMilitarum/Bullgrynreinforcements`, которая вызывает `AstraMilitarum/Bullgryn`. В Chaos-версии Commissar эта способность отсутствует: там есть `ChaosDaemons_MT/HearMyCommand`, Chaos-specific abilities и SupportHero trait. Следовательно, Bullgryn не получает этот AIO-путь вызова через Chaos Lord Commissar.
+
+### Рабочая классификация
+
+Эти шесть записей лучше классифицировать как **адаптированные unit definitions без найденного локального пути доступности**, а не как битые ссылки: сами unit XML существуют, их ключи локализованы, а числовые параметры и faction traits оформлены под Chaos Daemons.
+
+Bullgryn имеет особенно понятную историческую подсказку в AIO-комиссаре, но Chaos-версия этой способности не содержит. Для остальных пяти в проверенном дереве также не найден прямой путь производства или вызова.
+
+Это пока не доказательство ошибочного удаления или незавершённой функции. Возможные внешние правила Reinforcements / сценариев и поведение движка здесь не подтверждены. Ни один из этих XML не изменялся.
+
+## 8. Следующие проверки
 
 - Сравнить стоимость и параметры основных юнитов Chaos Daemons с релевантными аналогами AIO по одинаковым полям.
 - Отдельно проверить Shadow of Chaos, Locus и эффекты марок по цепочкам Unit → Trait → Feature / Weapon.
-- Проверить в игре доступность шести unit XML без обычного `produceUnit` и определить, задуманы ли они как reinforcement / summon / legacy content.
+- Проверить связи `Reinforcements_MT/SupportHero` и связанные правила создания юнитов из интегрированной основы AIO; отдельно выяснить, являются ли шесть unit definitions запланированным reinforcement / support / legacy content.
 - Для условий и способностей, семантика которых зависит от движка, отделить статическую проверку XML от результатов игрового теста.
 
-## 8. Журнал последующих записей
+## 9. Журнал последующих записей
 
 Добавлять сюда только воспроизводимые наблюдения. Для каждой записи указывать дату, точный путь XML, проверенное условие или значение и отдельно — был ли результат подтверждён в игре.
 
