@@ -15,8 +15,8 @@
 	<weapons>
 		<weapon name="PowerSword">
 			<model>
-				<powerWeapon effectBone="canoness_epee"
-						fireInterval="0.2"/>
+				<weapon fireInterval="0.5"
+						fireSoundCount="0"/>
 			</model>
 		</weapon>
 		<weapon name="FallenCombiFlamer">
@@ -68,12 +68,9 @@
 				<action animation="Units/ChaosSpaceMarines/FallenCanonessAttack"
 						beginFire="1.17"
 						endFire="2.17"
-						chargeAnimation="Units/ChaosSpaceMarines/FallenCanonessMove"
-						chargeBeginFire="0.4"
-						chargeEndFire="0.8"
 						meleeAnimation="Units/ChaosSpaceMarines/FallenCanonessMelee"
-						meleeBeginSwing="0.5"
-						meleeEndSwing="0.7"/>
+						meleeBeginSwing="0.2"
+						meleeEndSwing="0.9"/>
 			</model>
 		</attack>
 		<die>
