@@ -6,7 +6,6 @@
 				<hitpointsMax mul="0.35"/>
 				<strengthDamage mul="0.2"/>
 				<movementMax add="1"/>
-				<influencePerExperience add="3"/>
 			</effects>
 		</modifier>
 	</modifiers>
