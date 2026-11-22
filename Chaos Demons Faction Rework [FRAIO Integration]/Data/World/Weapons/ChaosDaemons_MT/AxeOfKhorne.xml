@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon icon="Weapons/GreaterCleaverOfKhorne">
+	<model>
+		<weapon fireSound="Weapons/Chainsword"
+				fireSoundCount="3"/>
+	</model>
+	<modifiers>
+		<modifier>
+			<effects>
+				<meleeArmorPenetration add="4"/> <!-- %meleeArmorPenetration add armorPiercing=4 -->
+				<strengthDamage mul="0"/> <!-- %strengthDamage mul strength=0 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<traits>
+		<trait name="Melee"/>
+		<trait name="ChaosSpaceMarines/MeleeDamage" requiredUpgrade="ChaosDaemons_MT/MeleeDamage"/>
+	</traits>
+</weapon>

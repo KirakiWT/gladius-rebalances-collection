@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>
+		<unit mesh="Units/Reinforcements_MT/SoulGrinderKhorne"
+				material="Units/Reinforcements_MT/SoulGrinderKhorne"
+				idleAnimation="Units/Reinforcements_MT/SoulGrinderKhorne/Idle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="1.1 1.1 1.1"
+				explosionsBone="Bone012"
+				bloodBone="Bone012.001"
+				walker="1"/>
+	</model>
+	<weapons>
+		<weapon name="ChaosDaemons_MT/IronClaw" count="2">
+			<model>
+				<weapon fireInterval="0.33"/>
+			</model>
+		</weapon>
+		<weapon name="ChaosDaemons_MT/Warpsword">
+			<model>
+				<weapon fireInterval="0.33"/>
+			</model>
+		</weapon>
+		<weapon name="HadesAutocannon">
+			<model>
+				<projectileWeapon muzzleBone="Muzzle"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="8"/> <!-- %armor base armor=12/12/10 -->
+				<hitpointsMax base="42.0"/> <!-- %hitpointsMax base armor=12/12/10 wounds=4 -->
+				<meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
+				<meleeAttacks base="1"/>
+				<strengthDamage base="4"/> <!-- %strengthDamage base strength=8 -->
+				<moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
+				<movementMax base="3"/>
+				<productionCost base="45"/>
+				<foodCost base="30"/>
+				<oreCost base="95"/>
+				<oreUpkeep base="6"/>
+				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<player>
+					<aiControlled/>
+				</player>
+			</conditions>
+			<effects>
+			</effects>
+		</modifier>	
+		<modifier visible="0">
+			<conditions>
+				<player>
+					<notAIControlled/>
+				</player>
+			</conditions>
+			<effects>
+			</effects>
+		</modifier>	
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseVehiclesScore base="1.4"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action animation="Units/Reinforcements_MT/SoulGrinderKhorne/Range"
+						beginFire="0.5"
+						endFire="2.5"
+						chargeAnimation="Units/Reinforcements_MT/SoulGrinderKhorne/Charge"
+						chargeBeginFire="0.5"
+						chargeEndFire="1"
+						meleeAnimation="Units/Reinforcements_MT/SoulGrinderKhorne/Melee"
+						meleeBeginSwing="0.33"
+						meleeEndSwing="0.83"/>
+			</model>
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/Reinforcements_MT/SoulGrinderKhorne/Die"
+						sound="Units/MediumVehicleDie"
+						soundCount="3"
+						soundDelay="0.4"
+						voiceSound="Units/ChaosSpaceMarines/DaemonPrinceDie"
+						voiceSoundCount="1"/>
+			</model>
+		</die>
+		<idle>
+		</idle>
+		<move>
+			<model>
+				<action animation="Units/Reinforcements_MT/SoulGrinderKhorne/Move"
+						sound="Units/ChaosSpaceMarines/DefilerMove"
+						soundCount="1"/>
+			</model>			
+		</move>
+		<auraOfFear passive="1">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" excludeRadius="0" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Fear"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</auraOfFear>
+		<hammerOfWrath consumedActionPoints="0" 
+				consumedMovement="0"
+				cooldown="3"
+				icon="Actions/HammerOfWrath"
+				name="ChaosDaemons_MT/HammerOfWrathKhorne"
+				useConditionsForVisiblity="1"
+				requiredUpgrade="ChaosDaemons_MT/HammerOfWrath">
+			<model>
+				<action sound="Actions/PsychicBuff"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/Khorne"/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/HammerOfWrath/Khorne" duration="1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</hammerOfWrath>
+		<dimensionalCorridor cooldown="5"
+				name="ChaosDaemons_MT/WarpRiftTeleport"
+				requiredUpgrade="ChaosDaemons_MT/WarpRift"
+				icon="Actions/Necrons/GravityPulse">
+			<model>
+				<action sound="Actions/Teleport"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/WarpRift"/>
+				</unit>
+			</conditions>
+			<modifiers>
+				<modifier requiredUpgrade="ChaosDaemons_MT/WarpSurge">
+					<effects>
+						<consumedActionPoints max="0"/>
+						<consumedMovement max="0"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</dimensionalCorridor>
+	</actions>
+	<traits>
+		<trait name="Daemon"/>
+		<trait name="Fearless"/>
+		<trait name="MonstrousCreature"/>
+		<trait name="Vehicle"/>
+		<trait name="Walker"/>
+		<trait name="MoveThroughCover"/>
+		<trait name="Relentless"/>
+		<trait name="Smash"/>
+		<trait name="ChaosDaemons_MT/Khorne"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Undivided"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Khorne"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Tzeentch"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Slaanesh"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Nurgle"/>
+		<trait name="ChaosDaemons_MT/WarpRift"/>
+		<trait name="ChaosDaemons_MT/ContemptForSorcery"/>
+		<trait name="ChaosDaemons_MT/ReinforcedHulls" requiredUpgrade="ChaosDaemons_MT/ExtraVehicleArmour"/>
+	</traits>
+</unit>

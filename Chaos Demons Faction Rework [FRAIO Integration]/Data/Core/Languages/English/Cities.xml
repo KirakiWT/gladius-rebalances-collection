@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="ChaosDaemons_MT" value="<string name='Factions/ChaosDaemons_MT'/>"/>
+	<entry name="ChaosDaemons_MT0" value="Skullbreaker Fortress"/>
+	<entry name="ChaosDaemons_MT1" value="Netherbane"/>
+	<entry name="ChaosDaemons_MT2" value="Fatebinder Nexus"/>
+	<entry name="ChaosDaemons_MT3" value="Locus of Chaos"/>
+	<entry name="ChaosDaemons_MT4" value="Plaguepyre"/>
+	<entry name="ChaosDaemons_MT5" value="Marshadow"/>
+	<entry name="ChaosDaemons_MT6" value="Faith Undivided"/>
+	<entry name="ChaosDaemons_MT7" value="Kastel Gore"/>
+	<entry name="ChaosDaemons_MT8" value="Crux Heretica"/>
+	<entry name="ChaosDaemons_MT9" value="Bittersworn Sanction"/>
+	<entry name="ChaosDaemons_MT10" value="Blackheart Core"/>
+	<entry name="ChaosDaemons_MT11" value="Lashlick"/>
+	<entry name="ChaosDaemons_MT12" value="Dunmournin"/>
+	<entry name="ChaosDaemons_MT13" value="The Warmaster's Fist"/>
+	<entry name="ChaosDaemons_MT14" value="Foulreaver's Hope"/>
+	<entry name="ChaosDaemons_MT15" value="Lost Damnation"/>
+	<entry name="ChaosDaemons_MT16" value="Solstript Waste"/>
+	<entry name="ChaosDaemons_MT17" value="Ashes of the Imperium"/>
+	<entry name="ChaosDaemons_MTCount" value="18"/>
+</language>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait icon="Actions/Drukhari/SoulHungerOutposts" category="Buff" alwaysVisible="1">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<movedThisTurn/>
+				</unit>
+			</conditions>
+			<effects>
+				<accuracy mul="0.17"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

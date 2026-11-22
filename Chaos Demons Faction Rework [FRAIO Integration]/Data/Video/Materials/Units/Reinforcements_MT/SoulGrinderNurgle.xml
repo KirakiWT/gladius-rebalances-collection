@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/Reinforcements_MT/SoulGrinderNurgle/Diffuse"/>
+		<texture name="Units/Reinforcements_MT/SoulGrinderNurgle/Normal"/>
+		<texture name="Units/Reinforcements_MT/SoulGrinderNurgle/SIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

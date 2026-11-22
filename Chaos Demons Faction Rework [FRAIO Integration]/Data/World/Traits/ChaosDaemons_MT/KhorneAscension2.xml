@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait icon="Actions/ChaosSpaceMarines/MarkOfKhorne" category="Buff">
+	<modifiers>
+		<modifier>
+			<effects>
+				<strengthDamage mul="0.2"/>
+				<lifeStealFactor add="0.25"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

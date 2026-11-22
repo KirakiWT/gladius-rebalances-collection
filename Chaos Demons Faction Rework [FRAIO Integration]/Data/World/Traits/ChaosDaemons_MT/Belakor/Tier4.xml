@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait visible="0">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<player match="Any">
+					<upgrade name="ChaosDaemons_MT/LocusOfUnnaturalSwiftness"/>
+					<upgrade name="ChaosDaemons_MT/RiteOfPestilence"/>
+					<upgrade name="ChaosDaemons_MT/BoltDamage"/>
+					<upgrade name="ChaosDaemons_MT/Bloodcrusher"/>
+					<upgrade name="ChaosDaemons_MT/Skullcannon"/>
+					<upgrade name="ChaosDaemons_MT/Construction"/>
+				</player>
+			</conditions>
+			<effects>
+				<energyUpkeep add="1"/>
+				<influenceUpkeep add="1.5"/>
+				<productionCost add="6"/>
+				<hitpointsMax add="6.0"/>
+				<meleeArmorPenetration add="2"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

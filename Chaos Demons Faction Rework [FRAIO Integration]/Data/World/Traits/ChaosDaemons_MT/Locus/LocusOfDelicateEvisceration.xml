@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait icon="Actions/Drukhari/SoulShelling" category="Buff" alwaysVisible="1">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<movedThisTurn/>
+				</unit>
+			</conditions>
+			<effects>
+				<armorPenetration add="2"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade position="7" icon="Units/ChaosDaemons_MT/WarpRift">
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseLoyaltyScore base="0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+</upgrade>

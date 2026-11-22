@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade position="7" icon="Units/ChaosDaemons_MT/LordOfChange">
+	<requiredUpgrades>
+		<upgrade name="ChaosDaemons_MT/Tzeentch"/>
+	</requiredUpgrades>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseLoyaltyScore base="2"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+</upgrade>

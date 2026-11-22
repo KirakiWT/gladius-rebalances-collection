@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon icon="Items/BlightGrenade">
+	<model>
+		<grenadeWeapon effectScale="1"
+				explosionsBlueprint="Effects/BlightExplosions"
+				explosionsEmitterBlueprint="Effects/MissileExplosionsEmitter"/>
+	</model>
+	<modifiers>
+		<modifier>
+			<effects>
+				<attacks add="0"/>
+				<rangedArmorPenetration add="1"/> <!-- %rangedArmorPenetration add armorPiercing=2 -->
+				<rangedDamage add="2"/> <!-- %rangedDamage add strength=6 -->
+				<strengthDamage base="0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<target rangeMax="1"/>
+	<traits>
+		<trait name="IgnoresCover"/>
+		<trait name="Blight"/>
+		<trait name="Grenade"/>
+		<trait name="Blast"/>
+		<trait name="ChaosSpaceMarines/BlastDamage" requiredUpgrade="ChaosDaemons_MT/BlastDamage"/>
+	</traits>
+</weapon>

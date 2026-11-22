@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade position="9" icon="Traits/ChaosSpaceMarines/Crazed">
+	<requiredUpgrades>
+		<upgrade name="ChaosDaemons_MT/Tzeentch"/>
+	</requiredUpgrades>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseLoyaltyScore base="0.3"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+</upgrade>

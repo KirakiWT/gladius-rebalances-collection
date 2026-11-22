@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff" visible="1" icon="Units/ChaosDaemons_MT/Belakor">
+	<modifiers>
+		<modifier>
+			<effects>
+				<damage mul="-0.17"/>
+				<damageTaken mul="0.17"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

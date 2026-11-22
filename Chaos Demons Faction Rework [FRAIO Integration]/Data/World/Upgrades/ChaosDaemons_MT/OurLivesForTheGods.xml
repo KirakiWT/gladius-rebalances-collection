@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade position="9" icon="Upgrades/ChaosSpaceMarines/OurLivesForTheGods">
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseLoyaltyScore base="0.5"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+</upgrade>

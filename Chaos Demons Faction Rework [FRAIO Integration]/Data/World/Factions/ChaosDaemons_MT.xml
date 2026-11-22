@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<faction actionsTitle="GUI/ChaosDaemons_MT"
+		buildingVariations="3"
+		constructSound="Actions/Construct"
+		dlc="Supplement3"
+		energy="1"
+		energyPooling="0.25"
+		food="1"
+		foodPooling="0.25"
+		influence="1"
+		loyalty="1"
+		ore="1"
+		playable="1"
+		production="1"
+		research="1"
+		startingEnergy="25"
+		startingFood="25"
+		startingInfluence="25"
+		startingOre="50">
+	<music>
+		<track name="Music/AdeptusMechanicusBGM" dlc="Supplement9"/>
+		<track name="Music/AdeptusMechanicusTheme" dlc="Supplement9"/>
+		<track name="Music/AstraMilitarumBGM"/>
+		<track name="Music/AstraMilitarumTheme"/>
+		<track name="Music/BGM0"/>
+		<track name="Music/BGM1"/>
+		<mainTrack name="Music/ChaosSpaceMarinesBGM" dlc="Supplement3"/>
+		<track name="Music/ChaosSpaceMarinesTheme" dlc="Supplement3"/>
+		<track name="Music/DrukhariBGM" dlc="Supplement13"/>
+		<track name="Music/DrukhariTheme" dlc="Supplement13"/>
+		<track name="Music/EldarBGM" dlc="Supplement7"/>
+		<track name="Music/EldarTheme" dlc="Supplement7"/>
+		<track name="Music/MainBGM"/>
+		<track name="Music/MainTheme"/>
+		<track name="Music/NecronsBGM"/>
+		<track name="Music/NecronsTheme"/>
+		<track name="Music/OrksBGM"/>
+		<track name="Music/OrksTheme"/>
+		<track name="Music/SistersOfBattleBGM" dlc="Supplement11"/>
+		<track name="Music/SistersOfBattleTheme" dlc="Supplement11"/>
+		<track name="Music/SpaceMarinesBGM"/>
+		<track name="Music/SpaceMarinesTheme"/>
+		<track name="Music/TauBGM" dlc="Supplement5"/>
+		<track name="Music/TauTheme" dlc="Supplement5"/>
+		<track name="Music/TyranidsBGM" dlc="Supplement2"/>
+		<track name="Music/TyranidsTheme" dlc="Supplement2"/>
+	</music>
+	<actions>
+		<markOfNurgle cooldown="0"
+				name="ChaosDaemons_MT/Nurgle"
+				icon="Actions/ChaosSpaceMarines/MarkOfNurgle"
+				requiredUpgrade="ChaosDaemons_MT/Nurgle">
+			<model>
+				<action sound="Interface/MarkOfChaos"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="-1">
+					<conditions>
+						<unit>
+							<affiliate/>
+							<faction name="ChaosDaemons_MT"/>
+							<noTrait name="Fortification"/>
+							<noTrait name="ChaosDaemons_MT/GreaterDaemon"/>
+							<trait name="ChaosDaemons_MT/Undivided"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<removeTrait name="ChaosDaemons_MT/Undivided"/>
+										<addTrait name="ChaosDaemons_MT/Nurgle"/>
+										<addTrait name="Regeneration"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</markOfNurgle>
+		<markOfKhorne cooldown="0"
+				name="ChaosDaemons_MT/Khorne"
+				icon="Actions/ChaosSpaceMarines/MarkOfKhorne"
+				requiredUpgrade="ChaosDaemons_MT/Khorne">
+			<model>
+				<action sound="Interface/MarkOfChaos"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="-1">
+					<conditions>
+						<unit>
+							<affiliate/>
+							<faction name="ChaosDaemons_MT"/>
+							<noTrait name="Fortification"/>
+							<noTrait name="ChaosDaemons_MT/GreaterDaemon"/>
+							<trait name="ChaosDaemons_MT/Undivided"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<removeTrait name="ChaosDaemons_MT/Undivided"/>
+										<addTrait name="ChaosDaemons_MT/Khorne"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</markOfKhorne>
+		<markOfSlaanesh cooldown="0"
+				name="ChaosDaemons_MT/Slaanesh"
+				icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh"
+				requiredUpgrade="ChaosDaemons_MT/Slaanesh">
+			<model>
+				<action sound="Interface/MarkOfChaos"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="-1">
+					<conditions>
+						<unit>
+							<affiliate/>
+							<faction name="ChaosDaemons_MT"/>
+							<noTrait name="Fortification"/>
+							<noTrait name="ChaosDaemons_MT/GreaterDaemon"/>
+							<trait name="ChaosDaemons_MT/Undivided"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<removeTrait name="ChaosDaemons_MT/Undivided"/>
+										<addTrait name="ChaosDaemons_MT/Slaanesh"/>
+										<addTrait name="ChaosDaemons_MT/HarbringerOfLust"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</markOfSlaanesh>
+		<markOfTzeentch cooldown="0"
+				name="ChaosDaemons_MT/Tzeentch"
+				icon="Actions/ChaosSpaceMarines/MarkOfTzeentch"
+				requiredUpgrade="ChaosDaemons_MT/Tzeentch">
+			<model>
+				<action sound="Interface/MarkOfChaos"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="-1">
+					<conditions>
+						<unit>
+							<affiliate/>
+							<faction name="ChaosDaemons_MT"/>
+							<noTrait name="Fortification"/>
+							<noTrait name="ChaosDaemons_MT/GreaterDaemon"/>
+							<trait name="ChaosDaemons_MT/Undivided"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<removeTrait name="ChaosDaemons_MT/Undivided"/>
+										<addTrait name="ChaosDaemons_MT/Tzeentch"/>
+										<addTrait name="SoulBlaze"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</markOfTzeentch>
+		<webwayArtillery cooldown="5"
+				durationInSeconds="0.1"
+				name="ChaosDaemons_MT/WarpRift"
+				icon="Units/ChaosDaemons_MT/WarpRift"
+				interfaceSound="Interface/SoulShelling"
+				requiredUpgrade="ChaosDaemons_MT/WarpRift">
+
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="60"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<beginTargets>
+				<target rangeMax="-1">
+					<conditions>
+						<tile>
+							<noFeatureCategory name="Resource"/>
+							<noFeatureCategory name="WireWeed"/>
+							<land/>
+							<noEnemyCity/>
+							<noUnit/>
+							<noFeature name="GravityWaves"/>
+						</tile>
+					</conditions>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addUnit name="ChaosDaemons_MT/WarpRift"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</webwayArtillery>
+		<doctrina cooldown="3"
+				durationInSeconds="0.1"
+				interfaceSound="Interface/BulwarkImperative"
+				name="ChaosDaemons_MT/LocusOfUnstoppableFury"
+				requiredUpgrade="ChaosDaemons_MT/LocusOfUnstoppableFury"
+				icon="Traits/ChaosSpaceMarines/BloodRage"
+				rankMax="9"
+				scaleInfluenceCost="1">
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="6"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<unitModifiers>
+				<modifier>
+					<conditions>
+						<unit>
+							<trait name="ChaosDaemons_MT/Khorne"/>
+						</unit>
+					</conditions>
+					<effects>
+						<addTrait duration="1" name="ChaosDaemons_MT/Locus/LocusOfUnstoppableFury"/>
+					</effects>
+				</modifier>
+				<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/LocusOfDamnation">
+					<conditions>
+						<unit>
+							<trait name="ChaosDaemons_MT/Undivided"/>
+						</unit>
+					</conditions>
+					<effects>
+						<addTrait duration="1" name="ChaosDaemons_MT/Locus/LocusOfUnstoppableFury"/>
+					</effects>
+				</modifier>
+			</unitModifiers>
+		</doctrina>
+		<doctrina cooldown="3"
+				durationInSeconds="0.1"
+				interfaceSound="Interface/BulwarkImperative"
+				name="ChaosDaemons_MT/LocusOfDiabolicalPurpose"
+				requiredUpgrade="ChaosDaemons_MT/LocusOfDiabolicalPurpose"
+				icon="Traits/ChaosSpaceMarines/Bloated"
+				rankMax="9"
+				scaleInfluenceCost="1">
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="6"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<unitModifiers>
+				<modifier>
+					<conditions>
+						<unit>
+							<trait name="ChaosDaemons_MT/Khorne"/>
+						</unit>
+					</conditions>
+					<effects>
+						<addTrait duration="1" name="ChaosDaemons_MT/Locus/LocusOfDiabolicalPurpose"/>
+					</effects>
+				</modifier>
+				<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/LocusOfDamnation">
+					<conditions>
+						<unit>
+							<trait name="ChaosDaemons_MT/Undivided"/>
+						</unit>
+					</conditions>
+					<effects>
+						<addTrait duration="1" name="ChaosDaemons_MT/Locus/LocusOfDiabolicalPurpose"/>
+					</effects>
+				</modifier>
+			</unitModifiers>
+		</doctrina>
+		<doctrina cooldown="3"
+				durationInSeconds="0.1"
+				interfaceSound="Interface/BulwarkImperative"
+				name="ChaosDaemons_MT/LocusOfFoetidRegeneration"
+				requiredUpgrade="ChaosDaemons_MT/LocusOfFoetidRegeneration"
+				icon="Actions/ChaosSpaceMarines/NurglesGift"
+				rankMax="9"
+				scaleInfluenceCost="1">
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="6"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<unitModifiers>
+				<modifier>
+					<conditions>
+						<unit>
+							<trait name="ChaosDaemons_MT/Nurgle"/>
+						</unit>
+					</conditions>
+					<effects>
+						<hitpoints add="6"/>
+					</effects>
+				</modifier>
+				<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/LocusOfDamnation">
+					<conditions>
+						<unit>
+							<trait name="ChaosDaemons_MT/Undivided"/>
+						</unit>
+					</conditions>
+					<effects>
+						<hitpoints add="6"/>
+					</effects>
+				</modifier>
+			</unitModifiers>
+		</doctrina>
+		<doctrina cooldown="3"
+				durationInSeconds="0.1"
+				interfaceSound="Interface/BulwarkImperative"
+				name="ChaosDaemons_MT/LocusOfPoxesUncounted"
+				requiredUpgrade="ChaosDaemons_MT/LocusOfPoxesUncounted"
+				icon="Traits/ChaosSpaceMarines/Afflicted"
+				rankMax="9"
+				scaleInfluenceCost="1">
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="6"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<unitModifiers>
+				<modifier>
+					<conditions>
+						<unit>
+							<trait name="ChaosDaemons_MT/Nurgle"/>
+						</unit>
+					</conditions>
+					<effects>
+						<addTrait duration="1" name="ChaosDaemons_MT/Locus/LocusOfPoxesUncounted"/>
+					</effects>
+				</modifier>
+				<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/LocusOfDamnation">
+					<conditions>
+						<unit>
+							<trait name="ChaosDaemons_MT/Undivided"/>
+						</unit>
+					</conditions>
+					<effects>
+						<addTrait duration="1" name="ChaosDaemons_MT/Locus/LocusOfPoxesUncounted"/>
+					</effects>
+				</modifier>
+			</unitModifiers>
+		</doctrina>
+		<doctrina cooldown="3"
+				durationInSeconds="0.1"
+				interfaceSound="Interface/BulwarkImperative"
+				name="ChaosDaemons_MT/LocusOfConjuration"
+				requiredUpgrade="ChaosDaemons_MT/LocusOfConjuration"
+				icon="Traits/ChaosSpaceMarines/ArcaneOcculum"
+				rankMax="9"
+				scaleInfluenceCost="1">
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="6"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<unitModifiers>
+				<modifier>
+					<conditions>
+						<unit>
+							<trait name="ChaosDaemons_MT/Tzeentch"/>
+						</unit>
+					</conditions>
+					<effects>
+						<addTrait duration="1" name="ChaosDaemons_MT/Locus/LocusOfConjuration"/>
+					</effects>
+				</modifier>
+				<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/LocusOfDamnation">
+					<conditions>
+						<unit>
+							<trait name="ChaosDaemons_MT/Undivided"/>
+						</unit>
+					</conditions>
+					<effects>
+						<addTrait duration="1" name="ChaosDaemons_MT/Locus/LocusOfConjuration"/>
+					</effects>
+				</modifier>
+			</unitModifiers>
+		</doctrina>
+		<doctrina cooldown="3"
+				durationInSeconds="0.1"
+				interfaceSound="Interface/BulwarkImperative"
+				name="ChaosDaemons_MT/LocusOfTransmogrification"
+				requiredUpgrade="ChaosDaemons_MT/LocusOfTransmogrification"
+				icon="Traits/ChaosSpaceMarines/Crazed"
+				rankMax="9"
+				scaleInfluenceCost="1">
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="6"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<unitModifiers>
+				<modifier>
+					<conditions>
+						<unit>
+							<trait name="ChaosDaemons_MT/Tzeentch"/>
+						</unit>
+					</conditions>
+					<effects>
+						<addTrait duration="1" name="ChaosDaemons_MT/Locus/LocusOfTransmogrification"/>
+					</effects>
+				</modifier>
+				<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/LocusOfDamnation">
+					<conditions>
+						<unit>
+							<trait name="ChaosDaemons_MT/Undivided"/>
+						</unit>
+					</conditions>
+					<effects>
+						<addTrait duration="1" name="ChaosDaemons_MT/Locus/LocusOfTransmogrification"/>
+					</effects>
+				</modifier>
+			</unitModifiers>
+		</doctrina>
+		<doctrina cooldown="3"
+				durationInSeconds="0.1"
+				interfaceSound="Interface/BulwarkImperative"
+				name="ChaosDaemons_MT/LocusOfUnnaturalSwiftness"
+				requiredUpgrade="ChaosDaemons_MT/LocusOfUnnaturalSwiftness"
+				icon="Actions/Drukhari/SoulHungerOutposts"
+				rankMax="9"
+				scaleInfluenceCost="1">
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="6"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<unitModifiers>
+				<modifier>
+					<conditions>
+						<unit>
+							<trait name="ChaosDaemons_MT/Slaanesh"/>
+						</unit>
+					</conditions>
+					<effects>
+						<addTrait duration="1" name="ChaosDaemons_MT/Locus/LocusOfUnnaturalSwiftness"/>
+					</effects>
+				</modifier>
+				<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/LocusOfDamnation">
+					<conditions>
+						<unit>
+							<trait name="ChaosDaemons_MT/Undivided"/>
+						</unit>
+					</conditions>
+					<effects>
+						<addTrait duration="1" name="ChaosDaemons_MT/Locus/LocusOfUnnaturalSwiftness"/>
+					</effects>
+				</modifier>
+			</unitModifiers>
+		</doctrina>
+		<doctrina cooldown="3"
+				durationInSeconds="0.1"
+				interfaceSound="Interface/BulwarkImperative"
+				name="ChaosDaemons_MT/LocusOfDelicateEvisceration"
+				requiredUpgrade="ChaosDaemons_MT/LocusOfDelicateEvisceration"
+				icon="Actions/Drukhari/SoulShelling"
+				rankMax="9"
+				scaleInfluenceCost="1">
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="6"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<unitModifiers>
+				<modifier>
+					<conditions>
+						<unit>
+							<trait name="ChaosDaemons_MT/Slaanesh"/>
+						</unit>
+					</conditions>
+					<effects>
+						<addTrait duration="1" name="ChaosDaemons_MT/Locus/LocusOfDelicateEvisceration"/>
+					</effects>
+				</modifier>
+				<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/LocusOfDamnation">
+					<conditions>
+						<unit>
+							<trait name="ChaosDaemons_MT/Undivided"/>
+						</unit>
+					</conditions>
+					<effects>
+						<addTrait duration="1" name="ChaosDaemons_MT/Locus/LocusOfDelicateEvisceration"/>
+					</effects>
+				</modifier>
+			</unitModifiers>
+		</doctrina>
+	</actions>
+	<startingUnits>
+		<unit type="ChaosDaemons_MT/ChaosCultist" count="1"/>
+		<unit type="ChaosDaemons_MT/ChaosSpaceMarine" count="1"/>
+		<unit type="ChaosDaemons_MT/Belakor" count="1"/>
+	</startingUnits>
+</faction>

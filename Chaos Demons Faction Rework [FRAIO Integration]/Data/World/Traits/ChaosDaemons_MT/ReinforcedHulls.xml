@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait icon="Traits/ExtraVehicleArmour">
+	<modifiers>
+		<modifier>
+			<effects>
+				<armor add="1"/>
+				<hitpointsMax mul="0.10"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<productionCost base="36"/>
+				<oreCost base="50"/>
+				<populationRequired base="1"/>
+				<slotsRequired base="1"/>
+				<energyUpkeep add="2"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<effects>
+				<energy add="3"/>
+				<research add="3"/>
+				<production add="6"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<productionModifiers>
+		<modifier>
+			<effects>
+				
+			</effects>
+		</modifier>
+	</productionModifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseInfantryProductionScore base="1.0"/>
+				<increaseVehiclesProductionScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<produceUnit unit="ChaosDaemons_MT/BlueHorror"/>
+		<produceUnit unit="ChaosDaemons_MT/Changecaster" requiredUpgrade="ChaosDaemons_MT/Heralds"/>
+		<produceUnit unit="ChaosDaemons_MT/SkullcannonTzeentch" requiredUpgrade="ChaosDaemons_MT/Skullcannon"/>
+		<produceUnit unit="ChaosDaemons_MT/Flamer" requiredUpgrade="ChaosDaemons_MT/Flamer"/>
+		<produceUnit unit="ChaosDaemons_MT/Screamer" requiredUpgrade="ChaosDaemons_MT/Screamer"/>
+		<produceUnit unit="ChaosDaemons_MT/BurningChariot" requiredUpgrade="ChaosDaemons_MT/BurningChariot"/>
+		<produceUnit unit="ChaosDaemons_MT/SoulGrinderTzeentch" requiredUpgrade="ChaosDaemons_MT/SoulGrinder"/>
+		<produceUnit unit="ChaosDaemons_MT/LordOfChange" requiredUpgrade="ChaosDaemons_MT/LordOfChange"/>
+	</actions>
+</building>

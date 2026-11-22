@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade position="4" icon="Actions/Drukhari/SoulHungerOutposts">
+	<requiredUpgrades>
+		<upgrade name="ChaosDaemons_MT/Slaanesh"/>
+	</requiredUpgrades>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseLoyaltyScore base="0.3"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+</upgrade>

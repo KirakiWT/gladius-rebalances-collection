@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon icon="Traits/Blighted" attributesModifiedByUnit="0">
+	<modifiers>
+		<modifier>
+			<effects>
+				<attacks add="1"/>
+				<rangedAccuracy min="12"/> <!-- Don't roll to hit. -->
+				<rangedDamage add="4"/> <!-- %rangedDamage add strength=6 -->
+				<strengthDamage base="0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<traits>
+		<trait name="MoraleSoak"/>
+		<trait name="IgnoresCover"/>
+		<trait name="PsychicPower"/>
+		<trait name="PsychicLash"/>
+		<trait name="Template"/>
+	</traits>
+</weapon>

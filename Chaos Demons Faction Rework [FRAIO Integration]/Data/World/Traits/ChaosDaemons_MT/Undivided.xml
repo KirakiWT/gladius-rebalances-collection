@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait icon="Factions/ChaosSpaceMarines" category="Buff">
+	<modifiers>
+		<modifier>
+			<effects>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

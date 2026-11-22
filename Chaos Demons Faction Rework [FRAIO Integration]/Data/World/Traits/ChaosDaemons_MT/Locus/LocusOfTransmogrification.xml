@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait icon="Traits/ChaosSpaceMarines/Crazed" category="Buff">
+	<modifiers>
+		<modifier>
+			<effects>
+				<lifeStealFactor add="0.2"/>
+				<lifeStealRadius add="1.0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

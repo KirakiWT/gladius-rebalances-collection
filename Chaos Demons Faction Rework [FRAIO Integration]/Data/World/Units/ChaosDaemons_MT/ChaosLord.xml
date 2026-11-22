@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit dlc="Supplement3">
+	<model>
+		<unit mesh="Units/Reinforcements_MT/ChaosLordChainsword"
+				material="Units/Reinforcements_MT/ChaosLordChainsword"
+				idleAnimation="Units/ChaosSpaceMarines/ChaosLordIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="0.8 0.8 0.8"
+				bloodBone="Bone001"
+				walker="1"/>
+	</model>
+	<weapons>
+		<weapon name="ChaosDaemons_MT/Chainsword" slotName="Chainsword">
+			<model>
+				<weapon fireInterval="10"/>
+			</model>
+		</weapon>
+		<weapon name="PlasmaPistol">
+			<model>
+				<projectileWeapon mesh="Weapons/ChaosSpaceMarines/ChaosLordGun"
+						material="Units/ChaosSpaceMarines/ChaosLord"
+						bone="Bone007(mirrored)"
+						muzzleBone=".Muzzle"
+						fireInterval="0.35"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="8"/> <!-- %armor base armor=3+ -->
+				<hitpointsMax base="18"/> <!-- %hitpointsMax base toughness=4 wounds=3 -->
+				<influenceCost base="120.0"/> <!-- %influenceCost base tier=7 factor=2 -->
+				<itemSlots base="6"/>
+				<levelMax base="9"/>
+				<meleeAccuracy base="12"/> <!-- %meleeAccuracy base weaponSkill=6 -->
+				<meleeAttacks base="3"/>
+				<strengthDamage base="2"/> <!-- %strengthDamage base strength=4 -->
+				<!-- <meleeInitiative base="5"/> -->
+				<moraleMax base="12"/> <!-- %moraleMax base leadership=9 -->
+				<movementMax base="3"/>
+				<productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
+				<oreUpkeep base="1.5"/>
+				<rangedAccuracy base="10"/> <!-- %rangedAccuracy base ballisticSkill=5 -->
+				<foodUpkeep base="1.5"/> <!-- %foodUpkeep base tier=7 factor=1 -->
+				<foodCost base="30.0"/> <!-- %foodCost base tier=7 factor=0.5 -->
+				<oreCost base="30.0"/> <!-- %oreCost base tier=7 factor=0.5 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseHeroesScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action	animation="Units/ChaosSpaceMarines/ChaosLordAttack"
+						beginFire="1.3"
+						endFire="2.2"
+						chargeAnimation="Units/ChaosSpaceMarines/ChaosLordCharge"
+						chargeBeginFire="0.33"
+						chargeEndFire="1.33"
+						meleeAnimation="Units/ChaosSpaceMarines/ChaosLordMelee"
+						meleeBeginSwing="0.5"
+						meleeEndSwing="0.67"/>
+			</model>
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/ChaosSpaceMarines/ChaosLordDie"
+						sound="Units/MediumArmoredDie"
+						soundCount="4"
+						soundDelay="1.2"
+						voiceSound="Units/ChaosSpaceMarines/ChaosLordDie"
+						voiceSoundCount="1"/>
+			</model>		
+		</die>
+		<idle>
+			<model>
+				<action animationSpeed="1.0"/>
+			</model>
+		</idle>
+		<move>
+			<model>
+				<action animation="Units/ChaosSpaceMarines/ChaosLordMove"
+						sound="Units/SpaceMarines/InfantryMove"
+						soundCount="4"/>
+			</model>				
+		</move>
+		<quantumShielding cooldown="2"
+				name="ChaosDaemons_MT/ScintillatingLegionShield"
+				icon="Actions/Necrons/QuantumShielding"
+				passive="1"
+				useConditionsForVisiblity="1">
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/ScintillatingLegion"/>
+				</unit>
+			</conditions>
+			<perTurnProcessUseConditions>
+				<unit>
+					<damagedThisTurn/>
+				</unit>
+			</perTurnProcessUseConditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/ScintillatingLegionShield"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</quantumShielding>
+		<useWeapon cooldown="3"
+				icon="Weapons/Chainsword"
+				rank="-1"
+				rankMax="2"
+				weaponSlotName="Chainsword">
+			<modifiers>
+				<modifier>
+					<effects>
+						<damage mulMin="0.5" mulMax="1.5"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</useWeapon>
+		<genericUnitAbility name="ChaosDaemons_MT/WorthyOffering"
+				icon="Actions/ChaosSpaceMarines/WorthyOffering"
+				passive="1"
+				rank="-1"
+				rankMax="2">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/WorthyOffering"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<genericUnitAbility name="ChaosDaemons_MT/DarkGlory"
+				icon="Actions/ChaosSpaceMarines/DarkGlory"
+				passive="1"
+				rank="-1"
+				rankMax="2">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/DarkGlory"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<prophetOfTheWaaagh cooldown="10"
+				elite="1"
+				levelUpPriority="1"
+				name="ChaosDaemons_MT/DreadMarshal"
+				icon="Actions/Tyranids/IndescribableHorror"
+				rank="-1"
+				rankMax="0"
+				requiredActionPoints="0"
+				consumedActionPoints="0" consumedMovement="0">
+			<model>
+				<action animation="Units/ChaosSpaceMarines/ChaosLordAbility"
+						sound="Actions/OrksBuff"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit" radius="3">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+											<trait name="ChaosDaemons_MT/Undivided"/>
+										</unit>
+									</conditions>
+									<effects>
+										<addTrait duration="3" name="ChaosDaemons_MT/DreadMarshalUndivided"/>
+									</effects>
+								</modifier>
+								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+											<trait name="ChaosDaemons_MT/Khorne"/>
+										</unit>
+									</conditions>
+									<effects>
+										<addTrait duration="3" name="ChaosDaemons_MT/DreadMarshalKhorne"/>
+									</effects>
+								</modifier>
+								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+											<trait name="ChaosDaemons_MT/Nurgle"/>
+										</unit>
+									</conditions>
+									<effects>
+										<addTrait duration="3" name="ChaosDaemons_MT/DreadMarshalNurgle"/>
+									</effects>
+								</modifier>
+								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+											<trait name="ChaosDaemons_MT/Slaanesh"/>
+										</unit>
+									</conditions>
+									<effects>
+										<addTrait duration="3" name="ChaosDaemons_MT/DreadMarshalSlaanesh"/>
+									</effects>
+								</modifier>
+								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+											<trait name="ChaosDaemons_MT/Tzeentch"/>
+										</unit>
+									</conditions>
+									<effects>
+										<addTrait duration="3" name="ChaosDaemons_MT/DreadMarshalTzeentch"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</prophetOfTheWaaagh>
+		<levelUp/>
+		<shop/>
+	</actions>
+	<traits>
+		<trait name="ChaosDaemons_MT/WarbandDiscipline" requiredUpgrade="ChaosDaemons_MT/ExtraInfantryArmour"/>
+		<trait name="Fearless"/>
+		<trait name="Hero"/>
+		<trait name="IronHalo"/>
+		<trait name="ChaosDaemons_MT/Undivided"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Undivided"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Khorne"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Tzeentch"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Slaanesh"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Nurgle"/>
+		<trait name="Reinforcements_MT/MeleeHero"/>
+	</traits>
+</unit>

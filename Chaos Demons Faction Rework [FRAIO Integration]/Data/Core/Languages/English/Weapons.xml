@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+
+	<entry name="ChaosDaemons_MT/RancidVisitations" value="Rancid Visitations"/>
+
+	<entry name="ChaosDaemons_MT/Marotter" value="Marotter"/>
+
+	<entry name="ChaosDaemons_MT/GiftOfDisease" value="Gift of Disease"/>
+
+	<entry name="ChaosDaemons_MT/BladeOfBlood" value="Blade of Blood"/>
+
+	<entry name="ChaosDaemons_MT/ArcaneFireball" value="Arcane Fireball"/>
+
+	<entry name="ChaosDaemons_MT/InfernalGateway" value="Infernal Gateway"/>
+
+	<entry name="ChaosDaemons_MT/BoltOfTzeentch" value="Bolt of Tzeentch"/>
+
+	<entry name="ChaosDaemons_MT/ScreamingMelody" value="Screaming Melody"/>
+
+	<entry name="ChaosDaemons_MT/VileLaugh" value="Vile Laugh"/>
+
+	<entry name="ChaosDaemons_MT/AlluringBlade" value="Alluring Blade"/>
+
+	<entry name="ChaosDaemons_MT/AxeOfKhorne" value="Axe of Khorne"/>
+
+	<entry name="ChaosDaemons_MT/AxeThrow" value="Axe of Khorne (Throw)"/>
+
+	<entry name="ChaosDaemons_MT/BetrayingShades" value="Betraying Shades"/>
+
+	<entry name="ChaosDaemons_MT/Bilesword" value="Bilesword"/>
+
+	<entry name="ChaosDaemons_MT/BitingMaw" value="Biting Maw"/>
+
+	<entry name="ChaosDaemons_MT/BladedHorn" value="Bladed Horn"/>
+
+	<entry name="ChaosDaemons_MT/BladeOfShadows" value="Blade of Shadows"/>
+
+	<entry name="ChaosDaemons_MT/BoltOfChange" value="Bolt of Change"/>
+
+	<entry name="ChaosDaemons_MT/CacophonicVoice" value="Cacophonic Choir"/>
+
+	<entry name="ChaosDaemons_MT/Chainsword" value="Chainsword"/>
+
+	<entry name="ChaosDaemons_MT/CoruscatingBlueFlames" value="Coruscating Blue Flames"/>
+
+	<entry name="ChaosDaemons_MT/DaemonbreathSpear" value="Daemonbreath Spear"/>
+
+	<entry name="ChaosDaemons_MT/DaemoniTerror" value="Daemoni Terror"/>
+
+	<entry name="ChaosDaemons_MT/DeathsHead" value="Deaths Head"/>
+
+	<entry name="ChaosDaemons_MT/FireOfTzeentchBlue" value="Fire of Tzeentch (Blue)"/>
+
+	<entry name="ChaosDaemons_MT/FireOfTzeentchPink" value="Fire of Tzeentch (Pink)"/>
+
+	<entry name="ChaosDaemons_MT/FlickeringFlames" value="Flickering Flames"/>
+
+	<entry name="ChaosDaemons_MT/Hellblade" value="Hellblade"/>
+
+	<entry name="ChaosDaemons_MT/HellfireBreath" value="Hellfire Breath"/>
+
+	<entry name="ChaosDaemons_MT/EyeOfTzeentch" value="Eyse of Tzeentch"/>
+
+	<entry name="ChaosDaemons_MT/IronClaw" value="Iron Claw"/>
+
+	<entry name="ChaosDaemons_MT/LaserDestructor" value="Laser Destructor"/>
+
+	<entry name="ChaosDaemons_MT/LashingTounge" value="Lashing Tounge"/>
+
+	<entry name="ChaosDaemons_MT/Lightningcannon" value="Lightningcannon"/>
+
+	<entry name="ChaosDaemons_MT/Phantasmagoria" value="Phantasmagoria"/>
+
+	<entry name="ChaosDaemons_MT/PhlegmBombardment" value="Phlegm Bombardment"/>
+
+	<entry name="ChaosDaemons_MT/Plaguebombardment" value="Plague Bombardment"/>
+
+	<entry name="ChaosDaemons_MT/Plaguesword" value="Plaguesword"/>
+
+	<entry name="ChaosDaemons_MT/PutridVomit" value="Putrid Vomit"/>
+
+	<entry name="ChaosDaemons_MT/RageUnchained" value="Rage Unchained"/>
+
+	<entry name="ChaosDaemons_MT/ReaperChaintalon" value="Reaper Chaintalon"/>
+
+	<entry name="ChaosDaemons_MT/ScreamerBite" value="Screamer Bite"/>
+
+	<entry name="ChaosDaemons_MT/ShrivellingPox" value="Shrivelling Pox"/>
+
+	<entry name="ChaosDaemons_MT/Skullcannon" value="Skullcannon"/>
+
+	<entry name="ChaosDaemons_MT/SnappingClaws" value="Snapping Claws"/>
+
+	<entry name="ChaosDaemons_MT/SoulBlaze" value="Soul Blaze"/>
+
+	<entry name="ChaosDaemons_MT/StaffOfTzeentch" value="Staff of Tzeentch"/>
+
+	<entry name="ChaosDaemons_MT/VileVomit" value="Vile Vomit"/>
+
+	<entry name="ChaosDaemons_MT/Warpbarrage" value="Warpbarrage"/>
+
+	<entry name="ChaosDaemons_MT/Warpfire" value="Warpfire"/>
+
+	<entry name="ChaosDaemons_MT/Warpgaze" value="Warpgaze"/>
+
+	<entry name="ChaosDaemons_MT/WarpStrikeClaw" value="Warp Strike Claw"/>
+
+	<entry name="ChaosDaemons_MT/Warpsword" value="Warpsword"/>
+
+	<entry name="ChaosDaemons_MT/WitstealerSword" value="Witstealer Sword"/>
+	
+	
+</language>

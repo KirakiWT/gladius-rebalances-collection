@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>
+		<unit mesh="Units/Reinforcements_MT/KnightDesecrator"
+				material="Units/Reinforcements_MT/KnightDesecrator"
+				idleAnimation="Units/SpaceMarines/PrimarisRedemptorDreadnoughtIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="1.4 1.4 1.4"
+				syncMovementSounds="1"
+				explosionsBone="Body"
+				walker="1"/>
+	</model>
+	<weapons>
+		<weapon name="ChaosDaemons_MT/LaserDestructor">
+			<model>
+				<beamWeapon muzzleBone="Muzzle0"
+						effectScale="2.0"
+						fireInterval="1"
+						muzzleCount="1"/>
+			</model>
+		</weapon>
+		<weapon name="ChaosDaemons_MT/WarpStrikeClaw">
+			<model>
+				<weapon fireInterval="10"/>
+			</model>
+		</weapon>
+		<weapon name="HeavyStubber">
+			<model>
+				<projectileWeapon muzzleBone="RightBolterMuzzle0"/>
+			</model>
+		</weapon>
+		<weapon name="Stomp" slotName="Stomp" enabled="0"/>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="8"/> <!-- %armor base armor=13/12/12 -->
+				<hitpointsMax base="72.0"/> <!-- %hitpointsMax base armor=13/12/12 wounds=6 -->
+				<meleeAccuracy base="8"/> <!-- %meleeAccuracy base weaponSkill=4 -->
+				<meleeAttacks base="2"/>
+				<oreUpkeep base="12.0"/> <!-- %oreUpkeep base tier=11 factor=1 -->
+				<oreCost base="240.0"/> <!-- %oreCost base tier=11 factor=1 -->
+				<moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
+				<movementMax base="3"/>
+				<productionCost base="66.0"/> <!-- %productionCost base tier=11 factor=1 -->
+				<rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+				<strengthDamage base="12"/> <!-- %strengthDamage base strength=10 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseVehiclesScore base="1.5"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action	animation="Units/SpaceMarines/PrimarisRedemptorDreadnoughtAttack"
+						beginFire="1.3"
+						endFire="2.1"
+						chargeAnimation="Units/SpaceMarines/PrimarisRedemptorDreadnoughtCharge"
+						chargeBeginFire="0.2"
+						chargeEndFire="1.0"						
+						meleeAnimation="Units/SpaceMarines/PrimarisRedemptorDreadnoughtMelee"
+						meleeBeginSwing="0.05"
+						meleeEndSwing="0.5"/>
+			</model>
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/SpaceMarines/PrimarisRedemptorDreadnoughtDie0"
+						sound="Units/LargeArmoredDie"
+						soundCount="4"
+						soundDelay="1.3"
+						voiceSound="Units/MediumVehicleDie"
+						voiceSoundCount="3"
+						voiceSoundDelay="0"/>
+			</model>		
+		</die>
+		<idle>
+			<model>
+				<action animationSpeed="1.0"/>
+			</model>
+		</idle>
+		<move>
+			<model>
+				<action animation="Units/SpaceMarines/PrimarisRedemptorDreadnoughtMove"
+						sound="Units/SpaceMarines/DreadnoughtMove"
+						soundCount="2"/>
+			</model>				
+		</move>
+		<quantumShielding cooldown="2"
+				name="ChaosDaemons_MT/ScintillatingLegionShield"
+				icon="Actions/Necrons/QuantumShielding"
+				passive="1"
+				useConditionsForVisiblity="1">
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/ScintillatingLegion"/>
+				</unit>
+			</conditions>
+			<perTurnProcessUseConditions>
+				<unit>
+					<damagedThisTurn/>
+				</unit>
+			</perTurnProcessUseConditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/ScintillatingLegionShield"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</quantumShielding>
+		<auraOfFear passive="1">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" excludeRadius="0" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Fear"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</auraOfFear>
+		<hammerOfWrath consumedActionPoints="0" 
+				consumedMovement="0"
+				cooldown="3"
+				icon="Actions/HammerOfWrath"
+				name="ChaosDaemons_MT/HammerOfWrathUndivided"
+				useConditionsForVisiblity="1"
+				requiredUpgrade="ChaosDaemons_MT/HammerOfWrath">
+			<model>
+				<action sound="Actions/PsychicBuff"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/Undivided"/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/HammerOfWrath/Undivided" duration="1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+			<sharedCooldowns>
+				<action name="ChaosDaemons_MT/HammerOfWrathKhorne"/>
+				<action name="ChaosDaemons_MT/HammerOfWrathTzeentch"/>
+				<action name="ChaosDaemons_MT/HammerOfWrathSlaanesh"/>
+				<action name="ChaosDaemons_MT/HammerOfWrathNurgle"/>
+			</sharedCooldowns>
+		</hammerOfWrath>
+		<hammerOfWrath consumedActionPoints="0" 
+				consumedMovement="0"
+				cooldown="3"
+				icon="Actions/HammerOfWrath"
+				name="ChaosDaemons_MT/HammerOfWrathKhorne"
+				useConditionsForVisiblity="1"
+				requiredUpgrade="ChaosDaemons_MT/HammerOfWrath">
+			<model>
+				<action sound="Actions/PsychicBuff"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/Khorne"/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/HammerOfWrath/Khorne" duration="1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+			<sharedCooldowns>
+				<action name="ChaosDaemons_MT/HammerOfWrathUndivided"/>
+				<action name="ChaosDaemons_MT/HammerOfWrathTzeentch"/>
+				<action name="ChaosDaemons_MT/HammerOfWrathSlaanesh"/>
+				<action name="ChaosDaemons_MT/HammerOfWrathNurgle"/>
+			</sharedCooldowns>
+		</hammerOfWrath>
+		<hammerOfWrath consumedActionPoints="0" 
+				consumedMovement="0"
+				cooldown="3"
+				icon="Actions/HammerOfWrath"
+				name="ChaosDaemons_MT/HammerOfWrathTzeentch"
+				useConditionsForVisiblity="1"
+				requiredUpgrade="ChaosDaemons_MT/HammerOfWrath">
+			<model>
+				<action sound="Actions/PsychicBuff"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/Tzeentch"/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/HammerOfWrath/Tzeentch" duration="1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+			<sharedCooldowns>
+				<action name="ChaosDaemons_MT/HammerOfWrathUndivided"/>
+				<action name="ChaosDaemons_MT/HammerOfWrathKhorne"/>
+				<action name="ChaosDaemons_MT/HammerOfWrathSlaanesh"/>
+				<action name="ChaosDaemons_MT/HammerOfWrathNurgle"/>
+			</sharedCooldowns>
+		</hammerOfWrath>
+		<hammerOfWrath consumedActionPoints="0" 
+				consumedMovement="0"
+				cooldown="3"
+				icon="Actions/HammerOfWrath"
+				name="ChaosDaemons_MT/HammerOfWrathSlaanesh"
+				useConditionsForVisiblity="1"
+				requiredUpgrade="ChaosDaemons_MT/HammerOfWrath">
+			<model>
+				<action sound="Actions/PsychicBuff"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/Slaanesh"/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<hitpointsFactorFromMax add="-0.1"/>
+										<addTrait name="ChaosDaemons_MT/HammerOfWrath/Slaanesh" duration="1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+			<sharedCooldowns>
+				<action name="ChaosDaemons_MT/HammerOfWrathUndivided"/>
+				<action name="ChaosDaemons_MT/HammerOfWrathKhorne"/>
+				<action name="ChaosDaemons_MT/HammerOfWrathTzeentch"/>
+				<action name="ChaosDaemons_MT/HammerOfWrathNurgle"/>
+			</sharedCooldowns>
+		</hammerOfWrath>
+		<hammerOfWrath consumedActionPoints="0" 
+				consumedMovement="0"
+				cooldown="3"
+				icon="Actions/HammerOfWrath"
+				name="ChaosDaemons_MT/HammerOfWrathNurgle"
+				useConditionsForVisiblity="1"
+				requiredUpgrade="ChaosDaemons_MT/HammerOfWrath">
+			<model>
+				<action sound="Actions/PsychicBuff"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/Nurgle"/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<hitpointsFactorFromMax add="0.1"/>
+										<addTrait name="ChaosDaemons_MT/HammerOfWrath/Nurgle" duration="1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+			<sharedCooldowns>
+				<action name="ChaosDaemons_MT/HammerOfWrathUndivided"/>
+				<action name="ChaosDaemons_MT/HammerOfWrathKhorne"/>
+				<action name="ChaosDaemons_MT/HammerOfWrathTzeentch"/>
+				<action name="ChaosDaemons_MT/HammerOfWrathSlaanesh"/>
+			</sharedCooldowns>
+		</hammerOfWrath>
+		<stomp consumedActionPoints="0"
+				cooldown="1"
+				requiredActionPoints="0"
+				weaponSlotName="Stomp"/>
+	</actions>
+	<traits>
+		<trait name="ChaosDaemons_MT/ReinforcedHulls" requiredUpgrade="ChaosDaemons_MT/ExtraVehicleArmour"/>
+		<trait name="MoveThroughCover"/>
+		<trait name="Smash"/>
+		<trait name="Strikedown"/>
+		<trait name="SuperHeavy"/>
+		<trait name="Vehicle"/>
+		<trait name="Walker"/>
+		<trait name="ChaosDaemons_MT/Undivided"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Undivided"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Khorne"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Tzeentch"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Slaanesh"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Nurgle"/>
+	</traits>
+</unit>

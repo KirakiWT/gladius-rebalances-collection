@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="ChaosDaemons_MT/AntiFlyer" value="Воздушный бой"/>
+	<entry name="ChaosDaemons_MT/AntiFlyerDescription" value="Дает способность «Летающий». Убирает способность «Летающий» после вступления в бой. Можно использовать только рядом с вражеским летающим отрядом."/>
+	<entry name="ChaosDaemons_MT/AntiFlyerFlavor" value="<string name='Traits/FlyerFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/CentreOfAttention" value="Центр внимания"/>
+	<entry name="ChaosDaemons_MT/CentreOfAttentionDescription" value="Наносит урон соседним вражеским отрядам и оглушает их."/>
+	<entry name="ChaosDaemons_MT/CentreOfAttentionFlavor" value="Ослепительная самоуверенность этого чемпиона настолько велика, что многие враги не могут не впасть в ступор рядом с ним."/>
+	<entry name="ChaosDaemons_MT/CelebrityWarlord" value="<string name='Traits/ChaosDaemons_MT/CelebrityWarlord'/>"/>
+	<entry name="ChaosDaemons_MT/CelebrityWarlordDescription" value="Увеличивает точность союзных отрядов в области и уменьшает точность вражеских отрядов в области."/>
+	<entry name="ChaosDaemons_MT/CelebrityWarlordFlavor" value="<string name='Traits/ChaosDaemons_MT/CelebrityWarlordFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/MaestrosOfDiscordance" value="<string name='Traits/ChaosDaemons_MT/MaestrosOfDiscordance'/>"/>
+	<entry name="ChaosDaemons_MT/MaestrosOfDiscordanceDescription" value="<string name='Traits/ChaosDaemons_MT/MaestrosOfDiscordanceDescription'/>"/>
+	<entry name="ChaosDaemons_MT/MaestrosOfDiscordanceFlavor" value="<string name='Traits/ChaosDaemons_MT/MaestrosOfDiscordanceFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/SpellShreddingSymphony" value="<string name='Traits/ChaosDaemons_MT/SpellShreddingSymphony'/>"/>
+	<entry name="ChaosDaemons_MT/SpellShreddingSymphonyDescription" value="<string name='Traits/ChaosDaemons_MT/SpellShreddingSymphonyDescription'/>"/>
+	<entry name="ChaosDaemons_MT/SpellShreddingSymphonyFlavor" value="<string name='Traits/ChaosDaemons_MT/SpellShreddingSymphonyFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/InfernalGateway" value="<string name='Traits/ChaosDaemons_MT/InfernalGateway'/>"/>
+	<entry name="ChaosDaemons_MT/InfernalGatewayDescription" value="Наносит урон вражескому отряду и проклинает окружающую область, нанося урон каждый ход и ограничивая передвижение."/>
+	<entry name="ChaosDaemons_MT/InfernalGatewayFlavor" value="<string name='Traits/ChaosDaemons_MT/InfernalGatewayFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/EldritchStrength" value="<string name='Traits/ChaosDaemons_MT/EldritchStrength'/>"/>
+	<entry name="ChaosDaemons_MT/EldritchStrengthDescription" value="Увеличивает количество атак союзного не-геройского отряда демонов Хаоса."/>
+	<entry name="ChaosDaemons_MT/EldritchStrengthFlavor" value="<string name='Traits/ChaosDaemons_MT/EldritchStrengthFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/WeaponCurse" value="<string name='Traits/ChaosDaemons_MT/WeaponCurse'/>"/>
+	<entry name="ChaosDaemons_MT/WeaponCurseDescription" value="Наносит урон врагу и накладывает на него проклятие, из-за которого его атаки наносят урон ему самому."/>
+	<entry name="ChaosDaemons_MT/WeaponCurseFlavor" value="<string name='Traits/ChaosDaemons_MT/WeaponCurseFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/TheBloodMustFlow" value="Кровь должна литься"/>
+	<entry name="ChaosDaemons_MT/TheBloodMustFlowDescription" value="Восстанавливает одно очко действия."/>
+	<entry name="ChaosDaemons_MT/TheBloodMustFlowFlavor" value="Вдохновленные кровавым примером, малые демоны Кхорна с яростью бросаются в бой."/>
+	<entry name="ChaosDaemons_MT/SkullsBegetBlood" value="<string name='Traits/ChaosDaemons_MT/SkullsBegetBlood'/>"/>
+	<entry name="ChaosDaemons_MT/SkullsBegetBloodDescription" value="<string name='Traits/ChaosDaemons_MT/SkullsBegetBloodDescription'/>"/>
+	<entry name="ChaosDaemons_MT/SkullsBegetBloodFlavor" value="<string name='Traits/ChaosDaemons_MT/SkullsBegetBloodFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/BloodBegetSkulls" value="<string name='Traits/ChaosDaemons_MT/BloodBegetSkulls'/>"/>
+	<entry name="ChaosDaemons_MT/BloodBegetSkullsDescription" value="<string name='Traits/ChaosDaemons_MT/BloodBegetSkullsDescription'/>"/>
+	<entry name="ChaosDaemons_MT/BloodBegetSkullsFlavor" value="<string name='Traits/ChaosDaemons_MT/BloodBegetSkullsFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/GoreHungryOnslaught" value="<string name='Traits/ChaosDaemons_MT/GoreHungryOnslaught'/>"/>
+	<entry name="ChaosDaemons_MT/GoreHungryOnslaughtDescription" value="<string name='Traits/ChaosDaemons_MT/GoreHungryOnslaughtDescription'/>"/>
+	<entry name="ChaosDaemons_MT/GoreHungryOnslaughtFlavor" value="<string name='Traits/ChaosDaemons_MT/GoreHungryOnslaughtFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/GiftOfDisease" value="<string name='Traits/ChaosDaemons_MT/GiftOfDisease'/>"/>
+	<entry name="ChaosDaemons_MT/GiftOfDiseaseDescription" value="Лечит соседние союзные отряды каждый ход. Атаки соседних союзных отрядов заражают врагов изнурительной болезнью."/>
+	<entry name="ChaosDaemons_MT/GiftOfDiseaseFlavor" value="<string name='Traits/ChaosDaemons_MT/GiftOfDiseaseFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/FleshyAbundanceHerald" value="<string name='Traits/ChaosDaemons_MT/FleshyAbundance'/>"/>
+	<entry name="ChaosDaemons_MT/FleshyAbundanceHeraldDescription" value="Лечит союзный поврежденный отряд и заражает его болезнью, которая продолжает лечить его каждый ход."/>
+	<entry name="ChaosDaemons_MT/FleshyAbundanceHeraldFlavor" value="<string name='Traits/ChaosDaemons_MT/FleshyAbundanceFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/JollyGutpipes" value="<string name='Traits/ChaosDaemons_MT/JollyGutpipes'/>"/>
+	<entry name="ChaosDaemons_MT/JollyGutpipesDescription" value="Увеличивает передвижение соседних союзных отрядов."/>
+	<entry name="ChaosDaemons_MT/JollyGutpipesFlavor" value="<string name='Traits/ChaosDaemons_MT/JollyGutpipesFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/RancidVisitations" value="<string name='Traits/ChaosDaemons_MT/RancidVisitations'/>"/>
+	<entry name="ChaosDaemons_MT/RancidVisitationsDescription" value="Заражает вражеский отряд изнурительной болезнью."/>
+	<entry name="ChaosDaemons_MT/RancidVisitationsFlavor" value="<string name='Traits/ChaosDaemons_MT/RancidVisitationsFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/WarpRiftTeleport" value="Путешествие по Варпу"/>
+	<entry name="ChaosDaemons_MT/WarpRiftTeleportDescription" value="Путешествие между вашими городами и разрывами Варпа."/>
+	<entry name="ChaosDaemons_MT/WarpRiftTeleportFlavor" value="Демонические легионы разрывают ткань реальности, злобные сущности мерцают, появляясь, как призраки из кошмара. Хуже того, по мере того как ужас и паника овладевают их жертвами, их смертные души становятся легкой добычей для сущностей, хлынувших из Варпа."/>
+	<entry name="ChaosDaemons_MT/ShadowOfChaos" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaos'/>"/>
+	<entry name="ChaosDaemons_MT/ShadowOfChaosDescription" value="Распространяет Тень Хаоса."/>
+	<entry name="ChaosDaemons_MT/ShadowOfChaosFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/DaemonicReinforcements" value="Демоническое подкрепление"/>
+	<entry name="ChaosDaemons_MT/DaemonicReinforcementsDescription" value="Призывает малого демона."/>
+	<entry name="ChaosDaemons_MT/DaemonicReinforcementsFlavor" value="Демонические легионы разрывают ткань реальности, злобные сущности мерцают, появляясь, как призраки из кошмара. Хуже того, по мере того как ужас и паника овладевают их жертвами, их смертные души становятся легкой добычей для сущностей, хлынувших из Варпа."/>
+	<entry name="ChaosDaemons_MT/DuskOfChaos" value="Сумерки Хаоса"/>
+	<entry name="ChaosDaemons_MT/DuskOfChaosDescription" value="Увеличивает радиус ваших аур."/>
+	<entry name="ChaosDaemons_MT/DuskOfChaosFlavor" value="Встретить существо Варпа — значит столкнуться с сущностью, абсолютно чуждой фундаментальным законам реальности. Даже самый бесстрашный воин чувствует неестественный первобытный ужас в их присутствии."/>
+	<entry name="ChaosDaemons_MT/ShadowLegion" value="<string name='Traits/ChaosDaemons_MT/ShadowLegion/Khorne'/>"/>
+	<entry name="ChaosDaemons_MT/ShadowLegionDescription" value="Усиливает вашу армию."/>
+	<entry name="ChaosDaemons_MT/ShadowLegionFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowLegion/KhorneFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/WrathUndeniable" value="<string name='Traits/ChaosDaemons_MT/WrathUndeniable'/>"/>
+	<entry name="ChaosDaemons_MT/WrathUndeniableDescription" value="Увеличивает урон в ближнем бою соседних союзных отрядов."/>
+	<entry name="ChaosDaemons_MT/WrathUndeniableFlavor" value="<string name='Traits/ChaosDaemons_MT/WrathUndeniableFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/RageUnchained" value="Необузданная ярость"/>
+	<entry name="ChaosDaemons_MT/RageUnchainedDescription" value="Атакует каждый соседний вражеский отряд."/>
+	<entry name="ChaosDaemons_MT/RageUnchainedFlavor" value="Несмотря на все ранения, это забрызганное кровью чудовище продолжает уничтожать врагов, не замечая их отчаянных ударов."/>
+	<entry name="ChaosDaemons_MT/GloryOfBattle" value="<string name='Traits/ChaosDaemons_MT/GloryOfBattle'/>"/>
+	<entry name="ChaosDaemons_MT/GloryOfBattleDescription" value="<string name='Traits/ChaosDaemons_MT/GloryOfBattleDescription'/>"/>
+	<entry name="ChaosDaemons_MT/GloryOfBattleFlavor" value="<string name='Traits/ChaosDaemons_MT/GloryOfBattleFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/BloodLegion" value="<string name='Traits/ChaosDaemons_MT/BloodLegion'/>"/>
+	<entry name="ChaosDaemons_MT/BloodLegionDescription" value="Увеличивает количество атак всех слуг Кхорна."/>
+	<entry name="ChaosDaemons_MT/BloodLegionFlavor" value="<string name='Traits/ChaosDaemons_MT/BloodLegionFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/ScintillatingLegionShield" value="<string name='Traits/ChaosDaemons_MT/ScintillatingLegionShield'/>"/>
+	<entry name="ChaosDaemons_MT/ScintillatingLegionShieldDescription" value="Увеличивает снижение урона. Переходит в перезарядку в начале следующего хода, если был получен урон."/>
+	<entry name="ChaosDaemons_MT/ScintillatingLegionShieldFlavor" value="<string name='Traits/ChaosDaemons_MT/ScintillatingLegionShieldFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/WorthyOffering" value="<string name='Traits/ChaosDaemons_MT/WorthyOffering'/>"/>
+	<entry name="ChaosDaemons_MT/WorthyOfferingDescription" value="<string name='Traits/ChaosDaemons_MT/WorthyOfferingDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WorthyOfferingFlavor" value="<string name='Traits/ChaosDaemons_MT/WorthyOfferingFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/DarkGlory" value="<string name='Traits/ChaosDaemons_MT/DarkGlory'/>"/>
+	<entry name="ChaosDaemons_MT/DarkGloryDescription" value="<string name='Traits/ChaosDaemons_MT/DarkGloryDescription'/>"/>
+	<entry name="ChaosDaemons_MT/DarkGloryFlavor" value="<string name='Traits/ChaosDaemons_MT/DarkGloryFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/DreadMarshal" value="<string name='Traits/ChaosDaemons_MT/DreadMarshal'/>"/>
+	<entry name="ChaosDaemons_MT/DreadMarshalDescription" value="Увеличивает урон союзных отрядов в области."/>
+	<entry name="ChaosDaemons_MT/DreadMarshalFlavor" value="<string name='Traits/ChaosDaemons_MT/DreadMarshalFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/NurglesRot" value="<string name='Traits/ChaosDaemons_MT/NurglesRot'/>"/>
+	<entry name="ChaosDaemons_MT/NurglesRotDescription" value="Уменьшает броню соседних вражеских отрядов."/>
+	<entry name="ChaosDaemons_MT/NurglesRotFlavor" value="<string name='Traits/ChaosDaemons_MT/NurglesRotFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/ShrivellingPox" value="<string name='Traits/ChaosDaemons_MT/ShrivellingPox'/>"/>
+	<entry name="ChaosDaemons_MT/ShrivellingPoxDescription" value="Наносит урон соседним врагам и уменьшает наносимый ими урон."/>
+	<entry name="ChaosDaemons_MT/ShrivellingPoxFlavor" value="<string name='Traits/ChaosDaemons_MT/ShrivellingPoxFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/FleshyAbundance" value="<string name='Traits/ChaosDaemons_MT/FleshyAbundance'/>"/>
+	<entry name="ChaosDaemons_MT/FleshyAbundanceDescription" value="Восстанавливает здоровье соседних союзных отрядов. Эффект усилен для слуг Нургла."/>
+	<entry name="ChaosDaemons_MT/FleshyAbundanceFlavor" value="<string name='Traits/ChaosDaemons_MT/FleshyAbundanceFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/PlagueLegion" value="<string name='Traits/ChaosDaemons_MT/PlagueLegion'/>"/>
+	<entry name="ChaosDaemons_MT/PlagueLegionDescription" value="Увеличивает снижение урона всех слуг Нургла."/>
+	<entry name="ChaosDaemons_MT/PlagueLegionFlavor" value="<string name='Traits/ChaosDaemons_MT/PlagueLegionFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/DelightfulAgonies" value="<string name='Traits/ChaosDaemons_MT/DelightfulAgonies'/>"/>
+	<entry name="ChaosDaemons_MT/DelightfulAgoniesDescription" value="Увеличивает снижение урона и регенерацию морали для соседних союзных отрядов."/>
+	<entry name="ChaosDaemons_MT/DelightfulAgoniesFlavor" value="<string name='Traits/ChaosDaemons_MT/DelightfulAgoniesFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/CacophonicVoice" value="Какофонический голос"/>
+	<entry name="ChaosDaemons_MT/CacophonicVoiceDescription" value="Наносит урон всем соседним вражеским отрядам."/>
+	<entry name="ChaosDaemons_MT/CacophonicVoiceFlavor" value="Демон издаёт пронзительный хор варп-насыщенных криков, вырывающихся из его разинутой пасти и сокрушающих рассудок врагов."/>
+	<entry name="ChaosDaemons_MT/SoulGlutton" value="<string name='Traits/ChaosDaemons_MT/SoulGlutton'/>"/>
+	<entry name="ChaosDaemons_MT/SoulGluttonDescription" value="<string name='Traits/ChaosDaemons_MT/SoulGluttonDescription'/>"/>
+	<entry name="ChaosDaemons_MT/SoulGluttonFlavor" value="<string name='Traits/ChaosDaemons_MT/SoulGluttonFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/LegionOfExcess" value="<string name='Traits/ChaosDaemons_MT/LegionOfExcess'/>"/>
+	<entry name="ChaosDaemons_MT/LegionOfExcessDescription" value="Увеличивает количество атак всех слуг Слаанеш. Их атаки теперь наносят урон самим себе."/>
+	<entry name="ChaosDaemons_MT/LegionOfExcessFlavor" value="<string name='Traits/ChaosDaemons_MT/LegionOfExcessFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/AuraOfDiscipline" value="<string name='Actions/AuraOfDiscipline'/>"/>
+	<entry name="ChaosDaemons_MT/AuraOfDisciplineDescription" value="Увеличивает точность Лорда-Комиссара и соседних союзных отрядов пехоты демонов Хаоса."/>
+	<entry name="ChaosDaemons_MT/AuraOfDisciplineFlavor" value="<string name='Actions/AuraOfDisciplineFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/BringItDown" value="<string name='Actions/BringItDown'/>"/>
+	<entry name="ChaosDaemons_MT/BringItDownDescription" value="Увеличивает пробивание брони Лорда-Комиссара и соседних союзных отрядов пехоты демонов Хаоса."/>
+	<entry name="ChaosDaemons_MT/BringItDownFlavor" value="<string name='Actions/BringItDownFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/SummaryExecution" value="<string name='Actions/SummaryExecution'/>"/>
+	<entry name="ChaosDaemons_MT/SummaryExecutionDescription" value="Казнит члена отряда соседней пехоты, чтобы распространить вашу Тень Хаоса."/>
+	<entry name="ChaosDaemons_MT/SummaryExecutionFlavor" value="<string name='Actions/SummaryExecutionFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/ArchitectOfDeception" value="<string name='Traits/ChaosDaemons_MT/ArchitectOfDeception'/>"/>
+	<entry name="ChaosDaemons_MT/ArchitectOfDeceptionDescription" value="Уменьшает точность соседних вражеских отрядов."/>
+	<entry name="ChaosDaemons_MT/ArchitectOfDeceptionFlavor" value="<string name='Traits/ChaosDaemons_MT/ArchitectOfDeceptionFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/BoonOfChange" value="<string name='Traits/ChaosDaemons_MT/BoonOfChange/BoonOfChange'/>"/>
+	<entry name="ChaosDaemons_MT/BoonOfChangeDescription" value="Дарует союзному отряду демонов Хаоса случайный дар."/>
+	<entry name="ChaosDaemons_MT/BoonOfChangeFlavor" value="<string name='Traits/ChaosDaemons_MT/BoonOfChange/BoonOfChangeFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/TreasonOfTzeentch" value="Предательство Тзинча"/>
+	<entry name="ChaosDaemons_MT/TreasonOfTzeentchDescription" value="Оглушает вражеский отряд."/>
+	<entry name="ChaosDaemons_MT/TreasonOfTzeentchFlavor" value="Псайкер проникает в разум своей жертвы, подчиняя ее волю и обращая ее против ее же союзников."/>
+	<entry name="ChaosDaemons_MT/ScintillatingLegion" value="<string name='Traits/ChaosDaemons_MT/ScintillatingLegion'/>"/>
+	<entry name="ChaosDaemons_MT/ScintillatingLegionDescription" value="Дарует вашим слугам Тзинча снижение урона от дальних атак и щит, который активируется при атаке."/>
+	<entry name="ChaosDaemons_MT/ScintillatingLegionFlavor" value="<string name='Traits/ChaosDaemons_MT/ScintillatingLegionFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/WreathedInShades" value="<string name='Traits/ChaosDaemons_MT/WreathedInShades'/>"/>
+	<entry name="ChaosDaemons_MT/WreathedInShadesDescription" value="Распространяет вашу Тень Хаоса на соседние клетки и увеличивает точность и снижение дальнего урона, пока это действует."/>
+	<entry name="ChaosDaemons_MT/WreathedInShadesFlavor" value="<string name='Traits/ChaosDaemons_MT/WreathedInShadesFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/Possession" value="<string name='Actions/ChaosSpaceMarines/Possession'/>"/>
+	<entry name="ChaosDaemons_MT/PossessionDescription" value="Убийство вражеских отрядов превращает их в союзных малых демонов."/>
+	<entry name="ChaosDaemons_MT/PossessionFlavor" value="<string name='Actions/ChaosSpaceMarines/PossessionFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/Incursion" value="<string name='Actions/ChaosSpaceMarines/Incursion'/>"/>
+	<entry name="ChaosDaemons_MT/IncursionDescription" value="Призывает временного случайного Мясомола."/>
+	<entry name="ChaosDaemons_MT/IncursionFlavor" value="<string name='Actions/ChaosSpaceMarines/IncursionFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/HammerOfWrathUndivided" value="<string name='Actions/HammerOfWrath'/>"/>
+	<entry name="ChaosDaemons_MT/HammerOfWrathUndividedDescription" value="Увеличивает урон оружия (кроме бомб)."/>
+	<entry name="ChaosDaemons_MT/HammerOfWrathUndividedFlavor" value="<string name='Actions/HammerOfWrathFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/HammerOfWrathKhorne" value="<string name='Actions/HammerOfWrath'/>"/>
+	<entry name="ChaosDaemons_MT/HammerOfWrathKhorneDescription" value="Увеличивает урон оружия (кроме бомб)."/>
+	<entry name="ChaosDaemons_MT/HammerOfWrathKhorneFlavor" value="<string name='Actions/HammerOfWrathFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/HammerOfWrathTzeentch" value="<string name='Actions/HammerOfWrath'/>"/>
+	<entry name="ChaosDaemons_MT/HammerOfWrathTzeentchDescription" value="<string name='Traits/ChaosDaemons_MT/HammerOfWrath/Tzeentch'/>"/>
+	<entry name="ChaosDaemons_MT/HammerOfWrathTzeentchFlavor" value="<string name='Actions/HammerOfWrathFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/HammerOfWrathSlaanesh" value="<string name='Actions/HammerOfWrath'/>"/>
+	<entry name="ChaosDaemons_MT/HammerOfWrathSlaaneshDescription" value="Жертвует здоровьем, чтобы увеличить урон и пробивание брони оружия (кроме бомб)."/>
+	<entry name="ChaosDaemons_MT/HammerOfWrathSlaaneshFlavor" value="<string name='Actions/HammerOfWrathFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/HammerOfWrathNurgle" value="<string name='Actions/HammerOfWrath'/>"/>
+	<entry name="ChaosDaemons_MT/HammerOfWrathNurgleDescription" value="Восстанавливает здоровье и увеличивает урон оружия (кроме бомб)."/>
+	<entry name="ChaosDaemons_MT/HammerOfWrathNurgleFlavor" value="<string name='Actions/HammerOfWrathFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/SmokeLauncherUndivided" value="<string name='Actions/CreateSmokeScreen'/>"/>
+	<entry name="ChaosDaemons_MT/SmokeLauncherUndividedDescription" value="Увеличивает снижение дальнего урона на клетке."/>
+	<entry name="ChaosDaemons_MT/SmokeLauncherUndividedFlavor" value="<string name='Actions/CreateSmokeScreenFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/SmokeLauncherKhorne" value="<string name='Actions/CreateSmokeScreen'/>"/>
+	<entry name="ChaosDaemons_MT/SmokeLauncherKhorneDescription" value="Увеличивает снижение дальнего урона и урон на клетке."/>
+	<entry name="ChaosDaemons_MT/SmokeLauncherKhorneFlavor" value="<string name='Actions/CreateSmokeScreenFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/SmokeLauncherNurgle" value="<string name='Actions/CreateSmokeScreen'/>"/>
+	<entry name="ChaosDaemons_MT/SmokeLauncherNurgleDescription" value="Увеличивает снижение дальнего и ближнего урона на клетке."/>
+	<entry name="ChaosDaemons_MT/SmokeLauncherNurgleFlavor" value="<string name='Actions/CreateSmokeScreenFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/SmokeLauncherSlaanesh" value="<string name='Actions/CreateSmokeScreen'/>"/>
+	<entry name="ChaosDaemons_MT/SmokeLauncherSlaaneshDescription" value="Увеличивает снижение дальнего урона и передвижение на клетке."/>
+	<entry name="ChaosDaemons_MT/SmokeLauncherSlaaneshFlavor" value="<string name='Actions/CreateSmokeScreenFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/SmokeLauncherTzeentch" value="<string name='Actions/CreateSmokeScreen'/>"/>
+	<entry name="ChaosDaemons_MT/SmokeLauncherTzeentchDescription" value="Увеличивает снижение дальнего урона на клетке."/>
+	<entry name="ChaosDaemons_MT/SmokeLauncherTzeentchFlavor" value="<string name='Actions/CreateSmokeScreenFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/Nurgle" value="<string name='Traits/ChaosDaemons_MT/Nurgle'/>"/>
+	<entry name="ChaosDaemons_MT/NurgleDescription" value="Посвящает отряд служению Нурглу."/>
+	<entry name="ChaosDaemons_MT/NurgleFlavor" value="<string name='Traits/ChaosDaemons_MT/NurgleFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/Khorne" value="<string name='Traits/ChaosDaemons_MT/Khorne'/>"/>
+	<entry name="ChaosDaemons_MT/KhorneDescription" value="Посвящает отряд служению Кхорну."/>
+	<entry name="ChaosDaemons_MT/KhorneFlavor" value="<string name='Traits/ChaosDaemons_MT/KhorneFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/Slaanesh" value="<string name='Traits/ChaosDaemons_MT/Slaanesh'/>"/>
+	<entry name="ChaosDaemons_MT/SlaaneshDescription" value="Посвящает отряд служению Слаанеш."/>
+	<entry name="ChaosDaemons_MT/SlaaneshFlavor" value="<string name='Traits/ChaosDaemons_MT/SlaaneshFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/Tzeentch" value="<string name='Traits/ChaosDaemons_MT/Tzeentch'/>"/>
+	<entry name="ChaosDaemons_MT/TzeentchDescription" value="Посвящает отряд служению Тзинчу."/>
+	<entry name="ChaosDaemons_MT/TzeentchFlavor" value="<string name='Traits/ChaosDaemons_MT/TzeentchFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/WarpRift" value="Разрыв Варпа"/>
+	<entry name="ChaosDaemons_MT/WarpRiftDescription" value="Открывает Разрыв Варпа, позволяющий демонам путешествовать между ними."/>
+	<entry name="ChaosDaemons_MT/WarpRiftFlavor" value="<string name='Units/ChaosDaemons_MT/WarpRiftFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/LocusOfUnstoppableFury" value="<string name='Traits/ChaosDaemons_MT/Locus/LocusOfUnstoppableFury'/>"/>
+	<entry name="ChaosDaemons_MT/LocusOfUnstoppableFuryDescription" value="Оружие ближнего боя отрядов Кхорна поражает дополнительные цели."/>
+	<entry name="ChaosDaemons_MT/LocusOfUnstoppableFuryFlavor" value="<string name='Traits/ChaosDaemons_MT/Locus/LocusOfUnstoppableFuryFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/LocusOfDiabolicalPurpose" value="<string name='Traits/ChaosDaemons_MT/Locus/LocusOfDiabolicalPurpose'/>"/>
+	<entry name="ChaosDaemons_MT/LocusOfDiabolicalPurposeDescription" value="Оружие ближнего боя отрядов Кхорна получает вампиризм."/>
+	<entry name="ChaosDaemons_MT/LocusOfDiabolicalPurposeFlavor" value="<string name='Traits/ChaosDaemons_MT/Locus/LocusOfDiabolicalPurposeFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/LocusOfFoetidRegeneration" value="Локус гнилостной регенерации"/>
+	<entry name="ChaosDaemons_MT/LocusOfFoetidRegenerationDescription" value="Восстанавливает здоровье отрядов Нургла."/>
+	<entry name="ChaosDaemons_MT/LocusOfFoetidRegenerationFlavor" value="Демонов Нургла невероятно трудно уничтожить, особенно в присутствии этого ходячего источника нечистой плодовитости. Волны больной энергии исходят от демона, его гротескная щедрость — эхо щедрости самого Нургла, которая залечивает разорванные тела, восстанавливает лопнувшие внутренности и утолщает кожу свежими слоями гниющего жира."/>
+	<entry name="ChaosDaemons_MT/LocusOfPoxesUncounted" value="<string name='Traits/ChaosDaemons_MT/Locus/LocusOfPoxesUncounted'/>"/>
+	<entry name="ChaosDaemons_MT/LocusOfPoxesUncountedDescription" value="Увеличивает передвижение отрядов Нургла."/>
+	<entry name="ChaosDaemons_MT/LocusOfPoxesUncountedFlavor" value="<string name='Traits/ChaosDaemons_MT/Locus/LocusOfPoxesUncountedFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/LocusOfConjuration" value="<string name='Traits/ChaosDaemons_MT/Locus/LocusOfConjuration'/>"/>
+	<entry name="ChaosDaemons_MT/LocusOfConjurationDescription" value="Отряды Тзинча наносят дополнительный урон при атаке."/>
+	<entry name="ChaosDaemons_MT/LocusOfConjurationFlavor" value="<string name='Traits/ChaosDaemons_MT/Locus/LocusOfConjurationFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/LocusOfTransmogrification" value="<string name='Traits/ChaosDaemons_MT/Locus/LocusOfTransmogrification'/>"/>
+	<entry name="ChaosDaemons_MT/LocusOfTransmogrificationDescription" value="Атаки отрядов Тзинча лечат союзные отряды."/>
+	<entry name="ChaosDaemons_MT/LocusOfTransmogrificationFlavor" value="<string name='Traits/ChaosDaemons_MT/Locus/LocusOfTransmogrificationFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/LocusOfUnnaturalSwiftness" value="<string name='Traits/ChaosDaemons_MT/Locus/LocusOfUnnaturalSwiftness'/>"/>
+	<entry name="ChaosDaemons_MT/LocusOfUnnaturalSwiftnessDescription" value="Увеличивает точность отрядов Слаанеш после передвижения."/>
+	<entry name="ChaosDaemons_MT/LocusOfUnnaturalSwiftnessFlavor" value="<string name='Traits/ChaosDaemons_MT/Locus/LocusOfUnnaturalSwiftnessFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/LocusOfDelicateEvisceration" value="<string name='Traits/ChaosDaemons_MT/Locus/LocusOfDelicateEvisceration'/>"/>
+	<entry name="ChaosDaemons_MT/LocusOfDelicateEviscerationDescription" value="Увеличивает пробивание брони отрядов Слаанеш после передвижения."/>
+	<entry name="ChaosDaemons_MT/LocusOfDelicateEviscerationFlavor" value="<string name='Traits/ChaosDaemons_MT/Locus/LocusOfDelicateEviscerationFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/HearMyCommand" value="Слушай мою команду!"/>
+	<entry name="ChaosDaemons_MT/HearMyCommandDescription" value="Восстанавливает очко действия целевому юниту пехоты."/>
+	<entry name="ChaosDaemons_MT/HearMyCommandFlavor" value="Послушание – единственная добродетель, которой требует комиссар, и единственная, которую уважает Варп."/>
+	<entry name="ChaosDaemons_MT/SkullLordPact" value="Договор Владыки Черепов"/>
+	<entry name="ChaosDaemons_MT/SkullLordPactDescription" value="Приносит в жертву любого союзного юнита, кроме героев, и на его месте на 4 хода призывает подконтрольного вам Владыку Черепов. Перезарядка: 20 ходов."/>
+	<entry name="ChaosDaemons_MT/SkullLordPactFlavor" value="Тысяча черепов для трона, и трон идёт в бой."/>
+</language>

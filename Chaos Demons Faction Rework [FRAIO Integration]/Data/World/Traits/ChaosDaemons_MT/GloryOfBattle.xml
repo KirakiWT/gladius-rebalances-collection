@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" icon="Traits/SistersOfBattle/ParagonWarblade" category="Buff" rankMax="2">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<enemyMajorityInRange range="1"/>
+				</unit>
+			</conditions>
+			<effects>
+				<attacks mulMin="0.1" mulMax="0.3"/>
+				<lifeStealFactor addMin="0.1" addMax="0.3"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

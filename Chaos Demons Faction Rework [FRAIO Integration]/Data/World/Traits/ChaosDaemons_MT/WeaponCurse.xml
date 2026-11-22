@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff" rankMax="2" icon="Traits/GetsHot">
+	<modifiers>
+		<modifier>
+			<effects>
+				<damageSelfFactor addMin="0.1" addMax="0.3"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="ChaosDaemons_MT" value="<string name='Factions/ChaosDaemons_MT'/>"/>
+	<entry name="ChaosDaemons_MT0" value="Крепость Крушителя Черепов"/>
+	<entry name="ChaosDaemons_MT1" value="Губитель Пустоты"/>
+	<entry name="ChaosDaemons_MT2" value="Узел Связывающего Судьбу"/>
+	<entry name="ChaosDaemons_MT3" value="Очаг Хаоса"/>
+	<entry name="ChaosDaemons_MT4" value="Чумной Костёр"/>
+	<entry name="ChaosDaemons_MT5" value="Болотная Тень"/>
+	<entry name="ChaosDaemons_MT6" value="Вера Неразделённая"/>
+	<entry name="ChaosDaemons_MT7" value="Кастель Гор"/>
+	<entry name="ChaosDaemons_MT8" value="Еретический Крест"/>
+	<entry name="ChaosDaemons_MT9" value="Санкция Горькой Клятвы"/>
+	<entry name="ChaosDaemons_MT10" value="Ядро Чёрного Сердца"/>
+	<entry name="ChaosDaemons_MT11" value="Лэшлик"/>
+	<entry name="ChaosDaemons_MT12" value="Данморнин"/>
+	<entry name="ChaosDaemons_MT13" value="Кулак Военачальника"/>
+	<entry name="ChaosDaemons_MT14" value="Надежда Мерзкого Расхитителя"/>
+	<entry name="ChaosDaemons_MT15" value="Затерянное Проклятие"/>
+	<entry name="ChaosDaemons_MT16" value="Солнцесорванная Пустошь"/>
+	<entry name="ChaosDaemons_MT17" value="Пепел Империума"/>
+	<entry name="ChaosDaemons_MTCount" value="18"/>
+</language>

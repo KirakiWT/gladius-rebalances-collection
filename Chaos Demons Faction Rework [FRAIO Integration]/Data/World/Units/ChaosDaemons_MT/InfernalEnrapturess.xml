@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>
+		<unit mesh="Units/Reinforcements_MT/InfernalEnrapturess"
+				material="Units/Reinforcements_MT/InfernalEnrapturess"
+				idleAnimation="Units/Reinforcements_MT/InfernalEnrapturess/Idle"
+				idleAnimationCount="2"
+				idleContinuously="1"
+				normalWeight="0.1"
+				portraitFocusHeightModifier="-8"
+				portraitZoomModifier="1.25"
+				scale="1 1 1"
+				bloodBone="Waist"
+				position="0 0 0"
+				walker="1"/>
+	</model>
+	<weapons>
+		<weapon name="ChaosDaemons_MT/ScreamingMelody">
+			<model>
+				<flamerWeapon muzzleBone="Bone.022" effectFaceWeight="1"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="6"/>
+				<hitpointsMax base="12"/>
+				<meleeAccuracy base="8"/>
+				<meleeAttacks base="3"/>
+				<strengthDamage base="1.5"/>
+				<moraleMax base="8"/>
+				<movementMax base="3"/>
+				<productionCost base="39"/>
+				<foodCost base="45"/>
+				<energyCost base="45"/>
+				<influenceCost base="90"/>
+				<energyUpkeep base="3"/>
+				<rangedAccuracy base="8"/>
+				<influenceUpkeep base="6.0"/>
+				<itemSlots base="6"/>
+				<levelMax base="9"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<player>
+					<aiControlled/>
+				</player>
+			</conditions>
+			<effects>
+			</effects>
+		</modifier>	
+		<modifier visible="0">
+			<conditions>
+				<player>
+					<notAIControlled/>
+				</player>
+			</conditions>
+			<effects>
+			</effects>
+		</modifier>	
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseHeroesScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>		
+			<model>
+				<action animation="Units/Reinforcements_MT/InfernalEnrapturess/Idle1"
+						beginFire="0.5"
+						endFire="2.5"/>	
+			</model>	
+		</attack>
+		<die>	
+			<model>
+				<action animation="Units/Reinforcements_MT/InfernalEnrapturess/Die"
+						sound="Units/MediumUnarmoredDie"
+						soundCount="4"
+						soundDelay="0.85"
+						voiceSound="Units/Drukhari/SuccubusDie"
+						voiceSoundCount="1"
+						voiceSoundDelay="0.1"/>
+			</model>	
+		</die>
+		<idle>
+			<model>
+				<action animationSpeed="1.0"/>
+			</model>
+		</idle>
+		<move>	
+			<model>
+				<action animation="Units/Reinforcements_MT/InfernalEnrapturess/Move"
+						sound="Units/AstraMilitarum/InfantryMove"
+						soundCount="4"/>
+			</model>
+		</move>
+		<genericUnitAbility name="ChaosDaemons_MT/ShadowOfChaos" passive="1" icon="Actions/ChaosSpaceMarines/BoonOfMutation">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/ShadowOfChaos"/>
+									</effects>
+								</modifier>
+								<modifier visible="0">
+									<effects>
+										<addTrait name="ChaosDaemons_MT/ShadowOfChaosEnemy"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<auraOfFear passive="1">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" excludeRadius="0" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Fear"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</auraOfFear>
+		<genericUnitAbility name="ChaosDaemons_MT/SpellShreddingSymphony" passive="1" icon="Traits/PsychicBlock"
+				rank="-1"
+				rankMax="2">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/SpellShreddingSymphony"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<genericUnitAbility name="ChaosDaemons_MT/MaestrosOfDiscordance" passive="1" icon="Attributes/LifeSteal"
+				rank="-1"
+				rankMax="2">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/MaestrosOfDiscordance"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<genericUnitAbility name="ChaosDaemons_MT/CelebrityWarlord" passive="1" icon="Traits/Tyranids/AdrenalGlands"
+				rank="-1"
+				rankMax="2">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radiusMin="1" radiusMax="3">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/CelebrityWarlord"/>
+										<addTrait name="ChaosDaemons_MT/CelebrityWarlordEnemy"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<psychicScream cooldown="5"
+				name="ChaosDaemons_MT/CentreOfAttention"
+				icon="Actions/Eldar/MindWar"
+				rank="-1"
+				elite="0"
+				rankMax="0">
+			<model>
+				<action animation="Units/Reinforcements_MT/InfernalEnrapturess/Idle1"
+						bone="Bone.022"
+						beginFire="0.67"
+						sound="Weapons/PsychicScream"
+						soundCount="3"
+						soundDelay="0.67"/>
+			</model>
+			<modifiers>
+				<modifier>
+					<effects>
+						<attacks mul="-0.5"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit" radius="1" excludeRadius="0">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<enemy/>
+										</unit>
+									</conditions>
+									<effects>
+										<weaponDamage weapon="ChaosDaemons_MT/ScreamingMelody"/>
+										<addTrait name="Stunned"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</psychicScream>
+		<levelUp/>
+		<shop/>
+		<dimensionalCorridor cooldown="5"
+				name="ChaosDaemons_MT/WarpRiftTeleport"
+				requiredUpgrade="ChaosDaemons_MT/WarpRift"
+				icon="Actions/Necrons/GravityPulse">
+			<model>
+				<action sound="Actions/Teleport"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/WarpRift"/>
+				</unit>
+			</conditions>
+			<modifiers>
+				<modifier requiredUpgrade="ChaosDaemons_MT/WarpSurge">
+					<effects>
+						<consumedActionPoints max="0"/>
+						<consumedMovement max="0"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</dimensionalCorridor>
+	</actions>
+	<traits>
+		<trait name="Daemon"/>
+		<trait name="Hero"/>
+		<trait name="Psyker"/>
+		<trait name="ChaosDaemons_MT/Slaanesh"/>
+		<trait name="ChaosDaemons_MT/HarbringerOfLust"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Undivided"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Khorne"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Tzeentch"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Slaanesh"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Nurgle"/>
+		<trait name="ChaosDaemons_MT/WarpRift"/>
+		<trait name="Reinforcements_MT/RangeHero"/>
+		<trait name="ChaosDaemons_MT/DaemonicResilience" requiredUpgrade="ChaosDaemons_MT/ExtraInfantryArmour"/>
+	</traits>
+</unit>

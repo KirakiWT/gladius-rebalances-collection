@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="ChaosDaemons_MT/Bloodthirster" value="Кровавый жаждущий"/>
+	<entry name="ChaosDaemons_MT/BloodthirsterDescription" value="Герой, великий демон Кхорна."/>
+	<entry name="ChaosDaemons_MT/BloodthirsterFlavor" value="Кровавые жаждущие — высшие воины, свирепые воплощения гнева и жажды убийства Бога Крови. Командиры и чемпионы демонических легионов Кхорна, Кровавые жаждущие обладают высшим воинским мастерством. Они владеют причудливым оружием чудовищной силы и уничтожают всех на своем пути."/>
+	<entry name="ChaosDaemons_MT/LordOfChange" value="Владыка перемен"/>
+	<entry name="ChaosDaemons_MT/LordOfChangeDescription" value="Герой, великий демон Тзинча."/>
+	<entry name="ChaosDaemons_MT/LordOfChangeFlavor" value="Великие демоны Тзинча — бесконечно хитрые колдуны и манипуляторы. Их злобный взгляд обнажает души жертв и разрушает рассудок даже самых стойких смертных, в то время как их зачарованное оружие и нечестивые магии жестоко перекраивают саму реальность в постоянно мутирующие формы."/>
+	<entry name="ChaosDaemons_MT/KeeperOfSecrets" value="Хранитель тайн"/>
+	<entry name="ChaosDaemons_MT/KeeperOfSecretsDescription" value="Герой, великий демон Слаанеш."/>
+	<entry name="ChaosDaemons_MT/KeeperOfSecretsFlavor" value="Мрачно-разумные, ужасающе-обаятельные и смертоносные в бою, Хранители тайн — величайшие чемпионы демонических легионов Слаанеш. Владея нечистым, но прекрасным оружием и высвобождая колдовские силы одержимости и мук, эти демоны пробивают элегантно-отвратительную просеку через поле боя."/>
+	<entry name="ChaosDaemons_MT/GreatUncleanOne" value="Великий нечистый"/>
+	<entry name="ChaosDaemons_MT/GreatUncleanOneDescription" value="Герой, великий демон Нургла."/>
+	<entry name="ChaosDaemons_MT/GreatUncleanOneFlavor" value="Эти Великие демоны обладают той же безграничной энергией и стремлением развращать, что и быстро распространяющийся вирус. Их громовые голоса разносятся по полю боя, их жестокая веселость и извращенная гордость за достижения своих подчиненных ужасающе диссонируют с теми страданиями и болезнями, которые они распространяют."/>
+	<entry name="ChaosDaemons_MT/Bloodletter" value="Кровавый вестник"/>
+	<entry name="ChaosDaemons_MT/BloodletterDescription" value="Малый демон Кхорна."/>
+	<entry name="ChaosDaemons_MT/BloodletterFlavor" value="Кровавые вестники — это ненависть и насилие, обретшие плоть. Атакуя безумными ордами или стройными боевыми рядами, они рубят своих жертв чудовищными адскими клинками. Это оружие раскаляется добела от ярости своих владельцев, и даже малейшая рана, нанесенная им, может обескровить жертву за считанные секунды."/>
+	<entry name="ChaosDaemons_MT/Daemonette" value="Демонесса"/>
+	<entry name="ChaosDaemons_MT/DaemonetteDescription" value="Малый демон Слаанеш."/>
+	<entry name="ChaosDaemons_MT/DaemonetteFlavor" value="Известные смертным как служанки Слаанеш, эти демоны — смесь прекрасного и чудовищного, что делает их еще более ужасающими из-за внутреннего противоречия. Они наслаждаются бойней на поле боя, уворачиваясь от неуклюжих ударов врагов, пронзительно вскрикивая и вздыхая от удовольствия среди быстрой, когтистой резни."/>
+	<entry name="ChaosDaemons_MT/Plaguebearer" value="Чумоноситель"/>
+	<entry name="ChaosDaemons_MT/PlaguebearerDescription" value="Малый демон Нургла."/>
+	<entry name="ChaosDaemons_MT/PlaguebearerFlavor" value="Рожденные из душ умерших от Чумы Нургла, Чумоносители — это пехотинцы Нургла. Они владеют чумными мечами, источающими инфекционную слизь, и их окружает бесконечный гул подсчета, когда они выполняют свою безнадежную и вечную задачу — подсчет каждой новой вспышки многочисленных болезней Бога Чумы."/>
+	<entry name="ChaosDaemons_MT/BlueHorror" value="Синий ужас"/>
+	<entry name="ChaosDaemons_MT/BlueHorrorDescription" value="Малый демон Тзинча."/>
+	<entry name="ChaosDaemons_MT/BlueHorrorFlavor" value="Синие ужасы — это угрюмые, злобные сущности, которые с равной вероятностью могут задушить жертв своими резиновыми пальцами из чистой злобы или растопить их, словно сало, вызванными струями мутирующего варп-пламени. Если одного из этих жалких созданий убивают, он взрывается клубящимся облаком дыма, из которого появляется пара потрескивающих Серных ужасов."/>
+	<entry name="ChaosDaemons_MT/Belakor" value="Бе'лакор"/>
+	<entry name="ChaosDaemons_MT/BelakorDescription" value="Первый принц Хаоса. Уникальный герой, ведущий силы Хаоса."/>
+	<entry name="ChaosDaemons_MT/BelakorFlavor" value="Немногие варп-сущности могут сравниться по мощи и коварству с Бе'лакором. Окутанный тенью и пляшущим ведьминым светом, Темный Владыка сеет ужас и муки среди всех, кто его видит. Каждый удар его Клинка Теней оставляет после себя опустошенные оболочки поверженных врагов — всего лишь еще одна жертва, поглощенная надвигающейся тьмой."/>
+	<entry name="ChaosDaemons_MT/Skullcannon" value="Черепная пушка"/>
+	<entry name="ChaosDaemons_MT/SkullcannonKhorne" value="Черепная пушка Кхорна"/>
+	<entry name="ChaosDaemons_MT/SkullcannonKhorneDescription" value="Демонический двигатель с дальнобойной пушкой."/>
+	<entry name="ChaosDaemons_MT/SkullcannonKhorneFlavor" value="Гротескные медные боевые машины, с непристойным нетерпением врывающиеся в бой. Черепные пушки питаются трупами павших, чтобы разжигать свою мясницкую ярость. Когда они стреляют, эти адские орудия извергают пылающие черепа, которые дугой проносятся по воздуху, подобно метеорам, и взрываются с громовой силой при ударе."/>
+	<entry name="ChaosDaemons_MT/SkullcannonNurgle" value="Черепная пушка Нургла"/>
+	<entry name="ChaosDaemons_MT/SkullcannonNurgleDescription" value="Демонический двигатель с отравленной дальнобойной пушкой."/>
+	<entry name="ChaosDaemons_MT/SkullcannonNurgleFlavor" value="<string name='Units/ChaosDaemons_MT/SkullcannonKhorneFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/SkullcannonSlaanesh" value="Черепная пушка Слаанеш"/>
+	<entry name="ChaosDaemons_MT/SkullcannonSlaaneshDescription" value="Маневренный демонический двигатель с скорострельным вооружением."/>
+	<entry name="ChaosDaemons_MT/SkullcannonSlaaneshFlavor" value="<string name='Units/ChaosDaemons_MT/SkullcannonKhorneFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/SkullcannonTzeentch" value="Черепная пушка Тзинча"/>
+	<entry name="ChaosDaemons_MT/SkullcannonTzeentchDescription" value="Демонический двигатель с зенитным вооружением."/>
+	<entry name="ChaosDaemons_MT/SkullcannonTzeentchFlavor" value="<string name='Units/ChaosDaemons_MT/SkullcannonKhorneFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/SoulGrinder" value="Молотитель душ"/>
+	<entry name="ChaosDaemons_MT/SoulGrinderSlaanesh" value="Молотитель душ Слаанеш"/>
+	<entry name="ChaosDaemons_MT/SoulGrinderSlaaneshDescription" value="Мощный демонический двигатель с множеством видов вооружения."/>
+	<entry name="ChaosDaemons_MT/SoulGrinderSlaaneshFlavor" value="Демоны, отчаянно стремящиеся получить власть выше своего положения, могут заключить неразумную сделку с повелителем Кузницы Душ. Так они перерождаются в громоздкие боевые машины, известные как Молотители душ, и обретают мощь сокрушать и взрывать все на своем пути — но за высокую и, в конечном счете, бесконечную цену..."/>
+	<entry name="ChaosDaemons_MT/SoulGrinderTzeentch" value="Молотитель душ Тзинча"/>
+	<entry name="ChaosDaemons_MT/SoulGrinderTzeentchDescription" value="Мощный псионический демонический двигатель."/>
+	<entry name="ChaosDaemons_MT/SoulGrinderTzeentchFlavor" value="<string name='Units/ChaosDaemons_MT/SoulGrinderSlaaneshFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/SoulGrinderNurgle" value="Молотитель душ Нургла"/>
+	<entry name="ChaosDaemons_MT/SoulGrinderNurgleDescription" value="Мощный демонический двигатель с возможностями дальнего боя."/>
+	<entry name="ChaosDaemons_MT/SoulGrinderNurgleFlavor" value="<string name='Units/ChaosDaemons_MT/SoulGrinderSlaaneshFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/SoulGrinderKhorne" value="Молотитель душ Кхорна"/>
+	<entry name="ChaosDaemons_MT/SoulGrinderKhorneDescription" value="Мощный демонический двигатель для ближнего боя."/>
+	<entry name="ChaosDaemons_MT/SoulGrinderKhorneFlavor" value="<string name='Units/ChaosDaemons_MT/SoulGrinderSlaaneshFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/BeastOfNurgle" value="Зверь Нургла"/>
+	<entry name="ChaosDaemons_MT/BeastOfNurgleDescription" value="Живучий регенерирующий демонический зверь."/>
+	<entry name="ChaosDaemons_MT/BeastOfNurgleFlavor" value="Исполненные туповатым жизнелюбием, противоречащим их чумному и кошмарному облику, Звери Нургла неуклюже скачут в бой, словно нетерпеливые псы. Их инстинктивно тянет к смертным игрушкам, чьи отчаянные крики и паническое бегство они принимают за участие, по крайней мере, до тех пор, пока их злосчастные новые друзья не испустят последний вздох."/>
+	<entry name="ChaosDaemons_MT/BurningChariot" value="Горящая колесница"/>
+	<entry name="ChaosDaemons_MT/BurningChariotDescription" value="Летательный аппарат с разнообразным псионическим вооружением."/>
+	<entry name="ChaosDaemons_MT/BurningChariotFlavor" value="Горящие колесницы Тзинча часто являются в видениях и кошмарах смертных как пылающие предзнаменования несчастий. На поле боя такие предупреждения становятся самоисполняющимися пророчествами: таинственные боевые машины выступают в роли агентов той самой разрухи и страданий, о которых, как говорят, предупреждает их появление."/>
+	<entry name="ChaosDaemons_MT/PlagueDrone" value="Чумной трутень"/>
+	<entry name="ChaosDaemons_MT/PlagueDroneDescription" value="Летающий кавалерийский демон с оружием порчи."/>
+	<entry name="ChaosDaemons_MT/PlagueDroneFlavor" value="Чумные трутни оседлали чудовищных гнилостных мух для войны. Эти мерзкие скакуны скребут и кусают свою добычу, пронзая ее сочащимися хоботками или откусывая головы жертв. Лучшие из украденных черепов извлекаются и превращаются в наполненные нечистотами снаряды — «смертные головы» — для того, чтобы демонические всадники метали их во врагов."/>
+	<entry name="ChaosDaemons_MT/Seeker" value="Искатель"/>
+	<entry name="ChaosDaemons_MT/SeekerDescription" value="Быстроходный кавалерийский юнит."/>
+	<entry name="ChaosDaemons_MT/SeekerFlavor" value="Восседая верхом на быстрых Скакунах Слаанеш, Искатели с одержимым восторгом преследуют свою смертную добычу. Даже самые быстрые смертные транспортные средства не могут обогнать этих жестоких сущностей, а те, кто встает и сражается, вскоре обнаруживают, что их ряды сметены ударной кавалерией, порожденной глубочайшими безднами кошмара."/>
+	<entry name="ChaosDaemons_MT/Bloodcrusher" value="Кровавый крушитель"/>
+	<entry name="ChaosDaemons_MT/BloodcrusherDescription" value="Сильный кавалерийский юнит."/>
+	<entry name="ChaosDaemons_MT/BloodcrusherFlavor" value="Нечестивые слияния демона и машины, Джаггернауты Кхорна — неудержимые звери, чья кровь — это огонь, а каждый шаг — гром. Когда Кровавые вестники седлают их для битвы, они действуют как ударная кавалерия, обрушиваясь на жертв, словно тараны. Разрушения, когда их заряд достигает цели, ужасно наблюдать."/>
+	<entry name="ChaosDaemons_MT/Bullgryn" value="<string name='Units/AstraMilitarum/Bullgryn'/>"/>
+	<entry name="ChaosDaemons_MT/BullgrynDescription" value="<string name='Units/AstraMilitarum/BullgrynDescription'/>"/>
+	<entry name="ChaosDaemons_MT/BullgrynFlavor" value="<string name='Units/AstraMilitarum/BullgrynFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/ChaosCultist" value="<string name='Units/ChaosSpaceMarines/ChaosCultist'/>"/>
+	<entry name="ChaosDaemons_MT/ChaosCultistDescription" value="<string name='Units/ChaosSpaceMarines/ChaosCultistDescription'/>"/>
+	<entry name="ChaosDaemons_MT/ChaosCultistFlavor" value="<string name='Units/ChaosSpaceMarines/ChaosCultistFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/ChaosSpaceMarine" value="<string name='Units/ChaosSpaceMarines/ChaosSpaceMarine'/>"/>
+	<entry name="ChaosDaemons_MT/ChaosSpaceMarineDescription" value="<string name='Units/ChaosSpaceMarines/ChaosSpaceMarineDescription'/>"/>
+	<entry name="ChaosDaemons_MT/ChaosSpaceMarineFlavor" value="<string name='Units/ChaosSpaceMarines/ChaosSpaceMarineFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/HeavyWeaponsSquad" value="<string name='Units/AstraMilitarum/HeavyWeaponsSquad'/>"/>
+	<entry name="ChaosDaemons_MT/HeavyWeaponsSquadDescription" value="<string name='Units/AstraMilitarum/HeavyWeaponsSquadDescription'/>"/>
+	<entry name="ChaosDaemons_MT/HeavyWeaponsSquadFlavor" value="<string name='Units/AstraMilitarum/HeavyWeaponsSquadFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTalon" value="<string name='Units/ChaosSpaceMarines/WarpTalon'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTalonDescription" value="<string name='Units/ChaosSpaceMarines/WarpTalonDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTalonFlavor" value="<string name='Units/ChaosSpaceMarines/WarpTalonFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/ScoutSentinel" value="<string name='Units/AstraMilitarum/ScoutSentinel'/>"/>
+	<entry name="ChaosDaemons_MT/ScoutSentinelDescription" value="<string name='Units/AstraMilitarum/ScoutSentinelDescription'/>"/>
+	<entry name="ChaosDaemons_MT/ScoutSentinelFlavor" value="<string name='Units/AstraMilitarum/ScoutSentinelFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/Hydra" value="<string name='Units/AstraMilitarum/Hydra'/>"/>
+	<entry name="ChaosDaemons_MT/HydraDescription" value="<string name='Units/AstraMilitarum/HydraDescription'/>"/>
+	<entry name="ChaosDaemons_MT/HydraFlavor" value="<string name='Units/AstraMilitarum/HydraFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/Maulerfiend" value="<string name='Units/ChaosSpaceMarines/Maulerfiend'/>"/>
+	<entry name="ChaosDaemons_MT/MaulerfiendDescription" value="<string name='Units/ChaosSpaceMarines/MaulerfiendDescription'/>"/>
+	<entry name="ChaosDaemons_MT/MaulerfiendFlavor" value="<string name='Units/ChaosSpaceMarines/MaulerfiendFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/LemanRussBattleTank" value="<string name='Units/AstraMilitarum/LemanRussBattleTank'/>"/>
+	<entry name="ChaosDaemons_MT/LemanRussBattleTankDescription" value="<string name='Units/AstraMilitarum/LemanRussBattleTankDescription'/>"/>
+	<entry name="ChaosDaemons_MT/LemanRussBattleTankFlavor" value="<string name='Units/AstraMilitarum/LemanRussBattleTankFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/LandRaider" value="<string name='Units/ChaosSpaceMarines/ChaosLandRaider'/>"/>
+	<entry name="ChaosDaemons_MT/LandRaiderDescription" value="<string name='Units/ChaosSpaceMarines/ChaosLandRaiderDescription'/>"/>
+	<entry name="ChaosDaemons_MT/LandRaiderFlavor" value="<string name='Units/ChaosSpaceMarines/ChaosLandRaiderFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/Heldrake" value="<string name='Units/ChaosSpaceMarines/Heldrake'/>"/>
+	<entry name="ChaosDaemons_MT/HeldrakeDescription" value="<string name='Units/ChaosSpaceMarines/HeldrakeDescription'/>"/>
+	<entry name="ChaosDaemons_MT/HeldrakeFlavor" value="<string name='Units/ChaosSpaceMarines/HeldrakeFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/WarDogStalker" value="Боевой пес-сталкер"/>
+	<entry name="ChaosDaemons_MT/WarDogStalkerDescription" value="Шагающий юнит, специализирующийся на ближнем бою."/>
+	<entry name="ChaosDaemons_MT/WarDogStalkerFlavor" value="Только самые сильные духом представители мелкого дворянства обладают психической стойкостью, чтобы управлять Сталкером. Подобно вожакам стаи, они часто ведут других Боевых псов в тщательно спланированных атаках, беспокоя фланги врага, уничтожая подкрепления и выслеживая изолированные угрозы. Они обрушивают залпы огня на дистанции или в гуще боя, нанося смертельные удары когтями."/>
+	<entry name="ChaosDaemons_MT/KnightDesecrator" value="Рыцарь-осквернитель"/>
+	<entry name="ChaosDaemons_MT/KnightDesecratorDescription" value="Сверхтяжелый шагающий юнит с бесконечным арсеналом смертоносного оружия."/>
+	<entry name="ChaosDaemons_MT/KnightDesecratorFlavor" value="Рыцари-осквернители не щадят ни одно живое существо в своих атаках. Они обладают мощным вооружением средней и ближней дистанции, способным вести дуэли с вражескими боевыми машинами и чудовищными зверями или уничтожать орды более слабых врагов. Они также жестокие надсмотрщики, рычащие приказы следующим за ними Боевым псам."/>
+	<entry name="ChaosDaemons_MT/Havoc" value="<string name='Units/ChaosSpaceMarines/Havoc'/>"/>
+	<entry name="ChaosDaemons_MT/HavocDescription" value="<string name='Units/ChaosSpaceMarines/HavocDescription'/>"/>
+	<entry name="ChaosDaemons_MT/HavocFlavor" value="<string name='Units/ChaosSpaceMarines/HavocFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/LordCommissar" value="<string name='Units/AstraMilitarum/LordCommissar'/>"/>
+	<entry name="ChaosDaemons_MT/LordCommissarDescription" value="<string name='Units/AstraMilitarum/LordCommissarDescription'/>"/>
+	<entry name="ChaosDaemons_MT/LordCommissarFlavor" value="<string name='Units/AstraMilitarum/LordCommissarFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/ChaosLord" value="<string name='Units/ChaosSpaceMarines/ChaosLord'/>"/>
+	<entry name="ChaosDaemons_MT/ChaosLordDescription" value="Герой, который генерирует влияние и возглавляет армии Хаоса."/>
+	<entry name="ChaosDaemons_MT/ChaosLordFlavor" value="<string name='Units/ChaosSpaceMarines/ChaosLordFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/MasterOfPossession" value="<string name='Units/ChaosSpaceMarines/MasterOfPossession'/>"/>
+	<entry name="ChaosDaemons_MT/MasterOfPossessionDescription" value="<string name='Units/ChaosSpaceMarines/MasterOfPossessionDescription'/>"/>
+	<entry name="ChaosDaemons_MT/MasterOfPossessionFlavor" value="<string name='Units/ChaosSpaceMarines/MasterOfPossessionFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/Flamer" value="Пламетчик"/>
+	<entry name="ChaosDaemons_MT/FlamerDescription" value="Демон-псайкер с огнеметным оружием."/>
+	<entry name="ChaosDaemons_MT/FlamerFlavor" value="Эти причудливые демоны скачут по воздуху судорожными прыжками. Варп-пламя, сочащееся из их многочисленных пастей, кипит грубой силой перемен. Извергаясь ревущими струями, оно повергает жертв в агонию мутаций, их формы меняются снова и снова, пока не превратятся в искаженные руины."/>
+	<entry name="ChaosDaemons_MT/Screamer" value="Крикун"/>
+	<entry name="ChaosDaemons_MT/ScreamerDescription" value="Летающий юнит для борьбы с техникой."/>
+	<entry name="ChaosDaemons_MT/ScreamerFlavor" value="Эти хищные демоны атакуют, как внезапные и неотвратимые перемены. Они издают неземные вопли, пикируя на свою добычу на переливающихся волнах колдовства, разрезая жертв на ленты острыми как бритва плавниками и вцепляясь зубастыми челюстями, из которых струятся разъедающие эмпирические энергии."/>
+	<entry name="ChaosDaemons_MT/Bloodmaster" value="Повелитель крови"/>
+	<entry name="ChaosDaemons_MT/BloodmasterDescription" value="Герой и вестник Кхорна. Мощный боец ближнего боя."/>
+	<entry name="ChaosDaemons_MT/BloodmasterFlavor" value="Вышедшие победителями из ужасов Кровавой Ямы, Повелители крови ведут в бой орды Кровавых вестников Кхорна. Присутствие этих огромных демонических мясников наделяет их адских последователей еще большей яростью и силой, даже когда сами Повелители крови прокладывают кровавый путь сквозь своих злосчастных врагов."/>
+	<entry name="ChaosDaemons_MT/WarpRift" value="Варп-разлом"/>
+	<entry name="ChaosDaemons_MT/WarpRiftDescription" value="Варп-разлом, позволяющий демонам перемещаться между ними."/>
+	<entry name="ChaosDaemons_MT/WarpRiftFlavor" value="Демонические легионы прорывают ткань реального пространства, злобные сущности мерцают, появляясь, словно фантомы из кошмара. Хуже того, когда ужас и паника овладевают их жертвами, их смертные души становятся еще более легкой добычей для сущностей, хлынувших из варпа."/>
+	<entry name="ChaosDaemons_MT/Headquarters" value="<string name='Units/ChaosSpaceMarines/Headquarters'/>"/>
+	<entry name="ChaosDaemons_MT/HeadquartersDescription" value="<string name='Units/ChaosSpaceMarines/HeadquartersDescription'/>"/>
+	<entry name="ChaosDaemons_MT/HeadquartersFlavor" value="<string name='Units/ChaosSpaceMarines/Headquarters'/>"/>
+	<entry name="ChaosDaemons_MT/Changecaster" value="Вестник перемен"/>
+	<entry name="ChaosDaemons_MT/ChangecasterDescription" value="Герой и вестник Тзинча. Универсальный псайкер, манипулирующий полем боя."/>
+	<entry name="ChaosDaemons_MT/ChangecasterFlavor" value="Кружась среди скачущих масс демонических Ужасов, эти Вестники — могущественные колдуны, чье присутствие заставляет огонь их собратьев-демонов распространяться с адской силой. Вестники перемен обрушивают на врагов бури мутирующего колдовства, бормоча и хихикая, сея ужасающий хаос."/>
+	<entry name="ChaosDaemons_MT/InfernalEnrapturess" value="Адская пленительница"/>
+	<entry name="ChaosDaemons_MT/InfernalEnrapturessDescription" value="Герой и вестник Слаанеш. Агрессивный поддерживающий юнит."/>
+	<entry name="ChaosDaemons_MT/InfernalEnrapturessFlavor" value="Симфонии муки и какофонии блаженства, обрушиваемые этими демонами, могут разрывать врагов на части — телом и душой. Но, возможно, их величайшая способность — притягивать на поле боя бесплотные энергии собратьев-демонов Слаанеш, постоянно пополняя ряды своих товарищей новыми, жаждущими душ сущностями."/>
+	<entry name="ChaosDaemons_MT/SloppityBilepiper" value="Сопливый желчедуд"/>
+	<entry name="ChaosDaemons_MT/SloppityBilepiperDescription" value="Герой и вестник Нургла. Поддерживающий герой."/>
+	<entry name="ChaosDaemons_MT/SloppityBilepiperFlavor" value="Зараженные Хохотающей Чумой, эти отчаянно улыбающиеся демоны прыгают и остриют, играя на своих мерзких кишечных волынках диссонансные песнопения. Их выходки либо забавляют, либо раздражают их собратьев-демонов настолько, что те спешат в гущу битвы, в то время как смертные, зараженные чумой, могут буквально рассмеяться до смерти."/>
+	<entry name="ChaosDaemons_MT/Obliterator" value="<string name='Units/ChaosSpaceMarines/Obliterator'/>"/>
+	<entry name="ChaosDaemons_MT/ObliteratorDescription" value="<string name='Units/ChaosSpaceMarines/ObliteratorDescription'/>"/>
+	<entry name="ChaosDaemons_MT/ObliteratorFlavor" value="<string name='Units/ChaosSpaceMarines/ObliteratorFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/LordOfSkulls" value="Владыка Черепов"/>
+	<entry name="ChaosDaemons_MT/LordOfSkullsDescription" value="Почти неубиваемая военная машина, которая может уничтожить целые армии."/>
+	<entry name="ChaosDaemons_MT/LordOfSkullsFlavor" value="Тяжело передвигаясь по полю битвы на грохочущих гусеницах, Владыка Черепов возвышается над своими испуганными противниками. Энергия бесноватого демона Жаждущего крови, вселенного в его корпус, питается от кипящей крови убийц, и эта нечестивая машина войны несёт смерть всем, кто стоит перед ним. Его разрушительные орудия уничтожают свои жертвы, обволакивая и топя их в струях раскаленной крови или погребая их под дождём скрежещущих зубами черепов. По мере того, как он пробирается сквозь вражеские ряды, Демон размахивает, находящимся в его руках, огромным топором с такой скоростью и умением, которые повергают в ужас всех кто находится рядом. Целые ряды вражеских воинов сметаются одним взмахом, танки и Гигантские звери разлетаются по воздуху, как игрушки. Даже такие громадные боевые машины, как таптуны или титаны, выглядят неуклюжими и вялыми, когда Владыка Черепов отрубает их конечности и разрывает их бронированные тела среди всполохов нечестивого огня. Немногие воины могут встретиться с Владыкой Черепов и выжить, потому что это машина абсолютного уничтожения."/>
+</language>

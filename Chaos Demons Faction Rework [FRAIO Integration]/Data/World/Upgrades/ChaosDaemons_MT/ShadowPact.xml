@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade position="1" icon="Traits/Stubborn">
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseLoyaltyScore base="0.6"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+</upgrade>

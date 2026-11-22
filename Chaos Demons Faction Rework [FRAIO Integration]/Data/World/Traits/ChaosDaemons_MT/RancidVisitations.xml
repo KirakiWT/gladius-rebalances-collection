@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff" icon="Traits/Blighted">
+	<perTurnModifiers endure="0">
+		<modifier>
+			<effects>
+				<weaponDamage weapon="ChaosDaemons_MT/RancidVisitations"/>
+			</effects>
+		</modifier>
+	</perTurnModifiers>
+</trait>

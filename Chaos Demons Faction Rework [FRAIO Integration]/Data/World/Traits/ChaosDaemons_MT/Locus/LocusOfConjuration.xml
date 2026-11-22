@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait icon="Traits/ChaosSpaceMarines/ArcaneOcculum" alwaysVisible="1" category="Buff">
+	<onCombatOpponentModifiers>
+		<modifier>
+			<conditions>
+				<encounter>
+					<opponent>
+						<noAttacking/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<weaponDamage weapon="ChaosDaemons_MT/SoulBlaze"/>
+			</effects>
+		</modifier>
+	</onCombatOpponentModifiers>
+</trait>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<productionCost base="36"/>
+				<oreCost base="50"/>
+				<populationRequired base="1"/>
+				<slotsRequired base="1"/>
+				<energyUpkeep add="2"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<effects>
+				<ore add="3"/>
+				<influence add="1"/>
+				<production add="8"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<productionModifiers>
+		<modifier>
+			<effects>
+				
+			</effects>
+		</modifier>
+	</productionModifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseInfantryProductionScore base="1.0"/>
+				<increaseVehiclesProductionScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<produceUnit unit="ChaosDaemons_MT/Bloodletter"/>
+		<produceUnit unit="ChaosDaemons_MT/Bloodmaster" requiredUpgrade="ChaosDaemons_MT/Heralds"/>
+		<produceUnit unit="ChaosDaemons_MT/Bloodcrusher" requiredUpgrade="ChaosDaemons_MT/Bloodcrusher"/>
+		<produceUnit unit="ChaosDaemons_MT/SkullcannonKhorne" requiredUpgrade="ChaosDaemons_MT/Skullcannon"/>
+		<produceUnit unit="ChaosDaemons_MT/SoulGrinderKhorne" requiredUpgrade="ChaosDaemons_MT/SoulGrinder"/>
+		<produceUnit unit="ChaosDaemons_MT/Bloodthirster" requiredUpgrade="ChaosDaemons_MT/Bloodthirster"/>
+	</actions>
+</building>

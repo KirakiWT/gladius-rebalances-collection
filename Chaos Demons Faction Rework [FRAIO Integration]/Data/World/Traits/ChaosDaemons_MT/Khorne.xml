@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait icon="Actions/ChaosSpaceMarines/MarkOfKhorne" category="Buff">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<noTrait name="Vehicle"/>
+				</unit>
+			</conditions>
+			<effects>
+				<armor add="-2"/>
+				<attacks mul="0.25"/>
+				<meleeDamageReduction add="0.25"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<effects>
+				<meleeOverwatch add="1"/>
+				<orePerKillValue add="3"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<effects>
+				<oreUpkeep mul="0.5"/>
+				<foodUpkeep mul="0.5"/>
+				<energyUpkeep mul="0.5"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<conditions>
+				<unit>
+					<unitsInRange count="1" range="2">
+						<allied/>
+						<trait name="ChaosDaemons_MT/Tzeentch"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<moraleLossFactor add="0.33"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<perTurnModifiers endure="0">
+		<modifier>
+			<conditions>
+				<unit>
+					<unitsInRange count="1" range="2">
+						<allied/>
+						<trait name="ChaosDaemons_MT/Tzeentch"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<morale add="-2"/>
+			</effects>
+		</modifier>
+	</perTurnModifiers>
+</trait>

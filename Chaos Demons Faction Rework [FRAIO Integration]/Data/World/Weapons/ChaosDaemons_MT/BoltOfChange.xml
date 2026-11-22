@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon icon="Weapons/MoltenBeam">
+	<model>
+		<beamWeapon beamsBlueprint="Effects/Reinforcements_MT/BoltOfChange"
+				beamsEmitterBlueprint="Effects/MoltenBeamEmitter" 
+				fireInterval="10"
+				fireSound="Weapons/MoltenBeam"
+		 		fireSoundCount="3"
+		 		effectFaceWeight="1"
+		 		muzzleFlashesBlueprint=""/>
+	</model>
+	<modifiers>
+		<modifier>
+			<effects>
+				<attacks add="2"/>
+				<rangedArmorPenetration add="8"/> <!-- %rangedArmorPenetration add armorPiercing=1 -->
+				<rangedDamage add="12"/> <!-- %rangedDamage add strength=8 -->
+				<strengthDamage base="0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<target rangeMax="3"/>
+	<traits>
+		<trait name="Barrage"/>
+		<trait name="PsychicPower"/>
+		<trait name="Witchfire"/>
+		<trait name="ChaosSpaceMarines/LasDamage" requiredUpgrade="ChaosDaemons_MT/LasDamage"/>
+	</traits>
+</weapon>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade position="2" icon="Buildings/ChaosDaemons_MT/Tzeentch">
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseLoyaltyScore base="1"/>
+				<increaseInfantryProductionScore base="1.0"/>
+				<increaseVehiclesProductionScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+</upgrade>

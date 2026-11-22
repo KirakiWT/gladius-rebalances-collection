@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>
+		<unit mesh="Units/Reinforcements_MT/Changecaster"
+				material="Units/Reinforcements_MT/Changecaster"
+				idleAnimation="Units/Reinforcements_MT/BlueHorror/Idle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				walker="1"
+				scale="0.8 0.8 0.8"
+				normalWeight="0.1"
+				bloodBone="Waist"/>
+	</model>
+	<weapons>
+		<weapon name="CloseCombatWeapon">
+			<model>
+				<weapon fireInterval="1.0"
+						fireSoundCount="0"/>
+			</model>
+		</weapon>
+		<weapon name="ChaosDaemons_MT/ArcaneFireball">
+			<model>
+				<flamerWeapon muzzleBone="Muzzle" fireInterval="1.0" muzzleCount="4"/>
+			</model>		
+		</weapon>
+		<weapon name="ChaosDaemons_MT/BoltOfTzeentch" slotName="BoltOfTzeentch" enabled="0">
+			<model>
+				<beamWeapon muzzleBone="Muzzle" muzzleCount="4"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="6"/>
+				<hitpointsMax base="12"/>
+				<meleeAccuracy base="8"/>
+				<meleeAttacks base="3"/>
+				<strengthDamage base="1.5"/>
+				<moraleMax base="8"/>
+				<movementMax base="3"/>
+				<productionCost base="42"/>
+				<foodCost base="30"/>
+				<energyCost base="75"/>
+				<influenceCost base="100"/>
+				<energyUpkeep base="7"/>
+				<rangedAccuracy base="8"/>
+				<itemSlots base="6"/>
+				<levelMax base="9"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<player>
+					<aiControlled/>
+				</player>
+			</conditions>
+			<effects>
+			</effects>
+		</modifier>	
+		<modifier visible="0">
+			<conditions>
+				<player>
+					<notAIControlled/>
+				</player>
+			</conditions>
+			<effects>
+			</effects>
+		</modifier>	
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseHeroesScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action chargeAnimation="Units/Reinforcements_MT/BlueHorror/Charge"
+						chargeBeginFire="0.67"
+						chargeEndFire="0.833"						
+						meleeAnimation="Units/Reinforcements_MT/BlueHorror/Melee"
+						meleeBeginSwing="0"
+						meleeEndSwing="0.5"
+						animation="Units/Reinforcements_MT/BlueHorror/Range"						
+						beginFire="0.5"
+						endFire="1.33"/>
+			</model>			
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/Reinforcements_MT/BlueHorror/Die"
+						sound="Units/MediumUnarmoredDie"
+						soundCount="4"
+						soundDelay="1.0"
+						voiceSound="Units/Tyranids/MediumDie"
+						voiceSoundCount="4"/>
+			</model>
+		</die>
+		<move>		
+			<model>
+				<action animation="Units/Reinforcements_MT/BlueHorror/Move"
+						sound="Units/Tyranids/InfantryMove"
+						soundCount="4"/>
+			</model>	
+		</move>
+		<quantumShielding cooldown="2"
+				name="ChaosDaemons_MT/ScintillatingLegionShield"
+				icon="Actions/Necrons/QuantumShielding"
+				passive="1"
+				useConditionsForVisiblity="1">
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/ScintillatingLegion"/>
+				</unit>
+			</conditions>
+			<perTurnProcessUseConditions>
+				<unit>
+					<damagedThisTurn/>
+				</unit>
+			</perTurnProcessUseConditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/ScintillatingLegionShield"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</quantumShielding>
+		<genericUnitAbility name="ChaosDaemons_MT/ShadowOfChaos" passive="1" icon="Actions/ChaosSpaceMarines/BoonOfMutation">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/ShadowOfChaos"/>
+									</effects>
+								</modifier>
+								<modifier visible="0">
+									<effects>
+										<addTrait name="ChaosDaemons_MT/ShadowOfChaosEnemy"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<auraOfFear passive="1">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" excludeRadius="0" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Fear"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</auraOfFear>
+		<moltenBeam cooldown="2"
+				psychicPower="1"
+				rank="-1"
+				rankMax="2"
+				weaponSlotName="BoltOfTzeentch">
+			<modifiers>
+				<modifier>
+					<effects>
+						<attacks mulMin="0.0" mulMax="1.0"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<model>
+				<action	bone="Muzzle0"			
+						animation="Units/Reinforcements_MT/BlueHorror/Range"						
+						beginFire="0.5"
+						endFire="1.33"/>
+			</model>
+		</moltenBeam>
+		<objurationMechanicum cooldown="2"
+				levelUpPriority="0.1"
+				name="ChaosDaemons_MT/WeaponCurse"
+				icon="Traits/GetsHot"
+				rank="-1"
+				rankMax="2">
+			<model>
+				<action animation="Units/Reinforcements_MT/BlueHorror/Range"
+						sound="Actions/PsychicDebuff"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="2">
+					<conditions>
+						<unit>
+							<enemy/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<hitpoints addMin="-4" addMax="-12"/>
+										<addTrait name="ChaosDaemons_MT/WeaponCurse" duration="3"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</objurationMechanicum>
+		<aggressionOverride cooldown="2"
+				consumedActionPoints="0"
+				consumedMovement="0"
+				name="ChaosDaemons_MT/EldritchStrength"
+				icon="Traits/Rage"
+				rank="-1" 
+				rankMax="2"
+				requiredActionPoints="0">
+			<model>
+				<action animation="Units/Reinforcements_MT/BlueHorror/Range"
+						sound="Actions/AggressionOverride"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="2">
+					<conditions>
+						<unit>
+							<allied/>
+							<faction name="ChaosDaemons_MT"/>
+							<noTrait name="Fortification"/>
+							<noTrait name="Hero"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait duration="1" name="ChaosDaemons_MT/EldritchStrength"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</aggressionOverride>
+		<crucibleOfMalediction cooldown="5"
+				elite="1"
+				levelUpPriority="1"
+				psychicPower="1"
+				rank="-1"
+				rankMax="0"
+				icon="Weapons/PsychicMaelstrom"
+				name="ChaosDaemons_MT/InfernalGateway">
+			<model>
+				<action sound="Actions/PsychicBuff"
+						bone="Waist"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="3" lineOfSight="1">
+					<conditions>
+						<unit>
+							<enemy/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<weaponDamage weapon="ChaosDaemons_MT/InfernalGateway"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Tile" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addFeature name="ChaosDaemons_MT/InfernalGateway" duration="3"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</crucibleOfMalediction>
+		<levelUp/>
+		<shop/>
+		<dimensionalCorridor cooldown="5"
+				name="ChaosDaemons_MT/WarpRiftTeleport"
+				requiredUpgrade="ChaosDaemons_MT/WarpRift"
+				icon="Actions/Necrons/GravityPulse">
+			<model>
+				<action sound="Actions/Teleport"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/WarpRift"/>
+				</unit>
+			</conditions>
+			<modifiers>
+				<modifier requiredUpgrade="ChaosDaemons_MT/WarpSurge">
+					<effects>
+						<consumedActionPoints max="0"/>
+						<consumedMovement max="0"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</dimensionalCorridor>
+	</actions>
+	<traits>
+		<trait name="Daemon"/>
+		<trait name="Hero"/>
+		<trait name="Psyker"/>
+		<trait name="ChaosDaemons_MT/Tzeentch"/>
+		<trait name="SoulBlaze"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Undivided"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Khorne"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Tzeentch"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Slaanesh"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos/Nurgle"/>
+		<trait name="ChaosDaemons_MT/WarpRift"/>
+		<trait name="Reinforcements_MT/SupportHero"/>
+		<trait name="ChaosDaemons_MT/DaemonicResilience" requiredUpgrade="ChaosDaemons_MT/ExtraInfantryArmour"/>
+	</traits>
+</unit>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait visible="0">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<unitsInRange count="1" range="1">
+						<allied/>
+						<trait name="ChaosDaemons_MT/WarpRiftReady"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+		</modifier>
+	</modifiers>
+</trait>

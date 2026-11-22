@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait icon="Units/ChaosDaemons_MT/Belakor" category="Buff">
+	<modifiers>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<allied/>
+					<trait name="ChaosDaemons_MT/Slaanesh"/>
+				</unit>
+			</conditions>
+			<effects>
+				<preventEnemyOverwatch add="1"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

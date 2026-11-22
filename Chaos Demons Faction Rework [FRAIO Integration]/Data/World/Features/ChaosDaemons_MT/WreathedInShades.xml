@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feature blockingSight="0"
+		visible="1"
+		category="None"
+		icon="Actions/ChaosSpaceMarines/InfernalPower">
+	<traits>
+		<trait name="ChaosDaemons_MT/WreathedInShades"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaos"/>
+		<trait name="ChaosDaemons_MT/ShadowOfChaosEnemy"/>
+	</traits>
+</feature>

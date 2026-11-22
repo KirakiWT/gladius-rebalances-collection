@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait icon="Actions/ChaosSpaceMarines/BoonOfMutation" alwaysColored="1" category="Debuff" visible="1">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<enemy/>
+				</unit>
+			</conditions>
+			<effects>
+				<moraleLossFactor add="0.17"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<perTurnModifiers endure="0">
+		<modifier requiredUpgrade="ChaosDaemons_MT/DaemonicTerror">
+			<conditions>
+				<unit>
+					<enemy/>
+				</unit>
+			</conditions>
+			<effects>
+				<weaponDamage weapon="ChaosDaemons_MT/DaemonicTerror"/>
+			</effects>
+		</modifier>
+	</perTurnModifiers>
+</trait>

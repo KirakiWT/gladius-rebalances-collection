@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="ChaosDaemons_MT0" value="Дети Мальстрёма"/>
+	<entry name="ChaosDaemons_MT1" value="Сыновья Тирана"/>
+	<entry name="ChaosDaemons_MT2" value="Гибель Императора-трупа"/>
+	<entry name="ChaosDaemons_MT3" value="Муки Иши"/>
+	<entry name="ChaosDaemons_MT4" value="Радужные Сдиратели Кожи"/>
+	<entry name="ChaosDaemons_MT5" value="Сон Тзаангора"/>
+	<entry name="ChaosDaemons_MT6" value="Гончие Крови"/>
+	<entry name="ChaosDaemons_MT7" value="Пути, Изменённые"/>
+	<entry name="ChaosDaemons_MT8" value="Счетчики"/>
+	<entry name="ChaosDaemons_MT9" value="Когти Хоруса"/>
+	<entry name="ChaosDaemons_MT10" value="Сладкие Мучители"/>
+	<entry name="ChaosDaemons_MT11" value="Изгнанники"/>
+	<entry name="ChaosDaemons_MTCount" value="12"/>
+</language>

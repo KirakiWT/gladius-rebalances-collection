@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade position="10" icon="Actions/ChaosSpaceMarines/IconOfVengeance">
+	<requiredUpgrades>
+		<upgrade name="ChaosDaemons_MT/LocusOfConjuration"/>
+		<upgrade name="ChaosDaemons_MT/LocusOfDelicateEvisceration"/>
+		<upgrade name="ChaosDaemons_MT/LocusOfDiabolicalPurpose"/>
+		<upgrade name="ChaosDaemons_MT/LocusOfFoetidRegeneration"/>
+		<upgrade name="ChaosDaemons_MT/LocusOfPoxesUncounted"/>
+		<upgrade name="ChaosDaemons_MT/LocusOfTransmogrification"/>
+		<upgrade name="ChaosDaemons_MT/LocusOfUnnaturalSwiftness"/>
+		<upgrade name="ChaosDaemons_MT/LocusOfUnstoppableFury"/>
+	</requiredUpgrades>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseLoyaltyScore base="0.3"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+</upgrade>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<productionCost base="48"/>
+				<oreCost base="80"/>
+				<populationRequired base="1"/>
+				<slotsRequired base="1"/>
+				<energyUpkeep add="3"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<effects>
+				<influence add="2"/>
+				<ore add="4"/>
+				<production add="6"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<productionModifiers>
+		<modifier>
+			<effects>
+				
+			</effects>
+		</modifier>
+	</productionModifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseConstructionScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<acquireTile>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost add="5"/>
+						<oreCost add="5"/>
+						<productionCost add="12"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</acquireTile>
+		<clearTile>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<productionCost add="12"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</clearTile>
+		<constructBuilding building="ChaosDaemons_MT/Food"/>
+		<constructBuilding building="ChaosDaemons_MT/Ore"/>
+		<constructBuilding building="ChaosDaemons_MT/Energy"/>
+		<constructBuilding building="ChaosDaemons_MT/Research"/>
+		<constructBuilding building="ChaosDaemons_MT/Influence"/>
+		<constructBuilding building="ChaosDaemons_MT/Loyalty" requiredUpgrade="ChaosDaemons_MT/Loyalty"/>
+		<constructBuilding building="ChaosDaemons_MT/Housing" requiredUpgrade="ChaosDaemons_MT/Housing"/>
+		<constructBuilding building="ChaosDaemons_MT/Cult"/>
+		<constructBuilding building="ChaosDaemons_MT/Khorne" requiredUpgrade="ChaosDaemons_MT/Khorne"/>
+		<constructBuilding building="ChaosDaemons_MT/Slaanesh" requiredUpgrade="ChaosDaemons_MT/Slaanesh"/>
+		<constructBuilding building="ChaosDaemons_MT/Nurgle" requiredUpgrade="ChaosDaemons_MT/Nurgle"/>
+		<constructBuilding building="ChaosDaemons_MT/Tzeentch" requiredUpgrade="ChaosDaemons_MT/Tzeentch"/>
+		<constructBuilding building="ChaosDaemons_MT/Heroes" requiredUpgrade="ChaosDaemons_MT/Heroes"/>
+		<constructBuilding building="ChaosDaemons_MT/Vehicles" requiredUpgrade="ChaosDaemons_MT/Vehicles"/>
+		<constructBuilding building="ChaosDaemons_MT/Aircraft" requiredUpgrade="ChaosDaemons_MT/Aircraft"/>
+		<constructBuilding building="ChaosDaemons_MT/Construction" requiredUpgrade="ChaosDaemons_MT/Construction"/>
+	</actions>
+</building>
