@@ -352,7 +352,7 @@
 			</beginTargets>
 		</genericUnitAbility>
 
-		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/UpkeepRefreshTest"
+		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/UpkeepRefreshProcessTest"
 				passive="1"
 				icon="Actions/ChaosSpaceMarines/BoonOfMutation">
 			<beginTargets>
