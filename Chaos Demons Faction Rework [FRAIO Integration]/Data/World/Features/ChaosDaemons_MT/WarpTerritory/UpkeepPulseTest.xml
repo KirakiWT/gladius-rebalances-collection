@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feature blockingSight="0" visible="0" category="None">
+	<areas>
+		<area affects="Tile" radius="1">
+			<modifiers>
+				<modifier visible="0">
+					<conditions><tile><feature name="ChaosDaemons_MT/WarpTerritory/Khorne"/></tile></conditions>
+					<effects><addTrait name="ChaosDaemons_MT/WarpTerritory/UpkeepRefreshTest" duration="2"/></effects>
+				</modifier>
+				<modifier visible="0">
+					<conditions><tile><feature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/></tile></conditions>
+					<effects><addTrait name="ChaosDaemons_MT/WarpTerritory/UpkeepRefreshTest" duration="2"/></effects>
+				</modifier>
+				<modifier visible="0">
+					<conditions><tile><feature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/></tile></conditions>
+					<effects><addTrait name="ChaosDaemons_MT/WarpTerritory/UpkeepRefreshTest" duration="2"/></effects>
+				</modifier>
+				<modifier visible="0">
+					<conditions><tile><feature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/></tile></conditions>
+					<effects><addTrait name="ChaosDaemons_MT/WarpTerritory/UpkeepRefreshTest" duration="2"/></effects>
+				</modifier>
+			</modifiers>
+		</area>
+	</areas>
+</feature>
