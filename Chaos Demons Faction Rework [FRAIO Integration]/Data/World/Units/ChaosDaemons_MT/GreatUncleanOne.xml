@@ -496,6 +496,9 @@
 				cooldown="0"
 				passive="1"
 				icon="Actions/ChaosSpaceMarines/BoonOfMutation">
+			<model>
+				<action sound="Actions/PsychicBuff"/>
+			</model>
 			<conditions>
 				<unit match="Any">
 					<trait name="ChaosDaemons_MT/Khorne"/>
