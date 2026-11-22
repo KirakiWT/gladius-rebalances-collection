@@ -3,7 +3,7 @@
 	<onTraitRemovedModifiers>
 		<modifier visible="0">
 			<effects>
-				<processUse action="ChaosDaemons_MT/WarpTerritory/UpkeepRefreshTest"/>
+				<processUse action="ChaosDaemons_MT/WarpTerritory/UpkeepRefreshProcessTest"/>
 			</effects>
 		</modifier>
 	</onTraitRemovedModifiers>
