@@ -211,16 +211,16 @@
 	<entry name="ChaosDaemons_MT/SkullLordPactDescription" value="Приносит в жертву любого союзного юнита, кроме героев, и на его месте на 4 хода призывает подконтрольного вам Владыку Черепов. Перезарядка: 20 ходов."/>
 	<entry name="ChaosDaemons_MT/SkullLordPactFlavor" value="Тысяча черепов для трона, и трон идёт в бой."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateKhorne" value="Создать: территория крови"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/CreateKhorneDescription" value="Создаёт варп-территорию. Стоит 2 ед. руды."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CreateKhorneDescription" value="Создаёт варп-территорию на выбранной и соседних клетках. Стоит 7 ед. руды."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateKhorneFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateTzeentch" value="Создать: территория перемен"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/CreateTzeentchDescription" value="Создаёт варп-территорию. Стоит 2 ед. энергии."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CreateTzeentchDescription" value="Создаёт варп-территорию на выбранной и соседних клетках. Стоит 7 ед. энергии."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateTzeentchFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateSlaanesh" value="Создать: территория излишеств"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/CreateSlaaneshDescription" value="Создаёт варп-территорию. Стоит 2 ед. влияния."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CreateSlaaneshDescription" value="Создаёт варп-территорию на выбранной и соседних клетках. Стоит 7 ед. влияния."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateSlaaneshFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateNurgle" value="Создать: территория чумы"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/CreateNurgleDescription" value="Создаёт варп-территорию. Стоит 2 ед. пищи."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CreateNurgleDescription" value="Создаёт варп-территорию на выбранной и соседних клетках. Стоит 7 ед. пищи."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateNurgleFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeep" value="Поддержание варп-территории"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepDescription" value="Обновляет варп-территорию до 5 ходов."/>
