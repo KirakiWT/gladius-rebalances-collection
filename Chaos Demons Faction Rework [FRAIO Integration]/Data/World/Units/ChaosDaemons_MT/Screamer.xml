@@ -160,7 +160,9 @@
 			<modifiers>
 				<modifier visible="0">
 					<effects>
-						<influenceCost base="1"/>
+						<oreCost base="2"/>
+						<consumedActionPoints max="0"/>
+						<consumedMovement max="0"/>
 					</effects>
 				</modifier>
 			</modifiers>
@@ -208,7 +210,9 @@
 			<modifiers>
 				<modifier visible="0">
 					<effects>
-						<influenceCost base="1"/>
+						<energyCost base="2"/>
+						<consumedActionPoints max="0"/>
+						<consumedMovement max="0"/>
 					</effects>
 				</modifier>
 			</modifiers>
@@ -256,7 +260,9 @@
 			<modifiers>
 				<modifier visible="0">
 					<effects>
-						<influenceCost base="1"/>
+						<influenceCost base="2"/>
+						<consumedActionPoints max="0"/>
+						<consumedMovement max="0"/>
 					</effects>
 				</modifier>
 			</modifiers>
@@ -304,7 +310,9 @@
 			<modifiers>
 				<modifier visible="0">
 					<effects>
-						<influenceCost base="1"/>
+						<foodCost base="2"/>
+						<consumedActionPoints max="0"/>
+						<consumedMovement max="0"/>
 					</effects>
 				</modifier>
 			</modifiers>
@@ -335,6 +343,7 @@
 			</beginTargets>
 		</genericUnitAbility>
 		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeep"
+				cooldown="1"
 				passive="1"
 				icon="Actions/ChaosSpaceMarines/BoonOfMutation">
 			<conditions>
@@ -345,6 +354,14 @@
 					<trait name="ChaosDaemons_MT/Nurgle"/>
 				</unit>
 			</conditions>
+			<perTurnProcessUseConditions>
+				<unit match="Any">
+					<trait name="ChaosDaemons_MT/Khorne"/>
+					<trait name="ChaosDaemons_MT/Tzeentch"/>
+					<trait name="ChaosDaemons_MT/Slaanesh"/>
+					<trait name="ChaosDaemons_MT/Nurgle"/>
+				</unit>
+			</perTurnProcessUseConditions>
 			<beginTargets>
 				<selfTarget>
 					<areas>
@@ -357,7 +374,6 @@
 										</tile>
 									</conditions>
 									<effects>
-										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/Khorne" duration="5"/>
 									</effects>
 								</modifier>
@@ -368,7 +384,6 @@
 										</tile>
 									</conditions>
 									<effects>
-										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch" duration="5"/>
 									</effects>
 								</modifier>
@@ -379,7 +394,6 @@
 										</tile>
 									</conditions>
 									<effects>
-										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh" duration="5"/>
 									</effects>
 								</modifier>
@@ -390,7 +404,6 @@
 										</tile>
 									</conditions>
 									<effects>
-										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle" duration="5"/>
 									</effects>
 								</modifier>

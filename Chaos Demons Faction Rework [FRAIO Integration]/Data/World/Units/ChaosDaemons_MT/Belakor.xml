@@ -366,6 +366,7 @@
 			</modifiers>
 		</dimensionalCorridor>
 			<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/MantleOfShadows"
+				cooldown="1"
 				passive="1"
 				icon="Actions/ChaosSpaceMarines/BoonOfMutation">
 			<conditions>
@@ -376,6 +377,14 @@
 					<trait name="ChaosDaemons_MT/Nurgle"/>
 				</unit>
 			</conditions>
+			<perTurnProcessUseConditions>
+				<unit match="Any">
+					<trait name="ChaosDaemons_MT/Khorne"/>
+					<trait name="ChaosDaemons_MT/Tzeentch"/>
+					<trait name="ChaosDaemons_MT/Slaanesh"/>
+					<trait name="ChaosDaemons_MT/Nurgle"/>
+				</unit>
+			</perTurnProcessUseConditions>
 			<beginTargets>
 				<selfTarget>
 					<areas>
@@ -388,7 +397,6 @@
 										</tile>
 									</conditions>
 									<effects>
-										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/Khorne" duration="5"/>
 									</effects>
 								</modifier>
@@ -399,7 +407,6 @@
 										</tile>
 									</conditions>
 									<effects>
-										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch" duration="5"/>
 									</effects>
 								</modifier>
@@ -410,7 +417,6 @@
 										</tile>
 									</conditions>
 									<effects>
-										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh" duration="5"/>
 									</effects>
 								</modifier>
@@ -421,7 +427,6 @@
 										</tile>
 									</conditions>
 									<effects>
-										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle" duration="5"/>
 									</effects>
 								</modifier>
