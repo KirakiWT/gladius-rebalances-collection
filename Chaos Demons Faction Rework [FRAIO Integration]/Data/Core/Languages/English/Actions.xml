@@ -283,16 +283,16 @@
 	<entry name="ChaosDaemons_MT/SkullLordPactDescription" value="Sacrifices any allied non-hero unit and summons a Lord of Skulls under your control in its place for 4 turns. Cooldown: 20 turns."/>
 	<entry name="ChaosDaemons_MT/SkullLordPactFlavor" value="A thousand skulls for a throne, and the throne walks."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateKhorne" value="Create Blood Territory"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/CreateKhorneDescription" value="Create a warp territory. Costs 2 ore."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CreateKhorneDescription" value="Creates Warp Territory on the target tile and adjacent tiles. Costs 7 ore."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateKhorneFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateTzeentch" value="Create Flux Territory"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/CreateTzeentchDescription" value="Create a warp territory. Costs 2 energy."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CreateTzeentchDescription" value="Creates Warp Territory on the target tile and adjacent tiles. Costs 7 energy."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateTzeentchFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateSlaanesh" value="Create Excess Territory"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/CreateSlaaneshDescription" value="Create a warp territory. Costs 2 influence."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CreateSlaaneshDescription" value="Creates Warp Territory on the target tile and adjacent tiles. Costs 7 influence."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateSlaaneshFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateNurgle" value="Create Plague Territory"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/CreateNurgleDescription" value="Create a warp territory. Costs 2 food."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CreateNurgleDescription" value="Creates Warp Territory on the target tile and adjacent tiles. Costs 7 food."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateNurgleFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeep" value="Warp territory upkeep"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepDescription" value="Refreshes Warp Territory to 5 turns."/>
