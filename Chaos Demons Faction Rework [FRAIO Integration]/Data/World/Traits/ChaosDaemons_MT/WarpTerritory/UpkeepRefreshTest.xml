@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait visible="0">
+	<perTurnModifiers endure="0">
+		<modifier visible="0">
+			<conditions>
+				<tile><feature name="ChaosDaemons_MT/WarpTerritory/Khorne"/></tile>
+			</conditions>
+			<effects>
+				<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+				<addFeature name="ChaosDaemons_MT/WarpTerritory/Khorne" duration="5"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<tile><feature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/></tile>
+			</conditions>
+			<effects>
+				<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+				<addFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch" duration="5"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<tile><feature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/></tile>
+			</conditions>
+			<effects>
+				<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+				<addFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh" duration="5"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<tile><feature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/></tile>
+			</conditions>
+			<effects>
+				<removeFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
+				<addFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle" duration="5"/>
+			</effects>
+		</modifier>
+	</perTurnModifiers>
+</trait>
