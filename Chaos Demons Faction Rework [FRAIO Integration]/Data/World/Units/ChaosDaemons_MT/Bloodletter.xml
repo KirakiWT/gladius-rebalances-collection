@@ -355,7 +355,6 @@
 		
 
 		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepTurnTest"
-				cooldown="1"
 				passive="1"
 				icon="Actions/ChaosSpaceMarines/BoonOfMutation">
 			<perTurnProcessUseConditions>
