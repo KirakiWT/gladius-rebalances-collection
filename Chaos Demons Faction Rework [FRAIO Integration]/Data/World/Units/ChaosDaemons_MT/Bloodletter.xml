@@ -358,6 +358,12 @@
 				cooldown="1"
 				passive="1"
 				icon="Actions/ChaosSpaceMarines/BoonOfMutation">
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/Khorne"/>
+					<notMovedThisTurn/>
+				</unit>
+			</conditions>
 			<perTurnProcessUseConditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/Khorne"/>
@@ -366,6 +372,17 @@
 			<beginTargets>
 				<selfTarget>
 					<areas>
+
+						<area affects="Unit">
+							<modifiers>
+								<modifier visible="0">
+									<effects>
+										<cooldown add="-1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+
 						<area affects="Tile" radius="1">
 							<modifiers>
 								<modifier visible="0">
