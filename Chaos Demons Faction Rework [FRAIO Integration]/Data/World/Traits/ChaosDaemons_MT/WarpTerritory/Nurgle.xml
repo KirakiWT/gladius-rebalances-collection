@@ -30,7 +30,10 @@
 				</unit>
 			</conditions>
 			<effects>
-				<energyUpkeep mul="-0.33"/>
+				<oreUpkeep mul="-0.25"/>
+				<foodUpkeep mul="-0.25"/>
+				<energyUpkeep mul="-0.25"/>
+				<influenceUpkeep mul="-0.25"/>
 			</effects>
 		</modifier>
 	</modifiers>

@@ -150,41 +150,39 @@
 				</target>
 			</beginTargets>
 		</giftOfContagion>
-		<onslaught consumedActionPoints="0" 
-				consumedMovement="0"
-				cooldownMin="3"
-				cooldownMax="1"
-				name="ChaosDaemons_MT/JollyGutpipes"
-				icon="Traits/HitAndRun"
+		<giftOfContagion cooldownMin="4"
+				cooldownMax="2"
+				name="ChaosDaemons_MT/RustFever"
+				icon="Traits/Tyranids/AcidBlood"
 				rank="-1"
-				rankMax="2"
-				requiredActionPoints="0">
+				rankMax="2">
 			<model>
-				<action animation="Units/Reinforcements_MT/SloppityBilepiper/Idle1"
-						sound="Actions/HiveMindBuff"/>
+				<action	animation="Units/Reinforcements_MT/SloppityBilepiper/Range"
+						sound="Actions/ChaosDebuff"/>
 			</model>
 			<beginTargets>
-				<selfTarget>
+				<target rangeMax="3">
+					<conditions>
+						<unit>
+							<enemy/>
+							<noTrait name="ChaosDaemons_MT/RustFever"/>
+							<noTrait name="Fortification"/>
+						</unit>
+					</conditions>
 					<areas>
-						<area affects="Unit" radius="1">
+						<area affects="Unit">
 							<modifiers>
 								<modifier>
-									<conditions>
-										<unit>
-											<allied/>
-											<movement greater="0"/>
-										</unit>
-									</conditions>
 									<effects>
-										<addTrait name="ChaosDaemons_MT/JollyGutpipes" duration="1"/>
+										<addTrait name="ChaosDaemons_MT/RustFever" duration="3"/>
 									</effects>
 								</modifier>
 							</modifiers>
 						</area>
 					</areas>
-				</selfTarget>
+				</target>
 			</beginTargets>
-		</onslaught>
+		</giftOfContagion>
 		<catalyst cooldown="1"
 				name="ChaosDaemons_MT/FleshyAbundanceHerald"
 				icon="Actions/OrationOfRestoration"

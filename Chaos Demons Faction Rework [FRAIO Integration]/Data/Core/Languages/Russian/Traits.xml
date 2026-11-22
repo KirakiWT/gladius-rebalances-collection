@@ -9,12 +9,6 @@
 	<entry name="ChaosDaemons_MT/SpellShreddingSymphony" value="Симфония, разрушающая заклинания"/>
 	<entry name="ChaosDaemons_MT/SpellShreddingSymphonyDescription" value="Увеличивает количество атак. Увеличивает бронепробиваемость против Псикеров."/>
 	<entry name="ChaosDaemons_MT/SpellShreddingSymphonyFlavor" value="Мерзкие мелодии пыток, исполняемые этими демоническими вестниками, настолько неприятны, что даже магия рушится под их вибрациями. То же самое, как оказалось, делают и комментаторы."/>
-	<entry name="ChaosDaemons_MT/CelebrityWarlordEnemy" value="Знаменитый военачальник"/>
-	<entry name="ChaosDaemons_MT/CelebrityWarlordEnemyDescription" value="Уменьшает точность."/>
-	<entry name="ChaosDaemons_MT/CelebrityWarlordEnemyFlavor" value="<string name='Traits/ChaosDaemons_MT/CelebrityWarlordFlavor'/>"/>
-	<entry name="ChaosDaemons_MT/CelebrityWarlord" value="Знаменитый военачальник"/>
-	<entry name="ChaosDaemons_MT/CelebrityWarlordDescription" value="Повышает точность."/>
-	<entry name="ChaosDaemons_MT/CelebrityWarlordFlavor" value="Этот герой приобрел культ последователей, которые ищут его на поле боя."/>
 	<entry name="ChaosDaemons_MT/MaestrosOfDiscordance" value="Маэстро раздора"/>
 	<entry name="ChaosDaemons_MT/MaestrosOfDiscordanceDescription" value="Атаки исцеляют союзные отряды демонов Хаоса."/>
 	<entry name="ChaosDaemons_MT/MaestrosOfDiscordanceFlavor" value="Адская Восхитительница может играть музыку настолько диссонирующую, что она наносит физический вред врагам, одновременно пленяя другие демонические сущности за завесой реальности."/>
@@ -33,12 +27,6 @@
 	<entry name="ChaosDaemons_MT/InfernalGateway" value="Адские врата"/>
 	<entry name="ChaosDaemons_MT/InfernalGatewayDescription" value="Наносит урон каждый ход и ограничивает передвижение."/>
 	<entry name="ChaosDaemons_MT/InfernalGatewayFlavor" value="Демон открывает портал в Царство Хаоса, притягивая врагов к гибели."/>
-	<entry name="ChaosDaemons_MT/GoreHungryOnslaught" value="Натиск, жаждущий крови"/>
-	<entry name="ChaosDaemons_MT/GoreHungryOnslaughtDescription" value="Увеличивает передвижение и игнорирует зону контроля противника."/>
-	<entry name="ChaosDaemons_MT/GoreHungryOnslaughtFlavor" value="Явное желание сбить и убить свою добычу позволяет демонам Кхорна прорываться сквозь физические барьеры, как будто их не существует, и нападать на своих жертв, словно кровавые призраки."/>
-	<entry name="ChaosDaemons_MT/BloodBegetSkulls" value="Кровь порождает черепа"/>
-	<entry name="ChaosDaemons_MT/BloodBegetSkullsDescription" value="Получает влияние в бою."/>
-	<entry name="ChaosDaemons_MT/BloodBegetSkullsFlavor" value="Железный смрад смертной крови, пульсирующий в живых жилах, зажигает неестественные чувства демонов Кхорна, заставляя их быстрее рвать, убивать и отрубать черепа на шеях для могущественного Кхорна."/>
 	<entry name="ChaosDaemons_MT/SkullsBegetBlood" value="Черепа порождают кровь"/>
 	<entry name="ChaosDaemons_MT/SkullsBegetBloodDescription" value="Получает кражу жизни."/>
 	<entry name="ChaosDaemons_MT/SkullsBegetBloodFlavor" value="Вырванные из мокрых и рваных шей достойных смертных чемпионов, эти черепа пылают огнем, когда демоны Кхорна поднимают и швыряют их. Они взрываются среди врагов, чтобы пролить еще больше крови за Бога Крови."/>
@@ -48,9 +36,6 @@
 	<entry name="ChaosDaemons_MT/GiftOfDisease" value="Дар болезни"/>
 	<entry name="ChaosDaemons_MT/GiftOfDiseaseDescription" value="Восстанавливайте здоровье каждый ход. Заражайте врагов болезнью."/>
 	<entry name="ChaosDaemons_MT/GiftOfDiseaseFlavor" value="Демон облизывает сочащуюся язву, наслаждаясь острым вкусом спелой инфекции, а затем кашляет мокротой, которая окутывает их и их союзников мучительной лихорадкой."/>
-	<entry name="ChaosDaemons_MT/JollyGutpipes" value="Весёлые кишкодудки"/>
-	<entry name="ChaosDaemons_MT/JollyGutpipesDescription" value="Увеличивает передвижение."/>
-	<entry name="ChaosDaemons_MT/JollyGutpipesFlavor" value="С помощью парпа и гудка из своих волынок, Слоппити Байлпайпер развлекает своих собратьев-демонов, одновременно гарантируя, что их враги останутся плененной аудиторией."/>
 	<entry name="ChaosDaemons_MT/RancidVisitations" value="Прогорклые посещения"/>
 	<entry name="ChaosDaemons_MT/RancidVisitationsDescription" value="Наносит урон каждый ход."/>
 	<entry name="ChaosDaemons_MT/RancidVisitationsFlavor" value="Песнопя в задыхающемся от мокроты гуле, демон вызывает густое облако закупоривающего трупного газа и кусающих, ослепляющих мух, чтобы поглотить врага и оставить его в тошноте и шоке."/>
@@ -315,4 +300,19 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleRivalFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/UpkeepStatus" value="Ритуалы Хаоса — поддержание"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/UpkeepStatusDescription" value="Каждый ход посылает импульс варпа, обновляя срок ближайших варп-территорий."/>
+	<entry name="ChaosDaemons_MT/BloodDuelEnemy" value="Кровавая дуэль"/>
+	<entry name="ChaosDaemons_MT/BloodDuelEnemyDescription" value="Не может отойти больше чем на 1 клетку. Наносит героям Кхорна на 30% больше урона."/>
+	<entry name="ChaosDaemons_MT/BloodDuelEnemyFlavor" value="Кхорну всё равно, откуда льётся кровь, лишь бы она лилась. Вестник вызывает чемпиона, и ни один враг не вправе отказаться."/>
+	<entry name="ChaosDaemons_MT/SkullFeast" value="Пир черепов"/>
+	<entry name="ChaosDaemons_MT/SkullFeastDescription" value="Получает 2 дополнительные единицы руды за каждое убийство. Если юнит убивает врага, не имея действий, он восстанавливает 1 действие (раз в 2 хода)."/>
+	<entry name="ChaosDaemons_MT/SkullFeastFlavor" value="Каждый взятый череп подпитывает следующий взмах клинка."/>
+	<entry name="ChaosDaemons_MT/SkullFeastRecovery" value="Пир черепов: восстановление"/>
+	<entry name="ChaosDaemons_MT/SkullFeastRecoveryDescription" value="Не может восстановить действие от Пира черепов."/>
+	<entry name="ChaosDaemons_MT/SkullFeastRecoveryFlavor" value="Даже милость Кровавого Бога нужно заслуживать заново."/>
+	<entry name="ChaosDaemons_MT/PainChorus" value="Хор боли"/>
+	<entry name="ChaosDaemons_MT/PainChorusDescription" value="Увеличивает передвижение."/>
+	<entry name="ChaosDaemons_MT/PainChorusFlavor" value="Пленительница поёт, и каждое ухо в пределах слышимости различает только сладчайшую муку."/>
+	<entry name="ChaosDaemons_MT/RustFever" value="Ржавая лихорадка"/>
+	<entry name="ChaosDaemons_MT/RustFeverDescription" value="Уменьшает броню и лечение. Увеличивает получаемый урон."/>
+	<entry name="ChaosDaemons_MT/RustFeverFlavor" value="Один сип из дудок, железо осыпается хлопьями, плоть гноится, и даже самая гордая броня начинает сочиться рыжиной."/>
 </language>

@@ -13,13 +13,7 @@
 	<entry name="ChaosDaemons_MT/SpellShreddingSymphonyDescription" value="Increase attacks. Increase armor penetration against Psykers."/>
 	<entry name="ChaosDaemons_MT/SpellShreddingSymphonyFlavor" value="The vile tunes of torture strummed by these daemon-heralds are so unpalatable that even magic comes undone at their vibrations. So too, as it happens, do the casters."/>
 
-	<entry name="ChaosDaemons_MT/CelebrityWarlordEnemy" value="Celebrity Warlord"/>
-	<entry name="ChaosDaemons_MT/CelebrityWarlordEnemyDescription" value="Decrease accuracy."/>
-	<entry name="ChaosDaemons_MT/CelebrityWarlordEnemyFlavor" value="<string name='Traits/ChaosDaemons_MT/CelebrityWarlordFlavor'/>"/>
 
-	<entry name="ChaosDaemons_MT/CelebrityWarlord" value="Celebrity Warlord"/>
-	<entry name="ChaosDaemons_MT/CelebrityWarlordDescription" value="Increase accuracy."/>
-	<entry name="ChaosDaemons_MT/CelebrityWarlordFlavor" value="This hero has gained a cult following that seeks them out on the battlefield."/>
 
 	<entry name="ChaosDaemons_MT/MaestrosOfDiscordance" value="Maestro of Discordance"/>
 	<entry name="ChaosDaemons_MT/MaestrosOfDiscordanceDescription" value="Attacks heal allied Chaos Daemon units."/>
@@ -45,13 +39,7 @@
 	<entry name="ChaosDaemons_MT/InfernalGatewayDescription" value="Deal damage each turn and limit movement."/>
 	<entry name="ChaosDaemons_MT/InfernalGatewayFlavor" value="The daemon opens a portal to the Realm of Chaos, pulling enemies to their doom."/>
 
-	<entry name="ChaosDaemons_MT/GoreHungryOnslaught" value="Gore-Hungry Onslaught"/>
-	<entry name="ChaosDaemons_MT/GoreHungryOnslaughtDescription" value="Increase movement and ignore enemy zone of control."/>
-	<entry name="ChaosDaemons_MT/GoreHungryOnslaughtFlavor" value="The manifest will to run down and slaughter their prey allows the daemons of Khorne to surge through physical barriers as though they did not exist, falling upon their victims like bloody phantasms."/>
 
-	<entry name="ChaosDaemons_MT/BloodBegetSkulls" value="Blood begets Skulls"/>
-	<entry name="ChaosDaemons_MT/BloodBegetSkullsDescription" value="Gain influence from combat."/>
-	<entry name="ChaosDaemons_MT/BloodBegetSkullsFlavor" value="The iron reek of mortal blood pulsing through living veins fires the unnatural senses of Khorne’s daemons, drawing them on all the swifter to tear, slay, and hack skulls from necks for mighty Khorne."/>
 
 	<entry name="ChaosDaemons_MT/SkullsBegetBlood" value="Skulls beget Blood"/>
 	<entry name="ChaosDaemons_MT/SkullsBegetBloodDescription" value="Gain lifesteal."/>
@@ -65,9 +53,6 @@
 	<entry name="ChaosDaemons_MT/GiftOfDiseaseDescription" value="Restore health each turn. Infect enemies with a diseasse."/>
 	<entry name="ChaosDaemons_MT/GiftOfDiseaseFlavor" value="The daemon licks an oozing sore, savouring the tangy flavour of a ripe contagion, before coughing a phlegmy litany that wreathes them and their allies in a pain-inuring ague."/>
 
-	<entry name="ChaosDaemons_MT/JollyGutpipes" value="Jolly Gutpipes"/>
-	<entry name="ChaosDaemons_MT/JollyGutpipesDescription" value="Increase movement."/>
-	<entry name="ChaosDaemons_MT/JollyGutpipesFlavor" value="With a parp and a honk from their gutpipes, a Sloppity Bilepiper entertains their fellow daemons while ensuring their foes remain a captive audience."/>
 
 	<entry name="ChaosDaemons_MT/RancidVisitations" value="Rancid Visitations"/>
 	<entry name="ChaosDaemons_MT/RancidVisitationsDescription" value="Deal damage each turn."/>
@@ -404,4 +389,19 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleRivalFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/UpkeepStatus" value="Chaos Rituals — Upkeep"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/UpkeepStatusDescription" value="Each turn, sends a Warp pulse to refresh the duration of nearby Warp Territory features."/>
+	<entry name="ChaosDaemons_MT/BloodDuelEnemy" value="Blood Duel"/>
+	<entry name="ChaosDaemons_MT/BloodDuelEnemyDescription" value="Cannot move more than 1 tile. Deals 30% more damage to Khorne heroes."/>
+	<entry name="ChaosDaemons_MT/BloodDuelEnemyFlavor" value="Khorne cares not from whence the blood flows, only that it flows. The Herald calls out a champion, and no foe may refuse."/>
+	<entry name="ChaosDaemons_MT/SkullFeast" value="Skull Feast"/>
+	<entry name="ChaosDaemons_MT/SkullFeastDescription" value="Gain 2 additional ore for each kill. When this unit kills an enemy with no actions left, it regains 1 action (once every 2 turns)."/>
+	<entry name="ChaosDaemons_MT/SkullFeastFlavor" value="Every skull taken fuels the next swing of the blade."/>
+	<entry name="ChaosDaemons_MT/SkullFeastRecovery" value="Skull Feast: recovering"/>
+	<entry name="ChaosDaemons_MT/SkullFeastRecoveryDescription" value="Cannot regain an action from Skull Feast."/>
+	<entry name="ChaosDaemons_MT/SkullFeastRecoveryFlavor" value="Even the Blood God’s favour must be earned anew."/>
+	<entry name="ChaosDaemons_MT/PainChorus" value="Pain Chorus"/>
+	<entry name="ChaosDaemons_MT/PainChorusDescription" value="Increase movement."/>
+	<entry name="ChaosDaemons_MT/PainChorusFlavor" value="The Enrapturess sings, and every ear within reach hears only the sweetest agony."/>
+	<entry name="ChaosDaemons_MT/RustFever" value="Rust Fever"/>
+	<entry name="ChaosDaemons_MT/RustFeverDescription" value="Decrease armour and healing. Take additional damage."/>
+	<entry name="ChaosDaemons_MT/RustFeverFlavor" value="One wheeze from the pipes and iron flakes, flesh festers, and even the proudest armour begins to weep orange."/>
 </language>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Buff" icon="Traits/ChaosSpaceMarines/RunesOfTheBloodGod">
+	<modifiers>
+		<modifier>
+			<effects>
+				<orePerKillValue add="2"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<onEnemyKilledSelfModifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<actionPoints equal="0"/>
+					<noTrait name="ChaosDaemons_MT/SkullFeastRecovery"/>
+				</unit>
+			</conditions>
+			<effects>
+				<actionPoints add="1"/>
+				<addTrait name="ChaosDaemons_MT/SkullFeastRecovery" duration="2"/>
+			</effects>
+		</modifier>
+	</onEnemyKilledSelfModifiers>
+</trait>

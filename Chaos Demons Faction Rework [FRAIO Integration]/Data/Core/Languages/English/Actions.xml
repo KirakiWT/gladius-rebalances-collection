@@ -10,9 +10,6 @@
 	<entry name="ChaosDaemons_MT/CentreOfAttentionDescription" value="Deal damage to adjacent enemy units and stun them."/>
 	<entry name="ChaosDaemons_MT/CentreOfAttentionFlavor" value="Such is the dazzling self-possession of this champion that many enemies cannot help but be stupefied around them."/>
 
-	<entry name="ChaosDaemons_MT/CelebrityWarlord" value="<string name='Traits/ChaosDaemons_MT/CelebrityWarlord'/>"/>
-	<entry name="ChaosDaemons_MT/CelebrityWarlordDescription" value="Increase the accuracy of allied units in the area and decrease the accuracy of enemy units in the area."/>
-	<entry name="ChaosDaemons_MT/CelebrityWarlordFlavor" value="<string name='Traits/ChaosDaemons_MT/CelebrityWarlordFlavor'/>"/>
 
 	<entry name="ChaosDaemons_MT/MaestrosOfDiscordance" value="<string name='Traits/ChaosDaemons_MT/MaestrosOfDiscordance'/>"/>
 	<entry name="ChaosDaemons_MT/MaestrosOfDiscordanceDescription" value="<string name='Traits/ChaosDaemons_MT/MaestrosOfDiscordanceDescription'/>"/>
@@ -34,21 +31,12 @@
 	<entry name="ChaosDaemons_MT/WeaponCurseDescription" value="Deal damage to an enemy and inflict them with a curse that causes their attacks to injure themselves."/>
 	<entry name="ChaosDaemons_MT/WeaponCurseFlavor" value="<string name='Traits/ChaosDaemons_MT/WeaponCurseFlavor'/>"/>
 
-	<entry name="ChaosDaemons_MT/TheBloodMustFlow" value="The blood must flow"/>
-	<entry name="ChaosDaemons_MT/TheBloodMustFlowDescription" value="Regain an action point."/>
-	<entry name="ChaosDaemons_MT/TheBloodMustFlowFlavor" value="Rallied by bloody example, Khorne’s lesser daemons leap into combat."/>
 
 	<entry name="ChaosDaemons_MT/SkullsBegetBlood" value="<string name='Traits/ChaosDaemons_MT/SkullsBegetBlood'/>"/>
 	<entry name="ChaosDaemons_MT/SkullsBegetBloodDescription" value="<string name='Traits/ChaosDaemons_MT/SkullsBegetBloodDescription'/>"/>
 	<entry name="ChaosDaemons_MT/SkullsBegetBloodFlavor" value="<string name='Traits/ChaosDaemons_MT/SkullsBegetBloodFlavor'/>"/>
 
-	<entry name="ChaosDaemons_MT/BloodBegetSkulls" value="<string name='Traits/ChaosDaemons_MT/BloodBegetSkulls'/>"/>
-	<entry name="ChaosDaemons_MT/BloodBegetSkullsDescription" value="<string name='Traits/ChaosDaemons_MT/BloodBegetSkullsDescription'/>"/>
-	<entry name="ChaosDaemons_MT/BloodBegetSkullsFlavor" value="<string name='Traits/ChaosDaemons_MT/BloodBegetSkullsFlavor'/>"/>
 
-	<entry name="ChaosDaemons_MT/GoreHungryOnslaught" value="<string name='Traits/ChaosDaemons_MT/GoreHungryOnslaught'/>"/>
-	<entry name="ChaosDaemons_MT/GoreHungryOnslaughtDescription" value="<string name='Traits/ChaosDaemons_MT/GoreHungryOnslaughtDescription'/>"/>
-	<entry name="ChaosDaemons_MT/GoreHungryOnslaughtFlavor" value="<string name='Traits/ChaosDaemons_MT/GoreHungryOnslaughtFlavor'/>"/>
 
 	<entry name="ChaosDaemons_MT/GiftOfDisease" value="<string name='Traits/ChaosDaemons_MT/GiftOfDisease'/>"/>
 	<entry name="ChaosDaemons_MT/GiftOfDiseaseDescription" value="Heal adjacent allied units each turn. Attacks of adjacent allied units infect enemies with a damaging disease."/>
@@ -58,9 +46,6 @@
 	<entry name="ChaosDaemons_MT/FleshyAbundanceHeraldDescription" value="Heal an allied damaged unit and infect them with a disease that continues healing them each turn."/>
 	<entry name="ChaosDaemons_MT/FleshyAbundanceHeraldFlavor" value="<string name='Traits/ChaosDaemons_MT/FleshyAbundanceFlavor'/>"/>
 
-	<entry name="ChaosDaemons_MT/JollyGutpipes" value="<string name='Traits/ChaosDaemons_MT/JollyGutpipes'/>"/>
-	<entry name="ChaosDaemons_MT/JollyGutpipesDescription" value="Increase movement of adjacent allied units."/>
-	<entry name="ChaosDaemons_MT/JollyGutpipesFlavor" value="<string name='Traits/ChaosDaemons_MT/JollyGutpipesFlavor'/>"/>
 
 	<entry name="ChaosDaemons_MT/RancidVisitations" value="<string name='Traits/ChaosDaemons_MT/RancidVisitations'/>"/>
 	<entry name="ChaosDaemons_MT/RancidVisitationsDescription" value="Infect an enemy unit with a damaging disease."/>
@@ -327,4 +312,19 @@
 	<entry name="ChaosDaemons_MT/CreepingBlight" value="Creeping Blight"/>
 	<entry name="ChaosDaemons_MT/CreepingBlightDescription" value="Every turn spread Plague Territory to adjacent tiles."/>
 	<entry name="ChaosDaemons_MT/CreepingBlightFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
+	<entry name="ChaosDaemons_MT/BloodDuel" value="Blood Duel"/>
+	<entry name="ChaosDaemons_MT/BloodDuelDescription" value="Challenge an enemy within 2 tiles for 2-3 turns. It cannot move more than 1 tile, and it and the Bloodmaster deal 30% more damage to each other."/>
+	<entry name="ChaosDaemons_MT/BloodDuelFlavor" value="Khorne cares not from whence the blood flows, only that it flows. The Herald calls out a champion, and no foe may refuse."/>
+	<entry name="ChaosDaemons_MT/AltarOfSlaughter" value="Altar of Slaughter"/>
+	<entry name="ChaosDaemons_MT/AltarOfSlaughterDescription" value="Create Khorne warp territory on this tile and all adjacent tiles for free, without spending actions or movement. Tiles that already have warp territory are not changed."/>
+	<entry name="ChaosDaemons_MT/AltarOfSlaughterFlavor" value="Where the Herald plants his banner the ground drinks deep, and the Blood God’s gaze takes root."/>
+	<entry name="ChaosDaemons_MT/PainChorus" value="Pain Chorus"/>
+	<entry name="ChaosDaemons_MT/PainChorusDescription" value="Allied units within 2 tiles regain 1-2 morale and gain +1 movement for a turn. Enemies within 1 tile lose 2 morale."/>
+	<entry name="ChaosDaemons_MT/PainChorusFlavor" value="The Enrapturess sings, and every ear within reach hears only the sweetest agony."/>
+	<entry name="ChaosDaemons_MT/RustFever" value="Rust Fever"/>
+	<entry name="ChaosDaemons_MT/RustFeverDescription" value="Curse an enemy within 3 tiles for 3 turns: it loses armour and healing and takes additional damage."/>
+	<entry name="ChaosDaemons_MT/RustFeverFlavor" value="One wheeze from the pipes and iron flakes, flesh festers, and even the proudest armour begins to weep orange."/>
+	<entry name="ChaosDaemons_MT/SkullFeast" value="<string name='Traits/ChaosDaemons_MT/SkullFeast'/>"/>
+	<entry name="ChaosDaemons_MT/SkullFeastDescription" value="<string name='Traits/ChaosDaemons_MT/SkullFeastDescription'/>"/>
+	<entry name="ChaosDaemons_MT/SkullFeastFlavor" value="<string name='Traits/ChaosDaemons_MT/SkullFeastFlavor'/>"/>
 </language>

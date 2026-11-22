@@ -57,6 +57,18 @@
 			<effects>
 			</effects>
 		</modifier>	
+		<modifier visible="0">
+			<conditions>
+				<encounter>
+					<opponent>
+						<trait name="ChaosDaemons_MT/BloodDuelEnemy"/>
+					</opponent>
+				</encounter>
+			</conditions>
+			<effects>
+				<damage mul="0.3"/>
+			</effects>
+		</modifier>
 	</modifiers>
 	<strategyModifiers>
 		<modifier>
@@ -149,46 +161,73 @@
 				</selfTarget>
 			</beginTargets>
 		</hammerOfWrath>
-		<ereWeGo consumedActionPoints="0"
-				consumedMovement="0"
-				cooldown="3"
+		<objurationMechanicum cooldownMin="5"
+				cooldownMax="3"
+				name="ChaosDaemons_MT/BloodDuel"
+				icon="Traits/Rage"
 				rank="-1"
-				rankMax="2"
-				name="ChaosDaemons_MT/GoreHungryOnslaught"
-				icon="Traits/ChaosSpaceMarines/MultiLeggedTerror"
-				requiredActionPoints="0"
-				requiredMovement="1"
-				usableInTransport="1">
+				rankMax="2">
 			<model>
-				<action sound="Actions/OrksBuff"/>
+				<action sound="Actions/ChaosDebuff"/>
 			</model>
 			<beginTargets>
-				<selfTarget>
+				<target rangeMax="2">
+					<conditions>
+						<unit>
+							<enemy/>
+							<noTrait name="ChaosDaemons_MT/BloodDuelEnemy"/>
+							<noTrait name="Fortification"/>
+						</unit>
+					</conditions>
 					<areas>
 						<area affects="Unit">
 							<modifiers>
 								<modifier>
 									<effects>
-										<addTrait duration="1" name="ChaosDaemons_MT/GoreHungryOnslaught"/>
+										<addTrait name="ChaosDaemons_MT/BloodDuelEnemy" durationMin="2" durationMax="3"/>
 									</effects>
 								</modifier>
 							</modifiers>
 						</area>
 					</areas>
-				</selfTarget>
+				</target>
 			</beginTargets>
-		</ereWeGo>
-		<genericUnitAbility name="ChaosDaemons_MT/BloodBegetSkulls" passive="1" icon="Traits/ChaosSpaceMarines/RunesOfTheBloodGod"
+		</objurationMechanicum>
+		<genericUnitAbility name="ChaosDaemons_MT/AltarOfSlaughter"
+				cooldownMin="6"
+				cooldownMax="4"
+				consumedActionPoints="0"
+				consumedMovement="0"
+				icon="Actions/ChaosSpaceMarines/MarkOfKhorne"
 				rank="-1"
-				rankMax="2">
+				rankMax="2"
+				useConditionsForVisiblity="1">
+			<model>
+				<action sound="Actions/PsychicBuff"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/Khorne"/>
+					<morale greater="1"/>
+				</unit>
+			</conditions>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<consumedActionPoints max="0"/>
+						<consumedMovement max="0"/>
+					</effects>
+				</modifier>
+			</modifiers>
 			<beginTargets>
 				<selfTarget>
 					<areas>
-						<area affects="Unit">
+						<area affects="Tile" radius="1">
 							<modifiers>
 								<modifier>
+									<conditions><tile><noEnemyCity/><noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/></tile></conditions>
 									<effects>
-										<addTrait name="ChaosDaemons_MT/BloodBegetSkulls"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/Khorne" duration="5"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -216,23 +255,10 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-		<splinteredGenius cooldown="3"
-				icon="Traits/Tyranids/SingularPurpose"
-				consumedActionPoints="0"
-				consumedMovement="0"
-				name="ChaosDaemons_MT/TheBloodMustFlow"
+		<genericUnitAbility name="ChaosDaemons_MT/SkullFeast" passive="1" icon="Traits/ChaosSpaceMarines/RunesOfTheBloodGod"
 				elite="1"
 				rank="-1"
-				rankMax="0"
-				requiredActionPoints="0">
-			<model>
-				<action sound="Actions/SplinteredGenius"/>
-			</model>
-			<conditions>
-				<unit>
-					<actionPoints equal="0"/>
-				</unit>
-			</conditions>
+				rankMax="0">
 			<beginTargets>
 				<selfTarget>
 					<areas>
@@ -240,7 +266,7 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<actionPoints add="1"/>
+										<addTrait name="ChaosDaemons_MT/SkullFeast"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -248,7 +274,7 @@
 					</areas>
 				</selfTarget>
 			</beginTargets>
-		</splinteredGenius>
+		</genericUnitAbility>
 		<levelUp/>
 		<shop/>
 		<dimensionalCorridor cooldown="5"

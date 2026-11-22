@@ -257,7 +257,7 @@
 	<entry name="ChaosDaemons_MT/WarpSurgeFlavor" value="The winds of the warp blow strong, invigorating daemonkind and lending them supernatural speed and ferocity."/>
 	
 	<entry name="ChaosDaemons_MT/CorruptRealspace" value="Corrupt Realspace"/>
-	<entry name="ChaosDaemons_MT/CorruptRealspaceDescription" value="Reduce energy upkeep of allied units on your warp territories."/>
+	<entry name="ChaosDaemons_MT/CorruptRealspaceDescription" value="Reduce the upkeep of all resources of allied units on your warp territories by 25%."/>
 	<entry name="ChaosDaemons_MT/CorruptRealspaceFlavor" value="Daemons instinctively feel the need to despoil and corrupt every corner of realspace, the better to sustain their otherworldly forms."/>
 
 	<entry name="ChaosDaemons_MT/Heralds" value="Heralds"/>

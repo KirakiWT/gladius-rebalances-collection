@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff" icon="Traits/Tyranids/AcidBlood" rankMax="2">
+	<modifiers>
+		<modifier>
+			<effects>
+				<armor addMin="-1" addMax="-2"/>
+				<healingRate add="-0.1"/>
+				<damageTaken mulMin="0.05" mulMax="0.15"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

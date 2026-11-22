@@ -5,7 +5,7 @@
 			<effects>
 				<attacks add="1"/>
 				<rangedAccuracy min="12"/> <!-- Don't roll to hit. -->
-				<rangedDamage add="4"/> <!-- %rangedDamage add strength=6 -->
+				<rangedDamage add="1"/> <!-- %rangedDamage add strength=6 -->
 				<strengthDamage base="0"/>
 			</effects>
 		</modifier>

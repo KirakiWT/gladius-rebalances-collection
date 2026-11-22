@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Traits/HitAndRun">
+<trait category="Buff" icon="Actions/ChaosSpaceMarines/RiteOfUnholyPleasure">
 	<modifiers>
 		<modifier>
 			<effects>

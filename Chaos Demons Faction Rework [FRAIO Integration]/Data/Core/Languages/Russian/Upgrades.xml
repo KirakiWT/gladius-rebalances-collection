@@ -192,7 +192,7 @@
 	<entry name="ChaosDaemons_MT/WarpSurgeDescription" value="Варп-путешествие ваших демонов больше не расходует очки передвижения или действия."/>
 	<entry name="ChaosDaemons_MT/WarpSurgeFlavor" value="Ветры варпа дуют с огромной силой, воодушевляя демонов и наделяя их сверхъестественной скоростью и свирепостью."/>
 	<entry name="ChaosDaemons_MT/CorruptRealspace" value="Развращение реального пространства"/>
-	<entry name="ChaosDaemons_MT/CorruptRealspaceDescription" value="Снижает расход энергии союзных юнитов на вашей варп-территории."/>
+	<entry name="ChaosDaemons_MT/CorruptRealspaceDescription" value="Снижает на 25% содержание всех ресурсов у союзных юнитов на вашей варп-территории."/>
 	<entry name="ChaosDaemons_MT/CorruptRealspaceFlavor" value="Демоны инстинктивно чувствуют потребность осквернять и развращать каждый уголок реального пространства, чтобы лучше поддерживать свои потусторонние формы."/>
 	<entry name="ChaosDaemons_MT/Heralds" value="Вестники"/>
 	<entry name="ChaosDaemons_MT/HeraldsDescription" value="Открывает возможность нанимать вестников Тёмных Богов. По одному демоническому отряду героя на каждого Тёмного Бога."/>
