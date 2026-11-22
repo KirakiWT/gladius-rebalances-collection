@@ -295,7 +295,7 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateNurgleDescription" value="Create a warp territory. Costs 2 food."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateNurgleFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeep" value="Warp territory upkeep"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepDescription" value="Refreshes existing Warp Territory within 2 tiles to 5 turns. Most units activate this manually at no Action or Movement Point cost, with a 1-turn cooldown. The Great Unclean One refreshes it automatically after moving."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepDescription" value="Refreshes Warp Territory to 5 turns."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/MantleOfShadows" value="Mantle of Shadows"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/MantleOfShadowsDescription" value="Warp territory within 3 tiles does not fade."/>
