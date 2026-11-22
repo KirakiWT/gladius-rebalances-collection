@@ -402,4 +402,6 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleRival" value="Plague Territory — Rival's Ground"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleRivalDescription" value="Servants of the rival god lose morale each turn."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleRivalFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/UpkeepStatus" value="Chaos Rituals — Upkeep"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/UpkeepStatusDescription" value="Each turn, sends a Warp pulse to refresh the duration of nearby Warp Territory features."/>
 </language>

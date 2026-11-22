@@ -313,4 +313,6 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleRival" value="Территория чумы — чужая земля"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleRivalDescription" value="Слуги бога-соперника теряют мораль каждый ход."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleRivalFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/UpkeepStatus" value="Ритуалы Хаоса — поддержание"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/UpkeepStatusDescription" value="Каждый ход посылает импульс варпа, обновляя срок ближайших варп-территорий."/>
 </language>
