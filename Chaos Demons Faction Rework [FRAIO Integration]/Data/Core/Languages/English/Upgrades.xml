@@ -269,16 +269,16 @@
 	
 	
 	<entry name="ChaosDaemons_MT/KhorneAscension2" value="Avatar of Slaughter"/>
-	<entry name="ChaosDaemons_MT/KhorneAscension2Description" value="The Bloodthirster gains +20% damage. Heals a part of the damage dealt. Matches the titans of other factions."/>
+	<entry name="ChaosDaemons_MT/KhorneAscension2Description" value="The Bloodthirster gains +20% damage. Heals a part of the damage dealt."/>
 	<entry name="ChaosDaemons_MT/KhorneAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension2" value="Rotten Colossus"/>
-	<entry name="ChaosDaemons_MT/NurgleAscension2Description" value="The Great Unclean One gains +35% hitpoints. Regenerates 4 hitpoints every turn. Matches the titans of other factions."/>
+	<entry name="ChaosDaemons_MT/NurgleAscension2Description" value="The Great Unclean One gains +35% hitpoints. Regenerates 4 hitpoints every turn."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension2" value="Dark Prince’s Apotheosis"/>
-	<entry name="ChaosDaemons_MT/SlaaneshAscension2Description" value="The Keeper of Secrets gains +35% hitpoints, +20% damage and +1 movement. Researching this technology changes all Slaanesh units to gain 3 Influence per Experience instead of Influence per Kill Value. Matches the titans of other factions."/>
+	<entry name="ChaosDaemons_MT/SlaaneshAscension2Description" value="The Keeper of Secrets gains +35% hitpoints, +20% damage and +1 movement. Researching this technology changes all Slaanesh units to gain 3 Influence per Experience instead of Influence per Kill Value."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2" value="Master of Fate"/>
-	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="The Lord of Change gains +20% damage. Researching this technology changes all Tzeentch units to gain 3 Research per Experience instead of Research per Kill Value. Matches the titans of other factions."/>
+	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="The Lord of Change gains +20% damage. Researching this technology changes all Tzeentch units to gain 3 Research per Experience instead of Research per Kill Value."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 	<entry name="ChaosDaemons_MT/SkullLordPact" value="Skull Lord’s Pact"/>
 	<entry name="ChaosDaemons_MT/SkullLordPactDescription" value="Unlocks the Bloodthirster ability Skull Lord’s Pact."/>
