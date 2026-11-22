@@ -223,7 +223,7 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateNurgleDescription" value="Создаёт варп-территорию. Стоит 2 ед. пищи."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateNurgleFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeep" value="Поддержание варп-территории"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepDescription" value="Варп-территория вокруг слуг Хаоса не угасает."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepDescription" value="Обновляет существующую варп-территорию в радиусе 2 клеток до 5 ходов. Большинство юнитов активируют способность вручную, без расхода очков действия и перемещения, с перезарядкой 1 ход. Великий Нечистый обновляет территорию автоматически после передвижения."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/MantleOfShadows" value="Покров теней"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/MantleOfShadowsDescription" value="Варп-территория в радиусе 3 клеток не угасает."/>
