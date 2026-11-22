@@ -60,31 +60,7 @@
 			</model>
 		</die>
 		<setRallyPoint/>
-			<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeep"
-				passive="1"
-				icon="Actions/ChaosSpaceMarines/BoonOfMutation">
-			<perTurnProcessUseConditions>
-				<unit>
-					<trait name="Fortification"/>
-				</unit>
-			</perTurnProcessUseConditions>
-			<beginTargets>
-<selfTarget>
-				<areas>
-					<area affects="Unit">
-						<modifiers>
-							<modifier visible="0">
-								<effects>
-									<addTrait name="ChaosDaemons_MT/WarpTerritory/UpkeepStatus"/>
-								</effects>
-							</modifier>
-						</modifiers>
-					</area>
-				</areas>
-			</selfTarget>
-			</beginTargets>
-		</genericUnitAbility>
-	</actions>
+</actions>
 	<traits>
 		<trait name="Fortification"/>
 		<trait name="Headquarters"/>
@@ -92,5 +68,6 @@
 		<trait name="ChaosDaemons_MT/Undivided"/>
 		<trait name="Necrons/EternityGate"/>
 		<trait name="ChaosDaemons_MT/WarpRiftReady"/>
+			<trait name="ChaosDaemons_MT/WarpTerritory/UpkeepStatus"/>
 	</traits>
 </unit>

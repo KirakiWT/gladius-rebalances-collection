@@ -460,42 +460,7 @@
 				</target>
 			</beginTargets>
 		</genericUnitAbility>
-		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeep"
-				passive="1"
-				icon="Actions/ChaosSpaceMarines/BoonOfMutation">
-			<conditions>
-				<unit match="Any">
-					<trait name="ChaosDaemons_MT/Khorne"/>
-					<trait name="ChaosDaemons_MT/Tzeentch"/>
-					<trait name="ChaosDaemons_MT/Slaanesh"/>
-					<trait name="ChaosDaemons_MT/Nurgle"/>
-				</unit>
-			</conditions>
-			<perTurnProcessUseConditions>
-				<unit match="Any">
-					<trait name="ChaosDaemons_MT/Khorne"/>
-					<trait name="ChaosDaemons_MT/Tzeentch"/>
-					<trait name="ChaosDaemons_MT/Slaanesh"/>
-					<trait name="ChaosDaemons_MT/Nurgle"/>
-				</unit>
-			</perTurnProcessUseConditions>
-			<beginTargets>
-<selfTarget>
-				<areas>
-					<area affects="Unit">
-						<modifiers>
-							<modifier visible="0">
-								<effects>
-									<addTrait name="ChaosDaemons_MT/WarpTerritory/UpkeepStatus"/>
-								</effects>
-							</modifier>
-						</modifiers>
-					</area>
-				</areas>
-			</selfTarget>
-			</beginTargets>
-		</genericUnitAbility>
-	</actions>
+</actions>
 	<traits>
 		<trait name="Daemon"/>
 		<trait name="Hero"/>
@@ -505,5 +470,6 @@
 		<trait name="ChaosDaemons_MT/WarpRift"/>
 		<trait name="Reinforcements_MT/SupportHero"/>
 		<trait name="ChaosDaemons_MT/DaemonicResilience" requiredUpgrade="ChaosDaemons_MT/ExtraInfantryArmour"/>
+			<trait name="ChaosDaemons_MT/WarpTerritory/UpkeepStatus"/>
 	</traits>
 </unit>
