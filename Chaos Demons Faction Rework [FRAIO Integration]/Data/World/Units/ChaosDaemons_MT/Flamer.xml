@@ -159,7 +159,7 @@
 			<modifiers>
 				<modifier visible="0">
 					<effects>
-						<oreCost base="2"/>
+						<oreCost base="7"/>
 						<consumedActionPoints max="0"/>
 						<consumedMovement max="0"/>
 					</effects>
@@ -178,9 +178,10 @@
 						</tile>
 					</conditions>
 					<areas>
-						<area affects="Tile">
+						<area affects="Tile" radius="1" excludeRadius="0">
 							<modifiers>
 								<modifier>
+									<conditions><tile><land/><noEnemyCity/><noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/></tile></conditions>
 									<effects>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/Khorne" duration="5"/>
 									</effects>
@@ -209,7 +210,7 @@
 			<modifiers>
 				<modifier visible="0">
 					<effects>
-						<energyCost base="2"/>
+						<energyCost base="7"/>
 						<consumedActionPoints max="0"/>
 						<consumedMovement max="0"/>
 					</effects>
@@ -228,9 +229,10 @@
 						</tile>
 					</conditions>
 					<areas>
-						<area affects="Tile">
+						<area affects="Tile" radius="1" excludeRadius="0">
 							<modifiers>
 								<modifier>
+									<conditions><tile><land/><noEnemyCity/><noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/></tile></conditions>
 									<effects>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch" duration="5"/>
 									</effects>
@@ -259,7 +261,7 @@
 			<modifiers>
 				<modifier visible="0">
 					<effects>
-						<influenceCost base="2"/>
+						<influenceCost base="7"/>
 						<consumedActionPoints max="0"/>
 						<consumedMovement max="0"/>
 					</effects>
@@ -278,9 +280,10 @@
 						</tile>
 					</conditions>
 					<areas>
-						<area affects="Tile">
+						<area affects="Tile" radius="1" excludeRadius="0">
 							<modifiers>
 								<modifier>
+									<conditions><tile><land/><noEnemyCity/><noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/></tile></conditions>
 									<effects>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh" duration="5"/>
 									</effects>
@@ -309,7 +312,7 @@
 			<modifiers>
 				<modifier visible="0">
 					<effects>
-						<foodCost base="2"/>
+						<foodCost base="7"/>
 						<consumedActionPoints max="0"/>
 						<consumedMovement max="0"/>
 					</effects>
@@ -328,9 +331,10 @@
 						</tile>
 					</conditions>
 					<areas>
-						<area affects="Tile">
+						<area affects="Tile" radius="1" excludeRadius="0">
 							<modifiers>
 								<modifier>
+									<conditions><tile><land/><noEnemyCity/><noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/></tile></conditions>
 									<effects>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle" duration="5"/>
 									</effects>
