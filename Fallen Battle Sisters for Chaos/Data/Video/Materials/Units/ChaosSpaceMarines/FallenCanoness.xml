@@ -3,7 +3,7 @@
 	<textures>
 		<texture name="Units/ChaosSpaceMarines/FallenCanoness/Diffuse"/>
 		<texture name="Units/ChaosSpaceMarines/FallenCanoness/Normal"/>
-		<texture name="Units/ChaosSpaceMarines/SIC"/>
+		<texture name="Units/ChaosSpaceMarines/FallenCanoness/SIC"/>
 		<texture name="ShadowMapColor"/>
 	</textures>
 </material>
