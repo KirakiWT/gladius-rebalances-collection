@@ -412,6 +412,7 @@
 </actions>
 	<traits>
 		<trait name="Daemon"/>
+		<trait name="ChaosDaemons_MT/WarpTerritory/UpkeepStatusTest"/>
 		<trait name="ChaosDaemons_MT/Khorne"/>
 		<trait name="ChaosDaemons_MT/WarpRift"/>
 		<trait name="ChaosDaemons_MT/ContemptForSorcery"/>
