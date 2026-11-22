@@ -61,7 +61,6 @@
 		</die>
 		<setRallyPoint/>
 			<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeep"
-				cooldown="1"
 				passive="1"
 				icon="Actions/ChaosSpaceMarines/BoonOfMutation">
 			<perTurnProcessUseConditions>

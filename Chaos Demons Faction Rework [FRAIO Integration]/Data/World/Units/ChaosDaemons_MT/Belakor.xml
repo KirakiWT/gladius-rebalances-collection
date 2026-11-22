@@ -366,7 +366,6 @@
 			</modifiers>
 		</dimensionalCorridor>
 			<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/MantleOfShadows"
-				cooldown="1"
 				passive="1"
 				icon="Actions/ChaosSpaceMarines/BoonOfMutation">
 			<conditions>
