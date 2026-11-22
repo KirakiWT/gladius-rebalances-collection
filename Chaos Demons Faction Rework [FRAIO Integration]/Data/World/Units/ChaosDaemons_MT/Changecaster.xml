@@ -515,6 +515,9 @@
 				consumedActionPoints="0"
 				consumedMovement="0"
 				icon="Actions/ChaosSpaceMarines/BoonOfMutation">
+			<model>
+				<action sound="Actions/PsychicBuff"/>
+			</model>
 			<beginTargets>
 				<selfTarget>
 					<areas>
