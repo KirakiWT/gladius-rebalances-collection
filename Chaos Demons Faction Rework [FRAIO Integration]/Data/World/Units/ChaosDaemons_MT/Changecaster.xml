@@ -334,7 +334,7 @@
 				<target rangeMax="1">
 					<conditions>
 						<tile>
-							<land/>
+							
 							<noEnemyCity/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
@@ -346,7 +346,7 @@
 						<area affects="Tile" radius="1" excludeRadius="0">
 							<modifiers>
 								<modifier>
-									<conditions><tile><land/><noEnemyCity/><noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/></tile></conditions>
+									<conditions><tile><noEnemyCity/><noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/></tile></conditions>
 									<effects>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/Khorne" duration="5"/>
 									</effects>
@@ -385,7 +385,7 @@
 				<target rangeMax="1">
 					<conditions>
 						<tile>
-							<land/>
+							
 							<noEnemyCity/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
@@ -397,7 +397,7 @@
 						<area affects="Tile" radius="1" excludeRadius="0">
 							<modifiers>
 								<modifier>
-									<conditions><tile><land/><noEnemyCity/><noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/></tile></conditions>
+									<conditions><tile><noEnemyCity/><noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/></tile></conditions>
 									<effects>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch" duration="5"/>
 									</effects>
@@ -436,7 +436,7 @@
 				<target rangeMax="1">
 					<conditions>
 						<tile>
-							<land/>
+							
 							<noEnemyCity/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
@@ -448,7 +448,7 @@
 						<area affects="Tile" radius="1" excludeRadius="0">
 							<modifiers>
 								<modifier>
-									<conditions><tile><land/><noEnemyCity/><noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/></tile></conditions>
+									<conditions><tile><noEnemyCity/><noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/></tile></conditions>
 									<effects>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh" duration="5"/>
 									</effects>
@@ -487,7 +487,7 @@
 				<target rangeMax="1">
 					<conditions>
 						<tile>
-							<land/>
+							
 							<noEnemyCity/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
@@ -499,7 +499,7 @@
 						<area affects="Tile" radius="1" excludeRadius="0">
 							<modifiers>
 								<modifier>
-									<conditions><tile><land/><noEnemyCity/><noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/></tile></conditions>
+									<conditions><tile><noEnemyCity/><noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/></tile></conditions>
 									<effects>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle" duration="5"/>
 									</effects>
