@@ -272,7 +272,7 @@
 				</modifier>
 			</modifiers>
 		</dimensionalCorridor>
-			<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/CreateKhorne"
+			<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/CreateKhorneHero"
 				cooldown="1"
 				consumedActionPoints="0"
 				consumedMovement="0"
@@ -309,7 +309,7 @@
 						</tile>
 					</conditions>
 					<areas>
-						<area affects="Tile" radius="1" excludeRadius="0">
+						<area affects="Tile" radius="1">
 							<modifiers>
 								<modifier>
 									<conditions><tile><noEnemyCity/><noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/></tile></conditions>
@@ -323,7 +323,7 @@
 				</target>
 			</beginTargets>
 		</genericUnitAbility>
-		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/CreateTzeentch"
+		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/CreateTzeentchHero"
 				cooldown="1"
 				consumedActionPoints="0"
 				consumedMovement="0"
@@ -360,7 +360,7 @@
 						</tile>
 					</conditions>
 					<areas>
-						<area affects="Tile" radius="1" excludeRadius="0">
+						<area affects="Tile" radius="1">
 							<modifiers>
 								<modifier>
 									<conditions><tile><noEnemyCity/><noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/></tile></conditions>
@@ -374,7 +374,7 @@
 				</target>
 			</beginTargets>
 		</genericUnitAbility>
-		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/CreateSlaanesh"
+		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/CreateSlaaneshHero"
 				cooldown="1"
 				consumedActionPoints="0"
 				consumedMovement="0"
@@ -411,7 +411,7 @@
 						</tile>
 					</conditions>
 					<areas>
-						<area affects="Tile" radius="1" excludeRadius="0">
+						<area affects="Tile" radius="1">
 							<modifiers>
 								<modifier>
 									<conditions><tile><noEnemyCity/><noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/></tile></conditions>
@@ -425,7 +425,7 @@
 				</target>
 			</beginTargets>
 		</genericUnitAbility>
-		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/CreateNurgle"
+		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/CreateNurgleHero"
 				cooldown="1"
 				consumedActionPoints="0"
 				consumedMovement="0"
@@ -462,7 +462,7 @@
 						</tile>
 					</conditions>
 					<areas>
-						<area affects="Tile" radius="1" excludeRadius="0">
+						<area affects="Tile" radius="1">
 							<modifiers>
 								<modifier>
 									<conditions><tile><noEnemyCity/><noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/><noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/></tile></conditions>
