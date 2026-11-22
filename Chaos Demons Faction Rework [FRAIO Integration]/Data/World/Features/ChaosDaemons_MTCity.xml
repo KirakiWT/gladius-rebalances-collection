@@ -11,6 +11,5 @@
 	</model>
 	<traits>
 		<trait name="City"/>
-		<trait name="ChaosDaemons_MT/ShadowOfChaos"/>
 	</traits>
 </feature>

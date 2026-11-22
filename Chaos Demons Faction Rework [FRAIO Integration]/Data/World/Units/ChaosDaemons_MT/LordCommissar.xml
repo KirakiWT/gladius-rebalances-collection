@@ -259,19 +259,6 @@
 						</area>
 					</areas>
 				</target>
-				<selfTarget>
-					<areas>
-						<area affects="Tile" radiusMin="2" radiusMax="4">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addFeature name="ChaosDaemons_MT/ShadowOfChaos" duration="3"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</selfTarget>
 			</beginTargets>			
 		</summaryExecution>
 		<ironWill beginOnDisappear="1"
@@ -322,11 +309,6 @@
 		<trait name="RefractorField"/>
 		<trait name="Stubborn"/>
 		<trait name="ChaosDaemons_MT/Undivided"/>
-		<trait name="ChaosDaemons_MT/ShadowOfChaos/Undivided"/>
-		<trait name="ChaosDaemons_MT/ShadowOfChaos/Khorne"/>
-		<trait name="ChaosDaemons_MT/ShadowOfChaos/Tzeentch"/>
-		<trait name="ChaosDaemons_MT/ShadowOfChaos/Slaanesh"/>
-		<trait name="ChaosDaemons_MT/ShadowOfChaos/Nurgle"/>
 		<trait name="Reinforcements_MT/SupportHero"/>
 	</traits>
 </unit>

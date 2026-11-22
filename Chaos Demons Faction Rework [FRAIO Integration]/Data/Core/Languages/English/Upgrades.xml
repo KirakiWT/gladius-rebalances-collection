@@ -210,8 +210,8 @@
 	<entry name="ChaosDaemons_MT/SmokeLauncherFlavor" value="<string name='Upgrades/ChaosSpaceMarines/SmokeLauncherFlavor'/>"/>
 	
 	<entry name="ChaosDaemons_MT/DaemonicTerror" value="Daemonic Terror"/>
-	<entry name="ChaosDaemons_MT/DaemonicTerrorDescription" value="Enemies within your shadow of chaos take damage each turn."/>
-	<entry name="ChaosDaemons_MT/DaemonicTerrorFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/DaemonicTerrorDescription" value="Enemies on your warp territories take damage each turn."/>
+	<entry name="ChaosDaemons_MT/DaemonicTerrorFlavor" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/NurgleFlavor'/>"/>
 	
 	<entry name="ChaosDaemons_MT/LocusOfUnstoppableFury" value="<string name='Actions/ChaosDaemons_MT/LocusOfUnstoppableFury'/>"/>
 	<entry name="ChaosDaemons_MT/LocusOfUnstoppableFuryDescription" value="<string name='Actions/ChaosDaemons_MT/LocusOfUnstoppableFuryDescription'/>"/>
@@ -257,14 +257,14 @@
 	<entry name="ChaosDaemons_MT/WarpSurgeFlavor" value="The winds of the warp blow strong, invigorating daemonkind and lending them supernatural speed and ferocity."/>
 	
 	<entry name="ChaosDaemons_MT/CorruptRealspace" value="Corrupt Realspace"/>
-	<entry name="ChaosDaemons_MT/CorruptRealspaceDescription" value="Reduce energy upkeep of units within your shadow of chaos."/>
+	<entry name="ChaosDaemons_MT/CorruptRealspaceDescription" value="Reduce energy upkeep of allied units on your warp territories."/>
 	<entry name="ChaosDaemons_MT/CorruptRealspaceFlavor" value="Daemons instinctively feel the need to despoil and corrupt every corner of realspace, the better to sustain their otherworldly forms."/>
 
 	<entry name="ChaosDaemons_MT/Heralds" value="Heralds"/>
 	<entry name="ChaosDaemons_MT/HeraldsDescription" value="Unlock the ability to recruit heralds of the Dark Gods. One daemonic hero unit per Dark God."/>
 	
 	<entry name="ChaosDaemons_MT/ShadowPact" value="Shadow Pact"/>
-	<entry name="ChaosDaemons_MT/ShadowPactDescription" value="Your shadow of chaos reduces morale loss."/>
+	<entry name="ChaosDaemons_MT/ShadowPactDescription" value="Allied units on your warp territories suffer less morale loss."/>
 	<entry name="ChaosDaemons_MT/ShadowPactFlavor" value="Though they have forsaken the Chaos Gods in favour of Be’lakor, the Dark Master’s mortal Disciples can still draw temporary power from offering soul-pacts to the daemons who fight in his service."/>
 	
 	

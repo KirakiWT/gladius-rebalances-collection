@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait icon="Actions/ChaosSpaceMarines/IconOfVengeance" alwaysColored="1" category="Buff">
+<trait alwaysColored="1" category="Buff" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh">
 	<modifiers>
 		<modifier>
 			<conditions>
 				<unit>
 					<allied/>
-					<trait name="ChaosDaemons_MT/ShadowOfChaos"/>
-					<trait name="ChaosDaemons_MT/Undivided"/>
+					<trait name="ChaosDaemons_MT/Slaanesh"/>
+				</unit>
+			</conditions>
+			<effects>
+				<movementMax add="1"/>
+				<meleeAccuracy mul="0.17"/>
+				<rangedAccuracy mul="0.17"/>
+			</effects>
+		</modifier>
+		<modifier requiredUpgrade="ChaosDaemons_MT/ShadowPact">
+			<conditions>
+				<unit>
+					<allied/>
 				</unit>
 			</conditions>
 			<effects>
@@ -17,8 +28,6 @@
 			<conditions>
 				<unit>
 					<allied/>
-					<trait name="ChaosDaemons_MT/ShadowOfChaos"/>
-					<trait name="ChaosDaemons_MT/Undivided"/>
 				</unit>
 			</conditions>
 			<effects>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feature blockingSight="0"
+		category="None"
+		icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh">
+	<model>
+		<smokeScreen blueprint="Effects/ChaosDaemons_MT/WarpTerritorySlaanesh"/>
+	</model>
+	<traits>
+		<trait name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+		<trait name="ChaosDaemons_MT/WarpTerritory/SlaaneshEnemy"/>
+		<trait name="ChaosDaemons_MT/WarpTerritory/SlaaneshRival"/>
+	</traits>
+</feature>

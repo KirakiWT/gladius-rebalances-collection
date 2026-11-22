@@ -172,13 +172,7 @@
 	<entry name="ChaosDaemons_MT/ScreamerBite" value="Screamer Bite"/>
 	<entry name="ChaosDaemons_MT/ScreamerBiteDescription" value="Increase armor penetration against monstrous creatures and vehicles."/>
 	
-	<entry name="ChaosDaemons_MT/ShadowOfChaos" value="Shadow of Chaos"/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaosDescription" value="This unit is within the Chaos Daemons sphere of influence."/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaosFlavor" value="When daemons pour into realspace, maelstroms of warp energy spill through in their wake. Manifest emotion and unbridled, nightmarish forces twist all that they touch, reshaping the landscape into bizarre forms while tormenting mortal beings to madness. To be embroiled in such tempests is to endure conditions utterly anathema to the fundamental laws of reality, provoking primal terror in even the most emotionless warriors."/>
 	
-	<entry name="ChaosDaemons_MT/ShadowOfChaosEnemy" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaos'/>"/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaosEnemyDescription" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosDescription'/>"/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaosEnemyFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosFlavor'/>"/>
 	
 	<entry name="ChaosDaemons_MT/ShrivellingPox" value="Shrivelling Pox"/>
 	<entry name="ChaosDaemons_MT/ShrivellingPoxDescription" value="Reduce damage dealt. Take damage each turn."/>
@@ -251,26 +245,6 @@
 	<entry name="ChaosDaemons_MT/ShadowLegion/Undivided" value="<string name='Traits/ChaosDaemons_MT/ShadowLegion/Khorne'/>"/>
 	<entry name="ChaosDaemons_MT/ShadowLegion/UndividedDescription" value="Increase melee damage reduction."/>
 	<entry name="ChaosDaemons_MT/ShadowLegion/UndividedFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowLegion/KhorneFlavor'/>"/>
-	
-	<entry name="ChaosDaemons_MT/ShadowOfChaos/Khorne" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaos'/>"/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaos/KhorneDescription" value="Increase damage,"/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaos/KhorneFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosFlavor'/>"/>
-	
-	<entry name="ChaosDaemons_MT/ShadowOfChaos/Nurgle" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaos'/>"/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaos/NurgleDescription" value="Increase damage reduction."/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaos/NurgleFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosFlavor'/>"/>
-	
-	<entry name="ChaosDaemons_MT/ShadowOfChaos/Slaanesh" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaos'/>"/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaos/SlaaneshDescription" value="Ignore enemy zone of control."/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaos/SlaaneshFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosFlavor'/>"/>
-	
-	<entry name="ChaosDaemons_MT/ShadowOfChaos/Tzeentch" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaos'/>"/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaos/TzeentchDescription" value="Reflect damage."/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaos/TzeentchFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosFlavor'/>"/>
-	
-	<entry name="ChaosDaemons_MT/ShadowOfChaos/Undivided" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaos'/>"/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaos/UndividedDescription" value="Reduce morale loss."/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaos/UndividedFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosFlavor'/>"/>
 	
 	<entry name="ChaosDaemons_MT/RiteOfBlood" value="<string name='Traits/ChaosSpaceMarines/RiteOfBlood'/>"/>
 	<entry name="ChaosDaemons_MT/RiteOfBloodDescription" value="<string name='Traits/ChaosSpaceMarines/RiteOfBloodDescription'/>"/>
@@ -392,4 +366,40 @@
 	<entry name="ChaosDaemons_MT/TzeentchAscension2" value="Master of Fate"/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="+20% damage. Upon researching this technology, all Tzeentch units gain 3 Research per Experience instead of Research per Kill Value."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/Khorne" value="Blood Territory — Favour"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneDescription" value="Allied Khorne servants: increased damage and movement. Technologies improve it: Shadow Pact, Corrupt Realspace (allies); Daemonic Terror (enemies)."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneEnemy" value="Blood Territory — Affliction"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneEnemyDescription" value="Enemies: increased morale loss, reduced melee damage reduction. Daemonic Terror deals damage each turn."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneEnemyFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneRival" value="Blood Territory — Rival's Ground"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneRivalDescription" value="Servants of the rival god lose morale each turn."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneRivalFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/Tzeentch" value="Flux Territory — Favour"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchDescription" value="Allied Tzeentch servants: increased melee and ranged damage reduction. Technologies improve it: Shadow Pact, Corrupt Realspace (allies); Daemonic Terror (enemies)."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchEnemy" value="Flux Territory — Affliction"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchEnemyDescription" value="Enemies: reduced melee and ranged accuracy. Daemonic Terror deals damage each turn."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchEnemyFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchRival" value="Flux Territory — Rival's Ground"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchRivalDescription" value="Servants of the rival god lose morale each turn."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchRivalFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/Slaanesh" value="Excess Territory — Favour"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshDescription" value="Allied Slaanesh servants: increased movement and accuracy. Technologies improve it: Shadow Pact, Corrupt Realspace (allies); Daemonic Terror (enemies)."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshEnemy" value="Excess Territory — Affliction"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshEnemyDescription" value="Enemies: reduced movement and attacks. Daemonic Terror deals damage each turn."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshEnemyFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshRival" value="Excess Territory — Rival's Ground"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshRivalDescription" value="Servants of the rival god lose morale each turn."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshRivalFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/Nurgle" value="Plague Territory — Favour"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleDescription" value="Allied Nurgle servants: increased damage reduction and healing. Technologies improve it: Shadow Pact, Corrupt Realspace (allies); Daemonic Terror (enemies)."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleEnemy" value="Plague Territory — Affliction"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleEnemyDescription" value="Enemies: reduced armor and healing. Daemonic Terror deals damage each turn."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleEnemyFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleRival" value="Plague Territory — Rival's Ground"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleRivalDescription" value="Servants of the rival god lose morale each turn."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleRivalFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 </language>

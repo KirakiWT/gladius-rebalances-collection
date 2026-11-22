@@ -157,8 +157,8 @@
 	<entry name="ChaosDaemons_MT/SmokeLauncherDescription" value="Дарует Гидре, Лэнд-Рейдеру, Боевому Танку Леман Русс и Разведчику-Сентинелю способность запускать дымовую завесу, увеличивающую снижение урона от дальних атак."/>
 	<entry name="ChaosDaemons_MT/SmokeLauncherFlavor" value="<string name='Upgrades/ChaosSpaceMarines/SmokeLauncherFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/DaemonicTerror" value="Демонический ужас"/>
-	<entry name="ChaosDaemons_MT/DaemonicTerrorDescription" value="Враги в пределах вашей тени хаоса получают урон каждый ход."/>
-	<entry name="ChaosDaemons_MT/DaemonicTerrorFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/DaemonicTerrorDescription" value="Враги на вашей варп-территории получают урон каждый ход."/>
+	<entry name="ChaosDaemons_MT/DaemonicTerrorFlavor" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/NurgleFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/LocusOfUnstoppableFury" value="<string name='Actions/ChaosDaemons_MT/LocusOfUnstoppableFury'/>"/>
 	<entry name="ChaosDaemons_MT/LocusOfUnstoppableFuryDescription" value="<string name='Actions/ChaosDaemons_MT/LocusOfUnstoppableFuryDescription'/>"/>
 	<entry name="ChaosDaemons_MT/LocusOfUnstoppableFuryFlavor" value="<string name='Actions/ChaosDaemons_MT/LocusOfUnstoppableFuryFlavor'/>"/>
@@ -192,12 +192,12 @@
 	<entry name="ChaosDaemons_MT/WarpSurgeDescription" value="Варп-путешествие ваших демонов больше не расходует очки передвижения или действия."/>
 	<entry name="ChaosDaemons_MT/WarpSurgeFlavor" value="Ветры варпа дуют с огромной силой, воодушевляя демонов и наделяя их сверхъестественной скоростью и свирепостью."/>
 	<entry name="ChaosDaemons_MT/CorruptRealspace" value="Развращение реального пространства"/>
-	<entry name="ChaosDaemons_MT/CorruptRealspaceDescription" value="Уменьшает затраты энергии на содержание отрядов в пределах вашей тени хаоса."/>
+	<entry name="ChaosDaemons_MT/CorruptRealspaceDescription" value="Снижает расход энергии союзных юнитов на вашей варп-территории."/>
 	<entry name="ChaosDaemons_MT/CorruptRealspaceFlavor" value="Демоны инстинктивно чувствуют потребность осквернять и развращать каждый уголок реального пространства, чтобы лучше поддерживать свои потусторонние формы."/>
 	<entry name="ChaosDaemons_MT/Heralds" value="Вестники"/>
 	<entry name="ChaosDaemons_MT/HeraldsDescription" value="Открывает возможность нанимать вестников Тёмных Богов. По одному демоническому отряду героя на каждого Тёмного Бога."/>
 	<entry name="ChaosDaemons_MT/ShadowPact" value="Теневой пакт"/>
-	<entry name="ChaosDaemons_MT/ShadowPactDescription" value="Ваша тень хаоса уменьшает потерю боевого духа."/>
+	<entry name="ChaosDaemons_MT/ShadowPactDescription" value="Союзные юниты на вашей варп-территории меньше теряют мораль."/>
 	<entry name="ChaosDaemons_MT/ShadowPactFlavor" value="Хотя они отвергли Богов Хаоса в пользу Бе'лакора, смертные Ученики Тёмного Властелина всё ещё могут черпать временную силу, предлагая пакты душ демонам, сражающимся на его службе."/>
 	<entry name="ChaosDaemons_MT/KhorneAscension2" value="Аватар бойни"/>
 	<entry name="ChaosDaemons_MT/KhorneAscension2Description" value="Кровавый жаждущий получает +20% урона. Восстанавливает часть нанесённого урона. Не уступает титанам других фракций."/>

@@ -137,28 +137,6 @@
 				</selfTarget>
 			</beginTargets>
 		</quantumShielding>
-		<genericUnitAbility name="ChaosDaemons_MT/ShadowOfChaos" passive="1" icon="Actions/ChaosSpaceMarines/BoonOfMutation">
-			<beginTargets>
-				<selfTarget>
-					<areas>
-						<area affects="Tile" radius="1">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addTrait name="ChaosDaemons_MT/ShadowOfChaos"/>
-									</effects>
-								</modifier>
-								<modifier visible="0">
-									<effects>
-										<addTrait name="ChaosDaemons_MT/ShadowOfChaosEnemy"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</selfTarget>
-			</beginTargets>
-		</genericUnitAbility>
 		<auraOfFear passive="1">
 			<beginTargets>
 				<selfTarget>
@@ -328,6 +306,264 @@
 				</modifier>
 			</modifiers>
 		</dimensionalCorridor>
+			<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/CreateKhorne"
+				cooldown="1"
+				consumedActionPoints="0"
+				consumedMovement="0"
+				icon="Actions/ChaosSpaceMarines/MarkOfKhorne"
+				useConditionsForVisiblity="1">
+			<model>
+				<action sound="Actions/PsychicBuff"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/Khorne"/>
+					<morale greater="1"/>
+				</unit>
+			</conditions>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="1"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<beginTargets>
+				<target rangeMax="1">
+					<conditions>
+						<tile>
+							<land/>
+							<noEnemyCity/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
+						</tile>
+					</conditions>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/Khorne" duration="5"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</genericUnitAbility>
+		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/CreateTzeentch"
+				cooldown="1"
+				consumedActionPoints="0"
+				consumedMovement="0"
+				icon="Actions/ChaosSpaceMarines/MarkOfTzeentch"
+				useConditionsForVisiblity="1">
+			<model>
+				<action sound="Actions/PsychicBuff"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/Tzeentch"/>
+					<morale greater="1"/>
+				</unit>
+			</conditions>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="1"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<beginTargets>
+				<target rangeMax="1">
+					<conditions>
+						<tile>
+							<land/>
+							<noEnemyCity/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
+						</tile>
+					</conditions>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch" duration="5"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</genericUnitAbility>
+		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/CreateSlaanesh"
+				cooldown="1"
+				consumedActionPoints="0"
+				consumedMovement="0"
+				icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh"
+				useConditionsForVisiblity="1">
+			<model>
+				<action sound="Actions/PsychicBuff"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/Slaanesh"/>
+					<morale greater="1"/>
+				</unit>
+			</conditions>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="1"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<beginTargets>
+				<target rangeMax="1">
+					<conditions>
+						<tile>
+							<land/>
+							<noEnemyCity/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
+						</tile>
+					</conditions>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh" duration="5"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</genericUnitAbility>
+		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/CreateNurgle"
+				cooldown="1"
+				consumedActionPoints="0"
+				consumedMovement="0"
+				icon="Actions/ChaosSpaceMarines/MarkOfNurgle"
+				useConditionsForVisiblity="1">
+			<model>
+				<action sound="Actions/PsychicBuff"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/Nurgle"/>
+					<morale greater="1"/>
+				</unit>
+			</conditions>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="1"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<beginTargets>
+				<target rangeMax="1">
+					<conditions>
+						<tile>
+							<land/>
+							<noEnemyCity/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
+						</tile>
+					</conditions>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle" duration="5"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</genericUnitAbility>
+		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeep"
+				passive="1"
+				icon="Actions/ChaosSpaceMarines/BoonOfMutation">
+			<conditions>
+				<unit match="Any">
+					<trait name="ChaosDaemons_MT/Khorne"/>
+					<trait name="ChaosDaemons_MT/Tzeentch"/>
+					<trait name="ChaosDaemons_MT/Slaanesh"/>
+					<trait name="ChaosDaemons_MT/Nurgle"/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="1">
+							<modifiers>
+								<modifier visible="0">
+									<conditions>
+										<tile>
+											<feature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+										</tile>
+									</conditions>
+									<effects>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/Khorne" duration="5"/>
+									</effects>
+								</modifier>
+								<modifier visible="0">
+									<conditions>
+										<tile>
+											<feature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+										</tile>
+									</conditions>
+									<effects>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch" duration="5"/>
+									</effects>
+								</modifier>
+								<modifier visible="0">
+									<conditions>
+										<tile>
+											<feature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+										</tile>
+									</conditions>
+									<effects>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh" duration="5"/>
+									</effects>
+								</modifier>
+								<modifier visible="0">
+									<conditions>
+										<tile>
+											<feature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
+										</tile>
+									</conditions>
+									<effects>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle" duration="5"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
 	</actions>
 	<traits>
 		<trait name="Daemon"/>
@@ -335,11 +571,6 @@
 		<trait name="Psyker"/>
 		<trait name="ChaosDaemons_MT/Tzeentch"/>
 		<trait name="SoulBlaze"/>
-		<trait name="ChaosDaemons_MT/ShadowOfChaos/Undivided"/>
-		<trait name="ChaosDaemons_MT/ShadowOfChaos/Khorne"/>
-		<trait name="ChaosDaemons_MT/ShadowOfChaos/Tzeentch"/>
-		<trait name="ChaosDaemons_MT/ShadowOfChaos/Slaanesh"/>
-		<trait name="ChaosDaemons_MT/ShadowOfChaos/Nurgle"/>
 		<trait name="ChaosDaemons_MT/WarpRift"/>
 		<trait name="Reinforcements_MT/SupportHero"/>
 		<trait name="ChaosDaemons_MT/DaemonicResilience" requiredUpgrade="ChaosDaemons_MT/ExtraInfantryArmour"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait icon="Actions/ChaosSpaceMarines/BoonOfMutation" alwaysColored="1" category="Debuff" visible="1">
+<trait alwaysColored="1" category="Debuff" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch">
 	<modifiers>
 		<modifier>
 			<conditions>
@@ -8,7 +8,8 @@
 				</unit>
 			</conditions>
 			<effects>
-				<moraleLossFactor add="0.17"/>
+				<rangedAccuracy mul="-0.17"/>
+				<meleeAccuracy mul="-0.17"/>
 			</effects>
 		</modifier>
 	</modifiers>

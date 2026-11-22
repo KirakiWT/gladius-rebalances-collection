@@ -128,12 +128,6 @@
 	<entry name="ChaosDaemons_MT/ScintillatingLegionShieldFlavor" value="<string name='Traits/ChaosDaemons_MT/ScintillatingLegionFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/ScreamerBite" value="Укус Крикуна"/>
 	<entry name="ChaosDaemons_MT/ScreamerBiteDescription" value="Увеличивает бронепробиваемость против чудовищных существ и транспортных средств."/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaos" value="Тень Хаоса"/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaosDescription" value="Этот отряд находится в сфере влияния Демонов Хаоса."/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaosFlavor" value="Когда демоны выходят в реальное пространство, за ними проносятся водовороты варп-энергии. Проявляйте эмоции, и необузданные, кошмарные силы искажают все, к чему прикасаются, придавая ландшафту причудливые формы и одновременно доводя смертных существ до безумия. Быть втянутым в такие бури — значит терпеть условия, совершенно противоречащие основным законам реальности, вызывающие первобытный ужас даже у самых бесчувственных воинов."/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaosEnemy" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaos'/>"/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaosEnemyDescription" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosDescription'/>"/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaosEnemyFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/ShrivellingPox" value="Сморщивающая оспа"/>
 	<entry name="ChaosDaemons_MT/ShrivellingPoxDescription" value="Уменьшает наносимый урон. Получайте урон каждый ход."/>
 	<entry name="ChaosDaemons_MT/ShrivellingPoxFlavor" value="Пробормотав нечестивое песнопение на испорченном языке, демон призывает отвратительную зловредную тварь, которая проносится сквозь врагов, разрастается, как лесной пожар, и разъедает их плоть и органы, словно поток прожорливых личинок."/>
@@ -188,21 +182,6 @@
 	<entry name="ChaosDaemons_MT/ShadowLegion/Undivided" value="<string name='Traits/ChaosDaemons_MT/ShadowLegion/Khorne'/>"/>
 	<entry name="ChaosDaemons_MT/ShadowLegion/UndividedDescription" value="Увеличивает снижение урона в ближнем бою."/>
 	<entry name="ChaosDaemons_MT/ShadowLegion/UndividedFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowLegion/KhorneFlavor'/>"/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaos/Khorne" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaos'/>"/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaos/KhorneDescription" value="Увеличивает урон."/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaos/KhorneFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosFlavor'/>"/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaos/Nurgle" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaos'/>"/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaos/NurgleDescription" value="Увеличивает снижение урона."/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaos/NurgleFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosFlavor'/>"/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaos/Slaanesh" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaos'/>"/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaos/SlaaneshDescription" value="Игнорирует зону контроля противника."/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaos/SlaaneshFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosFlavor'/>"/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaos/Tzeentch" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaos'/>"/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaos/TzeentchDescription" value="Отражает урон."/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaos/TzeentchFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosFlavor'/>"/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaos/Undivided" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaos'/>"/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaos/UndividedDescription" value="Снижает потерю морального духа."/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaos/UndividedFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/RiteOfBlood" value="<string name='Traits/ChaosSpaceMarines/RiteOfBlood'/>"/>
 	<entry name="ChaosDaemons_MT/RiteOfBloodDescription" value="<string name='Traits/ChaosSpaceMarines/RiteOfBloodDescription'/>"/>
 	<entry name="ChaosDaemons_MT/RiteOfBloodFlavor" value="<string name='Traits/ChaosSpaceMarines/RiteOfBloodFlavor'/>"/>
@@ -298,4 +277,40 @@
 	<entry name="ChaosDaemons_MT/TzeentchAscension2" value="Властелин судьбы"/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="+20% к урону. После изучения этой технологии все слуги Тзинча вместо исследований за убийство получают 3 исследования за каждую единицу опыта."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2Flavor" value="На пике могущества великий демон выходит против боевых машин и титанов."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/Khorne" value="Территория крови — благословение"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneDescription" value="Слуги Кхорна: выше урон и скорость. Улучшается технологиями: Shadow Pact и Corrupt Realspace (союзники), Daemonic Terror (враги)."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneEnemy" value="Территория крови — гнёт"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneEnemyDescription" value="Враги: растёт потеря морали, снижена защита от ближнего боя. Daemonic Terror наносит урон каждый ход."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneEnemyFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneRival" value="Территория крови — чужая земля"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneRivalDescription" value="Слуги бога-соперника теряют мораль каждый ход."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneRivalFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/Tzeentch" value="Территория перемен — благословение"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchDescription" value="Слуги Тзинча: выше защита от ближнего и дальнего боя. Улучшается технологиями: Shadow Pact и Corrupt Realspace (союзники), Daemonic Terror (враги)."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchEnemy" value="Территория перемен — гнёт"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchEnemyDescription" value="Враги: снижена точность ближнего и дальнего боя. Daemonic Terror наносит урон каждый ход."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchEnemyFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchRival" value="Территория перемен — чужая земля"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchRivalDescription" value="Слуги бога-соперника теряют мораль каждый ход."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchRivalFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/Slaanesh" value="Территория излишеств — благословение"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshDescription" value="Слуги Слаанеш: выше скорость и точность. Улучшается технологиями: Shadow Pact и Corrupt Realspace (союзники), Daemonic Terror (враги)."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshEnemy" value="Территория излишеств — гнёт"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshEnemyDescription" value="Враги: снижены скорость и число атак. Daemonic Terror наносит урон каждый ход."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshEnemyFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshRival" value="Территория излишеств — чужая земля"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshRivalDescription" value="Слуги бога-соперника теряют мораль каждый ход."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshRivalFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/Nurgle" value="Территория чумы — благословение"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleDescription" value="Слуги Нургла: выше стойкость и лечение. Улучшается технологиями: Shadow Pact и Corrupt Realspace (союзники), Daemonic Terror (враги)."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleEnemy" value="Территория чумы — гнёт"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleEnemyDescription" value="Враги: снижены броня и лечение. Daemonic Terror наносит урон каждый ход."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleEnemyFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleRival" value="Территория чумы — чужая земля"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleRivalDescription" value="Слуги бога-соперника теряют мораль каждый ход."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleRivalFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 </language>

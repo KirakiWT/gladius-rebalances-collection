@@ -51,15 +51,9 @@
 	<entry name="ChaosDaemons_MT/WarpRiftTeleport" value="Путешествие по Варпу"/>
 	<entry name="ChaosDaemons_MT/WarpRiftTeleportDescription" value="Путешествие между вашими городами и разрывами Варпа."/>
 	<entry name="ChaosDaemons_MT/WarpRiftTeleportFlavor" value="Демонические легионы разрывают ткань реальности, злобные сущности мерцают, появляясь, как призраки из кошмара. Хуже того, по мере того как ужас и паника овладевают их жертвами, их смертные души становятся легкой добычей для сущностей, хлынувших из Варпа."/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaos" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaos'/>"/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaosDescription" value="Распространяет Тень Хаоса."/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaosFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/DaemonicReinforcements" value="Демоническое подкрепление"/>
 	<entry name="ChaosDaemons_MT/DaemonicReinforcementsDescription" value="Призывает малого демона."/>
 	<entry name="ChaosDaemons_MT/DaemonicReinforcementsFlavor" value="Демонические легионы разрывают ткань реальности, злобные сущности мерцают, появляясь, как призраки из кошмара. Хуже того, по мере того как ужас и паника овладевают их жертвами, их смертные души становятся легкой добычей для сущностей, хлынувших из Варпа."/>
-	<entry name="ChaosDaemons_MT/DuskOfChaos" value="Сумерки Хаоса"/>
-	<entry name="ChaosDaemons_MT/DuskOfChaosDescription" value="Увеличивает радиус ваших аур."/>
-	<entry name="ChaosDaemons_MT/DuskOfChaosFlavor" value="Встретить существо Варпа — значит столкнуться с сущностью, абсолютно чуждой фундаментальным законам реальности. Даже самый бесстрашный воин чувствует неестественный первобытный ужас в их присутствии."/>
 	<entry name="ChaosDaemons_MT/ShadowLegion" value="<string name='Traits/ChaosDaemons_MT/ShadowLegion/Khorne'/>"/>
 	<entry name="ChaosDaemons_MT/ShadowLegionDescription" value="Усиливает вашу армию."/>
 	<entry name="ChaosDaemons_MT/ShadowLegionFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowLegion/KhorneFlavor'/>"/>
@@ -216,4 +210,37 @@
 	<entry name="ChaosDaemons_MT/SkullLordPact" value="Договор Владыки Черепов"/>
 	<entry name="ChaosDaemons_MT/SkullLordPactDescription" value="Приносит в жертву любого союзного юнита, кроме героев, и на его месте на 4 хода призывает подконтрольного вам Владыку Черепов. Перезарядка: 20 ходов."/>
 	<entry name="ChaosDaemons_MT/SkullLordPactFlavor" value="Тысяча черепов для трона, и трон идёт в бой."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CreateKhorne" value="Создать: территория крови"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CreateKhorneDescription" value="Свободное действие. Стоит 1 влияния. Создаёт варп-территорию на плитке в радиусе 1 (держится 5 ходов; не угасает, пока рядом слуга Хаоса). Недоступно при почти нулевой морали."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CreateKhorneFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CreateTzeentch" value="Создать: территория перемен"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CreateTzeentchDescription" value="Свободное действие. Стоит 1 влияния. Создаёт варп-территорию на плитке в радиусе 1 (держится 5 ходов; не угасает, пока рядом слуга Хаоса). Недоступно при почти нулевой морали."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CreateTzeentchFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CreateSlaanesh" value="Создать: территория излишеств"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CreateSlaaneshDescription" value="Свободное действие. Стоит 1 влияния. Создаёт варп-территорию на плитке в радиусе 1 (держится 5 ходов; не угасает, пока рядом слуга Хаоса). Недоступно при почти нулевой морали."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CreateSlaaneshFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CreateNurgle" value="Создать: территория чумы"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CreateNurgleDescription" value="Свободное действие. Стоит 1 влияния. Создаёт варп-территорию на плитке в радиусе 1 (держится 5 ходов; не угасает, пока рядом слуга Хаоса). Недоступно при почти нулевой морали."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CreateNurgleFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeep" value="Поддержание варп-территории"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepDescription" value="Варп-территория вокруг слуг Хаоса не угасает."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/MantleOfShadows" value="Покров теней"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/MantleOfShadowsDescription" value="Варп-территория в радиусе 3 клеток не угасает."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/MantleOfShadowsFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
+	<entry name="ChaosDaemons_MT/WarpBlink" value="Варп-прыжок"/>
+	<entry name="ChaosDaemons_MT/WarpBlinkDescription" value="Телепортация на выбранную плитку."/>
+	<entry name="ChaosDaemons_MT/WarpBlinkFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
+	<entry name="ChaosDaemons_MT/WarpDetonation" value="Варп-детонация"/>
+	<entry name="ChaosDaemons_MT/WarpDetonationDescription" value="Оглушает врагов в радиусе 3 на 1 ход и создаёт территорию перемен в радиусе 3."/>
+	<entry name="ChaosDaemons_MT/WarpDetonationFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
+	<entry name="ChaosDaemons_MT/BloodTide" value="Кровавый прилив"/>
+	<entry name="ChaosDaemons_MT/BloodTideDescription" value="Создаёт территорию крови в радиусе 2 и повышает мораль слуг Кхорна."/>
+	<entry name="ChaosDaemons_MT/BloodTideFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
+	<entry name="ChaosDaemons_MT/PavaneOfExcess" value="Павана излишеств"/>
+	<entry name="ChaosDaemons_MT/PavaneOfExcessDescription" value="Создаёт территорию излишеств в радиусе 2 и ранит врагов."/>
+	<entry name="ChaosDaemons_MT/PavaneOfExcessFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
+	<entry name="ChaosDaemons_MT/CreepingBlight" value="Ползущая скверна"/>
+	<entry name="ChaosDaemons_MT/CreepingBlightDescription" value="Каждый ход распространяет территорию чумы на соседние плитки."/>
+	<entry name="ChaosDaemons_MT/CreepingBlightFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 </language>

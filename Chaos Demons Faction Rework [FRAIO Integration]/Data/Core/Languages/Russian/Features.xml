@@ -5,9 +5,6 @@
 	<entry name="ChaosDaemons_MT/InfernalGatewayFlavor" value="<string name='Traits/ChaosDaemons_MT/InfernalGatewayFlavor'/>"/>
 	<entry name="ChaosDaemons_MTCityDescription" value="<string name='Features/ChaosSpaceMarinesCityDescription'/>"/>
 	<entry name="ChaosDaemons_MTCityFlavor" value="<string name='Features/ChaosSpaceMarinesCityFlavor'/>"/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaos" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaos'/>"/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaosDescription" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosDescription'/>"/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaosFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/WreathedInShades" value="<string name='Traits/ChaosDaemons_MT/WreathedInShades'/>"/>
 	<entry name="ChaosDaemons_MT/WreathedInShadesDescription" value="<string name='Traits/ChaosDaemons_MT/WreathedInShadesDescription'/>"/>
 	<entry name="ChaosDaemons_MT/WreathedInShadesFlavor" value="<string name='Traits/ChaosDaemons_MT/WreathedInShadesFlavor'/>"/>
@@ -24,4 +21,16 @@
 	<entry name="ChaosDaemons_MT/SmokeScreen/SlaaneshDescription" value="<string name='Traits/SmokeScreenDescription'/>"/>
 	<entry name="ChaosDaemons_MT/SmokeScreen/SlaaneshFlavor" value="<string name='Traits/SmokeScreenFlavor'/>"/>
 	<entry name="ChaosDaemons_MTCity" value="Город демонов Хаоса"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/Khorne" value="Территория крови"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/KhorneDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/Tzeentch" value="Территория перемен"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/TzeentchDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/Slaanesh" value="Территория излишеств"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/SlaaneshDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/Nurgle" value="Территория чумы"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/NurgleDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 </language>

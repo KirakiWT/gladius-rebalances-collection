@@ -60,39 +60,12 @@
 			</model>
 		</die>
 		<setRallyPoint/>
-		<genericUnitAbility name="ChaosDaemons_MT/ShadowOfChaos" passive="1" icon="Actions/ChaosSpaceMarines/BoonOfMutation">
-			<beginTargets>
-				<selfTarget>
-					<areas>
-						<area affects="Tile" radius="2">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addTrait name="ChaosDaemons_MT/ShadowOfChaos"/>
-									</effects>
-								</modifier>
-								<modifier visible="0">
-									<effects>
-										<addTrait name="ChaosDaemons_MT/ShadowOfChaosEnemy"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</selfTarget>
-			</beginTargets>
-		</genericUnitAbility>
 	</actions>
 	<traits>
 		<trait name="Fortification"/>
 		<trait name="Headquarters"/>
 		<trait name="Transport"/>
 		<trait name="ChaosDaemons_MT/Undivided"/>
-		<trait name="ChaosDaemons_MT/ShadowOfChaos/Undivided"/>
-		<trait name="ChaosDaemons_MT/ShadowOfChaos/Khorne"/>
-		<trait name="ChaosDaemons_MT/ShadowOfChaos/Tzeentch"/>
-		<trait name="ChaosDaemons_MT/ShadowOfChaos/Slaanesh"/>
-		<trait name="ChaosDaemons_MT/ShadowOfChaos/Nurgle"/>
 		<trait name="Necrons/EternityGate"/>
 		<trait name="ChaosDaemons_MT/WarpRiftReady"/>
 	</traits>

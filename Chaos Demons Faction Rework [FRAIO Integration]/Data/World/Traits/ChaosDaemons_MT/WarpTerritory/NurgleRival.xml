@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysColored="1" category="Debuff" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/Slaanesh"/>
+				</unit>
+			</conditions>
+			<effects>
+				<moraleLossFactor add="0.33"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<perTurnModifiers endure="0">
+		<modifier>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/Slaanesh"/>
+				</unit>
+			</conditions>
+			<effects>
+				<morale add="-2"/>
+			</effects>
+		</modifier>
+	</perTurnModifiers>
+</trait>

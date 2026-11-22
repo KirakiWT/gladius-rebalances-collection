@@ -9,9 +9,6 @@
 	<entry name="ChaosDaemons_MTCityDescription" value="<string name='Features/ChaosSpaceMarinesCityDescription'/>"/>
 	<entry name="ChaosDaemons_MTCityFlavor" value="<string name='Features/ChaosSpaceMarinesCityFlavor'/>"/>
 	
-	<entry name="ChaosDaemons_MT/ShadowOfChaos" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaos'/>"/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaosDescription" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosDescription'/>"/>
-	<entry name="ChaosDaemons_MT/ShadowOfChaosFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowOfChaosFlavor'/>"/>
 	
 	<entry name="ChaosDaemons_MT/WreathedInShades" value="<string name='Traits/ChaosDaemons_MT/WreathedInShades'/>"/>
 	<entry name="ChaosDaemons_MT/WreathedInShadesDescription" value="<string name='Traits/ChaosDaemons_MT/WreathedInShadesDescription'/>"/>
@@ -33,4 +30,16 @@
 	<entry name="ChaosDaemons_MT/SmokeScreen/SlaaneshDescription" value="<string name='Traits/SmokeScreenDescription'/>"/>
 	<entry name="ChaosDaemons_MT/SmokeScreen/SlaaneshFlavor" value="<string name='Traits/SmokeScreenFlavor'/>"/>
 	
+	<entry name="ChaosDaemons_MT/WarpTerritory/Khorne" value="Blood Territory"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/KhorneDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/Tzeentch" value="Flux Territory"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/TzeentchDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/Slaanesh" value="Excess Territory"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/SlaaneshDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/Nurgle" value="Plague Territory"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/NurgleDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 </language>
