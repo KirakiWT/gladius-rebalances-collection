@@ -23,13 +23,6 @@
 						effectFaceWeight="0"/>
 			</model>		
 		</weapon>
-		<weapon name="ChaosDaemons_MT/CursedRelicShot" slotName="CursedRelicShot" enabled="0">
-			<model>
-				<projectileWeapon muzzleBone="Muzzle"
-						fireInterval="1.0"
-						effectFaceWeight="0"/>
-			</model>
-		</weapon>
 	</weapons>
 	<modifiers>
 		<modifier visible="0">
@@ -160,8 +153,7 @@
 				</modifier>
 			</modifiers>
 		</dimensionalCorridor>
-			<useWeapon weaponSlotName="CursedRelicShot"
-				name="ChaosDaemons_MT/WarpTerritory/CursedRelicShotKhorne"
+			<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/CursedRelicShotKhorne"
 				cooldown="1"
 				consumedActionPoints="0"
 				consumedMovement="0"
@@ -169,7 +161,8 @@
 				useConditionsForVisiblity="1">
 			<model>
 				<action animation="Units/Reinforcements_MT/SkullcannonKhorne/Range"
-						beginFire="0.5" endFire="1.5"/>
+						sound="Weapons/EarthshakerCannon"
+						soundCount="3"/>
 			</model>
 			<conditions>
 				<unit>
@@ -198,7 +191,7 @@
 					<areas>
 						<area affects="Tile">
 							<modifiers>
-								<modifier visible="0">
+								<modifier>
 									<effects>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
@@ -211,7 +204,7 @@
 					</areas>
 				</target>
 			</beginTargets>
-		</useWeapon>
+		</genericUnitAbility>
 		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/CursedRelicShotTzeentch"
 				cooldown="1"
 				consumedActionPoints="0"
