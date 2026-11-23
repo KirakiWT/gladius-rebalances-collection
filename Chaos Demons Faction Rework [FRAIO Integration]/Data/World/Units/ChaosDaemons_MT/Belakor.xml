@@ -439,6 +439,7 @@
 				cooldown="1"
 				consumedActionPoints="0"
 				consumedMovement="0"
+				requiredActionPoints="0"
 				icon="Actions/ChaosSpaceMarines/BoonOfMutation">
 			<model>
 				<action sound="Actions/PsychicBuff"/>

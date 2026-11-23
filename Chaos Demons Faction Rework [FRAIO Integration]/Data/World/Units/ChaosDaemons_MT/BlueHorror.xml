@@ -182,9 +182,6 @@
 							
 							<noEnemyCity/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
-							<noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
-							<noFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
-							<noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
 						</tile>
 					</conditions>
 					<areas>
@@ -192,6 +189,9 @@
 							<modifiers>
 								<modifier>
 									<effects>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/Khorne" duration="5"/>
 									</effects>
 								</modifier>
@@ -231,10 +231,7 @@
 						<tile>
 							
 							<noEnemyCity/>
-							<noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
-							<noFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
-							<noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
 						</tile>
 					</conditions>
 					<areas>
@@ -242,6 +239,9 @@
 							<modifiers>
 								<modifier>
 									<effects>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch" duration="5"/>
 									</effects>
 								</modifier>
@@ -281,10 +281,7 @@
 						<tile>
 							
 							<noEnemyCity/>
-							<noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
-							<noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
-							<noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
 						</tile>
 					</conditions>
 					<areas>
@@ -292,6 +289,9 @@
 							<modifiers>
 								<modifier>
 									<effects>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh" duration="5"/>
 									</effects>
 								</modifier>
@@ -331,9 +331,6 @@
 						<tile>
 							
 							<noEnemyCity/>
-							<noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
-							<noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
-							<noFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
 						</tile>
 					</conditions>
@@ -342,6 +339,9 @@
 							<modifiers>
 								<modifier>
 									<effects>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle" duration="5"/>
 									</effects>
 								</modifier>
@@ -355,6 +355,7 @@
 				cooldown="1"
 				consumedActionPoints="0"
 				consumedMovement="0"
+				requiredActionPoints="0"
 				icon="Actions/ChaosSpaceMarines/BoonOfMutation">
 			<model>
 				<action sound="Actions/PsychicBuff"/>

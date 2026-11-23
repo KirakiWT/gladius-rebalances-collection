@@ -268,31 +268,31 @@
 	<entry name="ChaosDaemons_MT/SkullLordPactDescription" value="Sacrifices any allied non-hero unit and summons a Lord of Skulls under your control in its place for 4 turns. Cooldown: 20 turns."/>
 	<entry name="ChaosDaemons_MT/SkullLordPactFlavor" value="A thousand skulls for a throne, and the throne walks."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateKhorne" value="Create Blood Territory"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/CreateKhorneDescription" value="Creates Warp Territory. Costs 2 ore."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CreateKhorneDescription" value="Creates Warp Territory. Costs 2 ore. Replaces Warp Territory belonging to another god."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateKhorneFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateKhorneHero" value="Create Blood Territory"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/CreateKhorneHeroDescription" value="Creates Warp Territory on the target tile and adjacent tiles. Costs 7 ore."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CreateKhorneHeroDescription" value="Creates Warp Territory on the target tile and adjacent tiles. Costs 7 ore. Replaces Warp Territory belonging to another god."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateKhorneHeroFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateTzeentch" value="Create Flux Territory"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/CreateTzeentchDescription" value="Creates Warp Territory. Costs 2 energy."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CreateTzeentchDescription" value="Creates Warp Territory. Costs 2 energy. Replaces Warp Territory belonging to another god."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateTzeentchFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateTzeentchHero" value="Create Flux Territory"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/CreateTzeentchHeroDescription" value="Creates Warp Territory on the target tile and adjacent tiles. Costs 7 energy."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CreateTzeentchHeroDescription" value="Creates Warp Territory on the target tile and adjacent tiles. Costs 7 energy. Replaces Warp Territory belonging to another god."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateTzeentchHeroFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateSlaanesh" value="Create Excess Territory"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/CreateSlaaneshDescription" value="Creates Warp Territory. Costs 2 influence."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CreateSlaaneshDescription" value="Creates Warp Territory. Costs 2 influence. Replaces Warp Territory belonging to another god."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateSlaaneshFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateSlaaneshHero" value="Create Excess Territory"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/CreateSlaaneshHeroDescription" value="Creates Warp Territory on the target tile and adjacent tiles. Costs 7 influence."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CreateSlaaneshHeroDescription" value="Creates Warp Territory on the target tile and adjacent tiles. Costs 7 influence. Replaces Warp Territory belonging to another god."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateSlaaneshHeroFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateNurgle" value="Create Plague Territory"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/CreateNurgleDescription" value="Creates Warp Territory. Costs 2 food."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CreateNurgleDescription" value="Creates Warp Territory. Costs 2 food. Replaces Warp Territory belonging to another god."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateNurgleFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateNurgleHero" value="Create Plague Territory"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/CreateNurgleHeroDescription" value="Creates Warp Territory on the target tile and adjacent tiles. Costs 7 food."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CreateNurgleHeroDescription" value="Creates Warp Territory on the target tile and adjacent tiles. Costs 7 food. Replaces Warp Territory belonging to another god."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateNurgleHeroFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeep" value="Warp territory upkeep"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepDescription" value="Refreshes Warp Territory to 5 turns."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepDescription" value="Refreshes nearby existing Warp Territory to 5 turns. Costs no action points or movement."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/MantleOfShadows" value="Mantle of Shadows"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/MantleOfShadowsDescription" value="Warp territory within 3 tiles does not fade."/>
@@ -304,19 +304,19 @@
 	<entry name="ChaosDaemons_MT/WarpDetonationDescription" value="Stun enemies within 3 tiles for 1 turn and create Flux Territory in 3 tiles around."/>
 	<entry name="ChaosDaemons_MT/WarpDetonationFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/BloodTide" value="Blood Tide"/>
-	<entry name="ChaosDaemons_MT/BloodTideDescription" value="Create Blood Territory in 2 tiles and restore morale of allied Khorne servants."/>
+	<entry name="ChaosDaemons_MT/BloodTideDescription" value="Create Blood Territory in 2 tiles and restore morale of allied Khorne servants. Replaces Warp Territory belonging to another god."/>
 	<entry name="ChaosDaemons_MT/BloodTideFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/PavaneOfExcess" value="Pavane of Excess"/>
-	<entry name="ChaosDaemons_MT/PavaneOfExcessDescription" value="Create Excess Territory in 2 tiles and damage enemies there."/>
+	<entry name="ChaosDaemons_MT/PavaneOfExcessDescription" value="Create Excess Territory in 2 tiles and damage enemies there. Replaces Warp Territory belonging to another god."/>
 	<entry name="ChaosDaemons_MT/PavaneOfExcessFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/CreepingBlight" value="Creeping Blight"/>
-	<entry name="ChaosDaemons_MT/CreepingBlightDescription" value="Every turn spread Plague Territory to adjacent tiles."/>
+	<entry name="ChaosDaemons_MT/CreepingBlightDescription" value="Every turn spread Plague Territory to adjacent tiles. Replaces Warp Territory belonging to another god."/>
 	<entry name="ChaosDaemons_MT/CreepingBlightFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/BloodDuel" value="Blood Duel"/>
 	<entry name="ChaosDaemons_MT/BloodDuelDescription" value="Challenge an enemy within 2 tiles for 2-3 turns. It cannot move more than 1 tile, and it and the Bloodmaster deal 30% more damage to each other."/>
 	<entry name="ChaosDaemons_MT/BloodDuelFlavor" value="Khorne cares not from whence the blood flows, only that it flows. The Herald calls out a champion, and no foe may refuse."/>
 	<entry name="ChaosDaemons_MT/AltarOfSlaughter" value="Altar of Slaughter"/>
-	<entry name="ChaosDaemons_MT/AltarOfSlaughterDescription" value="Create Khorne warp territory on this tile and all adjacent tiles for free, without spending actions or movement. Tiles that already have warp territory are not changed."/>
+	<entry name="ChaosDaemons_MT/AltarOfSlaughterDescription" value="Creates Khorne Warp Territory on this tile and adjacent tiles for free, replacing Warp Territory belonging to other gods."/>
 	<entry name="ChaosDaemons_MT/AltarOfSlaughterFlavor" value="Where the Herald plants his banner the ground drinks deep, and the Blood God’s gaze takes root."/>
 	<entry name="ChaosDaemons_MT/PainChorus" value="Pain Chorus"/>
 	<entry name="ChaosDaemons_MT/PainChorusDescription" value="Allied units within 2 tiles regain 1-2 morale and gain +1 movement for a turn. Enemies within 1 tile lose 2 morale."/>
@@ -327,4 +327,7 @@
 	<entry name="ChaosDaemons_MT/SkullFeast" value="<string name='Traits/ChaosDaemons_MT/SkullFeast'/>"/>
 	<entry name="ChaosDaemons_MT/SkullFeastDescription" value="<string name='Traits/ChaosDaemons_MT/SkullFeastDescription'/>"/>
 	<entry name="ChaosDaemons_MT/SkullFeastFlavor" value="<string name='Traits/ChaosDaemons_MT/SkullFeastFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/TheBloodMustFlow" value="The blood must flow"/>
+	<entry name="ChaosDaemons_MT/TheBloodMustFlowDescription" value="Regain an action point."/>
+	<entry name="ChaosDaemons_MT/TheBloodMustFlowFlavor" value="Rallied by bloody example, Khorne’s lesser daemons leap into combat."/>
 </language>
