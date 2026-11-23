@@ -315,4 +315,10 @@
 	<entry name="ChaosDaemons_MT/RustFever" value="Ржавая лихорадка"/>
 	<entry name="ChaosDaemons_MT/RustFeverDescription" value="Уменьшает броню и лечение. Увеличивает получаемый урон."/>
 	<entry name="ChaosDaemons_MT/RustFeverFlavor" value="Один сип из дудок, железо осыпается хлопьями, плоть гноится, и даже самая гордая броня начинает сочиться рыжиной."/>
+	<entry name="ChaosDaemons_MT/LoathsomeAura" value="<string name='Traits/ChaosSpaceMarines/LoathsomeAura'/>"/>
+	<entry name="ChaosDaemons_MT/LoathsomeAuraDescription" value="<string name='Traits/ChaosSpaceMarines/LoathsomeAuraDescription'/>"/>
+	<entry name="ChaosDaemons_MT/LoathsomeAuraFlavor" value="<string name='Traits/ChaosSpaceMarines/LoathsomeAuraFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/MalevolentLocus" value="<string name='Traits/ChaosSpaceMarines/MalevolentLocus'/>"/>
+	<entry name="ChaosDaemons_MT/MalevolentLocusDescription" value="<string name='Traits/ChaosSpaceMarines/MalevolentLocusDescription'/>"/>
+	<entry name="ChaosDaemons_MT/MalevolentLocusFlavor" value="<string name='Traits/ChaosSpaceMarines/MalevolentLocusFlavor'/>"/>
 </language>

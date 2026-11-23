@@ -404,4 +404,10 @@
 	<entry name="ChaosDaemons_MT/RustFever" value="Rust Fever"/>
 	<entry name="ChaosDaemons_MT/RustFeverDescription" value="Decrease armour and healing. Take additional damage."/>
 	<entry name="ChaosDaemons_MT/RustFeverFlavor" value="One wheeze from the pipes and iron flakes, flesh festers, and even the proudest armour begins to weep orange."/>
+	<entry name="ChaosDaemons_MT/LoathsomeAura" value="<string name='Traits/ChaosSpaceMarines/LoathsomeAura'/>"/>
+	<entry name="ChaosDaemons_MT/LoathsomeAuraDescription" value="<string name='Traits/ChaosSpaceMarines/LoathsomeAuraDescription'/>"/>
+	<entry name="ChaosDaemons_MT/LoathsomeAuraFlavor" value="<string name='Traits/ChaosSpaceMarines/LoathsomeAuraFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/MalevolentLocus" value="<string name='Traits/ChaosSpaceMarines/MalevolentLocus'/>"/>
+	<entry name="ChaosDaemons_MT/MalevolentLocusDescription" value="<string name='Traits/ChaosSpaceMarines/MalevolentLocusDescription'/>"/>
+	<entry name="ChaosDaemons_MT/MalevolentLocusFlavor" value="<string name='Traits/ChaosSpaceMarines/MalevolentLocusFlavor'/>"/>
 </language>

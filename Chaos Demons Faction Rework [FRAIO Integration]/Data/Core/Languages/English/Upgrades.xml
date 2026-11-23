@@ -283,4 +283,7 @@
 	<entry name="ChaosDaemons_MT/SkullLordPact" value="Skull Lord’s Pact"/>
 	<entry name="ChaosDaemons_MT/SkullLordPactDescription" value="Unlocks the Bloodthirster ability Skull Lord’s Pact."/>
 	<entry name="ChaosDaemons_MT/SkullLordPactFlavor" value="Khorne cares not whence the blood flows, only that it flows."/>
+	<entry name="ChaosDaemons_MT/NoctilithCrown" value="<string name='Units/ChaosSpaceMarines/NoctilithCrown'/>"/>
+	<entry name="ChaosDaemons_MT/NoctilithCrownDescription" value="Allows daemon cultists to construct Noctilith Crowns."/>
+	<entry name="ChaosDaemons_MT/NoctilithCrownFlavor" value="<string name='Units/ChaosSpaceMarines/NoctilithCrownFlavor'/>"/>
 </language>

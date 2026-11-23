@@ -665,7 +665,48 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-</actions>
+		<constructNoctilithCrown icon="Units/ChaosSpaceMarines/NoctilithCrown"
+				requiredUpgrade="ChaosDaemons_MT/NoctilithCrown"
+				cooldown="10">
+			<model>
+				<action animation="Units/ChaosSpaceMarines/ChaosCultistWork"
+						sound="Actions/Construct"/>
+			</model>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<energyCost base="20"/>
+						<oreCost base="20"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<beginTargets>
+				<target rangeMax="1">
+					<conditions>
+						<tile>
+							<noFeatureCategory name="Resource"/>
+							<noFeatureCategory name="WireWeed"/>
+							<land/>
+							<noEnemyCity/>
+							<noUnit/>
+							<noFeature name="GravityWaves"/>
+						</tile>
+					</conditions>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addUnit name="ChaosDaemons_MT/NoctilithCrown"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</constructNoctilithCrown>
+	</actions>
 	<traits>
 		<trait name="ChaosDaemons_MT/WarbandDiscipline" requiredUpgrade="ChaosDaemons_MT/ExtraInfantryArmour"/>
 		<trait name="ChaosDaemons_MT/Undivided"/>

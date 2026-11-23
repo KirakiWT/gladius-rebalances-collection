@@ -214,4 +214,7 @@
 	<entry name="ChaosDaemons_MT/SkullLordPact" value="Договор Владыки Черепов"/>
 	<entry name="ChaosDaemons_MT/SkullLordPactDescription" value="Открывает способность Кровавого жаждущего «Договор Владыки Черепов»."/>
 	<entry name="ChaosDaemons_MT/SkullLordPactFlavor" value="Кхорну всё равно, откуда течёт кровь, лишь бы она текла."/>
+	<entry name="ChaosDaemons_MT/NoctilithCrown" value="<string name='Units/ChaosSpaceMarines/NoctilithCrown'/>"/>
+	<entry name="ChaosDaemons_MT/NoctilithCrownDescription" value="Позволяет культистам демонов строить Ноктилитовые короны."/>
+	<entry name="ChaosDaemons_MT/NoctilithCrownFlavor" value="<string name='Units/ChaosSpaceMarines/NoctilithCrownFlavor'/>"/>
 </language>
