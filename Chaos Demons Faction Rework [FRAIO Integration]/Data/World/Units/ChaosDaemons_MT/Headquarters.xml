@@ -131,12 +131,12 @@
 		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing1" icon="Actions/ChaosSpaceMarines/MarkOfKhorne" passive="1" visible="0">
 			<conditions>
 				<unit>
-					<trait name="ChaosDaemons_MT/Khorne"/>
+					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkKhorne"/>
 				</unit>
 			</conditions>
 			<perTurnProcessUseConditions>
 				<unit>
-					<trait name="ChaosDaemons_MT/Khorne"/>
+					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkKhorne"/>
 				</unit>
 			</perTurnProcessUseConditions>
 			<beginTargets>
@@ -154,6 +154,7 @@
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -165,12 +166,12 @@
 		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing2" icon="Actions/ChaosSpaceMarines/MarkOfKhorne" passive="1" requiredUpgrade="ChaosDaemons_MT/WarpNexuses" visible="0">
 			<conditions>
 				<unit>
-					<trait name="ChaosDaemons_MT/Khorne"/>
+					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkKhorne"/>
 				</unit>
 			</conditions>
 			<perTurnProcessUseConditions>
 				<unit>
-					<trait name="ChaosDaemons_MT/Khorne"/>
+					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkKhorne"/>
 				</unit>
 			</perTurnProcessUseConditions>
 			<beginTargets>
@@ -188,6 +189,7 @@
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -199,12 +201,12 @@
 		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing3" icon="Actions/ChaosSpaceMarines/MarkOfKhorne" passive="1" requiredUpgrade="ChaosDaemons_MT/WarpDominion" visible="0">
 			<conditions>
 				<unit>
-					<trait name="ChaosDaemons_MT/Khorne"/>
+					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkKhorne"/>
 				</unit>
 			</conditions>
 			<perTurnProcessUseConditions>
 				<unit>
-					<trait name="ChaosDaemons_MT/Khorne"/>
+					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkKhorne"/>
 				</unit>
 			</perTurnProcessUseConditions>
 			<beginTargets>
@@ -222,6 +224,7 @@
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -233,12 +236,12 @@
 		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing1" icon="Actions/ChaosSpaceMarines/MarkOfNurgle" passive="1" visible="0">
 			<conditions>
 				<unit>
-					<trait name="ChaosDaemons_MT/Nurgle"/>
+					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkNurgle"/>
 				</unit>
 			</conditions>
 			<perTurnProcessUseConditions>
 				<unit>
-					<trait name="ChaosDaemons_MT/Nurgle"/>
+					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkNurgle"/>
 				</unit>
 			</perTurnProcessUseConditions>
 			<beginTargets>
@@ -256,6 +259,7 @@
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -267,12 +271,12 @@
 		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing2" icon="Actions/ChaosSpaceMarines/MarkOfNurgle" passive="1" requiredUpgrade="ChaosDaemons_MT/WarpNexuses" visible="0">
 			<conditions>
 				<unit>
-					<trait name="ChaosDaemons_MT/Nurgle"/>
+					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkNurgle"/>
 				</unit>
 			</conditions>
 			<perTurnProcessUseConditions>
 				<unit>
-					<trait name="ChaosDaemons_MT/Nurgle"/>
+					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkNurgle"/>
 				</unit>
 			</perTurnProcessUseConditions>
 			<beginTargets>
@@ -290,6 +294,7 @@
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -301,12 +306,12 @@
 		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing3" icon="Actions/ChaosSpaceMarines/MarkOfNurgle" passive="1" requiredUpgrade="ChaosDaemons_MT/WarpDominion" visible="0">
 			<conditions>
 				<unit>
-					<trait name="ChaosDaemons_MT/Nurgle"/>
+					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkNurgle"/>
 				</unit>
 			</conditions>
 			<perTurnProcessUseConditions>
 				<unit>
-					<trait name="ChaosDaemons_MT/Nurgle"/>
+					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkNurgle"/>
 				</unit>
 			</perTurnProcessUseConditions>
 			<beginTargets>
@@ -324,6 +329,7 @@
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -335,12 +341,12 @@
 		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing1" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh" passive="1" visible="0">
 			<conditions>
 				<unit>
-					<trait name="ChaosDaemons_MT/Slaanesh"/>
+					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkSlaanesh"/>
 				</unit>
 			</conditions>
 			<perTurnProcessUseConditions>
 				<unit>
-					<trait name="ChaosDaemons_MT/Slaanesh"/>
+					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkSlaanesh"/>
 				</unit>
 			</perTurnProcessUseConditions>
 			<beginTargets>
@@ -358,6 +364,7 @@
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -369,12 +376,12 @@
 		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing2" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh" passive="1" requiredUpgrade="ChaosDaemons_MT/WarpNexuses" visible="0">
 			<conditions>
 				<unit>
-					<trait name="ChaosDaemons_MT/Slaanesh"/>
+					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkSlaanesh"/>
 				</unit>
 			</conditions>
 			<perTurnProcessUseConditions>
 				<unit>
-					<trait name="ChaosDaemons_MT/Slaanesh"/>
+					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkSlaanesh"/>
 				</unit>
 			</perTurnProcessUseConditions>
 			<beginTargets>
@@ -392,6 +399,7 @@
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -403,12 +411,12 @@
 		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing3" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh" passive="1" requiredUpgrade="ChaosDaemons_MT/WarpDominion" visible="0">
 			<conditions>
 				<unit>
-					<trait name="ChaosDaemons_MT/Slaanesh"/>
+					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkSlaanesh"/>
 				</unit>
 			</conditions>
 			<perTurnProcessUseConditions>
 				<unit>
-					<trait name="ChaosDaemons_MT/Slaanesh"/>
+					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkSlaanesh"/>
 				</unit>
 			</perTurnProcessUseConditions>
 			<beginTargets>
@@ -426,6 +434,7 @@
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -437,12 +446,12 @@
 		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing1" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch" passive="1" visible="0">
 			<conditions>
 				<unit>
-					<trait name="ChaosDaemons_MT/Tzeentch"/>
+					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentch"/>
 				</unit>
 			</conditions>
 			<perTurnProcessUseConditions>
 				<unit>
-					<trait name="ChaosDaemons_MT/Tzeentch"/>
+					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentch"/>
 				</unit>
 			</perTurnProcessUseConditions>
 			<beginTargets>
@@ -460,6 +469,7 @@
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -471,12 +481,12 @@
 		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing2" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch" passive="1" requiredUpgrade="ChaosDaemons_MT/WarpNexuses" visible="0">
 			<conditions>
 				<unit>
-					<trait name="ChaosDaemons_MT/Tzeentch"/>
+					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentch"/>
 				</unit>
 			</conditions>
 			<perTurnProcessUseConditions>
 				<unit>
-					<trait name="ChaosDaemons_MT/Tzeentch"/>
+					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentch"/>
 				</unit>
 			</perTurnProcessUseConditions>
 			<beginTargets>
@@ -494,6 +504,7 @@
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -505,12 +516,12 @@
 		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing3" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch" passive="1" requiredUpgrade="ChaosDaemons_MT/WarpDominion" visible="0">
 			<conditions>
 				<unit>
-					<trait name="ChaosDaemons_MT/Tzeentch"/>
+					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentch"/>
 				</unit>
 			</conditions>
 			<perTurnProcessUseConditions>
 				<unit>
-					<trait name="ChaosDaemons_MT/Tzeentch"/>
+					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentch"/>
 				</unit>
 			</perTurnProcessUseConditions>
 			<beginTargets>
@@ -528,6 +539,7 @@
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
 									</effects>
 								</modifier>
 							</modifiers>

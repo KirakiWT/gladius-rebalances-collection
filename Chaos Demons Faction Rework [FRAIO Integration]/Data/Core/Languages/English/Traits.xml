@@ -402,4 +402,12 @@
 	<entry name="ChaosDaemons_MT/MalevolentLocus" value="<string name='Traits/ChaosSpaceMarines/MalevolentLocus'/>"/>
 	<entry name="ChaosDaemons_MT/MalevolentLocusDescription" value="<string name='Traits/ChaosSpaceMarines/MalevolentLocusDescription'/>"/>
 	<entry name="ChaosDaemons_MT/MalevolentLocusFlavor" value="<string name='Traits/ChaosSpaceMarines/MalevolentLocusFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkKhorne" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureMarkKhorne'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkKhorneDescription" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureMarkKhorneDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkNurgle" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureMarkNurgle'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkNurgleDescription" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureMarkNurgleDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkSlaanesh" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureMarkSlaanesh'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkSlaaneshDescription" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureMarkSlaaneshDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentch" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentch'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentchDescription" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentchDescription'/>"/>
 </language>

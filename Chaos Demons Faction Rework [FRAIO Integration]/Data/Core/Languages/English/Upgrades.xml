@@ -281,7 +281,7 @@
 	<entry name="ChaosDaemons_MT/HeldrakeDescription" value="Unlocks Heldrake production in the Infernal Fabricator."/>
 	<entry name="ChaosDaemons_MT/HeldrakeFlavor" value="<string name='Units/ChaosDaemons_MT/HeldrakeFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/WarpNexuses" value="Warp Nexuses"/>
-	<entry name="ChaosDaemons_MT/WarpNexusesDescription" value="Noctilith Crowns gain a one-ring warp aura and become Warp Travel nodes. City warp auras expand to two rings."/>
+	<entry name="ChaosDaemons_MT/WarpNexusesDescription" value="City and Noctilith Crown auras expand to two rings. Crowns become Warp Travel nodes."/>
 	<entry name="ChaosDaemons_MT/WarpDominion" value="Warp Dominion"/>
-	<entry name="ChaosDaemons_MT/WarpDominionDescription" value="Noctilith Crown warp auras expand to two rings, and city warp auras expand to three."/>
+	<entry name="ChaosDaemons_MT/WarpDominionDescription" value="City and Noctilith Crown auras expand to three rings."/>
 </language>
