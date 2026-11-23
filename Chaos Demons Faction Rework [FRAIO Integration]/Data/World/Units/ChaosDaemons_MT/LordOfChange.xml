@@ -347,11 +347,6 @@
 						<area affects="Unit" radius="3" excludeRadius="0">
 							<modifiers>
 								<modifier>
-									<conditions>
-										<unit>
-											<enemy/>
-										</unit>
-									</conditions>
 									<effects>
 										<addTrait name="Stunned" duration="1"/>
 									</effects>

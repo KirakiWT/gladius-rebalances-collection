@@ -298,7 +298,7 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/MantleOfShadowsDescription" value="Each turn, refreshes existing Warp Territory within 3 tiles to 5 turns."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/MantleOfShadowsFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpDetonation" value="Warp Detonation"/>
-	<entry name="ChaosDaemons_MT/WarpDetonationDescription" value="Stuns enemies within 3 tiles of the Lord of Change for 1 turn and creates Flux Territory in that radius for 5 turns, replacing other gods’ territories."/>
+	<entry name="ChaosDaemons_MT/WarpDetonationDescription" value="Stuns all units within 3 tiles for 1 turn, including friendly units, allies and vehicles. The caster is exempt. Creates Flux Territory in that radius for 5 turns, replacing other gods’ territories."/>
 	<entry name="ChaosDaemons_MT/WarpDetonationFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/BloodTide" value="Blood Tide"/>
 	<entry name="ChaosDaemons_MT/BloodTideDescription" value="Create Blood Territory in 2 tiles and restore morale of allied Khorne servants. Replaces Warp Territory belonging to another god."/>
