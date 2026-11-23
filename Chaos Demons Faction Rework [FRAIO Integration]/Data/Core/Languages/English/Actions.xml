@@ -345,4 +345,14 @@
 	<entry name="ChaosDaemons_MT/MalevolentLocus" value="<string name='Actions/ChaosSpaceMarines/MalevolentLocus'/>"/>
 	<entry name="ChaosDaemons_MT/MalevolentLocusDescription" value="<string name='Actions/ChaosSpaceMarines/MalevolentLocusDescription'/>"/>
 	<entry name="ChaosDaemons_MT/MalevolentLocusFlavor" value="<string name='Actions/ChaosSpaceMarines/MalevolentLocusFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/CultistSacrificeUndivided" value="Cultist Sacrifice"/>
+	<entry name="ChaosDaemons_MT/CultistSacrificeUndividedDescription" value="Sacrifices the cultist unit to grant the targeted city +33% population growth for 10 turns."/>
+	<entry name="ChaosDaemons_MT/CultistSacrificeKhorne" value="Cultist Sacrifice"/>
+	<entry name="ChaosDaemons_MT/CultistSacrificeKhorneDescription" value="Sacrifices the cultist unit to grant the targeted city +33% population growth for 10 turns. The city also gains +25% ore output for the same duration."/>
+	<entry name="ChaosDaemons_MT/CultistSacrificeNurgle" value="Cultist Sacrifice"/>
+	<entry name="ChaosDaemons_MT/CultistSacrificeNurgleDescription" value="Sacrifices the cultist unit to grant the targeted city +33% population growth for 10 turns. The city also gains +25% population growth for the same duration."/>
+	<entry name="ChaosDaemons_MT/CultistSacrificeTzeentch" value="Cultist Sacrifice"/>
+	<entry name="ChaosDaemons_MT/CultistSacrificeTzeentchDescription" value="Sacrifices the cultist unit to grant the targeted city +33% population growth for 10 turns. The city also gains +25% energy output for the same duration."/>
+	<entry name="ChaosDaemons_MT/CultistSacrificeSlaanesh" value="Cultist Sacrifice"/>
+	<entry name="ChaosDaemons_MT/CultistSacrificeSlaaneshDescription" value="Sacrifices the cultist unit to grant the targeted city +33% population growth for 10 turns. The city also gains +25% influence output for the same duration."/>
 </language>

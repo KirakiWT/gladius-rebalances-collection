@@ -273,4 +273,14 @@
 	<entry name="ChaosDaemons_MT/MalevolentLocus" value="<string name='Actions/ChaosSpaceMarines/MalevolentLocus'/>"/>
 	<entry name="ChaosDaemons_MT/MalevolentLocusDescription" value="<string name='Actions/ChaosSpaceMarines/MalevolentLocusDescription'/>"/>
 	<entry name="ChaosDaemons_MT/MalevolentLocusFlavor" value="<string name='Actions/ChaosSpaceMarines/MalevolentLocusFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/CultistSacrificeUndivided" value="Жертвование культистов"/>
+	<entry name="ChaosDaemons_MT/CultistSacrificeUndividedDescription" value="Приносит отряд культистов в жертву, увеличивая рост населения выбранного города на 33% на 10 ходов."/>
+	<entry name="ChaosDaemons_MT/CultistSacrificeKhorne" value="Жертвование культистов"/>
+	<entry name="ChaosDaemons_MT/CultistSacrificeKhorneDescription" value="Приносит отряд культистов в жертву, увеличивая рост населения выбранного города на 33% на 10 ходов. Город также получает +25% к производству руды на тот же срок."/>
+	<entry name="ChaosDaemons_MT/CultistSacrificeNurgle" value="Жертвование культистов"/>
+	<entry name="ChaosDaemons_MT/CultistSacrificeNurgleDescription" value="Приносит отряд культистов в жертву, увеличивая рост населения выбранного города на 33% на 10 ходов. Город также получает +25% к росту населения на тот же срок."/>
+	<entry name="ChaosDaemons_MT/CultistSacrificeTzeentch" value="Жертвование культистов"/>
+	<entry name="ChaosDaemons_MT/CultistSacrificeTzeentchDescription" value="Приносит отряд культистов в жертву, увеличивая рост населения выбранного города на 33% на 10 ходов. Город также получает +25% к производству энергии на тот же срок."/>
+	<entry name="ChaosDaemons_MT/CultistSacrificeSlaanesh" value="Жертвование культистов"/>
+	<entry name="ChaosDaemons_MT/CultistSacrificeSlaaneshDescription" value="Приносит отряд культистов в жертву, увеличивая рост населения выбранного города на 33% на 10 ходов. Город также получает +25% к производству влияния на тот же срок."/>
 </language>
