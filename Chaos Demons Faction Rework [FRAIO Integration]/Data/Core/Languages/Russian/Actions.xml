@@ -34,7 +34,7 @@
 	<entry name="ChaosDaemons_MT/RancidVisitationsDescription" value="Заражает вражеский отряд изнурительной болезнью."/>
 	<entry name="ChaosDaemons_MT/RancidVisitationsFlavor" value="<string name='Traits/ChaosDaemons_MT/RancidVisitationsFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/WarpRiftTeleport" value="Путешествие по Варпу"/>
-	<entry name="ChaosDaemons_MT/WarpRiftTeleportDescription" value="Путешествие между вашими городами и разрывами Варпа."/>
+	<entry name="ChaosDaemons_MT/WarpRiftTeleportDescription" value="Путешествие между вашими городами, разрывами варпа и Ноктилитовыми коронами после изучения «Узлов варпа»."/>
 	<entry name="ChaosDaemons_MT/WarpRiftTeleportFlavor" value="Демонические легионы разрывают ткань реальности, злобные сущности мерцают, появляясь, как призраки из кошмара. Хуже того, по мере того как ужас и паника овладевают их жертвами, их смертные души становятся легкой добычей для сущностей, хлынувших из Варпа."/>
 	<entry name="ChaosDaemons_MT/DaemonicReinforcements" value="Демоническое подкрепление"/>
 	<entry name="ChaosDaemons_MT/DaemonicReinforcementsDescription" value="Призывает малого демона."/>
@@ -295,4 +295,20 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/CursedRelicShotTzeentch" value="Выстрел проклятыми реликвиями"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CursedRelicShotTzeentchDescription" value="Создаёт варп-территорию на одной выбранной клетке на расстоянии до 3 клеток. Стоит 2 ед. энергии. Заменяет варп-территорию другого бога."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CursedRelicShotTzeentchFlavor" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/CreateTzeentchFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkKhorne" value="Знак Кхорна"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkKhorneDescription" value="Посвящает сооружение Кхорна и заменяет предыдущий знак."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorne" value="Варп-аура Кхорна"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneDescription" value="Поддерживает постоянную варп-территорию вокруг сооружения."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkNurgle" value="Знак Нургла"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkNurgleDescription" value="Посвящает сооружение Нургла и заменяет предыдущий знак."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgle" value="Варп-аура Нургла"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleDescription" value="Поддерживает постоянную варп-территорию вокруг сооружения."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkSlaanesh" value="Знак Слаанеш"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkSlaaneshDescription" value="Посвящает сооружение Слаанеш и заменяет предыдущий знак."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaanesh" value="Варп-аура Слаанеш"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshDescription" value="Поддерживает постоянную варп-территорию вокруг сооружения."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentch" value="Знак Тзинча"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentchDescription" value="Посвящает сооружение Тзинча и заменяет предыдущий знак."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentch" value="Варп-аура Тзинча"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchDescription" value="Поддерживает постоянную варп-территорию вокруг сооружения."/>
 </language>

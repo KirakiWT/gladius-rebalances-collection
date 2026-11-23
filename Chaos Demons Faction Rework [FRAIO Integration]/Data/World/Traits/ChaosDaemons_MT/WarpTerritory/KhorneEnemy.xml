@@ -9,7 +9,7 @@
 			</conditions>
 			<effects>
 				<moraleLossFactor add="0.17"/>
-				<meleeDamageReduction add="-0.15"/>
+				<meleeDamageReduction add="-0.17"/>
 			</effects>
 		</modifier>
 	</modifiers>

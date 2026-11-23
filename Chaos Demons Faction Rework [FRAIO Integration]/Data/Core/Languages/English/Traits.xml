@@ -352,34 +352,34 @@
 	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="+20% damage. Upon researching this technology, all Tzeentch units gain 3 Research per Experience instead of Research per Kill Value."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/Khorne" value="Blood Territory — Favour"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneDescription" value="Allied Khorne servants: increased damage and movement. Technologies improve it: Shadow Pact, Corrupt Realspace (allies); Daemonic Terror (enemies)."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneDescription" value="Allied Khorne servants: +1 movement. Technologies improve it: Shadow Pact, Corrupt Realspace (allies); Daemonic Terror (enemies)."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneEnemy" value="Blood Territory — Affliction"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneEnemyDescription" value="Enemies: increased morale loss, reduced melee damage reduction. Daemonic Terror deals damage each turn."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneEnemyDescription" value="Enemies: increased morale loss and −17% melee damage reduction. Daemonic Terror deals damage each turn."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneEnemyFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneRival" value="Blood Territory — Rival's Ground"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneRivalDescription" value="Servants of the rival god lose morale each turn."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneRivalFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/Tzeentch" value="Flux Territory — Favour"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchDescription" value="Allied Tzeentch servants: increased melee and ranged damage reduction. Technologies improve it: Shadow Pact, Corrupt Realspace (allies); Daemonic Terror (enemies)."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchDescription" value="Allied Tzeentch servants: +10% ranged accuracy and +17% ranged damage reduction. Technologies improve it: Shadow Pact, Corrupt Realspace (allies); Daemonic Terror (enemies)."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchEnemy" value="Flux Territory — Affliction"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchEnemyDescription" value="Enemies: reduced melee and ranged accuracy. Daemonic Terror deals damage each turn."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchEnemyDescription" value="Enemies: −17% accuracy and −17% ranged damage reduction. Daemonic Terror deals damage each turn."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchEnemyFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchRival" value="Flux Territory — Rival's Ground"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchRivalDescription" value="Servants of the rival god lose morale each turn."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchRivalFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/Slaanesh" value="Excess Territory — Favour"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshDescription" value="Allied Slaanesh servants: increased movement and accuracy. Technologies improve it: Shadow Pact, Corrupt Realspace (allies); Daemonic Terror (enemies)."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshDescription" value="Allied Slaanesh servants: +10% melee accuracy and +17% melee damage reduction. Technologies improve it: Shadow Pact, Corrupt Realspace (allies); Daemonic Terror (enemies)."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshEnemy" value="Excess Territory — Affliction"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshEnemyDescription" value="Enemies: reduced movement and attacks. Daemonic Terror deals damage each turn."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshEnemyDescription" value="Enemies: −1 movement and −10% attacks. Daemonic Terror deals damage each turn."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshEnemyFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshRival" value="Excess Territory — Rival's Ground"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshRivalDescription" value="Servants of the rival god lose morale each turn."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshRivalFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/Nurgle" value="Plague Territory — Favour"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleDescription" value="Allied Nurgle servants: increased damage reduction and healing. Technologies improve it: Shadow Pact, Corrupt Realspace (allies); Daemonic Terror (enemies)."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleDescription" value="Allied Nurgle servants: increased healing and +10% maximum hit points. Technologies improve it: Shadow Pact, Corrupt Realspace (allies); Daemonic Terror (enemies)."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleEnemy" value="Plague Territory — Affliction"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleEnemyDescription" value="Enemies: reduced armor and healing. Daemonic Terror deals damage each turn."/>

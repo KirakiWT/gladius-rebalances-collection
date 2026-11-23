@@ -52,7 +52,7 @@
 	<entry name="ChaosDaemons_MT/RancidVisitationsFlavor" value="<string name='Traits/ChaosDaemons_MT/RancidVisitationsFlavor'/>"/>
 
 	<entry name="ChaosDaemons_MT/WarpRiftTeleport" value="Warp Travel"/>
-	<entry name="ChaosDaemons_MT/WarpRiftTeleportDescription" value="Travel between your cities and warp rifts."/>
+	<entry name="ChaosDaemons_MT/WarpRiftTeleportDescription" value="Travel between your cities, warp rifts, and Noctilith Crowns unlocked as destinations by Warp Nexuses."/>
 	<entry name="ChaosDaemons_MT/WarpRiftTeleportFlavor" value="Daemonic legions tear through the fabric of realspace, malevolent entities flickering into being like phantasms from a nightmare. Worse still, as terror and panic take hold of their victims, so their mortal souls become ever easier prey for the entities pouring through from the warp."/>
 	
 
@@ -367,4 +367,20 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/CursedRelicShotTzeentch" value="Cursed Relic Shot"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CursedRelicShotTzeentchDescription" value="Creates Warp Territory on one selected tile up to 3 tiles away. Costs 2 energy. Replaces Warp Territory belonging to another god."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CursedRelicShotTzeentchFlavor" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/CreateTzeentchFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkKhorne" value="Mark of Khorne"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkKhorneDescription" value="Dedicates the structure to Khorne and replaces its previous mark."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorne" value="Khorne Warp Aura"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneDescription" value="Sustains permanent warp territory around the structure."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkNurgle" value="Mark of Nurgle"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkNurgleDescription" value="Dedicates the structure to Nurgle and replaces its previous mark."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgle" value="Nurgle Warp Aura"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleDescription" value="Sustains permanent warp territory around the structure."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkSlaanesh" value="Mark of Slaanesh"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkSlaaneshDescription" value="Dedicates the structure to Slaanesh and replaces its previous mark."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaanesh" value="Slaanesh Warp Aura"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshDescription" value="Sustains permanent warp territory around the structure."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentch" value="Mark of Tzeentch"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentchDescription" value="Dedicates the structure to Tzeentch and replaces its previous mark."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentch" value="Tzeentch Warp Aura"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchDescription" value="Sustains permanent warp territory around the structure."/>
 </language>

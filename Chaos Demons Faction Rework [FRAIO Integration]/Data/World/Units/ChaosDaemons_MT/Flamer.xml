@@ -122,7 +122,6 @@
 		</quantumShielding>
 		<dimensionalCorridor cooldown="5"
 				name="ChaosDaemons_MT/WarpRiftTeleport"
-				requiredUpgrade="ChaosDaemons_MT/WarpRift"
 				icon="Actions/Necrons/GravityPulse">
 			<model>
 				<action sound="Actions/Teleport"/>
@@ -130,6 +129,10 @@
 			<conditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/WarpRift"/>
+				</unit>
+				<unit match="Any">
+					<trait name="ChaosDaemons_MT/WarpTravelFromNexuses"/>
+					<trait name="ChaosDaemons_MT/WarpTravelFromRifts"/>
 				</unit>
 			</conditions>
 			<modifiers>
@@ -172,6 +175,10 @@
 							
 							<noEnemyCity/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
 						</tile>
 					</conditions>
 					<areas>
@@ -222,6 +229,10 @@
 							
 							<noEnemyCity/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
 						</tile>
 					</conditions>
 					<areas>
@@ -272,6 +283,10 @@
 							
 							<noEnemyCity/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
 						</tile>
 					</conditions>
 					<areas>
@@ -322,6 +337,10 @@
 							
 							<noEnemyCity/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
 						</tile>
 					</conditions>
 					<areas>
@@ -356,19 +375,51 @@
 						<area affects="Tile" radius="2">
 							<modifiers>
 								<modifier visible="0">
-									<conditions><tile><feature name="ChaosDaemons_MT/WarpTerritory/Khorne"/></tile></conditions>
+									<conditions>
+										<tile>
+											<feature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+										</tile>
+									</conditions>
 									<effects><addFeature name="ChaosDaemons_MT/WarpTerritory/Khorne" duration="5"/></effects>
 								</modifier>
 								<modifier visible="0">
-									<conditions><tile><feature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/></tile></conditions>
+									<conditions>
+										<tile>
+											<feature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+										</tile>
+									</conditions>
 									<effects><addFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch" duration="5"/></effects>
 								</modifier>
 								<modifier visible="0">
-									<conditions><tile><feature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/></tile></conditions>
+									<conditions>
+										<tile>
+											<feature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+										</tile>
+									</conditions>
 									<effects><addFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh" duration="5"/></effects>
 								</modifier>
 								<modifier visible="0">
-									<conditions><tile><feature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/></tile></conditions>
+									<conditions>
+										<tile>
+											<feature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+										</tile>
+									</conditions>
 									<effects><addFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle" duration="5"/></effects>
 								</modifier>
 							</modifiers>
@@ -384,6 +435,8 @@
 		<trait name="ChaosDaemons_MT/Tzeentch"/>
 		<trait name="SoulBlaze"/>
 		<trait name="ChaosDaemons_MT/WarpRift"/>
+		<trait name="ChaosDaemons_MT/WarpTravelFromNexuses" requiredUpgrade="ChaosDaemons_MT/WarpNexuses"/>
+		<trait name="ChaosDaemons_MT/WarpTravelFromRifts" requiredUpgrade="ChaosDaemons_MT/WarpRift"/>
 		<trait name="ChaosDaemons_MT/DaemonicResilience" requiredUpgrade="ChaosDaemons_MT/ExtraInfantryArmour"/>
 	</traits>
 </unit>
