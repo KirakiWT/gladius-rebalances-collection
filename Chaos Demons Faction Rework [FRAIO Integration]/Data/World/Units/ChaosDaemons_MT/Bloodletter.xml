@@ -182,6 +182,10 @@
 							
 							<noEnemyCity/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
 						</tile>
 					</conditions>
 					<areas>
@@ -232,6 +236,10 @@
 							
 							<noEnemyCity/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
 						</tile>
 					</conditions>
 					<areas>
@@ -282,6 +290,10 @@
 							
 							<noEnemyCity/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
 						</tile>
 					</conditions>
 					<areas>
@@ -332,6 +344,10 @@
 							
 							<noEnemyCity/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
 						</tile>
 					</conditions>
 					<areas>
@@ -369,25 +385,57 @@
 						<area affects="Tile" radius="2">
 							<modifiers>
 								<modifier visible="0">
-									<conditions><tile><feature name="ChaosDaemons_MT/WarpTerritory/Khorne"/></tile></conditions>
+									<conditions>
+										<tile>
+											<feature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+										</tile>
+									</conditions>
 									<effects>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/Khorne" duration="5"/>
 									</effects>
 								</modifier>
 								<modifier visible="0">
-									<conditions><tile><feature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/></tile></conditions>
+									<conditions>
+										<tile>
+											<feature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+										</tile>
+									</conditions>
 										<effects>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch" duration="5"/>
 									</effects>
 								</modifier>
 								<modifier visible="0">
-									<conditions><tile><feature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/></tile></conditions>
+									<conditions>
+										<tile>
+											<feature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+										</tile>
+									</conditions>
 										<effects>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh" duration="5"/>
 									</effects>
 								</modifier>
 								<modifier visible="0">
-									<conditions><tile><feature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/></tile></conditions>
+									<conditions>
+										<tile>
+											<feature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+										</tile>
+									</conditions>
 										<effects>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle" duration="5"/>
 									</effects>
