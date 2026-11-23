@@ -128,7 +128,6 @@
 		</hammerOfWrath>
 		<dimensionalCorridor cooldown="5"
 				name="ChaosDaemons_MT/WarpRiftTeleport"
-				requiredUpgrade="ChaosDaemons_MT/WarpRift"
 				icon="Actions/Necrons/GravityPulse">
 			<model>
 				<action sound="Actions/Teleport"/>
@@ -136,6 +135,10 @@
 			<conditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/WarpRift"/>
+				</unit>
+				<unit match="Any">
+					<trait name="ChaosDaemons_MT/WarpTravelFromNexuses"/>
+					<trait name="ChaosDaemons_MT/WarpTravelFromRifts"/>
 				</unit>
 			</conditions>
 			<modifiers>
@@ -447,6 +450,8 @@
 		<trait name="MonstrousCreature"/>
 		<trait name="ChaosDaemons_MT/Khorne"/>
 		<trait name="ChaosDaemons_MT/WarpRift"/>
+		<trait name="ChaosDaemons_MT/WarpTravelFromNexuses" requiredUpgrade="ChaosDaemons_MT/WarpNexuses"/>
+		<trait name="ChaosDaemons_MT/WarpTravelFromRifts" requiredUpgrade="ChaosDaemons_MT/WarpRift"/>
 		<trait name="ChaosDaemons_MT/ContemptForSorcery"/>
 		<trait name="ChaosDaemons_MT/DaemonicResilience" requiredUpgrade="ChaosDaemons_MT/ExtraVehicleArmour"/>
 	</traits>
