@@ -4,7 +4,6 @@
 		<modifier>
 			<conditions>
 				<building match="Any">
-					<type name="ChaosDaemons_MT/Aircraft"/>
 					<type name="ChaosDaemons_MT/Cult"/>
 					<type name="ChaosDaemons_MT/Heroes"/>
 					<type name="ChaosDaemons_MT/Khorne"/>

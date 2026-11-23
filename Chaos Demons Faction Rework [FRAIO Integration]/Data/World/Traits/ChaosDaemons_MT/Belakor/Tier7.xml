@@ -10,7 +10,7 @@
 					<upgrade name="ChaosDaemons_MT/BlastDamage"/>
 					<upgrade name="ChaosDaemons_MT/ExtraVehicleArmour"/>
 					<upgrade name="ChaosDaemons_MT/BurningChariot"/>
-					<upgrade name="ChaosDaemons_MT/Aircraft"/>
+					<upgrade name="ChaosDaemons_MT/Heldrake"/>
 				</player>
 			</conditions>
 			<effects>

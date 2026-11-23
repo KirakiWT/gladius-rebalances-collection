@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
 	
-	<entry name="ChaosDaemons_MT/Aircraft" value="Helhaunted Eyrie"/>
-	<entry name="ChaosDaemons_MT/AircraftDescription" value="Building that produces heldrakes as well as generates loyalty and influence."/>
-	<entry name="ChaosDaemons_MT/AircraftFlavor" value="10,000 years ago the Heldrakes were fighter craft, piloted by the cream of the Adeptus Astartes. Now, they are hideous amalgams of man and machine, formed by millennia of war into dragon-like creatures that live to fight. This artificial eyrie allows the Warpsmiths and Master of Possession to monitor the Heldrakes and even attempt to replicate their age-old creation."/>
 	
 	<entry name="ChaosDaemons_MT/Construction" value="Warp Forge"/>
 	<entry name="ChaosDaemons_MT/ConstructionDescription" value="Building that constructs new buildings as well as generates ore and influence."/>
@@ -50,7 +47,7 @@
 	<entry name="ChaosDaemons_MT/ResearchFlavor" value="On Daemon worlds, storytellers tells of a warp-lost library that contains all of the thoughts of Tzeentch. In its richness, they say, it rivals the Aeldari’s Black Library or the meaningless infinity of the Library of Babel. Whether Tzeentch’s memoirs exist, an Archive of the Ways is a real-world reflection of that false-world myth—a place where truths can be created, not discovered."/>
 	
 	<entry name="ChaosDaemons_MT/Vehicles" value="Infernal Fabricator"/>
-	<entry name="ChaosDaemons_MT/VehiclesDescription" value="Building that produces chaos undivided ground vehicles as well as generates ore and influence."/>
+	<entry name="ChaosDaemons_MT/VehiclesDescription" value="Produces Chaos Undivided ground vehicles and Heldrakes, and generates ore and influence. Heldrake production requires separate research."/>
 	<entry name="ChaosDaemons_MT/VehiclesFlavor" value="Normally confined to the Soul Forges of the Warp, these incomprehensible mechanoid structures are responsible for the creation of all Daemon vehicles. Here, Mechatendril-wreathed Warpsmiths oversee the breaking and corruption of Machine Spirits of captured Imperial vehicles, as well as the forcible incorporation of Lesser Daemons, machinery and tortured flesh into Daemon Engines."/>
 	
 	<entry name="ChaosDaemons_MT/Khorne" value="The Arsenal"/>

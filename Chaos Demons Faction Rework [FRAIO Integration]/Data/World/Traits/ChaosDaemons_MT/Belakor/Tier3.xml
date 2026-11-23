@@ -8,7 +8,6 @@
 					<upgrade name="ChaosDaemons_MT/MasterOfPossession"/>
 					<upgrade name="ChaosDaemons_MT/Seeker"/>
 					<upgrade name="ChaosDaemons_MT/Havoc"/>
-					<upgrade name="ChaosDaemons_MT/Loyalty"/>
 					<upgrade name="ChaosDaemons_MT/Heralds"/>
 				</player>
 			</conditions>

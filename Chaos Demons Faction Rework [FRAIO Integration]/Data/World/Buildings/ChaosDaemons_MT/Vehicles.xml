@@ -37,5 +37,6 @@
 		<produceUnit unit="ChaosDaemons_MT/WarDogStalker" requiredUpgrade="ChaosDaemons_MT/WarDogStalker"/>
 		<produceUnit unit="ChaosDaemons_MT/LandRaider" requiredUpgrade="ChaosDaemons_MT/LandRaider"/>
 		<produceUnit unit="ChaosDaemons_MT/KnightDesecrator" requiredUpgrade="ChaosDaemons_MT/KnightDesecrator"/>
+		<produceUnit unit="ChaosDaemons_MT/Heldrake" requiredUpgrade="ChaosDaemons_MT/Heldrake"/>
 	</actions>
 </building>

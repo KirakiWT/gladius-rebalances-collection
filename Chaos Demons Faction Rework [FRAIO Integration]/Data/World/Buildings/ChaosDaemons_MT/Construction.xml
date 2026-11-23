@@ -58,8 +58,8 @@
 		<constructBuilding building="ChaosDaemons_MT/Energy"/>
 		<constructBuilding building="ChaosDaemons_MT/Research"/>
 		<constructBuilding building="ChaosDaemons_MT/Influence"/>
-		<constructBuilding building="ChaosDaemons_MT/Loyalty" requiredUpgrade="ChaosDaemons_MT/Loyalty"/>
-		<constructBuilding building="ChaosDaemons_MT/Housing" requiredUpgrade="ChaosDaemons_MT/Housing"/>
+		<constructBuilding building="ChaosDaemons_MT/Loyalty"/>
+		<constructBuilding building="ChaosDaemons_MT/Housing"/>
 		<constructBuilding building="ChaosDaemons_MT/Cult"/>
 		<constructBuilding building="ChaosDaemons_MT/Khorne" requiredUpgrade="ChaosDaemons_MT/Khorne"/>
 		<constructBuilding building="ChaosDaemons_MT/Slaanesh" requiredUpgrade="ChaosDaemons_MT/Slaanesh"/>
@@ -67,7 +67,6 @@
 		<constructBuilding building="ChaosDaemons_MT/Tzeentch" requiredUpgrade="ChaosDaemons_MT/Tzeentch"/>
 		<constructBuilding building="ChaosDaemons_MT/Heroes" requiredUpgrade="ChaosDaemons_MT/Heroes"/>
 		<constructBuilding building="ChaosDaemons_MT/Vehicles" requiredUpgrade="ChaosDaemons_MT/Vehicles"/>
-		<constructBuilding building="ChaosDaemons_MT/Aircraft" requiredUpgrade="ChaosDaemons_MT/Aircraft"/>
 		<constructBuilding building="ChaosDaemons_MT/Construction" requiredUpgrade="ChaosDaemons_MT/Construction"/>
 	</actions>
 </building>

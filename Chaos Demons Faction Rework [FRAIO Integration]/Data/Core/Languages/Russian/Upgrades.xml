@@ -6,12 +6,6 @@
 	<entry name="ChaosDaemons_MT/Screamer" value="<string name='Units/ChaosDaemons_MT/Screamer'/>"/>
 	<entry name="ChaosDaemons_MT/ScreamerDescription" value="<string name='Units/ChaosDaemons_MT/ScreamerDescription'/>"/>
 	<entry name="ChaosDaemons_MT/ScreamerFlavor" value="<string name='Units/ChaosDaemons_MT/ScreamerFlavor'/>"/>
-	<entry name="ChaosDaemons_MT/Loyalty" value="<string name='Buildings/ChaosDaemons_MT/Loyalty'/>"/>
-	<entry name="ChaosDaemons_MT/LoyaltyDescription" value="<string name='Buildings/ChaosDaemons_MT/LoyaltyDescription'/>"/>
-	<entry name="ChaosDaemons_MT/LoyaltyFlavor" value="<string name='Buildings/ChaosDaemons_MT/LoyaltyFlavor'/>"/>
-	<entry name="ChaosDaemons_MT/Housing" value="<string name='Buildings/ChaosDaemons_MT/Housing'/>"/>
-	<entry name="ChaosDaemons_MT/HousingDescription" value="<string name='Buildings/ChaosDaemons_MT/HousingDescription'/>"/>
-	<entry name="ChaosDaemons_MT/HousingFlavor" value="<string name='Buildings/ChaosDaemons_MT/HousingFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/Khorne" value="<string name='Buildings/ChaosDaemons_MT/Khorne'/>"/>
 	<entry name="ChaosDaemons_MT/KhorneDescription" value="<string name='Buildings/ChaosDaemons_MT/KhorneDescription'/>"/>
 	<entry name="ChaosDaemons_MT/KhorneFlavor" value="<string name='Buildings/ChaosDaemons_MT/KhorneFlavor'/>"/>
@@ -30,9 +24,6 @@
 	<entry name="ChaosDaemons_MT/Vehicles" value="<string name='Buildings/ChaosDaemons_MT/Vehicles'/>"/>
 	<entry name="ChaosDaemons_MT/VehiclesDescription" value="<string name='Buildings/ChaosDaemons_MT/VehiclesDescription'/>"/>
 	<entry name="ChaosDaemons_MT/VehiclesFlavor" value="<string name='Buildings/ChaosDaemons_MT/VehiclesFlavor'/>"/>
-	<entry name="ChaosDaemons_MT/Aircraft" value="<string name='Buildings/ChaosDaemons_MT/Aircraft'/>"/>
-	<entry name="ChaosDaemons_MT/AircraftDescription" value="<string name='Buildings/ChaosDaemons_MT/AircraftDescription'/>"/>
-	<entry name="ChaosDaemons_MT/AircraftFlavor" value="<string name='Buildings/ChaosDaemons_MT/AircraftFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/Construction" value="<string name='Buildings/ChaosDaemons_MT/Construction'/>"/>
 	<entry name="ChaosDaemons_MT/ConstructionDescription" value="<string name='Buildings/ChaosDaemons_MT/ConstructionDescription'/>"/>
 	<entry name="ChaosDaemons_MT/ConstructionFlavor" value="<string name='Buildings/ChaosDaemons_MT/ConstructionFlavor'/>"/>
@@ -217,4 +208,7 @@
 	<entry name="ChaosDaemons_MT/NoctilithCrown" value="<string name='Units/ChaosSpaceMarines/NoctilithCrown'/>"/>
 	<entry name="ChaosDaemons_MT/NoctilithCrownDescription" value="Позволяет культистам демонов строить Ноктилитовые короны."/>
 	<entry name="ChaosDaemons_MT/NoctilithCrownFlavor" value="<string name='Units/ChaosSpaceMarines/NoctilithCrownFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/Heldrake" value="<string name='Units/ChaosDaemons_MT/Heldrake'/>"/>
+	<entry name="ChaosDaemons_MT/HeldrakeDescription" value="Открывает производство хелдрейков в Адском конструкторе."/>
+	<entry name="ChaosDaemons_MT/HeldrakeFlavor" value="<string name='Units/ChaosDaemons_MT/HeldrakeFlavor'/>"/>
 </language>
