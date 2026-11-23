@@ -9,9 +9,8 @@
 				</unit>
 			</conditions>
 			<effects>
-				<movementMax add="1"/>
-				<meleeAccuracy mul="0.17"/>
-				<rangedAccuracy mul="0.17"/>
+				<meleeDamageReduction add="0.17"/>
+				<meleeAccuracy mul="0.10"/>
 			</effects>
 		</modifier>
 		<modifier requiredUpgrade="ChaosDaemons_MT/ShadowPact">

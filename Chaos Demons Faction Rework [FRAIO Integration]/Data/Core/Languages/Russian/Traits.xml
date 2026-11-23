@@ -263,34 +263,34 @@
 	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="+20% к урону. После изучения этой технологии все слуги Тзинча вместо исследований за убийство получают 3 исследования за каждую единицу опыта."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2Flavor" value="На пике могущества великий демон выходит против боевых машин и титанов."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/Khorne" value="Территория крови — благословение"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneDescription" value="Слуги Кхорна: выше урон и скорость. Улучшается технологиями: Shadow Pact и Corrupt Realspace (союзники), Daemonic Terror (враги)."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneDescription" value="Слуги Кхорна: +1 к скорости. Улучшается технологиями: Shadow Pact и Corrupt Realspace (союзники), Daemonic Terror (враги)."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneEnemy" value="Территория крови — гнёт"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneEnemyDescription" value="Враги: растёт потеря морали, снижена защита от ближнего боя. Daemonic Terror наносит урон каждый ход."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneEnemyDescription" value="Враги: повышенная потеря морали и −17% к сокращению ближнего урона. Daemonic Terror наносит урон каждый ход."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneEnemyFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneRival" value="Территория крови — чужая земля"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneRivalDescription" value="Слуги бога-соперника теряют мораль каждый ход."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneRivalFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/Tzeentch" value="Территория перемен — благословение"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchDescription" value="Слуги Тзинча: выше защита от ближнего и дальнего боя. Улучшается технологиями: Shadow Pact и Corrupt Realspace (союзники), Daemonic Terror (враги)."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchDescription" value="Слуги Тзинча: +10% к дистанционной точности и +17% к сокращению дистанционного урона. Улучшается технологиями: Shadow Pact и Corrupt Realspace (союзники), Daemonic Terror (враги)."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchEnemy" value="Территория перемен — гнёт"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchEnemyDescription" value="Враги: снижена точность ближнего и дальнего боя. Daemonic Terror наносит урон каждый ход."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchEnemyDescription" value="Враги: −17% к общей точности и −17% к сокращению дистанционного урона. Daemonic Terror наносит урон каждый ход."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchEnemyFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchRival" value="Территория перемен — чужая земля"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchRivalDescription" value="Слуги бога-соперника теряют мораль каждый ход."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchRivalFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/Slaanesh" value="Территория излишеств — благословение"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshDescription" value="Слуги Слаанеш: выше скорость и точность. Улучшается технологиями: Shadow Pact и Corrupt Realspace (союзники), Daemonic Terror (враги)."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshDescription" value="Слуги Слаанеш: +10% к точности в ближнем бою и +17% к сокращению ближнего урона. Улучшается технологиями: Shadow Pact и Corrupt Realspace (союзники), Daemonic Terror (враги)."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshEnemy" value="Территория излишеств — гнёт"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshEnemyDescription" value="Враги: снижены скорость и число атак. Daemonic Terror наносит урон каждый ход."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshEnemyDescription" value="Враги: −1 к скорости и −10% к числу атак. Daemonic Terror наносит урон каждый ход."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshEnemyFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshRival" value="Территория излишеств — чужая земля"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshRivalDescription" value="Слуги бога-соперника теряют мораль каждый ход."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshRivalFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/Nurgle" value="Территория чумы — благословение"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleDescription" value="Слуги Нургла: выше стойкость и лечение. Улучшается технологиями: Shadow Pact и Corrupt Realspace (союзники), Daemonic Terror (враги)."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleDescription" value="Слуги Нургла: усиленное лечение и +10% к максимальному запасу здоровья. Улучшается технологиями: Shadow Pact и Corrupt Realspace (союзники), Daemonic Terror (враги)."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleEnemy" value="Территория чумы — гнёт"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleEnemyDescription" value="Враги: снижены броня и лечение. Daemonic Terror наносит урон каждый ход."/>
