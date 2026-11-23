@@ -335,15 +335,15 @@
 		</genericUnitAbility>
 			<daJump cooldownMin="20"
 				cooldownMax="20"
-				radius="0"
 				name="ChaosDaemons_MT/WarpDetonation"
+				radius="1"
 				icon="Actions/Eldar/MindWar"
 				rank="-1"
 				rankMax="0">
 			<model>
-				<action sound="Weapons/PsychicScream"/>
+				<action sound="Actions/Teleport"/>
 			</model>
-			<endTargets>
+		<endTargets>
 				<selfTarget>
 					<areas>
 						<area affects="Unit" radius="3" excludeRadius="0">
