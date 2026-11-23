@@ -48,8 +48,7 @@
 	<actions>
 		<markOfNurgle cooldown="0"
 				name="ChaosDaemons_MT/Nurgle"
-				icon="Actions/ChaosSpaceMarines/MarkOfNurgle"
-				requiredUpgrade="ChaosDaemons_MT/Nurgle">
+				icon="Actions/ChaosSpaceMarines/MarkOfNurgle">
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
 			</model>
@@ -82,8 +81,7 @@
 		</markOfNurgle>
 		<markOfKhorne cooldown="0"
 				name="ChaosDaemons_MT/Khorne"
-				icon="Actions/ChaosSpaceMarines/MarkOfKhorne"
-				requiredUpgrade="ChaosDaemons_MT/Khorne">
+				icon="Actions/ChaosSpaceMarines/MarkOfKhorne">
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
 			</model>
@@ -115,8 +113,7 @@
 		</markOfKhorne>
 		<markOfSlaanesh cooldown="0"
 				name="ChaosDaemons_MT/Slaanesh"
-				icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh"
-				requiredUpgrade="ChaosDaemons_MT/Slaanesh">
+				icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh">
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
 			</model>
@@ -149,8 +146,7 @@
 		</markOfSlaanesh>
 		<markOfTzeentch cooldown="0"
 				name="ChaosDaemons_MT/Tzeentch"
-				icon="Actions/ChaosSpaceMarines/MarkOfTzeentch"
-				requiredUpgrade="ChaosDaemons_MT/Tzeentch">
+				icon="Actions/ChaosSpaceMarines/MarkOfTzeentch">
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
 			</model>
