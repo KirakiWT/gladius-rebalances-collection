@@ -58,6 +58,7 @@
 			</model>
 		</die>
 		<genericUnitAbility name="ChaosDaemons_MT/LoathsomeAura"
+				icon="Actions/ChaosSpaceMarines/LoathsomeAura"
 				passive="1">
 			<beginTargets>
 				<selfTarget>
@@ -76,6 +77,7 @@
 			</beginTargets>
 		</genericUnitAbility>
 		<genericUnitAbility name="ChaosDaemons_MT/MalevolentLocus"
+				icon="Actions/ChaosSpaceMarines/MalevolentLocus"
 				passive="1">
 			<beginTargets>
 				<selfTarget>
