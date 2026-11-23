@@ -215,7 +215,7 @@
 						</area>
 						<area affects="Tile" radius="1">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<conditions>
 										<tile>
 											<noEnemyCity/>
@@ -278,7 +278,7 @@
 						</area>
 						<area affects="Tile" radius="1">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<conditions>
 										<tile>
 											<noEnemyCity/>
@@ -341,7 +341,7 @@
 						</area>
 						<area affects="Tile" radius="1">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<conditions>
 										<tile>
 											<noEnemyCity/>
@@ -404,7 +404,7 @@
 						</area>
 						<area affects="Tile" radius="1">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<conditions>
 										<tile>
 											<noEnemyCity/>

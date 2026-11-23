@@ -384,7 +384,7 @@
 					<areas>
 						<area affects="Tile">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<effects>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
@@ -434,7 +434,7 @@
 					<areas>
 						<area affects="Tile">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<effects>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
@@ -484,7 +484,7 @@
 					<areas>
 						<area affects="Tile">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<effects>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
@@ -534,7 +534,7 @@
 					<areas>
 						<area affects="Tile">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<effects>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>

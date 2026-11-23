@@ -251,7 +251,7 @@
 					<areas>
 						<area affects="Tile" radius="1">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<conditions>
 										<tile><noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/></tile>
 									</conditions>
@@ -327,7 +327,7 @@
 					<areas>
 						<area affects="Tile" radius="1">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<conditions><tile><noEnemyCity/><noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/></tile></conditions>
 									<effects>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
@@ -378,7 +378,7 @@
 					<areas>
 						<area affects="Tile" radius="1">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<conditions><tile><noEnemyCity/><noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/></tile></conditions>
 									<effects>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
@@ -429,7 +429,7 @@
 					<areas>
 						<area affects="Tile" radius="1">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<conditions><tile><noEnemyCity/><noFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/></tile></conditions>
 									<effects>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
@@ -480,7 +480,7 @@
 					<areas>
 						<area affects="Tile" radius="1">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<conditions><tile><noEnemyCity/><noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/></tile></conditions>
 									<effects>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
