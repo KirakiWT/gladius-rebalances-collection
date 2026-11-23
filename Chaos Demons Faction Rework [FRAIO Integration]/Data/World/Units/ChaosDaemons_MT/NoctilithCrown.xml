@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<unit dlc="Supplement4" spawnCountMax="1" spawnDistanceMin="6">
+<unit dlc="Supplement4" icon="Units/ChaosSpaceMarines/NoctilithCrown" spawnCountMax="1" spawnDistanceMin="6">
 	<model>
 		<structureUnit mesh="Units/ChaosSpaceMarines/NoctilithCrown"
 				material="Units/ChaosSpaceMarines/NoctilithCrown"
