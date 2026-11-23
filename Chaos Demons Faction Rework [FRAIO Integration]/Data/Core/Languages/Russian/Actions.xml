@@ -311,4 +311,28 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentchDescription" value="Посвящает сооружение Тзинча и заменяет предыдущий знак."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentch" value="Варп-аура Тзинча"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchDescription" value="Поддерживает постоянную варп-территорию вокруг сооружения."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing1" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraKhorne'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing1Description" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing2" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraKhorne'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing2Description" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing3" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraKhorne'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing3Description" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing1" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraNurgle'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing1Description" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing2" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraNurgle'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing2Description" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing3" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraNurgle'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing3Description" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing1" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraSlaanesh'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing1Description" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing2" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraSlaanesh'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing2Description" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing3" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraSlaanesh'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing3Description" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing1" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentch'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing1Description" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing2" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentch'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing2Description" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing3" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentch'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing3Description" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchDescription'/>"/>
 </language>

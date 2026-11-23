@@ -46,9 +46,7 @@
 		<track name="Music/TyranidsTheme" dlc="Supplement2"/>
 	</music>
 	<actions>
-		<markOfNurgle cooldown="0"
-				name="ChaosDaemons_MT/Nurgle"
-				icon="Actions/ChaosSpaceMarines/MarkOfNurgle">
+		<markOfNurgle cooldown="0" name="ChaosDaemons_MT/Nurgle" icon="Actions/ChaosSpaceMarines/MarkOfNurgle">
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
 			</model>
@@ -58,14 +56,35 @@
 						<unit>
 							<affiliate/>
 							<faction name="ChaosDaemons_MT"/>
-							<noTrait name="Fortification"/>
 							<noTrait name="ChaosDaemons_MT/GreaterDaemon"/>
+							<noTrait name="ChaosDaemons_MT/Nurgle"/>
+						</unit>
+						<unit match="Any">
 							<trait name="ChaosDaemons_MT/Undivided"/>
+							<trait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
+						</unit>
+						<unit match="Any">
+							<noTrait name="Fortification"/>
+							<trait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
 						</unit>
 					</conditions>
 					<areas>
 						<area affects="Unit">
 							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<trait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
+										</unit>
+									</conditions>
+									<effects>
+										<removeTrait name="ChaosDaemons_MT/Khorne"/>
+										<removeTrait name="ChaosDaemons_MT/Slaanesh"/>
+										<removeTrait name="ChaosDaemons_MT/HarbringerOfLust"/>
+										<removeTrait name="ChaosDaemons_MT/Tzeentch"/>
+										<removeTrait name="SoulBlaze"/>
+									</effects>
+								</modifier>
 								<modifier>
 									<effects>
 										<removeTrait name="ChaosDaemons_MT/Undivided"/>
@@ -79,9 +98,7 @@
 				</target>
 			</beginTargets>
 		</markOfNurgle>
-		<markOfKhorne cooldown="0"
-				name="ChaosDaemons_MT/Khorne"
-				icon="Actions/ChaosSpaceMarines/MarkOfKhorne">
+		<markOfKhorne cooldown="0" name="ChaosDaemons_MT/Khorne" icon="Actions/ChaosSpaceMarines/MarkOfKhorne">
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
 			</model>
@@ -91,14 +108,36 @@
 						<unit>
 							<affiliate/>
 							<faction name="ChaosDaemons_MT"/>
-							<noTrait name="Fortification"/>
 							<noTrait name="ChaosDaemons_MT/GreaterDaemon"/>
+							<noTrait name="ChaosDaemons_MT/Khorne"/>
+						</unit>
+						<unit match="Any">
 							<trait name="ChaosDaemons_MT/Undivided"/>
+							<trait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
+						</unit>
+						<unit match="Any">
+							<noTrait name="Fortification"/>
+							<trait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
 						</unit>
 					</conditions>
 					<areas>
 						<area affects="Unit">
 							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<trait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
+										</unit>
+									</conditions>
+									<effects>
+										<removeTrait name="ChaosDaemons_MT/Nurgle"/>
+										<removeTrait name="Regeneration"/>
+										<removeTrait name="ChaosDaemons_MT/Slaanesh"/>
+										<removeTrait name="ChaosDaemons_MT/HarbringerOfLust"/>
+										<removeTrait name="ChaosDaemons_MT/Tzeentch"/>
+										<removeTrait name="SoulBlaze"/>
+									</effects>
+								</modifier>
 								<modifier>
 									<effects>
 										<removeTrait name="ChaosDaemons_MT/Undivided"/>
@@ -111,9 +150,7 @@
 				</target>
 			</beginTargets>
 		</markOfKhorne>
-		<markOfSlaanesh cooldown="0"
-				name="ChaosDaemons_MT/Slaanesh"
-				icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh">
+		<markOfSlaanesh cooldown="0" name="ChaosDaemons_MT/Slaanesh" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh">
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
 			</model>
@@ -123,14 +160,35 @@
 						<unit>
 							<affiliate/>
 							<faction name="ChaosDaemons_MT"/>
-							<noTrait name="Fortification"/>
 							<noTrait name="ChaosDaemons_MT/GreaterDaemon"/>
+							<noTrait name="ChaosDaemons_MT/Slaanesh"/>
+						</unit>
+						<unit match="Any">
 							<trait name="ChaosDaemons_MT/Undivided"/>
+							<trait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
+						</unit>
+						<unit match="Any">
+							<noTrait name="Fortification"/>
+							<trait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
 						</unit>
 					</conditions>
 					<areas>
 						<area affects="Unit">
 							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<trait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
+										</unit>
+									</conditions>
+									<effects>
+										<removeTrait name="ChaosDaemons_MT/Khorne"/>
+										<removeTrait name="ChaosDaemons_MT/Nurgle"/>
+										<removeTrait name="Regeneration"/>
+										<removeTrait name="ChaosDaemons_MT/Tzeentch"/>
+										<removeTrait name="SoulBlaze"/>
+									</effects>
+								</modifier>
 								<modifier>
 									<effects>
 										<removeTrait name="ChaosDaemons_MT/Undivided"/>
@@ -144,9 +202,7 @@
 				</target>
 			</beginTargets>
 		</markOfSlaanesh>
-		<markOfTzeentch cooldown="0"
-				name="ChaosDaemons_MT/Tzeentch"
-				icon="Actions/ChaosSpaceMarines/MarkOfTzeentch">
+		<markOfTzeentch cooldown="0" name="ChaosDaemons_MT/Tzeentch" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch">
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
 			</model>
@@ -156,14 +212,35 @@
 						<unit>
 							<affiliate/>
 							<faction name="ChaosDaemons_MT"/>
-							<noTrait name="Fortification"/>
 							<noTrait name="ChaosDaemons_MT/GreaterDaemon"/>
+							<noTrait name="ChaosDaemons_MT/Tzeentch"/>
+						</unit>
+						<unit match="Any">
 							<trait name="ChaosDaemons_MT/Undivided"/>
+							<trait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
+						</unit>
+						<unit match="Any">
+							<noTrait name="Fortification"/>
+							<trait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
 						</unit>
 					</conditions>
 					<areas>
 						<area affects="Unit">
 							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<trait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
+										</unit>
+									</conditions>
+									<effects>
+										<removeTrait name="ChaosDaemons_MT/Khorne"/>
+										<removeTrait name="ChaosDaemons_MT/Nurgle"/>
+										<removeTrait name="Regeneration"/>
+										<removeTrait name="ChaosDaemons_MT/Slaanesh"/>
+										<removeTrait name="ChaosDaemons_MT/HarbringerOfLust"/>
+									</effects>
+								</modifier>
 								<modifier>
 									<effects>
 										<removeTrait name="ChaosDaemons_MT/Undivided"/>
