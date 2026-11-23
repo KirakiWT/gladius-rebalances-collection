@@ -335,4 +335,20 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing2Description" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchDescription'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing3" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentch'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing3Description" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/HeadquartersMarkNurgle" value="<string name='Actions/ChaosDaemons_MT/Nurgle'/> (город)"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/HeadquartersMarkNurgleDescription" value="Меняет знак сооружения и сразу обновляет его варп-территорию."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkNurgle" value="<string name='Actions/ChaosDaemons_MT/Nurgle'/> (Корона)"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkNurgleDescription" value="Меняет знак сооружения и сразу обновляет его варп-территорию."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/HeadquartersMarkKhorne" value="<string name='Actions/ChaosDaemons_MT/Khorne'/> (город)"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/HeadquartersMarkKhorneDescription" value="Меняет знак сооружения и сразу обновляет его варп-территорию."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkKhorne" value="<string name='Actions/ChaosDaemons_MT/Khorne'/> (Корона)"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkKhorneDescription" value="Меняет знак сооружения и сразу обновляет его варп-территорию."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/HeadquartersMarkSlaanesh" value="<string name='Actions/ChaosDaemons_MT/Slaanesh'/> (город)"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/HeadquartersMarkSlaaneshDescription" value="Меняет знак сооружения и сразу обновляет его варп-территорию."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkSlaanesh" value="<string name='Actions/ChaosDaemons_MT/Slaanesh'/> (Корона)"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkSlaaneshDescription" value="Меняет знак сооружения и сразу обновляет его варп-территорию."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/HeadquartersMarkTzeentch" value="<string name='Actions/ChaosDaemons_MT/Tzeentch'/> (город)"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/HeadquartersMarkTzeentchDescription" value="Меняет знак сооружения и сразу обновляет его варп-территорию."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkTzeentch" value="<string name='Actions/ChaosDaemons_MT/Tzeentch'/> (Корона)"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkTzeentchDescription" value="Меняет знак сооружения и сразу обновляет его варп-территорию."/>
 </language>

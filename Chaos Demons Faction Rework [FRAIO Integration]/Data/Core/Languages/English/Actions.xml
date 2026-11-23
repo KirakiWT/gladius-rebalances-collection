@@ -407,4 +407,20 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing2Description" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchDescription'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing3" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentch'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing3Description" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/HeadquartersMarkNurgle" value="<string name='Actions/ChaosDaemons_MT/Nurgle'/> (City)"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/HeadquartersMarkNurgleDescription" value="Changes the structure’s mark and immediately updates its warp territory."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkNurgle" value="<string name='Actions/ChaosDaemons_MT/Nurgle'/> (Crown)"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkNurgleDescription" value="Changes the structure’s mark and immediately updates its warp territory."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/HeadquartersMarkKhorne" value="<string name='Actions/ChaosDaemons_MT/Khorne'/> (City)"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/HeadquartersMarkKhorneDescription" value="Changes the structure’s mark and immediately updates its warp territory."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkKhorne" value="<string name='Actions/ChaosDaemons_MT/Khorne'/> (Crown)"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkKhorneDescription" value="Changes the structure’s mark and immediately updates its warp territory."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/HeadquartersMarkSlaanesh" value="<string name='Actions/ChaosDaemons_MT/Slaanesh'/> (City)"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/HeadquartersMarkSlaaneshDescription" value="Changes the structure’s mark and immediately updates its warp territory."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkSlaanesh" value="<string name='Actions/ChaosDaemons_MT/Slaanesh'/> (Crown)"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkSlaaneshDescription" value="Changes the structure’s mark and immediately updates its warp territory."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/HeadquartersMarkTzeentch" value="<string name='Actions/ChaosDaemons_MT/Tzeentch'/> (City)"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/HeadquartersMarkTzeentchDescription" value="Changes the structure’s mark and immediately updates its warp territory."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkTzeentch" value="<string name='Actions/ChaosDaemons_MT/Tzeentch'/> (Crown)"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkTzeentchDescription" value="Changes the structure’s mark and immediately updates its warp territory."/>
 </language>

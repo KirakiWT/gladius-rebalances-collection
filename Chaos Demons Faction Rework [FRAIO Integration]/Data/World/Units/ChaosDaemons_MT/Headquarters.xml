@@ -128,19 +128,15 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing1" icon="Actions/ChaosSpaceMarines/MarkOfKhorne" passive="1">
+		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing1" icon="Actions/ChaosSpaceMarines/MarkOfKhorne" passive="1" visible="0">
 			<conditions>
 				<unit>
-					<noTrait name="ChaosDaemons_MT/Nurgle"/>
-					<noTrait name="ChaosDaemons_MT/Slaanesh"/>
-					<noTrait name="ChaosDaemons_MT/Tzeentch"/>
+					<trait name="ChaosDaemons_MT/Khorne"/>
 				</unit>
 			</conditions>
 			<perTurnProcessUseConditions>
 				<unit>
-					<noTrait name="ChaosDaemons_MT/Nurgle"/>
-					<noTrait name="ChaosDaemons_MT/Slaanesh"/>
-					<noTrait name="ChaosDaemons_MT/Tzeentch"/>
+					<trait name="ChaosDaemons_MT/Khorne"/>
 				</unit>
 			</perTurnProcessUseConditions>
 			<beginTargets>
@@ -166,19 +162,15 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing2" icon="Actions/ChaosSpaceMarines/MarkOfKhorne" passive="1" requiredUpgrade="ChaosDaemons_MT/WarpNexuses">
+		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing2" icon="Actions/ChaosSpaceMarines/MarkOfKhorne" passive="1" requiredUpgrade="ChaosDaemons_MT/WarpNexuses" visible="0">
 			<conditions>
 				<unit>
-					<noTrait name="ChaosDaemons_MT/Nurgle"/>
-					<noTrait name="ChaosDaemons_MT/Slaanesh"/>
-					<noTrait name="ChaosDaemons_MT/Tzeentch"/>
+					<trait name="ChaosDaemons_MT/Khorne"/>
 				</unit>
 			</conditions>
 			<perTurnProcessUseConditions>
 				<unit>
-					<noTrait name="ChaosDaemons_MT/Nurgle"/>
-					<noTrait name="ChaosDaemons_MT/Slaanesh"/>
-					<noTrait name="ChaosDaemons_MT/Tzeentch"/>
+					<trait name="ChaosDaemons_MT/Khorne"/>
 				</unit>
 			</perTurnProcessUseConditions>
 			<beginTargets>
@@ -204,19 +196,15 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing3" icon="Actions/ChaosSpaceMarines/MarkOfKhorne" passive="1" requiredUpgrade="ChaosDaemons_MT/WarpDominion">
+		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing3" icon="Actions/ChaosSpaceMarines/MarkOfKhorne" passive="1" requiredUpgrade="ChaosDaemons_MT/WarpDominion" visible="0">
 			<conditions>
 				<unit>
-					<noTrait name="ChaosDaemons_MT/Nurgle"/>
-					<noTrait name="ChaosDaemons_MT/Slaanesh"/>
-					<noTrait name="ChaosDaemons_MT/Tzeentch"/>
+					<trait name="ChaosDaemons_MT/Khorne"/>
 				</unit>
 			</conditions>
 			<perTurnProcessUseConditions>
 				<unit>
-					<noTrait name="ChaosDaemons_MT/Nurgle"/>
-					<noTrait name="ChaosDaemons_MT/Slaanesh"/>
-					<noTrait name="ChaosDaemons_MT/Tzeentch"/>
+					<trait name="ChaosDaemons_MT/Khorne"/>
 				</unit>
 			</perTurnProcessUseConditions>
 			<beginTargets>
@@ -242,7 +230,7 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing1" icon="Actions/ChaosSpaceMarines/MarkOfNurgle" passive="1">
+		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing1" icon="Actions/ChaosSpaceMarines/MarkOfNurgle" passive="1" visible="0">
 			<conditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/Nurgle"/>
@@ -276,7 +264,7 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing2" icon="Actions/ChaosSpaceMarines/MarkOfNurgle" passive="1" requiredUpgrade="ChaosDaemons_MT/WarpNexuses">
+		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing2" icon="Actions/ChaosSpaceMarines/MarkOfNurgle" passive="1" requiredUpgrade="ChaosDaemons_MT/WarpNexuses" visible="0">
 			<conditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/Nurgle"/>
@@ -310,7 +298,7 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing3" icon="Actions/ChaosSpaceMarines/MarkOfNurgle" passive="1" requiredUpgrade="ChaosDaemons_MT/WarpDominion">
+		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing3" icon="Actions/ChaosSpaceMarines/MarkOfNurgle" passive="1" requiredUpgrade="ChaosDaemons_MT/WarpDominion" visible="0">
 			<conditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/Nurgle"/>
@@ -344,7 +332,7 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing1" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh" passive="1">
+		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing1" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh" passive="1" visible="0">
 			<conditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/Slaanesh"/>
@@ -378,7 +366,7 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing2" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh" passive="1" requiredUpgrade="ChaosDaemons_MT/WarpNexuses">
+		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing2" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh" passive="1" requiredUpgrade="ChaosDaemons_MT/WarpNexuses" visible="0">
 			<conditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/Slaanesh"/>
@@ -412,7 +400,7 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing3" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh" passive="1" requiredUpgrade="ChaosDaemons_MT/WarpDominion">
+		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing3" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh" passive="1" requiredUpgrade="ChaosDaemons_MT/WarpDominion" visible="0">
 			<conditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/Slaanesh"/>
@@ -446,7 +434,7 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing1" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch" passive="1">
+		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing1" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch" passive="1" visible="0">
 			<conditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/Tzeentch"/>
@@ -480,7 +468,7 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing2" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch" passive="1" requiredUpgrade="ChaosDaemons_MT/WarpNexuses">
+		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing2" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch" passive="1" requiredUpgrade="ChaosDaemons_MT/WarpNexuses" visible="0">
 			<conditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/Tzeentch"/>
@@ -514,7 +502,7 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing3" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch" passive="1" requiredUpgrade="ChaosDaemons_MT/WarpDominion">
+		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing3" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch" passive="1" requiredUpgrade="ChaosDaemons_MT/WarpDominion" visible="0">
 			<conditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/Tzeentch"/>

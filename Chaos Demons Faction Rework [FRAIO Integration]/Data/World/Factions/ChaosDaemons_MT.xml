@@ -58,14 +58,39 @@
 							<faction name="ChaosDaemons_MT"/>
 							<noTrait name="ChaosDaemons_MT/GreaterDaemon"/>
 							<noTrait name="ChaosDaemons_MT/Nurgle"/>
-						</unit>
-						<unit match="Any">
-							<trait name="ChaosDaemons_MT/Undivided"/>
-							<trait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
-						</unit>
-						<unit match="Any">
 							<noTrait name="Fortification"/>
-							<trait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
+							<trait name="ChaosDaemons_MT/Undivided"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<removeTrait name="ChaosDaemons_MT/Undivided"/>
+										<addTrait name="ChaosDaemons_MT/Nurgle"/>
+										<addTrait name="Regeneration"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</markOfNurgle>
+		<markOfNurgle cooldown="0" name="ChaosDaemons_MT/WarpTerritory/HeadquartersMarkNurgle" icon="Actions/ChaosSpaceMarines/MarkOfNurgle">
+			<model>
+				<action sound="Interface/MarkOfChaos"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="-1">
+					<conditions>
+						<unit>
+							<affiliate/>
+							<faction name="ChaosDaemons_MT"/>
+							<noTrait name="ChaosDaemons_MT/GreaterDaemon"/>
+							<noTrait name="ChaosDaemons_MT/Nurgle"/>
+							<type name="ChaosDaemons_MT/Headquarters"/>
 						</unit>
 					</conditions>
 					<areas>
@@ -94,6 +119,131 @@
 								</modifier>
 							</modifiers>
 						</area>
+						<area affects="Tile" radius="1" excludeRadius="0">
+							<modifiers>
+								<modifier visible="0">
+									<effects>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Tile" radius="2" excludeRadius="1">
+							<modifiers>
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpNexuses">
+									<effects>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Tile" radius="3" excludeRadius="2">
+							<modifiers>
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpDominion">
+									<effects>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</markOfNurgle>
+		<markOfNurgle cooldown="0" name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkNurgle" icon="Actions/ChaosSpaceMarines/MarkOfNurgle">
+			<model>
+				<action sound="Interface/MarkOfChaos"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="-1">
+					<conditions>
+						<unit>
+							<affiliate/>
+							<faction name="ChaosDaemons_MT"/>
+							<noTrait name="ChaosDaemons_MT/GreaterDaemon"/>
+							<noTrait name="ChaosDaemons_MT/Nurgle"/>
+							<type name="ChaosDaemons_MT/NoctilithCrown"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<trait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
+										</unit>
+									</conditions>
+									<effects>
+										<removeTrait name="ChaosDaemons_MT/Khorne"/>
+										<removeTrait name="ChaosDaemons_MT/Slaanesh"/>
+										<removeTrait name="ChaosDaemons_MT/HarbringerOfLust"/>
+										<removeTrait name="ChaosDaemons_MT/Tzeentch"/>
+										<removeTrait name="SoulBlaze"/>
+									</effects>
+								</modifier>
+								<modifier>
+									<effects>
+										<removeTrait name="ChaosDaemons_MT/Undivided"/>
+										<addTrait name="ChaosDaemons_MT/Nurgle"/>
+										<addTrait name="Regeneration"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Tile" radius="1" excludeRadius="0">
+							<modifiers>
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpNexuses">
+									<effects>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Tile" radius="2" excludeRadius="1">
+							<modifiers>
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpDominion">
+									<effects>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
 					</areas>
 				</target>
 			</beginTargets>
@@ -110,14 +260,38 @@
 							<faction name="ChaosDaemons_MT"/>
 							<noTrait name="ChaosDaemons_MT/GreaterDaemon"/>
 							<noTrait name="ChaosDaemons_MT/Khorne"/>
-						</unit>
-						<unit match="Any">
-							<trait name="ChaosDaemons_MT/Undivided"/>
-							<trait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
-						</unit>
-						<unit match="Any">
 							<noTrait name="Fortification"/>
-							<trait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
+							<trait name="ChaosDaemons_MT/Undivided"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<removeTrait name="ChaosDaemons_MT/Undivided"/>
+										<addTrait name="ChaosDaemons_MT/Khorne"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</markOfKhorne>
+		<markOfKhorne cooldown="0" name="ChaosDaemons_MT/WarpTerritory/HeadquartersMarkKhorne" icon="Actions/ChaosSpaceMarines/MarkOfKhorne">
+			<model>
+				<action sound="Interface/MarkOfChaos"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="-1">
+					<conditions>
+						<unit>
+							<affiliate/>
+							<faction name="ChaosDaemons_MT"/>
+							<noTrait name="ChaosDaemons_MT/GreaterDaemon"/>
+							<noTrait name="ChaosDaemons_MT/Khorne"/>
+							<type name="ChaosDaemons_MT/Headquarters"/>
 						</unit>
 					</conditions>
 					<areas>
@@ -146,6 +320,131 @@
 								</modifier>
 							</modifiers>
 						</area>
+						<area affects="Tile" radius="1" excludeRadius="0">
+							<modifiers>
+								<modifier visible="0">
+									<effects>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Tile" radius="2" excludeRadius="1">
+							<modifiers>
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpNexuses">
+									<effects>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Tile" radius="3" excludeRadius="2">
+							<modifiers>
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpDominion">
+									<effects>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</markOfKhorne>
+		<markOfKhorne cooldown="0" name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkKhorne" icon="Actions/ChaosSpaceMarines/MarkOfKhorne">
+			<model>
+				<action sound="Interface/MarkOfChaos"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="-1">
+					<conditions>
+						<unit>
+							<affiliate/>
+							<faction name="ChaosDaemons_MT"/>
+							<noTrait name="ChaosDaemons_MT/GreaterDaemon"/>
+							<noTrait name="ChaosDaemons_MT/Khorne"/>
+							<type name="ChaosDaemons_MT/NoctilithCrown"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<trait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
+										</unit>
+									</conditions>
+									<effects>
+										<removeTrait name="ChaosDaemons_MT/Nurgle"/>
+										<removeTrait name="Regeneration"/>
+										<removeTrait name="ChaosDaemons_MT/Slaanesh"/>
+										<removeTrait name="ChaosDaemons_MT/HarbringerOfLust"/>
+										<removeTrait name="ChaosDaemons_MT/Tzeentch"/>
+										<removeTrait name="SoulBlaze"/>
+									</effects>
+								</modifier>
+								<modifier>
+									<effects>
+										<removeTrait name="ChaosDaemons_MT/Undivided"/>
+										<addTrait name="ChaosDaemons_MT/Khorne"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Tile" radius="1" excludeRadius="0">
+							<modifiers>
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpNexuses">
+									<effects>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Tile" radius="2" excludeRadius="1">
+							<modifiers>
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpDominion">
+									<effects>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
 					</areas>
 				</target>
 			</beginTargets>
@@ -162,14 +461,39 @@
 							<faction name="ChaosDaemons_MT"/>
 							<noTrait name="ChaosDaemons_MT/GreaterDaemon"/>
 							<noTrait name="ChaosDaemons_MT/Slaanesh"/>
-						</unit>
-						<unit match="Any">
-							<trait name="ChaosDaemons_MT/Undivided"/>
-							<trait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
-						</unit>
-						<unit match="Any">
 							<noTrait name="Fortification"/>
-							<trait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
+							<trait name="ChaosDaemons_MT/Undivided"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<removeTrait name="ChaosDaemons_MT/Undivided"/>
+										<addTrait name="ChaosDaemons_MT/Slaanesh"/>
+										<addTrait name="ChaosDaemons_MT/HarbringerOfLust"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</markOfSlaanesh>
+		<markOfSlaanesh cooldown="0" name="ChaosDaemons_MT/WarpTerritory/HeadquartersMarkSlaanesh" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh">
+			<model>
+				<action sound="Interface/MarkOfChaos"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="-1">
+					<conditions>
+						<unit>
+							<affiliate/>
+							<faction name="ChaosDaemons_MT"/>
+							<noTrait name="ChaosDaemons_MT/GreaterDaemon"/>
+							<noTrait name="ChaosDaemons_MT/Slaanesh"/>
+							<type name="ChaosDaemons_MT/Headquarters"/>
 						</unit>
 					</conditions>
 					<areas>
@@ -198,6 +522,131 @@
 								</modifier>
 							</modifiers>
 						</area>
+						<area affects="Tile" radius="1" excludeRadius="0">
+							<modifiers>
+								<modifier visible="0">
+									<effects>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Tile" radius="2" excludeRadius="1">
+							<modifiers>
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpNexuses">
+									<effects>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Tile" radius="3" excludeRadius="2">
+							<modifiers>
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpDominion">
+									<effects>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</markOfSlaanesh>
+		<markOfSlaanesh cooldown="0" name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkSlaanesh" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh">
+			<model>
+				<action sound="Interface/MarkOfChaos"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="-1">
+					<conditions>
+						<unit>
+							<affiliate/>
+							<faction name="ChaosDaemons_MT"/>
+							<noTrait name="ChaosDaemons_MT/GreaterDaemon"/>
+							<noTrait name="ChaosDaemons_MT/Slaanesh"/>
+							<type name="ChaosDaemons_MT/NoctilithCrown"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<trait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
+										</unit>
+									</conditions>
+									<effects>
+										<removeTrait name="ChaosDaemons_MT/Khorne"/>
+										<removeTrait name="ChaosDaemons_MT/Nurgle"/>
+										<removeTrait name="Regeneration"/>
+										<removeTrait name="ChaosDaemons_MT/Tzeentch"/>
+										<removeTrait name="SoulBlaze"/>
+									</effects>
+								</modifier>
+								<modifier>
+									<effects>
+										<removeTrait name="ChaosDaemons_MT/Undivided"/>
+										<addTrait name="ChaosDaemons_MT/Slaanesh"/>
+										<addTrait name="ChaosDaemons_MT/HarbringerOfLust"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Tile" radius="1" excludeRadius="0">
+							<modifiers>
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpNexuses">
+									<effects>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Tile" radius="2" excludeRadius="1">
+							<modifiers>
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpDominion">
+									<effects>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
 					</areas>
 				</target>
 			</beginTargets>
@@ -214,14 +663,39 @@
 							<faction name="ChaosDaemons_MT"/>
 							<noTrait name="ChaosDaemons_MT/GreaterDaemon"/>
 							<noTrait name="ChaosDaemons_MT/Tzeentch"/>
-						</unit>
-						<unit match="Any">
-							<trait name="ChaosDaemons_MT/Undivided"/>
-							<trait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
-						</unit>
-						<unit match="Any">
 							<noTrait name="Fortification"/>
-							<trait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
+							<trait name="ChaosDaemons_MT/Undivided"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<removeTrait name="ChaosDaemons_MT/Undivided"/>
+										<addTrait name="ChaosDaemons_MT/Tzeentch"/>
+										<addTrait name="SoulBlaze"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</markOfTzeentch>
+		<markOfTzeentch cooldown="0" name="ChaosDaemons_MT/WarpTerritory/HeadquartersMarkTzeentch" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch">
+			<model>
+				<action sound="Interface/MarkOfChaos"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="-1">
+					<conditions>
+						<unit>
+							<affiliate/>
+							<faction name="ChaosDaemons_MT"/>
+							<noTrait name="ChaosDaemons_MT/GreaterDaemon"/>
+							<noTrait name="ChaosDaemons_MT/Tzeentch"/>
+							<type name="ChaosDaemons_MT/Headquarters"/>
 						</unit>
 					</conditions>
 					<areas>
@@ -246,6 +720,131 @@
 										<removeTrait name="ChaosDaemons_MT/Undivided"/>
 										<addTrait name="ChaosDaemons_MT/Tzeentch"/>
 										<addTrait name="SoulBlaze"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Tile" radius="1" excludeRadius="0">
+							<modifiers>
+								<modifier visible="0">
+									<effects>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Tile" radius="2" excludeRadius="1">
+							<modifiers>
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpNexuses">
+									<effects>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Tile" radius="3" excludeRadius="2">
+							<modifiers>
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpDominion">
+									<effects>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</markOfTzeentch>
+		<markOfTzeentch cooldown="0" name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkTzeentch" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch">
+			<model>
+				<action sound="Interface/MarkOfChaos"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="-1">
+					<conditions>
+						<unit>
+							<affiliate/>
+							<faction name="ChaosDaemons_MT"/>
+							<noTrait name="ChaosDaemons_MT/GreaterDaemon"/>
+							<noTrait name="ChaosDaemons_MT/Tzeentch"/>
+							<type name="ChaosDaemons_MT/NoctilithCrown"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<trait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
+										</unit>
+									</conditions>
+									<effects>
+										<removeTrait name="ChaosDaemons_MT/Khorne"/>
+										<removeTrait name="ChaosDaemons_MT/Nurgle"/>
+										<removeTrait name="Regeneration"/>
+										<removeTrait name="ChaosDaemons_MT/Slaanesh"/>
+										<removeTrait name="ChaosDaemons_MT/HarbringerOfLust"/>
+									</effects>
+								</modifier>
+								<modifier>
+									<effects>
+										<removeTrait name="ChaosDaemons_MT/Undivided"/>
+										<addTrait name="ChaosDaemons_MT/Tzeentch"/>
+										<addTrait name="SoulBlaze"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Tile" radius="1" excludeRadius="0">
+							<modifiers>
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpNexuses">
+									<effects>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Tile" radius="2" excludeRadius="1">
+							<modifiers>
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpDominion">
+									<effects>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
 									</effects>
 								</modifier>
 							</modifiers>
