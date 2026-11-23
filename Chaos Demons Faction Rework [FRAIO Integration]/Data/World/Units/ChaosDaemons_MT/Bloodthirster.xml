@@ -330,29 +330,6 @@
 				</target>
 			</beginTargets>
 		</genericUnitAbility>
-		<levelUp/>
-		<shop/>
-		<dimensionalCorridor cooldown="5"
-				name="ChaosDaemons_MT/WarpRiftTeleport"
-				requiredUpgrade="ChaosDaemons_MT/WarpRift"
-				icon="Actions/Necrons/GravityPulse">
-			<model>
-				<action sound="Actions/Teleport"/>
-			</model>
-			<conditions>
-				<unit>
-					<trait name="ChaosDaemons_MT/WarpRift"/>
-				</unit>
-			</conditions>
-			<modifiers>
-				<modifier requiredUpgrade="ChaosDaemons_MT/WarpSurge">
-					<effects>
-						<consumedActionPoints max="0"/>
-						<consumedMovement max="0"/>
-					</effects>
-				</modifier>
-			</modifiers>
-		</dimensionalCorridor>
 			<genericUnitAbility name="ChaosDaemons_MT/BloodTide"
 				cooldown="8"
 				icon="Actions/ChaosSpaceMarines/IconOfWrath"
@@ -395,6 +372,29 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
+		<levelUp/>
+		<shop/>
+		<dimensionalCorridor cooldown="5"
+				name="ChaosDaemons_MT/WarpRiftTeleport"
+				requiredUpgrade="ChaosDaemons_MT/WarpRift"
+				icon="Actions/Necrons/GravityPulse">
+			<model>
+				<action sound="Actions/Teleport"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/WarpRift"/>
+				</unit>
+			</conditions>
+			<modifiers>
+				<modifier requiredUpgrade="ChaosDaemons_MT/WarpSurge">
+					<effects>
+						<consumedActionPoints max="0"/>
+						<consumedMovement max="0"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</dimensionalCorridor>
 		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/CreateKhorneHero"
 				cooldown="1"
 				consumedActionPoints="0"
