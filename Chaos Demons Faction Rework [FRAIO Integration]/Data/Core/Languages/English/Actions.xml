@@ -295,13 +295,13 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepDescription" value="Refreshes nearby existing Warp Territory to 5 turns. Costs no action points or movement."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/MantleOfShadows" value="Mantle of Shadows"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/MantleOfShadowsDescription" value="Warp territory within 3 tiles does not fade."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/MantleOfShadowsDescription" value="Each turn, refreshes existing Warp Territory within 3 tiles to 5 turns."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/MantleOfShadowsFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpBlink" value="Warp Blink"/>
 	<entry name="ChaosDaemons_MT/WarpBlinkDescription" value="Teleport to a chosen tile."/>
 	<entry name="ChaosDaemons_MT/WarpBlinkFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpDetonation" value="Warp Detonation"/>
-	<entry name="ChaosDaemons_MT/WarpDetonationDescription" value="Stun enemies within 3 tiles for 1 turn and create Flux Territory in 3 tiles around."/>
+	<entry name="ChaosDaemons_MT/WarpDetonationDescription" value="Stuns enemies within 3 tiles for 1 turn and creates Flux Territory within that radius for 5 turns, replacing other gods’ territories."/>
 	<entry name="ChaosDaemons_MT/WarpDetonationFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/BloodTide" value="Blood Tide"/>
 	<entry name="ChaosDaemons_MT/BloodTideDescription" value="Create Blood Territory in 2 tiles and restore morale of allied Khorne servants. Replaces Warp Territory belonging to another god."/>
@@ -328,6 +328,6 @@
 	<entry name="ChaosDaemons_MT/SkullFeastDescription" value="<string name='Traits/ChaosDaemons_MT/SkullFeastDescription'/>"/>
 	<entry name="ChaosDaemons_MT/SkullFeastFlavor" value="<string name='Traits/ChaosDaemons_MT/SkullFeastFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/TheBloodMustFlow" value="The blood must flow"/>
-	<entry name="ChaosDaemons_MT/TheBloodMustFlowDescription" value="Regain an action point."/>
+	<entry name="ChaosDaemons_MT/TheBloodMustFlowDescription" value="Restores 1 action point when the Bloodmaster has none left. Cooldown is 3 turns."/>
 	<entry name="ChaosDaemons_MT/TheBloodMustFlowFlavor" value="Rallied by bloody example, Khorne’s lesser daemons leap into combat."/>
 </language>

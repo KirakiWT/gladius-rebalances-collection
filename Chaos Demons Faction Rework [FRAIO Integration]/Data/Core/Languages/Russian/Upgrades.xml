@@ -101,10 +101,10 @@
 	<entry name="ChaosDaemons_MT/SeekerFlavor" value="<string name='Units/ChaosDaemons_MT/SeekerFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/Skullcannon" value="<string name='Units/ChaosDaemons_MT/Skullcannon'/>"/>
 	<entry name="ChaosDaemons_MT/SkullcannonDescription" value="Нанимает мощное оружие, управляемое малыми демонами Тёмных Богов."/>
-	<entry name="ChaosDaemons_MT/SkullcannonFlavor" value="<string name='Units/ChaosDaemons_MT/SkullcannonFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/SkullcannonFlavor" value="<string name='Units/ChaosDaemons_MT/SkullcannonKhorneFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/SoulGrinder" value="<string name='Units/ChaosDaemons_MT/SoulGrinder'/>"/>
 	<entry name="ChaosDaemons_MT/SoulGrinderDescription" value="Нанимает мощные демон-машины, посвящённые Тёмным Богам."/>
-	<entry name="ChaosDaemons_MT/SoulGrinderFlavor" value="<string name='Units/ChaosDaemons_MT/SoulGrinderFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/SoulGrinderFlavor" value="<string name='Units/ChaosDaemons_MT/SoulGrinderSlaaneshFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/WarDogStalker" value="<string name='Units/ChaosDaemons_MT/WarDogStalker'/>"/>
 	<entry name="ChaosDaemons_MT/WarDogStalkerDescription" value="<string name='Units/ChaosDaemons_MT/WarDogStalkerDescription'/>"/>
 	<entry name="ChaosDaemons_MT/WarDogStalkerFlavor" value="<string name='Units/ChaosDaemons_MT/WarDogStalkerFlavor'/>"/>
