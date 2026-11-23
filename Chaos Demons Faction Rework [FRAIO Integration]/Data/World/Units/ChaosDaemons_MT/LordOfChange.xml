@@ -335,6 +335,9 @@
 		</genericUnitAbility>
 			<genericUnitAbility cooldown="20"
 				name="ChaosDaemons_MT/WarpDetonation"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				consumedMovement="0"
 				icon="Actions/Eldar/MindWar"
 				rank="-1"
 				rankMax="0">

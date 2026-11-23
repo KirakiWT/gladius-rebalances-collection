@@ -226,7 +226,7 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/MantleOfShadowsDescription" value="Каждый ход продлевает действие существующей варп-территории в радиусе 3 клеток до 5 ходов."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/MantleOfShadowsFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpDetonation" value="Варп-детонация"/>
-	<entry name="ChaosDaemons_MT/WarpDetonationDescription" value="На 1 ход оглушает все подразделения в радиусе 3 клеток, включая свои и союзные войска и технику. Сам Владыка Перемен не оглушается. Создаёт в этом радиусе территорию перемен на 5 ходов, заменяя территории других богов."/>
+	<entry name="ChaosDaemons_MT/WarpDetonationDescription" value="Свободное действие. На 1 ход оглушает все подразделения в радиусе 3 клеток, включая свои и союзные войска и технику. Сам Владыка Перемен не оглушается. Создаёт в этом радиусе территорию перемен на 5 ходов, заменяя территории других богов."/>
 	<entry name="ChaosDaemons_MT/WarpDetonationFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/BloodTide" value="Кровавый прилив"/>
 	<entry name="ChaosDaemons_MT/BloodTideDescription" value="Создаёт территорию крови в радиусе 2 и повышает мораль слуг Кхорна. Заменяет варп-территорию другого бога."/>
