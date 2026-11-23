@@ -153,14 +153,15 @@
 				</modifier>
 			</modifiers>
 		</dimensionalCorridor>
-			<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/CreateKhorne"
+			<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/CursedRelicShotKhorne"
 				cooldown="1"
 				consumedActionPoints="0"
 				consumedMovement="0"
 				icon="Actions/ChaosSpaceMarines/MarkOfKhorne"
 				useConditionsForVisiblity="1">
 			<model>
-				<action sound="Actions/PsychicBuff"/>
+				<action animation="Units/Reinforcements_MT/SkullcannonKhorne/Range"
+						sound="Actions/PsychicBuff"/>
 			</model>
 			<conditions>
 				<unit>
@@ -178,7 +179,7 @@
 				</modifier>
 			</modifiers>
 			<beginTargets>
-				<target rangeMax="1">
+				<target rangeMax="3">
 					<conditions>
 						<tile>
 							
@@ -203,14 +204,15 @@
 				</target>
 			</beginTargets>
 		</genericUnitAbility>
-		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/CreateTzeentch"
+		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/CursedRelicShotTzeentch"
 				cooldown="1"
 				consumedActionPoints="0"
 				consumedMovement="0"
 				icon="Actions/ChaosSpaceMarines/MarkOfTzeentch"
 				useConditionsForVisiblity="1">
 			<model>
-				<action sound="Actions/PsychicBuff"/>
+				<action animation="Units/Reinforcements_MT/SkullcannonKhorne/Range"
+						sound="Actions/PsychicBuff"/>
 			</model>
 			<conditions>
 				<unit>
@@ -228,7 +230,7 @@
 				</modifier>
 			</modifiers>
 			<beginTargets>
-				<target rangeMax="1">
+				<target rangeMax="3">
 					<conditions>
 						<tile>
 							
@@ -253,14 +255,15 @@
 				</target>
 			</beginTargets>
 		</genericUnitAbility>
-		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/CreateSlaanesh"
+		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/CursedRelicShotSlaanesh"
 				cooldown="1"
 				consumedActionPoints="0"
 				consumedMovement="0"
 				icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh"
 				useConditionsForVisiblity="1">
 			<model>
-				<action sound="Actions/PsychicBuff"/>
+				<action animation="Units/Reinforcements_MT/SkullcannonKhorne/Range"
+						sound="Actions/PsychicBuff"/>
 			</model>
 			<conditions>
 				<unit>
@@ -278,7 +281,7 @@
 				</modifier>
 			</modifiers>
 			<beginTargets>
-				<target rangeMax="1">
+				<target rangeMax="3">
 					<conditions>
 						<tile>
 							
@@ -303,14 +306,15 @@
 				</target>
 			</beginTargets>
 		</genericUnitAbility>
-		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/CreateNurgle"
+		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/CursedRelicShotNurgle"
 				cooldown="1"
 				consumedActionPoints="0"
 				consumedMovement="0"
 				icon="Actions/ChaosSpaceMarines/MarkOfNurgle"
 				useConditionsForVisiblity="1">
 			<model>
-				<action sound="Actions/PsychicBuff"/>
+				<action animation="Units/Reinforcements_MT/SkullcannonKhorne/Range"
+						sound="Actions/PsychicBuff"/>
 			</model>
 			<conditions>
 				<unit>
@@ -328,7 +332,7 @@
 				</modifier>
 			</modifiers>
 			<beginTargets>
-				<target rangeMax="1">
+				<target rangeMax="3">
 					<conditions>
 						<tile>
 							

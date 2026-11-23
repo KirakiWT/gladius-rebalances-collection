@@ -291,7 +291,7 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateNurgleHero" value="Create Plague Territory"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateNurgleHeroDescription" value="Creates Warp Territory on the target tile and adjacent tiles. Costs 7 food. Replaces Warp Territory belonging to another god."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateNurgleHeroFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeep" value="Warp territory upkeep"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeep" value="Chaos Rituals"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepDescription" value="Refreshes nearby existing Warp Territory to 5 turns. Costs no action points or movement."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/MantleOfShadows" value="Mantle of Shadows"/>
@@ -355,4 +355,16 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepGreatUncleanOne" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeep'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepGreatUncleanOneDescription" value="Passive ability. If the Great Unclean One moved this turn, refreshes existing Warp Territory within 3 tiles to 5 turns."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepGreatUncleanOneFlavor" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CursedRelicShotKhorne" value="Cursed Relic Shot"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CursedRelicShotKhorneDescription" value="Creates Warp Territory on one selected tile up to 3 tiles away. Costs 2 ore. Replaces Warp Territory belonging to another god."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CursedRelicShotKhorneFlavor" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/CreateKhorneFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CursedRelicShotNurgle" value="Cursed Relic Shot"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CursedRelicShotNurgleDescription" value="Creates Warp Territory on one selected tile up to 3 tiles away. Costs 2 food. Replaces Warp Territory belonging to another god."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CursedRelicShotNurgleFlavor" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/CreateNurgleFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CursedRelicShotSlaanesh" value="Cursed Relic Shot"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CursedRelicShotSlaaneshDescription" value="Creates Warp Territory on one selected tile up to 3 tiles away. Costs 2 influence. Replaces Warp Territory belonging to another god."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CursedRelicShotSlaaneshFlavor" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/CreateSlaaneshFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CursedRelicShotTzeentch" value="Cursed Relic Shot"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CursedRelicShotTzeentchDescription" value="Creates Warp Territory on one selected tile up to 3 tiles away. Costs 2 energy. Replaces Warp Territory belonging to another god."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CursedRelicShotTzeentchFlavor" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/CreateTzeentchFlavor'/>"/>
 </language>
