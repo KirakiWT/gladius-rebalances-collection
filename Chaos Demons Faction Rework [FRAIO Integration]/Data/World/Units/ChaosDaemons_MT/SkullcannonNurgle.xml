@@ -164,7 +164,8 @@
 				useConditionsForVisiblity="1">
 			<model>
 				<action animation="Units/Reinforcements_MT/SkullcannonNurgle/Range"
-						sound="Actions/PsychicBuff"/>
+						sound="Weapons/EarthshakerCannon"
+						soundCount="3"/>
 			</model>
 			<conditions>
 				<unit>
@@ -215,7 +216,8 @@
 				useConditionsForVisiblity="1">
 			<model>
 				<action animation="Units/Reinforcements_MT/SkullcannonNurgle/Range"
-						sound="Actions/PsychicBuff"/>
+						sound="Weapons/EarthshakerCannon"
+						soundCount="3"/>
 			</model>
 			<conditions>
 				<unit>
@@ -266,7 +268,8 @@
 				useConditionsForVisiblity="1">
 			<model>
 				<action animation="Units/Reinforcements_MT/SkullcannonNurgle/Range"
-						sound="Actions/PsychicBuff"/>
+						sound="Weapons/EarthshakerCannon"
+						soundCount="3"/>
 			</model>
 			<conditions>
 				<unit>
@@ -317,7 +320,8 @@
 				useConditionsForVisiblity="1">
 			<model>
 				<action animation="Units/Reinforcements_MT/SkullcannonNurgle/Range"
-						sound="Actions/PsychicBuff"/>
+						sound="Weapons/EarthshakerCannon"
+						soundCount="3"/>
 			</model>
 			<conditions>
 				<unit>
