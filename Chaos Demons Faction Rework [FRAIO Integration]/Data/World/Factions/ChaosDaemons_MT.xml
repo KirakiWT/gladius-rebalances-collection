@@ -202,12 +202,6 @@
 							<noUnit/>
 							<noFeature name="GravityWaves"/>
 						</tile>
-						<tile match="Any">
-							<feature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
-							<feature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
-							<feature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
-							<feature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
-						</tile>
 					</conditions>
 					<areas>
 						<area affects="Tile">
@@ -265,12 +259,6 @@
 							<noEnemyCity/>
 							<noUnit/>
 							<noFeature name="GravityWaves"/>
-						</tile>
-						<tile match="Any">
-							<feature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
-							<feature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
-							<feature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
-							<feature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
 						</tile>
 					</conditions>
 					<areas>
@@ -330,12 +318,6 @@
 							<noUnit/>
 							<noFeature name="GravityWaves"/>
 						</tile>
-						<tile match="Any">
-							<feature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
-							<feature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
-							<feature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
-							<feature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
-						</tile>
 					</conditions>
 					<areas>
 						<area affects="Tile">
@@ -393,12 +375,6 @@
 							<noEnemyCity/>
 							<noUnit/>
 							<noFeature name="GravityWaves"/>
-						</tile>
-						<tile match="Any">
-							<feature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
-							<feature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
-							<feature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
-							<feature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
 						</tile>
 					</conditions>
 					<areas>
