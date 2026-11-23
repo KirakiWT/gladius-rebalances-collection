@@ -298,19 +298,19 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkKhorne" value="Знак Кхорна"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkKhorneDescription" value="Посвящает сооружение Кхорна и заменяет предыдущий знак."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorne" value="Варп-аура Кхорна"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneDescription" value="Поддерживает постоянную варп-территорию вокруг сооружения."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneDescription" value="Каждый ход пересоздаёт варп-территорию на 3 хода."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkNurgle" value="Знак Нургла"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkNurgleDescription" value="Посвящает сооружение Нургла и заменяет предыдущий знак."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgle" value="Варп-аура Нургла"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleDescription" value="Поддерживает постоянную варп-территорию вокруг сооружения."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleDescription" value="Каждый ход пересоздаёт варп-территорию на 3 хода."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkSlaanesh" value="Знак Слаанеш"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkSlaaneshDescription" value="Посвящает сооружение Слаанеш и заменяет предыдущий знак."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaanesh" value="Варп-аура Слаанеш"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshDescription" value="Поддерживает постоянную варп-территорию вокруг сооружения."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshDescription" value="Каждый ход пересоздаёт варп-территорию на 3 хода."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentch" value="Знак Тзинча"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentchDescription" value="Посвящает сооружение Тзинча и заменяет предыдущий знак."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentch" value="Варп-аура Тзинча"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchDescription" value="Поддерживает постоянную варп-территорию вокруг сооружения."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchDescription" value="Каждый ход пересоздаёт варп-территорию на 3 хода."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing1" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraKhorne'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing1Description" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneDescription'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing2" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraKhorne'/>"/>

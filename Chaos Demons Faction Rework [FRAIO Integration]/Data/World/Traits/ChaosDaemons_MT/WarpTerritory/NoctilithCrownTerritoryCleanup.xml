@@ -1,58 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait visible="0">
-	<onUnitDisappeared>
-		<area affects="Tile" radius="1" excludeRadius="0">
-			<modifiers>
-				<modifier>
-					<conditions>
-						<tile>
-							<noFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
-						</tile>
-					</conditions>
-					<effects>
-						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
-						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
-						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
-						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
-					</effects>
-				</modifier>
-			</modifiers>
-		</area>
-		<area affects="Tile" radius="2" excludeRadius="1">
-			<modifiers>
-				<modifier requiredUpgrade="ChaosDaemons_MT/WarpNexuses">
-					<conditions>
-						<tile>
-							<noFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
-						</tile>
-					</conditions>
-					<effects>
-						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
-						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
-						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
-						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
-					</effects>
-				</modifier>
-			</modifiers>
-		</area>
-		<area affects="Tile" radius="3" excludeRadius="2">
-			<modifiers>
-				<modifier requiredUpgrade="ChaosDaemons_MT/WarpDominion">
-					<conditions>
-						<tile>
-							<noFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
-						</tile>
-					</conditions>
-					<effects>
-						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
-						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
-						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
-						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
-					</effects>
-				</modifier>
-			</modifiers>
-		</area>
-	</onUnitDisappeared>
 	<onUnitDisappearedModifiers>
 		<modifier>
 			<effects>

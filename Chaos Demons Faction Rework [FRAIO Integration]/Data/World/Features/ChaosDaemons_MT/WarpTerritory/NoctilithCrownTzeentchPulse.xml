@@ -17,7 +17,8 @@
 						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
 						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
 						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
-						<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+						<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch" duration="3"/>
 					</effects>
 				</modifier>
 			</modifiers>
@@ -38,7 +39,8 @@
 						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
 						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
 						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
-						<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+						<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch" duration="3"/>
 					</effects>
 				</modifier>
 			</modifiers>
@@ -59,7 +61,8 @@
 						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
 						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
 						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
-						<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+						<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch" duration="3"/>
 					</effects>
 				</modifier>
 			</modifiers>

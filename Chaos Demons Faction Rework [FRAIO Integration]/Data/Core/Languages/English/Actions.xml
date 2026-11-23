@@ -370,19 +370,19 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkKhorne" value="Mark of Khorne"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkKhorneDescription" value="Dedicates the structure to Khorne and replaces its previous mark."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorne" value="Khorne Warp Aura"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneDescription" value="Sustains permanent warp territory around the structure."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneDescription" value="Recreates warp territory each turn with a three-turn duration."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkNurgle" value="Mark of Nurgle"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkNurgleDescription" value="Dedicates the structure to Nurgle and replaces its previous mark."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgle" value="Nurgle Warp Aura"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleDescription" value="Sustains permanent warp territory around the structure."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleDescription" value="Recreates warp territory each turn with a three-turn duration."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkSlaanesh" value="Mark of Slaanesh"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkSlaaneshDescription" value="Dedicates the structure to Slaanesh and replaces its previous mark."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaanesh" value="Slaanesh Warp Aura"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshDescription" value="Sustains permanent warp territory around the structure."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshDescription" value="Recreates warp territory each turn with a three-turn duration."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentch" value="Mark of Tzeentch"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentchDescription" value="Dedicates the structure to Tzeentch and replaces its previous mark."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentch" value="Tzeentch Warp Aura"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchDescription" value="Sustains permanent warp territory around the structure."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchDescription" value="Recreates warp territory each turn with a three-turn duration."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing1" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraKhorne'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing1Description" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneDescription'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing2" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraKhorne'/>"/>

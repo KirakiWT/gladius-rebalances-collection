@@ -33,12 +33,12 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/Nurgle" value="Территория чумы"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/NurgleDescription'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/StaticKhorne" value="Постоянная варп-территория Кхорна"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/StaticKhorneDescription" value="Поддерживается аурой города или Ноктилитовой короны."/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/StaticNurgle" value="Постоянная варп-территория Нургла"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/StaticNurgleDescription" value="Поддерживается аурой города или Ноктилитовой короны."/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh" value="Постоянная варп-территория Слаанеш"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/StaticSlaaneshDescription" value="Поддерживается аурой города или Ноктилитовой короны."/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch" value="Постоянная варп-территория Тзинча"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/StaticTzeentchDescription" value="Поддерживается аурой города или Ноктилитовой короны."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StaticKhorne" value="Варп-территория сооружения: Кхорна"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StaticKhorneDescription" value="Исчезает через 3 хода после последнего обновления городом или Короной."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StaticNurgle" value="Варп-территория сооружения: Нургла"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StaticNurgleDescription" value="Исчезает через 3 хода после последнего обновления городом или Короной."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh" value="Варп-территория сооружения: Слаанеш"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StaticSlaaneshDescription" value="Исчезает через 3 хода после последнего обновления городом или Короной."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch" value="Варп-территория сооружения: Тзинча"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StaticTzeentchDescription" value="Исчезает через 3 хода после последнего обновления городом или Короной."/>
 </language>
