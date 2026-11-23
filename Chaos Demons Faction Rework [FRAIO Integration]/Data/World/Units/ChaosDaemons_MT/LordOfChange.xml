@@ -344,7 +344,7 @@
 				<action sound="Weapons/PsychicScream"/>
 			</model>
 			<endTargets>
-				<target>
+				<selfTarget>
 					<areas>
 						<area affects="Unit" radius="3" excludeRadius="0">
 							<modifiers>
@@ -376,7 +376,7 @@
 							</modifiers>
 						</area>
 					</areas>
-				</target>
+				</selfTarget>
 			</endTargets>
 		</daJump>
 		<levelUp/>
