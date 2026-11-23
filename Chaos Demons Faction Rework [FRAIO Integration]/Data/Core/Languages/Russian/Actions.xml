@@ -225,11 +225,8 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/MantleOfShadows" value="Покров теней"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/MantleOfShadowsDescription" value="Каждый ход продлевает действие существующей варп-территории в радиусе 3 клеток до 5 ходов."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/MantleOfShadowsFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
-	<entry name="ChaosDaemons_MT/WarpBlink" value="Варп-прыжок"/>
-	<entry name="ChaosDaemons_MT/WarpBlinkDescription" value="Телепортация на выбранную плитку."/>
-	<entry name="ChaosDaemons_MT/WarpBlinkFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpDetonation" value="Варп-детонация"/>
-	<entry name="ChaosDaemons_MT/WarpDetonationDescription" value="Оглушает врагов в радиусе 3 клеток на 1 ход и создаёт в этом радиусе территорию перемен на 5 ходов, заменяя территории других богов."/>
+	<entry name="ChaosDaemons_MT/WarpDetonationDescription" value="Телепортируется на выбранную свободную клетку без ограничения дальности. По прибытии оглушает врагов в радиусе 3 клеток на 1 ход и создаёт территорию перемен на 5 ходов, заменяя территории других богов."/>
 	<entry name="ChaosDaemons_MT/WarpDetonationFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/BloodTide" value="Кровавый прилив"/>
 	<entry name="ChaosDaemons_MT/BloodTideDescription" value="Создаёт территорию крови в радиусе 2 и повышает мораль слуг Кхорна. Заменяет варп-территорию другого бога."/>

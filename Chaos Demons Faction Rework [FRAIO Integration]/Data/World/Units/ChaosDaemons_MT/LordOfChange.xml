@@ -335,26 +335,16 @@
 		</genericUnitAbility>
 			<daJump cooldownMin="20"
 				cooldownMax="20"
-				name="ChaosDaemons_MT/WarpBlink"
-				radius="1"
-				icon="Actions/Necrons/GravityPulse"
-				rank="-1"
-				rankMax="0">
-			<model>
-				<action sound="Actions/Teleport"/>
-			</model>
-		</daJump>
-		<psychicScream cooldown="20"
+				radius="0"
 				name="ChaosDaemons_MT/WarpDetonation"
 				icon="Actions/Eldar/MindWar"
 				rank="-1"
 				rankMax="0">
 			<model>
-				<action animation="Units/Reinforcements_MT/LordOfChange/Cast"
-						sound="Weapons/PsychicScream"/>
+				<action sound="Weapons/PsychicScream"/>
 			</model>
-			<beginTargets>
-				<selfTarget>
+			<endTargets>
+				<target>
 					<areas>
 						<area affects="Unit" radius="3" excludeRadius="0">
 							<modifiers>
@@ -386,9 +376,9 @@
 							</modifiers>
 						</area>
 					</areas>
-				</selfTarget>
-			</beginTargets>
-		</psychicScream>
+				</target>
+			</endTargets>
+		</daJump>
 		<levelUp/>
 		<shop/>
 		<dimensionalCorridor cooldown="5"
