@@ -387,17 +387,9 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleRival" value="Plague Territory — Rival's Ground"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleRivalDescription" value="Servants of the rival god lose morale each turn."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleRivalFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/UpkeepStatus" value="Chaos Rituals — Upkeep"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/UpkeepStatusDescription" value="Each turn, sends a Warp pulse to refresh the duration of nearby Warp Territory features."/>
 	<entry name="ChaosDaemons_MT/BloodDuelEnemy" value="Blood Duel"/>
 	<entry name="ChaosDaemons_MT/BloodDuelEnemyDescription" value="Cannot move more than 1 tile. Deals 30% more damage to Khorne heroes."/>
 	<entry name="ChaosDaemons_MT/BloodDuelEnemyFlavor" value="Khorne cares not from whence the blood flows, only that it flows. The Herald calls out a champion, and no foe may refuse."/>
-	<entry name="ChaosDaemons_MT/SkullFeast" value="Skull Feast"/>
-	<entry name="ChaosDaemons_MT/SkullFeastDescription" value="Gain 2 additional ore for each kill. When this unit kills an enemy with no actions left, it regains 1 action (once every 2 turns)."/>
-	<entry name="ChaosDaemons_MT/SkullFeastFlavor" value="Every skull taken fuels the next swing of the blade."/>
-	<entry name="ChaosDaemons_MT/SkullFeastRecovery" value="Skull Feast: recovering"/>
-	<entry name="ChaosDaemons_MT/SkullFeastRecoveryDescription" value="Cannot regain an action from Skull Feast."/>
-	<entry name="ChaosDaemons_MT/SkullFeastRecoveryFlavor" value="Even the Blood God’s favour must be earned anew."/>
 	<entry name="ChaosDaemons_MT/PainChorus" value="Pain Chorus"/>
 	<entry name="ChaosDaemons_MT/PainChorusDescription" value="Increase movement."/>
 	<entry name="ChaosDaemons_MT/PainChorusFlavor" value="The Enrapturess sings, and every ear within reach hears only the sweetest agony."/>

@@ -234,6 +234,11 @@
 					</areas>
 				</target>
 			</beginTargets>
+			<sharedCooldowns>
+				<action name="ChaosDaemons_MT/WarpRiftNurgle"/>
+				<action name="ChaosDaemons_MT/WarpRiftSlaanesh"/>
+				<action name="ChaosDaemons_MT/WarpRiftTzeentch"/>
+			</sharedCooldowns>
 		</webwayArtillery>
 		<webwayArtillery cooldown="5"
 				durationInSeconds="0.1"
@@ -292,6 +297,11 @@
 					</areas>
 				</target>
 			</beginTargets>
+			<sharedCooldowns>
+				<action name="ChaosDaemons_MT/WarpRiftKhorne"/>
+				<action name="ChaosDaemons_MT/WarpRiftSlaanesh"/>
+				<action name="ChaosDaemons_MT/WarpRiftTzeentch"/>
+			</sharedCooldowns>
 		</webwayArtillery>
 		<webwayArtillery cooldown="5"
 				durationInSeconds="0.1"
@@ -350,6 +360,11 @@
 					</areas>
 				</target>
 			</beginTargets>
+			<sharedCooldowns>
+				<action name="ChaosDaemons_MT/WarpRiftKhorne"/>
+				<action name="ChaosDaemons_MT/WarpRiftNurgle"/>
+				<action name="ChaosDaemons_MT/WarpRiftTzeentch"/>
+			</sharedCooldowns>
 		</webwayArtillery>
 		<webwayArtillery cooldown="5"
 				durationInSeconds="0.1"
@@ -408,6 +423,11 @@
 					</areas>
 				</target>
 			</beginTargets>
+			<sharedCooldowns>
+				<action name="ChaosDaemons_MT/WarpRiftKhorne"/>
+				<action name="ChaosDaemons_MT/WarpRiftNurgle"/>
+				<action name="ChaosDaemons_MT/WarpRiftSlaanesh"/>
+			</sharedCooldowns>
 		</webwayArtillery>
 		<doctrina cooldown="3"
 				durationInSeconds="0.1"

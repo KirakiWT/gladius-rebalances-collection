@@ -321,9 +321,6 @@
 	<entry name="ChaosDaemons_MT/RustFever" value="Rust Fever"/>
 	<entry name="ChaosDaemons_MT/RustFeverDescription" value="Curse an enemy within 3 tiles for 3 turns: it loses armour and healing and takes additional damage."/>
 	<entry name="ChaosDaemons_MT/RustFeverFlavor" value="One wheeze from the pipes and iron flakes, flesh festers, and even the proudest armour begins to weep orange."/>
-	<entry name="ChaosDaemons_MT/SkullFeast" value="<string name='Traits/ChaosDaemons_MT/SkullFeast'/>"/>
-	<entry name="ChaosDaemons_MT/SkullFeastDescription" value="<string name='Traits/ChaosDaemons_MT/SkullFeastDescription'/>"/>
-	<entry name="ChaosDaemons_MT/SkullFeastFlavor" value="<string name='Traits/ChaosDaemons_MT/SkullFeastFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/TheBloodMustFlow" value="The blood must flow"/>
 	<entry name="ChaosDaemons_MT/TheBloodMustFlowDescription" value="Restores 1 action point when the Bloodmaster has none left. Cooldown is 3 turns."/>
 	<entry name="ChaosDaemons_MT/TheBloodMustFlowFlavor" value="Rallied by bloody example, Khorne’s lesser daemons leap into combat."/>
@@ -355,4 +352,7 @@
 	<entry name="ChaosDaemons_MT/CultistSacrificeTzeentchDescription" value="Sacrifices the cultist unit to grant the targeted city +33% population growth for 10 turns. The city also gains +25% energy output for the same duration."/>
 	<entry name="ChaosDaemons_MT/CultistSacrificeSlaanesh" value="Cultist Sacrifice"/>
 	<entry name="ChaosDaemons_MT/CultistSacrificeSlaaneshDescription" value="Sacrifices the cultist unit to grant the targeted city +33% population growth for 10 turns. The city also gains +25% influence output for the same duration."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepGreatUncleanOne" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeep'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepGreatUncleanOneDescription" value="Passive ability. If the Great Unclean One moved this turn, refreshes existing Warp Territory within 3 tiles to 5 turns."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepGreatUncleanOneFlavor" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepFlavor'/>"/>
 </language>

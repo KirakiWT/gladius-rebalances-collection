@@ -249,9 +249,6 @@
 	<entry name="ChaosDaemons_MT/RustFever" value="Ржавая лихорадка"/>
 	<entry name="ChaosDaemons_MT/RustFeverDescription" value="Проклинает врага в радиусе 3 клеток на 3 хода: он теряет броню и лечение и получает дополнительный урон."/>
 	<entry name="ChaosDaemons_MT/RustFeverFlavor" value="Один сип из дудок, железо осыпается хлопьями, плоть гноится, и даже самая гордая броня начинает сочиться рыжиной."/>
-	<entry name="ChaosDaemons_MT/SkullFeast" value="<string name='Traits/ChaosDaemons_MT/SkullFeast'/>"/>
-	<entry name="ChaosDaemons_MT/SkullFeastDescription" value="<string name='Traits/ChaosDaemons_MT/SkullFeastDescription'/>"/>
-	<entry name="ChaosDaemons_MT/SkullFeastFlavor" value="<string name='Traits/ChaosDaemons_MT/SkullFeastFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/TheBloodMustFlow" value="Кровь должна литься"/>
 	<entry name="ChaosDaemons_MT/TheBloodMustFlowDescription" value="Восстанавливает 1 очко действия, когда у Повелителя Крови закончились очки действия. Перезарядка — 3 хода."/>
 	<entry name="ChaosDaemons_MT/TheBloodMustFlowFlavor" value="Вдохновленные кровавым примером, малые демоны Кхорна с яростью бросаются в бой."/>
@@ -283,4 +280,7 @@
 	<entry name="ChaosDaemons_MT/CultistSacrificeTzeentchDescription" value="Приносит отряд культистов в жертву, увеличивая рост населения выбранного города на 33% на 10 ходов. Город также получает +25% к производству энергии на тот же срок."/>
 	<entry name="ChaosDaemons_MT/CultistSacrificeSlaanesh" value="Жертвование культистов"/>
 	<entry name="ChaosDaemons_MT/CultistSacrificeSlaaneshDescription" value="Приносит отряд культистов в жертву, увеличивая рост населения выбранного города на 33% на 10 ходов. Город также получает +25% к производству влияния на тот же срок."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepGreatUncleanOne" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeep'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepGreatUncleanOneDescription" value="Пассивная способность. Если Великий Нечистый перемещался в этом ходу, обновляет срок действия существующей варп-территории в радиусе 3 клеток до 5 ходов."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepGreatUncleanOneFlavor" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepFlavor'/>"/>
 </language>

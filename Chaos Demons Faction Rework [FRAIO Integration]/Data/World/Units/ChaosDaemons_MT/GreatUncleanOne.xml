@@ -495,7 +495,7 @@
 				</target>
 			</beginTargets>
 		</genericUnitAbility>
-		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeep"
+		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepGreatUncleanOne"
 				cooldown="0"
 				passive="1"
 				consumedActionPoints="0"

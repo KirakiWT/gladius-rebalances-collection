@@ -298,17 +298,9 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleRival" value="Территория чумы — чужая земля"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleRivalDescription" value="Слуги бога-соперника теряют мораль каждый ход."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleRivalFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/UpkeepStatus" value="Ритуалы Хаоса — поддержание"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/UpkeepStatusDescription" value="Каждый ход посылает импульс варпа, обновляя срок ближайших варп-территорий."/>
 	<entry name="ChaosDaemons_MT/BloodDuelEnemy" value="Кровавая дуэль"/>
 	<entry name="ChaosDaemons_MT/BloodDuelEnemyDescription" value="Не может отойти больше чем на 1 клетку. Наносит героям Кхорна на 30% больше урона."/>
 	<entry name="ChaosDaemons_MT/BloodDuelEnemyFlavor" value="Кхорну всё равно, откуда льётся кровь, лишь бы она лилась. Вестник вызывает чемпиона, и ни один враг не вправе отказаться."/>
-	<entry name="ChaosDaemons_MT/SkullFeast" value="Пир черепов"/>
-	<entry name="ChaosDaemons_MT/SkullFeastDescription" value="Получает 2 дополнительные единицы руды за каждое убийство. Если юнит убивает врага, не имея действий, он восстанавливает 1 действие (раз в 2 хода)."/>
-	<entry name="ChaosDaemons_MT/SkullFeastFlavor" value="Каждый взятый череп подпитывает следующий взмах клинка."/>
-	<entry name="ChaosDaemons_MT/SkullFeastRecovery" value="Пир черепов: восстановление"/>
-	<entry name="ChaosDaemons_MT/SkullFeastRecoveryDescription" value="Не может восстановить действие от Пира черепов."/>
-	<entry name="ChaosDaemons_MT/SkullFeastRecoveryFlavor" value="Даже милость Кровавого Бога нужно заслуживать заново."/>
 	<entry name="ChaosDaemons_MT/PainChorus" value="Хор боли"/>
 	<entry name="ChaosDaemons_MT/PainChorusDescription" value="Увеличивает передвижение."/>
 	<entry name="ChaosDaemons_MT/PainChorusFlavor" value="Пленительница поёт, и каждое ухо в пределах слышимости различает только сладчайшую муку."/>
