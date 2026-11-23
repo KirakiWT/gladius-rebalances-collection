@@ -78,7 +78,7 @@
 				</target>
 			</beginTargets>
 		</markOfNurgle>
-		<markOfNurgle cooldown="0" name="ChaosDaemons_MT/WarpTerritory/HeadquartersMarkNurgle" icon="Actions/ChaosSpaceMarines/MarkOfNurgle">
+		<webwayArtillery durationInSeconds="0.1" cooldown="0" name="ChaosDaemons_MT/WarpTerritory/HeadquartersMarkNurgle" icon="Actions/ChaosSpaceMarines/MarkOfNurgle">
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
 			</model>
@@ -170,8 +170,8 @@
 					</areas>
 				</target>
 			</beginTargets>
-		</markOfNurgle>
-		<markOfNurgle cooldown="0" name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkNurgle" icon="Actions/ChaosSpaceMarines/MarkOfNurgle">
+		</webwayArtillery>
+		<webwayArtillery durationInSeconds="0.1" cooldown="0" name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkNurgle" icon="Actions/ChaosSpaceMarines/MarkOfNurgle">
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
 			</model>
@@ -247,7 +247,7 @@
 					</areas>
 				</target>
 			</beginTargets>
-		</markOfNurgle>
+		</webwayArtillery>
 		<markOfKhorne cooldown="0" name="ChaosDaemons_MT/Khorne" icon="Actions/ChaosSpaceMarines/MarkOfKhorne">
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
@@ -279,7 +279,7 @@
 				</target>
 			</beginTargets>
 		</markOfKhorne>
-		<markOfKhorne cooldown="0" name="ChaosDaemons_MT/WarpTerritory/HeadquartersMarkKhorne" icon="Actions/ChaosSpaceMarines/MarkOfKhorne">
+		<webwayArtillery durationInSeconds="0.1" cooldown="0" name="ChaosDaemons_MT/WarpTerritory/HeadquartersMarkKhorne" icon="Actions/ChaosSpaceMarines/MarkOfKhorne">
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
 			</model>
@@ -371,8 +371,8 @@
 					</areas>
 				</target>
 			</beginTargets>
-		</markOfKhorne>
-		<markOfKhorne cooldown="0" name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkKhorne" icon="Actions/ChaosSpaceMarines/MarkOfKhorne">
+		</webwayArtillery>
+		<webwayArtillery durationInSeconds="0.1" cooldown="0" name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkKhorne" icon="Actions/ChaosSpaceMarines/MarkOfKhorne">
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
 			</model>
@@ -448,7 +448,7 @@
 					</areas>
 				</target>
 			</beginTargets>
-		</markOfKhorne>
+		</webwayArtillery>
 		<markOfSlaanesh cooldown="0" name="ChaosDaemons_MT/Slaanesh" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh">
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
@@ -481,7 +481,7 @@
 				</target>
 			</beginTargets>
 		</markOfSlaanesh>
-		<markOfSlaanesh cooldown="0" name="ChaosDaemons_MT/WarpTerritory/HeadquartersMarkSlaanesh" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh">
+		<webwayArtillery durationInSeconds="0.1" cooldown="0" name="ChaosDaemons_MT/WarpTerritory/HeadquartersMarkSlaanesh" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh">
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
 			</model>
@@ -573,8 +573,8 @@
 					</areas>
 				</target>
 			</beginTargets>
-		</markOfSlaanesh>
-		<markOfSlaanesh cooldown="0" name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkSlaanesh" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh">
+		</webwayArtillery>
+		<webwayArtillery durationInSeconds="0.1" cooldown="0" name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkSlaanesh" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh">
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
 			</model>
@@ -650,7 +650,7 @@
 					</areas>
 				</target>
 			</beginTargets>
-		</markOfSlaanesh>
+		</webwayArtillery>
 		<markOfTzeentch cooldown="0" name="ChaosDaemons_MT/Tzeentch" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch">
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
@@ -683,7 +683,7 @@
 				</target>
 			</beginTargets>
 		</markOfTzeentch>
-		<markOfTzeentch cooldown="0" name="ChaosDaemons_MT/WarpTerritory/HeadquartersMarkTzeentch" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch">
+		<webwayArtillery durationInSeconds="0.1" cooldown="0" name="ChaosDaemons_MT/WarpTerritory/HeadquartersMarkTzeentch" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch">
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
 			</model>
@@ -775,8 +775,8 @@
 					</areas>
 				</target>
 			</beginTargets>
-		</markOfTzeentch>
-		<markOfTzeentch cooldown="0" name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkTzeentch" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch">
+		</webwayArtillery>
+		<webwayArtillery durationInSeconds="0.1" cooldown="0" name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkTzeentch" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch">
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
 			</model>
@@ -852,7 +852,7 @@
 					</areas>
 				</target>
 			</beginTargets>
-		</markOfTzeentch>
+		</webwayArtillery>
 		<webwayArtillery cooldown="5"
 				durationInSeconds="0.1"
 				name="ChaosDaemons_MT/WarpRiftKhorne"
