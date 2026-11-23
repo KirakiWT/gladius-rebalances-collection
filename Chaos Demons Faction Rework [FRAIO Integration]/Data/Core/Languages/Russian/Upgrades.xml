@@ -211,4 +211,8 @@
 	<entry name="ChaosDaemons_MT/Heldrake" value="<string name='Units/ChaosDaemons_MT/Heldrake'/>"/>
 	<entry name="ChaosDaemons_MT/HeldrakeDescription" value="Открывает производство хелдрейков в Адском конструкторе."/>
 	<entry name="ChaosDaemons_MT/HeldrakeFlavor" value="<string name='Units/ChaosDaemons_MT/HeldrakeFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/WarpNexuses" value="Узлы варпа"/>
+	<entry name="ChaosDaemons_MT/WarpNexusesDescription" value="Ноктилитовые короны получают варп-ауру в одно кольцо и становятся узлами «Путешествия по варпу». Аура городов расширяется до двух колец."/>
+	<entry name="ChaosDaemons_MT/WarpDominion" value="Владычество варпа"/>
+	<entry name="ChaosDaemons_MT/WarpDominionDescription" value="Варп-аура Ноктилитовых корон расширяется до двух колец, а городов — до трёх."/>
 </language>
