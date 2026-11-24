@@ -69,7 +69,9 @@
 		<genericUnitAbility cooldown="1"
 				consumedActionPoints="0"
 				consumedMovement="0"
-				name="Neutral/GiantAudreyRootSnare">
+				icon="Actions/GrabbinKlaw"
+				name="Neutral/GiantAudreyRootSnare"
+				requiredActionPoints="0">
 			<model>
 				<action sound="Actions/PsychicDebuff"/>
 			</model>
