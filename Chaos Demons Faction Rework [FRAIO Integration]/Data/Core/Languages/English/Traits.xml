@@ -416,6 +416,9 @@
 	<entry name="ChaosDaemons_MT/Belakor/MantleOfShadowsDescription" value="Grants 25% invulnerable damage reduction."/>
 	<entry name="ChaosDaemons_MT/Belakor/MantleOfShadowsFlavor" value="<string name='Units/ChaosDaemons_MT/BelakorFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/Belakor/ShadowLegion" value="<string name='Actions/ChaosDaemons_MT/ShadowLegion'/>"/>
-	<entry name="ChaosDaemons_MT/Belakor/ShadowLegionDescription" value="Increases ranged damage reduction by 10%."/>
+	<entry name="ChaosDaemons_MT/Belakor/ShadowLegionDescription" value="Increases maximum movement by 1 and prevents enemy overwatch."/>
 	<entry name="ChaosDaemons_MT/Belakor/ShadowLegionFlavor" value="<string name='Actions/ChaosDaemons_MT/ShadowLegionFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/Belakor/ShadowPact" value="Shadow Bargain"/>
+	<entry name="ChaosDaemons_MT/Belakor/ShadowPactDescription" value="Grants 10–20% ranged damage reduction depending on rank."/>
+	<entry name="ChaosDaemons_MT/Belakor/ShadowPactFlavor" value="Shadows serve those who know their price."/>
 </language>

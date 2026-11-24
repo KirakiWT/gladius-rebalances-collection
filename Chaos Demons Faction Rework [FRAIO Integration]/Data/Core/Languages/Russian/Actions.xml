@@ -40,7 +40,7 @@
 	<entry name="ChaosDaemons_MT/DaemonicReinforcementsDescription" value="Призывает случайный отряд малых демонов на 3–5 ходов в зависимости от ранга. Исследования уровней 6 и 9 сокращают перезарядку на 1 ход каждое."/>
 	<entry name="ChaosDaemons_MT/DaemonicReinforcementsFlavor" value="Демонические легионы разрывают ткань реальности, злобные сущности мерцают, появляясь, как призраки из кошмара. Хуже того, по мере того как ужас и паника овладевают их жертвами, их смертные души становятся легкой добычей для сущностей, хлынувших из Варпа."/>
 	<entry name="ChaosDaemons_MT/ShadowLegion" value="<string name='Traits/ChaosDaemons_MT/ShadowLegion/Khorne'/>"/>
-	<entry name="ChaosDaemons_MT/ShadowLegionDescription" value="Союзные демоны в радиусе 2 клеток получают +10% к снижению урона от дальних атак."/>
+	<entry name="ChaosDaemons_MT/ShadowLegionDescription" value="Союзные демоны в радиусе 2 клеток получают +1 к текущему и максимальному передвижению и игнорируют огонь на упреждение на 1 ход."/>
 	<entry name="ChaosDaemons_MT/ShadowLegionFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowLegion/KhorneFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/WrathUndeniable" value="<string name='Traits/ChaosDaemons_MT/WrathUndeniable'/>"/>
 	<entry name="ChaosDaemons_MT/WrathUndeniableDescription" value="Увеличивает урон в ближнем бою соседних союзных отрядов."/>
@@ -339,4 +339,7 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/HeadquartersMarkTzeentchDescription" value="Меняет знак сооружения и сразу обновляет его варп-территорию."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkTzeentch" value="<string name='Actions/ChaosDaemons_MT/Tzeentch'/> (Корона)"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkTzeentchDescription" value="Меняет знак сооружения и сразу обновляет его варп-территорию."/>
+	<entry name="ChaosDaemons_MT/Belakor/ShadowPact" value="Теневая сделка"/>
+	<entry name="ChaosDaemons_MT/Belakor/ShadowPactDescription" value="Укрывает выбранного союзного демона в радиусе 2 клеток на 2 хода. Даёт 10–20% снижения урона от дальних атак в зависимости от ранга."/>
+	<entry name="ChaosDaemons_MT/Belakor/ShadowPactFlavor" value="Тени служат тому, кто знает их цену."/>
 </language>

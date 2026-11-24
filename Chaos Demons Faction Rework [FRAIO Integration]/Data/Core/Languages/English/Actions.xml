@@ -62,7 +62,7 @@
 
 
 	<entry name="ChaosDaemons_MT/ShadowLegion" value="<string name='Traits/ChaosDaemons_MT/ShadowLegion/Khorne'/>"/>
-	<entry name="ChaosDaemons_MT/ShadowLegionDescription" value="Allied Daemons within 2 tiles gain +10% ranged damage reduction."/>
+	<entry name="ChaosDaemons_MT/ShadowLegionDescription" value="Allied Daemons within 2 tiles gain +1 current and maximum movement and ignore enemy overwatch for 1 turn."/>
 	<entry name="ChaosDaemons_MT/ShadowLegionFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowLegion/KhorneFlavor'/>"/>
 
 	<entry name="ChaosDaemons_MT/WrathUndeniable" value="<string name='Traits/ChaosDaemons_MT/WrathUndeniable'/>"/>
@@ -411,4 +411,7 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/HeadquartersMarkTzeentchDescription" value="Changes the structure’s mark and immediately updates its warp territory."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkTzeentch" value="<string name='Actions/ChaosDaemons_MT/Tzeentch'/> (Crown)"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkTzeentchDescription" value="Changes the structure’s mark and immediately updates its warp territory."/>
+	<entry name="ChaosDaemons_MT/Belakor/ShadowPact" value="Shadow Bargain"/>
+	<entry name="ChaosDaemons_MT/Belakor/ShadowPactDescription" value="Shrouds a selected allied Daemon within 2 tiles for 2 turns. Grants 10–20% ranged damage reduction depending on rank."/>
+	<entry name="ChaosDaemons_MT/Belakor/ShadowPactFlavor" value="Shadows serve those who know their price."/>
 </language>
