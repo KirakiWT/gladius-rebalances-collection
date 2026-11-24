@@ -43,19 +43,27 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/NurgleDescription'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StaticKhorne" value="Crown Warp Territory of Khorne"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/RenewedKhorne" value="Crown Warp Territory of Khorne"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CityKhorne" value="City Warp Territory of Khorne"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StaticKhorneDescription" value="Expires three turns after the last refresh by a Noctilith Crown."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/RenewedKhorneDescription" value="Expires three turns after the last refresh by a Noctilith Crown."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CityKhorneDescription" value="Expires three turns after the last refresh by a city."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StaticNurgle" value="Crown Warp Territory of Nurgle"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/RenewedNurgle" value="Crown Warp Territory of Nurgle"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CityNurgle" value="City Warp Territory of Nurgle"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StaticNurgleDescription" value="Expires three turns after the last refresh by a Noctilith Crown."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/RenewedNurgleDescription" value="Expires three turns after the last refresh by a Noctilith Crown."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CityNurgleDescription" value="Expires three turns after the last refresh by a city."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh" value="Crown Warp Territory of Slaanesh"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/RenewedSlaanesh" value="Crown Warp Territory of Slaanesh"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh" value="City Warp Territory of Slaanesh"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StaticSlaaneshDescription" value="Expires three turns after the last refresh by a Noctilith Crown."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/RenewedSlaaneshDescription" value="Expires three turns after the last refresh by a Noctilith Crown."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CitySlaaneshDescription" value="Expires three turns after the last refresh by a city."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch" value="Crown Warp Territory of Tzeentch"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/RenewedTzeentch" value="Crown Warp Territory of Tzeentch"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CityTzeentch" value="City Warp Territory of Tzeentch"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StaticTzeentchDescription" value="Expires three turns after the last refresh by a Noctilith Crown."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/RenewedTzeentchDescription" value="Expires three turns after the last refresh by a Noctilith Crown."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CityTzeentchDescription" value="Expires three turns after the last refresh by a city."/>
 </language>

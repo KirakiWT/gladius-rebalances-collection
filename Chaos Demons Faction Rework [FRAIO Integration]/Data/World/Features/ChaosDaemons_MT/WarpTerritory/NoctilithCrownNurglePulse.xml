@@ -19,9 +19,13 @@
 						<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
 						<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
 						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+						<removeFeature name="ChaosDaemons_MT/WarpTerritory/RenewedKhorne"/>
 						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+						<removeFeature name="ChaosDaemons_MT/WarpTerritory/RenewedSlaanesh"/>
 						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+						<removeFeature name="ChaosDaemons_MT/WarpTerritory/RenewedTzeentch"/>
 						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+						<removeFeature name="ChaosDaemons_MT/WarpTerritory/RenewedNurgle"/>
 						<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle" duration="3"/>
 					</effects>
 				</modifier>
@@ -45,9 +49,13 @@
 						<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
 						<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
 						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+						<removeFeature name="ChaosDaemons_MT/WarpTerritory/RenewedKhorne"/>
 						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+						<removeFeature name="ChaosDaemons_MT/WarpTerritory/RenewedSlaanesh"/>
 						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+						<removeFeature name="ChaosDaemons_MT/WarpTerritory/RenewedTzeentch"/>
 						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+						<removeFeature name="ChaosDaemons_MT/WarpTerritory/RenewedNurgle"/>
 						<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle" duration="3"/>
 					</effects>
 				</modifier>
@@ -71,9 +79,13 @@
 						<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
 						<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
 						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+						<removeFeature name="ChaosDaemons_MT/WarpTerritory/RenewedKhorne"/>
 						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+						<removeFeature name="ChaosDaemons_MT/WarpTerritory/RenewedSlaanesh"/>
 						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+						<removeFeature name="ChaosDaemons_MT/WarpTerritory/RenewedTzeentch"/>
 						<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+						<removeFeature name="ChaosDaemons_MT/WarpTerritory/RenewedNurgle"/>
 						<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle" duration="3"/>
 					</effects>
 				</modifier>

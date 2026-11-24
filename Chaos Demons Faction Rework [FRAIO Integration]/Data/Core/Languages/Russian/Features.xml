@@ -34,19 +34,27 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/NurgleDescription'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StaticKhorne" value="Варп-территория Короны: Кхорна"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/RenewedKhorne" value="Варп-территория Короны: Кхорна"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CityKhorne" value="Варп-территория города: Кхорна"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StaticKhorneDescription" value="Исчезает через 3 хода после последнего обновления Короной."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/RenewedKhorneDescription" value="Исчезает через 3 хода после последнего обновления Короной."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CityKhorneDescription" value="Исчезает через 3 хода после последнего обновления городом."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StaticNurgle" value="Варп-территория Короны: Нургла"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/RenewedNurgle" value="Варп-территория Короны: Нургла"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CityNurgle" value="Варп-территория города: Нургла"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StaticNurgleDescription" value="Исчезает через 3 хода после последнего обновления Короной."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/RenewedNurgleDescription" value="Исчезает через 3 хода после последнего обновления Короной."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CityNurgleDescription" value="Исчезает через 3 хода после последнего обновления городом."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh" value="Варп-территория Короны: Слаанеш"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/RenewedSlaanesh" value="Варп-территория Короны: Слаанеш"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh" value="Варп-территория города: Слаанеш"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StaticSlaaneshDescription" value="Исчезает через 3 хода после последнего обновления Короной."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/RenewedSlaaneshDescription" value="Исчезает через 3 хода после последнего обновления Короной."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CitySlaaneshDescription" value="Исчезает через 3 хода после последнего обновления городом."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch" value="Варп-территория Короны: Тзинча"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/RenewedTzeentch" value="Варп-территория Короны: Тзинча"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CityTzeentch" value="Варп-территория города: Тзинча"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StaticTzeentchDescription" value="Исчезает через 3 хода после последнего обновления Короной."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/RenewedTzeentchDescription" value="Исчезает через 3 хода после последнего обновления Короной."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CityTzeentchDescription" value="Исчезает через 3 хода после последнего обновления городом."/>
 </language>

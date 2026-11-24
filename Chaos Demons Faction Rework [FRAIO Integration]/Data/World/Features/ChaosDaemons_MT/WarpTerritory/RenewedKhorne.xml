@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feature blockingSight="0"
+		category="None"
+		icon="Actions/ChaosSpaceMarines/MarkOfKhorne">
+	<model>
+		<effect blueprint="Effects/ChaosDaemons_MT/WarpTerritoryKhorne"/>
+	</model>
+	<traits>
+		<trait name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
+		<trait name="ChaosDaemons_MT/WarpTerritory/KhorneEnemy"/>
+		<trait name="ChaosDaemons_MT/WarpTerritory/KhorneRival"/>
+	</traits>
+</feature>
