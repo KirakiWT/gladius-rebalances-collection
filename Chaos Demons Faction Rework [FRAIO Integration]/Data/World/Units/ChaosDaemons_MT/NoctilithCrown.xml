@@ -95,7 +95,9 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing1" icon="Actions/ChaosSpaceMarines/MarkOfKhorne" passive="1" cooldown="1" visible="0">
+		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing1" icon="Actions/ChaosSpaceMarines/MarkOfKhorne" passive="1" cooldown="1"
+				requiredActionPoints="0" consumedActionPoints="0"
+				requiredMovement="0" consumedMovement="0" visible="0">
 			<conditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkKhorne"/>
@@ -114,7 +116,6 @@
 								<modifier visible="0">
 									<conditions>
 										<tile>
-											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
@@ -139,7 +140,9 @@
 				</selfTarget>
 			</beginTargets>
 		</quantumShielding>
-		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing2" icon="Actions/ChaosSpaceMarines/MarkOfKhorne" passive="1" cooldown="1" requiredUpgrade="ChaosDaemons_MT/WarpNexuses" visible="0">
+		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing2" icon="Actions/ChaosSpaceMarines/MarkOfKhorne" passive="1" cooldown="1"
+				requiredActionPoints="0" consumedActionPoints="0"
+				requiredMovement="0" consumedMovement="0" requiredUpgrade="ChaosDaemons_MT/WarpNexuses" visible="0">
 			<conditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkKhorne"/>
@@ -158,7 +161,6 @@
 								<modifier visible="0">
 									<conditions>
 										<tile>
-											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
@@ -183,7 +185,9 @@
 				</selfTarget>
 			</beginTargets>
 		</quantumShielding>
-		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing3" icon="Actions/ChaosSpaceMarines/MarkOfKhorne" passive="1" cooldown="1" requiredUpgrade="ChaosDaemons_MT/WarpDominion" visible="0">
+		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing3" icon="Actions/ChaosSpaceMarines/MarkOfKhorne" passive="1" cooldown="1"
+				requiredActionPoints="0" consumedActionPoints="0"
+				requiredMovement="0" consumedMovement="0" requiredUpgrade="ChaosDaemons_MT/WarpDominion" visible="0">
 			<conditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkKhorne"/>
@@ -202,7 +206,6 @@
 								<modifier visible="0">
 									<conditions>
 										<tile>
-											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
@@ -227,7 +230,9 @@
 				</selfTarget>
 			</beginTargets>
 		</quantumShielding>
-		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing1" icon="Actions/ChaosSpaceMarines/MarkOfNurgle" passive="1" cooldown="1" visible="0">
+		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing1" icon="Actions/ChaosSpaceMarines/MarkOfNurgle" passive="1" cooldown="1"
+				requiredActionPoints="0" consumedActionPoints="0"
+				requiredMovement="0" consumedMovement="0" visible="0">
 			<conditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkNurgle"/>
@@ -246,7 +251,6 @@
 								<modifier visible="0">
 									<conditions>
 										<tile>
-											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
@@ -271,7 +275,9 @@
 				</selfTarget>
 			</beginTargets>
 		</quantumShielding>
-		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing2" icon="Actions/ChaosSpaceMarines/MarkOfNurgle" passive="1" cooldown="1" requiredUpgrade="ChaosDaemons_MT/WarpNexuses" visible="0">
+		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing2" icon="Actions/ChaosSpaceMarines/MarkOfNurgle" passive="1" cooldown="1"
+				requiredActionPoints="0" consumedActionPoints="0"
+				requiredMovement="0" consumedMovement="0" requiredUpgrade="ChaosDaemons_MT/WarpNexuses" visible="0">
 			<conditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkNurgle"/>
@@ -290,7 +296,6 @@
 								<modifier visible="0">
 									<conditions>
 										<tile>
-											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
@@ -315,7 +320,9 @@
 				</selfTarget>
 			</beginTargets>
 		</quantumShielding>
-		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing3" icon="Actions/ChaosSpaceMarines/MarkOfNurgle" passive="1" cooldown="1" requiredUpgrade="ChaosDaemons_MT/WarpDominion" visible="0">
+		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing3" icon="Actions/ChaosSpaceMarines/MarkOfNurgle" passive="1" cooldown="1"
+				requiredActionPoints="0" consumedActionPoints="0"
+				requiredMovement="0" consumedMovement="0" requiredUpgrade="ChaosDaemons_MT/WarpDominion" visible="0">
 			<conditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkNurgle"/>
@@ -334,7 +341,6 @@
 								<modifier visible="0">
 									<conditions>
 										<tile>
-											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
@@ -359,7 +365,9 @@
 				</selfTarget>
 			</beginTargets>
 		</quantumShielding>
-		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing1" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh" passive="1" cooldown="1" visible="0">
+		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing1" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh" passive="1" cooldown="1"
+				requiredActionPoints="0" consumedActionPoints="0"
+				requiredMovement="0" consumedMovement="0" visible="0">
 			<conditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkSlaanesh"/>
@@ -378,7 +386,6 @@
 								<modifier visible="0">
 									<conditions>
 										<tile>
-											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
@@ -403,7 +410,9 @@
 				</selfTarget>
 			</beginTargets>
 		</quantumShielding>
-		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing2" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh" passive="1" cooldown="1" requiredUpgrade="ChaosDaemons_MT/WarpNexuses" visible="0">
+		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing2" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh" passive="1" cooldown="1"
+				requiredActionPoints="0" consumedActionPoints="0"
+				requiredMovement="0" consumedMovement="0" requiredUpgrade="ChaosDaemons_MT/WarpNexuses" visible="0">
 			<conditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkSlaanesh"/>
@@ -422,7 +431,6 @@
 								<modifier visible="0">
 									<conditions>
 										<tile>
-											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
@@ -447,7 +455,9 @@
 				</selfTarget>
 			</beginTargets>
 		</quantumShielding>
-		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing3" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh" passive="1" cooldown="1" requiredUpgrade="ChaosDaemons_MT/WarpDominion" visible="0">
+		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing3" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh" passive="1" cooldown="1"
+				requiredActionPoints="0" consumedActionPoints="0"
+				requiredMovement="0" consumedMovement="0" requiredUpgrade="ChaosDaemons_MT/WarpDominion" visible="0">
 			<conditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkSlaanesh"/>
@@ -466,7 +476,6 @@
 								<modifier visible="0">
 									<conditions>
 										<tile>
-											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
@@ -491,7 +500,9 @@
 				</selfTarget>
 			</beginTargets>
 		</quantumShielding>
-		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing1" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch" passive="1" cooldown="1" visible="0">
+		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing1" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch" passive="1" cooldown="1"
+				requiredActionPoints="0" consumedActionPoints="0"
+				requiredMovement="0" consumedMovement="0" visible="0">
 			<conditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentch"/>
@@ -510,7 +521,6 @@
 								<modifier visible="0">
 									<conditions>
 										<tile>
-											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
@@ -535,7 +545,9 @@
 				</selfTarget>
 			</beginTargets>
 		</quantumShielding>
-		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing2" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch" passive="1" cooldown="1" requiredUpgrade="ChaosDaemons_MT/WarpNexuses" visible="0">
+		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing2" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch" passive="1" cooldown="1"
+				requiredActionPoints="0" consumedActionPoints="0"
+				requiredMovement="0" consumedMovement="0" requiredUpgrade="ChaosDaemons_MT/WarpNexuses" visible="0">
 			<conditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentch"/>
@@ -554,7 +566,6 @@
 								<modifier visible="0">
 									<conditions>
 										<tile>
-											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
@@ -579,7 +590,9 @@
 				</selfTarget>
 			</beginTargets>
 		</quantumShielding>
-		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing3" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch" passive="1" cooldown="1" requiredUpgrade="ChaosDaemons_MT/WarpDominion" visible="0">
+		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing3" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch" passive="1" cooldown="1"
+				requiredActionPoints="0" consumedActionPoints="0"
+				requiredMovement="0" consumedMovement="0" requiredUpgrade="ChaosDaemons_MT/WarpDominion" visible="0">
 			<conditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentch"/>
@@ -598,7 +611,6 @@
 								<modifier visible="0">
 									<conditions>
 										<tile>
-											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
