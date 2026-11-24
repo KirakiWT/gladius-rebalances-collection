@@ -243,10 +243,10 @@
 							<modifiers>
 								<modifier>
 									<randomEffects count="1">
-										<addUnit name="ChaosDaemons_MT/Bloodletter" consumedAction="1" consumedMovement="1"/>
-										<addUnit name="ChaosDaemons_MT/BlueHorror" consumedAction="1" consumedMovement="1"/>
-										<addUnit name="ChaosDaemons_MT/Daemonette" consumedAction="1" consumedMovement="1"/>
-										<addUnit name="ChaosDaemons_MT/Plaguebearer" consumedAction="1" consumedMovement="1"/>
+										<addUnit name="ChaosDaemons_MT/Bloodletter" consumedAction="0" consumedMovement="0"/>
+										<addUnit name="ChaosDaemons_MT/BlueHorror" consumedAction="0" consumedMovement="0"/>
+										<addUnit name="ChaosDaemons_MT/Daemonette" consumedAction="0" consumedMovement="0"/>
+										<addUnit name="ChaosDaemons_MT/Plaguebearer" consumedAction="0" consumedMovement="0"/>
 									</randomEffects>
 								</modifier>
 							</modifiers>
@@ -274,7 +274,7 @@
 			<beginTargets>
 				<selfTarget>
 					<areas>
-						<area affects="Tile" radius="1" excludeRadius="0">
+						<area affects="Tile" radius="2" excludeRadius="0">
 							<modifiers>
 								<modifier visible="0">
 									<effects>
