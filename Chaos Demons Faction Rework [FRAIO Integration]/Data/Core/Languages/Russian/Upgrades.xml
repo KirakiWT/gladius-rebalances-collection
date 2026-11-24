@@ -180,7 +180,7 @@
 	<entry name="ChaosDaemons_MT/WarpRiftDescription" value="<string name='Actions/ChaosDaemons_MT/WarpRiftDescription'/>"/>
 	<entry name="ChaosDaemons_MT/WarpRiftFlavor" value="<string name='Actions/ChaosDaemons_MT/WarpRiftFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/WarpSurge" value="Варп-прилив"/>
-	<entry name="ChaosDaemons_MT/WarpSurgeDescription" value="Засчитывается как исследование 9-го уровня для усиления Бе’лакора. Путешествие по варпу временно недоступно."/>
+	<entry name="ChaosDaemons_MT/WarpSurgeDescription" value="Путешествие по варпу больше не расходует очки передвижения или действия."/>
 	<entry name="ChaosDaemons_MT/WarpSurgeFlavor" value="Ветры варпа дуют с огромной силой, воодушевляя демонов и наделяя их сверхъестественной скоростью и свирепостью."/>
 	<entry name="ChaosDaemons_MT/CorruptRealspace" value="Развращение реального пространства"/>
 	<entry name="ChaosDaemons_MT/CorruptRealspaceDescription" value="Снижает на 25% содержание всех ресурсов у союзных юнитов на вашей варп-территории."/>
@@ -212,7 +212,7 @@
 	<entry name="ChaosDaemons_MT/HeldrakeDescription" value="Открывает производство хелдрейков в Адском конструкторе."/>
 	<entry name="ChaosDaemons_MT/HeldrakeFlavor" value="<string name='Units/ChaosDaemons_MT/HeldrakeFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/WarpNexuses" value="Узлы варпа"/>
-	<entry name="ChaosDaemons_MT/WarpNexusesDescription" value="Аура городов и Ноктилитовых корон расширяется до двух колец. Путешествие по варпу временно недоступно."/>
+	<entry name="ChaosDaemons_MT/WarpNexusesDescription" value="Аура городов и Ноктилитовых корон расширяется до двух колец."/>
 	<entry name="ChaosDaemons_MT/WarpDominion" value="Владычество варпа"/>
 	<entry name="ChaosDaemons_MT/WarpDominionDescription" value="Аура городов и Ноктилитовых корон расширяется до трёх колец."/>
 </language>

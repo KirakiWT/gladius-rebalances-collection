@@ -16,7 +16,8 @@
 		startingEnergy="25"
 		startingFood="25"
 		startingInfluence="25"
-		startingOre="50">
+		startingOre="50"
+		webwayGate="ChaosDaemons_MT/WarpRift">
 	<music>
 		<track name="Music/AdeptusMechanicusBGM" dlc="Supplement9"/>
 		<track name="Music/AdeptusMechanicusTheme" dlc="Supplement9"/>

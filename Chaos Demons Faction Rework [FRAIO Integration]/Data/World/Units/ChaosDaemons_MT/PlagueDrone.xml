@@ -102,6 +102,22 @@
 						soundCount="1"/>
 			</model>	
 		</move>
+		<webwayTravel name="ChaosDaemons_MT/WarpRiftTeleport"
+				icon="Units/ChaosDaemons_MT/WarpRift"
+				cooldown="5"
+				requiredUpgrade="ChaosDaemons_MT/WarpRift">
+			<model>
+				<action sound="Actions/Teleport"/>
+			</model>
+			<modifiers>
+				<modifier requiredUpgrade="ChaosDaemons_MT/WarpSurge">
+					<effects>
+						<consumedActionPoints max="0"/>
+						<consumedMovement max="0"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</webwayTravel>
 			<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/CreateKhorne"
 				cooldown="1"
 				consumedActionPoints="0"
