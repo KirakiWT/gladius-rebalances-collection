@@ -226,7 +226,7 @@
 	<entry name="ChaosDaemons_MT/TzeentchFlavor" value="<string name='Traits/ChaosDaemons_MT/TzeentchFlavor'/>"/>
 	
 	<entry name="ChaosDaemons_MT/WarpRift" value="Warp Rift"/>
-	<entry name="ChaosDaemons_MT/WarpRiftDescription" value="Unlocks four Warp Rift variants. Each opens a portal for daemon travel and spreads its god’s Warp Territory in a 1-tile radius."/>
+	<entry name="ChaosDaemons_MT/WarpRiftDescription" value="Opens a warp portal on the selected tile for daemon travel."/>
 	<entry name="ChaosDaemons_MT/WarpRiftFlavor" value="<string name='Units/ChaosDaemons_MT/WarpRiftFlavor'/>"/>
 	
 	<entry name="ChaosDaemons_MT/LocusOfUnstoppableFury" value="<string name='Traits/ChaosDaemons_MT/Locus/LocusOfUnstoppableFury'/>"/>
@@ -324,18 +324,6 @@
 	<entry name="ChaosDaemons_MT/TheBloodMustFlow" value="The blood must flow"/>
 	<entry name="ChaosDaemons_MT/TheBloodMustFlowDescription" value="Restores 1 action point when the Bloodmaster has none left. Cooldown is 3 turns."/>
 	<entry name="ChaosDaemons_MT/TheBloodMustFlowFlavor" value="Rallied by bloody example, Khorne’s lesser daemons leap into combat."/>
-	<entry name="ChaosDaemons_MT/WarpRiftKhorne" value="Warp Rift of Khorne"/>
-	<entry name="ChaosDaemons_MT/WarpRiftKhorneDescription" value="Opens a portal and spreads Khorne Warp Territory in a 1-tile radius for 5 turns, replacing other gods’ territories."/>
-	<entry name="ChaosDaemons_MT/WarpRiftKhorneFlavor" value="<string name='Units/ChaosDaemons_MT/WarpRiftFlavor'/>"/>
-	<entry name="ChaosDaemons_MT/WarpRiftNurgle" value="Warp Rift of Nurgle"/>
-	<entry name="ChaosDaemons_MT/WarpRiftNurgleDescription" value="Opens a portal and spreads Nurgle Warp Territory in a 1-tile radius for 5 turns, replacing other gods’ territories."/>
-	<entry name="ChaosDaemons_MT/WarpRiftNurgleFlavor" value="<string name='Units/ChaosDaemons_MT/WarpRiftFlavor'/>"/>
-	<entry name="ChaosDaemons_MT/WarpRiftSlaanesh" value="Warp Rift of Slaanesh"/>
-	<entry name="ChaosDaemons_MT/WarpRiftSlaaneshDescription" value="Opens a portal and spreads Slaanesh Warp Territory in a 1-tile radius for 5 turns, replacing other gods’ territories."/>
-	<entry name="ChaosDaemons_MT/WarpRiftSlaaneshFlavor" value="<string name='Units/ChaosDaemons_MT/WarpRiftFlavor'/>"/>
-	<entry name="ChaosDaemons_MT/WarpRiftTzeentch" value="Warp Rift of Tzeentch"/>
-	<entry name="ChaosDaemons_MT/WarpRiftTzeentchDescription" value="Opens a portal and spreads Tzeentch Warp Territory in a 1-tile radius for 5 turns, replacing other gods’ territories."/>
-	<entry name="ChaosDaemons_MT/WarpRiftTzeentchFlavor" value="<string name='Units/ChaosDaemons_MT/WarpRiftFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/LoathsomeAura" value="<string name='Actions/ChaosSpaceMarines/LoathsomeAura'/>"/>
 	<entry name="ChaosDaemons_MT/LoathsomeAuraDescription" value="<string name='Actions/ChaosSpaceMarines/LoathsomeAuraDescription'/>"/>
 	<entry name="ChaosDaemons_MT/LoathsomeAuraFlavor" value="<string name='Actions/ChaosSpaceMarines/LoathsomeAuraFlavor'/>"/>
