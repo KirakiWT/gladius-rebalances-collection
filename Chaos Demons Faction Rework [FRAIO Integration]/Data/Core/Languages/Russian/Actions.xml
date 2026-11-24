@@ -163,7 +163,7 @@
 	<entry name="ChaosDaemons_MT/TzeentchDescription" value="Посвящает отряд служению Тзинчу."/>
 	<entry name="ChaosDaemons_MT/TzeentchFlavor" value="<string name='Traits/ChaosDaemons_MT/TzeentchFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/WarpRift" value="Разрыв Варпа"/>
-	<entry name="ChaosDaemons_MT/WarpRiftDescription" value="Открывает доступ к четырём вариантам Разрыва Варпа. Каждый создаёт портал для перемещения демонов и распространяет территорию соответствующего бога в радиусе 1 клетки."/>
+	<entry name="ChaosDaemons_MT/WarpRiftDescription" value="Открывает варп-портал на выбранной клетке для перемещения демонов."/>
 	<entry name="ChaosDaemons_MT/WarpRiftFlavor" value="<string name='Units/ChaosDaemons_MT/WarpRiftFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/LocusOfUnstoppableFury" value="<string name='Traits/ChaosDaemons_MT/Locus/LocusOfUnstoppableFury'/>"/>
 	<entry name="ChaosDaemons_MT/LocusOfUnstoppableFuryDescription" value="Оружие ближнего боя отрядов Кхорна поражает дополнительные цели."/>
@@ -252,18 +252,6 @@
 	<entry name="ChaosDaemons_MT/TheBloodMustFlow" value="Кровь должна литься"/>
 	<entry name="ChaosDaemons_MT/TheBloodMustFlowDescription" value="Восстанавливает 1 очко действия, когда у Повелителя Крови закончились очки действия. Перезарядка — 3 хода."/>
 	<entry name="ChaosDaemons_MT/TheBloodMustFlowFlavor" value="Вдохновленные кровавым примером, малые демоны Кхорна с яростью бросаются в бой."/>
-	<entry name="ChaosDaemons_MT/WarpRiftKhorne" value="Разрыв Варпа Кхорна"/>
-	<entry name="ChaosDaemons_MT/WarpRiftKhorneDescription" value="Открывает портал и распространяет варп-территорию Кхорна в радиусе 1 клетки на 5 ходов, заменяя территории других богов."/>
-	<entry name="ChaosDaemons_MT/WarpRiftKhorneFlavor" value="<string name='Units/ChaosDaemons_MT/WarpRiftFlavor'/>"/>
-	<entry name="ChaosDaemons_MT/WarpRiftNurgle" value="Разрыв Варпа Нургла"/>
-	<entry name="ChaosDaemons_MT/WarpRiftNurgleDescription" value="Открывает портал и распространяет варп-территорию Нургла в радиусе 1 клетки на 5 ходов, заменяя территории других богов."/>
-	<entry name="ChaosDaemons_MT/WarpRiftNurgleFlavor" value="<string name='Units/ChaosDaemons_MT/WarpRiftFlavor'/>"/>
-	<entry name="ChaosDaemons_MT/WarpRiftSlaanesh" value="Разрыв Варпа Слаанеш"/>
-	<entry name="ChaosDaemons_MT/WarpRiftSlaaneshDescription" value="Открывает портал и распространяет варп-территорию Слаанеш в радиусе 1 клетки на 5 ходов, заменяя территории других богов."/>
-	<entry name="ChaosDaemons_MT/WarpRiftSlaaneshFlavor" value="<string name='Units/ChaosDaemons_MT/WarpRiftFlavor'/>"/>
-	<entry name="ChaosDaemons_MT/WarpRiftTzeentch" value="Разрыв Варпа Тзинча"/>
-	<entry name="ChaosDaemons_MT/WarpRiftTzeentchDescription" value="Открывает портал и распространяет варп-территорию Тзинча в радиусе 1 клетки на 5 ходов, заменяя территории других богов."/>
-	<entry name="ChaosDaemons_MT/WarpRiftTzeentchFlavor" value="<string name='Units/ChaosDaemons_MT/WarpRiftFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/LoathsomeAura" value="<string name='Actions/ChaosSpaceMarines/LoathsomeAura'/>"/>
 	<entry name="ChaosDaemons_MT/LoathsomeAuraDescription" value="<string name='Actions/ChaosSpaceMarines/LoathsomeAuraDescription'/>"/>
 	<entry name="ChaosDaemons_MT/LoathsomeAuraFlavor" value="<string name='Actions/ChaosSpaceMarines/LoathsomeAuraFlavor'/>"/>
