@@ -78,7 +78,7 @@
 				</target>
 			</beginTargets>
 		</markOfNurgle>
-		<webwayArtillery durationInSeconds="0.1" cooldown="0" name="ChaosDaemons_MT/WarpTerritory/StructureMarkNurgle" icon="Actions/ChaosSpaceMarines/MarkOfNurgle">
+		<webwayArtillery durationInSeconds="0.1" cooldown="0" name="ChaosDaemons_MT/WarpTerritory/StructureMarkNurgle" icon="Actions/ChaosSpaceMarines/IconOfDespair">
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
 			</model>
@@ -94,7 +94,7 @@
 					<areas>
 						<area affects="Unit">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<effects>
 										<removeTrait name="ChaosDaemons_MT/Undivided"/>
 										<removeTrait name="ChaosDaemons_MT/Khorne"/>
@@ -118,7 +118,7 @@
 										<addTrait name="ChaosDaemons_MT/WarpTerritory/StructureMarkNurgle"/>
 									</effects>
 								</modifier>
-								<modifier>
+								<modifier visible="0">
 									<conditions>
 										<unit>
 											<type name="ChaosDaemons_MT/Headquarters"/>
@@ -128,7 +128,7 @@
 										<addTrait name="ChaosDaemons_MT/WarpTerritory/HeadquartersTerritoryCleanup"/>
 									</effects>
 								</modifier>
-								<modifier>
+								<modifier visible="0">
 									<conditions>
 										<unit>
 											<type name="ChaosDaemons_MT/NoctilithCrown"/>
@@ -142,7 +142,7 @@
 						</area>
 						<area affects="Player">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<effects>
 										<removeTrait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
 									</effects>
@@ -151,7 +151,7 @@
 						</area>
 						<area affects="Player">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<conditions>
 										<unit>
 											<type name="ChaosDaemons_MT/Headquarters"/>
@@ -165,7 +165,7 @@
 						</area>
 						<area affects="Tile" radius="1">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<conditions>
 										<player>
 											<trait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
@@ -189,7 +189,7 @@
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence" duration="3"/>
 									</effects>
 								</modifier>
-								<modifier>
+								<modifier visible="0">
 									<conditions>
 										<player>
 											<noTrait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
@@ -217,7 +217,7 @@
 						</area>
 						<area affects="Tile" radius="2" excludeRadius="1">
 							<modifiers>
-								<modifier requiredUpgrade="ChaosDaemons_MT/WarpNexuses">
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpNexuses">
 									<conditions>
 										<player>
 											<trait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
@@ -241,7 +241,7 @@
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence" duration="3"/>
 									</effects>
 								</modifier>
-								<modifier requiredUpgrade="ChaosDaemons_MT/WarpNexuses">
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpNexuses">
 									<conditions>
 										<player>
 											<noTrait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
@@ -269,7 +269,7 @@
 						</area>
 						<area affects="Tile" radius="3" excludeRadius="2">
 							<modifiers>
-								<modifier requiredUpgrade="ChaosDaemons_MT/WarpDominion">
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpDominion">
 									<conditions>
 										<player>
 											<trait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
@@ -293,7 +293,7 @@
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence" duration="3"/>
 									</effects>
 								</modifier>
-								<modifier requiredUpgrade="ChaosDaemons_MT/WarpDominion">
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpDominion">
 									<conditions>
 										<player>
 											<noTrait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
@@ -321,7 +321,7 @@
 						</area>
 						<area affects="Player">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<effects>
 										<removeTrait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
 									</effects>
@@ -363,7 +363,7 @@
 				</target>
 			</beginTargets>
 		</markOfKhorne>
-		<webwayArtillery durationInSeconds="0.1" cooldown="0" name="ChaosDaemons_MT/WarpTerritory/StructureMarkKhorne" icon="Actions/ChaosSpaceMarines/MarkOfKhorne">
+		<webwayArtillery durationInSeconds="0.1" cooldown="0" name="ChaosDaemons_MT/WarpTerritory/StructureMarkKhorne" icon="Actions/ChaosSpaceMarines/IconOfWrath">
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
 			</model>
@@ -379,7 +379,7 @@
 					<areas>
 						<area affects="Unit">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<effects>
 										<removeTrait name="ChaosDaemons_MT/Undivided"/>
 										<removeTrait name="ChaosDaemons_MT/Khorne"/>
@@ -403,7 +403,7 @@
 										<addTrait name="ChaosDaemons_MT/WarpTerritory/StructureMarkKhorne"/>
 									</effects>
 								</modifier>
-								<modifier>
+								<modifier visible="0">
 									<conditions>
 										<unit>
 											<type name="ChaosDaemons_MT/Headquarters"/>
@@ -413,7 +413,7 @@
 										<addTrait name="ChaosDaemons_MT/WarpTerritory/HeadquartersTerritoryCleanup"/>
 									</effects>
 								</modifier>
-								<modifier>
+								<modifier visible="0">
 									<conditions>
 										<unit>
 											<type name="ChaosDaemons_MT/NoctilithCrown"/>
@@ -427,7 +427,7 @@
 						</area>
 						<area affects="Player">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<effects>
 										<removeTrait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
 									</effects>
@@ -436,7 +436,7 @@
 						</area>
 						<area affects="Player">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<conditions>
 										<unit>
 											<type name="ChaosDaemons_MT/Headquarters"/>
@@ -450,7 +450,7 @@
 						</area>
 						<area affects="Tile" radius="1">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<conditions>
 										<player>
 											<trait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
@@ -474,7 +474,7 @@
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence" duration="3"/>
 									</effects>
 								</modifier>
-								<modifier>
+								<modifier visible="0">
 									<conditions>
 										<player>
 											<noTrait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
@@ -502,7 +502,7 @@
 						</area>
 						<area affects="Tile" radius="2" excludeRadius="1">
 							<modifiers>
-								<modifier requiredUpgrade="ChaosDaemons_MT/WarpNexuses">
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpNexuses">
 									<conditions>
 										<player>
 											<trait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
@@ -526,7 +526,7 @@
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence" duration="3"/>
 									</effects>
 								</modifier>
-								<modifier requiredUpgrade="ChaosDaemons_MT/WarpNexuses">
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpNexuses">
 									<conditions>
 										<player>
 											<noTrait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
@@ -554,7 +554,7 @@
 						</area>
 						<area affects="Tile" radius="3" excludeRadius="2">
 							<modifiers>
-								<modifier requiredUpgrade="ChaosDaemons_MT/WarpDominion">
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpDominion">
 									<conditions>
 										<player>
 											<trait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
@@ -578,7 +578,7 @@
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence" duration="3"/>
 									</effects>
 								</modifier>
-								<modifier requiredUpgrade="ChaosDaemons_MT/WarpDominion">
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpDominion">
 									<conditions>
 										<player>
 											<noTrait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
@@ -606,7 +606,7 @@
 						</area>
 						<area affects="Player">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<effects>
 										<removeTrait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
 									</effects>
@@ -649,7 +649,7 @@
 				</target>
 			</beginTargets>
 		</markOfSlaanesh>
-		<webwayArtillery durationInSeconds="0.1" cooldown="0" name="ChaosDaemons_MT/WarpTerritory/StructureMarkSlaanesh" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh">
+		<webwayArtillery durationInSeconds="0.1" cooldown="0" name="ChaosDaemons_MT/WarpTerritory/StructureMarkSlaanesh" icon="Actions/ChaosSpaceMarines/IconOfExcess">
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
 			</model>
@@ -665,7 +665,7 @@
 					<areas>
 						<area affects="Unit">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<effects>
 										<removeTrait name="ChaosDaemons_MT/Undivided"/>
 										<removeTrait name="ChaosDaemons_MT/Khorne"/>
@@ -689,7 +689,7 @@
 										<addTrait name="ChaosDaemons_MT/WarpTerritory/StructureMarkSlaanesh"/>
 									</effects>
 								</modifier>
-								<modifier>
+								<modifier visible="0">
 									<conditions>
 										<unit>
 											<type name="ChaosDaemons_MT/Headquarters"/>
@@ -699,7 +699,7 @@
 										<addTrait name="ChaosDaemons_MT/WarpTerritory/HeadquartersTerritoryCleanup"/>
 									</effects>
 								</modifier>
-								<modifier>
+								<modifier visible="0">
 									<conditions>
 										<unit>
 											<type name="ChaosDaemons_MT/NoctilithCrown"/>
@@ -713,7 +713,7 @@
 						</area>
 						<area affects="Player">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<effects>
 										<removeTrait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
 									</effects>
@@ -722,7 +722,7 @@
 						</area>
 						<area affects="Player">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<conditions>
 										<unit>
 											<type name="ChaosDaemons_MT/Headquarters"/>
@@ -736,7 +736,7 @@
 						</area>
 						<area affects="Tile" radius="1">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<conditions>
 										<player>
 											<trait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
@@ -760,7 +760,7 @@
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence" duration="3"/>
 									</effects>
 								</modifier>
-								<modifier>
+								<modifier visible="0">
 									<conditions>
 										<player>
 											<noTrait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
@@ -788,7 +788,7 @@
 						</area>
 						<area affects="Tile" radius="2" excludeRadius="1">
 							<modifiers>
-								<modifier requiredUpgrade="ChaosDaemons_MT/WarpNexuses">
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpNexuses">
 									<conditions>
 										<player>
 											<trait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
@@ -812,7 +812,7 @@
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence" duration="3"/>
 									</effects>
 								</modifier>
-								<modifier requiredUpgrade="ChaosDaemons_MT/WarpNexuses">
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpNexuses">
 									<conditions>
 										<player>
 											<noTrait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
@@ -840,7 +840,7 @@
 						</area>
 						<area affects="Tile" radius="3" excludeRadius="2">
 							<modifiers>
-								<modifier requiredUpgrade="ChaosDaemons_MT/WarpDominion">
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpDominion">
 									<conditions>
 										<player>
 											<trait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
@@ -864,7 +864,7 @@
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence" duration="3"/>
 									</effects>
 								</modifier>
-								<modifier requiredUpgrade="ChaosDaemons_MT/WarpDominion">
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpDominion">
 									<conditions>
 										<player>
 											<noTrait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
@@ -892,7 +892,7 @@
 						</area>
 						<area affects="Player">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<effects>
 										<removeTrait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
 									</effects>
@@ -935,7 +935,7 @@
 				</target>
 			</beginTargets>
 		</markOfTzeentch>
-		<webwayArtillery durationInSeconds="0.1" cooldown="0" name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentch" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch">
+		<webwayArtillery durationInSeconds="0.1" cooldown="0" name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentch" icon="Actions/ChaosSpaceMarines/IconOfFlame">
 			<model>
 				<action sound="Interface/MarkOfChaos"/>
 			</model>
@@ -951,7 +951,7 @@
 					<areas>
 						<area affects="Unit">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<effects>
 										<removeTrait name="ChaosDaemons_MT/Undivided"/>
 										<removeTrait name="ChaosDaemons_MT/Khorne"/>
@@ -975,7 +975,7 @@
 										<addTrait name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentch"/>
 									</effects>
 								</modifier>
-								<modifier>
+								<modifier visible="0">
 									<conditions>
 										<unit>
 											<type name="ChaosDaemons_MT/Headquarters"/>
@@ -985,7 +985,7 @@
 										<addTrait name="ChaosDaemons_MT/WarpTerritory/HeadquartersTerritoryCleanup"/>
 									</effects>
 								</modifier>
-								<modifier>
+								<modifier visible="0">
 									<conditions>
 										<unit>
 											<type name="ChaosDaemons_MT/NoctilithCrown"/>
@@ -999,7 +999,7 @@
 						</area>
 						<area affects="Player">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<effects>
 										<removeTrait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
 									</effects>
@@ -1008,7 +1008,7 @@
 						</area>
 						<area affects="Player">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<conditions>
 										<unit>
 											<type name="ChaosDaemons_MT/Headquarters"/>
@@ -1022,7 +1022,7 @@
 						</area>
 						<area affects="Tile" radius="1">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<conditions>
 										<player>
 											<trait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
@@ -1046,7 +1046,7 @@
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence" duration="3"/>
 									</effects>
 								</modifier>
-								<modifier>
+								<modifier visible="0">
 									<conditions>
 										<player>
 											<noTrait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
@@ -1074,7 +1074,7 @@
 						</area>
 						<area affects="Tile" radius="2" excludeRadius="1">
 							<modifiers>
-								<modifier requiredUpgrade="ChaosDaemons_MT/WarpNexuses">
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpNexuses">
 									<conditions>
 										<player>
 											<trait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
@@ -1098,7 +1098,7 @@
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence" duration="3"/>
 									</effects>
 								</modifier>
-								<modifier requiredUpgrade="ChaosDaemons_MT/WarpNexuses">
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpNexuses">
 									<conditions>
 										<player>
 											<noTrait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
@@ -1126,7 +1126,7 @@
 						</area>
 						<area affects="Tile" radius="3" excludeRadius="2">
 							<modifiers>
-								<modifier requiredUpgrade="ChaosDaemons_MT/WarpDominion">
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpDominion">
 									<conditions>
 										<player>
 											<trait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
@@ -1150,7 +1150,7 @@
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence" duration="3"/>
 									</effects>
 								</modifier>
-								<modifier requiredUpgrade="ChaosDaemons_MT/WarpDominion">
+								<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/WarpDominion">
 									<conditions>
 										<player>
 											<noTrait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
@@ -1178,7 +1178,7 @@
 						</area>
 						<area affects="Player">
 							<modifiers>
-								<modifier>
+								<modifier visible="0">
 									<effects>
 										<removeTrait name="ChaosDaemons_MT/WarpTerritory/CityMarkOrder"/>
 									</effects>

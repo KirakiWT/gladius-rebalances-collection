@@ -144,7 +144,7 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing1" icon="Actions/ChaosSpaceMarines/MarkOfKhorne" passive="1" cooldown="1" visible="0">
+		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing1" icon="Actions/ChaosSpaceMarines/MalevolentLocus" passive="1" cooldown="1" useConditionsForVisiblity="1">
 			<conditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkKhorne"/>
@@ -267,7 +267,7 @@
 				</selfTarget>
 			</beginTargets>
 		</quantumShielding>
-		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing1" icon="Actions/ChaosSpaceMarines/MarkOfNurgle" passive="1" cooldown="1" visible="0">
+		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing1" icon="Actions/ChaosSpaceMarines/MalevolentLocus" passive="1" cooldown="1" useConditionsForVisiblity="1">
 			<conditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkNurgle"/>
@@ -390,7 +390,7 @@
 				</selfTarget>
 			</beginTargets>
 		</quantumShielding>
-		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing1" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh" passive="1" cooldown="1" visible="0">
+		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing1" icon="Actions/ChaosSpaceMarines/MalevolentLocus" passive="1" cooldown="1" useConditionsForVisiblity="1">
 			<conditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkSlaanesh"/>
@@ -513,7 +513,7 @@
 				</selfTarget>
 			</beginTargets>
 		</quantumShielding>
-		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing1" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch" passive="1" cooldown="1" visible="0">
+		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing1" icon="Actions/ChaosSpaceMarines/MalevolentLocus" passive="1" cooldown="1" useConditionsForVisiblity="1">
 			<conditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentch"/>
@@ -643,7 +643,7 @@
 		<trait name="Headquarters"/>
 		<trait name="Transport"/>
 		<trait name="ChaosDaemons_MT/Undivided"/>
-		<trait name="Necrons/EternityGate"/>
+		<trait name="ChaosDaemons_MT/WarpGateway"/>
 		<trait name="ChaosDaemons_MT/WarpRiftReady"/>
 	</traits>
 </unit>

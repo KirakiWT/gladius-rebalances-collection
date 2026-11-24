@@ -383,26 +383,26 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentchDescription" value="Dedicates the structure to Tzeentch and replaces its previous mark."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentch" value="Tzeentch Warp Aura"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchDescription" value="Recreates warp territory each turn with a three-turn duration."/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing1" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraKhorne'/>"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing1Description" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing1" value="Warp Aura"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing1Description" value="At the end of each turn, renews the chosen god’s warp territory beneath and around this structure for 3 turns. Research increases the radius from 1 to 3 tiles."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing2" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraKhorne'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing2Description" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneDescription'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing3" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraKhorne'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing3Description" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneDescription'/>"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing1" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraNurgle'/>"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing1Description" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing1" value="Warp Aura"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing1Description" value="At the end of each turn, renews the chosen god’s warp territory beneath and around this structure for 3 turns. Research increases the radius from 1 to 3 tiles."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing2" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraNurgle'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing2Description" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleDescription'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing3" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraNurgle'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing3Description" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleDescription'/>"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing1" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraSlaanesh'/>"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing1Description" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing1" value="Warp Aura"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing1Description" value="At the end of each turn, renews the chosen god’s warp territory beneath and around this structure for 3 turns. Research increases the radius from 1 to 3 tiles."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing2" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraSlaanesh'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing2Description" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshDescription'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing3" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraSlaanesh'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing3Description" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshDescription'/>"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing1" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentch'/>"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing1Description" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing1" value="Warp Aura"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing1Description" value="At the end of each turn, renews the chosen god’s warp territory beneath and around this structure for 3 turns. Research increases the radius from 1 to 3 tiles."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing2" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentch'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing2Description" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchDescription'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing3" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentch'/>"/>

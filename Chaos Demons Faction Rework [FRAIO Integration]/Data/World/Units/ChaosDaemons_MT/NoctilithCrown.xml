@@ -95,9 +95,9 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing1" icon="Actions/ChaosSpaceMarines/MarkOfKhorne" passive="1" cooldown="1"
+		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing1" icon="Actions/ChaosSpaceMarines/MalevolentLocus" passive="1" cooldown="1"
 				requiredActionPoints="0" consumedActionPoints="0"
-				requiredMovement="0" consumedMovement="0" visible="0">
+				requiredMovement="0" consumedMovement="0" useConditionsForVisiblity="1">
 			<conditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkKhorne"/>
@@ -230,9 +230,9 @@
 				</selfTarget>
 			</beginTargets>
 		</quantumShielding>
-		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing1" icon="Actions/ChaosSpaceMarines/MarkOfNurgle" passive="1" cooldown="1"
+		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraNurgleRing1" icon="Actions/ChaosSpaceMarines/MalevolentLocus" passive="1" cooldown="1"
 				requiredActionPoints="0" consumedActionPoints="0"
-				requiredMovement="0" consumedMovement="0" visible="0">
+				requiredMovement="0" consumedMovement="0" useConditionsForVisiblity="1">
 			<conditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkNurgle"/>
@@ -365,9 +365,9 @@
 				</selfTarget>
 			</beginTargets>
 		</quantumShielding>
-		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing1" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh" passive="1" cooldown="1"
+		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraSlaaneshRing1" icon="Actions/ChaosSpaceMarines/MalevolentLocus" passive="1" cooldown="1"
 				requiredActionPoints="0" consumedActionPoints="0"
-				requiredMovement="0" consumedMovement="0" visible="0">
+				requiredMovement="0" consumedMovement="0" useConditionsForVisiblity="1">
 			<conditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkSlaanesh"/>
@@ -500,9 +500,9 @@
 				</selfTarget>
 			</beginTargets>
 		</quantumShielding>
-		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing1" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch" passive="1" cooldown="1"
+		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraTzeentchRing1" icon="Actions/ChaosSpaceMarines/MalevolentLocus" passive="1" cooldown="1"
 				requiredActionPoints="0" consumedActionPoints="0"
-				requiredMovement="0" consumedMovement="0" visible="0">
+				requiredMovement="0" consumedMovement="0" useConditionsForVisiblity="1">
 			<conditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentch"/>
@@ -640,7 +640,7 @@
 		<trait name="Fortification"/>
 		<trait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
 		<trait name="ChaosDaemons_MT/Undivided"/>
-		<trait name="Necrons/EternityGate" requiredUpgrade="ChaosDaemons_MT/WarpNexuses"/>
+		<trait name="ChaosDaemons_MT/WarpGateway" requiredUpgrade="ChaosDaemons_MT/WarpNexuses"/>
 		<trait name="ChaosDaemons_MT/WarpRiftReady" requiredUpgrade="ChaosDaemons_MT/WarpNexuses"/>
 	</traits>
 </unit>

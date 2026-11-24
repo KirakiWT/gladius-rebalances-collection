@@ -321,4 +321,6 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkSlaaneshDescription" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureMarkSlaaneshDescription'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentch" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentch'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentchDescription" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentchDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpGateway" value="Врата варпа"/>
+	<entry name="ChaosDaemons_MT/WarpGatewayDescription" value="Демоны Хаоса с «Путешествием по варпу» могут телепортироваться на соседние клетки."/>
 </language>
