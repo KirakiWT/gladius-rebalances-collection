@@ -130,50 +130,6 @@
 				</selfTarget>
 			</beginTargets>
 		</hammerOfWrath>
-		<warpJumpGenerator cooldown="5"
-				name="ChaosDaemons_MT/WarpRiftTeleport"
-				icon="Units/ChaosDaemons_MT/WarpRift"
-				range="999"
-				consumedActionPoints="1"
-				consumedMovement="10"
-				requiredActionPoints="0"
-				requiredMovement="0">
-			<model>
-				<action sound="Actions/Teleport"/>
-			</model>
-			<conditions>
-				<unit>
-					<trait name="ChaosDaemons_MT/WarpRift"/>
-				</unit>
-				<player match="Any">
-					<upgrade name="ChaosDaemons_MT/WarpNexuses"/>
-					<upgrade name="ChaosDaemons_MT/WarpRift"/>
-				</player>
-			</conditions>
-			<modifiers>
-				<modifier requiredUpgrade="ChaosDaemons_MT/WarpSurge">
-					<effects>
-						<consumedActionPoints max="0"/>
-						<consumedMovement max="0"/>
-					</effects>
-				</modifier>
-			</modifiers>
-			<beginTargets>
-				<target rangeMax="999">
-					<conditions>
-						<tile>
-							<feature name="ChaosDaemons_MT/WarpTravelDestination"/>
-							<noUnit/>
-							<noEnemyCity/>
-							<noFeature name="GravityWaves"/>
-						</tile>
-					</conditions>
-					<areas>
-						<area affects="Tile"/>
-					</areas>
-				</target>
-			</beginTargets>
-		</warpJumpGenerator>
 			<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/CreateKhorne"
 				cooldown="1"
 				consumedActionPoints="0"
@@ -537,7 +493,6 @@
 	<traits>
 		<trait name="Daemon"/>
 		<trait name="ChaosDaemons_MT/Khorne"/>
-		<trait name="ChaosDaemons_MT/WarpRift"/>
 		<trait name="ChaosDaemons_MT/ContemptForSorcery"/>
 		<trait name="ChaosDaemons_MT/DaemonicResilience" requiredUpgrade="ChaosDaemons_MT/ExtraInfantryArmour"/>
 	</traits>
