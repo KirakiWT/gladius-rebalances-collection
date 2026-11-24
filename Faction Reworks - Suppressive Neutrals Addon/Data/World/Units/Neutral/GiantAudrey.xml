@@ -66,10 +66,10 @@
 				<action animation="Units/Neutral/GiantAudreyMove"/>
 			</model>		
 		</move>
-		<genericUnitAbility cooldown="1"
+		<enfeeble cooldown="1"
 				consumedActionPoints="0"
 				consumedMovement="0"
-				icon="Actions/GrabbinKlaw"
+				icon="Actions/Tyranids/GraspingTail"
 				name="Neutral/GiantAudreyRootSnare"
 				requiredActionPoints="0">
 			<model>
@@ -95,7 +95,7 @@
 					</areas>
 				</target>
 			</beginTargets>
-		</genericUnitAbility>
+		</enfeeble>
 	</actions>
 	<traits>
 		<trait name="Tyranids/ChameleonicSkin"/>
