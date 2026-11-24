@@ -5,6 +5,7 @@
 			<conditions>
 				<unit>
 					<allied/>
+					<noTrait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
 					<trait name="ChaosDaemons_MT/Khorne"/>
 				</unit>
 			</conditions>
@@ -16,6 +17,7 @@
 			<conditions>
 				<unit>
 					<allied/>
+					<noTrait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
 				</unit>
 			</conditions>
 			<effects>
@@ -26,6 +28,7 @@
 			<conditions>
 				<unit>
 					<allied/>
+					<noTrait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
 				</unit>
 			</conditions>
 			<effects>

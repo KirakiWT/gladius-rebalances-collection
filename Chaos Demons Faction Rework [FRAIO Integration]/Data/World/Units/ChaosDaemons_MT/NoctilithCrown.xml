@@ -111,7 +111,7 @@
 			<beginTargets>
 				<selfTarget>
 					<areas>
-						<area affects="Tile" radius="1" excludeRadius="0">
+						<area affects="Tile" radius="1">
 							<modifiers>
 								<modifier visible="0">
 									<conditions>
@@ -246,7 +246,7 @@
 			<beginTargets>
 				<selfTarget>
 					<areas>
-						<area affects="Tile" radius="1" excludeRadius="0">
+						<area affects="Tile" radius="1">
 							<modifiers>
 								<modifier visible="0">
 									<conditions>
@@ -381,7 +381,7 @@
 			<beginTargets>
 				<selfTarget>
 					<areas>
-						<area affects="Tile" radius="1" excludeRadius="0">
+						<area affects="Tile" radius="1">
 							<modifiers>
 								<modifier visible="0">
 									<conditions>
@@ -516,7 +516,7 @@
 			<beginTargets>
 				<selfTarget>
 					<areas>
-						<area affects="Tile" radius="1" excludeRadius="0">
+						<area affects="Tile" radius="1">
 							<modifiers>
 								<modifier visible="0">
 									<conditions>
