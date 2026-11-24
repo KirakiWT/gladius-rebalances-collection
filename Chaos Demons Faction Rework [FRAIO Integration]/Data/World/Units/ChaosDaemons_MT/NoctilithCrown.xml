@@ -1188,6 +1188,7 @@
 		<trait name="Fortification"/>
 		<trait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
 		<trait name="ChaosDaemons_MT/Undivided"/>
+		<trait name="Necrons/EternityGate" requiredUpgrade="ChaosDaemons_MT/WarpNexuses"/>
 		<trait name="ChaosDaemons_MT/WarpRiftReady" requiredUpgrade="ChaosDaemons_MT/WarpNexuses"/>
 	</traits>
 </unit>

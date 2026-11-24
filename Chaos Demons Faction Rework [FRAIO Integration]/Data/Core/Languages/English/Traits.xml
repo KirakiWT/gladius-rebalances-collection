@@ -410,8 +410,6 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkSlaaneshDescription" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureMarkSlaaneshDescription'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentch" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentch'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentchDescription" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentchDescription'/>"/>
-	<entry name="ChaosDaemons_MT/WarpGateway" value="Warp Gateway"/>
-	<entry name="ChaosDaemons_MT/WarpGatewayDescription" value="Chaos Daemons with Warp Travel can teleport to tiles adjacent to this structure."/>
 	<entry name="ChaosDaemons_MT/Belakor/MantleOfShadows" value="Mantle of Shadows"/>
 	<entry name="ChaosDaemons_MT/Belakor/MantleOfShadowsDescription" value="Grants 25% invulnerable damage reduction."/>
 	<entry name="ChaosDaemons_MT/Belakor/MantleOfShadowsFlavor" value="<string name='Units/ChaosDaemons_MT/BelakorFlavor'/>"/>

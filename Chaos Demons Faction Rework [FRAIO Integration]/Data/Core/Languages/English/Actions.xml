@@ -52,7 +52,7 @@
 	<entry name="ChaosDaemons_MT/RancidVisitationsFlavor" value="<string name='Traits/ChaosDaemons_MT/RancidVisitationsFlavor'/>"/>
 
 	<entry name="ChaosDaemons_MT/WarpRiftTeleport" value="Warp Travel"/>
-	<entry name="ChaosDaemons_MT/WarpRiftTeleportDescription" value="From a tile next to an allied warp node, travel to a free tile next to an active warp node. Headquarters and warp rifts are nodes. Noctilith Crowns become nodes after Warp Nexuses."/>
+	<entry name="ChaosDaemons_MT/WarpRiftTeleportDescription" value="Travels between allied headquarters, warp rifts, and Noctilith Crowns. Crowns require Warp Nexuses."/>
 	<entry name="ChaosDaemons_MT/WarpRiftTeleportFlavor" value="Daemonic legions tear through the fabric of realspace, malevolent entities flickering into being like phantasms from a nightmare. Worse still, as terror and panic take hold of their victims, so their mortal souls become ever easier prey for the entities pouring through from the warp."/>
 	
 
@@ -226,7 +226,7 @@
 	<entry name="ChaosDaemons_MT/TzeentchFlavor" value="<string name='Traits/ChaosDaemons_MT/TzeentchFlavor'/>"/>
 	
 	<entry name="ChaosDaemons_MT/WarpRift" value="Warp Rift"/>
-	<entry name="ChaosDaemons_MT/WarpRiftDescription" value="Opens a warp portal on the selected tile. Warp Travel is temporarily disabled."/>
+	<entry name="ChaosDaemons_MT/WarpRiftDescription" value="Opens a warp portal on the selected tile for daemon travel."/>
 	<entry name="ChaosDaemons_MT/WarpRiftFlavor" value="<string name='Units/ChaosDaemons_MT/WarpRiftFlavor'/>"/>
 	
 	<entry name="ChaosDaemons_MT/LocusOfUnstoppableFury" value="<string name='Traits/ChaosDaemons_MT/Locus/LocusOfUnstoppableFury'/>"/>

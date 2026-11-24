@@ -130,6 +130,30 @@
 				</selfTarget>
 			</beginTargets>
 		</hammerOfWrath>
+		<dimensionalCorridor cooldown="5"
+				name="ChaosDaemons_MT/WarpRiftTeleport"
+				icon="Actions/Necrons/GravityPulse">
+			<model>
+				<action sound="Actions/Teleport"/>
+			</model>
+			<conditions>
+				<unit>
+					<trait name="ChaosDaemons_MT/WarpRift"/>
+				</unit>
+				<unit match="Any">
+					<trait name="ChaosDaemons_MT/WarpTravelFromNexuses"/>
+					<trait name="ChaosDaemons_MT/WarpTravelFromRifts"/>
+				</unit>
+			</conditions>
+			<modifiers>
+				<modifier requiredUpgrade="ChaosDaemons_MT/WarpSurge">
+					<effects>
+						<consumedActionPoints max="0"/>
+						<consumedMovement max="0"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</dimensionalCorridor>
 			<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/CreateKhorne"
 				cooldown="1"
 				consumedActionPoints="0"
@@ -493,6 +517,9 @@
 	<traits>
 		<trait name="Daemon"/>
 		<trait name="ChaosDaemons_MT/Khorne"/>
+		<trait name="ChaosDaemons_MT/WarpRift"/>
+		<trait name="ChaosDaemons_MT/WarpTravelFromNexuses" requiredUpgrade="ChaosDaemons_MT/WarpNexuses"/>
+		<trait name="ChaosDaemons_MT/WarpTravelFromRifts" requiredUpgrade="ChaosDaemons_MT/WarpRift"/>
 		<trait name="ChaosDaemons_MT/ContemptForSorcery"/>
 		<trait name="ChaosDaemons_MT/DaemonicResilience" requiredUpgrade="ChaosDaemons_MT/ExtraInfantryArmour"/>
 	</traits>
