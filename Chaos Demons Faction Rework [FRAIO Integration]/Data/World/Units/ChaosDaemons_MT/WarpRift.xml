@@ -39,11 +39,30 @@
 						soundCount="1"/>
 			</model>
 		</die>
+		<quantumShielding name="ChaosDaemons_MT/MarkWarpTravelDestinations"
+				passive="1" visible="0" cooldown="1"
+				requiredActionPoints="0" consumedActionPoints="0"
+				requiredMovement="0" consumedMovement="0">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="1" excludeRadius="0">
+							<modifiers>
+								<modifier visible="0">
+									<effects>
+										<addFeature name="ChaosDaemons_MT/WarpTravelDestination" duration="1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</quantumShielding>
 	</actions>
 	<traits>
 		<trait name="Infiltrate"/>
 		<trait name="Fortification"/>
-		<trait name="Necrons/EternityGate"/>
 		<trait name="ChaosDaemons_MT/WarpRiftReady"/>
 	</traits>
 </unit>

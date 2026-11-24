@@ -284,15 +284,23 @@
 		</genericUnitAbility>
 		<levelUp/>
 		<shop/>
-		<dimensionalCorridor cooldown="5"
+		<warpJumpGenerator cooldown="5"
 				name="ChaosDaemons_MT/WarpRiftTeleport"
-				icon="Actions/Necrons/GravityPulse">
+				icon="Units/ChaosDaemons_MT/WarpRift"
+				range="999"
+				consumedActionPoints="1"
+				consumedMovement="10"
+				requiredActionPoints="1"
+				requiredMovement="0">
 			<model>
 				<action sound="Actions/Teleport"/>
 			</model>
 			<conditions>
 				<unit>
-					<trait name="ChaosDaemons_MT/WarpRift"/>
+					<unitsInRange count="1" range="1">
+						<allied/>
+						<trait name="ChaosDaemons_MT/WarpRiftReady"/>
+					</unitsInRange>
 				</unit>
 				<unit match="Any">
 					<trait name="ChaosDaemons_MT/WarpTravelFromNexuses"/>
@@ -307,7 +315,19 @@
 					</effects>
 				</modifier>
 			</modifiers>
-		</dimensionalCorridor>
+			<beginTargets>
+				<target rangeMax="-1">
+					<conditions>
+						<tile>
+							<feature name="ChaosDaemons_MT/WarpTravelDestination"/>
+							<noUnit/>
+							<noEnemyCity/>
+							<noFeature name="GravityWaves"/>
+						</tile>
+					</conditions>
+				</target>
+			</beginTargets>
+		</warpJumpGenerator>
 		<genericUnitAbility name="ChaosDaemons_MT/WarpTerritory/CreateKhorneHero"
 				cooldown="1"
 				consumedActionPoints="0"
@@ -756,7 +776,6 @@
 		<trait name="ChaosDaemons_MT/Nurgle"/>
 		<trait name="ChaosDaemons_MT/NurgleAscension2" requiredUpgrade="ChaosDaemons_MT/NurgleAscension2"/>
 		<trait name="Regeneration"/>
-		<trait name="ChaosDaemons_MT/WarpRift"/>
 		<trait name="ChaosDaemons_MT/WarpTravelFromNexuses" requiredUpgrade="ChaosDaemons_MT/WarpNexuses"/>
 		<trait name="ChaosDaemons_MT/WarpTravelFromRifts" requiredUpgrade="ChaosDaemons_MT/WarpRift"/>
 		<trait name="Reinforcements_MT/MeleeHero"/>

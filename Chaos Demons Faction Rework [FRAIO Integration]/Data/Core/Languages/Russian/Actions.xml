@@ -34,7 +34,7 @@
 	<entry name="ChaosDaemons_MT/RancidVisitationsDescription" value="Заражает вражеский отряд изнурительной болезнью."/>
 	<entry name="ChaosDaemons_MT/RancidVisitationsFlavor" value="<string name='Traits/ChaosDaemons_MT/RancidVisitationsFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/WarpRiftTeleport" value="Путешествие по Варпу"/>
-	<entry name="ChaosDaemons_MT/WarpRiftTeleportDescription" value="Путешествие между вашими городами, разрывами варпа и Ноктилитовыми коронами после изучения «Узлов варпа»."/>
+	<entry name="ChaosDaemons_MT/WarpRiftTeleportDescription" value="Перемещает отряд с клетки рядом с союзным узлом варпа на свободную клетку рядом с действующим узлом. Узлами служат штабы и варп-порталы, а после изучения «Узлов варпа» — и Ноктилитовые короны."/>
 	<entry name="ChaosDaemons_MT/WarpRiftTeleportFlavor" value="Демонические легионы разрывают ткань реальности, злобные сущности мерцают, появляясь, как призраки из кошмара. Хуже того, по мере того как ужас и паника овладевают их жертвами, их смертные души становятся легкой добычей для сущностей, хлынувших из Варпа."/>
 	<entry name="ChaosDaemons_MT/DaemonicReinforcements" value="Демоническое подкрепление"/>
 	<entry name="ChaosDaemons_MT/DaemonicReinforcementsDescription" value="Призывает случайный отряд малых демонов на 3–5 ходов в зависимости от ранга. Исследования уровней 6 и 9 сокращают перезарядку на 1 ход каждое."/>

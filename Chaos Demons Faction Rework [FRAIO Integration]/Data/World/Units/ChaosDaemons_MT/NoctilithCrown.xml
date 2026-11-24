@@ -1183,12 +1183,31 @@
 				</selfTarget>
 			</beginTargets>
 		</quantumShielding>
+		<quantumShielding name="ChaosDaemons_MT/MarkWarpTravelDestinations"
+				passive="1" visible="0" cooldown="1"
+				requiredActionPoints="0" consumedActionPoints="0"
+				requiredMovement="0" consumedMovement="0" requiredUpgrade="ChaosDaemons_MT/WarpNexuses">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="1" excludeRadius="0">
+							<modifiers>
+								<modifier visible="0">
+									<effects>
+										<addFeature name="ChaosDaemons_MT/WarpTravelDestination" duration="1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</quantumShielding>
 	</actions>
 	<traits>
 		<trait name="Fortification"/>
 		<trait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
 		<trait name="ChaosDaemons_MT/Undivided"/>
-		<trait name="Necrons/EternityGate" requiredUpgrade="ChaosDaemons_MT/WarpNexuses"/>
 		<trait name="ChaosDaemons_MT/WarpRiftReady" requiredUpgrade="ChaosDaemons_MT/WarpNexuses"/>
 	</traits>
 </unit>
