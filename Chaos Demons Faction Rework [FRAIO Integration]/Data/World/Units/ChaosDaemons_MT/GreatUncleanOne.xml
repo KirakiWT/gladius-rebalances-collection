@@ -256,9 +256,13 @@
 										<tile>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityTzeentch"/>
 										</tile>
 									</conditions>
 									<effects>
@@ -332,9 +336,13 @@
 							<noEnemyCity/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/CityTzeentch"/>
 						</tile>
 					</conditions>
 					<areas>
@@ -346,9 +354,13 @@
 											<noEnemyCity/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityTzeentch"/>
 										</tile>
 									</conditions>
 									<effects>
@@ -396,9 +408,13 @@
 							<noEnemyCity/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/CityTzeentch"/>
 						</tile>
 					</conditions>
 					<areas>
@@ -410,9 +426,13 @@
 											<noEnemyCity/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityTzeentch"/>
 										</tile>
 									</conditions>
 									<effects>
@@ -460,9 +480,13 @@
 							<noEnemyCity/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/CityTzeentch"/>
 						</tile>
 					</conditions>
 					<areas>
@@ -474,9 +498,13 @@
 											<noEnemyCity/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityTzeentch"/>
 										</tile>
 									</conditions>
 									<effects>
@@ -524,9 +552,13 @@
 							<noEnemyCity/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
 							<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+							<noFeature name="ChaosDaemons_MT/WarpTerritory/CityTzeentch"/>
 						</tile>
 					</conditions>
 					<areas>
@@ -538,9 +570,13 @@
 											<noEnemyCity/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityTzeentch"/>
 										</tile>
 									</conditions>
 									<effects>
@@ -587,9 +623,13 @@
 										<tile>
 											<feature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityTzeentch"/>
 										</tile>
 									</conditions>
 									<effects><addFeature name="ChaosDaemons_MT/WarpTerritory/Khorne" duration="5"/></effects>
@@ -599,9 +639,13 @@
 										<tile>
 											<feature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityTzeentch"/>
 										</tile>
 									</conditions>
 									<effects><addFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch" duration="5"/></effects>
@@ -611,9 +655,13 @@
 										<tile>
 											<feature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityTzeentch"/>
 										</tile>
 									</conditions>
 									<effects><addFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh" duration="5"/></effects>
@@ -623,9 +671,13 @@
 										<tile>
 											<feature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityTzeentch"/>
 										</tile>
 									</conditions>
 									<effects><addFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle" duration="5"/></effects>

@@ -115,6 +115,10 @@
 									<conditions>
 										<tile>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityTzeentch"/>
 										</tile>
 									</conditions>
 									<effects>
@@ -155,6 +159,10 @@
 									<conditions>
 										<tile>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityTzeentch"/>
 										</tile>
 									</conditions>
 									<effects>
@@ -195,6 +203,10 @@
 									<conditions>
 										<tile>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityTzeentch"/>
 										</tile>
 									</conditions>
 									<effects>
@@ -235,6 +247,10 @@
 									<conditions>
 										<tile>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityTzeentch"/>
 										</tile>
 									</conditions>
 									<effects>
@@ -275,6 +291,10 @@
 									<conditions>
 										<tile>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityTzeentch"/>
 										</tile>
 									</conditions>
 									<effects>
@@ -315,6 +335,10 @@
 									<conditions>
 										<tile>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityTzeentch"/>
 										</tile>
 									</conditions>
 									<effects>
@@ -355,6 +379,10 @@
 									<conditions>
 										<tile>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityTzeentch"/>
 										</tile>
 									</conditions>
 									<effects>
@@ -395,6 +423,10 @@
 									<conditions>
 										<tile>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityTzeentch"/>
 										</tile>
 									</conditions>
 									<effects>
@@ -435,6 +467,10 @@
 									<conditions>
 										<tile>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityTzeentch"/>
 										</tile>
 									</conditions>
 									<effects>
@@ -475,6 +511,10 @@
 									<conditions>
 										<tile>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityTzeentch"/>
 										</tile>
 									</conditions>
 									<effects>
@@ -515,6 +555,10 @@
 									<conditions>
 										<tile>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityTzeentch"/>
 										</tile>
 									</conditions>
 									<effects>
@@ -555,6 +599,10 @@
 									<conditions>
 										<tile>
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh"/>
+											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityTzeentch"/>
 										</tile>
 									</conditions>
 									<effects>
