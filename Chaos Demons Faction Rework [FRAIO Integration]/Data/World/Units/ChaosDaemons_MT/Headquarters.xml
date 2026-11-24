@@ -1211,7 +1211,7 @@
 							<modifiers>
 								<modifier visible="0">
 									<effects>
-										<addFeature name="ChaosDaemons_MT/WarpTravelDestination" duration="1"/>
+										<addFeature name="ChaosDaemons_MT/WarpTravelDestination" duration="2"/>
 									</effects>
 								</modifier>
 							</modifiers>

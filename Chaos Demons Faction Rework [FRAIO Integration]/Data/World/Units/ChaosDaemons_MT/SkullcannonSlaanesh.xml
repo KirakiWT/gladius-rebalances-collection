@@ -141,22 +141,19 @@
 				range="999"
 				consumedActionPoints="1"
 				consumedMovement="10"
-				requiredActionPoints="1"
+				requiredActionPoints="0"
 				requiredMovement="0">
 			<model>
 				<action sound="Actions/Teleport"/>
 			</model>
 			<conditions>
 				<unit>
-					<unitsInRange count="1" range="1">
-						<allied/>
-						<trait name="ChaosDaemons_MT/WarpRiftReady"/>
-					</unitsInRange>
+					<trait name="ChaosDaemons_MT/WarpRift"/>
 				</unit>
-				<unit match="Any">
-					<trait name="ChaosDaemons_MT/WarpTravelFromNexuses"/>
-					<trait name="ChaosDaemons_MT/WarpTravelFromRifts"/>
-				</unit>
+				<player match="Any">
+					<upgrade name="ChaosDaemons_MT/WarpNexuses"/>
+					<upgrade name="ChaosDaemons_MT/WarpRift"/>
+				</player>
 			</conditions>
 			<modifiers>
 				<modifier requiredUpgrade="ChaosDaemons_MT/WarpSurge">
@@ -167,7 +164,7 @@
 				</modifier>
 			</modifiers>
 			<beginTargets>
-				<target rangeMax="-1">
+				<target rangeMax="999">
 					<conditions>
 						<tile>
 							<feature name="ChaosDaemons_MT/WarpTravelDestination"/>
@@ -176,6 +173,9 @@
 							<noFeature name="GravityWaves"/>
 						</tile>
 					</conditions>
+					<areas>
+						<area affects="Tile"/>
+					</areas>
 				</target>
 			</beginTargets>
 		</warpJumpGenerator>
@@ -542,8 +542,7 @@
 		<trait name="Fleet"/>
 		<trait name="OpenTopped"/>
 		<trait name="ChaosDaemons_MT/Slaanesh"/>
-		<trait name="ChaosDaemons_MT/WarpTravelFromNexuses" requiredUpgrade="ChaosDaemons_MT/WarpNexuses"/>
-		<trait name="ChaosDaemons_MT/WarpTravelFromRifts" requiredUpgrade="ChaosDaemons_MT/WarpRift"/>
+		<trait name="ChaosDaemons_MT/WarpRift"/>
 		<trait name="ChaosDaemons_MT/ReinforcedHulls" requiredUpgrade="ChaosDaemons_MT/ExtraVehicleArmour"/>
 	</traits>
 </unit>
