@@ -163,12 +163,6 @@
 								</modifier>
 							</modifiers>
 						</area>
-					</areas>
-				</target>
-			</beginTargets>
-			<endTargets>
-				<target>
-					<areas>
 						<area affects="Tile" radius="1">
 							<modifiers>
 								<modifier>
@@ -336,7 +330,7 @@
 						</area>
 					</areas>
 				</target>
-			</endTargets>
+			</beginTargets>
 		</webwayArtillery>
 		<markOfKhorne cooldown="0" name="ChaosDaemons_MT/Khorne" icon="Actions/ChaosSpaceMarines/MarkOfKhorne">
 			<model>
@@ -454,12 +448,6 @@
 								</modifier>
 							</modifiers>
 						</area>
-					</areas>
-				</target>
-			</beginTargets>
-			<endTargets>
-				<target>
-					<areas>
 						<area affects="Tile" radius="1">
 							<modifiers>
 								<modifier>
@@ -627,7 +615,7 @@
 						</area>
 					</areas>
 				</target>
-			</endTargets>
+			</beginTargets>
 		</webwayArtillery>
 		<markOfSlaanesh cooldown="0" name="ChaosDaemons_MT/Slaanesh" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh">
 			<model>
@@ -746,12 +734,6 @@
 								</modifier>
 							</modifiers>
 						</area>
-					</areas>
-				</target>
-			</beginTargets>
-			<endTargets>
-				<target>
-					<areas>
 						<area affects="Tile" radius="1">
 							<modifiers>
 								<modifier>
@@ -919,7 +901,7 @@
 						</area>
 					</areas>
 				</target>
-			</endTargets>
+			</beginTargets>
 		</webwayArtillery>
 		<markOfTzeentch cooldown="0" name="ChaosDaemons_MT/Tzeentch" icon="Actions/ChaosSpaceMarines/MarkOfTzeentch">
 			<model>
@@ -1038,12 +1020,6 @@
 								</modifier>
 							</modifiers>
 						</area>
-					</areas>
-				</target>
-			</beginTargets>
-			<endTargets>
-				<target>
-					<areas>
 						<area affects="Tile" radius="1">
 							<modifiers>
 								<modifier>
@@ -1211,7 +1187,7 @@
 						</area>
 					</areas>
 				</target>
-			</endTargets>
+			</beginTargets>
 		</webwayArtillery>
 		<webwayArtillery cooldown="5"
 				durationInSeconds="0.1"
