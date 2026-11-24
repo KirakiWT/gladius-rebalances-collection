@@ -23,12 +23,7 @@
 		<trait name="Template"/>
 		<trait name="IgnoresCover"/>
 		<trait name="NoEscape"/>
-		<trait name="ChaosDaemons_MT/Belakor/BetrayingShades/Tier3"/>
-		<trait name="ChaosDaemons_MT/Belakor/BetrayingShades/Tier4"/>
 		<trait name="ChaosDaemons_MT/Belakor/BetrayingShades/Tier6"/>
-		<trait name="ChaosDaemons_MT/Belakor/BetrayingShades/Tier7"/>
 		<trait name="ChaosDaemons_MT/Belakor/BetrayingShades/Tier9"/>
-		<trait name="ChaosDaemons_MT/Belakor/BetrayingShades/Tier10"/>
-		<trait name="ChaosSpaceMarines/LasDamage" requiredUpgrade="ChaosDaemons_MT/LasDamage"/>
 	</traits>
 </weapon>

@@ -6,14 +6,12 @@
 				<player match="Any">
 					<upgrade name="ChaosDaemons_MT/LocusOfTransmogrification"/>
 					<upgrade name="ChaosDaemons_MT/OurLivesForTheGods"/>
-					<upgrade name="ChaosDaemons_MT/KeeperOfSecrets"/>
-					<upgrade name="ChaosDaemons_MT/GreatUncleanOne"/>
 					<upgrade name="ChaosDaemons_MT/KnightDesecrator"/>
 					<upgrade name="ChaosDaemons_MT/WarpSurge"/>
 				</player>
 			</conditions>
 			<effects>
-				<rangedDamage add="2"/>
+				<rangedArmorPenetration add="1"/>
 			</effects>
 		</modifier>
 	</modifiers>

@@ -13,11 +13,7 @@
 				</player>
 			</conditions>
 			<effects>
-				<energyUpkeep add="1"/>
-				<influenceUpkeep add="1.5"/>
-				<productionCost add="6"/>
-				<hitpointsMax add="6.0"/>
-				<meleeArmorPenetration add="2"/>
+				<hitpointsMax add="2"/>
 			</effects>
 		</modifier>
 	</modifiers>

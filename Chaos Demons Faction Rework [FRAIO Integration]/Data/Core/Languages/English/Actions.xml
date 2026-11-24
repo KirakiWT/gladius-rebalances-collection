@@ -57,12 +57,12 @@
 	
 
 	<entry name="ChaosDaemons_MT/DaemonicReinforcements" value="Daemonic Reinforcements"/>
-	<entry name="ChaosDaemons_MT/DaemonicReinforcementsDescription" value="Summon a lesser daemon."/>
+	<entry name="ChaosDaemons_MT/DaemonicReinforcementsDescription" value="Summons a random lesser Daemon unit for 3–5 turns depending on rank. The unit starts without action or movement points. Tier 6 and 9 research each reduce cooldown by 1 turn."/>
 	<entry name="ChaosDaemons_MT/DaemonicReinforcementsFlavor" value="Daemonic legions tear through the fabric of realspace, malevolent entities flickering into being like phantasms from a nightmare. Worse still, as terror and panic take hold of their victims, so their mortal souls become ever easier prey for the entities pouring through from the warp."/>
 
 
 	<entry name="ChaosDaemons_MT/ShadowLegion" value="<string name='Traits/ChaosDaemons_MT/ShadowLegion/Khorne'/>"/>
-	<entry name="ChaosDaemons_MT/ShadowLegionDescription" value="Empower your army."/>
+	<entry name="ChaosDaemons_MT/ShadowLegionDescription" value="Allied Daemons within 1 tile gain +10% ranged damage reduction."/>
 	<entry name="ChaosDaemons_MT/ShadowLegionFlavor" value="<string name='Traits/ChaosDaemons_MT/ShadowLegion/KhorneFlavor'/>"/>
 
 	<entry name="ChaosDaemons_MT/WrathUndeniable" value="<string name='Traits/ChaosDaemons_MT/WrathUndeniable'/>"/>

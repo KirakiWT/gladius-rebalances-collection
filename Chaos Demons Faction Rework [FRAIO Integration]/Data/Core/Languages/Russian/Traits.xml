@@ -323,4 +323,10 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentchDescription" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentchDescription'/>"/>
 	<entry name="ChaosDaemons_MT/WarpGateway" value="Врата варпа"/>
 	<entry name="ChaosDaemons_MT/WarpGatewayDescription" value="Демоны Хаоса с «Путешествием по варпу» могут телепортироваться на соседние клетки."/>
+	<entry name="ChaosDaemons_MT/Belakor/MantleOfShadows" value="Покров теней"/>
+	<entry name="ChaosDaemons_MT/Belakor/MantleOfShadowsDescription" value="Даёт 25% непробиваемой защиты."/>
+	<entry name="ChaosDaemons_MT/Belakor/MantleOfShadowsFlavor" value="<string name='Units/ChaosDaemons_MT/BelakorFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/Belakor/ShadowLegion" value="<string name='Actions/ChaosDaemons_MT/ShadowLegion'/>"/>
+	<entry name="ChaosDaemons_MT/Belakor/ShadowLegionDescription" value="Увеличивает снижение урона от дальних атак на 10%."/>
+	<entry name="ChaosDaemons_MT/Belakor/ShadowLegionFlavor" value="<string name='Actions/ChaosDaemons_MT/ShadowLegionFlavor'/>"/>
 </language>

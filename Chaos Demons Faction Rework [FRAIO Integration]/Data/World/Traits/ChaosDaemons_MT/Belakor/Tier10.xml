@@ -6,19 +6,12 @@
 				<player match="Any">
 					<upgrade name="ChaosDaemons_MT/RiteOfUnholyPleasure"/>
 					<upgrade name="ChaosDaemons_MT/LasDamage"/>
-					<upgrade name="ChaosDaemons_MT/LordOfChange"/>
-					<upgrade name="ChaosDaemons_MT/Bloodthirster"/>
 					<upgrade name="ChaosDaemons_MT/LocusOfDamnation"/>
 				</player>
 			</conditions>
 			<effects>
-				<energyUpkeep add="4"/>
-				<influenceUpkeep add="6"/>
-				<productionCost add="6"/>
+				<hitpointsMax add="2"/>
 				<armor add="1"/>
-				<meleeAttacks add="1"/>
-				<hitpointsMax add="12.0"/>
-				<meleeArmorPenetration add="2"/>
 			</effects>
 		</modifier>
 	</modifiers>

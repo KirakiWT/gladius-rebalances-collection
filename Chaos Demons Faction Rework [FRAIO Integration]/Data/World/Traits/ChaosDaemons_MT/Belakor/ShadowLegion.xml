@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait icon="Units/ChaosDaemons_MT/Belakor" category="Buff">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<allied/>
+					<trait name="Daemon"/>
+				</unit>
+			</conditions>
+			<effects>
+				<rangedDamageReduction add="0.1"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

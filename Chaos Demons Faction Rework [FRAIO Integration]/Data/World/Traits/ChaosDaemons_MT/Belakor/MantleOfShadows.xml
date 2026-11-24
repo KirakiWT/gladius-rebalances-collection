@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait icon="Units/ChaosDaemons_MT/Belakor" category="Buff">
+	<modifiers>
+		<modifier>
+			<effects>
+				<invulnerableDamageReduction min="0.25"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>
