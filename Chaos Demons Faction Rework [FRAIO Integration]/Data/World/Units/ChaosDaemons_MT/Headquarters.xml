@@ -197,6 +197,16 @@
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/CityKhorne" duration="3"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence" duration="3"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/TileWrite" duration="2"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/WarpTerritory/AuraTurn" duration="2"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -332,6 +342,16 @@
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/CityNurgle" duration="3"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence" duration="3"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/TileWrite" duration="2"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/WarpTerritory/AuraTurn" duration="2"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -467,6 +487,16 @@
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/CitySlaanesh" duration="3"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence" duration="3"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/TileWrite" duration="2"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/WarpTerritory/AuraTurn" duration="2"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -602,6 +632,16 @@
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/CityTzeentch" duration="3"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/CityInfluence" duration="3"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/TileWrite" duration="2"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/WarpTerritory/AuraTurn" duration="2"/>
 									</effects>
 								</modifier>
 							</modifiers>

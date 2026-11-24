@@ -134,6 +134,7 @@
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/RenewedTzeentch"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/RenewedKhorne" duration="3"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/TileWrite" duration="2"/>
 									</effects>
 								</modifier>
 								<modifier visible="0">
@@ -159,6 +160,16 @@
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/RenewedTzeentch"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/RenewedKhorne"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticKhorne" duration="3"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/TileWrite" duration="2"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/WarpTerritory/AuraTurn" duration="2"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -350,6 +361,7 @@
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/RenewedTzeentch"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/RenewedNurgle" duration="3"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/TileWrite" duration="2"/>
 									</effects>
 								</modifier>
 								<modifier visible="0">
@@ -375,6 +387,16 @@
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/RenewedTzeentch"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/RenewedNurgle"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticNurgle" duration="3"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/TileWrite" duration="2"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/WarpTerritory/AuraTurn" duration="2"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -566,6 +588,7 @@
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/RenewedTzeentch"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/RenewedSlaanesh" duration="3"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/TileWrite" duration="2"/>
 									</effects>
 								</modifier>
 								<modifier visible="0">
@@ -591,6 +614,16 @@
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/RenewedTzeentch"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/RenewedSlaanesh"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticSlaanesh" duration="3"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/TileWrite" duration="2"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/WarpTerritory/AuraTurn" duration="2"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -782,6 +815,7 @@
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/RenewedSlaanesh"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/RenewedTzeentch" duration="3"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/TileWrite" duration="2"/>
 									</effects>
 								</modifier>
 								<modifier visible="0">
@@ -807,6 +841,16 @@
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/RenewedSlaanesh"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/RenewedTzeentch"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/StaticTzeentch" duration="3"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/TileWrite" duration="2"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/WarpTerritory/AuraTurn" duration="2"/>
 									</effects>
 								</modifier>
 							</modifiers>

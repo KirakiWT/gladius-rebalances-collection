@@ -66,4 +66,5 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/StaticTzeentchDescription" value="Expires three turns after the last refresh by a Noctilith Crown."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/RenewedTzeentchDescription" value="Expires three turns after the last refresh by a Noctilith Crown."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CityTzeentchDescription" value="Expires three turns after the last refresh by a city."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/TileWrite" value="Territory write branch reached"/>
 </language>

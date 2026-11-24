@@ -412,4 +412,6 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentchDescription" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentchDescription'/>"/>
 	<entry name="ChaosDaemons_MT/WarpGateway" value="Warp Gateway"/>
 	<entry name="ChaosDaemons_MT/WarpGatewayDescription" value="Chaos Daemons with Warp Travel can teleport to tiles adjacent to this structure."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SourceTurn" value="Marked structure processed its turn"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/AuraTurn" value="First-ring passive fired"/>
 </language>

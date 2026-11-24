@@ -57,4 +57,5 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/StaticTzeentchDescription" value="Исчезает через 3 хода после последнего обновления Короной."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/RenewedTzeentchDescription" value="Исчезает через 3 хода после последнего обновления Короной."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CityTzeentchDescription" value="Исчезает через 3 хода после последнего обновления городом."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/TileWrite" value="Пройдена проверка записи плитки"/>
 </language>

@@ -1,2 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Actions/ChaosSpaceMarines/IconOfExcess"/>
+<trait category="Buff" icon="Actions/ChaosSpaceMarines/IconOfExcess">
+	<perTurnModifiers endure="0">
+		<modifier>
+			<effects>
+				<addTrait name="ChaosDaemons_MT/WarpTerritory/SourceTurn" duration="2" />
+			</effects>
+		</modifier>
+	</perTurnModifiers>
+</trait>

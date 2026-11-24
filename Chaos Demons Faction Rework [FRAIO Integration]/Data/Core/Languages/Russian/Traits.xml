@@ -323,4 +323,6 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentchDescription" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/StructureMarkTzeentchDescription'/>"/>
 	<entry name="ChaosDaemons_MT/WarpGateway" value="Врата варпа"/>
 	<entry name="ChaosDaemons_MT/WarpGatewayDescription" value="Демоны Хаоса с «Путешествием по варпу» могут телепортироваться на соседние клетки."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SourceTurn" value="Ход отмеченного сооружения"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/AuraTurn" value="Сработала пассивка первого кольца"/>
 </language>
