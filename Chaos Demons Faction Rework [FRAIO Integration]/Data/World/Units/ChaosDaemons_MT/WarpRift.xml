@@ -43,7 +43,7 @@
 	<traits>
 		<trait name="Infiltrate"/>
 		<trait name="Fortification"/>
-		<trait name="ChaosDaemons_MT/WarpGateway"/>
+		<trait name="Necrons/EternityGate"/>
 		<trait name="ChaosDaemons_MT/WarpRiftReady"/>
 	</traits>
 </unit>

@@ -1207,7 +1207,7 @@
 		<trait name="Headquarters"/>
 		<trait name="Transport"/>
 		<trait name="ChaosDaemons_MT/Undivided"/>
-		<trait name="ChaosDaemons_MT/WarpGateway"/>
+		<trait name="Necrons/EternityGate"/>
 		<trait name="ChaosDaemons_MT/WarpRiftReady"/>
 	</traits>
 </unit>
