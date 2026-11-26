@@ -96,9 +96,9 @@
 	<entry name="ChaosDaemons_MT/BringItDown" value="<string name='Actions/BringItDown'/>"/>
 	<entry name="ChaosDaemons_MT/BringItDownDescription" value="Увеличивает пробивание брони Лорда-Комиссара и соседних союзных отрядов пехоты демонов Хаоса."/>
 	<entry name="ChaosDaemons_MT/BringItDownFlavor" value="<string name='Actions/BringItDownFlavor'/>"/>
-	<entry name="ChaosDaemons_MT/SummaryExecution" value="<string name='Actions/SummaryExecution'/>"/>
-	<entry name="ChaosDaemons_MT/SummaryExecutionDescription" value="Казнит члена отряда соседней пехоты, чтобы распространить вашу Тень Хаоса."/>
-	<entry name="ChaosDaemons_MT/SummaryExecutionFlavor" value="<string name='Actions/SummaryExecutionFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/SummaryExecution" value="Цена повиновения"/>
+	<entry name="ChaosDaemons_MT/SummaryExecutionDescription" value="Казнит одну модель соседнего союзного отряда. Целью не могут быть герои, техника, чудовищные существа и укрепления. Союзные отряды в радиусе 2 клеток от комиссара, кроме укреплений, восстанавливают 2 очка морали и 1 очко передвижения. Перезарядка — 3 хода."/>
+	<entry name="ChaosDaemons_MT/SummaryExecutionFlavor" value="Выстрел заглушает приказ. Те, кто служит комиссару, и так знают, что делать."/>
 	<entry name="ChaosDaemons_MT/ArchitectOfDeception" value="<string name='Traits/ChaosDaemons_MT/ArchitectOfDeception'/>"/>
 	<entry name="ChaosDaemons_MT/ArchitectOfDeceptionDescription" value="Уменьшает точность соседних вражеских отрядов."/>
 	<entry name="ChaosDaemons_MT/ArchitectOfDeceptionFlavor" value="<string name='Traits/ChaosDaemons_MT/ArchitectOfDeceptionFlavor'/>"/>
@@ -112,7 +112,7 @@
 	<entry name="ChaosDaemons_MT/ScintillatingLegionDescription" value="Дарует вашим слугам Тзинча снижение урона от дальних атак и щит, который активируется при атаке."/>
 	<entry name="ChaosDaemons_MT/ScintillatingLegionFlavor" value="<string name='Traits/ChaosDaemons_MT/ScintillatingLegionFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/WreathedInShades" value="<string name='Traits/ChaosDaemons_MT/WreathedInShades'/>"/>
-	<entry name="ChaosDaemons_MT/WreathedInShadesDescription" value="Распространяет вашу Тень Хаоса на соседние клетки и увеличивает точность и снижение дальнего урона, пока это действует."/>
+	<entry name="ChaosDaemons_MT/WreathedInShadesDescription" value="Выберите союзный отряд фракции Демонов Хаоса в радиусе 2 клеток. Завеса укрывает его клетку и соседние клетки на 2 хода. На них союзные войска этой фракции получают +17% к точности и +17% к снижению урона от дальних атак. Перезарядка по рангам — 5/4/3 хода."/>
 	<entry name="ChaosDaemons_MT/WreathedInShadesFlavor" value="<string name='Traits/ChaosDaemons_MT/WreathedInShadesFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/Possession" value="<string name='Actions/ChaosSpaceMarines/Possession'/>"/>
 	<entry name="ChaosDaemons_MT/PossessionDescription" value="Убийство вражеских отрядов превращает их в союзных малых демонов."/>

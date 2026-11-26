@@ -137,9 +137,9 @@
 	<entry name="ChaosDaemons_MT/BringItDownDescription" value="Increases the armour penetration of the Lord Commissar and adjacent allied Chaos Daemon infantry."/>
 	<entry name="ChaosDaemons_MT/BringItDownFlavor" value="<string name='Actions/BringItDownFlavor'/>"/>
 
-	<entry name="ChaosDaemons_MT/SummaryExecution" value="<string name='Actions/SummaryExecution'/>"/>
-	<entry name="ChaosDaemons_MT/SummaryExecutionDescription" value="Executes a squad member of an adjacent infantry unit to spread your shadow of chaos."/>
-	<entry name="ChaosDaemons_MT/SummaryExecutionFlavor" value="<string name='Actions/SummaryExecutionFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/SummaryExecution" value="Blood Price of Obedience"/>
+	<entry name="ChaosDaemons_MT/SummaryExecutionDescription" value="Execute one model of an adjacent allied unit. Heroes, vehicles, monstrous creatures and fortifications cannot be chosen. Allied units within 2 tiles of the Commissar, except fortifications, recover 2 morale and 1 movement point. Cooldown: 3 turns."/>
+	<entry name="ChaosDaemons_MT/SummaryExecutionFlavor" value="The shot drowns out the order. Those who serve the commissar know it by heart."/>
 	
 	<entry name="ChaosDaemons_MT/ArchitectOfDeception" value="<string name='Traits/ChaosDaemons_MT/ArchitectOfDeception'/>"/>
 	<entry name="ChaosDaemons_MT/ArchitectOfDeceptionDescription" value="Decrease accuracy of adjacent enemy units."/>
@@ -158,7 +158,7 @@
 	<entry name="ChaosDaemons_MT/ScintillatingLegionFlavor" value="<string name='Traits/ChaosDaemons_MT/ScintillatingLegionFlavor'/>"/>
 
 	<entry name="ChaosDaemons_MT/WreathedInShades" value="<string name='Traits/ChaosDaemons_MT/WreathedInShades'/>"/>
-	<entry name="ChaosDaemons_MT/WreathedInShadesDescription" value="Spread your shadow of chaos to adjacent tiles and increase accuracy and ranged damage reduction while it lasts."/>
+	<entry name="ChaosDaemons_MT/WreathedInShadesDescription" value="Choose an allied Chaos Daemons unit within 2 tiles. Veil its tile and adjacent tiles for 2 turns. Allied Chaos Daemons on those tiles gain 17% accuracy and 17% ranged damage reduction. Cooldown by rank: 5/4/3 turns."/>
 	<entry name="ChaosDaemons_MT/WreathedInShadesFlavor" value="<string name='Traits/ChaosDaemons_MT/WreathedInShadesFlavor'/>"/>
 
 	<entry name="ChaosDaemons_MT/Possession" value="<string name='Actions/ChaosSpaceMarines/Possession'/>"/>

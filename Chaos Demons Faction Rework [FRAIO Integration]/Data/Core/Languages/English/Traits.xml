@@ -70,9 +70,9 @@
 	<entry name="ChaosDaemons_MT/ContemptForSorceryDescription" value="Increase witchfire damage reduction."/>
 	<entry name="ChaosDaemons_MT/ContemptForSorceryFlavor" value="The loathing for witchery that radiates from the daemons of Khorne can unmake even the mightiest of conjurations."/>
 
-	<entry name="ChaosDaemons_MT/DarkGlory" value="Dark Glory"/>
-	<entry name="ChaosDaemons_MT/DarkGloryDescription" value="Kill an enemy unit to spread your shadow of chaos."/>
-	<entry name="ChaosDaemons_MT/DarkGloryFlavor" value="<string name='Traits/ChaosSpaceMarines/DarkGloryFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/DarkGlory" value="Break Their Lines"/>
+	<entry name="ChaosDaemons_MT/DarkGloryDescription" value="While at least two enemies are within 1 tile, the Chaos Lord deals 10/20/30% more damage. Each enemy unit he destroys restores 1 movement point to him."/>
+	<entry name="ChaosDaemons_MT/DarkGloryFlavor" value="As the enemy closes ranks, the lord picks the first warrior he will cut his way through."/>
 
 	<entry name="ChaosDaemons_MT/DelightfulAgonies" value="Delightful Agonies"/>
 	<entry name="ChaosDaemons_MT/DelightfulAgoniesDescription" value="Increase damage reduction and morale regeneration."/>
@@ -191,8 +191,8 @@
 	<entry name="ChaosDaemons_MT/WrathUndeniableDescription" value="Increase melee damage."/>
 	<entry name="ChaosDaemons_MT/WrathUndeniableFlavor" value="Even the banishing blow is often not enough to prevent the daemons of Khorne from lashing out to take bloody vengeance as they discorporate."/>
 	
-	<entry name="ChaosDaemons_MT/WreathedInShades" value="Wreathed in Shades"/>
-	<entry name="ChaosDaemons_MT/WreathedInShadesDescription" value="Increase accuracy and ranged damage reduction."/>
+	<entry name="ChaosDaemons_MT/WreathedInShades" value="Veil of the Damned"/>
+	<entry name="ChaosDaemons_MT/WreathedInShadesDescription" value="Allied Chaos Daemons on a veiled tile gain 17% accuracy and 17% ranged damage reduction."/>
 	<entry name="ChaosDaemons_MT/WreathedInShadesFlavor" value="The psyker draws from the warp a churning mass of damned shades, abandoned worshippers of Be’lakor now doomed to conceal and protect his current servants."/>
 	
 	<entry name="ChaosDaemons_MT/BoonOfChange/BoonOfChange" value="Boon of Change"/>

@@ -176,8 +176,8 @@
 				</selfTarget>
 			</beginTargets>
 		</sacrifice>
-		<createSmokeScreen cooldownMin="3"
-				cooldownMax="1"
+		<genericUnitAbility cooldownMin="5"
+				cooldownMax="3"
 				levelUpPriority="0.1"
 				name="ChaosDaemons_MT/WreathedInShades"
 				icon="Actions/ChaosSpaceMarines/InfernalPower"
@@ -191,21 +191,27 @@
 						sound="Actions/ChaosEliteBuff"/>
 			</model>			
 			<beginTargets>
-				<selfTarget>
+				<target rangeMax="2">
+					<conditions>
+						<unit>
+							<allied/>
+							<faction name="ChaosDaemons_MT"/>
+						</unit>
+					</conditions>
 					<areas>
 						<area affects="Tile" radius="1">
 							<modifiers>
 								<modifier>
 									<effects>
-										<addFeature duration="1" name="ChaosDaemons_MT/WreathedInShades"/>
+										<addFeature duration="2" name="ChaosDaemons_MT/WreathedInShades"/>
 									</effects>
 								</modifier>
 							</modifiers>
 						</area>
 					</areas>
-				</selfTarget>
+				</target>
 			</beginTargets>
-		</createSmokeScreen>
+		</genericUnitAbility>
 		<genericUnitAbility cooldownMin="5"
 				cooldownMax="1"
 				disableable="1"

@@ -48,9 +48,9 @@
 	<entry name="ChaosDaemons_MT/ContemptForSorcery" value="Презрение к колдовству"/>
 	<entry name="ChaosDaemons_MT/ContemptForSorceryDescription" value="Увеличивает снижение урона от колдовского огня."/>
 	<entry name="ChaosDaemons_MT/ContemptForSorceryFlavor" value="Ненависть к колдовству, исходящая от демонов Кхорна, может разрушить даже самые могущественные заклинания."/>
-	<entry name="ChaosDaemons_MT/DarkGlory" value="Темная слава"/>
-	<entry name="ChaosDaemons_MT/DarkGloryDescription" value="Убивает вражеский отряд, чтобы распространить свою тень хаоса."/>
-	<entry name="ChaosDaemons_MT/DarkGloryFlavor" value="<string name='Traits/ChaosSpaceMarines/DarkGloryFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/DarkGlory" value="Прорыв строя"/>
+	<entry name="ChaosDaemons_MT/DarkGloryDescription" value="Когда в радиусе 1 клетки есть хотя бы два врага, Лорд Хаоса наносит на 10/20/30% больше урона. За каждый уничтоженный им вражеский отряд он восстанавливает 1 очко передвижения."/>
+	<entry name="ChaosDaemons_MT/DarkGloryFlavor" value="Когда противник смыкает ряды, лорд выбирает, сквозь кого пройдёт первым."/>
 	<entry name="ChaosDaemons_MT/DelightfulAgonies" value="Восхитительные агонии"/>
 	<entry name="ChaosDaemons_MT/DelightfulAgoniesDescription" value="Увеличивает снижение урона и восстановление морального духа."/>
 	<entry name="ChaosDaemons_MT/DelightfulAgoniesFlavor" value="Манипулируя самой сущностью телесных проявлений своих союзников, демон превращает их физические боли в эйфорические стимулы, позволяя им продолжать сражаться, даже если их физическое 'я' разорвано в клочья."/>
@@ -137,8 +137,8 @@
 	<entry name="ChaosDaemons_MT/WrathUndeniable" value="Неоспоримый гнев"/>
 	<entry name="ChaosDaemons_MT/WrathUndeniableDescription" value="Увеличивает урон в ближнем бою."/>
 	<entry name="ChaosDaemons_MT/WrathUndeniableFlavor" value="Даже изгоняющего удара часто недостаточно, чтобы помешать демонам Кхорна наброситься и отомстить, когда они расчленяются."/>
-	<entry name="ChaosDaemons_MT/WreathedInShades" value="Окутанный тенями"/>
-	<entry name="ChaosDaemons_MT/WreathedInShadesDescription" value="Повышает точность и снижает дальний урон."/>
+	<entry name="ChaosDaemons_MT/WreathedInShades" value="Завеса проклятых"/>
+	<entry name="ChaosDaemons_MT/WreathedInShadesDescription" value="Союзные войска фракции Демонов Хаоса на клетке под завесой получают +17% к точности и +17% к снижению урона от дальних атак."/>
 	<entry name="ChaosDaemons_MT/WreathedInShadesFlavor" value="Псайкер черпает из варпа бурлящую массу проклятых теней, заброшенных поклонников Бе'лакора, теперь обреченных скрывать и защищать своих нынешних слуг."/>
 	<entry name="ChaosDaemons_MT/BoonOfChange/BoonOfChange" value="Дар перемен"/>
 	<entry name="ChaosDaemons_MT/BoonOfChange/BoonOfChangeDescription" value=""/>
