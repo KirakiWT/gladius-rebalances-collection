@@ -2,19 +2,19 @@
 <language>
 
 	<entry name="ChaosDaemons_MT/Bloodthirster" value="Bloodthirster"/>
-	<entry name="ChaosDaemons_MT/BloodthirsterDescription" value="Hero unit, greater daemon of Khorne."/>
+	<entry name="ChaosDaemons_MT/BloodthirsterDescription" value="Hero unit, greater daemon of Khorne. Upkeep per Greater Daemon is ×1/×5/×10/×15 for 1/2/3/4 or more allied Greater Daemons within 100 tiles, including itself."/>
 	<entry name="ChaosDaemons_MT/BloodthirsterFlavor" value="Bloodthirsters are supreme warriors, ferocious embodiments of the Blood God’s rage and murderlust. Commanders and champions of the Khornate daemon legions, Bloodthirsters are possessed of supreme martial skill. They wield baroque weapons of appalling power, and slaughter all in their paths."/>
 
 	<entry name="ChaosDaemons_MT/LordOfChange" value="Lord of Change"/>
-	<entry name="ChaosDaemons_MT/LordOfChangeDescription" value="Hero unit, greater daemon of Tzeentch."/>
+	<entry name="ChaosDaemons_MT/LordOfChangeDescription" value="Hero unit, greater daemon of Tzeentch. Upkeep per Greater Daemon is ×1/×5/×10/×15 for 1/2/3/4 or more allied Greater Daemons within 100 tiles, including itself."/>
 	<entry name="ChaosDaemons_MT/LordOfChangeFlavor" value="Greater Daemons of Tzeentch are infinitely cunning sorcerers and manipulators. Their malevolent gaze lays bare the souls of their victims and blasts the sanity of even the staunchest mortal, while their ensorcelled weapons and unholy magicks violently reshape reality itself into ever mutating forms."/>
 
 	<entry name="ChaosDaemons_MT/KeeperOfSecrets" value="Keeper of Secrets"/>
-	<entry name="ChaosDaemons_MT/KeeperOfSecretsDescription" value="Hero unit, greater daemon of Slaanesh."/>
+	<entry name="ChaosDaemons_MT/KeeperOfSecretsDescription" value="Hero unit, greater daemon of Slaanesh. Upkeep per Greater Daemon is ×1/×5/×10/×15 for 1/2/3/4 or more allied Greater Daemons within 100 tiles, including itself."/>
 	<entry name="ChaosDaemons_MT/KeeperOfSecretsFlavor" value="Darkly intelligent, horribly beguiling and deadly in battle, the Keepers of Secrets are the greatest champions of Slaaneshi daemon legions. Wielding unclean yet beautiful weapons and unleashing the sorcerous powers of obsession and torment, these daemons cut an elegantly hideous swathe across the battlefield."/>
 
 	<entry name="ChaosDaemons_MT/GreatUncleanOne" value="Great Unclean One"/>
-	<entry name="ChaosDaemons_MT/GreatUncleanOneDescription" value="Hero unit, greater daemon of Nurgle."/>
+	<entry name="ChaosDaemons_MT/GreatUncleanOneDescription" value="Hero unit, greater daemon of Nurgle. Upkeep per Greater Daemon is ×1/×5/×10/×15 for 1/2/3/4 or more allied Greater Daemons within 100 tiles, including itself."/>
 	<entry name="ChaosDaemons_MT/GreatUncleanOneFlavor" value="These Greater Daemons possess the same boundless energy and drive to corrupt as a swift spreading virus. Their booming voices roll across the battlefield, their cruel jollity and the perverse pride they take in their underlings’ achievements horribly at odds with the misery and disease they spread."/>
 	
 	<entry name="ChaosDaemons_MT/Bloodletter" value="Bloodletter"/>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
 	<entry name="ChaosDaemons_MT/Bloodthirster" value="Кровавый жаждущий"/>
-	<entry name="ChaosDaemons_MT/BloodthirsterDescription" value="Герой, великий демон Кхорна."/>
+	<entry name="ChaosDaemons_MT/BloodthirsterDescription" value="Герой, великий демон Кхорна. Считает союзных великих демонов в радиусе 100 клеток, включая себя. Содержание каждого: один — ×1, двое — ×5, трое — ×10, четверо и более — ×15."/>
 	<entry name="ChaosDaemons_MT/BloodthirsterFlavor" value="Кровавые жаждущие — высшие воины, свирепые воплощения гнева и жажды убийства Бога Крови. Командиры и чемпионы демонических легионов Кхорна, Кровавые жаждущие обладают высшим воинским мастерством. Они владеют причудливым оружием чудовищной силы и уничтожают всех на своем пути."/>
 	<entry name="ChaosDaemons_MT/LordOfChange" value="Владыка перемен"/>
-	<entry name="ChaosDaemons_MT/LordOfChangeDescription" value="Герой, великий демон Тзинча."/>
+	<entry name="ChaosDaemons_MT/LordOfChangeDescription" value="Герой, великий демон Тзинча. Считает союзных великих демонов в радиусе 100 клеток, включая себя. Содержание каждого: один — ×1, двое — ×5, трое — ×10, четверо и более — ×15."/>
 	<entry name="ChaosDaemons_MT/LordOfChangeFlavor" value="Великие демоны Тзинча — бесконечно хитрые колдуны и манипуляторы. Их злобный взгляд обнажает души жертв и разрушает рассудок даже самых стойких смертных, в то время как их зачарованное оружие и нечестивые магии жестоко перекраивают саму реальность в постоянно мутирующие формы."/>
 	<entry name="ChaosDaemons_MT/KeeperOfSecrets" value="Хранитель тайн"/>
-	<entry name="ChaosDaemons_MT/KeeperOfSecretsDescription" value="Герой, великий демон Слаанеш."/>
+	<entry name="ChaosDaemons_MT/KeeperOfSecretsDescription" value="Герой, великий демон Слаанеш. Считает союзных великих демонов в радиусе 100 клеток, включая себя. Содержание каждого: один — ×1, двое — ×5, трое — ×10, четверо и более — ×15."/>
 	<entry name="ChaosDaemons_MT/KeeperOfSecretsFlavor" value="Мрачно-разумные, ужасающе-обаятельные и смертоносные в бою, Хранители тайн — величайшие чемпионы демонических легионов Слаанеш. Владея нечистым, но прекрасным оружием и высвобождая колдовские силы одержимости и мук, эти демоны пробивают элегантно-отвратительную просеку через поле боя."/>
 	<entry name="ChaosDaemons_MT/GreatUncleanOne" value="Великий нечистый"/>
-	<entry name="ChaosDaemons_MT/GreatUncleanOneDescription" value="Герой, великий демон Нургла."/>
+	<entry name="ChaosDaemons_MT/GreatUncleanOneDescription" value="Герой, великий демон Нургла. Считает союзных великих демонов в радиусе 100 клеток, включая себя. Содержание каждого: один — ×1, двое — ×5, трое — ×10, четверо и более — ×15."/>
 	<entry name="ChaosDaemons_MT/GreatUncleanOneFlavor" value="Эти Великие демоны обладают той же безграничной энергией и стремлением развращать, что и быстро распространяющийся вирус. Их громовые голоса разносятся по полю боя, их жестокая веселость и извращенная гордость за достижения своих подчиненных ужасающе диссонируют с теми страданиями и болезнями, которые они распространяют."/>
 	<entry name="ChaosDaemons_MT/Bloodletter" value="Кровавый вестник"/>
 	<entry name="ChaosDaemons_MT/BloodletterDescription" value="Малый демон Кхорна."/>

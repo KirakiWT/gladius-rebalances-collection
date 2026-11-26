@@ -435,4 +435,6 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownTzeentchDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/TzeentchDescription'/> Allied Chaos Daemons gain at least 33% invulnerable damage reduction."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownTzeentchEnemy" value="Crown Territory — Tzeentch (oppression)"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownTzeentchEnemyDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/TzeentchEnemyDescription'/> Enemy psykers outside the Chaos Daemons faction lose 10% of maximum hit points each turn."/>
+	<entry name="ChaosDaemons_MT/DaemonicRivalry" value="Rivalry of Greater Daemons"/>
+	<entry name="ChaosDaemons_MT/DaemonicRivalryDescription" value="Each Greater Daemon counts itself and allied bearers of this trait within 100 tiles, including others of its own kind. One pays normal upkeep. With two, each pays 5 times its usual upkeep. With three, each pays 10 times upkeep, and with four or more, 15 times. Be’lakor does not count."/>
 </language>

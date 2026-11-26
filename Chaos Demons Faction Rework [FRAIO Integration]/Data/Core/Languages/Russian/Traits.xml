@@ -346,4 +346,6 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownTzeentchDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/TzeentchDescription'/> Союзные Демоны Хаоса получают не менее 33% непробиваемого снижения урона."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownTzeentchEnemy" value="Территория Короны — Тзинч (гнёт)"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownTzeentchEnemyDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/TzeentchEnemyDescription'/> Вражеские псайкеры других фракций теряют 10% максимального здоровья каждый ход."/>
+	<entry name="ChaosDaemons_MT/DaemonicRivalry" value="Соперничество великих демонов"/>
+	<entry name="ChaosDaemons_MT/DaemonicRivalryDescription" value="Каждый великий демон считает себя и других союзных носителей этой особенности в радиусе 100 клеток, включая демонов того же вида. Один платит обычное содержание. При двух каждый стоит в 5 раз дороже, при трёх — в 10 раз, при четырёх и более — в 15 раз. Бе’лакор не учитывается."/>
 </language>
