@@ -213,34 +213,11 @@
 				</selfTarget>
 			</beginTargets>
 		</orationOfRestoration>
-		<genericUnitAbility name="ChaosDaemons_MT/PlagueLegion"
-				icon="Units/ChaosDaemons_MT/GreatUncleanOne"
-				passive="1"
-				rank="-1"
-				elite="1"
-				levelUpPriority="1"
-				rankMax="0">
-			<beginTargets>
-				<selfTarget>
-					<areas>
-						<area affects="Tile" radius="5">
-							<modifiers>
-								<modifier visible="0">
-									<effects>
-										<addTrait name="ChaosDaemons_MT/PlagueLegion"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</selfTarget>
-			</beginTargets>
-		</genericUnitAbility>
 			<genericUnitAbility name="ChaosDaemons_MT/CreepingBlight"
 				passive="1"
 				icon="Actions/ChaosSpaceMarines/MarkOfNurgle"
 				rank="-1"
-				rankMax="0">
+				rankMax="2">
 			<perTurnProcessUseConditions>
 				<unit>
 					<trait name="ChaosDaemons_MT/Nurgle"/>
@@ -249,6 +226,20 @@
 			<beginTargets>
 				<selfTarget>
 					<areas>
+						<area affects="Unit" radius="1" excludeRadius="0">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<enemy/>
+										</unit>
+									</conditions>
+									<effects>
+										<weaponDamage weapon="ChaosDaemons_MT/TerritorySurge"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
 						<area affects="Tile" radius="1">
 							<modifiers>
 								<modifier visible="0">
@@ -274,6 +265,29 @@
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
 										<addFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle" duration="5"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<genericUnitAbility name="ChaosDaemons_MT/PlagueLegion"
+				icon="Units/ChaosDaemons_MT/GreatUncleanOne"
+				passive="1"
+				rank="-1"
+				elite="1"
+				levelUpPriority="1"
+				rankMax="0">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="5">
+							<modifiers>
+								<modifier visible="0">
+									<effects>
+										<addTrait name="ChaosDaemons_MT/PlagueLegion"/>
 									</effects>
 								</modifier>
 							</modifiers>

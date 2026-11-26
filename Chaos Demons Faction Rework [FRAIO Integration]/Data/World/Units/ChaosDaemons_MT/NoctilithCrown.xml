@@ -581,44 +581,6 @@
 						voiceSoundCount="3"/>
 			</model>
 		</die>
-		<genericUnitAbility name="ChaosDaemons_MT/LoathsomeAura"
-				icon="Actions/ChaosSpaceMarines/LoathsomeAura"
-				passive="1">
-			<beginTargets>
-				<selfTarget>
-					<areas>
-						<area affects="Tile" radius="1" excludeRadius="0">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addTrait name="ChaosDaemons_MT/LoathsomeAura"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</selfTarget>
-			</beginTargets>
-		</genericUnitAbility>
-		<genericUnitAbility name="ChaosDaemons_MT/MalevolentLocus"
-				icon="Actions/ChaosSpaceMarines/MalevolentLocus"
-				passive="1">
-			<beginTargets>
-				<selfTarget>
-					<areas>
-						<area affects="Tile" radius="3" excludeRadius="0">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addTrait name="ChaosDaemons_MT/MalevolentLocus"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</selfTarget>
-			</beginTargets>
-		</genericUnitAbility>
 		<quantumShielding name="ChaosDaemons_MT/WarpTerritory/StructureAuraKhorneRing1" icon="Actions/ChaosSpaceMarines/MalevolentLocus" passive="1" cooldown="1" requiredActionPoints="0" consumedActionPoints="0" requiredMovement="0" consumedMovement="0" useConditionsForVisiblity="1">
 			<conditions>
 				<unit>

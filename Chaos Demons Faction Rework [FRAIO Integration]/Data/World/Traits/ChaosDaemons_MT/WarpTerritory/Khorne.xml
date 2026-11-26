@@ -10,6 +10,7 @@
 				</unit>
 			</conditions>
 			<effects>
+				<damage mul="0.05"/>
 				<movementMax add="1"/>
 			</effects>
 		</modifier>

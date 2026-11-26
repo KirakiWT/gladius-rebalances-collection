@@ -298,16 +298,16 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/MantleOfShadowsDescription" value="Each turn, refreshes existing Warp Territory within 3 tiles to 5 turns."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/MantleOfShadowsFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpDetonation" value="Warp Detonation"/>
-	<entry name="ChaosDaemons_MT/WarpDetonationDescription" value="Free action. Stuns all units within 3 tiles for 1 turn, including friendly units, allies and vehicles. The caster is exempt. Creates Flux Territory in that radius for 5 turns, replacing other gods’ territories."/>
+	<entry name="ChaosDaemons_MT/WarpDetonationDescription" value="Free action. Stuns all units within 3 tiles for 1 turn, including friendly units, allies and vehicles. The caster is exempt. Creates Flux Territory in that radius for 5 turns, replacing other gods’ territories. Hits enemies in this radius for 1/2/3 base damage by rank."/>
 	<entry name="ChaosDaemons_MT/WarpDetonationFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/BloodTide" value="Blood Tide"/>
-	<entry name="ChaosDaemons_MT/BloodTideDescription" value="Create Blood Territory in 2 tiles and restore morale of allied Khorne servants. Replaces Warp Territory belonging to another god."/>
+	<entry name="ChaosDaemons_MT/BloodTideDescription" value="Create Blood Territory in 2 tiles and restore morale of allied Khorne servants. Replaces Warp Territory belonging to another god. Hits enemies in this radius for 1/2/3 base damage by rank."/>
 	<entry name="ChaosDaemons_MT/BloodTideFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/PavaneOfExcess" value="Pavane of Excess"/>
-	<entry name="ChaosDaemons_MT/PavaneOfExcessDescription" value="Create Excess Territory in 2 tiles and damage enemies there. Replaces Warp Territory belonging to another god."/>
+	<entry name="ChaosDaemons_MT/PavaneOfExcessDescription" value="Create Excess Territory in 2 tiles and damage enemies there. Replaces Warp Territory belonging to another god. Strike damage increases by 0/25/50% with rank."/>
 	<entry name="ChaosDaemons_MT/PavaneOfExcessFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/CreepingBlight" value="Creeping Blight"/>
-	<entry name="ChaosDaemons_MT/CreepingBlightDescription" value="Every turn spread Plague Territory to adjacent tiles. Replaces Warp Territory belonging to another god."/>
+	<entry name="ChaosDaemons_MT/CreepingBlightDescription" value="Every turn spread Plague Territory to adjacent tiles. Replaces Warp Territory belonging to another god. Hits enemies in this radius for 1/2/3 base damage by rank."/>
 	<entry name="ChaosDaemons_MT/CreepingBlightFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/BloodDuel" value="Blood Duel"/>
 	<entry name="ChaosDaemons_MT/BloodDuelDescription" value="Challenge an enemy within 2 tiles for 2-3 turns. It cannot move more than 1 tile, and it and the Bloodmaster deal 30% more damage to each other."/>

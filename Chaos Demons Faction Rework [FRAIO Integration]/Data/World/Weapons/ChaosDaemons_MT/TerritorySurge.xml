@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon icon="Traits/Blighted" attributesModifiedByUnit="0">
+	<modifiers>
+		<modifier>
+			<effects>
+				<attacks add="1"/>
+				<rangedAccuracy min="12"/>
+				<rangedDamage addMin="1" addMax="3"/>
+				<strengthDamage base="0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</weapon>

@@ -6,8 +6,8 @@
 		<effect blueprint="Effects/ChaosDaemons_MT/WarpTerritoryKhorne"/>
 	</model>
 	<traits>
-		<trait name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
-		<trait name="ChaosDaemons_MT/WarpTerritory/KhorneEnemy"/>
+		<trait name="ChaosDaemons_MT/WarpTerritory/CrownKhorne"/>
+		<trait name="ChaosDaemons_MT/WarpTerritory/CrownKhorneEnemy"/>
 		<trait name="ChaosDaemons_MT/WarpTerritory/KhorneRival"/>
 	</traits>
 </feature>

@@ -6,8 +6,8 @@
 		<effect blueprint="Effects/ChaosDaemons_MT/WarpTerritorySlaanesh"/>
 	</model>
 	<traits>
-		<trait name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
-		<trait name="ChaosDaemons_MT/WarpTerritory/SlaaneshEnemy"/>
+		<trait name="ChaosDaemons_MT/WarpTerritory/CrownSlaanesh"/>
+		<trait name="ChaosDaemons_MT/WarpTerritory/CrownSlaaneshEnemy"/>
 		<trait name="ChaosDaemons_MT/WarpTerritory/SlaaneshRival"/>
 	</traits>
 </feature>

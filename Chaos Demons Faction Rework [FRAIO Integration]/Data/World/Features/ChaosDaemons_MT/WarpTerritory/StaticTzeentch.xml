@@ -6,8 +6,8 @@
 		<effect blueprint="Effects/ChaosDaemons_MT/WarpTerritoryTzeentch"/>
 	</model>
 	<traits>
-		<trait name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
-		<trait name="ChaosDaemons_MT/WarpTerritory/TzeentchEnemy"/>
+		<trait name="ChaosDaemons_MT/WarpTerritory/CrownTzeentch"/>
+		<trait name="ChaosDaemons_MT/WarpTerritory/CrownTzeentchEnemy"/>
 		<trait name="ChaosDaemons_MT/WarpTerritory/TzeentchRival"/>
 	</traits>
 </feature>

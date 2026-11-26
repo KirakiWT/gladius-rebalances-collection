@@ -352,10 +352,10 @@
 	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="+20% damage. Upon researching this technology, all Tzeentch units gain 3 Research per Experience instead of Research per Kill Value."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/Khorne" value="Blood Territory — Favour"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneDescription" value="Allied Khorne servants: +1 movement. Technologies improve it: Shadow Pact, Corrupt Realspace (allies); Daemonic Terror (enemies)."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneDescription" value="Allied Khorne servants: +1 movement. Technologies improve it: Shadow Pact, Corrupt Realspace (allies); Daemonic Terror (enemies). Allied Khorne servants deal 5% more damage."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneEnemy" value="Blood Territory — Affliction"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneEnemyDescription" value="Enemies: increased morale loss and −17% melee damage reduction. Daemonic Terror deals damage each turn."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneEnemyDescription" value="Enemies: increased morale loss and −17% melee damage reduction. Daemonic Terror deals damage each turn. Enemies deal 5% more damage."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneEnemyFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneRival" value="Blood Territory — Rival's Ground"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneRivalDescription" value="Servants of the rival god lose morale each turn."/>
@@ -419,4 +419,20 @@
 	<entry name="ChaosDaemons_MT/Belakor/ShadowPact" value="Shadow Bargain"/>
 	<entry name="ChaosDaemons_MT/Belakor/ShadowPactDescription" value="Grants 10–20% ranged damage reduction depending on rank."/>
 	<entry name="ChaosDaemons_MT/Belakor/ShadowPactFlavor" value="Shadows serve those who know their price."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CrownKhorne" value="Crown Territory — Khorne (blessing)"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CrownKhorneDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/KhorneDescription'/> Allied Chaos Daemons gain at least 33% invulnerable damage reduction."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CrownKhorneEnemy" value="Crown Territory — Khorne (oppression)"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CrownKhorneEnemyDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/KhorneEnemyDescription'/> Enemy psykers outside the Chaos Daemons faction lose 10% of maximum hit points each turn."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CrownNurgle" value="Crown Territory — Nurgle (blessing)"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CrownNurgleDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/NurgleDescription'/> Allied Chaos Daemons gain at least 33% invulnerable damage reduction."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CrownNurgleEnemy" value="Crown Territory — Nurgle (oppression)"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CrownNurgleEnemyDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/NurgleEnemyDescription'/> Enemy psykers outside the Chaos Daemons faction lose 10% of maximum hit points each turn."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CrownSlaanesh" value="Crown Territory — Slaanesh (blessing)"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CrownSlaaneshDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/SlaaneshDescription'/> Allied Chaos Daemons gain at least 33% invulnerable damage reduction."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CrownSlaaneshEnemy" value="Crown Territory — Slaanesh (oppression)"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CrownSlaaneshEnemyDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/SlaaneshEnemyDescription'/> Enemy psykers outside the Chaos Daemons faction lose 10% of maximum hit points each turn."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CrownTzeentch" value="Crown Territory — Tzeentch (blessing)"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CrownTzeentchDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/TzeentchDescription'/> Allied Chaos Daemons gain at least 33% invulnerable damage reduction."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CrownTzeentchEnemy" value="Crown Territory — Tzeentch (oppression)"/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CrownTzeentchEnemyDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/TzeentchEnemyDescription'/> Enemy psykers outside the Chaos Daemons faction lose 10% of maximum hit points each turn."/>
 </language>

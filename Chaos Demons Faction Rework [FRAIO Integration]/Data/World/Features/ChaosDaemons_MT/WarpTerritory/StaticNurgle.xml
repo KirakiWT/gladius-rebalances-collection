@@ -6,8 +6,8 @@
 		<effect blueprint="Effects/ChaosDaemons_MT/WarpTerritoryNurgle"/>
 	</model>
 	<traits>
-		<trait name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
-		<trait name="ChaosDaemons_MT/WarpTerritory/NurgleEnemy"/>
+		<trait name="ChaosDaemons_MT/WarpTerritory/CrownNurgle"/>
+		<trait name="ChaosDaemons_MT/WarpTerritory/CrownNurgleEnemy"/>
 		<trait name="ChaosDaemons_MT/WarpTerritory/NurgleRival"/>
 	</traits>
 </feature>

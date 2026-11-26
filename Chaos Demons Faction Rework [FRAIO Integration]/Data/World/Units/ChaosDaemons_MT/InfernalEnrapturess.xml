@@ -208,7 +208,7 @@
 				name="ChaosDaemons_MT/CentreOfAttention"
 				icon="Actions/Eldar/MindWar"
 				rank="-1"
-				elite="0"
+				elite="1"
 				rankMax="0">
 			<model>
 				<action animation="Units/Reinforcements_MT/InfernalEnrapturess/Idle1"
