@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait visible="0">
+	<modifiers>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<unitsInRange count="1" range="100">
+						<allied/>
+						<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<foodUpkeep add="20"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<unitsInRange count="2" range="100">
+						<allied/>
+						<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<foodUpkeep add="25"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<unitsInRange count="3" range="100">
+						<allied/>
+						<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<foodUpkeep add="25"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<unitsInRange count="1" range="0">
+						<allied/>
+						<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
+					</unitsInRange>
+					<unitsInRange count="1" range="100">
+						<allied/>
+						<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<foodUpkeep add="-20"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<unitsInRange count="1" range="0">
+						<allied/>
+						<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
+					</unitsInRange>
+					<unitsInRange count="2" range="100">
+						<allied/>
+						<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<foodUpkeep add="-5"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<unitsInRange count="1" range="0">
+						<allied/>
+						<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
+					</unitsInRange>
+					<unitsInRange count="4" range="100">
+						<allied/>
+						<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<foodUpkeep add="25"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

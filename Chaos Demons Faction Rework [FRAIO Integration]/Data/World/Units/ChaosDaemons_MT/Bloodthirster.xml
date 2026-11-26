@@ -66,96 +66,6 @@
 			<effects>
 			</effects>
 		</modifier>	
-		<modifier visible="0">
-			<conditions>
-				<unit>
-					<unitsInRange count="1" range="100">
-						<allied/>
-						<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
-					</unitsInRange>
-				</unit>
-			</conditions>
-			<effects>
-				<oreUpkeep add="20"/>
-			</effects>
-		</modifier>
-		<modifier visible="0">
-			<conditions>
-				<unit>
-					<unitsInRange count="2" range="100">
-						<allied/>
-						<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
-					</unitsInRange>
-				</unit>
-			</conditions>
-			<effects>
-				<oreUpkeep add="25"/>
-			</effects>
-		</modifier>
-		<modifier visible="0">
-			<conditions>
-				<unit>
-					<unitsInRange count="3" range="100">
-						<allied/>
-						<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
-					</unitsInRange>
-				</unit>
-			</conditions>
-			<effects>
-				<oreUpkeep add="25"/>
-			</effects>
-		</modifier>
-		<modifier visible="0">
-			<conditions>
-				<unit>
-					<unitsInRange count="1" range="0">
-						<allied/>
-						<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
-					</unitsInRange>
-					<unitsInRange count="1" range="100">
-						<allied/>
-						<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
-					</unitsInRange>
-				</unit>
-			</conditions>
-			<effects>
-				<oreUpkeep add="-20"/>
-			</effects>
-		</modifier>
-		<modifier visible="0">
-			<conditions>
-				<unit>
-					<unitsInRange count="1" range="0">
-						<allied/>
-						<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
-					</unitsInRange>
-					<unitsInRange count="2" range="100">
-						<allied/>
-						<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
-					</unitsInRange>
-				</unit>
-			</conditions>
-			<effects>
-				<oreUpkeep add="-5"/>
-			</effects>
-		</modifier>
-		<modifier visible="0">
-			<conditions>
-				<unit>
-					<unitsInRange count="1" range="0">
-						<allied/>
-						<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
-					</unitsInRange>
-					<unitsInRange count="4" range="100">
-						<allied/>
-						<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
-					</unitsInRange>
-				</unit>
-			</conditions>
-			<effects>
-				<oreUpkeep add="25"/>
-			</effects>
-		</modifier>
 	</modifiers>
 	<strategyModifiers>
 		<modifier>
@@ -895,7 +805,24 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-</actions>
+		<genericUnitAbility name="ChaosDaemons_MT/DaemonicRivalry" passive="1" visible="0" icon="Units/ChaosDaemons_MT/Bloodthirster">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/DaemonicRivalry/Bloodthirster"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+	</actions>
 	<traits>
 		<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
 		<trait name="Daemon"/>
