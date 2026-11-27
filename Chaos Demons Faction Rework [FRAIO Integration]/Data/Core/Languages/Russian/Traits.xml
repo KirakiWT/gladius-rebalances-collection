@@ -228,7 +228,7 @@
 	<entry name="ChaosDaemons_MT/Locus/LocusOfUnnaturalSwiftnessDescription" value="Повышает точность после перемещения."/>
 	<entry name="ChaosDaemons_MT/Locus/LocusOfUnnaturalSwiftnessFlavor" value="Демоны Слаанеша танцуют на поле боя с грацией и скоростью, которые не поддаются вере. Их навязчивое желание сблизиться со своими смертными игрушками заставляет реальность уступать им, позволяя демонам скакать прямо в бой с криками дикого восторга."/>
 	<entry name="ChaosDaemons_MT/Locus/LocusOfUnstoppableFury" value="Локус неудержимой ярости"/>
-	<entry name="ChaosDaemons_MT/Locus/LocusOfUnstoppableFuryDescription" value="Оружие ближнего боя поражает дополнительные цели."/>
+	<entry name="ChaosDaemons_MT/Locus/LocusOfUnstoppableFuryDescription" value="Оружие ближнего боя отрядов Кхорна получает +50% к числу атак против врагов, у которых осталось больше 50% максимального здоровья."/>
 	<entry name="ChaosDaemons_MT/Locus/LocusOfUnstoppableFuryFlavor" value="Этот демон — источник сверхъестественной ярости, ревущий берсерк, одно лишь присутствие которого катализирует его подчиненных на новые высоты апоплексической дикости и сокрушительного насилия."/>
 	<entry name="ChaosDaemons_MT/SmokeScreen/Khorne" value="Дымовая завеса: Кхорн"/>
 	<entry name="ChaosDaemons_MT/SmokeScreen/KhorneDescription" value="Увеличивает урон."/>

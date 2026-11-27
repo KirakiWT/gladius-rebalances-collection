@@ -6,9 +6,15 @@
 				<weapon>
 					<trait name="Melee"/>
 				</weapon>
+				<encounter>
+					<opponent>
+						<enemy/>
+						<hitpointsFraction greater="0.5"/>
+					</opponent>
+				</encounter>
 			</conditions>
 			<effects>
-				<additionalMembersHit add="1"/>
+				<attacks mul="0.5"/>
 			</effects>
 		</modifier>
 	</modifiers>

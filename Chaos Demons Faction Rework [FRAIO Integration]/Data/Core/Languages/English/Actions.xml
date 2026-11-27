@@ -230,7 +230,7 @@
 	<entry name="ChaosDaemons_MT/WarpRiftFlavor" value="<string name='Units/ChaosDaemons_MT/WarpRiftFlavor'/>"/>
 	
 	<entry name="ChaosDaemons_MT/LocusOfUnstoppableFury" value="<string name='Traits/ChaosDaemons_MT/Locus/LocusOfUnstoppableFury'/>"/>
-	<entry name="ChaosDaemons_MT/LocusOfUnstoppableFuryDescription" value="Melee weapons of Khorne units hit additional targets."/>
+	<entry name="ChaosDaemons_MT/LocusOfUnstoppableFuryDescription" value="Khorne units make 50% more melee attacks against enemies above 50% of their maximum hit points."/>
 	<entry name="ChaosDaemons_MT/LocusOfUnstoppableFuryFlavor" value="<string name='Traits/ChaosDaemons_MT/Locus/LocusOfUnstoppableFuryFlavor'/>"/>
 	
 	<entry name="ChaosDaemons_MT/LocusOfDiabolicalPurpose" value="<string name='Traits/ChaosDaemons_MT/Locus/LocusOfDiabolicalPurpose'/>"/>

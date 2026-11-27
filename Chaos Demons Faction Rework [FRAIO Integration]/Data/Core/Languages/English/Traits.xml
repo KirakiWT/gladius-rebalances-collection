@@ -312,7 +312,7 @@
 	<entry name="ChaosDaemons_MT/Locus/LocusOfUnnaturalSwiftnessFlavor" value="Slaaneshi daemons dance across the battlefield with a grace and speed that defies belief. Their obsessive desire to close with their mortal playthings causes the stuff of reality to yield before them, allowing the daemons to cavort directly into battle with shrieks of wild delight."/>
 	
 	<entry name="ChaosDaemons_MT/Locus/LocusOfUnstoppableFury" value="Locus of Unstoppable Fury"/>
-	<entry name="ChaosDaemons_MT/Locus/LocusOfUnstoppableFuryDescription" value="Melee weapons hit additional targets."/>
+	<entry name="ChaosDaemons_MT/Locus/LocusOfUnstoppableFuryDescription" value="Khorne units make 50% more melee attacks against enemies above 50% of their maximum hit points."/>
 	<entry name="ChaosDaemons_MT/Locus/LocusOfUnstoppableFuryFlavor" value="This daemon is a wellspring of supernatural rage, a bellowing berserker whose mere presence catalyses its underlings to new heights of apoplectic savagery and crunching violence."/>
 	
 	<entry name="ChaosDaemons_MT/SmokeScreen/Khorne" value="Smoke Screen: Khorne"/>

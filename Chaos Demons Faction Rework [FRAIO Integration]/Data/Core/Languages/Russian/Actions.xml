@@ -166,7 +166,7 @@
 	<entry name="ChaosDaemons_MT/WarpRiftDescription" value="Открывает варп-портал на выбранной клетке для перемещения демонов."/>
 	<entry name="ChaosDaemons_MT/WarpRiftFlavor" value="<string name='Units/ChaosDaemons_MT/WarpRiftFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/LocusOfUnstoppableFury" value="<string name='Traits/ChaosDaemons_MT/Locus/LocusOfUnstoppableFury'/>"/>
-	<entry name="ChaosDaemons_MT/LocusOfUnstoppableFuryDescription" value="Оружие ближнего боя отрядов Кхорна поражает дополнительные цели."/>
+	<entry name="ChaosDaemons_MT/LocusOfUnstoppableFuryDescription" value="Оружие ближнего боя отрядов Кхорна получает +50% к числу атак против врагов, у которых осталось больше 50% максимального здоровья."/>
 	<entry name="ChaosDaemons_MT/LocusOfUnstoppableFuryFlavor" value="<string name='Traits/ChaosDaemons_MT/Locus/LocusOfUnstoppableFuryFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/LocusOfDiabolicalPurpose" value="<string name='Traits/ChaosDaemons_MT/Locus/LocusOfDiabolicalPurpose'/>"/>
 	<entry name="ChaosDaemons_MT/LocusOfDiabolicalPurposeDescription" value="Оружие ближнего боя отрядов Кхорна получает вампиризм."/>
