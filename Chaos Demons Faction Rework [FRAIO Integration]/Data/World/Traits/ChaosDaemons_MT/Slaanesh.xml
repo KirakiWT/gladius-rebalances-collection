@@ -5,6 +5,7 @@
 			<effects>
 				<hitpointsMax mul="-0.25"/>
 				<movementMax add="1"/>
+				<damage mul="0.25"/>
 			</effects>
 		</modifier>
 	</modifiers>

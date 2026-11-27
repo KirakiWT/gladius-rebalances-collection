@@ -157,7 +157,7 @@
 	<entry name="ChaosDaemons_MT/KhorneDescription" value="Посвящает отряд служению Кхорну."/>
 	<entry name="ChaosDaemons_MT/KhorneFlavor" value="<string name='Traits/ChaosDaemons_MT/KhorneFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/Slaanesh" value="<string name='Traits/ChaosDaemons_MT/Slaanesh'/>"/>
-	<entry name="ChaosDaemons_MT/SlaaneshDescription" value="Посвящает отряд служению Слаанеш."/>
+	<entry name="ChaosDaemons_MT/SlaaneshDescription" value="Посвящает отряд служению Слаанеш. Метка даёт +25% урона, а «Предвестник похоти» добавляет ещё +25% против врагов со здоровьем ниже 75%."/>
 	<entry name="ChaosDaemons_MT/SlaaneshFlavor" value="<string name='Traits/ChaosDaemons_MT/SlaaneshFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/Tzeentch" value="<string name='Traits/ChaosDaemons_MT/Tzeentch'/>"/>
 	<entry name="ChaosDaemons_MT/TzeentchDescription" value="Посвящает отряд служению Тзинчу."/>

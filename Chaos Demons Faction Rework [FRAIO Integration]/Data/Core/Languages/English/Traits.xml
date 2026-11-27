@@ -164,7 +164,7 @@
 	<entry name="ChaosDaemons_MT/ShrivellingPoxFlavor" value="Muttering an unholy chant in a blighted tongue, the daemon calls down a foul malignancy that races through the enemies’ ranks like wildfire and chews away at their flesh and organs like a tide of ravenous maggots."/>
 	
 	<entry name="ChaosDaemons_MT/Slaanesh" value="Servant of Slaanesh"/>
-	<entry name="ChaosDaemons_MT/SlaaneshDescription" value="+1 movement and −25% maximum hit points."/>
+	<entry name="ChaosDaemons_MT/SlaaneshDescription" value="+25% damage, +1 movement and −25% maximum hit points."/>
 	<entry name="ChaosDaemons_MT/SlaaneshFlavor" value="The thrill of battle drives these warriors to charge at spectacular speed."/>
 	
 	<entry name="ChaosDaemons_MT/SoulGlutton" value="Soul Glutton"/>
@@ -328,7 +328,7 @@
 	<entry name="ChaosDaemons_MT/SmokeScreen/TzeentchDescription" value="Increase ranged damage reduction."/>
 	
 	<entry name="ChaosDaemons_MT/HarbringerOfLust" value="Harbinger of Lust"/>
-	<entry name="ChaosDaemons_MT/HarbringerOfLustDescription" value="A servant of Slaanesh deals 50% more damage against an enemy below half its maximum hit points."/>
+	<entry name="ChaosDaemons_MT/HarbringerOfLustDescription" value="A servant of Slaanesh gains an additional +25% damage against an enemy below 75% of its maximum hit points."/>
 	<entry name="ChaosDaemons_MT/HarbringerOfLustFlavor" value="The devotees of Slaanesh strike where their prey is weakest."/>
 	<entry name="ChaosDaemons_MT/WarbandDiscipline" value="Warband Discipline"/>
 	<entry name="ChaosDaemons_MT/WarbandDisciplineDescription" value="Increases hitpoints by 10% and accuracy by 5%."/>
