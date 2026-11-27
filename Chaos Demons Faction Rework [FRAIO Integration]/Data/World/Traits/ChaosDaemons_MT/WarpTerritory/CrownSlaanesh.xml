@@ -6,19 +6,9 @@
 				<unit>
 					<allied/>
 					<noTrait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
-					<trait name="ChaosDaemons_MT/Slaanesh"/>
 				</unit>
-			</conditions>
-			<effects>
-				<meleeDamageReduction add="0.17"/>
-				<damage mul="0.10"/>
-			</effects>
-		</modifier>
-		<modifier>
-			<conditions>
-				<unit>
-					<allied/>
-					<noTrait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
+				<unit match="Any">
+					<trait name="ChaosDaemons_MT/Slaanesh"/>
 					<type name="ChaosDaemons_MT/Belakor"/>
 				</unit>
 			</conditions>
