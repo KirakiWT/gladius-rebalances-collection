@@ -4,12 +4,14 @@
 		<modifier>
 			<conditions>
 				<player match="Any">
-					<upgrade name="ChaosDaemons_MT/LocusOfUnnaturalSwiftness"/>
-					<upgrade name="ChaosDaemons_MT/RiteOfPestilence"/>
-					<upgrade name="ChaosDaemons_MT/BoltDamage"/>
 					<upgrade name="ChaosDaemons_MT/Bloodcrusher"/>
-					<upgrade name="ChaosDaemons_MT/Skullcannon"/>
+					<upgrade name="ChaosDaemons_MT/BoltDamage"/>
+					<upgrade name="ChaosDaemons_MT/CityTier2"/>
 					<upgrade name="ChaosDaemons_MT/Construction"/>
+					<upgrade name="ChaosDaemons_MT/LocusOfUnnaturalSwiftness"/>
+					<upgrade name="ChaosDaemons_MT/NoctilithCrown"/>
+					<upgrade name="ChaosDaemons_MT/RiteOfPestilence"/>
+					<upgrade name="ChaosDaemons_MT/Skullcannon"/>
 				</player>
 			</conditions>
 			<effects>

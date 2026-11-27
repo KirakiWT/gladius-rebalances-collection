@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building icon="Buildings/ChaosSpaceMarines/AdvancedInfantry">
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<productionCost base="48"/>
+				<oreCost base="80"/>
+				<populationRequired base="2"/>
+				<slotsRequired base="2"/>
+				<energyUpkeep add="4"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<effects>
+				<food add="4"/>
+				<ore add="2"/>
+				<influence add="2"/>
+				<production add="12"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<productionModifiers>
+		<modifier>
+			<effects>
+				
+			</effects>
+		</modifier>
+	</productionModifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseVehiclesProductionScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<produceUnit unit="ChaosDaemons_MT/WarpTalon"/>
+		<produceUnit unit="ChaosDaemons_MT/ChaosTerminator" requiredUpgrade="ChaosDaemons_MT/ChaosTerminator"/>
+		<produceUnit unit="ChaosDaemons_MT/Obliterator" requiredUpgrade="ChaosDaemons_MT/Obliterator"/>
+	</actions>
+</building>

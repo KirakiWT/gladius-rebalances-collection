@@ -11,6 +11,8 @@
 					<type name="ChaosDaemons_MT/Tzeentch"/>
 					<type name="ChaosDaemons_MT/Slaanesh"/>
 					<type name="ChaosDaemons_MT/Vehicles"/>
+					<type name="ChaosDaemons_MT/AdvancedVehicles"/>
+					<type name="ChaosDaemons_MT/AdvancedInfantry"/>
 				</building>
 			</conditions>
 			<effects>

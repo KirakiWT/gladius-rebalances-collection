@@ -55,6 +55,7 @@
 					<conditions>
 						<unit>
 							<affiliate/>
+							<noType name="ChaosDaemons_MT/Belakor"/>
 							<faction name="ChaosDaemons_MT"/>
 							<noTrait name="ChaosDaemons_MT/GreaterDaemon"/>
 							<noTrait name="ChaosDaemons_MT/Nurgle"/>
@@ -87,6 +88,7 @@
 					<conditions>
 						<unit>
 							<affiliate/>
+							<noType name="ChaosDaemons_MT/Belakor"/>
 							<faction name="ChaosDaemons_MT"/>
 							<noTrait name="ChaosDaemons_MT/GreaterDaemon"/>
 							<noTrait name="ChaosDaemons_MT/Khorne"/>
@@ -118,6 +120,7 @@
 					<conditions>
 						<unit>
 							<affiliate/>
+							<noType name="ChaosDaemons_MT/Belakor"/>
 							<faction name="ChaosDaemons_MT"/>
 							<noTrait name="ChaosDaemons_MT/GreaterDaemon"/>
 							<noTrait name="ChaosDaemons_MT/Slaanesh"/>
@@ -150,6 +153,7 @@
 					<conditions>
 						<unit>
 							<affiliate/>
+							<noType name="ChaosDaemons_MT/Belakor"/>
 							<faction name="ChaosDaemons_MT"/>
 							<noTrait name="ChaosDaemons_MT/GreaterDaemon"/>
 							<noTrait name="ChaosDaemons_MT/Tzeentch"/>

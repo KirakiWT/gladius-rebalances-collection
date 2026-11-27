@@ -10,7 +10,7 @@
 			<effects>
 				<damage mul="0.05"/>
 				<moraleLossFactor add="0.17"/>
-				<meleeDamageReduction add="-0.17"/>
+				<attacks mul="-0.10"/>
 			</effects>
 		</modifier>
 	</modifiers>

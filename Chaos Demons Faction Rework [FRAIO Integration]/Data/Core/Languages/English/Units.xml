@@ -141,9 +141,8 @@
 	<entry name="ChaosDaemons_MT/WarDogStalkerDescription" value="Melee specialised walker unit."/>
 	<entry name="ChaosDaemons_MT/WarDogStalkerFlavor" value="Only the most strong-willed of minor nobility have the mental fortitude to pilot a Stalker. Like pack alphas, they often lead other War Dogs in carefully planned attacks, harrying the foe’s flanks, butchering reinforcements and hunting down lone threats. They unleash salvoes of fire at range or in the heart of combat with deadly claw strikes."/>
 
-	<entry name="ChaosDaemons_MT/KnightDesecrator" value="Knight Desecrator"/>
-	<entry name="ChaosDaemons_MT/KnightDesecratorDescription" value="Super-heavy walker unit with an endless array of deadly weapons."/>
-	<entry name="ChaosDaemons_MT/KnightDesecratorFlavor" value="Knights Desecrator spare no living thing from their attacks. They possess potent mid- to close-range armaments capable of duelling enemy war engines and monstrous beasts, or annihilating hordes of lesser foes. They are also cruel taskmasters, snarling commands to War Dog followers that lope forwards at their sides."/>
+
+
 
 	<entry name="ChaosDaemons_MT/Havoc" value="<string name='Units/ChaosSpaceMarines/Havoc'/>"/>
 	<entry name="ChaosDaemons_MT/HavocDescription" value="<string name='Units/ChaosSpaceMarines/HavocDescription'/>"/>
@@ -203,4 +202,19 @@
 	<entry name="ChaosDaemons_MT/NoctilithCrown" value="<string name='Units/ChaosSpaceMarines/NoctilithCrown'/>"/>
 	<entry name="ChaosDaemons_MT/NoctilithCrownDescription" value="<string name='Units/ChaosSpaceMarines/NoctilithCrownDescription'/>"/>
 	<entry name="ChaosDaemons_MT/NoctilithCrownFlavor" value="<string name='Units/ChaosSpaceMarines/NoctilithCrownFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/ChaosRhino" value="<string name='Units/ChaosSpaceMarines/ChaosRhino'/>"/>
+	<entry name="ChaosDaemons_MT/ChaosRhinoDescription" value="<string name='Units/ChaosSpaceMarines/ChaosRhinoDescription'/>"/>
+	<entry name="ChaosDaemons_MT/ChaosRhinoFlavor" value="<string name='Units/ChaosSpaceMarines/ChaosRhinoFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/DarkDisciple" value="<string name='Units/ChaosSpaceMarines/DarkDisciple'/>"/>
+	<entry name="ChaosDaemons_MT/DarkDiscipleDescription" value="<string name='Units/ChaosSpaceMarines/DarkDiscipleDescription'/>"/>
+	<entry name="ChaosDaemons_MT/DarkDiscipleFlavor" value="<string name='Units/ChaosSpaceMarines/DarkDiscipleFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/ExaltedPoxwalker" value="<string name='Units/ChaosSpaceMarines/ExaltedPoxwalker'/>"/>
+	<entry name="ChaosDaemons_MT/ExaltedPoxwalkerDescription" value="<string name='Units/ChaosSpaceMarines/ExaltedPoxwalkerDescription'/>"/>
+	<entry name="ChaosDaemons_MT/ExaltedPoxwalkerFlavor" value="<string name='Units/ChaosSpaceMarines/ExaltedPoxwalkerFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/ChaosTerminator" value="<string name='Units/ChaosSpaceMarines/ChaosTerminator'/>"/>
+	<entry name="ChaosDaemons_MT/ChaosTerminatorDescription" value="<string name='Units/ChaosSpaceMarines/ChaosTerminatorDescription'/>"/>
+	<entry name="ChaosDaemons_MT/ChaosTerminatorFlavor" value="<string name='Units/ChaosSpaceMarines/ChaosTerminatorFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/Warpsmith" value="<string name='Units/ChaosSpaceMarines/Warpsmith'/>"/>
+	<entry name="ChaosDaemons_MT/WarpsmithDescription" value="<string name='Units/ChaosSpaceMarines/WarpsmithDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpsmithFlavor" value="<string name='Units/ChaosSpaceMarines/WarpsmithFlavor'/>"/>
 </language>

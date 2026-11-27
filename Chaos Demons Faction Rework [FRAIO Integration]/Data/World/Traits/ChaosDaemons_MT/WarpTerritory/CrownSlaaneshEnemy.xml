@@ -9,7 +9,7 @@
 			</conditions>
 			<effects>
 				<movementMax add="-1"/>
-				<attacks mul="-0.10"/>
+				<damage mul="-0.10"/>
 			</effects>
 		</modifier>
 	</modifiers>

@@ -10,19 +10,21 @@
 				</unit>
 			</conditions>
 			<effects>
-				<hitpointsMax mul="0.10"/>
+				<armor add="1"/>
 				<healingRate add="0.1"/>
 			</effects>
 		</modifier>
-		<modifier requiredUpgrade="ChaosDaemons_MT/ShadowPact">
+		<modifier>
 			<conditions>
 				<unit>
 					<allied/>
 					<noTrait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
+					<type name="ChaosDaemons_MT/Belakor"/>
 				</unit>
 			</conditions>
 			<effects>
-				<moraleLossFactor add="-0.17"/>
+				<armor add="1"/>
+				<healingRate add="0.1"/>
 			</effects>
 		</modifier>
 		<modifier requiredUpgrade="ChaosDaemons_MT/CorruptRealspace">

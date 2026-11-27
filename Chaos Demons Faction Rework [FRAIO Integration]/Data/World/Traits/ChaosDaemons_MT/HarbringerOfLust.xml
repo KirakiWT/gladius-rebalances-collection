@@ -3,8 +3,10 @@
 	<modifiers>
 		<modifier>
 			<conditions>
+				<unit><trait name="ChaosDaemons_MT/Slaanesh"/></unit>
 				<encounter>
-					<opponent match="Any">
+					<opponent>
+						<enemy/>
 						<hitpointsFraction less="0.5"/>
 					</opponent>
 				</encounter>

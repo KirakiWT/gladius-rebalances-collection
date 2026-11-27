@@ -1,56 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh" category="Buff">
+<trait category="Buff" icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh">
 	<modifiers>
 		<modifier>
-			<conditions>
-				<unit>
-					<noTrait name="Vehicle"/>
-				</unit>
-			</conditions>
 			<effects>
 				<hitpointsMax mul="-0.25"/>
 				<movementMax add="1"/>
 			</effects>
 		</modifier>
-		<modifier>
-			<effects>
-				<consumedMovement max="0"/>
-				<influencePerKillValue add="2"/>
-			</effects>
-		</modifier>
-		<modifier visible="0" requiredUpgrade="ChaosDaemons_MT/SlaaneshAscension2">
-			<effects>
-				<influencePerKillValue max="0"/>
-				<influencePerExperience add="3"/>
-			</effects>
-		</modifier>
-		<modifier>
-			<conditions>
-				<unit>
-					<unitsInRange count="1" range="2">
-						<allied/>
-						<trait name="ChaosDaemons_MT/Nurgle"/>
-					</unitsInRange>
-				</unit>
-			</conditions>
-			<effects>
-				<moraleLossFactor add="0.33"/>
-			</effects>
-		</modifier>
 	</modifiers>
-	<perTurnModifiers endure="0">
-		<modifier>
-			<conditions>
-				<unit>
-					<unitsInRange count="1" range="2">
-						<allied/>
-						<trait name="ChaosDaemons_MT/Nurgle"/>
-					</unitsInRange>
-				</unit>
-			</conditions>
-			<effects>
-				<morale add="-2"/>
-			</effects>
-		</modifier>
-	</perTurnModifiers>
 </trait>

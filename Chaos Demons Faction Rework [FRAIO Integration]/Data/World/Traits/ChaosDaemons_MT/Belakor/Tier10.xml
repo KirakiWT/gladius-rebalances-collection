@@ -4,9 +4,10 @@
 		<modifier>
 			<conditions>
 				<player match="Any">
-					<upgrade name="ChaosDaemons_MT/RiteOfUnholyPleasure"/>
 					<upgrade name="ChaosDaemons_MT/LasDamage"/>
 					<upgrade name="ChaosDaemons_MT/LocusOfDamnation"/>
+					<upgrade name="ChaosDaemons_MT/LordOfSkulls"/>
+					<upgrade name="ChaosDaemons_MT/RiteOfUnholyPleasure"/>
 				</player>
 			</conditions>
 			<effects>

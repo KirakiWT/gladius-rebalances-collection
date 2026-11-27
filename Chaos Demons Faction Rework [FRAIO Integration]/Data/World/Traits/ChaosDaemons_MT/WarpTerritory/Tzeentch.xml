@@ -14,15 +14,17 @@
 				<rangedAccuracy mul="0.10"/>
 			</effects>
 		</modifier>
-		<modifier requiredUpgrade="ChaosDaemons_MT/ShadowPact">
+		<modifier>
 			<conditions>
 				<unit>
 					<allied/>
 					<noTrait name="ChaosDaemons_MT/WarpTerritory/MarkedStructure"/>
+					<type name="ChaosDaemons_MT/Belakor"/>
 				</unit>
 			</conditions>
 			<effects>
-				<moraleLossFactor add="-0.17"/>
+				<rangedDamageReduction add="0.17"/>
+				<rangedAccuracy mul="0.10"/>
 			</effects>
 		</modifier>
 		<modifier requiredUpgrade="ChaosDaemons_MT/CorruptRealspace">

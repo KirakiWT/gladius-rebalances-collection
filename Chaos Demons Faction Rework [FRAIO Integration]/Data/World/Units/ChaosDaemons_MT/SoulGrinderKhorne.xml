@@ -230,7 +230,7 @@
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
-										<addFeature name="ChaosDaemons_MT/WarpTerritory/Khorne" duration="5"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/Khorne" duration="3"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -292,7 +292,7 @@
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
-										<addFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch" duration="5"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch" duration="3"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -354,7 +354,7 @@
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
-										<addFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh" duration="5"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh" duration="3"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -416,7 +416,7 @@
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
 										<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
-										<addFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle" duration="5"/>
+										<addFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle" duration="3"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -434,6 +434,14 @@
 			<model>
 				<action sound="Actions/PsychicBuff"/>
 			</model>
+			<modifiers>
+				<modifier><effects>
+					<foodCost base="1"/>
+					<oreCost base="1"/>
+					<energyCost base="1"/>
+					<influenceCost base="1"/>
+				</effects></modifier>
+			</modifiers>
 			<beginTargets>
 				<selfTarget>
 					<areas>
@@ -457,7 +465,7 @@
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityTzeentch"/>
 										</tile>
 									</conditions>
-									<effects><addFeature name="ChaosDaemons_MT/WarpTerritory/Khorne" duration="5"/></effects>
+									<effects><addFeature name="ChaosDaemons_MT/WarpTerritory/Khorne" duration="3"/></effects>
 								</modifier>
 								<modifier visible="0">
 									<conditions>
@@ -477,7 +485,7 @@
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityTzeentch"/>
 										</tile>
 									</conditions>
-									<effects><addFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch" duration="5"/></effects>
+									<effects><addFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch" duration="3"/></effects>
 								</modifier>
 								<modifier visible="0">
 									<conditions>
@@ -497,7 +505,7 @@
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityTzeentch"/>
 										</tile>
 									</conditions>
-									<effects><addFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh" duration="5"/></effects>
+									<effects><addFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh" duration="3"/></effects>
 								</modifier>
 								<modifier visible="0">
 									<conditions>
@@ -517,7 +525,7 @@
 											<noFeature name="ChaosDaemons_MT/WarpTerritory/CityTzeentch"/>
 										</tile>
 									</conditions>
-									<effects><addFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle" duration="5"/></effects>
+									<effects><addFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle" duration="3"/></effects>
 								</modifier>
 							</modifiers>
 						</area>

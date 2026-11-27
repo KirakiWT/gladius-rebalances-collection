@@ -64,9 +64,8 @@
 	<entry name="ChaosDaemons_MT/BurningChariotDescription" value="<string name='Units/ChaosDaemons_MT/BurningChariotDescription'/>"/>
 	<entry name="ChaosDaemons_MT/BurningChariotFlavor" value="<string name='Units/ChaosDaemons_MT/BurningChariotFlavor'/>"/>
 
-	<entry name="ChaosDaemons_MT/ChaosLord" value="<string name='Units/ChaosDaemons_MT/ChaosLord'/>"/>
-	<entry name="ChaosDaemons_MT/ChaosLordDescription" value="<string name='Units/ChaosDaemons_MT/ChaosLordDescription'/>"/>
-	<entry name="ChaosDaemons_MT/ChaosLordFlavor" value="<string name='Units/ChaosDaemons_MT/ChaosLordFlavor'/>"/>
+
+
 
 	<entry name="ChaosDaemons_MT/ChaosSpaceMarine" value="<string name='Units/ChaosDaemons_MT/ChaosSpaceMarine'/>"/>
 	<entry name="ChaosDaemons_MT/ChaosSpaceMarineDescription" value="<string name='Units/ChaosDaemons_MT/ChaosSpaceMarineDescription'/>"/>
@@ -92,9 +91,8 @@
 	<entry name="ChaosDaemons_MT/KeeperOfSecretsDescription" value="<string name='Units/ChaosDaemons_MT/KeeperOfSecretsDescription'/>"/>
 	<entry name="ChaosDaemons_MT/KeeperOfSecretsFlavor" value="<string name='Units/ChaosDaemons_MT/KeeperOfSecretsFlavor'/>"/>
 
-	<entry name="ChaosDaemons_MT/KnightDesecrator" value="<string name='Units/ChaosDaemons_MT/KnightDesecrator'/>"/>
-	<entry name="ChaosDaemons_MT/KnightDesecratorDescription" value="<string name='Units/ChaosDaemons_MT/KnightDesecratorDescription'/>"/>
-	<entry name="ChaosDaemons_MT/KnightDesecratorFlavor" value="<string name='Units/ChaosDaemons_MT/KnightDesecratorFlavor'/>"/>
+
+
 
 	<entry name="ChaosDaemons_MT/LandRaider" value="<string name='Units/ChaosDaemons_MT/LandRaider'/>"/>
 	<entry name="ChaosDaemons_MT/LandRaiderDescription" value="<string name='Units/ChaosDaemons_MT/LandRaiderDescription'/>"/>
@@ -136,9 +134,8 @@
 	<entry name="ChaosDaemons_MT/WarDogStalkerDescription" value="<string name='Units/ChaosDaemons_MT/WarDogStalkerDescription'/>"/>
 	<entry name="ChaosDaemons_MT/WarDogStalkerFlavor" value="<string name='Units/ChaosDaemons_MT/WarDogStalkerFlavor'/>"/>
 
-	<entry name="ChaosDaemons_MT/WarpTalon" value="<string name='Units/ChaosDaemons_MT/WarpTalon'/>"/>
-	<entry name="ChaosDaemons_MT/WarpTalonDescription" value="<string name='Units/ChaosDaemons_MT/WarpTalonDescription'/>"/>
-	<entry name="ChaosDaemons_MT/WarpTalonFlavor" value="<string name='Units/ChaosDaemons_MT/WarpTalonFlavor'/>"/>
+
+
 
 	<entry name="ChaosDaemons_MT/BlastDamage" value="<string name='Upgrades/ChaosSpaceMarines/BlastDamage'/>"/>
 	<entry name="ChaosDaemons_MT/BlastDamageDescription" value="<string name='Upgrades/ChaosSpaceMarines/BlastDamageDescription'/>"/>
@@ -165,7 +162,7 @@
 	<entry name="ChaosDaemons_MT/ExtraVehicleArmourFlavor" value="<string name='Upgrades/ChaosSpaceMarines/ExtraVehicleArmourFlavor'/>"/>
 
 	<entry name="ChaosDaemons_MT/HammerOfWrath" value="<string name='Upgrades/ChaosSpaceMarines/HammerOfWrath'/>"/>
-	<entry name="ChaosDaemons_MT/HammerOfWrathDescription" value="Grants Beast of Nurgle, Be'lakor, Bloodcrusher, Bloodletter, Bloodmaster, Bullgryn, Heldrake, Knight Desecrator, Maulerfiend, Scout Sentinel, Skullcannons, Soul Grinders, War Dog Stalker and Warp Talon the ability to perform more devastating attacks."/>
+	<entry name="ChaosDaemons_MT/HammerOfWrathDescription" value="Grants Beast of Nurgle, Be'lakor, Bloodcrusher, Bloodletter, Bloodmaster, Heldrake, Maulerfiend, Skullcannons, Soul Grinders, War Dog Stalker and Warp Talon the ability to perform more devastating attacks."/>
 	<entry name="ChaosDaemons_MT/HammerOfWrathFlavor" value="<string name='Upgrades/ChaosSpaceMarines/HammerOfWrathFlavor'/>"/>
 
 	<entry name="ChaosDaemons_MT/LasDamage" value="<string name='Upgrades/ChaosSpaceMarines/LasDamage'/>"/>
@@ -196,9 +193,8 @@
 	<entry name="ChaosDaemons_MT/RiteOfUnholyPleasureDescription" value="<string name='Upgrades/ChaosSpaceMarines/RiteOfUnholyPleasureDescription'/>"/>
 	<entry name="ChaosDaemons_MT/RiteOfUnholyPleasureFlavor" value="<string name='Upgrades/ChaosSpaceMarines/RiteOfUnholyPleasureFlavor'/>"/>
 
-	<entry name="ChaosDaemons_MT/SmokeLauncher" value="<string name='Upgrades/ChaosSpaceMarines/SmokeLauncher'/>"/>
-	<entry name="ChaosDaemons_MT/SmokeLauncherDescription" value="Grants Hydra, Land Raider, Lema Russ Battle Tank and Scout Sentinel the ability to launch a smoke screen that increases the ranged damage reduction."/>
-	<entry name="ChaosDaemons_MT/SmokeLauncherFlavor" value="<string name='Upgrades/ChaosSpaceMarines/SmokeLauncherFlavor'/>"/>
+
+
 	
 	<entry name="ChaosDaemons_MT/DaemonicTerror" value="Daemonic Terror"/>
 	<entry name="ChaosDaemons_MT/DaemonicTerrorDescription" value="Enemies on your warp territories take damage each turn."/>
@@ -253,10 +249,9 @@
 
 	<entry name="ChaosDaemons_MT/Heralds" value="Heralds"/>
 	<entry name="ChaosDaemons_MT/HeraldsDescription" value="Unlock the ability to recruit heralds of the Dark Gods. One daemonic hero unit per Dark God."/>
-	
-	<entry name="ChaosDaemons_MT/ShadowPact" value="Shadow Pact"/>
-	<entry name="ChaosDaemons_MT/ShadowPactDescription" value="Allied units on your warp territories suffer less morale loss."/>
-	<entry name="ChaosDaemons_MT/ShadowPactFlavor" value="Though they have forsaken the Chaos Gods in favour of Be’lakor, the Dark Master’s mortal Disciples can still draw temporary power from offering soul-pacts to the daemons who fight in his service."/>
+
+
+
 	
 	
 	<entry name="ChaosDaemons_MT/KhorneAscension2" value="Avatar of Slaughter"/>
@@ -266,14 +261,14 @@
 	<entry name="ChaosDaemons_MT/NurgleAscension2Description" value="The Great Unclean One gains +35% hitpoints. Regenerates 4 hitpoints every turn."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension2" value="Dark Prince’s Apotheosis"/>
-	<entry name="ChaosDaemons_MT/SlaaneshAscension2Description" value="The Keeper of Secrets gains +35% hitpoints, +20% damage and +1 movement. Researching this technology changes all Slaanesh units to gain 3 Influence per Experience instead of Influence per Kill Value."/>
+	<entry name="ChaosDaemons_MT/SlaaneshAscension2Description" value="The Keeper of Secrets gains +35% hitpoints, +20% damage and +1 movement."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2" value="Master of Fate"/>
-	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="The Lord of Change gains +20% damage. Researching this technology changes all Tzeentch units to gain 3 Research per Experience instead of Research per Kill Value."/>
+	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="The Lord of Change gains +20% damage."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
-	<entry name="ChaosDaemons_MT/SkullLordPact" value="Skull Lord’s Pact"/>
-	<entry name="ChaosDaemons_MT/SkullLordPactDescription" value="Unlocks the Bloodthirster ability Skull Lord’s Pact."/>
-	<entry name="ChaosDaemons_MT/SkullLordPactFlavor" value="Khorne cares not whence the blood flows, only that it flows."/>
+
+
+
 	<entry name="ChaosDaemons_MT/NoctilithCrown" value="<string name='Units/ChaosSpaceMarines/NoctilithCrown'/>"/>
 	<entry name="ChaosDaemons_MT/NoctilithCrownDescription" value="Allows daemon cultists to construct Noctilith Crowns."/>
 	<entry name="ChaosDaemons_MT/NoctilithCrownFlavor" value="<string name='Units/ChaosSpaceMarines/NoctilithCrownFlavor'/>"/>
@@ -284,4 +279,31 @@
 	<entry name="ChaosDaemons_MT/WarpNexusesDescription" value="City and Noctilith Crown auras expand to two rings. Crowns become Warp Travel nodes."/>
 	<entry name="ChaosDaemons_MT/WarpDominion" value="Warp Dominion"/>
 	<entry name="ChaosDaemons_MT/WarpDominionDescription" value="City and Noctilith Crown auras expand to three rings."/>
+	<entry name="ChaosDaemons_MT/AdvancedVehicles" value="<string name='Buildings/ChaosDaemons_MT/AdvancedVehicles'/>"/>
+	<entry name="ChaosDaemons_MT/AdvancedVehiclesDescription" value="<string name='Buildings/ChaosDaemons_MT/AdvancedVehiclesDescription'/>"/>
+	<entry name="ChaosDaemons_MT/AdvancedVehiclesFlavor" value="<string name='Buildings/ChaosDaemons_MT/AdvancedVehiclesFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/AdvancedInfantry" value="<string name='Buildings/ChaosDaemons_MT/AdvancedInfantry'/>"/>
+	<entry name="ChaosDaemons_MT/AdvancedInfantryDescription" value="<string name='Buildings/ChaosDaemons_MT/AdvancedInfantryDescription'/>"/>
+	<entry name="ChaosDaemons_MT/AdvancedInfantryFlavor" value="<string name='Buildings/ChaosDaemons_MT/AdvancedInfantryFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/DarkDisciple" value="<string name='Units/ChaosDaemons_MT/DarkDisciple'/>"/>
+	<entry name="ChaosDaemons_MT/DarkDiscipleDescription" value="<string name='Units/ChaosDaemons_MT/DarkDiscipleDescription'/>"/>
+	<entry name="ChaosDaemons_MT/DarkDiscipleFlavor" value="<string name='Units/ChaosDaemons_MT/DarkDiscipleFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/ExaltedPoxwalker" value="<string name='Units/ChaosDaemons_MT/ExaltedPoxwalker'/>"/>
+	<entry name="ChaosDaemons_MT/ExaltedPoxwalkerDescription" value="<string name='Units/ChaosDaemons_MT/ExaltedPoxwalkerDescription'/>"/>
+	<entry name="ChaosDaemons_MT/ExaltedPoxwalkerFlavor" value="<string name='Units/ChaosDaemons_MT/ExaltedPoxwalkerFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/ChaosTerminator" value="<string name='Units/ChaosDaemons_MT/ChaosTerminator'/>"/>
+	<entry name="ChaosDaemons_MT/ChaosTerminatorDescription" value="<string name='Units/ChaosDaemons_MT/ChaosTerminatorDescription'/>"/>
+	<entry name="ChaosDaemons_MT/ChaosTerminatorFlavor" value="<string name='Units/ChaosDaemons_MT/ChaosTerminatorFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/Warpsmith" value="<string name='Units/ChaosDaemons_MT/Warpsmith'/>"/>
+	<entry name="ChaosDaemons_MT/WarpsmithDescription" value="<string name='Units/ChaosDaemons_MT/WarpsmithDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpsmithFlavor" value="<string name='Units/ChaosDaemons_MT/WarpsmithFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/LordOfSkulls" value="<string name='Units/ChaosDaemons_MT/LordOfSkulls'/>"/>
+	<entry name="ChaosDaemons_MT/LordOfSkullsDescription" value="<string name='Units/ChaosDaemons_MT/LordOfSkullsDescription'/>"/>
+	<entry name="ChaosDaemons_MT/LordOfSkullsFlavor" value="<string name='Units/ChaosDaemons_MT/LordOfSkullsFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/FragGrenade" value="<string name='Upgrades/ChaosSpaceMarines/FragGrenade'/>"/>
+	<entry name="ChaosDaemons_MT/FragGrenadeDescription" value="<string name='Upgrades/ChaosSpaceMarines/FragGrenadeDescription'/>"/>
+	<entry name="ChaosDaemons_MT/FragGrenadeFlavor" value="<string name='Upgrades/ChaosSpaceMarines/FragGrenadeFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/KrakGrenade" value="<string name='Upgrades/ChaosSpaceMarines/KrakGrenade'/>"/>
+	<entry name="ChaosDaemons_MT/KrakGrenadeDescription" value="<string name='Upgrades/ChaosSpaceMarines/KrakGrenadeDescription'/>"/>
+	<entry name="ChaosDaemons_MT/KrakGrenadeFlavor" value="<string name='Upgrades/ChaosSpaceMarines/KrakGrenadeFlavor'/>"/>
 </language>

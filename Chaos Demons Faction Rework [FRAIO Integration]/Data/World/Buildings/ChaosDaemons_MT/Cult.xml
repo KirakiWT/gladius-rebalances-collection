@@ -36,7 +36,7 @@
 		<produceUnit unit="ChaosDaemons_MT/ChaosCultist"/>
 		<produceUnit unit="ChaosDaemons_MT/ChaosSpaceMarine"/>
 		<produceUnit unit="ChaosDaemons_MT/Havoc" requiredUpgrade="ChaosDaemons_MT/Havoc"/>
-		<produceUnit unit="ChaosDaemons_MT/WarpTalon" requiredUpgrade="ChaosDaemons_MT/WarpTalon"/>
-		<produceUnit unit="ChaosDaemons_MT/Obliterator" requiredUpgrade="ChaosDaemons_MT/Obliterator"/>
+		<produceUnit unit="ChaosDaemons_MT/DarkDisciple" requiredUpgrade="ChaosDaemons_MT/DarkDisciple"/>
+		<produceUnit unit="ChaosDaemons_MT/ExaltedPoxwalker" requiredUpgrade="ChaosDaemons_MT/ExaltedPoxwalker"/>
 	</actions>
 </building>

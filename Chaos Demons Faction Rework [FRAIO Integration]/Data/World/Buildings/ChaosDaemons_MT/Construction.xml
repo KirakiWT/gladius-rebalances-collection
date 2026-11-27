@@ -68,5 +68,7 @@
 		<constructBuilding building="ChaosDaemons_MT/Heroes" requiredUpgrade="ChaosDaemons_MT/Heroes"/>
 		<constructBuilding building="ChaosDaemons_MT/Vehicles" requiredUpgrade="ChaosDaemons_MT/Vehicles"/>
 		<constructBuilding building="ChaosDaemons_MT/Construction" requiredUpgrade="ChaosDaemons_MT/Construction"/>
+		<constructBuilding building="ChaosDaemons_MT/AdvancedVehicles" requiredUpgrade="ChaosDaemons_MT/AdvancedVehicles"/>
+		<constructBuilding building="ChaosDaemons_MT/AdvancedInfantry" requiredUpgrade="ChaosDaemons_MT/AdvancedInfantry"/>
 	</actions>
 </building>

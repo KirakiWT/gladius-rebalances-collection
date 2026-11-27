@@ -4,13 +4,17 @@
 		<modifier>
 			<conditions>
 				<player match="Any">
-					<upgrade name="ChaosDaemons_MT/LocusOfPoxesUncounted"/>
-					<upgrade name="ChaosDaemons_MT/WarpRift"/>
-					<upgrade name="ChaosDaemons_MT/RiteOfBlood"/>
-					<upgrade name="ChaosDaemons_MT/BlastDamage"/>
-					<upgrade name="ChaosDaemons_MT/ExtraVehicleArmour"/>
+					<upgrade name="ChaosDaemons_MT/AdvancedVehicles"/>
+					<upgrade name="ChaosDaemons_MT/Bloodthirster"/>
 					<upgrade name="ChaosDaemons_MT/BurningChariot"/>
+					<upgrade name="ChaosDaemons_MT/ChaosTerminator"/>
+					<upgrade name="ChaosDaemons_MT/GreatUncleanOne"/>
 					<upgrade name="ChaosDaemons_MT/Heldrake"/>
+					<upgrade name="ChaosDaemons_MT/KeeperOfSecrets"/>
+					<upgrade name="ChaosDaemons_MT/LocusOfPoxesUncounted"/>
+					<upgrade name="ChaosDaemons_MT/LordOfChange"/>
+					<upgrade name="ChaosDaemons_MT/RiteOfBlood"/>
+					<upgrade name="ChaosDaemons_MT/WarpRift"/>
 				</player>
 			</conditions>
 			<effects>

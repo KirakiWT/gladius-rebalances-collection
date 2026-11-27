@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="7" icon="Traits/BlastDamage">
+<upgrade position="6" icon="Traits/BlastDamage">
 	<strategyModifiers>
 		<modifier>
 			<effects>

@@ -104,9 +104,9 @@
 	<entry name="ChaosDaemons_MT/WarDogStalker" value="Боевой пес-сталкер"/>
 	<entry name="ChaosDaemons_MT/WarDogStalkerDescription" value="Шагающий юнит, специализирующийся на ближнем бою."/>
 	<entry name="ChaosDaemons_MT/WarDogStalkerFlavor" value="Только самые сильные духом представители мелкого дворянства обладают психической стойкостью, чтобы управлять Сталкером. Подобно вожакам стаи, они часто ведут других Боевых псов в тщательно спланированных атаках, беспокоя фланги врага, уничтожая подкрепления и выслеживая изолированные угрозы. Они обрушивают залпы огня на дистанции или в гуще боя, нанося смертельные удары когтями."/>
-	<entry name="ChaosDaemons_MT/KnightDesecrator" value="Рыцарь-осквернитель"/>
-	<entry name="ChaosDaemons_MT/KnightDesecratorDescription" value="Сверхтяжелый шагающий юнит с бесконечным арсеналом смертоносного оружия."/>
-	<entry name="ChaosDaemons_MT/KnightDesecratorFlavor" value="Рыцари-осквернители не щадят ни одно живое существо в своих атаках. Они обладают мощным вооружением средней и ближней дистанции, способным вести дуэли с вражескими боевыми машинами и чудовищными зверями или уничтожать орды более слабых врагов. Они также жестокие надсмотрщики, рычащие приказы следующим за ними Боевым псам."/>
+
+
+
 	<entry name="ChaosDaemons_MT/Havoc" value="<string name='Units/ChaosSpaceMarines/Havoc'/>"/>
 	<entry name="ChaosDaemons_MT/HavocDescription" value="<string name='Units/ChaosSpaceMarines/HavocDescription'/>"/>
 	<entry name="ChaosDaemons_MT/HavocFlavor" value="<string name='Units/ChaosSpaceMarines/HavocFlavor'/>"/>
@@ -152,4 +152,19 @@
 	<entry name="ChaosDaemons_MT/NoctilithCrown" value="<string name='Units/ChaosSpaceMarines/NoctilithCrown'/>"/>
 	<entry name="ChaosDaemons_MT/NoctilithCrownDescription" value="<string name='Units/ChaosSpaceMarines/NoctilithCrownDescription'/>"/>
 	<entry name="ChaosDaemons_MT/NoctilithCrownFlavor" value="<string name='Units/ChaosSpaceMarines/NoctilithCrownFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/ChaosRhino" value="<string name='Units/ChaosSpaceMarines/ChaosRhino'/>"/>
+	<entry name="ChaosDaemons_MT/ChaosRhinoDescription" value="<string name='Units/ChaosSpaceMarines/ChaosRhinoDescription'/>"/>
+	<entry name="ChaosDaemons_MT/ChaosRhinoFlavor" value="<string name='Units/ChaosSpaceMarines/ChaosRhinoFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/DarkDisciple" value="<string name='Units/ChaosSpaceMarines/DarkDisciple'/>"/>
+	<entry name="ChaosDaemons_MT/DarkDiscipleDescription" value="<string name='Units/ChaosSpaceMarines/DarkDiscipleDescription'/>"/>
+	<entry name="ChaosDaemons_MT/DarkDiscipleFlavor" value="<string name='Units/ChaosSpaceMarines/DarkDiscipleFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/ExaltedPoxwalker" value="<string name='Units/ChaosSpaceMarines/ExaltedPoxwalker'/>"/>
+	<entry name="ChaosDaemons_MT/ExaltedPoxwalkerDescription" value="<string name='Units/ChaosSpaceMarines/ExaltedPoxwalkerDescription'/>"/>
+	<entry name="ChaosDaemons_MT/ExaltedPoxwalkerFlavor" value="<string name='Units/ChaosSpaceMarines/ExaltedPoxwalkerFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/ChaosTerminator" value="<string name='Units/ChaosSpaceMarines/ChaosTerminator'/>"/>
+	<entry name="ChaosDaemons_MT/ChaosTerminatorDescription" value="<string name='Units/ChaosSpaceMarines/ChaosTerminatorDescription'/>"/>
+	<entry name="ChaosDaemons_MT/ChaosTerminatorFlavor" value="<string name='Units/ChaosSpaceMarines/ChaosTerminatorFlavor'/>"/>
+	<entry name="ChaosDaemons_MT/Warpsmith" value="<string name='Units/ChaosSpaceMarines/Warpsmith'/>"/>
+	<entry name="ChaosDaemons_MT/WarpsmithDescription" value="<string name='Units/ChaosSpaceMarines/WarpsmithDescription'/>"/>
+	<entry name="ChaosDaemons_MT/WarpsmithFlavor" value="<string name='Units/ChaosSpaceMarines/WarpsmithFlavor'/>"/>
 </language>

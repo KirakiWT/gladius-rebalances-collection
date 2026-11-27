@@ -123,7 +123,7 @@
 	<entry name="ChaosDaemons_MT/GrotesqueRegenerationFlavor" value="The daemons of Nurgle are tremendously hard to destroy, all the more so in the presence of this walking font of unclean fecundity. Bountiful waves of diseased vigour roll off the daemon, its grotesque generosity an echo of Nurgles own that mends ruptured corporeal forms, reknits burst innards and thickens leathery flesh with fresh layers of rancid blubber."/>
 	
 	<entry name="ChaosDaemons_MT/Khorne" value="Servant of Khorne"/>
-	<entry name="ChaosDaemons_MT/KhorneDescription" value="Mark of Khorne - +25% attacks and +25% melee damage reduction, but -2 armor (not on vehicles). Allows overwatch attacks with melee weapons. Each kill yields 3 Ore. Upkeep is waived for a unit that attacked this turn and increased by 50% if it ends the turn farther than 2 tiles from every enemy. Allied servants of Tzeentch within 2 tiles cost this unit morale every turn."/>
+	<entry name="ChaosDaemons_MT/KhorneDescription" value="+25% attacks, +25% melee damage reduction and −3 armour."/>
 	<entry name="ChaosDaemons_MT/KhorneFlavor" value="The Blood God instils a blind rage in his most frenzied adherents."/>
 	
 	<entry name="ChaosDaemons_MT/LegionOfExcess" value="Legion of Excess"/>
@@ -131,7 +131,7 @@
 	<entry name="ChaosDaemons_MT/LegionOfExcessFlavor" value="The legions of Slaanesh surge into battle like a blood-spattered carnival run mad. It is a revel where every swathe of diaphanous silk is braided with screaming souls, and every beautiful smile stretches into a needle-fanged leer of cruellest hunger. The presence of these entities is enough to drive mortals mad as the horrific evidence of their eyes wars with forbidden desire welling inside them like bile."/>
 	
 	<entry name="ChaosDaemons_MT/Nurgle" value="Servant of Nurgle"/>
-	<entry name="ChaosDaemons_MT/NurgleDescription" value="Mark of Nurgle - +25% hitpoints, regeneration and increased healing rate, but -1 movement (not on vehicles). Allied servants of Slaanesh within 2 tiles cost this unit morale every turn."/>
+	<entry name="ChaosDaemons_MT/NurgleDescription" value="+25% maximum hit points and −1 movement."/>
 	<entry name="ChaosDaemons_MT/NurgleFlavor" value="The Father of Plagues bestows gifts of rot and decay upon his followers."/>
 	
 	<entry name="ChaosDaemons_MT/NurglesRot" value="Nurgles Rot"/>
@@ -164,7 +164,7 @@
 	<entry name="ChaosDaemons_MT/ShrivellingPoxFlavor" value="Muttering an unholy chant in a blighted tongue, the daemon calls down a foul malignancy that races through the enemies’ ranks like wildfire and chews away at their flesh and organs like a tide of ravenous maggots."/>
 	
 	<entry name="ChaosDaemons_MT/Slaanesh" value="Servant of Slaanesh"/>
-	<entry name="ChaosDaemons_MT/SlaaneshDescription" value="Mark of Slaanesh - +1 movement, +50% damage against units with 50% health or less, actions do not consume movement, but -25% hitpoints (not on vehicles). Each kill yields 2 Influence. Allied servants of Nurgle within 2 tiles cost this unit morale every turn."/>
+	<entry name="ChaosDaemons_MT/SlaaneshDescription" value="+1 movement and −25% maximum hit points."/>
 	<entry name="ChaosDaemons_MT/SlaaneshFlavor" value="The thrill of battle drives these warriors to charge at spectacular speed."/>
 	
 	<entry name="ChaosDaemons_MT/SoulGlutton" value="Soul Glutton"/>
@@ -176,7 +176,7 @@
 	<entry name="ChaosDaemons_MT/SoulGrinderSlaaneshFlavor" value="Sensation gushes relentlessly into the overstimulated minds of the enemy until their souls strain fit to burst. Barely able to think or function, they recoil in their desperate need to stem the unstoppable tide."/>
 	
 	<entry name="ChaosDaemons_MT/Tzeentch" value="Servant of Tzeentch"/>
-	<entry name="ChaosDaemons_MT/TzeentchDescription" value="Mark of Tzeentch - +17% damage reduction and attacks inflict Soulblaze (damage over time), but +50% melee damage taken (not on vehicles). Each kill yields 2 Research. Allied servants of Khorne within 2 tiles cost this unit morale every turn."/>
+	<entry name="ChaosDaemons_MT/TzeentchDescription" value="+17% Feel No Pain damage reduction and +50% melee damage taken."/>
 	<entry name="ChaosDaemons_MT/TzeentchFlavor" value="Reality twists and weaves around these warriors as they become intertwined in the machinations of the Change God."/>
 	
 	<entry name="ChaosDaemons_MT/Undivided" value="Servant of Chaos Undivided"/>
@@ -328,7 +328,7 @@
 	<entry name="ChaosDaemons_MT/SmokeScreen/TzeentchDescription" value="Increase ranged damage reduction."/>
 	
 	<entry name="ChaosDaemons_MT/HarbringerOfLust" value="Harbinger of Lust"/>
-	<entry name="ChaosDaemons_MT/HarbringerOfLustDescription" value="This unit deals more damage to units with 50% health or less."/>
+	<entry name="ChaosDaemons_MT/HarbringerOfLustDescription" value="A servant of Slaanesh deals 50% more damage against an enemy below half its maximum hit points."/>
 	<entry name="ChaosDaemons_MT/HarbringerOfLustFlavor" value="The devotees of Slaanesh strike where their prey is weakest."/>
 	<entry name="ChaosDaemons_MT/WarbandDiscipline" value="Warband Discipline"/>
 	<entry name="ChaosDaemons_MT/WarbandDisciplineDescription" value="Increases hitpoints by 10% and accuracy by 5%."/>
@@ -346,22 +346,22 @@
 	<entry name="ChaosDaemons_MT/NurgleAscension2Description" value="+35% hitpoints. Regenerates 4 hitpoints every turn."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension2" value="Dark Prince’s Apotheosis"/>
-	<entry name="ChaosDaemons_MT/SlaaneshAscension2Description" value="+35% hitpoints, +20% damage and +1 movement. Upon researching this technology, all Slaanesh units gain 3 Influence per Experience instead of Influence per Kill Value."/>
+	<entry name="ChaosDaemons_MT/SlaaneshAscension2Description" value="+35% hitpoints, +20% damage and +1 movement."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2" value="Master of Fate"/>
-	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="+20% damage. Upon researching this technology, all Tzeentch units gain 3 Research per Experience instead of Research per Kill Value."/>
+	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="+20% damage."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/Khorne" value="Blood Territory — Favour"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneDescription" value="Allied Khorne servants: +1 movement. Technologies improve it: Shadow Pact, Corrupt Realspace (allies); Daemonic Terror (enemies). Allied Khorne servants deal 5% more damage."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneDescription" value="Allied Khorne servants: +1 movement. Technologies improve it: Corrupt Realspace (allies); Daemonic Terror (enemies). Allied Khorne servants deal 5% more damage."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneEnemy" value="Blood Territory — Affliction"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneEnemyDescription" value="Enemies: increased morale loss and −17% melee damage reduction. Daemonic Terror deals damage each turn. Enemies deal 5% more damage."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneEnemyDescription" value="Enemies: increased morale loss and −10% attacks. Daemonic Terror deals damage each turn. Enemies deal 5% more damage."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneEnemyFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneRival" value="Blood Territory — Rival's Ground"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneRivalDescription" value="Servants of the rival god lose morale each turn."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneRivalFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/Tzeentch" value="Flux Territory — Favour"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchDescription" value="Allied Tzeentch servants: +10% ranged accuracy and +17% ranged damage reduction. Technologies improve it: Shadow Pact, Corrupt Realspace (allies); Daemonic Terror (enemies)."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchDescription" value="Allied Tzeentch servants: +10% ranged accuracy and +17% ranged damage reduction. Technologies improve it: Corrupt Realspace (allies); Daemonic Terror (enemies)."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchEnemy" value="Flux Territory — Affliction"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchEnemyDescription" value="Enemies: −17% accuracy and −17% ranged damage reduction. Daemonic Terror deals damage each turn."/>
@@ -370,16 +370,16 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchRivalDescription" value="Servants of the rival god lose morale each turn."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchRivalFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/Slaanesh" value="Excess Territory — Favour"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshDescription" value="Allied Slaanesh servants: +10% melee accuracy and +17% melee damage reduction. Technologies improve it: Shadow Pact, Corrupt Realspace (allies); Daemonic Terror (enemies)."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshDescription" value="Allied Slaanesh servants: +10% damage and +17% melee damage reduction. Technologies improve it: Corrupt Realspace (allies); Daemonic Terror (enemies)."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshEnemy" value="Excess Territory — Affliction"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshEnemyDescription" value="Enemies: −1 movement and −10% attacks. Daemonic Terror deals damage each turn."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshEnemyDescription" value="Enemies: −1 movement and −10% damage. Daemonic Terror deals damage each turn."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshEnemyFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshRival" value="Excess Territory — Rival's Ground"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshRivalDescription" value="Servants of the rival god lose morale each turn."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshRivalFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/Nurgle" value="Plague Territory — Favour"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleDescription" value="Allied Nurgle servants: increased healing and +10% maximum hit points. Technologies improve it: Shadow Pact, Corrupt Realspace (allies); Daemonic Terror (enemies)."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleDescription" value="Allied Nurgle servants: increased healing and +1 armour. Technologies improve it: Corrupt Realspace (allies); Daemonic Terror (enemies)."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleEnemy" value="Plague Territory — Affliction"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleEnemyDescription" value="Enemies: reduced armor and healing. Daemonic Terror deals damage each turn."/>

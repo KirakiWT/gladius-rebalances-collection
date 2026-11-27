@@ -192,9 +192,9 @@
 	<entry name="ChaosDaemons_MT/HearMyCommand" value="Слушай мою команду!"/>
 	<entry name="ChaosDaemons_MT/HearMyCommandDescription" value="Восстанавливает очко действия целевому юниту пехоты."/>
 	<entry name="ChaosDaemons_MT/HearMyCommandFlavor" value="Послушание – единственная добродетель, которой требует комиссар, и единственная, которую уважает Варп."/>
-	<entry name="ChaosDaemons_MT/SkullLordPact" value="Договор Владыки Черепов"/>
-	<entry name="ChaosDaemons_MT/SkullLordPactDescription" value="Приносит в жертву любого союзного юнита, кроме героев, и на его месте на 4 хода призывает подконтрольного вам Владыку Черепов. Перезарядка: 20 ходов."/>
-	<entry name="ChaosDaemons_MT/SkullLordPactFlavor" value="Тысяча черепов для трона, и трон идёт в бой."/>
+
+
+
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateKhorne" value="Создать: территория крови"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateKhorneDescription" value="Создаёт варп-территорию. Стоит 2 ед. руды. Заменяет варп-территорию другого бога."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateKhorneFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
@@ -220,13 +220,13 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateNurgleHeroDescription" value="Создаёт варп-территорию на выбранной и соседних клетках. Стоит 7 ед. пищи. Заменяет варп-территорию другого бога."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateNurgleHeroFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeep" value="Ритуалы Хаоса"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepDescription" value="Продлевает действие существующей варп-территории поблизости до 5 ходов. Не расходует очки действия или движения."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepDescription" value="Продлевает действие существующей варп-территории поблизости до 3 ходов. Не расходует очки действия или движения. Цена — по 1 ед. еды, руды, энергии и влияния."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/MantleOfShadows" value="Покров теней"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/MantleOfShadowsDescription" value="Каждый ход продлевает действие существующей варп-территории в радиусе 3 клеток до 5 ходов."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/MantleOfShadowsDescription" value="Каждый ход продлевает действие существующей варп-территории в радиусе 3 клеток до 3 ходов."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/MantleOfShadowsFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpDetonation" value="Варп-детонация"/>
-	<entry name="ChaosDaemons_MT/WarpDetonationDescription" value="Свободное действие. На 1 ход оглушает все подразделения в радиусе 3 клеток, включая свои и союзные войска и технику. Сам Владыка Перемен не оглушается. Создаёт в этом радиусе территорию перемен на 5 ходов, заменяя территории других богов. Поражает врагов в этом радиусе с базовым уроном 1/2/3 по рангам."/>
+	<entry name="ChaosDaemons_MT/WarpDetonationDescription" value="Свободное действие. На 1 ход оглушает все подразделения в радиусе 3 клеток, включая свои и союзные войска и технику. Сам Владыка Перемен не оглушается. Создаёт в этом радиусе территорию перемен на 3 хода, заменяя территории других богов. Поражает врагов в этом радиусе с базовым уроном 1/2/3 по рангам."/>
 	<entry name="ChaosDaemons_MT/WarpDetonationFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/BloodTide" value="Кровавый прилив"/>
 	<entry name="ChaosDaemons_MT/BloodTideDescription" value="Создаёт территорию крови в радиусе 2 и повышает мораль слуг Кхорна. Заменяет варп-территорию другого бога. Поражает врагов в этом радиусе с базовым уроном 1/2/3 по рангам."/>
@@ -269,7 +269,7 @@
 	<entry name="ChaosDaemons_MT/CultistSacrificeSlaanesh" value="Жертвование культистов"/>
 	<entry name="ChaosDaemons_MT/CultistSacrificeSlaaneshDescription" value="Приносит отряд культистов в жертву, увеличивая рост населения выбранного города на 33% на 10 ходов. Город также получает +25% к производству влияния на тот же срок."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepGreatUncleanOne" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeep'/>"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepGreatUncleanOneDescription" value="Пассивная способность. Если Великий Нечистый перемещался в этом ходу, обновляет срок действия существующей варп-территории в радиусе 3 клеток до 5 ходов."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepGreatUncleanOneDescription" value="Пассивная способность. Если Великий Нечистый перемещался в этом ходу, обновляет срок действия существующей варп-территории в радиусе 3 клеток до 3 ходов. Цена — по 1 ед. еды, руды, энергии и влияния."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepGreatUncleanOneFlavor" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CursedRelicShotKhorne" value="Выстрел проклятыми реликвиями"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CursedRelicShotKhorneDescription" value="Создаёт варп-территорию на одной выбранной клетке на расстоянии до 3 клеток. Стоит 2 ед. руды. Заменяет варп-территорию другого бога."/>

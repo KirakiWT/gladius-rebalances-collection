@@ -88,13 +88,13 @@
 	<entry name="ChaosDaemons_MT/GrotesqueRegenerationDescription" value="Увеличивает регенерацию здоровья."/>
 	<entry name="ChaosDaemons_MT/GrotesqueRegenerationFlavor" value="Демонов Нургла чрезвычайно трудно уничтожить, тем более в присутствии этого ходячего источника нечистой плодовитости. Обильные волны болезненной энергии катятся с демона, его гротескная щедрость — отголосок собственной силы Нургла, которая восстанавливает разорванные телесные формы, восстанавливает разорванные внутренности и утолщает кожистую плоть свежими слоями прогорклого жира."/>
 	<entry name="ChaosDaemons_MT/Khorne" value="Слуга Кхорна"/>
-	<entry name="ChaosDaemons_MT/KhorneDescription" value="Метка Кхорна – +25% к атакам и +25% к защите от урона в ближнем бою, но −2 к броне (не действует на технику). Позволяет совершать дозорные атаки оружием ближнего боя. Каждое убийство приносит 3 руды. Содержание юнита, атаковавшего в этот ход, обнуляется, а если юнит закончил ход дальше 2 клеток от всех врагов, оно возрастает на 50%. Союзные слуги Тзинча в пределах 2 клеток снижают мораль этого юнита каждый ход."/>
+	<entry name="ChaosDaemons_MT/KhorneDescription" value="+25% к атакам, +25% к снижению ближнего урона, −3 к броне."/>
 	<entry name="ChaosDaemons_MT/KhorneFlavor" value="Бог Крови вселяет слепую ярость в своих самых неистовых приверженцев."/>
 	<entry name="ChaosDaemons_MT/LegionOfExcess" value="Легион избытка"/>
 	<entry name="ChaosDaemons_MT/LegionOfExcessDescription" value="Увеличивает количество атак. Атаки теперь наносят вред себе."/>
 	<entry name="ChaosDaemons_MT/LegionOfExcessFlavor" value="Легионы Слаанеша бросаются в бой, словно забрызганный кровью карнавал, сошедший с ума. Это пир, где каждая полоска прозрачного шелка оплетена кричащими душами, а каждая прекрасная улыбка переходит в игольчатую ухмылку самого жестокого голода. Присутствия этих сущностей достаточно, чтобы свести смертных с ума, поскольку ужасающие свидетельства того, что их глаза воюют с запретным желанием, наполняющим их изнутри, словно желчь."/>
 	<entry name="ChaosDaemons_MT/Nurgle" value="Слуга Нургла"/>
-	<entry name="ChaosDaemons_MT/NurgleDescription" value="Метка Нургла – +25% здоровья, регенерация и повышенная скорость исцеления, но −1 к передвижению (не действует на технику). Союзные слуги Слаанеш в пределах 2 клеток снижают мораль этого юнита каждый ход."/>
+	<entry name="ChaosDaemons_MT/NurgleDescription" value="+25% к максимальному здоровью, −1 к передвижению."/>
 	<entry name="ChaosDaemons_MT/NurgleFlavor" value="Отец Чум дарует своим последователям дары гниения и разложения."/>
 	<entry name="ChaosDaemons_MT/NurglesRot" value="Гниль Нургла"/>
 	<entry name="ChaosDaemons_MT/NurglesRotDescription" value="Уменьшает броню."/>
@@ -117,7 +117,7 @@
 	<entry name="ChaosDaemons_MT/ShrivellingPoxDescription" value="Уменьшает наносимый урон. Получайте урон каждый ход."/>
 	<entry name="ChaosDaemons_MT/ShrivellingPoxFlavor" value="Пробормотав нечестивое песнопение на испорченном языке, демон призывает отвратительную зловредную тварь, которая проносится сквозь врагов, разрастается, как лесной пожар, и разъедает их плоть и органы, словно поток прожорливых личинок."/>
 	<entry name="ChaosDaemons_MT/Slaanesh" value="Слуга Слаанеша"/>
-	<entry name="ChaosDaemons_MT/SlaaneshDescription" value="Метка Слаанеш – +1 к передвижению, +50% урона по целям, у которых осталось не более 50% здоровья, действия не расходуют передвижение, но −25% здоровья (не действует на технику). Каждое убийство приносит 2 влияния. Союзные слуги Нургла в пределах 2 клеток снижают мораль этого юнита каждый ход."/>
+	<entry name="ChaosDaemons_MT/SlaaneshDescription" value="+1 к передвижению, −25% к максимальному здоровью."/>
 	<entry name="ChaosDaemons_MT/SlaaneshFlavor" value="Острые ощущения от битвы заставляют этих воинов атаковать с невероятной скоростью."/>
 	<entry name="ChaosDaemons_MT/SoulGlutton" value="Пожиратель душ"/>
 	<entry name="ChaosDaemons_MT/SoulGluttonDescription" value="Восстанавливает здоровье при убийстве вражеского отряда."/>
@@ -126,7 +126,7 @@
 	<entry name="ChaosDaemons_MT/SoulGrinderSlaaneshDescription" value="Увеличивает дальность атак."/>
 	<entry name="ChaosDaemons_MT/SoulGrinderSlaaneshFlavor" value="Ощущения неустанно хлынут в перевозбужденные умы врагов, пока их души не напрягутся так, что вот-вот лопнут. Едва умея думать и действовать, они отшатываются в отчаянной потребности остановить неудержимую волну."/>
 	<entry name="ChaosDaemons_MT/Tzeentch" value="Слуга Тзинча"/>
-	<entry name="ChaosDaemons_MT/TzeentchDescription" value="Метка Тзинча – +17% к защите от урона, атаки поджигают цель, но +50% получаемого урона в ближнем бою (не действует на технику). Каждое убийство приносит 2 очка исследований. Союзные слуги Кхорна в пределах 2 клеток снижают мораль этого юнита каждый ход."/>
+	<entry name="ChaosDaemons_MT/TzeentchDescription" value="+17% к снижению урона от нечувствительности к боли, +50% получаемого урона в ближнем бою."/>
 	<entry name="ChaosDaemons_MT/TzeentchFlavor" value="Реальность извивается и переплетается вокруг этих воинов, когда они переплетаются в махинациях Бога Перемен."/>
 	<entry name="ChaosDaemons_MT/Undivided" value="Слуга Нерасколотого Хаоса"/>
 	<entry name="ChaosDaemons_MT/UndividedDescription" value="Классификация."/>
@@ -239,7 +239,7 @@
 	<entry name="ChaosDaemons_MT/SmokeScreen/Tzeentch" value="Дымовая завеса: Тзинч"/>
 	<entry name="ChaosDaemons_MT/SmokeScreen/TzeentchDescription" value="Увеличивает снижение дальнего урона."/>
 	<entry name="ChaosDaemons_MT/HarbringerOfLust" value="Предвестник похоти"/>
-	<entry name="ChaosDaemons_MT/HarbringerOfLustDescription" value="Этот юнит наносит больше урона по целям, у которых осталось не более 50% здоровья."/>
+	<entry name="ChaosDaemons_MT/HarbringerOfLustDescription" value="Слуга Слаанеш наносит на 50% больше урона врагу, у которого осталось строго меньше половины максимального здоровья."/>
 	<entry name="ChaosDaemons_MT/HarbringerOfLustFlavor" value="Последователи Слаанеш бьют туда, где добыча слабее всего."/>
 	<entry name="ChaosDaemons_MT/WarbandDiscipline" value="Дисциплина отряда"/>
 	<entry name="ChaosDaemons_MT/WarbandDisciplineDescription" value="Увеличивает здоровье на 10% и точность на 5%."/>
@@ -257,22 +257,22 @@
 	<entry name="ChaosDaemons_MT/NurgleAscension2Description" value="+35% здоровья. Восстанавливает 4 здоровья каждый ход."/>
 	<entry name="ChaosDaemons_MT/NurgleAscension2Flavor" value="На пике могущества великий демон выходит против боевых машин и титанов."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension2" value="Апофеоз Тёмного Принца"/>
-	<entry name="ChaosDaemons_MT/SlaaneshAscension2Description" value="+35% здоровья, +20% урона и +1 к передвижению. После изучения этой технологии все слуги Слаанеш вместо влияния за убийство получают 3 влияния за каждую единицу опыта."/>
+	<entry name="ChaosDaemons_MT/SlaaneshAscension2Description" value="+35% здоровья, +20% урона и +1 к передвижению."/>
 	<entry name="ChaosDaemons_MT/SlaaneshAscension2Flavor" value="На пике могущества великий демон выходит против боевых машин и титанов."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2" value="Властелин судьбы"/>
-	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="+20% к урону. После изучения этой технологии все слуги Тзинча вместо исследований за убийство получают 3 исследования за каждую единицу опыта."/>
+	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="+20% к урону."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2Flavor" value="На пике могущества великий демон выходит против боевых машин и титанов."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/Khorne" value="Территория крови — благословение"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneDescription" value="Слуги Кхорна: +1 к скорости. Улучшается технологиями: Shadow Pact и Corrupt Realspace (союзники), Daemonic Terror (враги). Союзные слуги Кхорна наносят на 5% больше урона."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneDescription" value="Слуги Кхорна: +1 к скорости. Улучшается технологиями: Corrupt Realspace (союзники), Daemonic Terror (враги). Союзные слуги Кхорна наносят на 5% больше урона."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneEnemy" value="Территория крови — гнёт"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneEnemyDescription" value="Враги: повышенная потеря морали и −17% к сокращению ближнего урона. Daemonic Terror наносит урон каждый ход. Враги наносят на 5% больше урона."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneEnemyDescription" value="Враги: повышенная потеря морали и −10% к числу атак. Daemonic Terror наносит урон каждый ход. Враги наносят на 5% больше урона."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneEnemyFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneRival" value="Территория крови — чужая земля"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneRivalDescription" value="Слуги бога-соперника теряют мораль каждый ход."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneRivalFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/Tzeentch" value="Территория перемен — благословение"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchDescription" value="Слуги Тзинча: +10% к дистанционной точности и +17% к сокращению дистанционного урона. Улучшается технологиями: Shadow Pact и Corrupt Realspace (союзники), Daemonic Terror (враги)."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchDescription" value="Слуги Тзинча: +10% к дистанционной точности и +17% к сокращению дистанционного урона. Улучшается технологиями: Corrupt Realspace (союзники), Daemonic Terror (враги)."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchEnemy" value="Территория перемен — гнёт"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchEnemyDescription" value="Враги: −17% к общей точности и −17% к сокращению дистанционного урона. Daemonic Terror наносит урон каждый ход."/>
@@ -281,16 +281,16 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchRivalDescription" value="Слуги бога-соперника теряют мораль каждый ход."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchRivalFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/Slaanesh" value="Территория излишеств — благословение"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshDescription" value="Слуги Слаанеш: +10% к точности в ближнем бою и +17% к сокращению ближнего урона. Улучшается технологиями: Shadow Pact и Corrupt Realspace (союзники), Daemonic Terror (враги)."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshDescription" value="Слуги Слаанеш: +10% к урону и +17% к сокращению ближнего урона. Улучшается технологиями: Corrupt Realspace (союзники), Daemonic Terror (враги)."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshEnemy" value="Территория излишеств — гнёт"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshEnemyDescription" value="Враги: −1 к скорости и −10% к числу атак. Daemonic Terror наносит урон каждый ход."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshEnemyDescription" value="Враги: −1 к скорости и −10% к урону. Daemonic Terror наносит урон каждый ход."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshEnemyFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshRival" value="Территория излишеств — чужая земля"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshRivalDescription" value="Слуги бога-соперника теряют мораль каждый ход."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshRivalFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/Nurgle" value="Территория чумы — благословение"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleDescription" value="Слуги Нургла: усиленное лечение и +10% к максимальному запасу здоровья. Улучшается технологиями: Shadow Pact и Corrupt Realspace (союзники), Daemonic Terror (враги)."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleDescription" value="Слуги Нургла: усиленное лечение и +1 к броне. Улучшается технологиями: Corrupt Realspace (союзники), Daemonic Terror (враги)."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleEnemy" value="Территория чумы — гнёт"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleEnemyDescription" value="Враги: снижены броня и лечение. Daemonic Terror наносит урон каждый ход."/>

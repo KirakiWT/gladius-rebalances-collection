@@ -4,9 +4,12 @@
 		<modifier>
 			<conditions>
 				<player match="Any">
+					<upgrade name="ChaosDaemons_MT/KhorneAscension2"/>
 					<upgrade name="ChaosDaemons_MT/LocusOfTransmogrification"/>
+					<upgrade name="ChaosDaemons_MT/NurgleAscension2"/>
 					<upgrade name="ChaosDaemons_MT/OurLivesForTheGods"/>
-					<upgrade name="ChaosDaemons_MT/KnightDesecrator"/>
+					<upgrade name="ChaosDaemons_MT/SlaaneshAscension2"/>
+					<upgrade name="ChaosDaemons_MT/TzeentchAscension2"/>
 					<upgrade name="ChaosDaemons_MT/WarpSurge"/>
 				</player>
 			</conditions>

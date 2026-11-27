@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building icon="Buildings/ChaosSpaceMarines/AdvancedVehicles">
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<productionCost base="48"/>
+				<oreCost base="80"/>
+				<populationRequired base="2"/>
+				<slotsRequired base="2"/>
+				<energyUpkeep add="4"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<effects>
+				<populationLimit add="2"/>
+				<ore add="4"/>
+				<production add="12"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<productionModifiers>
+		<modifier>
+			<effects>
+				
+			</effects>
+		</modifier>
+	</productionModifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseVehiclesProductionScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<produceUnit unit="ChaosDaemons_MT/Heldrake" requiredUpgrade="ChaosDaemons_MT/Heldrake"/>
+		<produceUnit unit="ChaosDaemons_MT/LandRaider" requiredUpgrade="ChaosDaemons_MT/LandRaider"/>
+		<produceUnit unit="ChaosDaemons_MT/LordOfSkulls" requiredUpgrade="ChaosDaemons_MT/LordOfSkulls"/>
+	</actions>
+</building>

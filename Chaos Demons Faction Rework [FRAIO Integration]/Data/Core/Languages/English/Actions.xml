@@ -264,9 +264,9 @@
 	<entry name="ChaosDaemons_MT/HearMyCommand" value="Hear my Command!"/>
 	<entry name="ChaosDaemons_MT/HearMyCommandDescription" value="Restore an Action Point to a target Infantry Unit."/>
 	<entry name="ChaosDaemons_MT/HearMyCommandFlavor" value="Obedience is the only virtue a Commissar demands, and the only one the Warp respects."/>
-	<entry name="ChaosDaemons_MT/SkullLordPact" value="Skull Lord’s Pact"/>
-	<entry name="ChaosDaemons_MT/SkullLordPactDescription" value="Sacrifices any allied non-hero unit and summons a Lord of Skulls under your control in its place for 4 turns. Cooldown: 20 turns."/>
-	<entry name="ChaosDaemons_MT/SkullLordPactFlavor" value="A thousand skulls for a throne, and the throne walks."/>
+
+
+
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateKhorne" value="Create Blood Territory"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateKhorneDescription" value="Creates Warp Territory. Costs 2 ore. Replaces Warp Territory belonging to another god."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateKhorneFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
@@ -292,13 +292,13 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateNurgleHeroDescription" value="Creates Warp Territory on the target tile and adjacent tiles. Costs 7 food. Replaces Warp Territory belonging to another god."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CreateNurgleHeroFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeep" value="Chaos Rituals"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepDescription" value="Refreshes nearby existing Warp Territory to 5 turns. Costs no action points or movement."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepDescription" value="Refreshes nearby existing Warp Territory to 3 turns. Costs no action points or movement. Costs 1 each of food, ore, energy and influence."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/MantleOfShadows" value="Mantle of Shadows"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/MantleOfShadowsDescription" value="Each turn, refreshes existing Warp Territory within 3 tiles to 5 turns."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/MantleOfShadowsDescription" value="Each turn, refreshes existing Warp Territory within 3 tiles to 3 turns."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/MantleOfShadowsFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpDetonation" value="Warp Detonation"/>
-	<entry name="ChaosDaemons_MT/WarpDetonationDescription" value="Free action. Stuns all units within 3 tiles for 1 turn, including friendly units, allies and vehicles. The caster is exempt. Creates Flux Territory in that radius for 5 turns, replacing other gods’ territories. Hits enemies in this radius for 1/2/3 base damage by rank."/>
+	<entry name="ChaosDaemons_MT/WarpDetonationDescription" value="Free action. Stuns all units within 3 tiles for 1 turn, including friendly units, allies and vehicles. The caster is exempt. Creates Flux Territory in that radius for 3 turns, replacing other gods’ territories. Hits enemies in this radius for 1/2/3 base damage by rank."/>
 	<entry name="ChaosDaemons_MT/WarpDetonationFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/BloodTide" value="Blood Tide"/>
 	<entry name="ChaosDaemons_MT/BloodTideDescription" value="Create Blood Territory in 2 tiles and restore morale of allied Khorne servants. Replaces Warp Territory belonging to another god. Hits enemies in this radius for 1/2/3 base damage by rank."/>
@@ -341,7 +341,7 @@
 	<entry name="ChaosDaemons_MT/CultistSacrificeSlaanesh" value="Cultist Sacrifice"/>
 	<entry name="ChaosDaemons_MT/CultistSacrificeSlaaneshDescription" value="Sacrifices the cultist unit to grant the targeted city +33% population growth for 10 turns. The city also gains +25% influence output for the same duration."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepGreatUncleanOne" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeep'/>"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepGreatUncleanOneDescription" value="Passive ability. If the Great Unclean One moved this turn, refreshes existing Warp Territory within 3 tiles to 5 turns."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepGreatUncleanOneDescription" value="Passive ability. If the Great Unclean One moved this turn, refreshes existing Warp Territory within 3 tiles to 3 turns. Costs 1 each of food, ore, energy and influence."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepGreatUncleanOneFlavor" value="<string name='Actions/ChaosDaemons_MT/WarpTerritory/WarpTerritoryUpkeepFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CursedRelicShotKhorne" value="Cursed Relic Shot"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CursedRelicShotKhorneDescription" value="Creates Warp Territory on one selected tile up to 3 tiles away. Costs 2 ore. Replaces Warp Territory belonging to another god."/>

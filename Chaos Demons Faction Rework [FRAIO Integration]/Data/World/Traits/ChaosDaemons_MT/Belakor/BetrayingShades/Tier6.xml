@@ -4,11 +4,14 @@
 		<modifier>
 			<conditions>
 				<player match="Any">
+					<upgrade name="ChaosDaemons_MT/AdvancedInfantry"/>
+					<upgrade name="ChaosDaemons_MT/BlastDamage"/>
+					<upgrade name="ChaosDaemons_MT/CorruptRealspace"/>
+					<upgrade name="ChaosDaemons_MT/ExtraVehicleArmour"/>
 					<upgrade name="ChaosDaemons_MT/LocusOfDelicateEvisceration"/>
 					<upgrade name="ChaosDaemons_MT/MeleeDamage"/>
 					<upgrade name="ChaosDaemons_MT/PlagueDrone"/>
-					<upgrade name="ChaosDaemons_MT/WarpTalon"/>
-					<upgrade name="ChaosDaemons_MT/CorruptRealspace"/>
+					<upgrade name="ChaosDaemons_MT/Screamer"/>
 				</player>
 			</conditions>
 			<effects>

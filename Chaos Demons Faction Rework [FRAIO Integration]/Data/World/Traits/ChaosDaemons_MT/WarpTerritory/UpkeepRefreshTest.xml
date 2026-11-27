@@ -21,7 +21,7 @@
 			</conditions>
 			<effects>
 				<removeFeature name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
-				<addFeature name="ChaosDaemons_MT/WarpTerritory/Khorne" duration="5"/>
+				<addFeature name="ChaosDaemons_MT/WarpTerritory/Khorne" duration="3"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -44,7 +44,7 @@
 			</conditions>
 			<effects>
 				<removeFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>
-				<addFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch" duration="5"/>
+				<addFeature name="ChaosDaemons_MT/WarpTerritory/Tzeentch" duration="3"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -67,7 +67,7 @@
 			</conditions>
 			<effects>
 				<removeFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh"/>
-				<addFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh" duration="5"/>
+				<addFeature name="ChaosDaemons_MT/WarpTerritory/Slaanesh" duration="3"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -90,7 +90,7 @@
 			</conditions>
 			<effects>
 				<removeFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle"/>
-				<addFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle" duration="5"/>
+				<addFeature name="ChaosDaemons_MT/WarpTerritory/Nurgle" duration="3"/>
 			</effects>
 		</modifier>
 	</perTurnModifiers>

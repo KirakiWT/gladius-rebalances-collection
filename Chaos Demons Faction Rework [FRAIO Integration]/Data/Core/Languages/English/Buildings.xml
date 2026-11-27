@@ -47,7 +47,7 @@
 	<entry name="ChaosDaemons_MT/ResearchFlavor" value="On Daemon worlds, storytellers tells of a warp-lost library that contains all of the thoughts of Tzeentch. In its richness, they say, it rivals the Aeldari’s Black Library or the meaningless infinity of the Library of Babel. Whether Tzeentch’s memoirs exist, an Archive of the Ways is a real-world reflection of that false-world myth—a place where truths can be created, not discovered."/>
 	
 	<entry name="ChaosDaemons_MT/Vehicles" value="Infernal Fabricator"/>
-	<entry name="ChaosDaemons_MT/VehiclesDescription" value="Produces Chaos Undivided ground vehicles and Heldrakes, and generates ore and influence. Heldrake production requires separate research."/>
+	<entry name="ChaosDaemons_MT/VehiclesDescription" value="Produces ground vehicles, including the Chaos Rhino. Generates ore and influence."/>
 	<entry name="ChaosDaemons_MT/VehiclesFlavor" value="Normally confined to the Soul Forges of the Warp, these incomprehensible mechanoid structures are responsible for the creation of all Daemon vehicles. Here, Mechatendril-wreathed Warpsmiths oversee the breaking and corruption of Machine Spirits of captured Imperial vehicles, as well as the forcible incorporation of Lesser Daemons, machinery and tortured flesh into Daemon Engines."/>
 	
 	<entry name="ChaosDaemons_MT/Khorne" value="The Arsenal"/>
@@ -66,4 +66,10 @@
 	<entry name="ChaosDaemons_MT/TzeentchDescription" value="Building that produces tzeentch units as well as generates energy and research. Units here cost mostly Energy."/>
 	<entry name="ChaosDaemons_MT/TzeentchFlavor" value="From hidden quarters, the Cult Magus orchestrates covert propagandists to spread teachings of his Dark God both profound and extraordinary."/>
 	
+	<entry name="ChaosDaemons_MT/AdvancedVehicles" value="Dark Forge"/>
+	<entry name="ChaosDaemons_MT/AdvancedInfantry" value="Hall of the Everchosen"/>
+	<entry name="ChaosDaemons_MT/AdvancedVehiclesDescription" value="Produces Heldrakes, Chaos Land Raiders and Lords of Skulls."/>
+	<entry name="ChaosDaemons_MT/AdvancedVehiclesFlavor" value="Blood for the furnaces. Ore for the tracks."/>
+	<entry name="ChaosDaemons_MT/AdvancedInfantryDescription" value="Produces Warp Talons, Chaos Terminators and Obliterators."/>
+	<entry name="ChaosDaemons_MT/AdvancedInfantryFlavor" value="Here the veterans await the order to march."/>
 </language>

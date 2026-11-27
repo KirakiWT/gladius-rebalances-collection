@@ -34,7 +34,7 @@
 	<entry name="ChaosDaemons_MT/ResearchDescription" value="Здание, генерирующее исследования."/>
 	<entry name="ChaosDaemons_MT/ResearchFlavor" value="На демонических мирах сказители рассказывают о потерянной в варпе библиотеке, содержащей все мысли Тзинча. По богатству, говорят они, она соперничает с Черной Библиотекой Эльдар или бессмысленной бесконечностью Вавилонской Библиотеки. Существуют ли мемуары Тзинча, Архив Путей является отражением этого мифа в реальном мире — местом, где истины можно создать, а не открыть."/>
 	<entry name="ChaosDaemons_MT/Vehicles" value="Адский конструктор"/>
-	<entry name="ChaosDaemons_MT/VehiclesDescription" value="Производит наземную технику Нерасколотого Хаоса и хелдрейков, а также приносит руду и влияние. Для производства хелдрейков требуется отдельное исследование."/>
+	<entry name="ChaosDaemons_MT/VehiclesDescription" value="Производит наземную технику, включая Носорог Хаоса. Приносит руду и влияние."/>
 	<entry name="ChaosDaemons_MT/VehiclesFlavor" value="Обычно ограниченные Душевными Кузницами Варпа, эти непостижимые механические структуры отвечают за создание всех демонических машин. Здесь варп-кузнецы, опутанные мехатендрилями, наблюдают за сломом и разложением Машинных Духов захваченных имперских машин, а также за насильственным включением Малых Демонов, механизмов и истязаемой плоти в Демонические Двигатели."/>
 	<entry name="ChaosDaemons_MT/Khorne" value="Арсенал"/>
 	<entry name="ChaosDaemons_MT/KhorneDescription" value="Здание, производящее юнитов Кхорна, а также вырабатывающее руду и немного влияния. Юниты здесь стоят руду и продовольствие."/>
@@ -48,4 +48,10 @@
 	<entry name="ChaosDaemons_MT/Tzeentch" value="Палаты Магуса"/>
 	<entry name="ChaosDaemons_MT/TzeentchDescription" value="Здание, производящее юнитов Тзинча, а также вырабатывающее энергию и исследования. Юниты здесь стоят в основном энергию."/>
 	<entry name="ChaosDaemons_MT/TzeentchFlavor" value="Из скрытых покоев Магус Культа координирует тайных пропагандистов для распространения учений своего Темного Бога — как глубоких, так и необычайных."/>
+	<entry name="ChaosDaemons_MT/AdvancedVehicles" value="Тёмная кузница"/>
+	<entry name="ChaosDaemons_MT/AdvancedInfantry" value="Зал Вечноизбранных"/>
+	<entry name="ChaosDaemons_MT/AdvancedVehiclesDescription" value="Производит Хель-Драконов, Лэндрейдеры Хаоса и Повелителей Черепов."/>
+	<entry name="ChaosDaemons_MT/AdvancedVehiclesFlavor" value="Кровь для печей. Руда для траков."/>
+	<entry name="ChaosDaemons_MT/AdvancedInfantryDescription" value="Производит Варповых Когтей, Терминаторов Хаоса и Облитераторов."/>
+	<entry name="ChaosDaemons_MT/AdvancedInfantryFlavor" value="Здесь ветераны ждут приказа выступать."/>
 </language>

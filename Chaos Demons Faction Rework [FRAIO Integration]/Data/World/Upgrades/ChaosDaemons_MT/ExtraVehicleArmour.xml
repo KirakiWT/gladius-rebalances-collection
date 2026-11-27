@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="7" icon="Traits/ExtraVehicleArmour">
+<upgrade position="6" icon="Traits/ExtraVehicleArmour">
 	<requiredUpgrades>
-		<upgrade name="ChaosDaemons_MT/Heldrake"/>
 		<upgrade name="ChaosDaemons_MT/Vehicles"/>
 	</requiredUpgrades>
 	<strategyModifiers>
