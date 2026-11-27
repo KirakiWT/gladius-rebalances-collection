@@ -218,7 +218,7 @@
 	<entry name="ChaosDaemons_MT/KhorneFlavor" value="<string name='Traits/ChaosDaemons_MT/KhorneFlavor'/>"/>
 	
 	<entry name="ChaosDaemons_MT/Slaanesh" value="<string name='Traits/ChaosDaemons_MT/Slaanesh'/>"/>
-	<entry name="ChaosDaemons_MT/SlaaneshDescription" value="Swears a unit to the service of Slaanesh. The mark grants +25% damage, and Harbinger of Lust adds another +25% against enemies below 75% health."/>
+	<entry name="ChaosDaemons_MT/SlaaneshDescription" value="Swears a unit to the service of Slaanesh. The mark grants +20% damage, and Harbinger of Lust adds another +30% against enemies below 50% health."/>
 	<entry name="ChaosDaemons_MT/SlaaneshFlavor" value="<string name='Traits/ChaosDaemons_MT/SlaaneshFlavor'/>"/>
 	
 	<entry name="ChaosDaemons_MT/Tzeentch" value="<string name='Traits/ChaosDaemons_MT/Tzeentch'/>"/>

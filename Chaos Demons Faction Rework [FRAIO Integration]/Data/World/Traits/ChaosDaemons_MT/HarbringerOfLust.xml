@@ -7,12 +7,12 @@
 				<encounter>
 					<opponent>
 						<enemy/>
-						<hitpointsFraction less="0.75"/>
+						<hitpointsFraction less="0.5"/>
 					</opponent>
 				</encounter>
 			</conditions>
 			<effects>
-				<damage mul="0.25"/>
+				<damage mul="0.30"/>
 			</effects>
 		</modifier>
 	</modifiers>

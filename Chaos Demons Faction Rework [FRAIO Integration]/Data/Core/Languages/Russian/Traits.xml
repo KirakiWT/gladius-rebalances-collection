@@ -117,7 +117,7 @@
 	<entry name="ChaosDaemons_MT/ShrivellingPoxDescription" value="Уменьшает наносимый урон. Получайте урон каждый ход."/>
 	<entry name="ChaosDaemons_MT/ShrivellingPoxFlavor" value="Пробормотав нечестивое песнопение на испорченном языке, демон призывает отвратительную зловредную тварь, которая проносится сквозь врагов, разрастается, как лесной пожар, и разъедает их плоть и органы, словно поток прожорливых личинок."/>
 	<entry name="ChaosDaemons_MT/Slaanesh" value="Слуга Слаанеша"/>
-	<entry name="ChaosDaemons_MT/SlaaneshDescription" value="+25% к урону, +1 к передвижению и −25% к максимальному здоровью."/>
+	<entry name="ChaosDaemons_MT/SlaaneshDescription" value="+20% к урону, +1 к передвижению и −25% к максимальному здоровью."/>
 	<entry name="ChaosDaemons_MT/SlaaneshFlavor" value="Острые ощущения от битвы заставляют этих воинов атаковать с невероятной скоростью."/>
 	<entry name="ChaosDaemons_MT/SoulGlutton" value="Пожиратель душ"/>
 	<entry name="ChaosDaemons_MT/SoulGluttonDescription" value="Восстанавливает здоровье при убийстве вражеского отряда."/>
@@ -239,7 +239,7 @@
 	<entry name="ChaosDaemons_MT/SmokeScreen/Tzeentch" value="Дымовая завеса: Тзинч"/>
 	<entry name="ChaosDaemons_MT/SmokeScreen/TzeentchDescription" value="Увеличивает снижение дальнего урона."/>
 	<entry name="ChaosDaemons_MT/HarbringerOfLust" value="Предвестник похоти"/>
-	<entry name="ChaosDaemons_MT/HarbringerOfLustDescription" value="Слуга Слаанеш получает дополнительно +25% к урону против врага, у которого осталось меньше 75% максимального здоровья."/>
+	<entry name="ChaosDaemons_MT/HarbringerOfLustDescription" value="Слуга Слаанеш получает дополнительно +30% к урону против врага, у которого осталось меньше 50% максимального здоровья."/>
 	<entry name="ChaosDaemons_MT/HarbringerOfLustFlavor" value="Последователи Слаанеш бьют туда, где добыча слабее всего."/>
 	<entry name="ChaosDaemons_MT/WarbandDiscipline" value="Дисциплина отряда"/>
 	<entry name="ChaosDaemons_MT/WarbandDisciplineDescription" value="Увеличивает здоровье на 10% и точность на 5%."/>
