@@ -260,6 +260,10 @@
 		</genericUnitAbility>
 			<genericUnitAbility name="ChaosDaemons_MT/BloodTide"
 				cooldown="8"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				requiredMovement="0"
+				consumedMovement="0"
 				icon="Actions/ChaosSpaceMarines/IconOfWrath"
 				rank="-1"
 				rankMax="2">
@@ -290,7 +294,7 @@
 										</unit>
 									</conditions>
 									<effects>
-										<weaponDamage weapon="ChaosDaemons_MT/TerritorySurge"/>
+										<weaponDamage weapon="ChaosDaemons_MT/BloodTide"/>
 									</effects>
 								</modifier>
 							</modifiers>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon icon="Actions/ChaosSpaceMarines/IconOfWrath" attributesModifiedByUnit="0">
+	<modifiers>
+		<modifier>
+			<effects>
+				<attacks add="1"/>
+				<rangedAccuracy min="12"/>
+				<rangedArmorPenetration add="99"/>
+				<rangedDamage addMin="4" addMax="10"/>
+				<strengthDamage base="0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</weapon>
