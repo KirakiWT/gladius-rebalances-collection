@@ -4,7 +4,6 @@
 		icon="Actions/ChaosSpaceMarines/MarkOfNurgle">
 	<model>
 		<effect blueprint="Effects/ChaosDaemons_MT/WarpTerritoryNurgle"/>
-		<smokeScreen blueprint="Effects/ChaosDaemons_MT/WarpTerritoryNurgleFlySpecks"/>
 	</model>
 	<traits>
 		<trait name="ChaosDaemons_MT/WarpTerritory/CrownNurgle"/>
