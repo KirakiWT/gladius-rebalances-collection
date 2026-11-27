@@ -3,7 +3,8 @@
 		category="None"
 		icon="Actions/ChaosSpaceMarines/MarkOfSlaanesh">
 	<model>
-		<effect blueprint="Effects/ChaosDaemons_MT/WarpTerritorySlaanesh"/>
+		<smokeScreen blueprint="Effects/ChaosDaemons_MT/WarpTerritorySlaanesh"/>
+		<effect blueprint="Effects/ChaosDaemons_MT/WarpTerritorySlaaneshGlitter"/>
 	</model>
 	<traits>
 		<trait name="ChaosDaemons_MT/WarpTerritory/CrownSlaanesh"/>

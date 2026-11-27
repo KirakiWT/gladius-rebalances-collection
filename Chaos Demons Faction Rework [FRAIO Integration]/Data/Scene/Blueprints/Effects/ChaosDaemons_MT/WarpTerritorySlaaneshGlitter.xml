@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simpleParticleSystem enabled="1" material="Effects/ChaosFire" variationCount="2 2">
+	<updateQueues>
+		<updateQueue name="Parallel3"/>
+	</updateQueues>
+	<renderQueues>
+		<renderQueue name="GlowingSimpleParticleSystems"/>
+	</renderQueues>
+	<emitters>
+		<sphereEmitter emissionVolumeMin="-95 -68 43" emissionVolumeMax="95 68 77" particleLifeTimeMin="0.45" particleLifeTimeMax="0.95" particleSizeMin="3 3" particleSizeMax="8 8" particleVelocityMin="9" particleVelocityMax="23" spawns="2" interval="0.54"/>
+	</emitters>
+	<affectors>
+		<colorAffector>
+			<colors>
+				<color value="0.65 0.15 0.9 0" progress="0.0"/>
+				<color value="1 0.55 0.88 0.75" progress="0.15"/>
+				<color value="0.82 0.32 1 0.28" progress="0.65"/>
+				<color value="0.53 0.12 0.8 0" progress="1.0"/>
+			</colors>
+		</colorAffector>
+	</affectors>
+</simpleParticleSystem>

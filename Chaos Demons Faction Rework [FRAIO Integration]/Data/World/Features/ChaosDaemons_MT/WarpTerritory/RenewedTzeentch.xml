@@ -3,7 +3,8 @@
 		category="None"
 		icon="Actions/ChaosSpaceMarines/MarkOfTzeentch">
 	<model>
-		<effect blueprint="Effects/ChaosDaemons_MT/WarpTerritoryTzeentch"/>
+		<smokeScreen blueprint="Effects/ChaosDaemons_MT/WarpTerritoryTzeentch"/>
+		<effect blueprint="Effects/ChaosDaemons_MT/WarpTerritoryTzeentchArcFlashes"/>
 	</model>
 	<traits>
 		<trait name="ChaosDaemons_MT/WarpTerritory/Tzeentch"/>

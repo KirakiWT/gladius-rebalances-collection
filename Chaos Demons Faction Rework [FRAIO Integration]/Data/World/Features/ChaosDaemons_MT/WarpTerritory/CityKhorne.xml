@@ -3,7 +3,8 @@
 		category="None"
 		icon="Actions/ChaosSpaceMarines/MarkOfKhorne">
 	<model>
-		<effect blueprint="Effects/ChaosDaemons_MT/WarpTerritoryKhorne"/>
+		<smokeScreen blueprint="Effects/ChaosDaemons_MT/WarpTerritoryKhorne"/>
+		<effect blueprint="Effects/ChaosDaemons_MT/WarpTerritoryKhorneBloodClouds"/>
 	</model>
 	<traits>
 		<trait name="ChaosDaemons_MT/WarpTerritory/Khorne"/>
