@@ -6,7 +6,7 @@
 				<attacks add="1"/>
 				<rangedAccuracy min="12"/>
 				<rangedArmorPenetration add="99"/>
-				<rangedDamage addMin="4" addMax="10"/>
+				<rangedDamage addMin="1" addMax="3"/>
 				<strengthDamage base="0"/>
 			</effects>
 		</modifier>
