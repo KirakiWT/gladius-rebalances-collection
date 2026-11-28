@@ -724,26 +724,8 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-		<genericUnitAbility name="ChaosDaemons_MT/DaemonHeroRivalry" passive="1" visible="0" icon="Units/ChaosDaemons_MT/Bloodthirster">
-			<beginTargets>
-				<selfTarget>
-					<areas>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addTrait name="ChaosDaemons_MT/DaemonHeroRivalry/Food"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</selfTarget>
-			</beginTargets>
-		</genericUnitAbility>
 	</actions>
 	<traits>
-		<trait name="ChaosDaemons_MT/DaemonHeroRivalry"/>
 		<trait name="Daemon"/>
 		<trait name="ChaosDaemons_MT/DaemonicResilience" requiredUpgrade="ChaosDaemons_MT/ExtraInfantryArmour"/>
 		<trait name="Hero"/>

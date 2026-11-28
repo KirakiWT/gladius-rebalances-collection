@@ -7,6 +7,7 @@
 					<unitsInRange count="1" range="100">
 						<allied/>
 						<trait name="ChaosDaemons_MT/DaemonHeroRivalry"/>
+						<noTrait name="ChaosDaemons_MT/Undivided"/>
 					</unitsInRange>
 				</unit>
 			</conditions>
@@ -21,6 +22,7 @@
 					<unitsInRange count="2" range="100">
 						<allied/>
 						<trait name="ChaosDaemons_MT/DaemonHeroRivalry"/>
+						<noTrait name="ChaosDaemons_MT/Undivided"/>
 					</unitsInRange>
 				</unit>
 			</conditions>
@@ -35,6 +37,7 @@
 					<unitsInRange count="3" range="100">
 						<allied/>
 						<trait name="ChaosDaemons_MT/DaemonHeroRivalry"/>
+						<noTrait name="ChaosDaemons_MT/Undivided"/>
 					</unitsInRange>
 				</unit>
 			</conditions>
@@ -49,10 +52,12 @@
 					<unitsInRange count="1" range="0">
 						<allied/>
 						<trait name="ChaosDaemons_MT/DaemonHeroRivalry"/>
+						<noTrait name="ChaosDaemons_MT/Undivided"/>
 					</unitsInRange>
 					<unitsInRange count="1" range="100">
 						<allied/>
 						<trait name="ChaosDaemons_MT/DaemonHeroRivalry"/>
+						<noTrait name="ChaosDaemons_MT/Undivided"/>
 					</unitsInRange>
 				</unit>
 			</conditions>
@@ -67,10 +72,12 @@
 					<unitsInRange count="1" range="0">
 						<allied/>
 						<trait name="ChaosDaemons_MT/DaemonHeroRivalry"/>
+						<noTrait name="ChaosDaemons_MT/Undivided"/>
 					</unitsInRange>
 					<unitsInRange count="2" range="100">
 						<allied/>
 						<trait name="ChaosDaemons_MT/DaemonHeroRivalry"/>
+						<noTrait name="ChaosDaemons_MT/Undivided"/>
 					</unitsInRange>
 				</unit>
 			</conditions>
@@ -85,10 +92,12 @@
 					<unitsInRange count="1" range="0">
 						<allied/>
 						<trait name="ChaosDaemons_MT/DaemonHeroRivalry"/>
+						<noTrait name="ChaosDaemons_MT/Undivided"/>
 					</unitsInRange>
 					<unitsInRange count="4" range="100">
 						<allied/>
 						<trait name="ChaosDaemons_MT/DaemonHeroRivalry"/>
+						<noTrait name="ChaosDaemons_MT/Undivided"/>
 					</unitsInRange>
 				</unit>
 			</conditions>
