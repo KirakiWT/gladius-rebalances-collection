@@ -176,7 +176,7 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-		<genericUnitAbility cooldown="1"
+		<genericUnitAbility cooldown="3"
 				name="ChaosDaemons_MT/FleshyAbundance"
 				icon="Actions/OrationOfRestoration"
 				consumedActionPoints="0" 
@@ -198,6 +198,8 @@
 									<conditions>
 										<unit>
 											<allied/>
+											<noTrait name="ChaosDaemons_MT/FleshyAbundance"/>
+											<noTrait name="ChaosDaemons_MT/FleshyAbundanceHerald"/>
 										</unit>
 									</conditions>
 									<effects>

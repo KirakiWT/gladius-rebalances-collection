@@ -184,7 +184,7 @@
 				</target>
 			</beginTargets>
 		</giftOfContagion>
-		<catalyst cooldown="1"
+		<catalyst cooldown="3"
 				name="ChaosDaemons_MT/FleshyAbundanceHerald"
 				icon="Actions/OrationOfRestoration"
 				rank="-1"
@@ -207,6 +207,16 @@
 								<modifier>
 									<effects>
 										<hitpoints addMin="2" addMax="6"/>
+									</effects>
+								</modifier>
+								<modifier>
+									<conditions>
+										<unit>
+											<noTrait name="ChaosDaemons_MT/FleshyAbundance"/>
+											<noTrait name="ChaosDaemons_MT/FleshyAbundanceHerald"/>
+										</unit>
+									</conditions>
+									<effects>
 										<addTrait name="ChaosDaemons_MT/FleshyAbundanceHerald" duration="3"/>
 									</effects>
 								</modifier>
