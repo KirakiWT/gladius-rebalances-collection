@@ -12,7 +12,7 @@
 				</unit>
 			</conditions>
 			<effects>
-				<energyUpkeep add="24"/>
+				<energyUpkeep add="32"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -26,7 +26,7 @@
 				</unit>
 			</conditions>
 			<effects>
-				<energyUpkeep add="30"/>
+				<energyUpkeep add="40"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -40,7 +40,7 @@
 				</unit>
 			</conditions>
 			<effects>
-				<energyUpkeep add="30"/>
+				<energyUpkeep add="40"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -59,7 +59,7 @@
 				</unit>
 			</conditions>
 			<effects>
-				<energyUpkeep add="-24"/>
+				<energyUpkeep add="-32"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -78,7 +78,7 @@
 				</unit>
 			</conditions>
 			<effects>
-				<energyUpkeep add="-6"/>
+				<energyUpkeep add="-8"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -97,7 +97,7 @@
 				</unit>
 			</conditions>
 			<effects>
-				<energyUpkeep add="30"/>
+				<energyUpkeep add="40"/>
 			</effects>
 		</modifier>
 	</modifiers>

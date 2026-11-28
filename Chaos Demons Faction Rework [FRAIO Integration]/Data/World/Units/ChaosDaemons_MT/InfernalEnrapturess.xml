@@ -35,8 +35,8 @@
 				<foodCost base="45"/>
 				<energyCost base="45"/>
 				<influenceCost base="90"/>
-				<energyUpkeep base="3"/>
-				<influenceUpkeep base="3"/>
+				<energyUpkeep base="4"/>
+				<influenceUpkeep base="4"/>
 				<rangedAccuracy base="8"/>
 				<itemSlots base="6"/>
 				<levelMax base="9"/>
