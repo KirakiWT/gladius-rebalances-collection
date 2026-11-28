@@ -306,6 +306,7 @@
 		<trait name="Hero1"/>
 		<trait name="Fearless"/>
 		<trait name="HitAndRun"/>
+		<trait name="Skimmer"/>
 		<trait name="Unique"/>
 	</traits>
 </unit>

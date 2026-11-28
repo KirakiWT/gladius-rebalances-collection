@@ -224,4 +224,6 @@
 
 
 
+	<entry name="MasterOfPossessionForceStave" value="<string name='Weapons/ForceStave'/>"/>
+	<entry name="MasterOfPossessionForceStaveFlavor" value="<string name='Weapons/ForceStaveFlavor'/>"/>
 </language>

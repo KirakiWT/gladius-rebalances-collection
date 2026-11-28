@@ -112,4 +112,5 @@
 	
 	<entry name="ChaosDaemons_MT/TerritorySurge" value="Warp Surge"/>
 	<entry name="ChaosDaemons_MT/BloodTide" value="Blood Tide"/>
+	<entry name="ChaosDaemons_MT/PavaneOfExcess" value="<string name='Actions/ChaosDaemons_MT/PavaneOfExcess'/>"/>
 </language>

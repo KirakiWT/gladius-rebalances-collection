@@ -297,6 +297,12 @@
 						<area affects="Unit" radius="2">
 							<modifiers>
 								<modifier>
+									<conditions>
+										<unit>
+											<allied/>
+											<faction name="AdeptusMechanicus"/>
+										</unit>
+									</conditions>
 									<effects>
 										<addTrait duration="2" name="AdeptusMechanicus/GalvanicField"/>
 									</effects>

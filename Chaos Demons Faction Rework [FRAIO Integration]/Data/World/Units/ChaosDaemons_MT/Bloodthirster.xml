@@ -42,7 +42,8 @@
 				<foodCost base="40"/>
 				<oreCost base="100"/>
 				<influenceCost base="240"/>
-				<oreUpkeep base="5"/>
+				<energyUpkeep base="3"/>
+				<oreUpkeep base="3"/>
 				<rangedAccuracy base="10"/>
 				<itemSlots base="6"/>
 				<levelMax base="9"/>
@@ -863,7 +864,6 @@
 		<trait name="Hero"/>
 		<trait name="MonstrousCreature"/>
 		<trait name="MoveThroughCover"/>
-		<trait name="Relentless"/>
 		<trait name="Smash"/>
 		<trait name="Hero"/>
 		<trait name="Fleet"/>

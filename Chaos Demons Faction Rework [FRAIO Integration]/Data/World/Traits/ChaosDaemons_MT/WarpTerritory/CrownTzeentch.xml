@@ -10,6 +10,7 @@
 				<unit match="Any">
 					<trait name="ChaosDaemons_MT/Tzeentch"/>
 					<type name="ChaosDaemons_MT/Belakor"/>
+					<faction name="ChaosSpaceMarines"/>
 				</unit>
 			</conditions>
 			<effects>
@@ -29,17 +30,6 @@
 				<foodUpkeep mul="-0.25"/>
 				<energyUpkeep mul="-0.25"/>
 				<influenceUpkeep mul="-0.25"/>
-			</effects>
-		</modifier>
-		<modifier>
-			<conditions>
-				<unit>
-					<allied/>
-					<faction name="ChaosDaemons_MT"/>
-				</unit>
-			</conditions>
-			<effects>
-				<invulnerableDamageReduction min="0.33"/>
 			</effects>
 		</modifier>
 	</modifiers>

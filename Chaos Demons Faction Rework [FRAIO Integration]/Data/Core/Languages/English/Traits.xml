@@ -83,7 +83,7 @@
 	<entry name="ChaosDaemons_MT/DisciplineFlavor" value="<string name='Traits/DisciplineFlavor'/>"/>
 
 	<entry name="ChaosDaemons_MT/DreadMarshal" value="Dread Marshal"/>
-	<entry name="ChaosDaemons_MT/DreadMarshalDescription" value="Increase damage."/>
+	<entry name="ChaosDaemons_MT/DreadMarshalDescription" value="Deal 17% more damage and lose 33% less morale."/>
 	<entry name="ChaosDaemons_MT/DreadMarshalFlavor" value="This mighty warrior has proved their devotion to Be’lakor above all, and their loyalty has been rewarded with a host of warriors to command."/>
 	
 	<entry name="ChaosDaemons_MT/DreadMarshalKhorne" value="<string name='Traits/ChaosDaemons_MT/DreadMarshal'/>"/>
@@ -352,7 +352,7 @@
 	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="+20% damage."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2Flavor" value="At the height of its power a greater daemon stands against war engines and titans."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/Khorne" value="Blood Territory — Favour"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneDescription" value="Allied Khorne servants: +1 movement. Technologies improve it: Corrupt Realspace (allies); Daemonic Terror (enemies). Allied Khorne servants deal 5% more damage."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneDescription" value="Allied Khorne servants: +1 movement. Technologies improve it: Corrupt Realspace (allies); Daemonic Terror (enemies). Allied Khorne servants deal 5% more damage. Allied Chaos Space Marines receive the same bonuses."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneEnemy" value="Blood Territory — Affliction"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneEnemyDescription" value="Enemies: increased morale loss and −10% attacks. Daemonic Terror deals damage each turn. Enemies deal 5% more damage."/>
@@ -361,7 +361,7 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneRivalDescription" value="Servants of the rival god lose morale each turn."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneRivalFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/Tzeentch" value="Flux Territory — Favour"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchDescription" value="Allied Tzeentch servants: +10% ranged accuracy and +17% ranged damage reduction. Technologies improve it: Corrupt Realspace (allies); Daemonic Terror (enemies)."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchDescription" value="Allied Tzeentch servants: +10% ranged accuracy and +17% ranged damage reduction. Technologies improve it: Corrupt Realspace (allies); Daemonic Terror (enemies). Allied Chaos Space Marines receive the same bonuses."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchEnemy" value="Flux Territory — Affliction"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchEnemyDescription" value="Enemies: −17% accuracy and −17% ranged damage reduction. Daemonic Terror deals damage each turn."/>
@@ -370,7 +370,7 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchRivalDescription" value="Servants of the rival god lose morale each turn."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchRivalFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/Slaanesh" value="Excess Territory — Favour"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshDescription" value="Allied Slaanesh servants: +10% damage and +17% melee damage reduction. Technologies improve it: Corrupt Realspace (allies); Daemonic Terror (enemies)."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshDescription" value="Allied Slaanesh servants: +10% damage and +17% melee damage reduction. Technologies improve it: Corrupt Realspace (allies); Daemonic Terror (enemies). Allied Chaos Space Marines receive the same bonuses."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshEnemy" value="Excess Territory — Affliction"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshEnemyDescription" value="Enemies: −1 movement and −10% damage. Daemonic Terror deals damage each turn."/>
@@ -379,7 +379,7 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshRivalDescription" value="Servants of the rival god lose morale each turn."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshRivalFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/Nurgle" value="Plague Territory — Favour"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleDescription" value="Allied Nurgle servants: increased healing and +1 armour. Technologies improve it: Corrupt Realspace (allies); Daemonic Terror (enemies)."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleDescription" value="Allied Nurgle servants: increased healing and +1 armour. Technologies improve it: Corrupt Realspace (allies); Daemonic Terror (enemies). Allied Chaos Space Marines receive the same bonuses."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleFlavor" value="Where the warp bleeds into realspace, the will of a god takes root. It fades unless a servant of Chaos stands near to feed it."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleEnemy" value="Plague Territory — Affliction"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleEnemyDescription" value="Enemies: reduced armor and healing. Daemonic Terror deals damage each turn."/>
@@ -420,21 +420,23 @@
 	<entry name="ChaosDaemons_MT/Belakor/ShadowPactDescription" value="Grants 10–20% ranged damage reduction depending on rank."/>
 	<entry name="ChaosDaemons_MT/Belakor/ShadowPactFlavor" value="Shadows serve those who know their price."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownKhorne" value="Crown Territory — Khorne (blessing)"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/CrownKhorneDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/KhorneDescription'/> Allied Chaos Daemons gain at least 33% invulnerable damage reduction."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CrownKhorneDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/KhorneDescription'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownKhorneEnemy" value="Crown Territory — Khorne (oppression)"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownKhorneEnemyDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/KhorneEnemyDescription'/> Enemy psykers outside the Chaos Daemons faction lose 10% of maximum hit points each turn."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownNurgle" value="Crown Territory — Nurgle (blessing)"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/CrownNurgleDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/NurgleDescription'/> Allied Chaos Daemons gain at least 33% invulnerable damage reduction."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CrownNurgleDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/NurgleDescription'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownNurgleEnemy" value="Crown Territory — Nurgle (oppression)"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownNurgleEnemyDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/NurgleEnemyDescription'/> Enemy psykers outside the Chaos Daemons faction lose 10% of maximum hit points each turn."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownSlaanesh" value="Crown Territory — Slaanesh (blessing)"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/CrownSlaaneshDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/SlaaneshDescription'/> Allied Chaos Daemons gain at least 33% invulnerable damage reduction."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CrownSlaaneshDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/SlaaneshDescription'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownSlaaneshEnemy" value="Crown Territory — Slaanesh (oppression)"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownSlaaneshEnemyDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/SlaaneshEnemyDescription'/> Enemy psykers outside the Chaos Daemons faction lose 10% of maximum hit points each turn."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownTzeentch" value="Crown Territory — Tzeentch (blessing)"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/CrownTzeentchDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/TzeentchDescription'/> Allied Chaos Daemons gain at least 33% invulnerable damage reduction."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CrownTzeentchDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/TzeentchDescription'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownTzeentchEnemy" value="Crown Territory — Tzeentch (oppression)"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownTzeentchEnemyDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/TzeentchEnemyDescription'/> Enemy psykers outside the Chaos Daemons faction lose 10% of maximum hit points each turn."/>
-	<entry name="ChaosDaemons_MT/DaemonicRivalry" value="Rivalry of Greater Daemons"/>
-	<entry name="ChaosDaemons_MT/DaemonicRivalryDescription" value="Each Greater Daemon counts itself and allied bearers of this trait within 100 tiles, including others of its own kind. One pays normal upkeep. With two, each pays 5 times its usual upkeep. With three, each pays 10 times upkeep, and with four or more, 15 times. Be’lakor does not count."/>
+	<entry name="ChaosDaemons_MT/DaemonicRivalry" value="Daemonic Rivalry"/>
+	<entry name="ChaosDaemons_MT/DaemonicRivalryDescription" value="Each bearer counts itself and allied bearers within 100 tiles. Upkeep is normal for one bearer, 5 times higher for two, 10 times higher for three and 15 times higher for four or more. Be’lakor does not count."/>
+	<entry name="ChaosDaemons_MT/FleshyAbundanceHerald" value="<string name='Traits/ChaosDaemons_MT/FleshyAbundance'/>"/>
+	<entry name="ChaosDaemons_MT/FleshyAbundanceHeraldDescription" value="Restores health every turn."/>
 </language>

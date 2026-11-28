@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <trait alwaysVisible="1" category="Buff" icon="Traits/ChaosSpaceMarines/RunesOfTheBloodGod">
-	<modifiers>
-		<modifier>
-			<effects>
-				<orePerKillValue add="2"/>
-			</effects>
-		</modifier>
-	</modifiers>
 	<onEnemyKilledSelfModifiers>
 		<modifier>
 			<conditions>

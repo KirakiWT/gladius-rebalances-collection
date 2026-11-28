@@ -56,4 +56,5 @@
 	<entry name="ChaosDaemons_MT/WitstealerSword" value="Клинок, похищающий разум"/>
 	<entry name="ChaosDaemons_MT/TerritorySurge" value="Всплеск варпа"/>
 	<entry name="ChaosDaemons_MT/BloodTide" value="Кровавый прилив"/>
+	<entry name="ChaosDaemons_MT/PavaneOfExcess" value="<string name='Actions/ChaosDaemons_MT/PavaneOfExcess'/>"/>
 </language>

@@ -12,7 +12,7 @@
 				walker="1"/>
 	</model>
 	<weapons>
-		<weapon name="ForceStave">
+		<weapon name="MasterOfPossessionForceStave">
 			<model>
 				<powerWeapon effectBlueprint="Effects/ChaosForceWeapon"
 						effectBoundingVolume="Staff"
@@ -38,11 +38,23 @@
 				<moraleMax base="12"/> <!-- %moraleMax base leadership=9 -->
 				<movementMax base="3"/>
 				<productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
-				<foodUpkeep base="1.5"/>
+				<energyUpkeep base="3"/>
+				<foodUpkeep base="3"/>
 				<rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
-				<energyUpkeep base="1.5"/> <!-- %energyUpkeep base tier=7 factor=1 -->
 				<energyCost base="30.0"/> <!-- %energyCost base tier=7 factor=0.5 -->
 				<foodCost base="30.0"/> <!-- %foodCost base tier=7 factor=0.5 -->
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<noTrait name="Flyer"/>
+					<noTrait name="MonstrousCreature"/>
+					<noTrait name="Vehicle"/>
+				</unit>
+			</conditions>
+			<effects>
+				<heroDamageReduction add="-0.5"/>
 			</effects>
 		</modifier>
 	</modifiers>
@@ -724,8 +736,26 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-</actions>
+		<genericUnitAbility name="ChaosDaemons_MT/DaemonicRivalry" passive="1" visible="0" icon="Units/ChaosDaemons_MT/Bloodthirster">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/DaemonicRivalry/GreatUncleanOne"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+	</actions>
 	<traits>
+		<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
 		<trait name="Daemon"/>
 		<trait name="ChaosDaemons_MT/DaemonicResilience" requiredUpgrade="ChaosDaemons_MT/ExtraInfantryArmour"/>
 		<trait name="Hero"/>

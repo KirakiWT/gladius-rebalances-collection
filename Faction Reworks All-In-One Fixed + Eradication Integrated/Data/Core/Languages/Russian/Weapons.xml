@@ -111,4 +111,6 @@
 	<entry name="HellBreathFlavor" value="Поток психического пламени изрыгается из глаз и рта псайкера, поглощая цель."/>
 	<entry name="HellBeam" value="Адский луч"/>
 	<entry name="HellBeamFlavor" value="Демон призывает ослепительно-белый луч пылающей энергии. Он превращает броню в шлак и испаряет плоть, оставляя после себя лишь жуткие тени."/>
+	<entry name="MasterOfPossessionForceStave" value="<string name='Weapons/ForceStave'/>"/>
+	<entry name="MasterOfPossessionForceStaveFlavor" value="<string name='Weapons/ForceStaveFlavor'/>"/>
 </language>

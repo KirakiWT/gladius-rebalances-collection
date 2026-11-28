@@ -32,7 +32,7 @@
 	<modifiers>
 		<modifier visible="0">
 			<effects>
-				<armor base="6"/>
+				<armor base="5"/>
 				<hitpointsMax base="12"/>
 				<meleeAccuracy base="8"/>
 				<meleeAttacks base="3"/>
@@ -43,7 +43,7 @@
 				<foodCost base="30"/>
 				<energyCost base="75"/>
 				<influenceCost base="100"/>
-				<energyUpkeep base="7"/>
+				<energyUpkeep base="6"/>
 				<rangedAccuracy base="8"/>
 				<itemSlots base="6"/>
 				<levelMax base="9"/>
@@ -67,6 +67,18 @@
 			<effects>
 			</effects>
 		</modifier>	
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<noTrait name="Flyer"/>
+					<noTrait name="MonstrousCreature"/>
+					<noTrait name="Vehicle"/>
+				</unit>
+			</conditions>
+			<effects>
+				<heroDamageReduction add="-0.5"/>
+			</effects>
+		</modifier>
 	</modifiers>
 	<strategyModifiers>
 		<modifier>
@@ -173,7 +185,7 @@
 						endFire="1.33"/>
 			</model>
 		</moltenBeam>
-		<objurationMechanicum cooldown="2"
+		<objurationMechanicum cooldown="3"
 				levelUpPriority="0.1"
 				name="ChaosDaemons_MT/WeaponCurse"
 				icon="Traits/GetsHot"
@@ -195,7 +207,6 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<hitpoints addMin="-4" addMax="-12"/>
 										<addTrait name="ChaosDaemons_MT/WeaponCurse" duration="3"/>
 									</effects>
 								</modifier>
@@ -737,8 +748,26 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-</actions>
+		<genericUnitAbility name="ChaosDaemons_MT/DaemonicRivalry" passive="1" visible="0" icon="Units/ChaosDaemons_MT/Bloodthirster">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/DaemonicRivalry/LordOfChange"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+	</actions>
 	<traits>
+		<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
 		<trait name="Daemon"/>
 		<trait name="Hero"/>
 		<trait name="Psyker"/>

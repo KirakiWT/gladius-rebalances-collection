@@ -28,7 +28,7 @@
 	<entry name="ChaosDaemons_MT/TzeentchFlavor" value="<string name='Buildings/ChaosDaemons_MT/TzeentchFlavor'/>"/>
 
 	<entry name="ChaosDaemons_MT/Heroes" value="<string name='Buildings/ChaosDaemons_MT/Heroes'/>"/>
-	<entry name="ChaosDaemons_MT/HeroesDescription" value="<string name='Buildings/ChaosDaemons_MT/HeroesDescription'/>"/>
+	<entry name="ChaosDaemons_MT/HeroesDescription" value="Unlocks recruitment of the Chaos Lord in the Lord’s Chambers."/>
 	<entry name="ChaosDaemons_MT/HeroesFlavor" value="<string name='Buildings/ChaosDaemons_MT/HeroesFlavor'/>"/>
 
 	<entry name="ChaosDaemons_MT/Vehicles" value="<string name='Buildings/ChaosDaemons_MT/Vehicles'/>"/>

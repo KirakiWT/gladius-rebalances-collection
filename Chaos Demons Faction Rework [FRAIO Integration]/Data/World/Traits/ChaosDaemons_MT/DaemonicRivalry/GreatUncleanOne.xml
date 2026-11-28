@@ -11,7 +11,8 @@
 				</unit>
 			</conditions>
 			<effects>
-				<foodUpkeep add="20"/>
+				<energyUpkeep add="12"/>
+				<foodUpkeep add="12"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -24,7 +25,8 @@
 				</unit>
 			</conditions>
 			<effects>
-				<foodUpkeep add="25"/>
+				<energyUpkeep add="15"/>
+				<foodUpkeep add="15"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -37,7 +39,8 @@
 				</unit>
 			</conditions>
 			<effects>
-				<foodUpkeep add="25"/>
+				<energyUpkeep add="15"/>
+				<foodUpkeep add="15"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -54,7 +57,8 @@
 				</unit>
 			</conditions>
 			<effects>
-				<foodUpkeep add="-20"/>
+				<energyUpkeep add="-12"/>
+				<foodUpkeep add="-12"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -71,7 +75,8 @@
 				</unit>
 			</conditions>
 			<effects>
-				<foodUpkeep add="-5"/>
+				<energyUpkeep add="-3"/>
+				<foodUpkeep add="-3"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -88,7 +93,8 @@
 				</unit>
 			</conditions>
 			<effects>
-				<foodUpkeep add="25"/>
+				<energyUpkeep add="15"/>
+				<foodUpkeep add="15"/>
 			</effects>
 		</modifier>
 	</modifiers>

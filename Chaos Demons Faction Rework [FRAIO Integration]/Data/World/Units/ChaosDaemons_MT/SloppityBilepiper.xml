@@ -37,7 +37,8 @@
 				<foodCost base="75"/>
 				<energyCost base="30"/>
 				<influenceCost base="100"/>
-				<foodUpkeep base="6"/>
+				<energyUpkeep base="3"/>
+				<foodUpkeep base="3"/>
 				<rangedAccuracy base="8"/>
 				<itemSlots base="6"/>
 				<levelMax base="9"/>
@@ -61,6 +62,18 @@
 			<effects>
 			</effects>
 		</modifier>	
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<noTrait name="Flyer"/>
+					<noTrait name="MonstrousCreature"/>
+					<noTrait name="Vehicle"/>
+				</unit>
+			</conditions>
+			<effects>
+				<heroDamageReduction add="-0.5"/>
+			</effects>
+		</modifier>
 	</modifiers>
 	<strategyModifiers>
 		<modifier>
@@ -161,7 +174,7 @@
 						sound="Actions/ChaosDebuff"/>
 			</model>
 			<beginTargets>
-				<target rangeMax="3">
+				<target rangeMax="2">
 					<conditions>
 						<unit>
 							<enemy/>
@@ -205,8 +218,8 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<hitpoints addMin="2" addMax="4"/>
-										<addTrait name="ChaosDaemons_MT/FleshyAbundance" duration="3"/>
+										<hitpoints addMin="2" addMax="6"/>
+										<addTrait name="ChaosDaemons_MT/FleshyAbundanceHerald" duration="3"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -689,8 +702,26 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-</actions>
+		<genericUnitAbility name="ChaosDaemons_MT/DaemonicRivalry" passive="1" visible="0" icon="Units/ChaosDaemons_MT/Bloodthirster">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/DaemonicRivalry/GreatUncleanOne"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+	</actions>
 	<traits>
+		<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
 		<trait name="Daemon"/>
 		<trait name="Hero"/>
 		<trait name="Psyker"/>

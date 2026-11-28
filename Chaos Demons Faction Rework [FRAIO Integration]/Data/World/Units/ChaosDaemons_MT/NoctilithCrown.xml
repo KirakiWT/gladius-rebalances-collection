@@ -44,6 +44,24 @@
 	<strategyModifiers>
 	</strategyModifiers>
 	<actions>
+		<genericUnitAbility name="ChaosDaemons_MT/LoathsomeAura"
+				passive="1">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="1" excludeRadius="0">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="ChaosDaemons_MT/LoathsomeAura"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
 		<genericUnitAbility cooldown="0" name="ChaosDaemons_MT/WarpTerritory/NoctilithCrownMarkNurgle" icon="Actions/ChaosSpaceMarines/IconOfDespair" requiredMovement="0" consumedMovement="0" requiredActionPoints="0" consumedActionPoints="0">
 			<model>
 				<action sound="Interface/MarkOfChaos"/>

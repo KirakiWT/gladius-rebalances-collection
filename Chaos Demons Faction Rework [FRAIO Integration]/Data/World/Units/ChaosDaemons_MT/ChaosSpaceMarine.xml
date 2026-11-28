@@ -490,7 +490,7 @@
 
 	</actions>
 	<traits>
-		<trait name="ChaosSpaceMarines/MaliciousVolleys"/>
+		<trait name="ChaosSpaceMarines/LeaderOfChaos"/>
 		<trait name="ChaosDaemons_MT/WarbandDiscipline" requiredUpgrade="ChaosDaemons_MT/ExtraInfantryArmour"/>
 		<trait name="ChaosDaemons_MT/Undivided"/>
 	</traits>

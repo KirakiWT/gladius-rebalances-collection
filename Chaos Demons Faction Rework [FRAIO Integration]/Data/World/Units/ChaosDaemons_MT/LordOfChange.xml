@@ -207,7 +207,7 @@
 				</selfTarget>
 			</beginTargets>
 		</infernalPower>
-		<moltenBeam cooldown="2"
+		<moltenBeam cooldown="3"
 				psychicPower="1"
 				weaponSlotName="BoltOfChange">
 			<model>
@@ -217,7 +217,7 @@
 						endFire="1"/>
 			</model>
 		</moltenBeam>
-		<psychicMaelstrom cooldown="2"
+		<psychicMaelstrom cooldown="3"
 				psychicPower="1"
 				weaponSlotName="EyeOfTzeentch">
 			<model>
@@ -885,7 +885,6 @@
 		<trait name="MonstrousCreature"/>
 		<trait name="MoveThroughCover"/>
 		<trait name="Psyker"/>
-		<trait name="Relentless"/>
 		<trait name="Smash"/>
 		<trait name="Hero"/>
 		<trait name="ChaosDaemons_MT/Tzeentch"/>

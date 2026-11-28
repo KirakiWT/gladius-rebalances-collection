@@ -19,7 +19,7 @@
 	<entry name="ChaosDaemons_MT/EldritchStrengthDescription" value="Увеличивает количество атак союзного не-геройского отряда демонов Хаоса."/>
 	<entry name="ChaosDaemons_MT/EldritchStrengthFlavor" value="<string name='Traits/ChaosDaemons_MT/EldritchStrengthFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/WeaponCurse" value="<string name='Traits/ChaosDaemons_MT/WeaponCurse'/>"/>
-	<entry name="ChaosDaemons_MT/WeaponCurseDescription" value="Наносит урон врагу и накладывает на него проклятие, из-за которого его атаки наносят урон ему самому."/>
+	<entry name="ChaosDaemons_MT/WeaponCurseDescription" value="Проклинает врага. Его атаки наносят урон ему самому."/>
 	<entry name="ChaosDaemons_MT/WeaponCurseFlavor" value="<string name='Traits/ChaosDaemons_MT/WeaponCurseFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/SkullsBegetBlood" value="<string name='Traits/ChaosDaemons_MT/SkullsBegetBlood'/>"/>
 	<entry name="ChaosDaemons_MT/SkullsBegetBloodDescription" value="<string name='Traits/ChaosDaemons_MT/SkullsBegetBloodDescription'/>"/>
@@ -37,7 +37,7 @@
 	<entry name="ChaosDaemons_MT/WarpRiftTeleportDescription" value="Перемещает отряд между союзными штабами, варп-порталами и Ноктилитовыми коронами. Для использования корон нужны «Узлы варпа»."/>
 	<entry name="ChaosDaemons_MT/WarpRiftTeleportFlavor" value="Демонические легионы разрывают ткань реальности, злобные сущности мерцают, появляясь, как призраки из кошмара. Хуже того, по мере того как ужас и паника овладевают их жертвами, их смертные души становятся легкой добычей для сущностей, хлынувших из Варпа."/>
 	<entry name="ChaosDaemons_MT/DaemonicReinforcements" value="Демоническое подкрепление"/>
-	<entry name="ChaosDaemons_MT/DaemonicReinforcementsDescription" value="Призывает случайный отряд малых демонов на 3–5 ходов в зависимости от ранга. Исследования уровней 6 и 9 сокращают перезарядку на 1 ход каждое."/>
+	<entry name="ChaosDaemons_MT/DaemonicReinforcementsDescription" value="Призывает случайный отряд малых демонов на 3–5 ходов в зависимости от ранга. Перезарядка по рангам: 5/4/3 хода."/>
 	<entry name="ChaosDaemons_MT/DaemonicReinforcementsFlavor" value="Демонические легионы разрывают ткань реальности, злобные сущности мерцают, появляясь, как призраки из кошмара. Хуже того, по мере того как ужас и паника овладевают их жертвами, их смертные души становятся легкой добычей для сущностей, хлынувших из Варпа."/>
 	<entry name="ChaosDaemons_MT/ShadowLegion" value="<string name='Traits/ChaosDaemons_MT/ShadowLegion/Khorne'/>"/>
 	<entry name="ChaosDaemons_MT/ShadowLegionDescription" value="Союзные демоны в радиусе 2 клеток получают +1 к текущему и максимальному передвижению и игнорируют огонь на упреждение на 1 ход."/>
@@ -64,13 +64,13 @@
 	<entry name="ChaosDaemons_MT/DarkGloryDescription" value="<string name='Traits/ChaosDaemons_MT/DarkGloryDescription'/>"/>
 	<entry name="ChaosDaemons_MT/DarkGloryFlavor" value="<string name='Traits/ChaosDaemons_MT/DarkGloryFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/DreadMarshal" value="<string name='Traits/ChaosDaemons_MT/DreadMarshal'/>"/>
-	<entry name="ChaosDaemons_MT/DreadMarshalDescription" value="Увеличивает урон союзных отрядов в области."/>
+	<entry name="ChaosDaemons_MT/DreadMarshalDescription" value="Союзники в радиусе 3 клеток наносят на 17% больше урона и теряют на 33% меньше морали в течение 3 ходов."/>
 	<entry name="ChaosDaemons_MT/DreadMarshalFlavor" value="<string name='Traits/ChaosDaemons_MT/DreadMarshalFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/NurglesRot" value="<string name='Traits/ChaosDaemons_MT/NurglesRot'/>"/>
 	<entry name="ChaosDaemons_MT/NurglesRotDescription" value="Уменьшает броню соседних вражеских отрядов."/>
 	<entry name="ChaosDaemons_MT/NurglesRotFlavor" value="<string name='Traits/ChaosDaemons_MT/NurglesRotFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/ShrivellingPox" value="<string name='Traits/ChaosDaemons_MT/ShrivellingPox'/>"/>
-	<entry name="ChaosDaemons_MT/ShrivellingPoxDescription" value="Наносит урон соседним врагам и уменьшает наносимый ими урон."/>
+	<entry name="ChaosDaemons_MT/ShrivellingPoxDescription" value="Заражает соседних врагов на 3 хода. Они каждый ход получают урон и наносят меньше урона. Повторное наложение обновляет срок действия."/>
 	<entry name="ChaosDaemons_MT/ShrivellingPoxFlavor" value="<string name='Traits/ChaosDaemons_MT/ShrivellingPoxFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/FleshyAbundance" value="<string name='Traits/ChaosDaemons_MT/FleshyAbundance'/>"/>
 	<entry name="ChaosDaemons_MT/FleshyAbundanceDescription" value="Восстанавливает здоровье соседних союзных отрядов. Эффект усилен для слуг Нургла."/>
@@ -163,7 +163,7 @@
 	<entry name="ChaosDaemons_MT/TzeentchDescription" value="Посвящает отряд служению Тзинчу."/>
 	<entry name="ChaosDaemons_MT/TzeentchFlavor" value="<string name='Traits/ChaosDaemons_MT/TzeentchFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/WarpRift" value="Разрыв Варпа"/>
-	<entry name="ChaosDaemons_MT/WarpRiftDescription" value="Открывает варп-портал на выбранной клетке для перемещения демонов."/>
+	<entry name="ChaosDaemons_MT/WarpRiftDescription" value="Открывает на выбранной клетке варп-портал на 3 хода для перемещения демонов."/>
 	<entry name="ChaosDaemons_MT/WarpRiftFlavor" value="<string name='Units/ChaosDaemons_MT/WarpRiftFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/LocusOfUnstoppableFury" value="<string name='Traits/ChaosDaemons_MT/Locus/LocusOfUnstoppableFury'/>"/>
 	<entry name="ChaosDaemons_MT/LocusOfUnstoppableFuryDescription" value="Оружие ближнего боя отрядов Кхорна получает +50% к числу атак против врагов, у которых осталось больше 50% максимального здоровья."/>

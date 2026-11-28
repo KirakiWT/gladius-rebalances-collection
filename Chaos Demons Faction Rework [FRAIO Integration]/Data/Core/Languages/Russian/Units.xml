@@ -129,7 +129,7 @@
 	<entry name="ChaosDaemons_MT/BloodmasterDescription" value="Герой и вестник Кхорна. Мощный боец ближнего боя."/>
 	<entry name="ChaosDaemons_MT/BloodmasterFlavor" value="Вышедшие победителями из ужасов Кровавой Ямы, Повелители крови ведут в бой орды Кровавых вестников Кхорна. Присутствие этих огромных демонических мясников наделяет их адских последователей еще большей яростью и силой, даже когда сами Повелители крови прокладывают кровавый путь сквозь своих злосчастных врагов."/>
 	<entry name="ChaosDaemons_MT/WarpRift" value="Варп-разлом"/>
-	<entry name="ChaosDaemons_MT/WarpRiftDescription" value="Варп-разлом, позволяющий демонам перемещаться между ними."/>
+	<entry name="ChaosDaemons_MT/WarpRiftDescription" value="Временный варп-портал для перемещения демонов. Исчезает через 3 хода."/>
 	<entry name="ChaosDaemons_MT/WarpRiftFlavor" value="Демонические легионы прорывают ткань реального пространства, злобные сущности мерцают, появляясь, словно фантомы из кошмара. Хуже того, когда ужас и паника овладевают их жертвами, их смертные души становятся еще более легкой добычей для сущностей, хлынувших из варпа."/>
 	<entry name="ChaosDaemons_MT/Headquarters" value="<string name='Units/ChaosSpaceMarines/Headquarters'/>"/>
 	<entry name="ChaosDaemons_MT/HeadquartersDescription" value="<string name='Units/ChaosSpaceMarines/HeadquartersDescription'/>"/>

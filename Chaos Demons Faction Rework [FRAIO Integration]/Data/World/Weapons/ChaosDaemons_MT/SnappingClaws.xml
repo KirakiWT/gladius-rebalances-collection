@@ -7,6 +7,7 @@
 	<modifiers>
 		<modifier>
 			<effects>
+				<strengthDamage mul="-0.5"/>
 			</effects>
 		</modifier>
 	</modifiers>

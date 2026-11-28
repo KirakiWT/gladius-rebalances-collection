@@ -173,7 +173,7 @@
 	<entry name="ChaosDaemons_MT/BloodmasterFlavor" value="Risen victorious from the horrors of the Skullpit, Bloodmasters lead Khorne’s Bloodletter hosts in battle. The presence of these hulking daemonic slaughterers imbues their infernal followers with even greater fury and might, even as the Bloodmasters themselves carve a gory path through their luckless foes."/>
 
 	<entry name="ChaosDaemons_MT/WarpRift" value="Warp Rift"/>
-	<entry name="ChaosDaemons_MT/WarpRiftDescription" value="Warp rift allowing daemons to travel inbetween."/>
+	<entry name="ChaosDaemons_MT/WarpRiftDescription" value="Temporary warp portal for daemon travel. Disappears after 3 turns."/>
 	<entry name="ChaosDaemons_MT/WarpRiftFlavor" value="Daemonic legions tear through the fabric of realspace, malevolent entities flickering into being like phantasms from a nightmare. Worse still, as terror and panic take hold of their victims, so their mortal souls become ever easier prey for the entities pouring through from the warp."/>
 
 	<entry name="ChaosDaemons_MT/Headquarters" value="<string name='Units/ChaosSpaceMarines/Headquarters'/>"/>

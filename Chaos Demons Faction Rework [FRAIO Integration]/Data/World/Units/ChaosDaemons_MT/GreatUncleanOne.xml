@@ -23,18 +23,12 @@
 								effectFaceWeight="0"/>
 			</model>
 		</weapon>
-		<weapon name="ChaosDaemons_MT/PutridVomit">
-			<model>
-				<flamerWeapon muzzleBone="Bone.003"
-								effectFaceWeight="0"/>
-			</model>
-		</weapon>
 	</weapons>
 	<modifiers>
 		<modifier visible="0">
 			<effects>
 				<armor base="2"/>
-				<hitpointsMax base="48"/>
+				<hitpointsMax base="59"/>
 				<meleeAccuracy base="10"/>
 				<meleeAttacks base="1"/>
 				<strengthDamage base="4"/>
@@ -44,7 +38,8 @@
 				<foodCost base="100"/>
 				<energyCost base="40"/>
 				<influenceCost base="240"/>
-				<foodUpkeep base="5"/>
+				<energyUpkeep base="3"/>
+				<foodUpkeep base="3"/>
 				<rangedAccuracy base="6"/>
 				<itemSlots base="6"/>
 				<levelMax base="9"/>
@@ -171,6 +166,7 @@
 										</unit>
 									</conditions>
 									<effects>
+										<removeTrait name="ChaosDaemons_MT/ShrivellingPox"/>
 										<addTrait duration="3" name="ChaosDaemons_MT/ShrivellingPox"/>
 									</effects>
 								</modifier>
@@ -180,11 +176,12 @@
 				</selfTarget>
 			</beginTargets>
 		</orationOfRestoration>
-		<orationOfRestoration cooldown="3"
+		<orationOfRestoration cooldown="1"
 				name="ChaosDaemons_MT/FleshyAbundance"
 				icon="Actions/OrationOfRestoration"
 				consumedActionPoints="0" 
 				consumedMovement="0"
+				requiredActionPoints="0"
 				levelUpPriority="1"
 				rank="-1"
 				rankMax="2">
@@ -790,7 +787,6 @@
 		<trait name="MonstrousCreature"/>
 		<trait name="MoveThroughCover"/>
 		<trait name="Psyker"/>
-		<trait name="Relentless"/>
 		<trait name="Smash"/>
 		<trait name="Hero"/>
 		<trait name="ChaosDaemons_MT/Nurgle"/>

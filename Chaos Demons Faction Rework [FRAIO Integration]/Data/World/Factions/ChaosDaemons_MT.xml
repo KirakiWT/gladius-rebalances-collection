@@ -213,6 +213,15 @@
 								</modifier>
 							</modifiers>
 						</area>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait duration="3" name="Summon"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
 					</areas>
 				</target>
 			</beginTargets>

@@ -58,7 +58,7 @@
 	<entry name="ChaosDaemons_MT/DisciplineDescription" value="<string name='Traits/DisciplineDescription'/>"/>
 	<entry name="ChaosDaemons_MT/DisciplineFlavor" value="<string name='Traits/DisciplineFlavor'/>"/>
 	<entry name="ChaosDaemons_MT/DreadMarshal" value="Грозный маршал"/>
-	<entry name="ChaosDaemons_MT/DreadMarshalDescription" value="Увеличивает урон."/>
+	<entry name="ChaosDaemons_MT/DreadMarshalDescription" value="Увеличивает урон на 17% и уменьшает потерю морали на 33%."/>
 	<entry name="ChaosDaemons_MT/DreadMarshalFlavor" value="Этот могучий воин доказал свою преданность Бе'лакору превыше всего, и его преданность была вознаграждена множеством воинов, которыми можно командовать."/>
 	<entry name="ChaosDaemons_MT/DreadMarshalKhorne" value="<string name='Traits/ChaosDaemons_MT/DreadMarshal'/>"/>
 	<entry name="ChaosDaemons_MT/DreadMarshalKhorneDescription" value="Увеличивает урон."/>
@@ -263,7 +263,7 @@
 	<entry name="ChaosDaemons_MT/TzeentchAscension2Description" value="+20% к урону."/>
 	<entry name="ChaosDaemons_MT/TzeentchAscension2Flavor" value="На пике могущества великий демон выходит против боевых машин и титанов."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/Khorne" value="Территория крови — благословение"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneDescription" value="Слуги Кхорна: +1 к скорости. Улучшается технологиями: Corrupt Realspace (союзники), Daemonic Terror (враги). Союзные слуги Кхорна наносят на 5% больше урона."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneDescription" value="Слуги Кхорна: +1 к скорости. Улучшается технологиями: Corrupt Realspace (союзники), Daemonic Terror (враги). Союзные слуги Кхорна наносят на 5% больше урона. Союзные космодесантники Хаоса получают те же бонусы."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneEnemy" value="Территория крови — гнёт"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneEnemyDescription" value="Враги: повышенная потеря морали и −10% к числу атак. Daemonic Terror наносит урон каждый ход. Враги наносят на 5% больше урона."/>
@@ -272,7 +272,7 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneRivalDescription" value="Слуги бога-соперника теряют мораль каждый ход."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/KhorneRivalFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/Tzeentch" value="Территория перемен — благословение"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchDescription" value="Слуги Тзинча: +10% к дистанционной точности и +17% к сокращению дистанционного урона. Улучшается технологиями: Corrupt Realspace (союзники), Daemonic Terror (враги)."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchDescription" value="Слуги Тзинча: +10% к дистанционной точности и +17% к сокращению дистанционного урона. Улучшается технологиями: Corrupt Realspace (союзники), Daemonic Terror (враги). Союзные космодесантники Хаоса получают те же бонусы."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchEnemy" value="Территория перемен — гнёт"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchEnemyDescription" value="Враги: −17% к общей точности и −17% к сокращению дистанционного урона. Daemonic Terror наносит урон каждый ход."/>
@@ -281,7 +281,7 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchRivalDescription" value="Слуги бога-соперника теряют мораль каждый ход."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/TzeentchRivalFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/Slaanesh" value="Территория излишеств — благословение"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshDescription" value="Слуги Слаанеш: +10% к урону и +17% к сокращению ближнего урона. Улучшается технологиями: Corrupt Realspace (союзники), Daemonic Terror (враги)."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshDescription" value="Слуги Слаанеш: +10% к урону и +17% к сокращению ближнего урона. Улучшается технологиями: Corrupt Realspace (союзники), Daemonic Terror (враги). Союзные космодесантники Хаоса получают те же бонусы."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshEnemy" value="Территория излишеств — гнёт"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshEnemyDescription" value="Враги: −1 к скорости и −10% к урону. Daemonic Terror наносит урон каждый ход."/>
@@ -290,7 +290,7 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshRivalDescription" value="Слуги бога-соперника теряют мораль каждый ход."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/SlaaneshRivalFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/Nurgle" value="Территория чумы — благословение"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleDescription" value="Слуги Нургла: усиленное лечение и +1 к броне. Улучшается технологиями: Corrupt Realspace (союзники), Daemonic Terror (враги)."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleDescription" value="Слуги Нургла: усиленное лечение и +1 к броне. Улучшается технологиями: Corrupt Realspace (союзники), Daemonic Terror (враги). Союзные космодесантники Хаоса получают те же бонусы."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleFlavor" value="Там, где варп просачивается в реальность, воля бога пускает корни. Без слуги Хаоса рядом она угасает."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleEnemy" value="Территория чумы — гнёт"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/NurgleEnemyDescription" value="Враги: снижены броня и лечение. Daemonic Terror наносит урон каждый ход."/>
@@ -331,21 +331,23 @@
 	<entry name="ChaosDaemons_MT/Belakor/ShadowPactDescription" value="Даёт 10–20% снижения урона от дальних атак в зависимости от ранга."/>
 	<entry name="ChaosDaemons_MT/Belakor/ShadowPactFlavor" value="Тени служат тому, кто знает их цену."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownKhorne" value="Территория Короны — Кхорн (благословение)"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/CrownKhorneDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/KhorneDescription'/> Союзные Демоны Хаоса получают не менее 33% непробиваемого снижения урона."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CrownKhorneDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/KhorneDescription'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownKhorneEnemy" value="Территория Короны — Кхорн (гнёт)"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownKhorneEnemyDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/KhorneEnemyDescription'/> Вражеские псайкеры других фракций теряют 10% максимального здоровья каждый ход."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownNurgle" value="Территория Короны — Нургл (благословение)"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/CrownNurgleDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/NurgleDescription'/> Союзные Демоны Хаоса получают не менее 33% непробиваемого снижения урона."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CrownNurgleDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/NurgleDescription'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownNurgleEnemy" value="Территория Короны — Нургл (гнёт)"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownNurgleEnemyDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/NurgleEnemyDescription'/> Вражеские псайкеры других фракций теряют 10% максимального здоровья каждый ход."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownSlaanesh" value="Территория Короны — Слаанеш (благословение)"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/CrownSlaaneshDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/SlaaneshDescription'/> Союзные Демоны Хаоса получают не менее 33% непробиваемого снижения урона."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CrownSlaaneshDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/SlaaneshDescription'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownSlaaneshEnemy" value="Территория Короны — Слаанеш (гнёт)"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownSlaaneshEnemyDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/SlaaneshEnemyDescription'/> Вражеские псайкеры других фракций теряют 10% максимального здоровья каждый ход."/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownTzeentch" value="Территория Короны — Тзинч (благословение)"/>
-	<entry name="ChaosDaemons_MT/WarpTerritory/CrownTzeentchDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/TzeentchDescription'/> Союзные Демоны Хаоса получают не менее 33% непробиваемого снижения урона."/>
+	<entry name="ChaosDaemons_MT/WarpTerritory/CrownTzeentchDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/TzeentchDescription'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownTzeentchEnemy" value="Территория Короны — Тзинч (гнёт)"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownTzeentchEnemyDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/TzeentchEnemyDescription'/> Вражеские псайкеры других фракций теряют 10% максимального здоровья каждый ход."/>
-	<entry name="ChaosDaemons_MT/DaemonicRivalry" value="Соперничество великих демонов"/>
-	<entry name="ChaosDaemons_MT/DaemonicRivalryDescription" value="Каждый великий демон считает себя и других союзных носителей этой особенности в радиусе 100 клеток, включая демонов того же вида. Один платит обычное содержание. При двух каждый стоит в 5 раз дороже, при трёх — в 10 раз, при четырёх и более — в 15 раз. Бе’лакор не учитывается."/>
+	<entry name="ChaosDaemons_MT/DaemonicRivalry" value="Демоническое соперничество"/>
+	<entry name="ChaosDaemons_MT/DaemonicRivalryDescription" value="Каждый носитель учитывает себя и союзных носителей этого трейта в радиусе 100 клеток. Один платит обычное содержание, при двух содержание возрастает в 5 раз, при трёх — в 10 раз, при четырёх и более — в 15 раз. Бе’лакор не учитывается."/>
+	<entry name="ChaosDaemons_MT/FleshyAbundanceHerald" value="<string name='Traits/ChaosDaemons_MT/FleshyAbundance'/>"/>
+	<entry name="ChaosDaemons_MT/FleshyAbundanceHeraldDescription" value="Восстанавливает здоровье каждый ход."/>
 </language>

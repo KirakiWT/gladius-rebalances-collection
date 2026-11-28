@@ -32,13 +32,13 @@
 		<modifier visible="0">
 			<effects>
 				<armor base="8"/> <!-- %armor base armor=3+ -->
-				<hitpointsMax base="20.0"/> <!-- %hitpointsMax base toughness=5 wounds=5 -->
+				<hitpointsMax base="25.0"/>
 				
 				<influenceCost base="240.0"/> <!-- %influenceCost base tier=7 factor=1.5 -->
 				<itemSlots base="6"/>
 				<levelMax base="9"/>
 				<meleeAccuracy base="12"/> <!-- %meleeAccuracy base weaponSkill=9 -->
-				<meleeAttacks base="6"/>
+				<meleeAttacks base="3"/>
 				<strengthDamage base="3"/> <!-- %strengthDamage base strength=6 -->
 				<!-- <meleeInitiative base="8"/> -->
 				<moraleMax base="12"/> <!-- %moraleMax base leadership=10 -->

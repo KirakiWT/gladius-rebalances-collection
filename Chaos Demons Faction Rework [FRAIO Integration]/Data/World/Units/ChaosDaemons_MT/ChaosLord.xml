@@ -212,55 +212,10 @@
 									<conditions>
 										<unit>
 											<allied/>
-											<trait name="ChaosDaemons_MT/Undivided"/>
 										</unit>
 									</conditions>
 									<effects>
-										<addTrait duration="3" name="ChaosDaemons_MT/DreadMarshalUndivided"/>
-									</effects>
-								</modifier>
-								<modifier>
-									<conditions>
-										<unit>
-											<allied/>
-											<trait name="ChaosDaemons_MT/Khorne"/>
-										</unit>
-									</conditions>
-									<effects>
-										<addTrait duration="3" name="ChaosDaemons_MT/DreadMarshalKhorne"/>
-									</effects>
-								</modifier>
-								<modifier>
-									<conditions>
-										<unit>
-											<allied/>
-											<trait name="ChaosDaemons_MT/Nurgle"/>
-										</unit>
-									</conditions>
-									<effects>
-										<addTrait duration="3" name="ChaosDaemons_MT/DreadMarshalNurgle"/>
-									</effects>
-								</modifier>
-								<modifier>
-									<conditions>
-										<unit>
-											<allied/>
-											<trait name="ChaosDaemons_MT/Slaanesh"/>
-										</unit>
-									</conditions>
-									<effects>
-										<addTrait duration="3" name="ChaosDaemons_MT/DreadMarshalSlaanesh"/>
-									</effects>
-								</modifier>
-								<modifier>
-									<conditions>
-										<unit>
-											<allied/>
-											<trait name="ChaosDaemons_MT/Tzeentch"/>
-										</unit>
-									</conditions>
-									<effects>
-										<addTrait duration="3" name="ChaosDaemons_MT/DreadMarshalTzeentch"/>
+										<addTrait duration="3" name="ChaosDaemons_MT/DreadMarshal"/>
 									</effects>
 								</modifier>
 							</modifiers>

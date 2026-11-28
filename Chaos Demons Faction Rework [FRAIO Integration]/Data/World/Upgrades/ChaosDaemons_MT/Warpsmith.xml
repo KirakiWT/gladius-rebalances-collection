@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<upgrade position="2" icon="Units/ChaosSpaceMarines/Warpsmith"/>
+<upgrade position="2" icon="Units/ChaosSpaceMarines/Warpsmith">
+	<requirements>
+		<upgrade name="ChaosDaemons_MT/Heroes"/>
+	</requirements>
+</upgrade>

@@ -190,7 +190,8 @@
 				</modifier>
 			</modifiers>	
 		</useWeapon>
-		<incursion cooldown="7"
+		<incursion cooldownMin="5"
+				cooldownMax="3"
 				levelUpPriority="0.9"
 				name="ChaosDaemons_MT/DaemonicReinforcements"
 				icon="Actions/ChaosSpaceMarines/Incursion"
@@ -200,41 +201,6 @@
 				<action	animation="Units/Reinforcements_MT/Belakor/Range"
 						sound="Actions/ChaosEliteDebuff"/>
 			</model>
-			<modifiers>
-				<modifier visible="0">
-					<conditions>
-						<player match="Any">
-							<upgrade name="ChaosDaemons_MT/AdvancedInfantry"/>
-							<upgrade name="ChaosDaemons_MT/BlastDamage"/>
-							<upgrade name="ChaosDaemons_MT/CorruptRealspace"/>
-							<upgrade name="ChaosDaemons_MT/ExtraVehicleArmour"/>
-							<upgrade name="ChaosDaemons_MT/LocusOfDelicateEvisceration"/>
-							<upgrade name="ChaosDaemons_MT/MeleeDamage"/>
-							<upgrade name="ChaosDaemons_MT/PlagueDrone"/>
-							<upgrade name="ChaosDaemons_MT/Screamer"/>
-						</player>
-					</conditions>
-					<effects>
-						<cooldown add="-1"/>
-					</effects>
-				</modifier>
-				<modifier visible="0">
-					<conditions>
-						<player match="Any">
-							<upgrade name="ChaosDaemons_MT/KhorneAscension2"/>
-							<upgrade name="ChaosDaemons_MT/LocusOfTransmogrification"/>
-							<upgrade name="ChaosDaemons_MT/NurgleAscension2"/>
-							<upgrade name="ChaosDaemons_MT/OurLivesForTheGods"/>
-							<upgrade name="ChaosDaemons_MT/SlaaneshAscension2"/>
-							<upgrade name="ChaosDaemons_MT/TzeentchAscension2"/>
-							<upgrade name="ChaosDaemons_MT/WarpSurge"/>
-						</player>
-					</conditions>
-					<effects>
-						<cooldown add="-1"/>
-					</effects>
-				</modifier>
-			</modifiers>
 			<beginTargets>
 				<target rangeMax="1">
 					<conditions>

@@ -28,7 +28,7 @@
 	<entry name="ChaosDaemons_MT/EldritchStrengthFlavor" value="<string name='Traits/ChaosDaemons_MT/EldritchStrengthFlavor'/>"/>
 
 	<entry name="ChaosDaemons_MT/WeaponCurse" value="<string name='Traits/ChaosDaemons_MT/WeaponCurse'/>"/>
-	<entry name="ChaosDaemons_MT/WeaponCurseDescription" value="Deal damage to an enemy and inflict them with a curse that causes their attacks to injure themselves."/>
+	<entry name="ChaosDaemons_MT/WeaponCurseDescription" value="Curses an enemy so its attacks also damage itself."/>
 	<entry name="ChaosDaemons_MT/WeaponCurseFlavor" value="<string name='Traits/ChaosDaemons_MT/WeaponCurseFlavor'/>"/>
 
 
@@ -57,7 +57,7 @@
 	
 
 	<entry name="ChaosDaemons_MT/DaemonicReinforcements" value="Daemonic Reinforcements"/>
-	<entry name="ChaosDaemons_MT/DaemonicReinforcementsDescription" value="Summons a random lesser Daemon unit for 3–5 turns depending on rank. Tier 6 and 9 research each reduce cooldown by 1 turn."/>
+	<entry name="ChaosDaemons_MT/DaemonicReinforcementsDescription" value="Summons a random lesser Daemon unit for 3–5 turns depending on rank. Cooldown by rank: 5/4/3 turns."/>
 	<entry name="ChaosDaemons_MT/DaemonicReinforcementsFlavor" value="Daemonic legions tear through the fabric of realspace, malevolent entities flickering into being like phantasms from a nightmare. Worse still, as terror and panic take hold of their victims, so their mortal souls become ever easier prey for the entities pouring through from the warp."/>
 
 
@@ -94,7 +94,7 @@
 	<entry name="ChaosDaemons_MT/DarkGloryFlavor" value="<string name='Traits/ChaosDaemons_MT/DarkGloryFlavor'/>"/>
 	
 	<entry name="ChaosDaemons_MT/DreadMarshal" value="<string name='Traits/ChaosDaemons_MT/DreadMarshal'/>"/>
-	<entry name="ChaosDaemons_MT/DreadMarshalDescription" value="Increase damage of allied units in the area."/>
+	<entry name="ChaosDaemons_MT/DreadMarshalDescription" value="Allied units within 3 tiles deal 17% more damage and lose 33% less morale for 3 turns."/>
 	<entry name="ChaosDaemons_MT/DreadMarshalFlavor" value="<string name='Traits/ChaosDaemons_MT/DreadMarshalFlavor'/>"/>
 	
 	<entry name="ChaosDaemons_MT/NurglesRot" value="<string name='Traits/ChaosDaemons_MT/NurglesRot'/>"/>
@@ -102,7 +102,7 @@
 	<entry name="ChaosDaemons_MT/NurglesRotFlavor" value="<string name='Traits/ChaosDaemons_MT/NurglesRotFlavor'/>"/>
 	
 	<entry name="ChaosDaemons_MT/ShrivellingPox" value="<string name='Traits/ChaosDaemons_MT/ShrivellingPox'/>"/>
-	<entry name="ChaosDaemons_MT/ShrivellingPoxDescription" value="Deal damage to adjacent enemies and reduce their damage dealt."/>
+	<entry name="ChaosDaemons_MT/ShrivellingPoxDescription" value="Infects adjacent enemies for 3 turns. They take damage each turn and deal less damage. Reapplying the effect refreshes its duration."/>
 	<entry name="ChaosDaemons_MT/ShrivellingPoxFlavor" value="<string name='Traits/ChaosDaemons_MT/ShrivellingPoxFlavor'/>"/>
 	
 	<entry name="ChaosDaemons_MT/FleshyAbundance" value="<string name='Traits/ChaosDaemons_MT/FleshyAbundance'/>"/>
@@ -226,7 +226,7 @@
 	<entry name="ChaosDaemons_MT/TzeentchFlavor" value="<string name='Traits/ChaosDaemons_MT/TzeentchFlavor'/>"/>
 	
 	<entry name="ChaosDaemons_MT/WarpRift" value="Warp Rift"/>
-	<entry name="ChaosDaemons_MT/WarpRiftDescription" value="Opens a warp portal on the selected tile for daemon travel."/>
+	<entry name="ChaosDaemons_MT/WarpRiftDescription" value="Opens a warp portal on the selected tile for 3 turns for daemon travel."/>
 	<entry name="ChaosDaemons_MT/WarpRiftFlavor" value="<string name='Units/ChaosDaemons_MT/WarpRiftFlavor'/>"/>
 	
 	<entry name="ChaosDaemons_MT/LocusOfUnstoppableFury" value="<string name='Traits/ChaosDaemons_MT/Locus/LocusOfUnstoppableFury'/>"/>

@@ -10,6 +10,7 @@
 				<unit match="Any">
 					<trait name="ChaosDaemons_MT/Slaanesh"/>
 					<type name="ChaosDaemons_MT/Belakor"/>
+					<faction name="ChaosSpaceMarines"/>
 				</unit>
 			</conditions>
 			<effects>

@@ -484,7 +484,7 @@
 		</genericUnitAbility>
 </actions>
 	<traits>
-		<trait name="Flyer"/>
+		<trait name="Skimmer"/>
 		<trait name="Fleet"/>
 		<trait name="Daemon"/>
 		<trait name="MonstrousCreature"/>
