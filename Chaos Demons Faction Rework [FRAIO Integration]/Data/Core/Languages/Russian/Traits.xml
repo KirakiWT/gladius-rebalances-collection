@@ -346,8 +346,10 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownTzeentchDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/TzeentchDescription'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownTzeentchEnemy" value="Территория Короны — Тзинч (гнёт)"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownTzeentchEnemyDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/TzeentchEnemyDescription'/> Вражеские псайкеры других фракций теряют 10% максимального здоровья каждый ход."/>
-	<entry name="ChaosDaemons_MT/DaemonicRivalry" value="Демоническое соперничество"/>
-	<entry name="ChaosDaemons_MT/DaemonicRivalryDescription" value="Каждый носитель учитывает себя и союзных носителей этого трейта в радиусе 100 клеток. Один платит обычное содержание, при двух содержание возрастает в 5 раз, при трёх — в 10 раз, при четырёх и более — в 15 раз. Бе’лакор не учитывается."/>
+	<entry name="ChaosDaemons_MT/DaemonicRivalry" value="Соперничество Великих Демонов"/>
+	<entry name="ChaosDaemons_MT/DaemonicRivalryDescription" value="Каждый Великий Демон с этим трейтом учитывает себя и союзных Великих Демонов с тем же трейтом в радиусе 100 клеток. Один платит обычное содержание, при двух оно возрастает в 5 раз, при трёх — в 10 раз, при четырёх и более — в 15 раз. Бе’лакор не учитывается."/>
+	<entry name="ChaosDaemons_MT/DaemonHeroRivalry" value="Соперничество героев-демонов"/>
+	<entry name="ChaosDaemons_MT/DaemonHeroRivalryDescription" value="Каждый герой-демон с этим трейтом учитывает себя и союзных героев-демонов с тем же трейтом в радиусе 100 клеток. Один платит обычное содержание, при двух оно возрастает в 5 раз, при трёх — в 10 раз, при четырёх и более — в 15 раз. Бе’лакор не учитывается."/>
 	<entry name="ChaosDaemons_MT/FleshyAbundanceHerald" value="<string name='Traits/ChaosDaemons_MT/FleshyAbundance'/>"/>
 	<entry name="ChaosDaemons_MT/FleshyAbundanceHeraldDescription" value="Восстанавливает здоровье каждый ход."/>
 </language>

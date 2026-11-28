@@ -771,7 +771,7 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-		<genericUnitAbility name="ChaosDaemons_MT/DaemonicRivalry" passive="1" visible="0" icon="Units/ChaosDaemons_MT/Bloodthirster">
+		<genericUnitAbility name="ChaosDaemons_MT/DaemonHeroRivalry" passive="1" visible="0" icon="Units/ChaosDaemons_MT/Bloodthirster">
 			<beginTargets>
 				<selfTarget>
 					<areas>
@@ -779,7 +779,7 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<addTrait name="ChaosDaemons_MT/DaemonicRivalry/Bloodthirster"/>
+										<addTrait name="ChaosDaemons_MT/DaemonHeroRivalry/Ore"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -790,7 +790,7 @@
 		</genericUnitAbility>
 	</actions>
 	<traits>
-		<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
+		<trait name="ChaosDaemons_MT/DaemonHeroRivalry"/>
 		<trait name="Daemon"/>
 		<trait name="Hero"/>
 		<trait name="ChaosDaemons_MT/DaemonHero"/>

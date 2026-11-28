@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait visible="0">
+	<modifiers>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<unitsInRange count="1" range="100">
+						<allied/>
+						<trait name="ChaosDaemons_MT/DaemonHeroRivalry"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<energyUpkeep add="12"/>
+				<foodUpkeep add="12"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<unitsInRange count="2" range="100">
+						<allied/>
+						<trait name="ChaosDaemons_MT/DaemonHeroRivalry"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<energyUpkeep add="15"/>
+				<foodUpkeep add="15"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<unitsInRange count="3" range="100">
+						<allied/>
+						<trait name="ChaosDaemons_MT/DaemonHeroRivalry"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<energyUpkeep add="15"/>
+				<foodUpkeep add="15"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<unitsInRange count="1" range="0">
+						<allied/>
+						<trait name="ChaosDaemons_MT/DaemonHeroRivalry"/>
+					</unitsInRange>
+					<unitsInRange count="1" range="100">
+						<allied/>
+						<trait name="ChaosDaemons_MT/DaemonHeroRivalry"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<energyUpkeep add="-12"/>
+				<foodUpkeep add="-12"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<unitsInRange count="1" range="0">
+						<allied/>
+						<trait name="ChaosDaemons_MT/DaemonHeroRivalry"/>
+					</unitsInRange>
+					<unitsInRange count="2" range="100">
+						<allied/>
+						<trait name="ChaosDaemons_MT/DaemonHeroRivalry"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<energyUpkeep add="-3"/>
+				<foodUpkeep add="-3"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<unitsInRange count="1" range="0">
+						<allied/>
+						<trait name="ChaosDaemons_MT/DaemonHeroRivalry"/>
+					</unitsInRange>
+					<unitsInRange count="4" range="100">
+						<allied/>
+						<trait name="ChaosDaemons_MT/DaemonHeroRivalry"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<energyUpkeep add="15"/>
+				<foodUpkeep add="15"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

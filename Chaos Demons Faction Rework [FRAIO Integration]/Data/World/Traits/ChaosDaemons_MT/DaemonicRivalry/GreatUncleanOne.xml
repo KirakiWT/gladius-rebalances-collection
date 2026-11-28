@@ -4,9 +4,11 @@
 		<modifier visible="0">
 			<conditions>
 				<unit>
+					<trait name="ChaosDaemons_MT/GreaterDaemon"/>
 					<unitsInRange count="1" range="100">
 						<allied/>
 						<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
+						<trait name="ChaosDaemons_MT/GreaterDaemon"/>
 					</unitsInRange>
 				</unit>
 			</conditions>
@@ -18,9 +20,11 @@
 		<modifier visible="0">
 			<conditions>
 				<unit>
+					<trait name="ChaosDaemons_MT/GreaterDaemon"/>
 					<unitsInRange count="2" range="100">
 						<allied/>
 						<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
+						<trait name="ChaosDaemons_MT/GreaterDaemon"/>
 					</unitsInRange>
 				</unit>
 			</conditions>
@@ -32,9 +36,11 @@
 		<modifier visible="0">
 			<conditions>
 				<unit>
+					<trait name="ChaosDaemons_MT/GreaterDaemon"/>
 					<unitsInRange count="3" range="100">
 						<allied/>
 						<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
+						<trait name="ChaosDaemons_MT/GreaterDaemon"/>
 					</unitsInRange>
 				</unit>
 			</conditions>
@@ -46,13 +52,16 @@
 		<modifier visible="0">
 			<conditions>
 				<unit>
+					<trait name="ChaosDaemons_MT/GreaterDaemon"/>
 					<unitsInRange count="1" range="0">
 						<allied/>
 						<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
+						<trait name="ChaosDaemons_MT/GreaterDaemon"/>
 					</unitsInRange>
 					<unitsInRange count="1" range="100">
 						<allied/>
 						<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
+						<trait name="ChaosDaemons_MT/GreaterDaemon"/>
 					</unitsInRange>
 				</unit>
 			</conditions>
@@ -64,13 +73,16 @@
 		<modifier visible="0">
 			<conditions>
 				<unit>
+					<trait name="ChaosDaemons_MT/GreaterDaemon"/>
 					<unitsInRange count="1" range="0">
 						<allied/>
 						<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
+						<trait name="ChaosDaemons_MT/GreaterDaemon"/>
 					</unitsInRange>
 					<unitsInRange count="2" range="100">
 						<allied/>
 						<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
+						<trait name="ChaosDaemons_MT/GreaterDaemon"/>
 					</unitsInRange>
 				</unit>
 			</conditions>
@@ -82,13 +94,16 @@
 		<modifier visible="0">
 			<conditions>
 				<unit>
+					<trait name="ChaosDaemons_MT/GreaterDaemon"/>
 					<unitsInRange count="1" range="0">
 						<allied/>
 						<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
+						<trait name="ChaosDaemons_MT/GreaterDaemon"/>
 					</unitsInRange>
 					<unitsInRange count="4" range="100">
 						<allied/>
 						<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
+						<trait name="ChaosDaemons_MT/GreaterDaemon"/>
 					</unitsInRange>
 				</unit>
 			</conditions>

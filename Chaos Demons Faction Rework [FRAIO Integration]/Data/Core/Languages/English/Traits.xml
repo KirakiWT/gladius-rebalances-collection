@@ -435,8 +435,10 @@
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownTzeentchDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/TzeentchDescription'/>"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownTzeentchEnemy" value="Crown Territory — Tzeentch (oppression)"/>
 	<entry name="ChaosDaemons_MT/WarpTerritory/CrownTzeentchEnemyDescription" value="<string name='Traits/ChaosDaemons_MT/WarpTerritory/TzeentchEnemyDescription'/> Enemy psykers outside the Chaos Daemons faction lose 10% of maximum hit points each turn."/>
-	<entry name="ChaosDaemons_MT/DaemonicRivalry" value="Daemonic Rivalry"/>
-	<entry name="ChaosDaemons_MT/DaemonicRivalryDescription" value="Each bearer counts itself and allied bearers within 100 tiles. Upkeep is normal for one bearer, 5 times higher for two, 10 times higher for three and 15 times higher for four or more. Be’lakor does not count."/>
+	<entry name="ChaosDaemons_MT/DaemonicRivalry" value="Rivalry of Greater Daemons"/>
+	<entry name="ChaosDaemons_MT/DaemonicRivalryDescription" value="Each Greater Daemon with this trait counts itself and allied Greater Daemons with the same trait within 100 tiles. Upkeep is normal for one, ×5 for two, ×10 for three and ×15 for four or more. Be’lakor does not count."/>
+	<entry name="ChaosDaemons_MT/DaemonHeroRivalry" value="Rivalry of Daemon Heroes"/>
+	<entry name="ChaosDaemons_MT/DaemonHeroRivalryDescription" value="Each daemon hero with this trait counts itself and allied daemon heroes with the same trait within 100 tiles. Upkeep is normal for one, ×5 for two, ×10 for three and ×15 for four or more. Be’lakor does not count."/>
 	<entry name="ChaosDaemons_MT/FleshyAbundanceHerald" value="<string name='Traits/ChaosDaemons_MT/FleshyAbundance'/>"/>
 	<entry name="ChaosDaemons_MT/FleshyAbundanceHeraldDescription" value="Restores health every turn."/>
 </language>
