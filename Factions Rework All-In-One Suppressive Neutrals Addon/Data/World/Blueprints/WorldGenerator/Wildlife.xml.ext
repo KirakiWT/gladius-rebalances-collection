@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wildlife>
+	<packs>
+		<!-- Modifications -->
+		<pack>
+			<unit type="Neutral/DevilSpawn"/>
+		</pack>
+		<pack>
+			<unit type="Neutral/Mutant"/>
+		</pack>
+		<pack>
+			<unit type="Neutral/GiantAudrey"/>
+		</pack>
+		<pack>
+			<unit type="Neutral/Promethean"/>
+		</pack>
+		<pack>
+			<unit type="Neutral/ExaltDryad"/>
+		</pack>
+		<pack>
+			<unit type="Neutral/OctopodaFacientem"/>
+		</pack>
+		<pack>
+			<unit type="Neutral/Pariah" count="3"/>
+		</pack>
+		<pack>
+			<unit type="Neutral/MagnaDeamonusPyros"/>
+			<unit type="Neutral/Horror"/>
+		</pack>
+		<!-- End Modifications -->
+		<pack>
+			<unit type="Neutral/Ambull"/>
+			<!-- Modification -->
+			<unit type="Neutral/LuvenalibusAmbulls"/>
+			<!-- End Modification -->
+		</pack>
+		<pack>
+			<!-- Modification -->
+			<unit type="Neutral/DominaKrootHound"/>
+			<!-- End Modification -->
+			<unit type="Neutral/KrootHound"/>
+		</pack>
+		<pack>
+			<!--Modification -->
+			<unit type="Neutral/PsychneueinRegina"/>
+			<!-- End Modification -->
+			<unit type="Neutral/Psychneuein"/>
+		</pack>
+	</packs>
+</wildlife>
