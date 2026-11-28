@@ -190,7 +190,7 @@
 				</modifier>
 			</modifiers>	
 		</useWeapon>
-		<incursion cooldownMin="5"
+		<genericUnitAbility cooldownMin="5"
 				cooldownMax="3"
 				levelUpPriority="0.9"
 				name="ChaosDaemons_MT/DaemonicReinforcements"
@@ -235,7 +235,7 @@
 					</areas>
 				</target>
 			</beginTargets>
-		</incursion>
+		</genericUnitAbility>
 		<genericUnitAbility name="ChaosDaemons_MT/Belakor/ShadowPact"
 				icon="Actions/ChaosSpaceMarines/BoonOfMutation"
 				cooldown="4"

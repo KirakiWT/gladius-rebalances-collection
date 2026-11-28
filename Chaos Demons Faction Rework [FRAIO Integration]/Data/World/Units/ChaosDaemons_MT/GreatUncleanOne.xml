@@ -143,7 +143,7 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-		<orationOfRestoration cooldown="3"
+		<genericUnitAbility cooldown="3"
 				name="ChaosDaemons_MT/ShrivellingPox"
 				icon="Traits/ChaosSpaceMarines/Afflicted"
 				consumedActionPoints="0" 
@@ -175,8 +175,8 @@
 					</areas>
 				</selfTarget>
 			</beginTargets>
-		</orationOfRestoration>
-		<orationOfRestoration cooldown="1"
+		</genericUnitAbility>
+		<genericUnitAbility cooldown="1"
 				name="ChaosDaemons_MT/FleshyAbundance"
 				icon="Actions/OrationOfRestoration"
 				consumedActionPoints="0" 
@@ -209,7 +209,7 @@
 					</areas>
 				</selfTarget>
 			</beginTargets>
-		</orationOfRestoration>
+		</genericUnitAbility>
 			<genericUnitAbility name="ChaosDaemons_MT/CreepingBlight"
 				passive="1"
 				icon="Actions/ChaosSpaceMarines/MarkOfNurgle"

@@ -70,18 +70,6 @@
 				<damage mul="0.3"/>
 			</effects>
 		</modifier>
-		<modifier visible="0">
-			<conditions>
-				<unit>
-					<noTrait name="Flyer"/>
-					<noTrait name="MonstrousCreature"/>
-					<noTrait name="Vehicle"/>
-				</unit>
-			</conditions>
-			<effects>
-				<heroDamageReduction add="-0.5"/>
-			</effects>
-		</modifier>
 	</modifiers>
 	<strategyModifiers>
 		<modifier>
@@ -805,6 +793,7 @@
 		<trait name="ChaosDaemons_MT/DaemonicRivalry"/>
 		<trait name="Daemon"/>
 		<trait name="Hero"/>
+		<trait name="ChaosDaemons_MT/DaemonHero"/>
 		<trait name="ChaosDaemons_MT/Khorne"/>
 		<trait name="ChaosDaemons_MT/WarpRift"/>
 		<trait name="ChaosDaemons_MT/WarpTravelFromNexuses" requiredUpgrade="ChaosDaemons_MT/WarpNexuses"/>

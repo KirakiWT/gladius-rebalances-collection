@@ -177,8 +177,7 @@
 				</target>
 			</beginTargets>
 		</markOfTzeentch>
-		<webwayArtillery cooldown="5"
-				durationInSeconds="0.1"
+		<genericPlayerAbility cooldown="5"
 				name="ChaosDaemons_MT/WarpRift"
 				icon="Units/ChaosDaemons_MT/WarpRift"
 				interfaceSound="Interface/SoulShelling"
@@ -225,7 +224,7 @@
 					</areas>
 				</target>
 			</beginTargets>
-		</webwayArtillery>
+		</genericPlayerAbility>
 		<doctrina cooldown="3"
 				durationInSeconds="0.1"
 				interfaceSound="Interface/BulwarkImperative"
