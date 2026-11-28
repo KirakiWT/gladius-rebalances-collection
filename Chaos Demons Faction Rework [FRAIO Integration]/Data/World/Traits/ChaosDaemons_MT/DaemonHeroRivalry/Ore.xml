@@ -12,8 +12,8 @@
 				</unit>
 			</conditions>
 			<effects>
-				<energyUpkeep add="16"/>
-				<oreUpkeep add="16"/>
+				<energyUpkeep add="12"/>
+				<oreUpkeep add="12"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -27,8 +27,8 @@
 				</unit>
 			</conditions>
 			<effects>
-				<energyUpkeep add="20"/>
-				<oreUpkeep add="20"/>
+				<energyUpkeep add="15"/>
+				<oreUpkeep add="15"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -42,8 +42,8 @@
 				</unit>
 			</conditions>
 			<effects>
-				<energyUpkeep add="20"/>
-				<oreUpkeep add="20"/>
+				<energyUpkeep add="15"/>
+				<oreUpkeep add="15"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -62,8 +62,8 @@
 				</unit>
 			</conditions>
 			<effects>
-				<energyUpkeep add="-16"/>
-				<oreUpkeep add="-16"/>
+				<energyUpkeep add="-12"/>
+				<oreUpkeep add="-12"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -82,8 +82,8 @@
 				</unit>
 			</conditions>
 			<effects>
-				<energyUpkeep add="-4"/>
-				<oreUpkeep add="-4"/>
+				<energyUpkeep add="-3"/>
+				<oreUpkeep add="-3"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -102,8 +102,8 @@
 				</unit>
 			</conditions>
 			<effects>
-				<energyUpkeep add="20"/>
-				<oreUpkeep add="20"/>
+				<energyUpkeep add="15"/>
+				<oreUpkeep add="15"/>
 			</effects>
 		</modifier>
 	</modifiers>

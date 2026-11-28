@@ -13,8 +13,8 @@
 				</unit>
 			</conditions>
 			<effects>
-				<energyUpkeep add="16"/>
-				<foodUpkeep add="16"/>
+				<energyUpkeep add="12"/>
+				<foodUpkeep add="12"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -29,8 +29,8 @@
 				</unit>
 			</conditions>
 			<effects>
-				<energyUpkeep add="20"/>
-				<foodUpkeep add="20"/>
+				<energyUpkeep add="15"/>
+				<foodUpkeep add="15"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -45,8 +45,8 @@
 				</unit>
 			</conditions>
 			<effects>
-				<energyUpkeep add="20"/>
-				<foodUpkeep add="20"/>
+				<energyUpkeep add="15"/>
+				<foodUpkeep add="15"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -66,8 +66,8 @@
 				</unit>
 			</conditions>
 			<effects>
-				<energyUpkeep add="-16"/>
-				<foodUpkeep add="-16"/>
+				<energyUpkeep add="-12"/>
+				<foodUpkeep add="-12"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -87,8 +87,8 @@
 				</unit>
 			</conditions>
 			<effects>
-				<energyUpkeep add="-4"/>
-				<foodUpkeep add="-4"/>
+				<energyUpkeep add="-3"/>
+				<foodUpkeep add="-3"/>
 			</effects>
 		</modifier>
 		<modifier visible="0">
@@ -108,8 +108,8 @@
 				</unit>
 			</conditions>
 			<effects>
-				<energyUpkeep add="20"/>
-				<foodUpkeep add="20"/>
+				<energyUpkeep add="15"/>
+				<foodUpkeep add="15"/>
 			</effects>
 		</modifier>
 	</modifiers>

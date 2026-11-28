@@ -33,8 +33,8 @@
 				<foodCost base="30"/>
 				<oreCost base="60"/>
 				<influenceCost base="100"/>
-				<energyUpkeep base="4"/>
-				<oreUpkeep base="4"/>
+				<energyUpkeep base="3"/>
+				<oreUpkeep base="3"/>
 				<rangedAccuracy base="8"/>
 				<itemSlots base="6"/>
 				<levelMax base="9"/>
